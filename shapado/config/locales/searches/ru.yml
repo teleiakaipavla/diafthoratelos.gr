@@ -1,0 +1,16 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: Lockal
+ru: 
+  searches: 
+    form: 
+      clear: Очистить
+      search_box_title: Проверьте, не был ли этот вопрос задан ранее
+      tags_tip: Используйте [тег] для указания тегов.
+    index: 
+      advanced_search: расширенный поиск
+      empty: По вашему запросу не найдено ни одного вопроса.
+      search_text: Вопросы, содержащие
+      tags: с этими тегами

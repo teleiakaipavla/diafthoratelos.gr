@@ -1,0 +1,32 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Grund
+    models: 
+      flag: Kennzeichen
+      flags: Kennzeichen
+  flags: 
+    create: 
+      flash_error: Du kannst dies nicht kennzeichnen
+      flash_notice: Vielen Dank für Deinen Hinweis.
+    destroy: 
+      flash_notice: Dein Kennzeichen wurde erfolgreich zurückgenommen.
+    edit: 
+      title: Kennzeichen von %{model} bearbeiten
+    form: 
+      attention: Erfordert die Aufmerksamkeit eines Moderatoren
+      label: Bitte mit Bedacht kennzeichnen
+      offensive: Anstößiger, beleidigender oder hasserfüllter Beitrag
+      spam: Spam
+    model: 
+      messages: 
+        already_requested: Du hast dieses %{model} bereits gekennzeichnet
+    new: 
+      title: "%{model} kennzeichnen"
+    update: 
+      flash_notice: Das Kennzeichen der Frage wurde erfolgreich aktualisiert.

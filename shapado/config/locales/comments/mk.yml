@@ -1,0 +1,20 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  comments: 
+    create: 
+      flash_notice: ви благодариме за коментарот
+    edit: 
+      title: Уреди коментар
+    shared: 
+      add_comment: додај коментар...
+      comment_submit: коментирај
+      reply: Одговори
+      said: рече
+    update: 
+      flash_notice: Коментарот е успешно подновен.
+  models: 
+    comment: коментар
+    comments: коментари

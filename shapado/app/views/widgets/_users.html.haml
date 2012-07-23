@@ -1,0 +1,17 @@
+- recent_users = widget.recent_users(current_group)
+- if recent_users.count > 0
+  .module.clearfix.widget.block{:class => 'widget-users'}
+    = render "widgets/header", :widget => widget
+    %aside
+      %ul.list
+        - recent_users.each do |user|
+          %li
+            .gravatar
+              = avatar_img(user, :size => "small")
+            .item
+              = link_to h(user.display_name), user_path(user), :class => "pjax", :"data-layout" => "user"
+              .joined
+                = t(:created_at, :scope => "activerecord.attributes.user")
+                = t("time.ago", :time => time_ago_in_words(user.created_at))
+    %footer
+      = link_to t("scaffold.more"), users_path

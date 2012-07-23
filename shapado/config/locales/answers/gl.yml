@@ -1,0 +1,30 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Corpo
+        created_at: Creado o
+        link: Ligazón
+    models: 
+      answer: Resposta
+      answers: Respostas
+  answers: 
+    create: 
+      annon_notice: O usuario xa está rexistrado, acceda ao sistema.
+      flash_error: "Algo foi mal ao engadir a súa resposta. \n  Lembre que: \n - Non están permitidas as preguntas baleiras ou repetidas. \n - Cómpre agardar 20 segundos antes de publicar outra resposta. \n - Soamente pode publicar unha resposta por cada pregunta."
+      flash_notice: Grazas!
+    edit: 
+      title: Editando a resposta
+    form: 
+      answer_label: Responder á pregunta
+      comment_label: Comentar esta resposta
+      comment_submit: Comentar
+      submit: Responder
+    revert: 
+      title: Reverter a resposta
+    update: 
+      flash_notice: A resposta actualizouse correctamente.

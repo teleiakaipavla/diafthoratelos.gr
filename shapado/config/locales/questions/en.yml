@@ -1,0 +1,178 @@
+en:
+  questions:
+    toolbar:
+      requests: Requests
+      your_close_request: "Your close request"
+      answer_by_mail: "Answer by email"
+      more_actions: More actions
+    answer_toolbar:
+      flagged_by_you: Flagged by you
+    disallow_spam:
+      error: "You need to wait 20 seconds before posting another question."
+    history:
+      back: "← back to question"
+    index:
+      title: All questions
+      hot:     Hot
+      active:  Active
+      votes:   Votes
+      newest:  Newest
+      oldest:  Oldest
+      ask_question: Ask question
+      empty: "No one has asked any questions yet. Be the first!"
+      help_to_answer: Help us answer
+      unanswered_questions: Unanswered questions
+      hot_tooltip: Questions with the most activity over the last 5 days
+      active_tooltip: Questions that have been updated recently
+      followers_tooltip:  Questions with the most followers
+      newest_tooltip: The most recently asked questions
+      has_followers:
+        one: "%{count} follower"
+        other: "%{count} followers"
+    show:
+      history: History
+      create_reward: Create reward
+      create_reward_description: Reward the best answer with some of your own karma.
+      follow_up: Follow up
+      follow_up_description: Create a new question based on this post.
+      more_actions: More actions
+      answers: Answers
+      another_answers: Other answers
+      solution: 'Solution'
+      share: "Share this question on"
+      share_on: "Share this question on %{site}"
+      related_questions: Related questions
+      flags: Reported as
+      flag: Flag
+      flagged_as: Flagged as
+      viewed: viewed
+      to_answer_question: to answer this question
+      follow_tooltip: "Follow this question"
+      accepted_tooltip: "One of the answers was accepted as the correct answer."
+      unfollow_tooltip: "Stop following this question"
+      asked_on: "asked on"
+      last_activity: Latest activity
+      retag: Retag
+      unauthenticated_retag: You need an account to retag questions
+      request_closing: Request closing
+      request_closing_details: Request to close this question
+      close: Close
+      request_opening: Request reopening
+      request_opening_details: Request to re-open this question
+      open: Open
+      ban: Ban
+      unban: Unban
+      retract_request: You have already made a request. Would you like to retract it?
+      close_reason: "The question has been closed for the following reason:"
+      requested_close_as: "You requested to close this question as"
+      requested_reopening: "You requested reopening this question"
+      retract_request: "Retract request"
+      edit_request: "Edit request"
+      follow_up_of: This Question Is a Follow Up Of
+    retag:
+      title: Retag
+    answer:
+      pick_answer: Pick as solution
+      unset_answer: Unset solution?
+      flag: Flag
+      add_comment: Add comment
+      favorite: Save
+      unfavorite: Un-save
+      favorite_tooltip: "Add this answer to your favorites"
+      unfavorite_tooltip: "Remove this answer from your favorites"
+    question:
+      retag: Retag
+      accepted_tooltip: This question has an answer that has been accepted
+      wiki_title: 'Wiki: %{title}'
+      has_answers:
+        one: '%{count} answer'
+        other: '%{count} answers'
+      answer_verb: Answer
+    form:
+      body_tip: What is your question? Be descriptive.
+      language_tip: Select the language the question is asked in.
+      tags_tip:  Use tags to add more information about your question.
+      adult_content: This question contains adult material.
+      add_attachment: Add attachment
+      remove_attachment: Remove
+      related_questions_desc: "Here will be displayed similar questions."
+    flag:
+      title: Flag question
+    edit:
+      title: Editing question
+    unanswered:
+      title: Unanswered questions
+      tags: Unanswered tags
+      empty: "This group does not have any unanswered questions."
+      my_tags: My tags
+      expert: Experts
+    tags:
+      title: Tags
+      tooltip: Show questions tagged %{tag}
+      filter: Search for tags
+    new:
+      title: Ask question
+      description: Please be descriptive and make sure to add related tags so that your question can be found easily.
+      how_to_ask: How to ask
+    create:
+      flash_notice: "The question was successfully created."
+      already_registered: "A user with the email %{email} is already registered, please log in using this email."
+    update:
+      flash_notice: "The question was successfully updated."
+    solve:
+      flash_notice: "The question was solved."
+    unsolve:
+      flash_notice: "The question is not solved anymore."
+    watch:
+      success:      "You will now receive notifications by email for every new answer to this question."
+    unwatch:
+      success:      "You will not receive notifications by email for every new answer to this question anymore."
+    revert:
+      title: "Revert question"
+    move:
+      title:        "Move question: %{title}"
+      group_label:  "Move to the group with slug:"
+      submit:       "Move!"
+    move_to:
+      success:      "Question moved to %{group}"
+      group_dont_exists: "The group %{group} does not exist"
+    shared:
+      flag: Flag
+    retag_form:
+      title:  "Update tags"
+      submit: "Update tags!"
+      cancel: "Cancel"
+    retag_to:
+      success: "The tags have been updated successfully."
+      failure: "Sorry, the tags could not be updated."
+    close:
+      failure: "This question has an active reward and cannot be closed."
+    model:
+      messages:
+        too_short:
+          one: "Sorry, your title needs to have more than %{count} word."
+          other: "Sorry, your title needs to have more than %{count} words."
+        too_many_tags: Sorry, you can only enter 20 tags maximum.
+        empty_tags: Sorry, you need to use at least one tag.
+        title_too_long: "Sorry, the title cannot contain more than 100 characters."
+        tags_not_added: "The tags '%{tags}' could not be added. You need a reputation of %{reputation_required} to create new tags"
+
+  activerecord:
+    models:
+      questions: Questions
+      question: Question
+    attributes:
+      question:
+        title: Title
+        body: Body
+        tags: Tags
+        asked_by: Asked by
+        answers: Answers
+        views: Views
+        votes: Votes
+        language: Language
+        created_at: Asked
+        updated_at: updated
+        updated_by: updated by
+        closed: Closed
+        banned: Banned

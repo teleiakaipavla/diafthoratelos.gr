@@ -1,0 +1,21 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Termina le
+        message: Message
+        only_anonymous: Solmente pro usatores anonyme
+        starts_at: Comencia le
+  announcements: 
+    actions: 
+      delete: Remover
+      title: Actiones
+    create: 
+      success: Le annuncio ha essite create con successo.
+    index: 
+      description: Gerer e crear nove annuncios que essera monstrate a tu visitatores in tote le sito.
+      title: Avisos

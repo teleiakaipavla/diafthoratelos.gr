@@ -1,0 +1,22 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  wiki: 
+    actions: 
+      all_history: Nazad na istoriju
+      back_to_question: Nazad na pitanje
+      revert: Vrati na ovo izdanje
+      show_diff: Uporedi izabrana izdanja
+    diff: 
+      title: Razlike između %{prev} i %{curr}
+    history: 
+      current_version: Tekuće izdanje
+      previous_versions: Prethodna izdanja
+      title: Istorija (%{count})
+      version: Izdanje
+      version_summary: Opis izdanja
+    model: 
+      attributes: 
+        message: Opis

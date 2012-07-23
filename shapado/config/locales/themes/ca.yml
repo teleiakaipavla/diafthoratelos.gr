@@ -1,0 +1,44 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  themes: 
+    edit: 
+      title: Editar tema
+    form: 
+      bg_color_legend: Definir el color de l'avió com a fons, assegureu-vos sobre contrast amb el seu app.
+      bg_image_legend: Aquesta imatge es mostrarà com un paper d'empaperar en cada pàgina. Mida no pot superar el 800 KiB i ha de ser un GIF, JPG o PNG.
+      colors_and_bg: Colors i fons
+      custom_css_legend: Si coneixeu el llenguatge CSS, utilitzar això per personalitzar l'estil del seu lloc. Vostè pot utilitzar regular CSS o SCSS.
+      fluid_layout: Disseny líquid
+      fluid_layout_legend: Un disseny de fluid farà dependent de la wiewport en lloc de l'element que conté inicial l'amplada de cada element de la pàgina. En altres paraules, quan redimensionant la seva finestra de navegador o canviar-se a un mecanisme de pantalla petit, la disposició es mourà dins i fora.
+      main_color_legend: Aquesta és una de les més utilitza color a cada pàgina, assegureu-vos de seleccionar el correcte per a la seva marca o de la comunitat.
+      modules_color_legend: Assegureu-vos que aquest color i el color principal partits junts molt bé.
+      submit_update: Tema d'Actualització
+      text_color_legend: Assegureu-vos que el seu text és llegible i és compatible amb el color de fons.
+      update: Tema d'Actualització
+    index: 
+      description: Trobar aquí el seu temes i canviar l'aspecte de la seva aplicació.
+      new_theme: Vostè pot construir el seu propi tema aquí.
+    ready: 
+      success: El seu tema és preparat!
+    show: 
+      apply: S'apliquen
+      bg_color: Color de fons
+      bg_image: Imatge de fons
+      brand_color: Color de la marca
+      button_bg: Color de fons de botons
+      button_fg: Color de primer pla de botons
+      fg_color: Color de primer pla
+      fluid: Líquid (això farà que la disposició elàstica aconsegueix canviar la mida de la finestra del navegador)
+      link_bg: Color de fons d'enllaços
+      link_fg: Color de primer pla d'enllaços
+      main_color: Color principal
+      modules_color: Color de mòduls
+      not_ready: Aquest tema no és a punt ser utilitzat, comprovar altra vegada aviat.
+      text_color: Color del text
+      try: Provar
+      use_link_bg: Utilitzeu un fons per a enllaços
+      view_bg: Color de fons de vista
+      view_fg: Color de primer pla de la vista

@@ -1,0 +1,59 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  notifier: 
+    admin_login: 
+      message1: Корисникот %{user} во %{time} се поврза како админ со IP-адресата %{ip}.
+      subject: "Внимание: администраторска врска"
+    created_flag: 
+      message1: Поракава ја примивте бидејќи сте модератор на %{group}.
+      message2: "Пријавена е објава, и тоа од следнава причина:"
+      message2bis: Тука можете да ја прочитате означената објава.
+      message2bistext: "Можете да ја прочитате озачената објава на следнава врска:"
+      message3: "Одете на страницата за модерација за да го видите списокот на означени ставки:"
+      message4: Посетете ја страницата за модерација за да го видите списокот на означени ставки.
+    earned_badge: 
+      message1: Заработивте значка за %{badge} на %{app}
+      message2: "Опис на значката:"
+      message3: Можете да ги погледате сите ваши значки на вашата %{user_page}
+    favorited: 
+      message1: "%{user} го зачува вашиот одговор на %{group} како бендисан"
+      message2: "Прашањето гласеше:"
+      message3: "Можете да ја видите тука:"
+    follow: 
+      message1: "%{user} сега ги следи вашите прашања и одговори на %{app}"
+      message2: Можете и вие да го следите него стискајќи на копчето „Следи“ на неговата %{user_page}
+    give_advice: 
+      message1: "%{user} штотуку постави прашање што можеби знаете да го одговорите:"
+      message2: "За да дадете одговор, просто одговорете на оваа порака:"
+      message3: "Или пак, ако знаете некој друг што би можел да даде одговот, испратете му ја оваа упатна врска:"
+      message4: Ако наскоро не добиеме одговор од вас, ќе прашаме некој друг. Сепак, можете да одговорите кога сакате.
+    global: 
+      hi: Здраво %{user},
+      hi_no_user: Здраво,
+      user_page: корисничка страница
+    new_answer: 
+      message: "%{user} одговори %{new_answer} на прашањето %{question}"
+    new_comment: 
+      message: "%{user} коментираше %{new_comment} на прашањето %{link}"
+    new_feedback: 
+      message1: Корисникот %{user} <%{email}> испрати мислење
+      message2: Анонимен корисник испратил мислење од IP-адресата %{ip}
+      message3: "Е-пошта: %{email}"
+      message4: "Наслов: %{subject}"
+    new_invitation: 
+      message1: Стиснете тука за да ја прифатите поканата %{link}
+      message2: Екипата на %{group}.
+      message3: "Порака од канителот:"
+      subject: "%{user} ве покани на %{group}"
+    report: 
+      message1: Извештај за групата %{group}
+      message2: Од %{date}
+      message3: Создадени се %{questions} прашања
+      message4: создадени се %{answers} одговори
+      message5: дадени се %{votes} гласови
+      message6: доделени се %{badges} значки
+      message7: Сметката има %{users} корисника.
+      message8: Посетете ја вашата група на %{link}

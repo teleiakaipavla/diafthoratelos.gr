@@ -1,0 +1,67 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  devise: 
+    confirmations: 
+      confirmed: Natiyak na ang akawnt mo.  Naipatala ka na ngayon.
+      send_instructions: Makakatanggap ka sa loob ng ilang mga minuto ng isang e-liham na may panuto tungkol sa kung paano titiyakin ang akawnt mo.
+    failure: 
+      inactive: Hindi pa binubuhay ang akawnt mo.
+      invalid: Hindi katanggap-tanggap na tirahan ng e-liham o hudyat.
+      invalid_token: Hindi katanggap-tanggap na kahalip ng pagpapatunay.
+      locked: Nakakandado ang akawnt mo.
+      timeout: Nagwakas na ang inilaang panahon mo, mangyaring lumagda uli upang makapagpatuloy.
+      unauthenticated: Kailangan mong lumagdang papasok o magparehistro bago magpatuloy.
+      unconfirmed: Kailangan mong tiyakin ang akawnt mo bago magpatuloy.
+    mailer: 
+      confirm_account: 
+        instruction1: "Matitiyak mo ang akawnt mo sa pamamagitan ng kawing na nasa ibaba:"
+        link: Patotohanan ang akawnt ko
+        welcome: Maligayang pagdating
+      confirmation_instructions: 
+        subject: Mga tagubilin sa kumpirmasyon
+      hello: Kumusta
+      reset_password: 
+        instruction1: May isang tao na humiling ng isang kawing upang baguhin ang hudyat mo, at magagawa mo ito sa pamamagitan ng kawing sa ibaba.
+        link: Baguhin ang hudyat ko
+        nonrequested: Kung hindi mo ito hiniling, mangyaring huwag pansinin ang e-liham na ito.
+        warning: Hindi magbabago ang hudyat mo hangga't hindi mo pa napupuntahan ang kawing na nasa itaas at lumikha ng bago.
+      reset_password_instructions: 
+        subject: Muling itakda ang mga tagubilin sa hudyat
+      unlock: 
+        instruction1: Ikinandado ang akawnt mo dahil sa labis na dami ng hindi matagumpay na pagtatangkang lumagda papasok.
+        instruction2: "Pindutin ang kawing sa ibaba upang matanggal ang kandado sa akawnt mo:"
+        link: Huwag ikandado ang akawnt ko
+      unlock_instructions: 
+        subject: Huwag Ikandado ang mga Tagubilin
+    passwords: 
+      link: Nakalimutan ang hudyat?
+      send_button: Ipadala sa akin ang mga tagubilin sa muling pagtatakda ng hudyat
+      send_instructions: Makakatanggap ka sa loob ng ilang mga minuto ng isang e-liham na may panuto tungkol sa kung paano itakdang muli ang hudyat mo.
+      updated: Nabago na ang hudyat mo. Nakalagda ka nang papasok.
+    registrations: 
+      destroyed: Paalam!  Hindi itinuloy ang akawnt mo.  Umaasa kaming magkikita tayong muli sa lalong madaling panahon.
+      link: Magpatala
+      signed_up: Matagumpay ang pagpapatala mo. Kapag pinagana, isang kumpirmasyon ang naipadala sa e-liham mo.
+      updated: Isinapanahon mo ang iyong akawnt.
+    sessions: 
+      link: Lumagdang papasok
+      new: 
+        openid_url: Ang URL ng OpenID mo
+        remember_me: Tandaan ako
+      registered_only: Dapat kang nakalagda upang makita ang nilalaman.
+      sign_out: Lumagdang palabas
+      signed_in: Nailagdang papasok.
+      signed_out: Nailagdang papalabas.
+      signin_group: Lumagdang papasok sa %{group}
+    unlocks: 
+      link: Hindi mo natanggap ang mga panuto sa pagtatanggal ng kandado?
+      send_instructions: Makakatanggap ka sa loob ng ilang mga minuto ng isang e-liham na may panuto tungkol sa kung paano tanggalin ang kandado ng akawnt mo.
+      unlocked: Nabuksan na ang akawnt mo.  Nailagda ka nang papasok.
+  errors: 
+    messages: 
+      already_confirmed: ay natiyak na
+      not_found: hindi natagpuan
+      not_locked: ay hindi nakakandado

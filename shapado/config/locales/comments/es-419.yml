@@ -1,0 +1,20 @@
+# Messages for Latin American Spanish (espanol de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es-419: 
+  comments: 
+    create: 
+      flash_notice: Gracias por tu comentario
+    edit: 
+      title: Editar comentario
+    shared: 
+      add_comment: Añadir comentario...
+      comment_submit: Comentar
+      reply: Contestar
+      said: dijo
+    update: 
+      flash_notice: El comentario ha sido actualizado con exito.
+  models: 
+    comment: Comentario
+    comments: Comentarios

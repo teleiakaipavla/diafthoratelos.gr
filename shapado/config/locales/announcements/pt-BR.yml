@@ -1,0 +1,22 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giro720
+# Author: Pedroca cerebral
+pt-BR: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Termina em
+        message: Mensagem
+        only_anonymous: Só para usuários anônimos
+        starts_at: Inicia em
+  announcements: 
+    actions: 
+      delete: Remover
+      title: Ações
+    create: 
+      success: Seu anúncio foi criado com sucesso.
+    index: 
+      description: Gerenciar e criar novos anúncios que serão exibidos em todo o site para todos os seus visitantes.
+      title: Notificações do site

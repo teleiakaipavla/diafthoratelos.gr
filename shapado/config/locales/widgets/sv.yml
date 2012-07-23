@@ -1,0 +1,21 @@
+# Messages for Swedish (Svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  widgets: 
+    groups: 
+      description: Denna widget visar de senaste grupperna
+      title: Senaste grupperna
+    index: 
+      description: Använd pilarna för att flytta dina widgets
+      title: Hantera sidebar widgets
+    pages: 
+      description: Denna widget visar en lista över wiki-sidor
+      new: Lägg till en ny sida
+      title: Wiki-sidor
+    top_groups: 
+      description: Denna widget visar de fem största grupperna
+      title: Topp 5 grupper
+    top_users: 
+      title: Topp 5 användare

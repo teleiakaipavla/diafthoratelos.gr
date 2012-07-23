@@ -1,0 +1,13 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  activerecord: 
+    models: 
+      favorite: 最爱
+      favorites: 收藏夹
+  unfavorites: 
+    create: 
+      success: 这个问题已从您的喜好
+      unauthenticated: 您需要删除收藏夹中的帐户

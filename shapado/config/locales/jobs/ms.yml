@@ -1,0 +1,21 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} menjawab: %{question}"
+        send_twitter: "Saya menjawab: %{question}"
+      on_favorite_answer: 
+        group_send_twitter: "%{user} menyukai jawapan %{author} di: %{question}"
+        send_twitter: "Saya menyukai jawapan %{author} di: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} baru memenangi %{token} di %{group_name} %{link}"
+        send_twitter: Saya baru memenangi %{token} di %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} mengulas: %{question}"
+        send_twitter: Komen saya kepada %{question}

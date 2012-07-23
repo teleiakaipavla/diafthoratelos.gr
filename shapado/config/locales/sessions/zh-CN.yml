@@ -1,0 +1,22 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  sessions: 
+    create: 
+      flash_error: 不能将您登录为 %{login}
+      flash_notice: 成功登录
+    destroy: 
+      flash_notice: 您已被注销。
+    new: 
+      log_in: 登录
+      not_registered: 还没有注册吗？
+      registered: 已注册吗？
+      remember_me: 记得我
+      sign_in: 登录
+      signup: 登记
+      with_authentication: 使用我们的身份验证系统登录
+      with_facebook: 用 Facebook 登录
+      with_openid: 使用 OpenID 登录
+      with_twitter: 使用 Twitter 登录

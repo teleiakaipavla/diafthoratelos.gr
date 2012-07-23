@@ -1,0 +1,21 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Важи до
+        message: Порука
+        only_anonymous: Само за анонимне кориснике
+        starts_at: Важи од
+  announcements: 
+    actions: 
+      delete: Уклони
+      title: Радње
+    create: 
+      success: Саопштење је направљено.
+    index: 
+      description: Направите саопштења која ће бити приказана на целом сајту и управљајте њима.
+      title: Саопштења

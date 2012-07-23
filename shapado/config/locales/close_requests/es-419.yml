@@ -1,0 +1,33 @@
+# Messages for Latin American Spanish (espanol de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es-419: 
+  close_requests: 
+    create: 
+      flash_notice: Solicitud de cierre creada con éxito
+    destroy: 
+      flash_notice: Solicitud de cierre eliminada con éxito
+    edit: 
+      title: Editar la solicitud de cierre.
+    form: 
+      close_with_reason: Cerrar esta pregunta usando esta razón
+      dupe: Duplicada
+      no_question: No es realmente una pregunta
+      not_relevant: No es pertinente
+      ot: Fuera de tema
+      request_closing_details: Solicitar el cierre de esta pregunta
+      spam: spam
+    index: 
+      title: Lista de solicitudes de cierre
+    model: 
+      attributes: 
+        comment: Comentario
+        reason: Razón
+        user: Usuario
+      messages: 
+        already_requested: Ya has solicitado cerrar esta pregunta
+      name: Solicitud de cierre
+      prural_name: Solicitudes de cierre
+    update: 
+      flash_notice: Solicitud de cierre actualizada con éxito

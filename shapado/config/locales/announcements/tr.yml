@@ -1,0 +1,19 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: 82-145
+# Author: Emperyan
+tr: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        message: İleti
+        only_anonymous: Sadece anonim kullanıcılar için
+  announcements: 
+    actions: 
+      delete: Kaldır
+      title: Eylemler
+    create: 
+      success: Duyurunuz başarıyla oluşturuldu.
+    index: 
+      title: Duyurular

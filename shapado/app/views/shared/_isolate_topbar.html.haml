@@ -1,0 +1,45 @@
+
+%ul#group_menu.left
+  %li
+    %span#group
+      =link_to image_tag(logo_path(current_group), :class => "group_logo"), domain_url(:custom => current_group.domain)
+      -if logged_in? && current_user.can_modify?(current_group)
+        = link_to t("groups.manage"), manage_path
+
+  -unless current_group.default_tags.empty?
+    %li
+      = link_to t('questions.tags.title'), questions_url
+      ▼
+      %ul
+        -current_group.default_tags.each do |tag|
+          %li
+            = link_to(tag, url_for(:controller => "questions", :action => "index", :tags => tag), :rel => "tag")
+
+%span#user-actions.right
+  #user-nav
+    %ul#action_menu
+      -if logged_in?
+        %li
+          %span
+            %span.gravatar
+              = avatar_img(current_user, :size => "small")
+              = link_to h(current_user.display_name), user_path(current_user), :class => "pjax", :"data-layout" => "user"
+              %span{:style => "font-size: 12px; font-weight: bold"}
+                == (#{current_user.reputation_on(current_group)})
+        %li
+          =link_to t("layouts.application.settings"), settings_path
+        %li
+          =link_to t("layouts.application.logout"), destroy_user_session_path
+      -else
+        %li
+          =link_to t("layouts.application.log_in"), new_user_session_path
+      %li
+        =link_to t(".about", :default => :"groups.index.about"), about_path
+      %li.last
+        = form_tag search_path, :class => "form", :method => :get do
+          = text_field_tag 'q', params[:q], :class => "text-field"
+          %button{:type => "submit"}
+            = t('.search', :default => "Go")
+
+
+.clear

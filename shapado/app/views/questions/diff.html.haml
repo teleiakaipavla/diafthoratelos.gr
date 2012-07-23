@@ -1,0 +1,7 @@
+.diff-view
+  =render "wiki/diff", :post => @question, :prev => @prev, :curr => @curr, :versioned_keys => %w[title body tags],:scope => "activerecord.attributes.question"
+  .form
+    .navform
+      = link_to(t("wiki.actions.all_history"), history_question_path(@question))
+      = t("global.or")
+      = link_to(t("wiki.actions.back_to_question"), question_path(@question))

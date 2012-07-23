@@ -1,0 +1,5 @@
+- version.data.each do |key,value|
+  %div{:class => key}
+    -if key.to_s == "body"
+      =find_and_preserve(shapado_auto_link(markdown(value)))
+

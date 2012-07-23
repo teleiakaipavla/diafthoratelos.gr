@@ -1,0 +1,9 @@
+!!! 5
+%html{"xml:lang" => I18n.locale, :lang => I18n.locale, :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title
+      &= page_title
+    =stylesheet_link_tag "#{AppConfig.site}/stylesheets/compiled/printing.css", :media => "print,screen"
+
+  %body{:class => bodys_class(params) }
+    =yield

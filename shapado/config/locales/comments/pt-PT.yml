@@ -1,0 +1,20 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  comments: 
+    create: 
+      flash_notice: Obrigado pelo seu comentário
+    edit: 
+      title: Editar comentário
+    shared: 
+      add_comment: Adicionar comentário...
+      comment_submit: Comentar
+      reply: Resposta
+      said: disse
+    update: 
+      flash_notice: O comentário foi actualizado.
+  models: 
+    comment: Comentário
+    comments: Comentários

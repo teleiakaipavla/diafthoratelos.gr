@@ -1,0 +1,60 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+it: 
+  notifier: 
+    admin_login: 
+      message1: L'utente %{user} si è collegato come admin alle %{time} con indirizzo IP %{ip}.
+      subject: "Avviso: connessione admin"
+    created_flag: 
+      message1: Stai ricevendo questo messaggio perché sei un moderatore del %{group}.
+      message2: "Un post è stato segnalato per il seguente motivo:"
+      message2bis: Puoi leggere il post segnalato qui.
+      message2bistext: "Potete leggere il post segnalato cliccando sul seguente link:"
+      message3: "Vai alla pagina moderazione per visualizzare l'elenco degli elementi segnalati:"
+      message4: Visita la pagina moderazione per visualizzare l'elenco degli elementi contrassegnati.
+    earned_badge: 
+      message1: Hai guadagnato il badge %{badge} su %{app}
+      message2: "Descrizione del badge:"
+      message3: I tuoi badge sono visbili sulla tua %{user_page}
+    favorited: 
+      message1: "%{user} ha salvato tua risposta su %{group} come preferita"
+      message2: "La domanda era:"
+      message3: "Lo si può vedere qui:"
+    follow: 
+      message1: "%{user} sta ora seguendo le tue domande e risposte su %{app}"
+      message2: Puoi seguirlo a tua volta cliccando su "Follow" sulla sua %{user_page}
+    give_advice: 
+      message1: "%{user} ha posto una domanda che potresti essere in grado di rispondere:"
+      message2: "Per dare una risposta basta rispondere a questo messaggio:"
+      message3: "Oppure, se conosci qualcuno che potrebbe essere in grado di rispondere, invia loro il seguente link:"
+      message4: Se non si riceverà risposta, la domanda verrà posta a qualcun altro. Si potrà comunque rispondere in qualsiasi momento.
+    global: 
+      hi: Ciao %{user},
+      hi_no_user: Ciao,
+      user_page: pagina utente
+    new_answer: 
+      message: "%{user} ha risposto %{new_answer} alla domanda %{question}"
+    new_comment: 
+      message: "%{user} ha commentato %{new_comment} sull domanda %{link}"
+    new_feedback: 
+      message1: L'utente %{user} <%{email}> ha inviato un feedback
+      message2: Un utente anonimo ha inviato un feedback dall'indirizzo IP %{ip}
+      message3: "Indirizzo email: %{email}"
+      message4: "Oggetto: %{subject}"
+    new_invitation: 
+      message1: Clicca qui per accettare l'invito %{link}
+      message2: Il gruppo %{group}.
+      message3: "Un messaggio dalla persona che ti invita:"
+      subject: "%{user} ti invita a partecipare a %{group}"
+    report: 
+      message1: Report per il gruppo %{group}
+      message2: Dal %{date}
+      message3: "%{questions} domande create"
+      message4: "%{answers} risposte create"
+      message5: "%{votes} voti effettuati"
+      message6: "%{badges} badge assegnati"
+      message7: L'account ha %{users} utenti.
+      message8: Visita il tuo gruppo su %{link}

@@ -1,0 +1,40 @@
+-counter = @answer.versions.count
+
+= form_tag diff_question_answer_path(@question, @answer), :method => "GET", :class => "history" do
+  %ul
+    %li
+      .top
+        %p.version.current
+          =t("wiki.history.current_version")
+          .diff
+            = radio_button_tag("prev", :current, :checked => @prev == "current")
+            = radio_button_tag("curr", :current, :checked => @curr == "current")
+
+          %small
+            =link_to t('.back'), question_answer_path(@answer.question, @answer)
+
+
+      %p.description
+        = shapado_auto_link(markdown(@answer.body))
+      %p.messages
+        = @answer.version_message
+      %p.author
+        = render "users/user_data", :user => @answer.updated_by || @answer.user
+
+      .version-nav
+        -if @answer.versions.count > 0
+          =link_to t("global.previous"), diff_question_path(@answer, :curr => :current, :prev => @answer.versions.count-1 )
+        -if !@answer.version_message.blank?
+          = t('wiki.history.version_summary')
+
+
+    -@answer.versions.reverse_each do |version|
+      -counter -= 1
+      -if !version.data.empty?
+        = render :partial => "wiki/version", :object => version, :locals => {:post => @answer, :number => counter, :prev => @prev, :curr => @curr, :scope => "activerecord.attributes.question"}
+
+  .buttons-history
+    = submit_tag t("wiki.actions.show_diff"), :value => "diff", :name => "show"
+    = t("global.or")
+    = link_to(t("scaffold.back"), question_answer_path(@answer.question, @answer))
+

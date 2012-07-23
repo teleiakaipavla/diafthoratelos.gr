@@ -1,0 +1,8 @@
+%h1{:style => "border-bottom: 1px solid #e5e5e5; overflow: hidden; padding-bottom:20px "}
+  %em{:style => "font-weight: normal; font-size: 20px; color: #666"}
+    Saved search:
+  = @search.query
+  =link_to t('scaffold.destroy'), search_path(@search), :method => :delete
+
+%section
+  = render 'shared/posts'

@@ -1,0 +1,75 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: The real emj
+# Author: Tobulos1
+sv: 
+  feeds: 
+    feed: Feed
+    post_new_questions: Lägg upp nya frågor till
+    question: Prenumerera på denna fråga
+    questions: Prenumerera på alla frågor
+    share_on_twitter: Twitter, Facebook och mer ...
+    tag: Prenumerera på tagg
+    user: Prenumerera på frågor från användare
+  global: 
+    actions: Åtgärder
+    active: Aktivera
+    anonymous: Anonym
+    blog: Blogg
+    by: av
+    chat: Chatt
+    current: Nuvarande
+    edited: Ändrad
+    feedback: Återkoppling
+    follow: Följ
+    followed_by: "Följd av:"
+    following: Följer
+    from: från %{site}
+    group_not_found: Sidans %{url} existerar inte
+    next_button: Nästa
+    or: eller
+    permission_denied: Tillgång nekad
+    please_login: Vänligen logga in
+    preview: Förhandsgranska
+    previous: Föregående
+    share: Dela
+    sign_up: Registrera dig
+    sort_by: "Sortera på:"
+    tags_label: "Taggar:"
+    tos: Användarvilkor
+    unfollow: Sluta följ
+    unknown_place: okänd
+    view: Visa
+    view_question: Visa fråga
+    what_to_do: Vad vill du göra
+  models: 
+    question: Frågan
+  number: 
+    x_time: 
+      one: "en gång "
+      other: "%{count} gånger"
+      zero: Aldrig
+  preferred_languages: 
+    any: Alla
+    user: Min föredragna språk
+  scaffold: 
+    add: Lägg till
+    back: Tillbaka
+    cancel: Avbryt
+    close: Stäng
+    create: Skapa
+    destroy: Radera
+    details: Detaljer
+    edit: Redigera
+    more: Mer ...
+    new: Lägg till ny %{model}
+    post_as_anonymous: Posta som anonym
+    save: Spara
+    send: Skicka
+    show: Visa
+    sure: Är du säker på att du vill ta bort denna %{model} ?
+    update: Uppdatera
+  time: 
+    ago: "%{time} sedan"
+    today: idag

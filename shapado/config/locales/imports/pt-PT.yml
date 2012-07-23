@@ -1,0 +1,10 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Necessitam de confirmação
+        title: Enviar mensagens electrónicas de confirmação

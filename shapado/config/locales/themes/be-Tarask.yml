@@ -1,0 +1,40 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  themes: 
+    edit: 
+      title: Рэдагаваць тэму
+    form: 
+      bg_image_legend: Гэтая выява будзе паказаная як шпалеры на кожнай старонцы. Памер ня можа перавышаць 800 кб. Пашырэньне павінна быць GIF, JPG ці PNG.
+      colors_and_bg: Колеры і фоны
+      custom_css_legend: Калі Вы ведаеце мову CSS, выкарыстоўвайце яе, каб стварыць непаўторны стыль для Вашага сайту. Таксама Вы можаце выкарыстоўваць звычайную мову CSS ці SCSS.
+      main_color_legend: Гэта самы выкарыстоўваемы колер на кожнай старонцы, упэўніцеся што ён адпавядае Вашай супольнасьці.
+      modules_color_legend: Упэўніцеся, што гэты колер і асноўны колер адпавядаюць адзін аднаму.
+      submit_update: Абнавіць тэму
+      text_color_legend: Упэўніцеся, што Ваш тэкст чытальны і адпавядае колеру фону.
+      update: Абнавіць тэму
+    index: 
+      new_theme: Тут Вы можаце стварыць уласную тэму.
+    ready: 
+      success: Вашага тэма гатовая!
+    show: 
+      apply: Ужыць
+      bg_color: Колер фону
+      bg_image: Выява фону
+      brand_color: Колер брэнду
+      button_bg: Колер фону кнопак
+      button_fg: Колер тэксту кнопак
+      fg_color: Колер тэксту
+      link_bg: Колераў фону спасылак
+      link_fg: Колер фону спасылак
+      main_color: Асноўны колер
+      modules_color: Колер модуляў
+      not_ready: Гэтая тэма не гатовая для выкарыстаньня, праверце пазьней.
+      text_color: Колер тэксту
+      try: Паспрабуйце
+      use_link_bg: Выкарыстоўваць фон для спасылак
+      view_bg: Колер фону выгляду
+      view_fg: Колер тэксту выгляду

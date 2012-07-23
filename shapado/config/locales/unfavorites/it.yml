@@ -1,0 +1,13 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giallu
+it: 
+  activerecord: 
+    models: 
+      favorite: Preferito
+      favorites: Preferiti
+  unfavorites: 
+    create: 
+      success: La domanda è stata rimossa dai preferiti
+      unauthenticated: Serve un account per rimuovere preferiti

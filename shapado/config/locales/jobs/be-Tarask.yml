@@ -1,0 +1,21 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Jim-by
+be-Tarask: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} адказаў на: %{question}"
+        send_twitter: "Адказаў на пытаньне: %{question}"
+      on_favorite_answer: 
+        group_send_twitter: "%{user} падабаецца адказ %{author} на: %{question}"
+        send_twitter: "Мне падабаецца адказ %{author} на: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} толькі што атрымаў узнагароду %{token} у %{group_name} %{link}"
+        send_twitter: Я толькі што выйграў узнагароду %{token} у %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} напісаў камэнтар на: %{question}"
+        send_twitter: Мой камэнтар на %{question}

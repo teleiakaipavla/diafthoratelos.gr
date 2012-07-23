@@ -1,0 +1,25 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  activerecord: 
+    models: 
+      vote: 投票
+      votes: 投票
+  votes: 
+    control: 
+      have_voted_down: 单击要撤消您向下的投票
+      have_voted_up: 单击要撤消您最票
+      to_vote_down: 单击此处否决
+      to_vote_up: 单击以进行投票
+    create: 
+      flash_error: 不能对此进行投票
+      flash_notice: 谢谢你投票！
+      unauthenticated: 匿名用户不能投票
+    destroy: 
+      flash_notice: 您的投票已成功地被吊销。
+    model: 
+      messages: 
+        closed_question: 您不能对已关闭的问题属于任何职位投票
+        vote_down_comment: 注释不能否决

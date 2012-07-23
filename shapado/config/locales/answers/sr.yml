@@ -1,0 +1,30 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Текст
+        created_at: "Направљено:"
+        link: Веза
+    models: 
+      answer: Одговор
+      answers: Одговори
+  answers: 
+    create: 
+      annon_notice: Корисник је већ уписан. Пријавите се.
+      flash_error: "Дошло је до грешке при додавању одговора. \nУпамтите да: \n – празни и поновљени одговори нису дозвољени.\n – треба да сачекате 20 секунди пре постављања следећег одговора. \n – можете поставити само један одговор по питању."
+      flash_notice: Хвала!
+    edit: 
+      title: Уређивање одговора
+    form: 
+      answer_label: Одговорите на питање
+      comment_label: Прокоментаришите овај одговор
+      comment_submit: Прокоментариши
+      submit: Одговори
+    revert: 
+      title: Врати одговор
+    update: 
+      flash_notice: Одговор је ажуриран.

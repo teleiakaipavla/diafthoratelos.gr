@@ -1,0 +1,58 @@
+/* css stylee generals html tags */
+
+body {
+  color: $fg_color;
+  @if($has_bg_image) {
+    background: $bg_color url($bg_image_url) 0 0;
+  } @else {
+    background: $bg_color;
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: $fg_color;
+  }
+}
+
+article {
+  border-bottom: 1px solid $border_color;
+  &.active, &:target {
+    background-color: $highlighted_view_bg_color;
+  }}
+
+a {
+  color: $fg_color;
+  &:visited {
+    color: lighten($fg_color, 30%); }
+  &:hover {
+    color: $fg_color; } }
+
+
+form {
+  label {
+    color: $fg_color; }
+  fieldset {
+    color: lighten($fg_color, 5%); }
+  ::-webkit-input-placeholder {
+    color: lighten($fg_color, 40%); }
+  input[type=text],
+  input[type=password],
+  textarea,
+  select,
+  .uneditable-input {
+    color: lighten($fg_color, 10%);
+    border: 1px solid #cccccc; }
+  input[type=text],
+  input[type=password],
+  select,
+  textarea {
+    background: lighten($view_bg_color, 10%);
+    -webkit-box-shadow: inset 0 1px 3px $light_brand_color;
+    -moz-box-shadow: inset 0 1px 3px $light_brand_color;
+    box-shadow: inset 0 1px 3px $light_brand_color; }
+  input[type=text]:focus,
+  form input[type=password]:focus,
+  form textarea:focus {
+    color: $fg_color;
+    border-color: $brand_color;
+    background-color: $highlighted_view_bg_color; }
+  .error {
+    background: #fae5e3; } }

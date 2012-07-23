@@ -1,0 +1,10 @@
+%h2
+  = t('.title')
+
+Install facebook app for:
+
+%ul
+  -@current_user.groups.each do |group|
+    -if @current_user.role_on(group) == "owner"
+      %li
+        =link_to h(group.name), enable_page_facebook_path(:group_id => group.id, :fb_page_id => @fb_page_id, :signed_request => params[:signed_request], :t => @current_user.authentication_token)

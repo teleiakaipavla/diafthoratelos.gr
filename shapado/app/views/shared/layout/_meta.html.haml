@@ -1,0 +1,13 @@
+%meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+%meta{ :geo_local => current_group.track_users }
+
+=yield :head
+
+-if current_group.has_custom_favicon?
+  %link{:rel=>"icon", :type=>"image/png", :href=>favicon_group_path(current_group)}
+-else
+  %link{:rel=>"icon", :type=>"image/png", :href=>"/favicon.ico"}
+
+=render :partial => "shared/layout/feeds"
+
+= csrf_meta_tag

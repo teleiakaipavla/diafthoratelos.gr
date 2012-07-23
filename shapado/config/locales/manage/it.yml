@@ -1,0 +1,126 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+it: 
+  admin: 
+    manage: 
+      access: 
+        title: Accesso
+      answers: 
+        banning: 
+          title: Censura la risposta
+      appearance: 
+        logo_legend: Carica un logo per il gruppo. Può essere al massimo 2MB.
+        title: Scegli e personalizza il tema
+      close_group: 
+        description: La chiusura del gruppo lo renderà inaccessibile a tutti tranne te.
+        feedback: "Per favore, specifica perché stai chiudendo il tuo gruppo:"
+      content: 
+        description: Configura il tuo gruppo con testo e stile personalizzati
+        footer: Piè di pagina
+        head: header
+        question_help: Aiuto formulazione
+        question_prompt: Prompt domanda
+        title: Contenuto personalizzato
+        top_bar: Barra superiore
+        top_bar_tip: Inserire un link per riga
+      invitations: 
+        invitations: Inviti inviati
+        invitations_title: Elenco di tutti gli inviti che hai inviato
+        invite: Invita persone
+        invite_title: Invita persone via e-mail
+        title: Inviti
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Fare domande da Twitter
+          question_asked_to: Domande poste a
+          question_must_include: La domanda deve avere il seguente tag per essree twittata
+          question_must_include_example: "ad es. #iAsk"
+          twitter_account: L'account Twitter a cui gli utenti indirizzeranno le domande.
+        constrains: 
+          reputation_constrains_description: E' possibile configurare quanti punti reputazione sono necessari per effettuare una certa operazione
+          reputation_constrains_subtitle: Elenco della reputazione richiesta per ogni azione
+          title: Requisiti
+        domain: 
+          description: "E' possibile mappare un dominio diverso al tuo sito Shapado in modo che sia accessibile attraverso il tuo dominio personale. Di seguito la procedura da seguire:"
+          instruction1: Per farlo è necessario configurare il dominio con il proprio provider, ovvero dal sito presso il quale è stato acquistato il dominio, es. %{subdomain}.com.
+          instruction2: Lì va configurato il DNS creando un nuovo CNAME.
+          instruction3: Si può usare 'www' o qualunque altra cosa come CNAME.
+          instruction4: "Poi, nel campo host o destinazione, inserire il dominio attualmente usato su Shapado: %{domain}."
+          instruction5: Una volta eseguito, dopo un'ora o poco più, il dominio www.%{subdomain} dovrebbe puntare a %{appdomain}.
+          instruction6: A modifica avvenuta, sarà possibile immettere in questa pagina il dominio scelto (es. www.%{subdomain}) e premere il tasto "Aggiorna". Per qualunque dubbio, si può chiedere su %{chat_url} oppure nei forum di supporto.
+          title: Configura il tuo dominio personale
+          warning: Si è sicuri di voler cambiare i dati del dominio?
+        facebook_app: 
+          application_id: ID applicazione
+          facebook_app: Impostazioni Facebook App
+          legend: È possibile configurare l'applicazione Facebook. Questa sarà utilizzato per l'accesso degli utenti utilizzando il loro account Facebook. Nota che questo è necessaria solo se si utilizza un dominio personalizzato.
+          secret_key: Chiave Segreta
+        general: 
+          title: Proprietà del gruppo
+        invitations: 
+          resend_button: Reinvia
+          revoke_button: Revoca
+        invite: 
+          body_instructions: Scrivi un messaggio per le persone che stai invitando (opzionale)
+          body_length_warning: Il testo non può contenere più di 400 caratteri
+          emails_instructions: Inserisci gli indirizzi email, separati da una virgola
+          invitations: Inviti inviati
+          invite: Invita persone
+          title: Invita persone via e-mail
+          user_role: Invita gli utenti come
+        post_to_twitter: 
+          legend: Questa pagina consente di configurare ciò che viene inviato a Twitter. L'account utilizzato è <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>  se si vuole utilizzare un altro account, fai clic <a href="%{link}">qui</a> .
+          legend_connect: Questa pagina consente di configurare ciò che viene inviato a Twitter. È necessario specificare un account Twitter prima, clicca <a href="%{link}">qui</a> per farlo.
+          post_to_twitter: Posta le attività su Twitter
+          send_answers_to_twitter: Invia tutte le risposte a Twitter
+          send_badges_to_twitter: Invia tutti i badge da poco conquistati a Twitter
+          send_comments_to_twitter: Invia tutti i commenti a Twitter
+          send_favorites_to_twitter: Invia tutte le risposte preferite a Twitter
+          send_questions_to_twitter: Invia tutte le domande a Twitter
+        rewards: 
+          reputation_rewards_description: E' possibile configurare come gli utenti acquisiscono e perdono punti reputazione per una determinata azione
+          reputation_rewards_subtitle: Elenco dei premi reputazione
+          title: Ricompense
+        share: 
+          title: Condividi
+        tag_your_tweets: 
+          add_tags: Aggiungi tag ai tuoi tweet
+          ends_with_example: "ad esempio #shapado"
+          starts_with_example: "ad esempio #qa"
+          title: Tagga i tuoi tweet
+          tweet_ends_with: Tag da aggiungere in coda ai tweet
+          tweet_starts_with: Anteponi un tag ai tuoi tweets
+        title: Proprietà del gruppo
+        twitter_account: 
+          connect_to_other_twitter: Clicca qui per connettere un account Twitter diverso al tuo gruppo
+          connect_to_twitter: Clicca qui per connettere un account Twitter al tuo gruppo
+          disconnect_twitter_group: Scollega questo gruppo da Twitter
+          legend: Questo account verrà utilizzato per inviare nuove domande e risposte a Twitter.
+          legend_with_account: Tuo account Twitter <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> verrà utilizzato per pubblicare nuove domande e risposte per Twitter. È possibile configurare ciò che viene inviato a Twitter <a href="%{link}">qui</a>.
+          twitter_account: Account Twitter
+        twitter_app: 
+          key: Chiave dell'applicazione
+          secret: Codice segreto applicazione
+          twitter_app: Twitter app
+      questions: 
+        banning: 
+          title: Censura la domanda
+      social: 
+        ask_from_twitter: Chiedete da Twitter
+        ask_from_twitter_title: Consentire agli utenti di fare domande da Twitter
+        description: Collega il tuo gruppo ai tuoi social networks
+        facebook_app: Facebook App
+        facebook_app_title: Configura la tua applicazione Facebook che sarà utilizzata per consentire agli utenti di accedere con i loro account Facebook
+        post_to_twitter: Pubblica su Twitter
+        post_to_twitter_title: Inviare tutte le domande e le risposte a Twitter automaticamente
+        tag_your_tweets: Tagga i tuoi tweet
+        tag_your_tweets_title: Aggiungi tag ai tuoi tweet
+        title: Interazione media sociali
+        twitter_account: Account Twitter
+        twitter_account_title: Configura il tuo account Twitter che verrà utilizzato per postare su Twitter
+      top_admin: 
+        site: Sito
+        title: Amministra

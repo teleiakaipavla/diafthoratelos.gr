@@ -1,0 +1,81 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: Gomoko
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+# Author: Verdy p
+fr: 
+  shared: 
+    any_lang: N’importe quelle langue
+    by_anon: Par anonyme
+    current_tags: 
+      title: Étiquettes sélectionnées
+    description: Description
+    empty: 
+      activities: 
+        description: 
+          text: Cet endroit sera rempli automatiquement une fois que les gens commenceront à utiliser le site.
+        title: Il n'y a aucune activité jusqu'à présent.
+      answers: 
+        description: 
+          text: Soyez le premier !
+        title: Personne n'a encore répondu à cette question.
+      default: 
+        description: 
+          text: Soyez le premier à %{action_link} !
+        title: Désolé ! Il n’y a pas grand chose à voir ici.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Cliquez ici pour voir les questions dans toutes les langues.
+        title: Désolé, aucune question n'est disponible dans cette langue.
+      filtered_questions: 
+        description: 
+          action_link: Cliquez ici pour afficher toutes les questions
+        title: Désolé, aucune question n'est disponible avec ce filtre.
+      questions: 
+        description: 
+          action_link: poser une question
+          text: Soyez le premier à <a href="%{url}"> %{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: maintenant
+          text: créer un %{action_link}
+        title: Vous n'avez créé aucun thème pour le moment.
+    filter: "Filtre:"
+    language: "Langue :"
+    language_filter_tooltip: Essayez avec une autre langue.
+    languages: "Langues:"
+    layout: 
+      footer: 
+        cc_footer: Tout le contenu de Shapado.com et ses données sont disponibles sous la licence %{cc_link}
+        powered_by: Mû par %{source_link} %{version} sous le %{agpl_link}
+    login_drop_down: 
+      sign_up_user_pass: Connectez-vous avec un courriel/mot de passe
+      with_email_pass: Connectez-vous avec votre adresse de courriel
+      with_facebook: avec Facebook
+      with_google: avec Google
+      with_identica: avec Identi.ca
+      with_linked_in: avec LinkedIn
+      with_openid: OpenID
+      with_twitter: avec Twitter
+    manage_navigation: 
+      title_content: Contenu du groupe
+      title_features: Fonctionnalités du groupe
+      title_options: Options du groupe
+    name: Nom
+    preferred_lang: Mes langues préférées
+    quick_question: 
+      random_question: Répondre à une question aléatoire
+    social_connect: 
+      find_friends_facebook: Trouver des amis sur Facebook
+      find_friends_identica: Trouver des amis sur Identi.ca
+      find_friends_linked_in: Trouver des amis sur LinkedIn
+      find_friends_twitter: Trouver des amis sur Twitter
+    topbar: 
+      admin: Administration
+      logged_as: Connecté en tant que %{login}
+      user_page: Ma page
+    view_mode: "Mode d'affichage:"

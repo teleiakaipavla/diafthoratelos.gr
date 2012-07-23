@@ -1,0 +1,71 @@
+@import "setup"
+
+.notice
+  border: 0
+  text-align: center
+  font-size: 18px
+  line-height: 30px
+  font-weight: bold
+  text-shadow: 0 1px 1px black
+  margin: 0px
+
+.error
+  border: 0
+  text-align: center
+  font-size: 18px
+  line-height: 30px
+  font-weight: bold
+  text-shadow: 0 1px 1px black
+  margin: 0px
+
+.message
+  list-style: none
+  background-repeat: repeat-x
+  color: white
+
+  p
+    margin: 0px
+    padding: 0px
+
+.announcement
+  padding: 15px
+  margin-bottom: 5px
+  +normal-radius
+
+.empty
+  padding: 20px
+  overflow: hidden
+  margin: 0
+  width: 505px
+  clear: both
+  img
+    float: left
+    margin: 0 20px
+
+.loading-box
+  display: none
+  position: absolute
+  opacity: .85
+  z-index: 100
+  left: 50%
+  width: 250px
+  margin-left: -220px
+  margin-top: -150px
+  padding: 10px 20px
+  +big-radius
+
+  h1
+    text-align: center
+    font-size: 20px
+    font-weight: normal
+
+  .loading-box-icon
+    position: static
+    display: block
+    opacity: .9
+    margin: 0 auto 10px auto
+    width: 35px
+    height: 35px
+    background: transparent image-url('ajax-loader.gif') 50% no-repeat
+    +huge-radius
+

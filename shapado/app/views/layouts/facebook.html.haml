@@ -1,0 +1,14 @@
+%html
+  %head
+    =stylesheet_link_tag "compiled/facebook_app.css"
+    =stylesheet_link_tag "/javascripts/facebook_app/facebox/facebox.css"
+
+    = render "shared/layout/meta"
+    <!--[if lt IE 8]><link type="text/css" rel="stylesheet" media="screen" href="/stylesheets/ie7.css"><![endif]-->
+    =include_javascripts :facebook
+    <link type="text/css" rel="stylesheet" media="screen" href="http://jqueryui.com/themes/base/jquery.ui.tabs.css">
+
+    = csrf_meta_tag
+  %body{:class => "#{user_signed_in? ? "authenticated" : "unauthenticated"}", :"data-group" => current_group.id}
+    .main-wrapper
+      =yield

@@ -1,0 +1,10 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+fi: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Tarvitsee vahvistusta
+        title: Lähetä vahvistussähköpostiviestit

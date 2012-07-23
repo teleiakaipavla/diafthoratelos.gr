@@ -1,0 +1,34 @@
+# Messages for Arabic (العربية)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DRIHEM
+# Author: Meno25
+# Author: Mutarjem horr
+# Author: OsamaK
+# Author: عمرو
+ar: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: نص الرسالة
+        created_at: تم إنشاؤه في
+        link: الرابط
+    models: 
+      answer: إجابة
+      answers: إجابات
+  answers: 
+    create: 
+      annon_notice: تم تسجيل المستخدم مسبقاً، يرجى تسجيل الدخول.
+      flash_error: "حدث شيئا ما أثناء إضافة جوابك.\nتذكر أن:\n- الأجوبة الفارغة والمكررة غير مسموحة\n- يجب عليك الانتظار 20 ثانية قبل إضافة إجابة أخرى.\n- لا يمكنك إضافة أكثر من إجابة واحدة لنفس السؤال."
+      flash_notice: شكرا لك!
+    edit: 
+      title: حرر الجواب
+    form: 
+      answer_label: أجب على السؤال
+      comment_label: عّلق على هذه الإجابة
+      comment_submit: علّق
+      submit: إجابة
+    revert: 
+      title: أعد الجواب
+    update: 
+      flash_notice: تم تحديث الجواب بنجاح

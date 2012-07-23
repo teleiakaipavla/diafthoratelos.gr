@@ -1,0 +1,20 @@
+= error_messages_for(:announcement)
+
+-if current_group.wysiwyg_editor
+  = f.text_area :message, :class => "text_area wysiwyg_editor", :value => markdown(@announcement.message)
+-else
+  = f.text_area :message, :class => "text_area markdown_editor"
+
+= markdown(@announcement.message)
+
+.field.date-msg
+  = f.label :starts_at, t(:starts_at, :scope => "activerecord.attributes.announcement")
+  = select_datetime(Time.current, :prefix => 'announcement[starts_at]')
+
+.field.date-msg
+  = f.label :ends_at, t(:ends_at, :scope => "activerecord.attributes.announcement")
+  = select_datetime(Time.current.tomorrow, :prefix => 'announcement[ends_at]')
+
+.checkbox
+  = f.check_box :only_anonymous, :class => "checkbox"
+  = f.label :only_anonymous, t(:only_anonymous, :scope => "activerecord.attributes.announcement")

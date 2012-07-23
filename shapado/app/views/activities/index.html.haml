@@ -1,0 +1,31 @@
+
+-content_for :nav_filters do
+  - url_options = {"controller" => "activities", "action" => "index"}
+  %li.all
+    -#i18n
+    = pjax_link_to t('layouts.application.all'), "index", activities_path(:context => params[:context]), {:rel => "nofollow"}
+  %li.questions
+    = pjax_link_to t('layouts.application.questions'), "index", activities_path(:tab=>"questions", :context => params[:context]), {:rel => "nofollow"}
+  %li.answers
+    = pjax_link_to t('activerecord.models.answers'), "index", activities_path(:tab=>"answers", :context => params[:context]), {:rel => "nofollow"}
+  %li.users
+    = pjax_link_to t('layouts.application.users'), "index", activities_path(:tab=>"users", :context => params[:context]), {:rel => "nofollow"}
+  %li.pages
+    = pjax_link_to t('layouts.application.pages'), "index", activities_path(:tab=>"pages", :context => params[:context]), {:rel => "nofollow"}
+
+.activities
+  %section
+    -feed_url = url_for(:format => "atom")
+
+    -content_for :rss do
+      %link{:rel=>"alternate", :type=>"application/atom+xml", :title => "atom", :href=> url_for(:format => "atom")}
+
+    -if @activities.empty?
+      = render "shared/empty", :type => "activities", :url => ""
+    -else
+      -@activities.each do |activity|
+        -next if activity.trackable_type.nil?
+        = render "activities/activity", :activity => activity
+
+    #additional_info
+      =paginate @activities

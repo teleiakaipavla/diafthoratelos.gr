@@ -1,0 +1,27 @@
+%li
+  .top
+    %p.version
+      =t("wiki.history.version")
+      &=number
+      .diff
+        = radio_button_tag("prev", number, prev.to_s == number.to_s)
+        = radio_button_tag("curr", number, curr.to_s == number.to_s)
+
+      %small
+        =#link_to t('.back'), question_path(@question)
+        = render "diff_actions", :post => post, :number => number
+
+  = render "changes", :post => post, :version => version, :scope => scope
+
+  %p.author
+    - owner = User.find(version.owner_id) rescue nil
+    - if owner.nil? || version.respond_to?(:user_id)
+      - owner = User.find(version.user_id)
+    -if !owner.nil?
+      = render "users/user_data", :user => owner
+
+  .version-nav
+    - if @question.versions.count > 0
+      = link_to t("global.previous"), diff_question_path(@question, :curr => :current, :prev => @question.versions.count-1 )
+    - if !@question.version_message.blank?
+      = t('wiki.history.version_summary')

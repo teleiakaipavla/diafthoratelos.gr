@@ -1,0 +1,43 @@
+%div{:data => {:role => "page"}}
+  %div{:data => {:role => "header"}}
+    %h1
+      Listing questions
+
+    =render "shared/mobile/header_actions"
+
+    %div{:"data-role" => "navbar"}
+      %div{:"data-role" => "controlgroup", :"data-type" => "horizontal"}
+        %span{:"data-inline" => true, :style => "margin-left: 15px"}
+          sort questions by
+        %a{:href => questions_path(:format => :mobile, :sort => "newest"), :"data-role" => "button", :"data-transition"=>"slideup"}
+          Newest
+        %a{:href => questions_path(:format => :mobile, :sort => "hot"), :"data-role" => "button", :"data-transition"=>"slideup"}
+          Hot
+        %a{:href => questions_path(:format => :mobile, :sort => "votes"), :"data-role" => "button", :"data-transition"=>"slideup"}
+          Votes
+        %a{:href => questions_path(:format => :mobile, :sort => "activity"), :"data-role" => "button", :"data-transition"=>"slideup"}
+          Active
+
+
+  %div{:data => {:role => "content"}}
+    %ul{:data => {:role => "listview", :filter => "true"}}
+      -@questions.each do |question|
+        %li
+          %a{:href => question_path(question, :format => "mobile"), :class => 'normal-whitespace'}
+            = question.title
+            -if question.closed
+              %strong
+                [closed]
+            -if question.answered
+              %strong
+                [answered]
+
+
+          %a{:href=>question_path(question, :format => "mobile", :actions => true), :"data-rel" => "dialog", :"data-transition" => "flip", "data-icon" => "gear"}
+            actions
+
+          %span{:class=>"ui-li-count"}
+            =question.answers_count
+            answers
+  %div{:data => {:role => "footer"}}
+    =paginate(@questions)

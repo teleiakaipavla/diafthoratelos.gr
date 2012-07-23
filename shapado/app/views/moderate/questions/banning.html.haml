@@ -1,0 +1,6 @@
+%h1
+  = I18n.t('admin.manage.questions.banning.title')
+= @question.title
+= @question.body
+
+= render "moderate/shared/banning_form", :flaggeable => @question

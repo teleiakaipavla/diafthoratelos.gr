@@ -1,0 +1,46 @@
+-title = h(question.title)
+-owner = nil
+- if question.last_target_id.present?
+  - last_target_id = question.last_target_id
+  - last_target_date = question.last_target_date || question.updated_at
+  - owner = question.last_target_user
+-else
+  - last_target = question
+  - last_target_date = question.updated_at
+  - owner = question.user unless question.anonymous
+
+-if question.closed
+  -title += " [#{t("closed", :scope => "activerecord.attributes.question").upcase}]"
+
+%article{:class => class_for_question(question), :id => question.id}
+  %h3
+    -if question.wiki
+      = link_to t('questions.question.wiki_title', :title => title), question_path(question), :title => truncate(strip_tags(question.body), :length => 200)
+    -else
+      = link_to title, question_path(question), :title => truncate(strip_tags(question.body), :length => 200)
+  .question-body
+    .markdown
+      =find_and_preserve(shapado_auto_link(markdown(question.body), :link_users => true))
+
+    .answers-list
+      -question.answers.order(:votes_average.desc).each do |answer|
+        =render "facebook/answer", :answer => answer, :question => question
+
+    .internal-form-wrapper
+      =form_for [question, Answer.new] do |f|
+        =f.text_area :body
+        =f.submit "Answer", :class => "require_login"
+      .clear
+
+  .user-data.small-info
+    -if owner
+      =render :partial => "users/user_data", :locals => {:user => owner}
+    -else
+      = I18n.t('shared.by_anon')
+    %time{:pubdate => "pubdate", :datetime => last_target_date.iso8601}
+      =t("time.ago", :time => time_ago_in_words(last_target_date))
+    ·
+    ==[#{question.followers_count}]
+    =link_to "follow", follow_question_url(question), :class => "follow_question require_login"
+    ·
+    =link_to "view more...", question_url(question), :target => "_blank", :rel => "external"

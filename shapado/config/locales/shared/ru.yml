@@ -1,0 +1,13 @@
+# Messages for Russian (Русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  shared: 
+    current_tags: 
+      title: Выбранные метки
+    topbar: 
+      admin: Администрирование
+      logged_as: Вы вошли как %{login}
+      user_page: Моя страница

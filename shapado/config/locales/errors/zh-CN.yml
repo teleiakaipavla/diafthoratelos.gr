@@ -1,0 +1,22 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  errors: 
+    forbidden: 
+      explanation: 您没有访问此页所需的权限。
+      title: 访问被拒绝
+    go_to: 请转到 %{link} 页
+    help_us_answer: 帮助我们回答 %{link}
+    internal_error: 
+      explanation: 我们已通知有关这一问题，我们将于短期内看看它。
+      title: 我们很抱歉，但出了故障。
+    not_found: 
+      explanation: 您可能键入了错误的地址或页面可能已移动。
+      title: 找不到页面。
+    options_label: 请尝试其他事项：
+    search: 搜索
+    unprocessable_entity: 
+      explanation: 也许您尝试更改你得不到的东西。
+      title: 您想要的更改被拒绝。

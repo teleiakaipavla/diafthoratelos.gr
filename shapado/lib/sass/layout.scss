@@ -1,0 +1,60 @@
+/* layout.scss */
+
+@if($fluid) {
+  #container #columns {
+    width: 95%;
+    min-width: 1000px;
+    section#column1 {
+      width: 13.7%;
+    }
+    section#column2 {
+      width: 54.5%;
+      &.nosidebar {
+        width: 85%;
+      }
+    }
+    section#column3 {
+      width: 31%;
+    }
+    #main-content-wrap article h2 {
+      width: 100%;
+    }
+  }
+  body.classic #container #columns section#column2 {
+    width: 68.5%;
+  }
+
+  .footer-widgets {
+    max-width: 95%;
+  }
+
+  .header-widgets {
+    width: 86%;
+  }
+}
+
+#container #columns {
+  background-color: $view_bg_color;
+  border-left: 1px solid $border_color;
+  border-right: 1px solid $border_color;
+  #column2, header {
+    border-right: 1px solid $border_color;
+  }
+  #column1 {
+    border-right: 1px solid $border_color;
+  }
+}
+
+#container>footer {
+  background-color: darken($view_bg_color, 10%);
+}
+
+.user-data {
+  color: ligthen($fg_color, 53%);
+    a {
+      color: ligthen($fg_color, 53%);
+      &.user-link {
+        color: $brand_color;
+        &:visited {
+          color: ligthen($brand_color, 50%)
+      } } } }

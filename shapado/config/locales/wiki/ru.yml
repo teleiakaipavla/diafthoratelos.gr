@@ -1,0 +1,22 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+ru: 
+  wiki: 
+    actions: 
+      all_history: Возврат к истории
+      back_to_question: Возврат к вопросу
+      revert: Откатить к этой версии
+      show_diff: Сравнить выбранные верии
+    diff: 
+      title: Различия между %{prev} и %{curr}
+    history: 
+      current_version: Текущая версия
+      previous_versions: Предыдущие версии
+      title: История (%{count})
+      version: Версия
+      version_summary: Краткое описание версии
+    model: 
+      attributes: 
+        message: Краткое описание

@@ -1,0 +1,18 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  comments: 
+    create: 
+      flash_notice: ستاسې له تبصرې نه مننه
+    edit: 
+      title: تبصره سمول
+    shared: 
+      add_comment: تبصره ورګډول...
+      comment_submit: تبصره
+      reply: ځوابول
+      said: ووييل
+  models: 
+    comment: تبصره
+    comments: تبصرې

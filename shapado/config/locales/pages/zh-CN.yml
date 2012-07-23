@@ -1,0 +1,33 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: 样式表
+        js: JavaScript
+    models: 
+      page: 页
+      pages: 页
+  pages: 
+    actions: 
+      create_page: 创建新页
+      edit_page: 编辑页
+      title: 行动
+    create: 
+      success: 已成功创建页。
+    edit: 
+      title: 编辑网页
+    form: 
+      language_tip: 网页语言
+    index: 
+      create_page: 创建新页
+      title: 页面的列表
+      written_in: 以 %{language} 写的
+    new: 
+      title: 新的页面
+    title: 修正
+    update: 
+      success: 已成功更新页。

@@ -1,0 +1,36 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Stilski obrasci
+        js: Javaskript
+    models: 
+      page: Stranica
+      pages: Stranice
+  pages: 
+    actions: 
+      create_page: Napravi novu stranicu
+      edit_page: Uredi stranicu
+      title: Radnje
+    create: 
+      success: Stranica je napravljena.
+    edit: 
+      title: Uređivanje stranice
+    form: 
+      language_tip: Jezik stranice
+      title_tip: Koristite naslov stranice za navođenje. Na primer, pogledajte [[FAQ|često postavljena pitanja]]
+    index: 
+      create_page: Napravi novu stranicu
+      title: Spisak stranica
+      wiki: Viki
+      wiki_pages: Viki stranice
+      written_in: Napisano na %{language}
+    new: 
+      title: Nova stranica
+    title: Popravljanje
+    update: 
+      success: Stranica je ažurirana.

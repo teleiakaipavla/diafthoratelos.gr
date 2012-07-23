@@ -1,0 +1,2 @@
+= form_for(:answer, :url => question_answer_path(question, answer), :html => {:method => :put, :class => "form edit_answer"}) do |f|
+  = render :partial => "answers/form", :locals => {:f => f, :markdown => true,:question => question}

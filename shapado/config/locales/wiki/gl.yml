@@ -1,0 +1,22 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  wiki: 
+    actions: 
+      all_history: Volver ao historial
+      back_to_question: Volver á pregunta
+      revert: Reverter ata esta versión
+      show_diff: Comparar as versións seleccionadas
+    diff: 
+      title: Diferenzas entre %{prev} e %{curr}
+    history: 
+      current_version: Versión actual
+      previous_versions: Versións anteriores
+      title: Historial (%{count})
+      version: Versión
+      version_summary: Resumo da versión
+    model: 
+      attributes: 
+        message: Resumo

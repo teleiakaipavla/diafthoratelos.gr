@@ -1,0 +1,23 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giro720
+# Author: Hamilton Abreu
+pt-PT: 
+  wiki: 
+    actions: 
+      all_history: Retornar ao histórico
+      back_to_question: Voltar à pergunta
+      revert: Reverter para esta versão
+      show_diff: Compare as versões seleccionadas
+    diff: 
+      title: Diferenças entre %{prev} e %{curr}
+    history: 
+      current_version: Versão actual
+      previous_versions: Versões anteriores
+      title: Histórico (%{count})
+      version: Versão
+      version_summary: Resumo da versão
+    model: 
+      attributes: 
+        message: Resumo

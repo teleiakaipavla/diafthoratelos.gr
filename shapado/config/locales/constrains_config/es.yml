@@ -1,0 +1,8 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  activemodel: 
+    models: 
+      constrains_config: Configuración de restringe de reputación

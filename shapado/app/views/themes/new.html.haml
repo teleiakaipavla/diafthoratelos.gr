@@ -1,0 +1,7 @@
+%h1
+  = t(".title", :default => "New theme")
+%p.description
+  In here you can create a new look and feel for your project, define colors, backgrounds and all that needs to be set in order to get you custom look.
+
+= form_for @theme, :html => {:multipart => true} do |form|
+  = render "form", :form => form

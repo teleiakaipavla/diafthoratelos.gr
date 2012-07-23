@@ -1,0 +1,12 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  rewards: 
+    close: 
+      error: Треба да сачекате %{time} пре него што доделите награду.
+    start: 
+      active_notice: Ово питање већ има активну награду.
+      reputation_notice: Немате довољно угледа да направите награду за ово питање.
+      wait_notice: Треба да сачекате два дана пре него што понудите награду за ово питање.

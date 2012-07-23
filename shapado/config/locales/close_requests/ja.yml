@@ -1,0 +1,33 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: 青子守歌
+ja: 
+  close_requests: 
+    create: 
+      flash_notice: 終了申請しました
+    destroy: 
+      flash_notice: 終了申請を破棄しました
+    edit: 
+      title: 閉じられた要求を編集する
+    form: 
+      close_with_reason: この質問を閉じる際の理由として使う
+      dupe: 重複
+      no_question: 質問ではない
+      not_relevant: 適切でない
+      ot: 主題からずれている
+      request_closing_details: この質問を閉じる申請をする
+      spam: スパム
+    index: 
+      title: 終了申請の一覧
+    model: 
+      attributes: 
+        comment: コメント
+        reason: 理由
+        user: ユーザ
+      messages: 
+        already_requested: 既に終了申請をしています
+      name: 終了申請
+      prural_name: 終了申請
+    update: 
+      flash_notice: 終了申請を更新しました

@@ -1,0 +1,32 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giallu
+it: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Motivo
+    models: 
+      flag: Segnalazione
+      flags: Segnalazioni
+  flags: 
+    create: 
+      flash_error: Impossibile segnalare questo
+      flash_notice: Grazie per la segnalazione
+    destroy: 
+      flash_notice: La segnalazione è stata revocata.
+    edit: 
+      title: Modifica segnalazione %{model}
+    form: 
+      attention: Richiede controllo di un moderatore
+      label: Segnala accuratamente
+      offensive: Offensivo, ingiurioso o incitante all'odio
+      spam: Spam
+    model: 
+      messages: 
+        already_requested: "%{model} già segnalato"
+    new: 
+      title: Segnala %{model}
+    update: 
+      flash_notice: La segnalazione della domanda è stata aggiornata.

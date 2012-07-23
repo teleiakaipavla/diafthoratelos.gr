@@ -1,0 +1,56 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+# Author: 青子守歌
+ja: 
+  feeds: 
+    feed: フィード
+    post_new_questions: 新しい質問を以下に投稿：
+    question: この質問をフィードで購読
+    questions: すべての質問をフィードで購読
+    share_on_twitter: Twitter、Facebookなど
+    tag: このタグの質問をフィードで購読
+    user: このユーザの質問をフィードで購読
+  global: 
+    active: 有効化
+    by: によって
+    current: 現在
+    from: "%{site}から"
+    group_not_found: このページ%{url}はありません
+    or: または
+    permission_denied: 権限がありません
+    please_login: ログインしてください
+    preview: プレビュー
+    previous: 前
+    share: share
+    unknown_place: 不明
+  models: 
+    question: 質問
+  roles: 
+    moderator: モデレータ
+    user: 通常ユーザ
+  scaffold: 
+    add: 追加
+    are_you_sure: 本当によろしいですか?
+    back: 戻る
+    cancel: キャンセル
+    close: 閉じる
+    create: 作成
+    destroy: 削除
+    details: 詳細
+    edit: 編集
+    more: " もっと見る"
+    new: "%{model}を追加"
+    save: 保存
+    send: 送信
+    show: 表示
+    sure: 本当に%{model}を削除しますか？
+    update: 更新
+  time: 
+    ago: "%{time}前"
+    today: 今日
+    yesterday: 昨日
+  views: 
+    pagination: 
+      truncate: ...

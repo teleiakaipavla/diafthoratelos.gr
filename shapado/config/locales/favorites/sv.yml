@@ -1,0 +1,13 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  activerecord: 
+    models: 
+      favorite: Favorit
+      favorites: Favoriter
+  favorites: 
+    create: 
+      success: Frågan har lagts till i dina favoriter
+      unauthenticated: Du behöver ett konto för att lägga till favoriter

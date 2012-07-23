@@ -1,0 +1,21 @@
+%meta{"data-js"=> 'show'}
+
+%h1= t('.title')
+%p.description
+  = t('questions.new.title')
+
+= form_for(@question, :url => question_path(@question), :html => {:class => "question-form", :multipart => true}) do |f|
+
+  =render :partial => "form", :locals => {:f => f}
+
+  .field.form-options
+    .checkbox
+      = f.label :wiki, "Wiki"
+      = f.check_box :wiki
+
+    .buttons
+      = f.submit t("scaffold.update"), :class => "save"
+      = t("global.or")
+      = link_to t('scaffold.cancel'), questions_path
+
+

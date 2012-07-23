@@ -1,0 +1,153 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Hzy980512
+zh-CN: 
+  activerecord: 
+    models: 
+      badge: 徽章
+      badges: 徽章
+  badges: 
+    index: 
+      description: 您可以获得的所有标记。分享你的知识赚取徽章。
+      title: 徽章
+    shared: 
+      addict: 
+        description: 访问站点的连续 20 天的每一天
+        name: 瘾君子
+      autobiographer: 
+        description: 完成所有用户配置文件字段
+        name: 散文家
+      celebrity: 
+        description: 有 100 多个追随者
+        name: 名人
+      citizen_patrol: 
+        description: 已标记的第一篇
+        name: 公民巡逻
+      civic_duty: 
+        description: 投票 300 倍
+        name: 公民责任
+      cleanup: 
+        description: 作出第一回滚
+        name: 清理
+      commentator: 
+        description: 剩下 10 个评论
+        name: 评论员
+      critic: 
+        description: 第一次产生负面的投票
+        name: 评论家
+      disciplined: 
+        description: 已删除自己的帖子，3 或更高的分数
+        name: 纪律
+      editor: 
+        description: 第一次编辑一篇文章
+        name: 编辑器
+      effort_medal: 
+        description: 有 100 票赞成
+        name: 努力奖章
+      enlightened: 
+        description: 有至少 10 票被接受的答案
+        name: 开明
+      famous_question: 
+        description: 问了一个问题 10000 的意见
+        name: 著名的问题
+      fanatic: 
+        description: 访问站点连续 100 天的每一天
+        name: 狂热
+      favorite_question: 
+        description: 问了一个被25个用户关注的问题
+        name: 最喜欢的问题
+      friendly: 
+        description: 启动后的第一次有人
+        name: 友好
+      good_answer: 
+        description: 回答达到平均超过 25 票
+        name: 好的回答
+      good_question: 
+        description: 问了一个问题，达到平均超过 25 票
+        name: 很好的问题
+      great_answer: 
+        description: 有一个答案投票 100 倍
+        name: 很好的答案
+      great_question: 
+        description: 问了一个问题投票 100 倍
+        name: 伟大的问题
+      guru: 
+        description: 一种解决方案给平均的 40 多个票的问题
+        name: 大师
+      inquirer: 
+        description: 问了一个问题，第一次
+        name: 问询报
+      interesting_person: 
+        description: 有 10 多个追随者
+        name: 很有趣的人
+      merit_medal: 
+        description: 有二百积极票
+        name: 奖章
+      necromancer: 
+        description: 回答后 60 天以后至少 5 票
+        name: 一早就该这样
+      nice_answer: 
+        description: 有一个答案投票 10 倍
+        name: 好的答案
+      nice_question: 
+        description: 问了一个问题投票 10 倍
+        name: 好问题
+      notable_question: 
+        description: 问了一个问题与 2500 视图
+        name: 值得注意的问题
+      organizer: 
+        description: 取得第一次重新添加
+        name: 主办单位
+      peer_pressure: 
+        description: 已删除自己的开机自检-3 或更低的分数
+        name: 同伴的压力
+      pioneer: 
+        description: 是第一次用户注册
+        name: 先锋
+      popstar: 
+        description: 有 500 票赞成、 10 负票最高
+        name: 歌星
+      popular_person: 
+        description: 有 50 多个追随者
+        name: 受欢迎的人
+      popular_question: 
+        description: 问了一个问题，与 1000 的意见
+        name: 热门问题
+      rockstar: 
+        description: 有 1000 票赞成、 10 负票最高
+        name: 摇滚明星
+      scholar: 
+        description: 第一次回答自己问一个公认的答案的问题
+        name: 学者
+      self-learner: 
+        description: 一个自己地回答了问题至少 3 票
+        name: 自我学习
+      service_medal: 
+        description: 有三百积极票
+        name: 服务奖章
+      shapado: 
+        description: 访问站点连续 8 天的每一天
+      stellar_question: 
+        description: 问了一个25个用户关注的问题
+        name: 恒星的问题
+      student: 
+        description: 问了一个问题，至少一个投票了
+        name: 学生
+      supporter: 
+        description: 第一次积极投票
+        name: 支持者
+      troubleshooter: 
+        description: 第一次回答
+        name: 故障诊断程序
+      tutor: 
+        description: 一种解决方案给平均的 2 个以上票的问题
+        name: 导师
+    show: 
+      description: 赢得此标记的用户。最近获得：
+      earned: 赢得
+      for_tag_bronze: 200 票一天 %{tag}
+      for_tag_gold: 1000 票一天 %{tag}
+      for_tag_silver: 400 票一天 %{tag}
+      title: 徽章 %{type}

@@ -1,0 +1,25 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  mailers: 
+    notifications: 
+      earned_badge: 
+        subject: Du har tjänat ett emblem på %{group}!
+      favorited: 
+        subject: "%{login} la till din fråga som en av hans/hennes favoriter!"
+      follow: 
+        subject: "%{login} följer nu dig på %{app}"
+      give_advice: 
+        friend_subject: "Din vän behöver hjälp: %{question_title}"
+        subject: "Vi behöver ditt råd: %{question_title}"
+      new_answer: 
+        subject_friend: Din vän %{login} besvarade frågan %{title}
+        subject_other: "%{login} besvarade frågan %{title}"
+        subject_owner: "%{login} besvarade din fråga %{title}"
+      new_comment: 
+        subject: "%{login} kommenterade %{group}"
+      report: 
+        subject: Rapportera för gruppen %{group} av %{app}

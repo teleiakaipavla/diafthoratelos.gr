@@ -1,0 +1,19 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  activerecord: 
+    models: 
+      activities: Kegiatan
+      activity: Kegiatan
+  activity: 
+    asked: ditanyakan
+    changed: diubah
+    created: dicipta
+    deleted: dihapuskan
+    destroyed: dihapuskan
+    flagged: dibenderakan
+    requested_to_close: diminta supaya ditutup
+    requested_to_open: diminta supaya dibuka
+    updated: dikemas kini

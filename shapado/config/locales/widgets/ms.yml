@@ -1,0 +1,118 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  widgets: 
+    about: 
+      description: Widget ini memaparkan keterangan ringkas tentang kumpulan anda.
+      title: Perihal
+    adsense: 
+      description: Widget ini membolehkan anda untuk memaparkan iklan Google AdSense.
+      title: AdSense
+    ask_question: 
+      ask: Tanya
+      description: Widget ini membenarkan pengguna untuk menanyakan soalan-soalan dari mana-mana.
+      footer: Lihat semua soalan di %{group}
+      title: "Tanyakan soalan:"
+      view_question: <p>Anda boleh melihatnya <a href="%{question}">di sini</a> atau tanyakan satu lagi di bawah.</p>
+    badges: 
+      description: Widget ini memaparkan lencana-lencana terbaru yang diraih oleh pengguna.
+      see_all: Lihat semua rencana
+      title: Lencana terkini
+    contributors: 
+      description: Widget ini memaparkan senarai orang yang menyumbang kepada soalan.
+      title: Penyumbang Soalan
+    create: 
+      notice: Widget berjaya dicipta.
+    current_tags: 
+      description: Widget ini memaparkan tag-tag yang diikuti oleh pengguna semasa.
+    custom_html: 
+      description: Tambahkan sebarang jenis HTML yang anda mahu di sini.
+    edit: 
+      title: Sunting Widget
+    group_networks: 
+      description: Widget ini memaparkan senarai pautan rangkaian sosial supaya pengguna-pengguna anda boleh mengikuti anda di situ.
+      title: Ikuti kami
+    groups: 
+      description: Widget ini memaparkan kumpulan terbaru
+      title: Kumpulan terbaru
+    index: 
+      add_new: Tambahkan widget baru
+      description: Gunakan anak panah untuk mengalihkan widget-widget anda
+      external_widgets: Luaran
+      external_widgets_title: Widget yang boleh anda benamkan dalam laman anda sendiri
+      footer: Pembawah
+      header: Pengatas
+      mainlist_widgets: Senarai utama
+      mainlist_widgets_title: Widget yang muncul di senarai utama soalan
+      name: Nama widget
+      navbar: Bar pandu arah
+      question_widgets: Soalan
+      question_widgets_title: Widget yang muncul di setiap laman soalan
+      sidebar: Bar sisi
+      title: Uruskan widget bar sisi
+      type: "Jenis:"
+      welcome_widgets: Selamat Datang
+      zone: "Bahagian halaman:"
+    mod_info: 
+      description: Widget ini menunjukkan maklumat yang relevan kepada pengawal selia seperti bendera dan permohonan laporan.
+    pages: 
+      description: Widget ini memaparkan senarai laman wiki
+      new: Tambahkan laman baru
+      title: Laman wiki
+    question_badges: 
+      description: Widget ini memaparkan lencana-lencana yang diraih pada soalan itu.
+      title: Lencana Soalan
+    question_stats: 
+      description: Widget ini memaparkan statistik tentang soalan seperti tarikh penciptaan dan jumlah kunjungan.
+    question_tags: 
+      description: Widget ini memaparkan tag-tag yang berkaitan pada laman semasa.
+      title: Tag Soalan
+    related_questions: 
+      description: Widget ini menunjukkan senarai soalan yang berkaitan dengan soalan semasa.
+      title: Soalan Berkaitan
+    settings: 
+      code: "Salin dan tampalkan kod ini pada tapak dan blog anda, seperti widget teks di Wordpress anda:"
+      custom_external_css: "Sertakan CSS tersuai pada widget anda (disaran jika anda tidak menyertakan CSS Shapado):"
+      custom_html: "Html tersuai:"
+      exclude_css_on_external: Kecualikan CSS tapak Shapado anda daripada widget anda
+      limit: "Kuantiti untuk dipaparkan:"
+      on_questions: Tunjukkan di laman senarai utama Soalan
+      on_show_question: Tunjukkan ketika memaparkan soalan
+      on_welcome: Tunjukkan di laman Selamat Datang
+      preview: "Pralihat widget:"
+    share: 
+      description: Widget ini memaparkan pelbagai butang untuk mengkongsikan laman semasa kepada rangkaian sosial.
+      title: Kongsi di
+    sharing_buttons: 
+      description: Widget ini memaparkan butang-butang perkongsian sosial
+      title: Kongsikan yang ini di
+    suggestions: 
+      description: Cadangan rakan dan tag untuk diikuti pengguna
+      follow_tag: + Ikuti tag
+      follow_user: + Ikuti pengguna
+      followed_by: Diikuti oleh %{user}
+      title: Orang dan Tag untuk Diikuti
+      unfollow_tag: "- Berhenti ikut tag"
+      unfollow_user: "- Berhenti ikut pengguna"
+    tag_cloud: 
+      description: Widget ini memaparkan awan tag
+      title: Awan tag
+    tag_list: 
+      description: Widget ini memaparkan tag-tag yang berkaitan pada laman semasa.
+      title: Tag
+    top_groups: 
+      description: Widget ini memaparkan lima kumpulan paling aktif
+      has_members: "%{count} ahli"
+      title: 5 kumpulan terunggul
+    top_users: 
+      description: Widget ini memaparkan lima pengguna paling aktif
+      title: 5 pengguna teratas
+    update: 
+      notice: Widget berjaya dikemas kini.
+    users: 
+      description: Widget ini memaparkan ahli-ahli yang baru berdaftar
+      title: Pengguna terkini
+    widget: 
+      change_position: "Ubah kedudukan widget:"

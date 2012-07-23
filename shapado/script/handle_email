@@ -1,0 +1,61 @@
+#!/usr/bin/env ruby
+
+require 'mail'
+require 'fileutils'
+require 'bson'
+require 'json'
+
+APP_ROOT = File.expand_path("../..", __FILE__)
+EMAIL_DIR = APP_ROOT+"/tmp/emails"
+
+sender_email = ENV["SENDER"]
+recipient_email = ENV["RECIPIENT"]
+
+to, question_id = recipient_email.split("@").first.split("+", 2)
+exit if question_id.nil?
+
+group_slug, question_id = question_id.split("-", 2)
+
+mail = Mail.read_from_string(STDIN.read)
+
+data = {}
+data["user_email"] = sender_email
+if question_id
+  data["question_id"] = question_id
+else
+  data["title"] = mail.subject
+end
+
+data["subdomain"] = group_slug
+data["created_at"] = mail.date
+
+body_lines = []
+if mail.multipart?
+  mail.parts.each do |part|
+    if !part.attachment? && part.content_type =~ /text/
+      part.body.decoded.each_line do |line|
+        break if line =~ /^>  %%.+%%$/
+        body_lines << line
+      end
+      break
+    end
+  end
+else
+  data["body"] = ""
+  mail.body.decoded.each_line do |line|
+    break if line =~ /^>  %%.+%%$/
+    body_lines << line
+  end
+end
+
+if body_lines.size > 2
+  body_lines.pop
+  body_lines.pop
+end
+data["body"] = body_lines.join("\n")
+
+path = "#{EMAIL_DIR}/#{group_slug}"
+FileUtils.mkpath(path)
+File.open("#{path}/#{BSON::ObjectId.new.to_s}", "w") do |f|
+  f.write data.to_json
+end

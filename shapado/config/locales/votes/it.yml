@@ -1,0 +1,38 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+# Author: McDutchie
+it: 
+  activerecord: 
+    models: 
+      vote: Voto
+      votes: Voti
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Tu e %{votes} altri utenti avete votato positivamente questo commento.
+        no_user_more_votes: Più di %{votes} persone hanno votato favorevolmente questo commento, clicca per votarlo anche tu.
+        no_user_no_vote: Clicca per votare positivamente questo commento.
+        no_user_one_vote: Solo un utente ha votato positivamente questo commento, fare clic per votarlo anche tu.
+        one_vote_two_users: Tu e 1 altro utente avete votato positivamente questo commento.
+        one_vote_user: Solo tu hai votato positivamente questo commento.
+    control: 
+      have_voted_down: Clicca per annullare il voto negativo
+      have_voted_up: Clicca per annullare il voto positivo
+      to_vote_down: Clicca per voto negativo
+      to_vote_up: Clicca per voto positivo
+    create: 
+      average: 
+        one: "%{count} voto"
+        other: "%{count} voti"
+      flash_error: Impossibile votare questo
+      flash_notice: Grazie per il voto!
+      unauthenticated: Gli utenti anonimi non possono votare
+    destroy: 
+      flash_notice: Il voto è stato revocato
+    model: 
+      messages: 
+        closed_question: Non è possibile votare i post appartenenti a una domanda chiusa
+        vote_down_comment: Non si può votare negativamente un commento

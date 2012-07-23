@@ -1,0 +1,10 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Χρειάζεται επιβεβαίωση
+        title: Αποστολή email επιβεβαίωσης

@@ -1,0 +1,10 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Потребна је потврда
+        title: Слање потврдних порука

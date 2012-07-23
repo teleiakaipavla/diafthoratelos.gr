@@ -1,0 +1,24 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  mailers: 
+    notifications: 
+      earned_badge: 
+        subject: Έχετε κερδίσει ένα τίτλο στο %{group}!
+      favorited: 
+        subject: Ο/η %{login} προσέθεσε την ερώτησή σας στις αγαπημένες του!
+      follow: 
+        subject: Ο/η %{login} σας ακολουθεί τώρα στο %{app}
+      give_advice: 
+        friend_subject: "Ο/η φίλος/η σας χρειάζεται βοήθεια: %{question_title}"
+        subject: "Χρειαζόμαστε τη συμβουλή σας: %{question_title}"
+      new_answer: 
+        subject_friend: Ο/η φίλος/η σας %{login} απάντησε στην ερώτηση %{title}
+        subject_other: Ο/η %{login} απάντησε στην ερώτηση %{title}
+        subject_owner: Ο/η %{login} απάντησε στην ερώτησή σας %{title}
+      new_comment: 
+        subject: Ο/η %{login} σχολίασε στο %{group}
+      report: 
+        subject: Αναφορά για την ομάδα %{group} του %{app}

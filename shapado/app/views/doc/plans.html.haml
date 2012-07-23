@@ -1,0 +1,146 @@
+- if @group.owner == current_user
+  - upgrade = t('global.upgrade')
+  - downgrade = t('global.downgrade_to_free')
+- else
+  - upgrade = t('global.sign_up')
+  - downgrade = upgrade
+
+#main-content-wrap
+  .top
+    %h1=t('.title')
+
+  .plans-table
+    .each.first
+      .header
+        %h2= t('.optimum')
+        %p= t('.huge_sites')
+      .features
+        %ul
+          %li= t('.unlimited')
+          %li.tipsy-plans{title: t('.custom_domain_tip')}= t('.custom_domain')
+          %li.tipsy-plans{title: t('.basic_styling_tip')}= t('.basic_styling')
+          %li.tipsy-plans{title: t('.custom_html_tip')}= t('.custom_html')
+          %li.tipsy-plans{title: t('.custom_js_tip')}= t('.custom_js')
+          %li.tipsy-plans{title: t('.custom_ads_tip')}= t('.custom_ads')
+          %li.tipsy-plans{title: t('.custom_analytics_tip')}= t('.custom_analytics')
+          %li= t('.247_all_support')
+      .bottom
+        .price== $999/#{t('.month')}
+        .button
+          = form_for(:invoice, :url => upgrade_group_path(@group, :group_id => params[:group_id], :plan => "optimum"), :html => {:class => 'plans-form'}) do |f|
+            = f.button upgrade
+
+
+    .each
+      .header
+        %h2= t('.maximum')
+        %p= t('.big_sites')
+      .features
+        %ul
+          %li= t('.15millions')
+          %li.tipsy-plans{title: t('.custom_domain_tip')}= t('.custom_domain')
+          %li.tipsy-plans{title: t('.basic_styling_tip')}= t('.basic_styling')
+          %li.tipsy-plans{title: t('.custom_html_tip')}= t('.custom_html')
+          %li.tipsy-plans{title: t('.custom_js_tip')}= t('.custom_js')
+          %li.tipsy-plans{title: t('.custom_ads_tip')}= t('.custom_ads')
+          %li.tipsy-plans{title: t('.custom_analytics_tip')}= t('.custom_analytics')
+          %li= t('.all_support')
+      .bottom
+        .price== $749/#{t('.month')}
+        .button
+          = form_for(:invoice, :url => upgrade_group_path(@group, :group_id => params[:group_id], :plan => "maximum"), :html => {:class => 'plans-form'}) do |f|
+            = f.button upgrade
+
+    .each
+      .header
+        %h2= t('.premium')
+        %p= t('.getting_popular')
+      .features
+        %ul
+          %li= t('.5millions')
+          %li= t('.custom_domain')
+          %li= t('.basic_styling')
+          %li= t('.custom_html')
+          %li= t('.custom_js')
+          %li= t('.custom_ads')
+          %li= t('.custom_analytics')
+          %li= t('.all_support')
+      .bottom
+        .price==$249/#{t('.month')}
+        .button
+          = form_for(:invoice, :url => upgrade_group_path(@group, :group_id => params[:group_id], :plan => "premium"), :html => {:class => 'plans-form'}) do |f|
+            = f.button upgrade
+
+    .each.selected
+      .header
+        %h2= t('.plus')
+        %p= t('.start_monetizing')
+      .features
+        %ul
+          %li= t('.1million')
+          %li.tipsy-plans{title: t('.custom_domain_tip')}= t('.custom_domain')
+          %li.tipsy-plans{title: t('.basic_styling_tip')}= t('.basic_styling')
+          %li.tipsy-plans{title: t('.custom_html_tip')}= t('.custom_html')
+          %li.tipsy-plans{title: t('.custom_js_tip')}= t('.custom_js')
+          %li.tipsy-plans{title: t('.custom_ads_tip')}= t('.custom_ads')
+          %li.tipsy-plans{title: t('.custom_analytics_tip')}= t('.custom_analytics')
+          %li= t('.all_support')
+      .bottom
+        .price==$49/#{t('.month')}
+        .button
+          = form_for(:invoice, :url => upgrade_group_path(@group, :group_id => params[:group_id], :plan => "plus"), :html => {:class => 'plans-form'}) do |f|
+            = f.button upgrade
+
+    .each
+      .header
+        %h2= t('.basic')
+        %p= t('.small_basic')
+      .features
+        %ul
+          %li= t('.unlimited')
+          %li= t('.custom_domain')
+          %li= t('.basic_styling')
+          %li= t('.custom_analytics')
+          %li= t('.web_support')
+      .bottom
+        .price==$9/#{t('.month')}
+        .button
+          = form_for(:invoice, :url => upgrade_group_path(@group, :group_id => params[:group_id], :plan => "basic"), :html => {:class => 'plans-form'}) do |f|
+            = f.button upgrade
+
+
+    .each.last
+      .header.tipsy-plans{title: t('.private_tip')}
+        %h2.private= t('.private')
+        %p= t('.private_private')
+      .features
+        %ul
+          %li= t('.unlimited')
+          %li= t('.custom_domain')
+          %li= t('.basic_styling')
+          %li= t('.custom_html')
+          %li= t('.custom_js')
+          %li= t('.custom_ads')
+          %li= t('.custom_analytics')
+          %li= t('.web_support')
+      .bottom
+        .price==$2/#{t('.month')}/#{t('.user')}
+        .button
+          = form_for(:invoice, :url => upgrade_group_path(@group, :group_id => params[:group_id], :plan => "private"), :html => {:class => 'plans-form'}) do |f|
+            = f.button upgrade
+
+  - if !['free', 'legacy_public', 'legacy_private'].include?(@group.shapado_version.token) && user_signed_in? && current_user.owner_of?(@group)
+    %p.free-offer
+      = t(".we_offer")
+      = t(".free_plan")
+      = t(".with_unlimited")
+    = form_for(:invoice, :url => downgrade_group_path(@group, :group_id => params[:group_id]), :html => {:class => 'downgrade-form'}) do |f|
+      = button_tag downgrade
+  - elsif !user_signed_in? || !current_user.owner_of?(@group)
+    %p.free-offer
+      = t(".we_offer")
+      = t(".free_plan")
+      = t(".with_unlimited")
+    = form_for(:invoice, :url => upgrade_group_path(@group, :group_id => params[:group_id], :plan => "free"), :html => {:class => 'downgrade-form'}) do |f|
+      = f.button upgrade
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="100px"
+   height="76.434px"
+   viewBox="0 0 100 76.434"
+   enable-background="new 0 0 100 76.434"
+   xml:space="preserve"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="default-avatar.svg"
+   inkscape:export-filename="/home/pat/gitreps/shapado/app/assets/images/default-avatar-small.png"
+   inkscape:export-xdpi="28.709999"
+   inkscape:export-ydpi="28.709999"><metadata
+   id="metadata2992"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs2990" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1025"
+   id="namedview2988"
+   showgrid="false"
+   inkscape:zoom="3.8202895"
+   inkscape:cx="0.52730951"
+   inkscape:cy="38.216999"
+   inkscape:window-x="-2"
+   inkscape:window-y="-3"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+
+<rect
+   style="fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.62050402000000004;stroke-opacity:0"
+   id="rect2982"
+   width="98.379501"
+   height="98.379501"
+   x="1.3572984"
+   y="-22.77927"
+   inkscape:export-filename="/home/pat/gitreps/shapado/app/assets/images/default-avatar-big.png"
+   inkscape:export-xdpi="124.98384"
+   inkscape:export-ydpi="124.98384" /><path
+   d="M 98.831981,67.271558 C 96.715981,54.408079 67.595976,55.775832 60.577976,45.700873 59.097977,43.574435 59.097977,43.574435 60.089977,35.678928 c 1.693999,-8.837972 3.228999,-3.352822 5.650999,-20.980469 2.034,-14.80378179 -1.782479,-23.8600688 -14.959478,-23.8600688 -13.177,0 -18.040521,9.05628701 -16.006521,23.8600688 2.422,17.627647 3.956,12.142497 5.651,20.980469 0.992,7.895507 0.992,7.895507 -0.488,10.021945 -7.018,10.074959 -36.1380103,8.707206 -38.2540103,21.570685 -0.251,1.522082 -1.42599995,9.947726 -1.42599995,9.947726 l 100.00001325,0 c 0,0 -1.174999,-8.425644 -1.425999,-9.947726 z"
+   id="path2986-6"
+   inkscape:export-filename="/home/pat/gitreps/shapado/app/assets/images/default-avatar-big.png"
+   inkscape:export-xdpi="124.98384"
+   inkscape:export-ydpi="124.98384"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cccssscccccc" /></svg>

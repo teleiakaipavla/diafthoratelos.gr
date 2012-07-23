@@ -1,0 +1,13 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    models: 
+      favorite: Favorito
+      favorites: Favoritos
+  unfavorites: 
+    create: 
+      success: Eliminouse a pregunta dos seus favoritos
+      unauthenticated: Necesita unha conta para eliminar un favorito

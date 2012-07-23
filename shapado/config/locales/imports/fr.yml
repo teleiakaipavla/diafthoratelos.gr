@@ -1,0 +1,10 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+fr: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Ont besoin de confirmation
+        title: Envoyer les emails de confirmation

@@ -1,0 +1,16 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    models: 
+      activities: مشغولاوې
+      activity: مشغولا
+  activity: 
+    asked: پوښتلی
+    changed: بدلېدلی
+    created: جوړ شو
+    deleted: ړنګ شو
+    destroyed: ړنګ شو
+    updated: اوسمهالېدلی

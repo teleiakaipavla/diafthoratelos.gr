@@ -1,0 +1,108 @@
+- if @version.uses_stripe?
+  - content_for :js do
+    = javascript_include_tag "https://js.stripe.com/v1/"
+    = javascript_include_tag "payments/application"
+  - form_button = t('invoices.form.checkout')
+- else
+  - form_button = t('scaffold.create')
+.invoices
+  =form_for @invoice, :html => {:id => "payment-form", :"data-token" => "#{PaymentsConfig['public']}" } do |f|
+    =error_messages_for @invoice
+    = hidden_field_tag :token, params[:plan]
+    - if params[:group_id]
+      = hidden_field_tag :group_id, params[:group_id]
+    .invoice_info
+      - unless @invoice.new?
+        .references
+          %p.reference
+            %strong
+              = t('invoices.form.invoice_reference')
+            = @invoice.order_number
+          %p
+            %strong
+              = t('invoices.form.creation_date')
+            = @invoice.created_at
+          %p
+            %strong
+              = t('invoices.form.valid_until')
+            = @invoice.created_at+1.month
+        .clear
+
+    - if !@invoice.items.empty?&& @invoice.items.first["item_class"] == "ShapadoVersion"
+      - version = ShapadoVersion.find(@invoice.items.first["item_id"])
+      .thanks
+        %p.action
+          =raw t('invoices.form.upgrading_group', :group => @group.name, :group_domain => @group.name)
+
+        %p
+          = t('invoices.form.charging_explanation', :version_name => version.name, :version_price => version.in_dollars)
+          %br
+          =link_to t('invoices.form.want_to_change_plan'), plans_path
+    - if params[:group_id]
+      %h2
+        = t('invoices.form.upgrade_group', :group => @group.name)
+    - if !current_user && !params[:group_id]
+      %h2
+        = t('invoices.form.about_you')
+      .field
+        = text_field_tag :login, nil, :class => "text_field -input", :placeholder => t(:login, :scope => "activerecord.attributes.user")
+      .field
+        = text_field_tag :name, nil,:class => "text_field -input", :placeholder => t(:name, :scope => "activerecord.attributes.user")
+      .field
+        = text_field_tag :email, nil, :class => "text_field -input", :placeholder => t("email", :scope => "activerecord.attributes.user")
+      .field
+        = password_field_tag :password, nil, :class => "password -input", :placeholder => t("password", :scope => "activerecord.attributes.user")
+      .field
+        = password_field_tag :password_confirmation, nil, :class => "password -input", :placeholder => t(:password_confirmation, :scope => "activerecord.attributes.user")
+    - elsif !current_user
+      %h2
+        = t('invoices.form.credentials')
+      .field
+        = text_field_tag :email, nil, :class => "text_field -input", :placeholder => t("email", :scope => "activerecord.attributes.user")
+      .field
+        = password_field_tag :password, nil, :class => "password -input", :placeholder => t("password", :scope => "activerecord.attributes.user")
+    - if (!current_user || !current_user.owner_of?(@group)) && !params[:group_id]
+      %h2
+        = t('invoices.form.about_site')
+      .field
+        = label_tag :name, t('name', :scope => "activerecord.attributes.group"), :class => "label"
+        = text_field_tag :group_name, nil,:class => "text_field"
+      .field
+        = label_tag :subdomain, "URL", :class => "label"
+        .domain
+          %small
+            ="#{request.protocol}"
+          = text_field_tag :subdomain, nil, :class=>"text_field"
+          %small
+            = ".#{request.domain}"
+
+    - if @version.uses_stripe?
+      .credit_card_form
+        %h2
+          = t('invoices.form.cc_details')
+
+        =fields_for :credit_card do |ff|
+          .field
+            %label
+              = t('invoices.form.cc_number')
+            =ff.text_field :number, :class => "card-number", :autocomplete => false, :size => 20
+            %small= t('invoices.form.as_it_appears')
+
+          .cc-info
+            .field
+              %label
+                = t('invoices.form.ccv_code')
+              =ff.text_field :verification_code, :size => 4, :class => "card-cvc", :autocomplete => "off"
+              %small= t('invoices.form.ccv_explanation')
+
+            .field.date
+              %label
+                = t('invoices.form.expiration_date')
+              -index = -1
+              =ff.select :month, I18n.t("date.month_names").map{|e| [e, index+=1]}, {}, :class => "card-expiry-month"
+              =ff.select :year, (Time.now.year..Time.now.year+15).to_a, {}, :class => "card-expiry-year"
+
+      = render "invoices/invoice", :invoice => @invoice
+
+    .buttons
+      =f.submit form_button, :class => "save submit-button"

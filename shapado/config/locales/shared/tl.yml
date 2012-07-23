@@ -1,0 +1,12 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  shared: 
+    current_tags: 
+      title: napiling mga tatak
+    topbar: 
+      admin: tagapangasiwa
+      logged_as: Nakalagda bilang %{login}
+      user_page: pahina ko

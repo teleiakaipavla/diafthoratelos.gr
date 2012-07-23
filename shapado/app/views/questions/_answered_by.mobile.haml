@@ -1,0 +1,9 @@
+%b.user-data
+  -if !answer.anonymous
+    = render :partial => "users/user_mini.html.haml", :locals => {:user => answer.user, :author => true}
+    -if !answer.user.hide_country && answer.address.present?
+      = t("global.from", :site => answer.address_name)
+      = country_flag(answer.address["country_code"], answer.address["country"])
+  -else
+    = t("global.anonymous")
+

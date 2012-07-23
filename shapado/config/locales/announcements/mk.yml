@@ -1,0 +1,21 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: важи до
+        message: порака
+        only_anonymous: само анонимни корисници
+        starts_at: важи од
+  announcements: 
+    actions: 
+      delete: отстрани
+      title: дејства
+    create: 
+      success: Соопштението е успешно создадено.
+    index: 
+      description: Создавајте соопштенија што ќе се прикажуваат по целото мрежно место и раководете со нив.
+      title: соопштенија

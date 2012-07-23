@@ -1,0 +1,34 @@
+# Messages for Breton (Brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fulup
+# Author: Y-M D
+br: 
+  shared: 
+    current_tags: 
+      title: Tikedennoù diuzet
+    description: Deskrivadur
+    empty: 
+      answers: 
+        description: 
+          text: Bezit an hini gentañ !
+      themes: 
+        description: 
+          action_link: bremañ
+    login_drop_down: 
+      with_facebook: gant Facebook
+      with_google: gant Google
+      with_identica: gant Identi.ca
+      with_linked_in: gant LinkedIn
+      with_openid: OpenID
+      with_twitter: gant Twitter
+    name: Anv
+    social_connect: 
+      find_friends_facebook: Kavout mignoned war Facebook
+      find_friends_identica: Kavout mignoned war Identi.ca
+      find_friends_linked_in: Kavout mignoned war LinkedIn
+      find_friends_twitter: Kavout mignoned war Twitter
+    topbar: 
+      admin: Merañ
+      logged_as: Kevreet evel %{login}
+      user_page: Ma zammig pajenn

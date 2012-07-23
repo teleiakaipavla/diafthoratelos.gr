@@ -1,0 +1,183 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Beta16
+# Author: Danmaz74
+# Author: Giallu
+# Author: Ric
+# Author: Tuxwet
+it: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Risposte
+        asked_by: Chiesto da
+        banned: Bannata
+        body: Testo
+        closed: Chiusa
+        created_at: Chiesto
+        language: Lingua
+        tags: Tag
+        title: Titolo
+        updated_at: modificata
+        updated_by: aggiornato da
+        views: Visualizzazioni
+        votes: Voti
+    models: 
+      question: Domanda
+      questions: Domande
+  questions: 
+    answer: 
+      add_comment: Aggiungi commento...
+      favorite: Salva
+      favorite_tooltip: Aggiungi questa risposta ai tuoi preferiti
+      flag: Segnala
+      pick_answer: Scegli come soluzione
+      unfavorite: Elimina da salvati
+      unfavorite_tooltip: Rimuovi questa risposta dai preferiti
+      unset_answer: Annulla soluzione?
+    answer_toolbar: 
+      flagged_by_you: Segnalati da te
+    close: 
+      failure: Questa domanda ha una ricompensa attivo e non può essere chiusa.
+    create: 
+      already_registered: Un utente con l'e-mail %{email} è già registrato, effettua il login usando questa email.
+      flash_notice: La domanda è stata creata.
+    disallow_spam: 
+      error: È necessario attendere 20 secondi prima di postare un'altra domanda.
+    edit: 
+      title: Modifica la domanda
+    flag: 
+      title: Segnala domanda
+    form: 
+      add_attachment: Aggiungi allegato
+      adult_content: Questa domanda contiene materiale per adulti.
+      body_tip: Qual è la tua domanda? Sii descrittivo.
+      language_tip: Seleziona la lingua in cui è posta la domanda.
+      related_questions_desc: Qui verranno visualizzate domande simili.
+      remove_attachment: Rimuovi
+      tags_tip: Utilizzare i tag per aggiungere ulteriori informazioni sulla tua domanda.
+    history: 
+      back: ← Torna alla domanda
+    index: 
+      active: Attive
+      active_tooltip: Domande aggiornate di recente
+      ask_question: Fai una domanda
+      empty: Ancora nessuno ha fatto domande. Sii il primo!
+      followers_tooltip: Domande con più interessati
+      has_followers: 
+        one: "%{count} seguace"
+        other: "%{count} seguaci"
+      help_to_answer: Aiutaci a rispondere
+      hot: Hot
+      hot_tooltip: Domande più attive negli ultimi 5 giorni
+      newest: più recenti
+      newest_tooltip: Domande chieste più di recente
+      oldest: più datate
+      title: Tutte le domande
+      unanswered_questions: Senza risposta
+      votes: Voti
+    model: 
+      messages: 
+        empty_tags: È necessario aggiungere almeno un tag.
+        tags_not_added: Impossibile aggiungere il tag '%{tags}'. Avete bisogno di una reputazione di %{reputation_required} per creare nuovi tag
+        title_too_long: Siamo spiacenti, il titolo non può contenere più di 100 caratteri.
+        too_many_tags: Ci dispiace, è possibile inserire al massimo 20 tag.
+        too_short: 
+          one: Siamo spiacenti, il titolo deve contenere più di %{count} parola.
+          other: Siamo spiacenti, il titolo deve contenere più di %{count} parole.
+    move: 
+      group_label: "Passare al gruppo con descrizione:"
+      submit: Sposta!
+      title: "Sposta domanda : %{title}"
+    move_to: 
+      group_dont_exists: Il gruppo %{group} non esiste
+      success: Domanda spostata su %{group}
+    new: 
+      description: Ti preghiamo di essere descrittivo e assicurarti di aggiungere tag significativi in modo che la domanda possa essere trovata facilmente.
+      how_to_ask: Come domandare
+      title: Fai una domanda
+    question: 
+      accepted_tooltip: Questa domanda ha una risposta che è stata accettata
+      answer_verb: Risposta
+      has_answers: 
+        one: "%{count} risposta"
+        other: "%{count} risposte"
+      wiki_title: "Wiki: %{title}"
+    retag: 
+      title: Modifica tag
+    retag_form: 
+      cancel: Annulla
+      submit: Modifica tag
+      title: Modifica tag
+    retag_to: 
+      failure: I tag non non possono essere modificati.
+      success: Tag modificati con successo.
+    revert: 
+      title: Ripristina domanda
+    shared: 
+      flag: Segnala
+    show: 
+      accepted_tooltip: Una delle risposte è stata accettata come risposta corretta.
+      another_answers: Altre risposte
+      answers: Risposte
+      asked_on: chiesto il
+      ban: Banna
+      close: Chiudi
+      close_reason: "La domanda è stata chiusa per il seguente motivo:"
+      create_reward: Crea ricompensa
+      create_reward_description: Ricompensa la migliore risposta con un po' del tuo karma.
+      edit_request: Modifica richiesta
+      flag: Segnalazione
+      flagged_as: Segnalato come
+      flags: Segnalata come
+      follow_tooltip: Segui questa domanda
+      follow_up: Follow-up
+      follow_up_description: Crea una nuova domanda basata su questo post.
+      follow_up_of: Questa domanda è un follow-up di
+      history: Cronologia
+      last_activity: Attività recente
+      more_actions: Altre azioni
+      open: Apri
+      related_questions: Domande correlate
+      request_closing: Richiedi chiusura
+      request_closing_details: Richiedi la chiusura della domanda
+      request_opening: Richiedi riapertura
+      request_opening_details: Richiedi la riapertura della domanda
+      requested_close_as: Hai chiesto di chiudere questa domanda in quanto
+      requested_reopening: Hai chiesto la riapertura di questa domanda
+      retag: Modifica tag
+      retract_request: Annulla richiesta
+      share: Condividi la domanda su
+      share_on: Condividi la domanda su %{site}
+      solution: Soluzione
+      to_answer_question: per rispondere alla domanda
+      unauthenticated_retag: Serve un account per modificare i tag delle domande
+      unban: De-Banna
+      unfollow_tooltip: Non seguire più questa domanda
+      viewed: visite
+    solve: 
+      flash_notice: La domanda è stata risolta.
+    tags: 
+      filter: Cerca per tag
+      title: Tag
+      tooltip: Mostra domande con il tag %{tag}
+    toolbar: 
+      answer_by_mail: Rispondi via e-mail
+      more_actions: Altre azioni
+      requests: Richieste
+      your_close_request: La tua richiesta di chiusura
+    unanswered: 
+      empty: Questo gruppo non ha domande senza risposta.
+      expert: Esperti
+      my_tags: I miei tag
+      tags: tag senza risposta
+      title: Domande senza risposta
+    unsolve: 
+      flash_notice: La domanda non è più risolta.
+    unwatch: 
+      success: Non si riceveranno più notifiche via e-mail per le nuove risposte a questa domanda.
+    update: 
+      flash_notice: La domanda è stata modificata.
+    watch: 
+      success: Si riceverà notificha via e-mail per ogni nuova risposta a questa domanda.

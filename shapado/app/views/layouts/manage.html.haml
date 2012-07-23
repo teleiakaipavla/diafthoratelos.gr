@@ -1,0 +1,64 @@
+!!! 5
+%html{"xml:lang" => I18n.locale, :lang => I18n.locale, :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    = render "shared/layout/head"
+
+  %body{:class => bodys_class(params) << "manage-layout" }
+
+    = render :partial => "shared/topbar"
+    #container{:class => @current_class}
+      = show_flash_messages(:class => "flash", :markdown => true)
+      #columns
+        %section#column1.left-panel
+          .widget-links.module
+            %h3
+              = t('layouts.manage.site_management')
+            %nav
+              %ul
+                = pjax_tab_entry "li", t('.site'), "manage", manage_properties_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                - if current_user.owner_of? current_group
+                  = pjax_tab_entry "li", t('layouts.manage.invoices'), "manage", invoices_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                - if current_group.shapado_version.has_custom_domain?
+                  = pjax_tab_entry "li", t('layouts.manage.domain'), "manage",  manage_properties_tab_path(:tab => "domain"), :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+
+          .widget-links.module
+            %h3
+              = t("layouts.manage.group_user_management")
+            %nav
+              %ul
+                = pjax_tab_entry "li", t('layouts.manage.access'), "manage", manage_access_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                = pjax_tab_entry "li", t('layouts.manage.members'), "manage",  members_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                = pjax_tab_entry "li", t('layouts.manage.invitations'), "manage", manage_invitations_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+
+          .widget-links.module
+            %h3
+              = t("layouts.manage.group_features")
+            %nav
+              %ul
+                = pjax_tab_entry "li", t('layouts.manage.announcements'), "manage-announcements", announcements_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                = pjax_tab_entry "li", t('layouts.manage.social'), "manage", manage_social_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                = pjax_tab_entry "li", t('layouts.manage.constrains'), "manage", constrains_configs_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                = pjax_tab_entry "li", t('layouts.manage.rewards'), "manage", manage_properties_tab_path(:tab => "rewards"), :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+
+          .widget-links.module
+            %h3
+              = t("layouts.manage.group_look_and_feel")
+            %nav
+              %ul
+                = pjax_tab_entry "li", t('layouts.manage.appearance'), "manage", manage_appearance_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                -if current_group.has_custom_html
+                  = pjax_tab_entry "li", t('layouts.manage.content'), "manage", manage_content_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                = pjax_tab_entry "li", t('layouts.manage.themes'), "manage", themes_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+                = pjax_tab_entry "li", t('layouts.manage.widgets'), "manage-widgets", widgets_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+          .widget-links.module
+            %h3
+              = t("layouts.manage.close_group")
+            %nav
+              %ul
+                = pjax_tab_entry "li", t('layouts.manage.close_group'), "manage", manage_close_group_path, :selected => "active", :link_opts => {'data-page-layout' => "manage-layout"}
+        %section#column2.content-panel.nosidebar
+          #main-content-wrap{:class => @active_tab}
+            = yield
+            .clear
+
+      = render "shared/layout/footer"

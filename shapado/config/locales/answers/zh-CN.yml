@@ -1,0 +1,31 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+# Author: Hydra
+# Author: ZhengYiFeng
+zh-CN: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: 正文
+        created_at: 创建于
+        link: 链接
+    models: 
+      answer: 答案
+      answers: 答案
+  answers: 
+    create: 
+      flash_error: "添加你的回答时出错了。\n记住这些：\n - 不允许空白或者重复的回答。\n - 你需要等待20秒才能在别的问题上提交新的回答。\n - 每个问题你只能提交一个回答。"
+      flash_notice: 谢谢！
+    edit: 
+      title: 编辑答案
+    form: 
+      answer_label: 回答这个问题
+      comment_label: 这个答案评论
+      comment_submit: 评论
+      submit: 答案
+    revert: 
+      title: 恢复答案
+    update: 
+      flash_notice: 答案已成功更新。

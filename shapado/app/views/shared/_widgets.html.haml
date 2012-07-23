@@ -1,0 +1,14 @@
+-widget_list = current_group.send(:"#{context}_widgets")
+- if widget_list
+  - widgets = widget_list.send(position)
+- if !widgets.empty?
+  %div{:class => "#{position}-widgets"}
+    - if !current_group.shapado_version.has_custom_ads?
+      = render :partial => 'shared/default_adsense', :locals => {:position => position}
+    - widgets.each do |widget|
+      - cache_for(:widgets, widget.id, widget.cache_keys(params), context, position) do
+        = render :partial => widget.partial_name, :locals => {:widget => widget}
+- else
+  - if !current_group.shapado_version.has_custom_ads?
+    %div{:class => "#{position}-widgets"}
+      = render :partial => 'shared/default_adsense', :locals => {:position => position}

@@ -1,0 +1,21 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Remata o
+        message: Mensaxe
+        only_anonymous: Só para usuarios anónimos
+        starts_at: Comeza o
+  announcements: 
+    actions: 
+      delete: Eliminar
+      title: Accións
+    create: 
+      success: O aviso creouse correctamente.
+    index: 
+      description: Xestionar e crear novos anuncios que serán mostrados en todo o sitio aos seus visitantes.
+      title: Anuncios

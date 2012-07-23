@@ -1,0 +1,22 @@
+- if current_group.shapado_version.has_custom_domain?
+  %h1
+    = t('admin.manage.properties.domain.title')
+  %p
+    =t(".description")
+
+  %ol.manage-domain
+    %li=raw t(".instruction1", :subdomain => @group.subdomain)
+    %li=raw t(".instruction2")
+    %li=raw t(".instruction3")
+    %li=raw t(".instruction4", :domain=> "#{@group.subdomain}.#{AppConfig.domain}")
+    %li=raw t(".instruction5", :appdomain => AppConfig.domain, :subdomain => @group.domain)
+    %li=raw t(".instruction6", :subdomain => @group.domain, :chat_url => link_to("chat", chat_path))
+
+  .field.domain-url
+    %span
+      =request.protocol
+    = f.text_field :domain, :class=> "text_field", :style => "width: 85% !important"
+    = f.hidden_field :custom_domain, :value => true
+
+  .buttons
+    = f.submit t('scaffold.update'), :class => "save"

@@ -1,0 +1,49 @@
+!!! 5
+%html{"xml:lang" => I18n.locale, :lang => I18n.locale, :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    = render "shared/layout/head"
+  %body{:class => bodys_class(params) }
+    #feedback-btn
+      %p=link_to "Feedback", "/feedback"
+    = render_app_config
+    = render :partial => "shared/topbar"
+    #container{:class => @current_class}
+      #columns
+        = show_flash_messages(:class => "flash", :markdown => true)
+
+        .top-classic
+          .brand
+            %h1= link_to(group_logo_img(current_group, :class => "group_logo"), domain_url(:custom => current_group.domain))
+
+          %ul.menubar
+            %li
+              -if !logged_in?
+                =link_to t('layouts.application.questions'), questions_path, {:"class" => "pjax", :"data-layout" => "index"}
+              -else
+                =link_to t('layouts.application.questions'), "#"
+                %ul.drop-menu
+                  = tab_entry "li", t('layouts.application.all'), questions_path, :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index"}
+                  -if logged_in?
+                    = tab_entry "li", t('layouts.application.followed'), feed_user_path(current_user), :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index"}
+                    = tab_entry "li", t('layouts.application.by_me'), by_me_user_path(current_user), :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index"}
+                    = tab_entry "li", t('layouts.application.preferred'), preferred_user_path(current_user), :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index"}
+                    = tab_entry "li", t('layouts.application.contributed'), contributed_user_path(current_user), :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index"}
+                    = tab_entry "li", t('layouts.application.collaborate'), expertise_user_path(current_user), :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index"}
+                    = tab_entry "li", t('layouts.application.search'), '/search', :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index"}
+              %li= link_to t('layouts.application.tags'), tags_path, :class => "pjax", :"data-layout" => "tags"
+              %li=link_to t('layouts.application.users'), users_path
+              %li= link_to t('layouts.application.badges'), badges_path, :class => "pjax", :"data-layout" => "badges"
+              %li= pjax_link_to t('layouts.application.unanswered'), "index", questions_path(:unanswered => 1)
+          .clear
+
+        -["column2", "column3"].each do |c|
+          =render "shared/layout/#{c}"
+          -if c == "column1"
+            = render "shared/widgets", :context => 'mainlist', :position => 'header'
+      = render "shared/widgets", :context => 'mainlist', :position => 'footer'
+
+      = render "shared/layout/footer"
+      #login_dialog.top-bar{'data-title' => t('devise.sessions.link')}
+        %ul.auth-list
+          %li
+            = render "shared/login_drop_down"

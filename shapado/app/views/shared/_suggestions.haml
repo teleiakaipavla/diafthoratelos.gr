@@ -1,0 +1,17 @@
+
+- if logged_in?
+  - suggestions = current_user.suggestions(current_group, limit)
+- else
+  - suggestions = current_group.top_users
+- unless no_title
+  %h3
+    =t("widgets.suggestions.title", :group => current_group.name)
+%ul.list
+  - suggestions.each do |suggestion|
+    %li
+      .gravatar= suggestion_avatar(suggestion)
+      .info
+        .link= suggestion_link(suggestion)
+        .f-link= follow_suggestion_link(suggestion)
+        - if logged_in?
+          = common_follower(current_user, suggestion)

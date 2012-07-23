@@ -1,0 +1,6 @@
+%h1
+  =t('.title')
+- if current_user
+  %iframe{:src=>"http://webchat.freenode.net/?nick=#{h(current_user.login)}__&channels=shapado", :width=>"900", :height=>"400"}
+- else
+  %iframe{:src=>"http://webchat.freenode.net/?nick=shapadoer#{rand(100)}#{rand(100)}#{rand(100)}&channels=shapado", :width=>"900", :height=>"400"}

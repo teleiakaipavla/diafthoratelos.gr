@@ -1,0 +1,22 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  open_requests: 
+    create: 
+      flash_notice: Zahtev za ponovno otvaranje je napravljen
+    destroy: 
+      flash_notice: Zahtev za ponovno otvaranje je obrisan
+    edit: 
+      title: Uredi zahtev za ponovno otvaranje
+    form: 
+      request_opening_details: Zahtevaj ponovno otvaranje pitanja
+    index: 
+      title: Spisak zahteva za ponovno otvaranje
+    model: 
+      prural_name: Zahtevi za ponovno otvaranje
+    new: 
+      title: Zahtev za ponovno otvaranje
+    update: 
+      flash_notice: Zahtev za ponovno otvaranje je ažuriran

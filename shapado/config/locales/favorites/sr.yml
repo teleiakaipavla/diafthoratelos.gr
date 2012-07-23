@@ -1,0 +1,13 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    models: 
+      favorite: Омиљено
+      favorites: Омиљено
+  favorites: 
+    create: 
+      success: Питање је додато у списак омиљених.
+      unauthenticated: Потребан вам је налог да додајете ставке у омиљене.

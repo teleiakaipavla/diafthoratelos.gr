@@ -1,0 +1,125 @@
+en:
+  admin:
+    manage:
+      edit_card:
+        button: 'Update your credit card'
+      close_group:
+        description: Closing the group will make it inaccessible to anyone but you.
+        feedback: "Please, tell us why are your closing your group:"
+      questions:
+        banning:
+          title: 'Ban question'
+      answers:
+        banning:
+          title: 'Ban answer'
+      top_admin:
+        title: Admin
+        site: Site
+      access:
+        title: Access
+
+      invitations:
+        title: Invitations
+        invite: Invite people
+        invitations: Sent invitations
+        invite_title: Invite people by email
+        invitations_title: List of all the invitations you've sent
+      social:
+        title: Social media interaction
+        description: Connect your group to your social networks
+        post_to_twitter: Post to Twitter
+        ask_from_twitter: Ask from Twitter
+        facebook_app: Facebook App
+        twitter_account: Twitter Account
+        tag_your_tweets: Tag your tweets
+        tag_your_tweets_title: Add tags to your tweets
+        post_to_twitter_title: Post all questions and answers to Twitter automatically
+        ask_from_twitter_title: Allow your users to ask questions from Twitter
+        facebook_app_title: Configure your Facebook app that will be used to allow your users to login with their Facebook account
+        twitter_account_title: Configure your Twitter account that will be used to post to Twitter
+      content:
+        title: Custom content
+        description: Configure your group with custom text and styling
+        question_prompt: Question prompt
+        question_help: Question help
+        head: header
+        footer: Footer
+        top_bar: Top bar
+        top_bar_tip: Enter one link per line
+      appearance:
+        title: Pick and customize your theme
+        logo_legend: Upload a logo for your group. It must be smaller than 2MB.
+      properties:
+        title: Group properties
+        invite:
+          title: Invite people by email
+          body_instructions: "Write a message to the people you are inviting (optional)"
+          body_length_warning: "The body cannot contain more than 400 characters"
+          emails_instructions: "Enter email addresses separated by a comma"
+          user_role: "Invite users as"
+          invite: Invite people
+          invitations: Sent invitations
+        invitations:
+          revoke_button: "Revoke"
+          resend_button: "Resend"
+        post_to_twitter:
+          post_to_twitter: Post activities to Twitter
+          send_questions_to_twitter: Send all questions to Twitter
+          send_badges_to_twitter: Send all newly won badges to Twitter
+          send_favorites_to_twitter: Send all favorite answers to Twitter
+          send_answers_to_twitter: Send all answers to Twitter
+          send_comments_to_twitter: Send all comments to Twitter
+          legend: 'This page allows you to configure what is sent to Twitter. The account being used is <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>, if you want to use another account, please click <a href="%{link}">here</a>.'
+          legend_connect: 'This page allows you to configure what is sent to Twitter. You need to specify a Twitter account first, please click <a href="%{link}">here</a> to do so.'
+        tag_your_tweets:
+          tweet_starts_with: Prepend a tag to your tweets
+          tweet_ends_with: Append a tag to your tweets
+          starts_with_example: "e.g. #qa"
+          ends_with_example: "e.g. #shapado"
+          add_tags: Add tags to your tweets
+          title: Tag your tweets
+        ask_from_twitter:
+          asking_from_twitter: Asking questions from Twitter
+          question_must_include: Question must include the following tag to be tweeted.
+          twitter_account: The Twitter account your users will ask questions to.
+          question_asked_to: Question Asked To
+          question_must_include_example: "e.g. #iAsk"
+        facebook_app:
+          legend: You can configure your Facebook App. This will be used to log in your users using their Facebook account. Note that this is only needed if you are using a custom domain.
+          application_id: Application ID
+          secret_key: Secret Key
+          facebook_app: Facebook app settings
+        twitter_app:
+          twitter_app: Twitter app
+          key: Application key
+          secret: Application secret
+        twitter_account:
+          twitter_account: Twitter account
+          connect_to_other_twitter: Click here to connect a different Twitter account to your group
+          legend_with_account: 'Your Twitter account <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> will be used to post new questions and answers to Twitter. You can configure what gets sent to Twitter <a href="%{link}">here</a>.'
+          disconnect_twitter_group: Disconnect this group from Twitter
+          connect_to_twitter: Click here to connect a Twitter account to your group
+          legend: This account will be used to post new questions and answers to Twitter.
+        general:
+          title: Group properties
+        share:
+          title: Share
+        constrains:
+          title: Requirements
+          reputation_constrains_subtitle: List of reputation requirements for each action
+          reputation_constrains_description: This form allows you to configure how many reputation points users need to do a given action
+        rewards:
+          title: Rewards
+          reputation_rewards_subtitle: List of reputations rewards
+          reputation_rewards_description: This form allows you to configure how users can win and lose reputation points for a given action
+        domain:
+          title: Configure your custom domain
+          description: "You can map a different domain to your Shapado's site so it can be accessed through your own custom domain. This is how you do it:"
+          instruction1: "To do so you first need to log on to your domain provider. That is the site where you bought your domain such as %{subdomain}.com."
+          instruction2: There you need to go to the DNS section and create something called a CNAME.
+          instruction3: "Pick 'www' or anything else as the name of your CNAME."
+          instruction4: "Then in the host or destination field, put your current Shapado domain: %{domain}."
+          instruction5: "Once this is done, after an hour or so, your domain %{subdomain} should point to %{appdomain}."
+          instruction6: "When this is the case, come back here and put your domain name %{subdomain} in the field below and press the button 'update'. If you have questions, ask us in the %{chat_url} or on our support forum."
+          warning: Are you sure you want to change your domain?
+

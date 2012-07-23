@@ -1,0 +1,31 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  invitations: 
+    accept: 
+      create_account: Стварыць рахунак (1 з 2)
+      create_account_step2: Стварыць рахунак
+      description: "%{group} заўсёды паляпшае калекцыю пытаньняў і адказаў на любыя тэмы."
+      done: Зроблена!
+      facebook_connect: Злучыцца з Вашым рахункам на Facebook
+      final_step: Апошні крок (2 з 2)
+      find_friends: "Знайсьці сяброў і далучыцца:"
+      follow_things: Сачыць за тэгамі і людзьмі
+      follow_things_description: Пытаньні зьвязаныя з гэтым, будуць зьяўляцца ў Вашай стужцы.
+      other_connect: ці выкарыстаць адзін з гэтых.
+      other_social_options: Таксама, Вы можаце выкарыстоўваць %{linkedin} і %{identica}.
+      point1: Спытаць экспэртаў, якія дасьведчаныя ў пададзенай тэме.
+      point2: Сачыць за тэмамі і адказамі, якія Вас цікавяць.
+      point3: Галасаваць і рэдагаваць адказы і вікі-старонкі для іх паляпшэньня. Атрымліваць узнагароды
+      point4: Адказваць з Вашага кліента электроннай пошты без мітусьні.
+      twitter_connect: Злучыцца з Вашым рахункам на Twitter
+      welcome: Вітаем
+    create: 
+      flash_notice: Вашае запрашэньне было дасланае пасьпяхова.
+    resend: 
+      flash_notice: Вашае запрашэньне было дасланае паўторна пасьпяхова.
+    revoke: 
+      flash_notice: Вашае запрашэньне было адкліканае пасьпяхова.

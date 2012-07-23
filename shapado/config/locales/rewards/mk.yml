@@ -1,0 +1,12 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  rewards: 
+    close: 
+      error: Треба да почекате %{time} пред да ја доделите наградава.
+    start: 
+      active_notice: Ова прашање веќе има активна награда.
+      reputation_notice: Немате доволно углед за да создадете награда за ова прашање.
+      wait_notice: Треба да почекате 2 дена пред да понудите награда за ова прашање.

@@ -1,0 +1,126 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+ca: 
+  admin: 
+    manage: 
+      access: 
+        title: Accés
+      answers: 
+        banning: 
+          title: Resposta de prohibició
+      appearance: 
+        logo_legend: Carregar un logotip per al grup. Ha de ser més petita que 2 mbar.
+        title: Recollir i personalitzar el seu tema
+      close_group: 
+        description: Tancar el grup farà inaccessible a ningú excepte vostè.
+        feedback: "Si us plau, dir-nos per què són el seu tancament el seu grup:"
+      content: 
+        description: Configura el teu grup amb text personalitzat i d'estil
+        footer: Peu
+        head: capçalera
+        question_help: Ajuda de preguntes
+        question_prompt: Diàleg de preguntes
+        title: Contingut personalitzat
+        top_bar: Barra superior
+        top_bar_tip: Introduïu un enllaç per línia
+      invitations: 
+        invitations: Enviats invitacions
+        invitations_title: Llista de totes les invitacions que ha enviat
+        invite: Convidar a la gent
+        invite_title: Convidar a la gent per correu electrònic
+        title: Invitacions
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Preguntes de Twitter
+          question_asked_to: Pregunta A
+          question_must_include: Pregunta ha d'incloure l'etiqueta següent per ser tweeter.
+          question_must_include_example: "p. ex. # iAsk"
+          twitter_account: El compte de Twitter, que els usuaris a fer preguntes a.
+        constrains: 
+          reputation_constrains_description: Aquest formulari us permet configurar quants punts de reputació necessiten els usuaris per a poder fer una determinada acció
+          reputation_constrains_subtitle: Liistat de requeriments de reputació per a cada acció
+          title: Requeriments
+        domain: 
+          description: "Vostè pot fer el mapa un domini diferent al lloc de la seva Shapado per la qual cosa s'hi pot accedir a través del seu propi camp de costum. Això és com fer-ho:"
+          instruction1: Per a fer això primer necessiteu iniciar la sessió al vostre proveïdor de domini. Aquest és el lloc on vàreu comprar el vostre domini com %{subdomain}.com.
+          instruction2: Necessiteu anar a la secció de DNS i crear un registre CNAME.
+          instruction3: Trieu 'www' o qualsevol altre cosa com el nom del vostre CNAME.
+          instruction4: "Després a l'hoste o camp de destinació, poseu el vostre domini actual de Shapado: %{domain}."
+          instruction5: Un cop estigui fet, al cap d'una hora més o menys, el vostre domini www.%{subdomain} hauria d'apuntar a %{appdomain}.
+          instruction6: Quan aquest sigui el cas, torneu aquí i poseu el vostre nom de domini www.%{subdomain} al camp inferior i premeu el botó 'actualitza'. Si teniu preguntes, feu-les a %{chat_url} o al nostre fòrum de suport.
+          title: Configurar el seu domini personalitzat
+          warning: Voleu canviar el vostre domini?
+        facebook_app: 
+          application_id: ID d'aplicació
+          facebook_app: Configuració d'aplicació de Facebook
+          legend: Pot configurar el seu Facebook App. Això s'utilitzarà per connectar els usuaris utilitzant el seu compte Facebook. Tingueu en compte que això només és necessari si està utilitzant un camp de costum.
+          secret_key: Clau secreta
+        general: 
+          title: Propietats del grup
+        invitations: 
+          resend_button: Tornar a enviar
+          revoke_button: Revocar
+        invite: 
+          body_instructions: Escriu un missatge a la gent que està convidant a (opcional)
+          body_length_warning: El cos no pot contenir més de 400 caràcters
+          emails_instructions: Introduïu les adreces de correu electrònic separats per una coma
+          invitations: Enviats invitacions
+          invite: Convidar a la gent
+          title: Convidar a la gent per correu electrònic
+          user_role: Convidar els usuaris com a
+        post_to_twitter: 
+          legend: Aquesta pàgina us permetrà configurar el que s'envia a Twitter. El compte utilitzat és <a href="http://twitter.com/<span class=" notranslate"="">% {twitter_account} "> @ %{twitter_account}</a>, si voleu utilitzar un altre compte, si us plau feu clic <a href="%{link}">aquí</a>.
+          legend_connect: Aquesta pàgina us permet configurar el que s'envia a Twitter. Cal especificar un compte de Twitter en primer lloc, si us plau feu clic <a href="%{link}">aquí</a> per fer-ho.
+          post_to_twitter: Activitats de post a Twitter
+          send_answers_to_twitter: Enviar totes les respostes a Twitter
+          send_badges_to_twitter: Enviar tots els novament va guanyar insígnies a Twitter
+          send_comments_to_twitter: Enviar tots els comentaris a Twitter
+          send_favorites_to_twitter: Enviar totes les respostes favorits a Twitter
+          send_questions_to_twitter: Enviar totes les preguntes a Twitter
+        rewards: 
+          reputation_rewards_description: Aquest formulari us permet configurar com els usuaris poden guanyar o perdre punts de reputació per a determinades accions
+          reputation_rewards_subtitle: Llista de recompenses de reputació
+          title: Recompenses
+        share: 
+          title: Comparteix
+        tag_your_tweets: 
+          add_tags: Afegeix etiquetes al seu tweets
+          ends_with_example: "e.g. #shapado"
+          starts_with_example: "e.g. #qa"
+          title: El seu tweets d'Etiquetes
+          tweet_ends_with: Afegeixi un cordó al seu tweets
+          tweet_starts_with: Escriure una etiqueta pel seu tweets
+        title: Propietats del grup
+        twitter_account: 
+          connect_to_other_twitter: Feu clic aquí per connectar-se a un altre compte de Twitter al seu grup
+          connect_to_twitter: Feu clic aquí per connectar-se a un compte de Twitter al seu grup
+          disconnect_twitter_group: Desconnecta't d'aquest grup de Twitter
+          legend: Aquest compte s'utilitzarà per a enviar noves preguntes i Respostes a Twitter.
+          legend_with_account: El seu compte de Twitter <a href="https://twitter.com/<span class=" notranslate"="">% {twitter_account} "> @ %{twitter_account}</a> s'utilitzarà per a enviar noves preguntes i Respostes a Twitter. Vostè pot configurar el que es va enviar a Twitter <a href="%{link}">aquí</a>.
+          twitter_account: Compte de Twitter
+        twitter_app: 
+          key: Clau d'aplicació
+          secret: Secret de l'aplicació
+          twitter_app: Aplicació de Twitter
+      questions: 
+        banning: 
+          title: Pregunta de prohibició
+      social: 
+        ask_from_twitter: Demanar a Twitter
+        ask_from_twitter_title: Permetre que els usuaris fer preguntes de Twitter
+        description: Connectar-se al grup de les seves xarxes socials
+        facebook_app: Facebook App
+        facebook_app_title: Configurar el seu Facebook app que s'utilitzarà per permetre que els usuaris per connectar-se amb el seu compte de Facebook
+        post_to_twitter: Publicar a Twitter
+        post_to_twitter_title: Enviar totes les preguntes i Respostes a Twitter automàticament
+        tag_your_tweets: El seu tweets d'Etiquetes
+        tag_your_tweets_title: Afegeix etiquetes al seu tweets
+        title: Interacció de mitjans de comunicació social
+        twitter_account: Compte de Twitter
+        twitter_account_title: Configuri el seu compte de Twitter, que s'utilitzarà per enviar a Twitter
+      top_admin: 
+        site: Lloc
+        title: Admin

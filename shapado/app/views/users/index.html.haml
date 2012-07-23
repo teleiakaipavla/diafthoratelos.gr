@@ -1,0 +1,33 @@
+.list-users
+  .top
+    %h1
+      = t('activerecord.models.users')
+      (#{current_group.members.count})
+    .filter
+      = form_tag "/users", :class => "form", :id => "filter_users", :method => "get" do
+        .field
+          = text_field_tag "q", params[:q], :class => "text_field filter_field", placeholder: t(".filter")
+          = submit_tag(t('layouts.application.search'), :class => "filter_input")
+
+  .filters.clearfix
+    %ul.menubar.clearfix
+      %li
+        %label
+          = t('global.sort_by')
+      %li.reputation
+        = link_to t(".reputation"), users_path(:sort=>"reputation"), :title => t(".reputation_tooltip")
+      %li.newest
+        = link_to t(".newest"), users_path(:sort=>"newest"), :title => t(".newest_tooltip")
+      %li.oldest
+        = link_to t(".oldest"), users_path(:sort=>"oldest"), :title => t(".oldest_tooltip")
+      %li.name
+        = link_to t(".name"), users_path(:sort=>"name"), :title => t(".name_tooltip")
+      %li.name
+        = link_to t(".near"), users_path(:sort=>"near"), :title => t(".near_tooltip")
+
+  /Users
+  %ul.items#users
+    -@memberships.each do |membership|
+      = render :partial => "membership", :object => membership
+
+  = paginate @memberships

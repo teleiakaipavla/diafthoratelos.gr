@@ -1,0 +1,22 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  wiki: 
+    actions: 
+      all_history: Назад на историју
+      back_to_question: Назад на питање
+      revert: Врати на ово издање
+      show_diff: Упореди изабрана издања
+    diff: 
+      title: Разлике између %{prev} и %{curr}
+    history: 
+      current_version: Текуће издање
+      previous_versions: Претходна издања
+      title: Историја (%{count})
+      version: Верзија
+      version_summary: Опис издања
+    model: 
+      attributes: 
+        message: Опис

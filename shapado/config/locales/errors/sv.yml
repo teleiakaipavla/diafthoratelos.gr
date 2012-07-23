@@ -1,0 +1,22 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  errors: 
+    forbidden: 
+      explanation: Du har inte de nödvändiga rättigheterna för att komma åt sidan.
+      title: Åtkomst nekad
+    go_to: Gå till %{link} sidan
+    help_us_answer: Hjälp oss att besvara %{link}
+    internal_error: 
+      explanation: Vi har anmälts om detta problem och vi kommer att ta en titt på det inom kort.
+      title: Vi är ledsna, men något gick fel.
+    not_found: 
+      explanation: Du kan ha skrivit in adressen fel eller så har sidan flyttats.
+      title: Sidan kunde inte hittas.
+    options_label: "Andra saker att prova:"
+    search: Sök
+    unprocessable_entity: 
+      explanation: Kanske försökte du att ändra något som du inte har tillgång till.
+      title: Förändringen du ville ha, har nekats.

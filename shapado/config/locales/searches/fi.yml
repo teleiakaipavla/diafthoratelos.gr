@@ -1,0 +1,21 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+fi: 
+  searches: 
+    form: 
+      clear: Tyhjennä
+      search_box_title: Tarkista, onko kysymys on jo kysytty
+      tags_tip: Käytä [tag] määrittämään tunnisteita.
+    index: 
+      advanced_search: Laajennettu haku
+      description: Käytä valitsimia %{link} saadaksesi tarkat tulokset.
+      empty: Hakusi ei täsmää mihinkään kysymykseen.
+      found_results: "%{quantity} tulosta löytyi."
+      input_legend: Tämä tallennettu haku ilmaantuu navigointipalkkiin nopeaa hakua varten.
+      input_title: "Tallenna hakusi:"
+      search_text: Kysymykset, jotka sisältävät
+      tags: näiden tunnisteiden sisällä

@@ -1,0 +1,11 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+ja: 
+  shared: 
+    current_tags: 
+      title: 選択しているタグ
+    topbar: 
+      admin: 管理者
+      logged_as: "%{login}としてログイン中"
+      user_page: マイページ

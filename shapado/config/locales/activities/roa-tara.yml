@@ -1,0 +1,19 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  activerecord: 
+    models: 
+      activities: Attività
+      activity: Attività
+  activity: 
+    asked: cercate
+    changed: cangiate
+    created: ccrejate
+    deleted: scangellate
+    destroyed: scangellate
+    flagged: signate
+    requested_to_close: richieste pa chiusure
+    requested_to_open: richieste pe l'aperture
+    updated: aggiornate

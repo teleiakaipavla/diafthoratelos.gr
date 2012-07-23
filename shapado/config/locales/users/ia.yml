@@ -1,0 +1,135 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: activate le
+        activation_code: Codice de activation
+        age: Etate
+        asked_by: ponite per
+        avatar: Imagine de profilo
+        birthday: Anniversario
+        created_at: registrate
+        current_password: Contrasigno actual
+        email: E-mail
+        fullname: Nomine complete
+        hide_country: Non monstrar mi pais
+        language: Lingua
+        language_filter: Filtrar per lingua
+        last_logged_at: vidite
+        login: Nomine de usator
+        name: Nomine real
+        password: Contrasigno
+        password_confirmation: Confirmation del contrasigno
+        preferred_languages: "Tu vole leger questiones in le sequente linguas:"
+        preferred_tags: Etiquettas preferite
+        reputation: Reputation
+        timezone: Fuso horari
+        updated_at: actualisate le
+        website: Sito web
+    models: 
+      user: Usator
+      users: Usatores
+  users: 
+    actions: 
+      edit_others_posts: Modificar le articulos de alteres
+      edit_wiki_post: Modificar articulos wiki
+      flag: Marcar
+      retag_others_questions: Re-etiquettar le questiones de alteres
+      vote_down: Votar negativemente
+      vote_to_close_any_question: Requestar le clausura de qualcunque question
+      vote_to_close_own_question: Requestar le clausura de un proprie question
+      vote_up: Votar positivemente
+    anonymous_form: 
+      never_shown: nunquam monstrate
+    change_password: 
+      submit: Cambiar mi contrasigno
+      title: Cambiar contrasigno
+    check_custom_domain: 
+      reset_domain_button: No, per favor reinitialisa le dominio personalisate a %{domain}
+      title: Esque tu nove dominio personalisate functiona?
+      working_domain_link: Si, io pote vider que mi nove dominio functiona hic infra.
+    create: 
+      flash_error: Infelicemente, nos non poteva crear iste conto. Per favor reproba, o contacta un administrator (le ligamine es hic supra).
+      flash_notice: Gratias pro registrar te!
+    edit: 
+      enable_twitter: Activar tu contos de Facebook o Twitter
+      submit: Salveguardar
+      title: Configurationes
+    follow: 
+      flash_error: Tu non pote sequer te mesme.
+      flash_notice: Tu seque ora %{user}.
+    form: 
+      activities_notification: Reciper notificationes per e-mail super activitates de systema como insignias ganiate, nove sequitores, etc.
+      avatar_tip: Cambiar le imagine de tu profilo usante Gravatar
+      check_domain: Verificar %{domain}
+      check_domain_title: Verificar le dominios personalisate de tu gruppo
+      desktop_notification: Notificationes de scriptorio
+      give_advice_notification: Reciper notificationes per e-mail super questiones in tu campo de expertise
+      information: Information
+      language: Lingua usate pro le interfacie del sito
+      new_answer_notification: Reciper notificationes per e-mail pro nove responsas
+      notifications: Notificationes
+      reports_notification: Reciper un reporto con le ultime activitate del gruppo (solmente pro administratores del gruppo)
+      send_answers_to_twitter: Inviar mi responsas a mi Twitter
+      send_badges_to_twitter: Inviar mi insignias novemente ganiate a mi Twitter
+      send_comments_to_twitter: Inviar mi commentos a mi Twitter
+      send_favorites_to_twitter: Inviar mi responsas favorite a mi Twitter
+      send_questions_to_twitter: Inviar mi questiones a mi Twitter
+      show_more_lang: Monstrar plus linguas
+      social_interaction: Interaction per rete social
+    index: 
+      empty: Iste gruppo non ha membros. Participa per unir te a iste gruppo.
+      filter: Cercar usatores
+      name: Nomine
+      name_tooltip: Usatores per ordine alphabetic
+      near: Proxime a te
+      near_tooltip: Usatores in tu vicinitate
+      newest: Le plus nove
+      newest_tooltip: Usatores qui justo se registrava
+      oldest: Le plus ancian
+      oldest_tooltip: Usatores qui esseva le primes a registrar se
+      reputation: Reputation
+      reputation_tooltip: Usatores per ordine descendente de reputation
+      title: Tote le usatores
+    messages: 
+      errors: 
+        reputation_needed: Tu debe haber un reputation de %{min_reputation} pro poter %{action}
+    new: 
+      description: Face parte de iste communitate pro demandar, responder e apprender!
+      join_group: Adherer a %{group}
+      submit: Crear un conto
+      title: Registrar te como nove usator
+    show: 
+      edit_profile: Modificar profilo
+      follow: Sequer
+      followers: Sequitores
+      following: Seque
+      title: Usator %{user}
+      unfollow: Non plus sequer
+      views: visitas
+    show_json: 
+      edit_it: Clicca hic pro completar le biographia in tu profilo.
+      no_description: Iste usator non ha ancora completate su biographia.
+    top_user: 
+      connect: Connecter
+      my_karma: "Mi karma: %{karma}"
+      profile: Profilo
+    unfollow: 
+      flash_notice: Tu non plus seque %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Tu seque ora le etiquetta %{tag}.
+      unfollowed: 
+        flash_notice: Tu non plus seque le etiquetta %{tag}.
+    user_bar: 
+      create_account: Crear un conto
+      not_logged_in: Non identificate
+      signed_as: Identificate como
+    user_mini: 
+      admin: "[ Admin ]"
+      editor: "[ Redactor ]"
+      mod: "[ Moderator ]"

@@ -1,0 +1,40 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Soalan tertutup
+      index: 
+        all: Semua
+        ban: Larang
+        banned: Soalan yang dilarang
+        content: Kandungan
+        flagged: Soalan berbendera
+        item_title: Tajuk
+        need_tags: Tag semula
+        title: Kawal selia
+      opening: 
+        title: Soalan terbuka
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Dilarang
+        banned_tooltip: Tunjukkan soalan terlarang sahaja
+        filters: "Penapis:"
+        title: Kawal Selia Soalan
+        unbanned: Tidak dilarang
+        unbanned_tooltip: Tunjukan soalan tak terlarang sahaja
+      index: 
+        title: Kawal Selia Soalan
+      subtabs: 
+        flagged: Berbendera
+        flagged_tooltip: Soalan yang dibenderakan oleh pengguna
+        retag: Perlukan tag
+        retag_tooltip: Soalan tanpa tag
+        to_close: Permohonan menutup soalan
+        to_close_tooltip: Soalan-soalan yang dimohon oleh pengguna supaya ditutup
+        to_open: Buka semula permohonan
+        to_open_tooltip: Soalan-soalan tertutup yang dimohon oleh pengguna supaya dibuka semula

@@ -1,0 +1,8 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  activemodel: 
+    models: 
+      constrains_config: Reputació restringeix la configuració

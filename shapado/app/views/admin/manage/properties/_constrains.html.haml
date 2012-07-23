@@ -1,0 +1,15 @@
+%h2.title
+  =t(".reputation_constrains_subtitle")
+
+.description
+  =t(".reputation_constrains_description")
+
+= link_to t(".current", :default => "current"), domain_url(:custom => @group.domain, :controller => "manage", :action => "properties", :tab => "constrains")
+-ConstrainsConfig.all.each do |mode|
+  = link_to mode.name, domain_url(:custom => @group.domain, :controller => "manage", :action => "properties", :tab => "constrains", :mode => mode.id)
+= link_to t("scaffold.new", :model => "constrains_config"), domain_url(:custom => @group.domain, :controller => "constrains_configs", :action => "new")
+
+= render :partial => "groups/reputation_constrains_form", :object => f
+
+.group.navform
+  = f.submit t('scaffold.update')

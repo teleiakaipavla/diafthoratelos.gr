@@ -1,0 +1,19 @@
+en:
+  announcements:
+    index:
+      title: Announcements
+      description: Manage and create new announcements that will be shown site wide to your visitors.
+    create:
+      success: 'Your announcement was successfully created.'
+    form:
+    actions:
+      title: Actions
+      delete: Remove
+
+  activerecord:
+    attributes:
+      announcement:
+        message: Message
+        starts_at: Starts at
+        ends_at: Ends at
+        only_anonymous: Only for anonymous users

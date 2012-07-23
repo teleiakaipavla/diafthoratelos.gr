@@ -1,0 +1,17 @@
+-link = url_for(:host => @group.domain, :controller => "questions", :action => "show", :id => @question.to_param)
+-user_link= url_for(:host => @group.domain, :controller => "users", :action => "show", :id => @user.to_param)
+
+= t("notifier.global.hi", :user => h(@question.user.login))
+
+==
+==
+
+= t("notifier.favorited.message1", :user => h(@user.login), :group => @group.name)
+==
+
+= t("notifier.favorited.message2")
+==...     #{@question.title}
+
+==
+= t("notifier.favorited.message3")
+=link

@@ -1,0 +1,67 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  devise: 
+    confirmations: 
+      confirmed: Confirmouse a súa conta. Xa accedeu ao sistema.
+      send_instructions: Recibirá un correo electrónico coas instrucións sobre como confirmar a súa conta en poucos minutos.
+    failure: 
+      inactive: A súa conta aínda non foi activada.
+      invalid: Enderezo de correo electrónico ou contrasinal inválidos.
+      invalid_token: Pase de autenticación inválido.
+      locked: A súa conta está bloqueada.
+      timeout: A súa sesión caducou. Inicie sesión de novo para continuar.
+      unauthenticated: Debe acceder ao sistema ou rexistrarse antes de continuar.
+      unconfirmed: Debe confirmar a súa conta antes de continuar.
+    mailer: 
+      confirm_account: 
+        instruction1: "Pode confirmar a súa conta a través da seguinte ligazón:"
+        link: Confirmar a conta
+        welcome: Benvido
+      confirmation_instructions: 
+        subject: Instrucións de confirmación
+      hello: Ola
+      reset_password: 
+        instruction1: Alguén pediu unha ligazón para cambiar o seu contrasinal; pode facelo a través da seguinte.
+        link: Cambiar o contrasinal
+        nonrequested: Se non solicitou isto, ignore este correo.
+        warning: O seu contrasinal non vai cambiar ata que acceda á ligazón anterior e cree un novo.
+      reset_password_instructions: 
+        subject: Instrucións de restablecemento do contrasinal
+      unlock: 
+        instruction1: A súa conta foi bloqueada debido a unha cantidade excesiva de intentos de rexistro sen éxito.
+        instruction2: "Prema na seguinte ligazón para desbloquear a súa conta:"
+        link: Desbloquear a miña conta
+      unlock_instructions: 
+        subject: Instrucións de desbloqueo
+    passwords: 
+      link: Esqueceu o contrasinal?
+      send_button: Enviádeme as instrucións de restablecemento do contrasinal
+      send_instructions: Recibirá un correo electrónico coas instrucións sobre como restablecer o seu contrasinal en poucos minutos.
+      updated: Cambiouse o seu contrasinal. Xa accedeu ao sistema.
+    registrations: 
+      destroyed: Adeus! A súa conta foi cancelada. Agardamos velo de novo en breve.
+      link: Crear unha conta
+      signed_up: Xa está inscrito. Se a opción estaba activada, recibirá unha confirmación no seu correo electrónico.
+      updated: Actualizou a súa conta.
+    sessions: 
+      link: Acceder
+      new: 
+        openid_url: O URL do seu OpenID
+        remember_me: Permanecer conectado
+      registered_only: Debe iniciar sesión para ver os contidos.
+      sign_out: Saír
+      signed_in: Accedeu ao sistema.
+      signed_out: Saíu do sistema.
+      signin_group: Acceder a %{group}
+    unlocks: 
+      link: Non recibiu as instrucións de desbloqueo?
+      send_instructions: Recibirá un correo electrónico coas instrucións sobre como desbloquear a súa conta en poucos minutos.
+      unlocked: Desbloqueouse a súa conta. Xa accedeu ao sistema.
+  errors: 
+    messages: 
+      already_confirmed: xa se confirmou
+      not_found: non se atopou
+      not_locked: non se bloqueou

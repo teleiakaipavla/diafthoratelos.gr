@@ -1,0 +1,29 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: 本文
+        created_at: 作成日時：
+        link: リンク
+    models: 
+      answer: 回答
+      answers: 回答
+  answers: 
+    create: 
+      flash_error: "あなたの回答には問題があるようです。\n  以下を確認してください:\n - 空または同じ内容の回答は許可されていません。\n - スパム防止のため、前の回答から20秒待つ必要があります。\n - 一つの質問に対して一つの回答しかできません。"
+      flash_notice: ありがとう！
+    edit: 
+      title: 回答を編集
+    form: 
+      answer_label: 質問に回答する
+      comment_label: 回答にコメントする
+      comment_submit: コメント
+      submit: 回答する
+    revert: 
+      title: 回答を戻す
+    update: 
+      flash_notice: 回答を更新しました。

@@ -1,0 +1,76 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  shared: 
+    any_lang: Било који језик
+    by_anon: Анонимно
+    current_tags: 
+      title: Изабране ознаке
+    description: Опис
+    empty: 
+      activities: 
+        description: 
+          text: Ово место ће бити самостално попуњено када посетиоци почну да користе сајт.
+        title: Засад нема активности.
+      answers: 
+        description: 
+          text: Будите први!
+        title: Засад нико није одговорио на ово питање.
+      default: 
+        description: 
+          text: Будите први који ће %{action_link}!
+        title: Нажалост, нема много тога да се види.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Кликните овде да погледате питања на свим језицима.
+        title: Нажалост, нема питања на том језику.
+      filtered_questions: 
+        description: 
+          action_link: Кликните овде да прикажете сва питања
+        title: Нажалост, нема питања у овом филтеру.
+      questions: 
+        description: 
+          action_link: поставити питање
+          text: Будите први који ће <a href="%{url}"> %{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: сада
+          text: направите %{action_link}
+        title: Засад нисте направили ниједну тему.
+    filter: "Филтер:"
+    language: "Језик:"
+    language_filter_tooltip: Пробајте с другим језиком.
+    languages: "Језици:"
+    layout: 
+      footer: 
+        cc_footer: Сви подаци и садржај на Шападу су доступни под лиценцом %{cc_link}
+        powered_by: Покреће %{source_link} %{version} под %{agpl_link}
+    login_drop_down: 
+      sign_up_user_pass: Отворите налог с е-адресом/лозинком
+      with_email_pass: Пријавите се преко е-поште
+      with_facebook: преко Фејсбука
+      with_google: преко Гугла
+      with_identica: преко Идентике
+      with_linked_in: преко Линкедина
+      with_openid: OpenID
+      with_twitter: преко Твитера
+    manage_navigation: 
+      title_content: Садржај групе
+      title_features: Могућности групе
+      title_options: Поставке групе
+    name: Назив
+    preferred_lang: Жељени језици
+    quick_question: 
+      random_question: Одговори на случајно питање
+    social_connect: 
+      find_friends_facebook: Пронађи пријатеље на Фејсбуку
+      find_friends_identica: Пронађи пријатеље на Идентици
+      find_friends_linked_in: Пронађи пријатеље на Линкедину
+      find_friends_twitter: Пронађи пријатеље на Твитеру
+    topbar: 
+      admin: Администратор
+      logged_as: Пријављен као %{login}
+      user_page: Моја страница
+    view_mode: "Режим приказа:"

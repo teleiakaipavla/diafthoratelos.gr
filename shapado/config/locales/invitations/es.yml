@@ -1,0 +1,33 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  invitations: 
+    accept: 
+      create_account: Crea una cuenta (1 de 2)
+      create_account_step2: Crear una cuenta
+      description: "%{group} es una colección cada vez mejor de preguntas y respuestas sobre cualquier tema."
+      done: ¡Hecho!
+      facebook_connect: Conéctase con su cuenta de Facebook
+      final_step: Paso final (2 de 2)
+      find_friends: "Encontra sus amigos y conectase con ellos:"
+      follow_things: Siga etiquetas y personas
+      follow_things_description: Preguntas relacionadas con estos aparecerán en su flujo.
+      other_connect: o utiliza uno de estos.
+      other_social_options: También puede usar %{linkedin} y %{identica}.
+      point1: Pregunte a expertos que saben acerca de un tema determinado.
+      point2: Sigua los temas y responda a las preguntas que le interesan.
+      point3: Vota y edita las respuestas y las páginas wiki para mejorarlas. Gana insignias.
+      point4: Responda desde su cliente de correo electrónico sin problema.
+      twitter_connect: Conéctase con su cuenta de Twitter
+      welcome: Bienvenido
+    create: 
+      flash_notice: Sus invitaciones fueron enviadas con éxito.
+      limit_notice: 
+        one: Lo sentimos, no se puede enviar más de %{limit} invitación a la vez.
+        other: Lo sentimos, no se puede enviar más de %{limit} invitaciones a la vez.
+    resend: 
+      flash_notice: Su invitación ha sido enviada con éxito.
+    revoke: 
+      flash_notice: Su invitación ha sido revocada con éxito.

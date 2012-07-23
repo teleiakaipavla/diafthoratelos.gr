@@ -1,0 +1,11 @@
+=form_for(widget, :url => widget_path(widget, :tab => tab), :class => "form widgets-settings") do |f|
+  = hidden_field_tag "position", position
+  .field
+    .checkbox
+      = check_box_tag "settings[notitle]", "true", widget.settings["notitle"]
+      = label_tag "without title"
+  = render :partial => "#{widget.partial_name}_settings", :locals => {:widget => widget, :form => f}
+  .buttons
+    = submit_tag t("scaffold.update"), :class => "save"
+    = t('scaffold.or')
+    = link_to t('scaffold.cancel'), widgets_path,:class => 'cancel'

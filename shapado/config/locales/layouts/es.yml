@@ -1,0 +1,81 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Armando-Martin
+# Author: Bernardom
+# Author: Crazymadlover
+# Author: Mor
+# Author: Patcito
+# Author: Vivaelcelta
+es: 
+  layouts: 
+    application: 
+      all: Todo
+      ask_question: Pregunte
+      badges: Insignias
+      by_me: Por mí
+      collaborate: Colabore
+      contributed: Contribuido
+      faq: Preguntas frecuentes
+      feed: Seguido
+      follow_us_and_share: Siganos y comparta
+      followed: Seguido
+      forgot: ¿La olvidó?
+      home: Página principal
+      join_group: Únase a %{group}
+      languages: Idiomas
+      log_in: Acceder
+      logged: Conectado como %{login}
+      logout: Salir
+      manage_ads: Gestionar propagandas
+      moderate: Moderar
+      need_to_signin: Primero debes iniciar sesión.
+      not_member_join_dialog: Necesita unirse a %{group} para completar esta acción, haga clic aquí para hacerlo.
+      now: ya!
+      openid: 
+        explaination: "Si deseas abrir una cuenta o solamente conectarte, por favor seleccione tu provedor openid:"
+      pages: Páginas
+      preferred: Preferido
+      questions: Preguntas
+      questions_in: Preguntas en
+      questions_tagged: etiquetadas con
+      random_question: Pregunta al azar
+      search: Buscar
+      settings: Configuración
+      signup: Registrarse
+      subscribe: Subscribirse
+      success_joining_group: Ahora eres un participante de %{group}, ¡gracias por unirte!
+      tags: Etiquetas
+      title: Preguntas & respuestas
+      unanswered: Sin contestar
+      users: Usuarios
+      welcome_from: ¡Bienvenido! puedes
+    manage: 
+      access: Acceso
+      actions: Acciones
+      announcements: Anuncios
+      appearance: Apariencia
+      close_group: Cerrar el grupo
+      constrains: Restricciones
+      content: Contenido
+      dashboard: Panel de control
+      domain: Dominio
+      edit_layout: Editar diseño
+      general: General
+      group_features: Características
+      group_look_and_feel: Look & feel
+      group_user_management: Administración de usuarios
+      invitations: Invitaciones
+      invoices: Facturas
+      members: Miembros
+      pages: Paginas
+      properties: Propiedades
+      reputation: Reputación
+      rewards: Premios
+      social: Social
+      stats: Estadísticas
+      theme: Tema
+      themes: Temas
+      widgets: Widgets
+    notifications: 
+      message: Si no deseas recibir notificaciones automáticas de %{group} otra vez, cambia tus preferencias en la pantalla de notificaciones.

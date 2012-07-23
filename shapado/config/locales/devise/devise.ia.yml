@@ -1,0 +1,67 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  devise: 
+    confirmations: 
+      confirmed: Tu conto ha essite confirmate con successo. Tu es ora authenticate.
+      send_instructions: Tu recipera post alcun minutas un e-mail con instructiones pro confirmar tu conto.
+    failure: 
+      inactive: Tu conto non ha ancora essite activate.
+      invalid: Adresse de e-mail o contrasigno invalide.
+      invalid_token: Indicio de authentication invalide.
+      locked: Tu conto es serrate.
+      timeout: Tu session ha expirate. Per favor aperi session de novo pro continuar.
+      unauthenticated: Es necessari aperir session o crear un conto ante de poter continuar.
+      unconfirmed: Es necessari confirmar tu conto ante de poter continuar.
+    mailer: 
+      confirm_account: 
+        instruction1: "Confirma tu conto per le ligamine sequente:"
+        link: Confirmar mi conto
+        welcome: Benvenite
+      confirmation_instructions: 
+        subject: Instructiones de confirmation
+      hello: Hallo
+      reset_password: 
+        instruction1: Qualcuno ha requestate un ligamine pro cambiar tu contrasigno. Tu pote cambiar lo per le ligamine sequente.
+        link: Cambiar mi contrasigno
+        nonrequested: Si non es tu qui requestava isto, per favor ignora iste e-mail.
+        warning: Le contrasigno cambiara solmente si tu accede al ligamine supra e crea un nove contrasigno.
+      reset_password_instructions: 
+        subject: Instructiones pro reinitialisar contrasigno
+      unlock: 
+        instruction1: Tu conto ha essite serrate a causa de un excesso de tentativas fallite de apertura de session.
+        instruction2: "Clicca super le ligamine sequente pro disserrar tu conto:"
+        link: Disblocar mi conto
+      unlock_instructions: 
+        subject: Instructiones pro disserrar
+    passwords: 
+      link: Contrasigno oblidate?
+      send_button: Inviar me le instructiones pro reinitialisar contrasigno
+      send_instructions: Tu recipera post alcun minutas un e-mail con instructiones pro reinitialisar tu contrasigno.
+      updated: Tu contrasigno ha essite cambiate con successo. Tu es ora authenticate.
+    registrations: 
+      destroyed: Adeo! Tu conto ha essite cancellate con successo. Nos spera revider te tosto.
+      link: Crear conto
+      signed_up: Tu ha create un conto. Si tal option es active, un confirmation te ha essite inviate in e-mail.
+      updated: Tu ha actualisate tu conto con successo.
+    sessions: 
+      link: Aperir session
+      new: 
+        openid_url: Tu URL de OpenID
+        remember_me: Mantener mi session aperte
+      registered_only: Es necessari aperir session pro vider le contento.
+      sign_out: Clauder session
+      signed_in: Session aperite con successo.
+      signed_out: Session claudite con successo.
+      signin_group: Aperir session a %{group}
+    unlocks: 
+      link: Instructiones pro disblocar non recipite?
+      send_instructions: Tu recipera post alcun minutas un e-mail con instructiones pro disblocar tu conto.
+      unlocked: Tu conto ha essite disblocate con successo. Tu es ora authenticate.
+  errors: 
+    messages: 
+      already_confirmed: esseva jam confirmate
+      not_found: non trovate
+      not_locked: non esseva serrate

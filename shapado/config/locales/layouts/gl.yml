@@ -1,0 +1,76 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  layouts: 
+    application: 
+      all: Todos
+      ask_question: Facer unha pregunta
+      badges: Insignias
+      by_me: Por min
+      collaborate: Colaborar
+      contributed: Contribuído
+      faq: Preguntas máis frecuentes
+      feed: Seguido
+      follow_us_and_share: Síganos e comparta
+      followed: Seguido
+      forgot: Esqueceuse?
+      home: Inicio
+      join_group: Unirse a %{group}
+      languages: Linguas
+      log_in: Rexistro
+      logged: Conectado como %{login}
+      logout: Saír ao anonimato
+      manage_ads: Xestionar os anuncios
+      moderate: Moderar
+      need_to_signin: Cómpre iniciar sesión primeiro.
+      not_member_join_dialog: Debe unirse a %{group} para completar esta acción; prema aquí para facelo.
+      now: xa!
+      openid: 
+        explaination: "Se quere rexistrarse ou acceder ao sistema, seleccione o seu provedor de OpenID:"
+      pages: Páxinas
+      preferred: Preferido
+      questions: Preguntas
+      questions_in: Preguntas en
+      questions_tagged: etiquetado con
+      random_question: Pregunta ao chou
+      search: Procurar
+      settings: Configuracións
+      signup: Rexístrese
+      subscribe: Subscribirse
+      success_joining_group: Agora é membro de %{group}; grazas por unirse!
+      tags: Etiquetas
+      title: Preguntas e respostas
+      unanswered: Sen resposta
+      users: Usuarios
+      welcome_from: Benvido! Pode
+    manage: 
+      access: Acceso
+      actions: Accións
+      announcements: Anuncios
+      appearance: Aparencia
+      close_group: Pechar o grupo
+      constrains: Restricións
+      content: Contido
+      dashboard: Panel de control
+      domain: Dominio
+      edit_layout: Editar o deseño
+      general: Xeral
+      group_features: Características
+      group_look_and_feel: Aspecto
+      group_user_management: Xestión de usuarios
+      invitations: Invitacións
+      invoices: Facturas
+      members: Membros
+      pages: Páxinas
+      properties: Propiedades
+      reputation: Reputación
+      rewards: Recompensas
+      social: Social
+      stats: Estatísticas
+      theme: Tema visual
+      themes: Temas visuais
+      widgets: Widgets
+    notifications: 
+      message: Se non quere recibir máis notificacións automáticas de %{group}, cambie as súas preferencias de notificación.

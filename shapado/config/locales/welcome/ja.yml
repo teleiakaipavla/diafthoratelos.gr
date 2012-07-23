@@ -1,0 +1,23 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  welcome: 
+    confirm_age: 
+      notice: ここから先は18歳以上のみがアクセスできます。18歳未満のアクセスは禁止されていますので、必ず正直に答えてください。
+      over_18: 私は18歳以上です
+      under_18: 私は18歳未満です
+      warning: 警告：このページは成人向けの内容を含んでいます。
+    feedback: 
+      captcha_error: スパム防止のため、簡単な計算を行ってください
+      email_description: 返信できるように、あなたのメールアドレスを入力してください
+      feedback_description: 説明
+      feedback_title: タイトル
+      title: フィードバックを送信
+    index: 
+      active: アクティブ
+      create_own_site: 自分のQ&amp;Aサイトを作ってみませんか？たった10秒で作成、しかも無料！
+      hot: ホット
+      quick_question: 質問してみましょう、きっと誰かが教えてくれるはず！
+      recent_questions: 最近の質問

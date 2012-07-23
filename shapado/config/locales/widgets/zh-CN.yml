@@ -1,0 +1,31 @@
+# Messages for Simplified Chinese (‪中文(简体)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  widgets: 
+    badges: 
+      description: 这个工具将显示最近的徽章，赚取的用户或问题
+      title: 最近的徽章
+    groups: 
+      description: 这个工具显示最新的组
+      title: 最近的组
+    index: 
+      description: 使用箭头移动您的窗口小部件
+      title: 管理的侧边栏窗口
+    pages: 
+      description: 这个工具将显示维基页面的列表
+      new: 添加新页面
+      title: 维基页面
+    tag_cloud: 
+      description: 这个工具显示标签云
+      title: 标签云
+    top_groups: 
+      description: 这个工具将显示最高的五个组别
+      title: 前 5 组
+    top_users: 
+      description: 这个工具将显示在最多五个用户
+      title: 前 5 位用户
+    users: 
+      description: 这个工具将显示新注册的会员
+      title: 最新用户

@@ -1,0 +1,24 @@
+en:
+  mailers:
+    notifications:
+      new_answer:
+        subject_owner: "%{login} answered your question %{title}"
+        subject_friend: "Your friend %{login} answered the question %{title}"
+        subject_other: "%{login} answered the question %{title}"
+      new_comment:
+        subject: "%{login} commented on %{group}"
+      give_advice:
+        subject: "We need your advice: %{question_title}"
+        friend_subject: "Your friend needs help: %{question_title}"
+      follow:
+        subject: "%{login} is now following you on %{app}"
+      earned_badge:
+        subject: "You have earned a badge on %{group}!"
+      favorited:
+        subject: "%{login} added your question as a favorite!"
+      report:
+        subject: "Report for the group %{group} of %{app}"
+      created_flag:
+        subject: "New post flagged on %{group}"
+      new_invitation:
+        subject: "%{user} is inviting you to join %{group}"

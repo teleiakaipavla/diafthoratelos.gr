@@ -1,0 +1,16 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  admin: 
+    moderate: 
+      index: 
+        all: Όλα
+        ban: Απαγόρευση
+        banned: Απαγορευμένες ερωτήσεις
+        content: Περιεχόμενο
+        flagged: Αναφερόμενες ερωτήσεις
+        item_title: Τίτλος
+        need_tags: Αλλαγή ετικετών
+        title: Συντονισμός

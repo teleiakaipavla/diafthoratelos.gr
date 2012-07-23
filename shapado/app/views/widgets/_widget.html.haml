@@ -1,0 +1,21 @@
+.container.clearfix.widget-container{:class => widget.name}
+  - if widget.valid?
+    .top
+      = widget.name.titleize
+      %p
+        = widget.description # do not escape
+        = link_to t("scaffold.edit"), edit_widget_path(widget, :tab => @active_subtab||"mainlist", :position => position), :class => "edit_widget", 'data-title' => I18n.t('widgets.index.edit_dialog_title', :name => widget.name.titleize, :default => "Edit widget")
+        = link_to t("scaffold.destroy"), widget_path(widget, :tab => @active_subtab||"mainlist", :position => position), :method => :delete, :confirm => t("scaffold.sure", :model => "widget"), :class => "delete-widget", :remote => true
+
+      = form_tag move_widget_path(widget, :tab => @active_subtab||"mainlist"), :class => "vote_box", :style => "display:inline" do
+        %p
+          = t('widgets.widget.change_position')
+        = hidden_field_tag "position", position
+        = image_submit_tag("to_vote_up.png", :name=>"move_to", :value => "up", :class => "img")
+        = image_submit_tag("to_vote_down.png", :name=>"move_to", :value => "down", :class => "img")
+
+    - unless widget.question_only? || params[:tab] == 'external'
+      .widget-info
+        = render :partial => widget.partial_name, :locals => {:widget => widget}
+  - else
+    = widget.errors.full_messages.join(", ")

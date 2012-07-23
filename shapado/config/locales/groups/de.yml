@@ -1,0 +1,97 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+# Author: Ookami
+de: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Tägliche Obergrenze
+        default_tags: Standard-Stichwörter
+        description: Beschreibung
+        domain: Domain
+        enable_latex: LaTeX mit jqmath aktivieren (schnell, aber ohne vollständige Funktionsunterstützung)
+        enable_mathjax: LaTeX mit mathjax aktivieren (langsam, aber mit vollständiger Funktionsunterstützung)
+        fb_button: Aktiviere eine Schaltfläche, ähnlich wie bei Facebook (nicht privatsphärenfreundlich)
+        forum: Mehr als eine Antwort pro Nutzer zulassen
+        group_created_by: erstellt von
+        language: Standardsprache
+        languages: Zusätzliche Sprachen
+        legend: Legende
+        logo: Logo
+        may_contain_adult_content: Diese Website enthält möglicherweise jugendgefährdende Inhalte
+        name: Name
+        owner: Diese Gruppe wurde erstellt von %{login}
+        registered_only: Diese Website ist nur für registrierte Nutzer zugänglich
+        signup_type: "Welche Methode dürfen die Nutzer verwenden, um sich zu registrieren:"
+        state: Land
+        subdomain: URL
+        track_users: Frage Nutzer nach ihrem Standort
+        wysiwyg_editor: Nutzerfreundlichen Editor aktivieren
+    models: 
+      default_tags_message: Du kannst nicht mehr als 10 Standard-Stichwörter verwenden
+      duplicate_domain_message: Diese Domain wird leider schon genutzt.
+      group: Gruppe
+      groups: Gruppen
+      reputation_rewards_answer_constrain: Die Einschränkung Auszeichnungen beantworten zu können sollte negativ sein
+      reputation_rewards_ask_constrain: Die Einschränkung Fragen zu können sollte negativ sein
+      reputation_rewards_key: Ungültiger Schlüssel
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Es ist leider ein Problem aufgetreten. Versuche es bitte erneut.
+      success_twitter_connection: Glückwunsch, Dein Twitter-Konto wurde erfolgreich verknüpft.
+    create: 
+      flash_notice: Deine Gruppe wurde erfolgreich erstellt. Du kannst jetzt beginnen, sie zu konfigurieren.
+    edit: 
+      title: Bearbeite Deine Gruppe
+    form: 
+      access: Zugangs-Einstellungen
+      analytics_engine: Webanalytik-System
+      analytics_legend: Die Gruppe wird ihren eigenen Tracking-Code zu verwenden können
+      any_language: Alle
+      custom_analytics: Nutzerdefinierte Webanalytik erlauben
+      custom_html: Erlaube nutzerdefiniertes HTML
+      custom_js: Erlaube nutzerdefiniertes JavaScript
+      default_tags_legend: Stichwörter durch Kommas trennen. Es sind nur 10 Standard-Stichwörter zulässig.
+      description_legend: Beschreibe deine Gruppe mit max. 400 Zeichen.
+      isolate_group: Diese Gruppe von anderen Gruppen isolieren
+      legend_legend: Es wird in der Kopfzeile verwendet werden. Sie haben 40 Zeichen.
+      logo_legend: Du kannst ein Gruppenlogo hochladen. Die maximale Dateigröße beträgt 2 MB.
+      members_only: Nur Gruppenmitglieder haben Zugriff auf diese Gruppe.
+      signup_all: Alle ausgewählten Anbieter über Nutzername und Passwort
+      signup_email: Nur mit Nutzername und Passwort
+      signup_noemail: Alle ausgewählten Anbieter ohne Nutzername und Passwort
+      signup_social: Die Nutzer müssen entweder Facebook, Twitter, LinkedIn oder Identica benutzen
+      website_analytics_id: Webanalytik-ID der Website
+    group: 
+      about: Über
+      accept_group: Diese Gruppe akzeptieren
+      allow_ads: Werbung erlauben
+      close: Schließen
+      close_group: Diese Gruppe schließen
+      disallow_ads: Werbung verbieten
+    index: 
+      actives: Aktiv
+      create_your_own: Erstelle Deine eigene Gruppe
+      description: Dies ist die Liste öffentlicher Gruppen, die bislang erstellt wurden. Nutze das Suchfeld unten, um nach Gruppen zu filtern. Du kannst auch %{link}.
+      filter: Nach Gruppen suchen
+      most_active: Aktivste
+      name: Name
+      pendings: Ausstehend
+      request_group: Neue Gruppe beantragen
+      title: Gruppen
+    new: 
+      title: Gruppe erstellen
+    show: 
+      accept_group: Diese Gruppe akzeptieren
+      accept_group_with_custom_ads: Gruppe akzeptieren sowie nutzerdefinierte Anzeigen erlauben
+      close_group: Diese Gruppe schließen
+      group_awaiting_acceptance: Diese Gruppe wartet auf Freigabe durch einen Moderator.
+      group_closed: Diese Gruppe wurde geschlossen.
+      title: Über %{name}
+      visit_group: Diese Gruppe besuchen
+    top_grouplist: 
+      active_site: "Aktive Website:"
+    update: 
+      notice: Deine Gruppe wurde erfolgreich aktualisiert.

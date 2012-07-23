@@ -1,0 +1,23 @@
+= t('shared.networks.title')
+
+.network-field
+  - options = share ? Shapado::Models::Networks::SHARE : Shapado::Models::Networks::PROFILE
+  = select_tag :network_select, options_for_select([[]]+options), :class => "network_select"
+
+  .network-config
+    .text
+    = text_field_tag "networks[][param]", "", :class => "network_param"
+    = hidden_field_tag "networks[][name]", "", :class => "network_name"
+    %span.buttons
+      = link_to t("shared.networks.save"), "#", :class => "save_network"
+      or
+    = link_to t("shared.networks.remove"), "#", :class => "cancel_network"
+
+  .networks
+    -networks.each do |name, user|
+      .network-config-entry
+        .text
+          &=name
+        = hidden_field_tag "networks[][param]", user, :class => "network_param"
+        = hidden_field_tag "networks[][name]", name, :class => "network_name"
+        = link_to t("shared.networks.remove"), "#", :class => "cancel_network"

@@ -1,0 +1,125 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  admin: 
+    manage: 
+      access: 
+        title: Accesso
+      answers: 
+        banning: 
+          title: Bannir iste responsa
+      appearance: 
+        logo_legend: Incarga un logotypo pro le gruppo. Illo debe haber minus de 2MB.
+        title: Seliger e personalisar tu apparentia
+      close_group: 
+        description: Le clausura del gruppo lo rendera inaccessibile a totes minus te.
+        feedback: "Per favor, specifica proque tu vole clauder iste gruppo:"
+      content: 
+        description: Configurar tu gruppo con texto e apparentia personalisate
+        footer: Pede
+        head: titulo
+        question_help: Adjuta al questiones
+        question_prompt: Texto del question
+        title: Contento personalisate
+        top_bar: Barra superior
+        top_bar_tip: Entra un ligamine per linea
+      invitations: 
+        invitations: Invitationes inviate
+        invitations_title: Listar tote le invitationes que tu ha inviate
+        invite: Invitar personas
+        invite_title: Invitar personas per e-mail
+        title: Invitationes
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Poner questiones ab Twitter
+          question_asked_to: Question ponite a
+          question_must_include: Le question debe includer le sequente etiquetta pro esser publicate in Twitter.
+          question_must_include_example: "p.ex. #ioDemanda"
+          twitter_account: Le conto de Twitter al qual tu usatores ponera questiones.
+        constrains: 
+          reputation_constrains_description: Iste formulario permitte configurar quante punctos de reputation le usatores require pro exequer un determinate action
+          reputation_constrains_subtitle: Lista de requisitos de reputation pro cata action
+          title: Requisitos
+        domain: 
+          description: "Es possibile assignar un altere dominio a tu sito de Shapado, de sorta que illo es accessibile per tu proprie dominio. Ecce le procedura:"
+          instruction1: Pro facer lo, tu debe prima authenticar te al providitor de tu dominio. Isto es le sito ubi tu ha acquirite tu dominio como %{subdomain}.com.
+          instruction2: Ibi, tu debe vader al section DNS e crear un cosa appellate CNAME.
+          instruction3: Selige 'www' o altere cosa como le nomine de tu CNAME.
+          instruction4: "Postea, in le campo de host o de destination, insere tu dominio actual de Shapado: %{domain}."
+          instruction5: Quando isto es facite, post circa un hora, tu dominio www.%{subdomain} deberea punctar verso %{appdomain}.
+          instruction6: Si isto es le caso, reveni hic e insere tu nomine de dominio www.%{subdomain} in le campo hic infra e preme le button 'actualisar'. Si tu ha questiones, pone los in le %{chat_url} o in nostre foro de supporto.
+          title: Configurar tu dominio personalisate
+          warning: Es tu secur de voler cambiar tu dominio?
+        facebook_app: 
+          application_id: ID de application
+          facebook_app: Configurationes del app de Facebook
+          legend: Es possibile configurar tu app de Facebook. Con isto, le usatores pote aperir session via lor conto de Facebook. Nota ben que isto es solmente necessari si tu usa un dominio personalisate.
+          secret_key: Clave secrete
+        general: 
+          title: Proprietates del gruppo
+        invitations: 
+          resend_button: Reinviar
+          revoke_button: Revocar
+        invite: 
+          body_instructions: Scribe un message al personas que tu invita (optional)
+          body_length_warning: Le texto non pote continer plus de 400 characteres
+          emails_instructions: Entra adresses de e-mail separate con commas
+          invitations: Invitationes inviate
+          invite: Invitar personas
+          title: Invitar personas per e-mail
+          user_role: Invitar usatores como
+        post_to_twitter: 
+          legend: Iste pagina permitte configurar lo que es inviate a Twitter. Le conto usate es <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>. Si tu vole usar un altere conto, per favor clicca <a href="%{link}">hic</a>.
+          legend_connect: Iste pagina permitte configurar lo que es inviate a Twitter. Es necessari specificar un conto de Twitter primo. Per favor clicca <a href="%{link}">hic</a> pro facer lo.
+          post_to_twitter: Publicar activitates in Twitter
+          send_answers_to_twitter: Inviar tote le responsas a Twitter
+          send_badges_to_twitter: Inviar tote le insignias novemente ganiate a Twitter
+          send_comments_to_twitter: Inviar tote le commentos a Twitter
+          send_favorites_to_twitter: Inviar tote le responsas favorite a Twitter
+          send_questions_to_twitter: Inviar tote le questiones a Twitter
+        rewards: 
+          reputation_rewards_description: Iste formulario permitte configurar como le usatores pote ganiar e perder punctos de reputation pro un date action
+          reputation_rewards_subtitle: Lista de recompensas de reputation
+          title: Recompensas
+        share: 
+          title: Divider
+        tag_your_tweets: 
+          add_tags: Adder etiquettas a tu tweets
+          ends_with_example: "p.ex. #shapado"
+          starts_with_example: "p.ex. #qa"
+          title: Etiquettar tu tweets
+          tweet_ends_with: Adjunger un etiquetta a tu tweets
+          tweet_starts_with: Anteponer un etiquetta a tu tweets
+        title: Proprietates del gruppo
+        twitter_account: 
+          connect_to_other_twitter: Clicca hic pro connecter un altere conto de Twitter a tu gruppo
+          connect_to_twitter: Clicca hic pro connecter un conto de Twitter a tu gruppo
+          disconnect_twitter_group: Disconnecter iste gruppo de Twitter
+          legend: Iste conto essera usate pro publicar nove questiones e responsas a Twitter.
+          legend_with_account: Tu conto de Twitter <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> essera usate pro publicar nove questiones e responsas in Twitter. Es possibile configurar lo que es inviate a Twitter <a href="%{link}">hic</a>.
+          twitter_account: Conto de Twitter
+        twitter_app: 
+          key: Clave del application
+          secret: Secreto del application
+          twitter_app: App de Twitter
+      questions: 
+        banning: 
+          title: Bannir iste question
+      social: 
+        ask_from_twitter: Demandar de Twitter
+        ask_from_twitter_title: Permitter que tu usatores pone questiones ab Twitter
+        description: Connecter tu gruppo a tu retes social
+        facebook_app: App de Facebook
+        facebook_app_title: Configurar tu app de Facebook que essera usate pro permitter que tu usatores aperi session con lor conto de Facebook
+        post_to_twitter: Publicar in Twitter
+        post_to_twitter_title: Publicar automaticamente tote le questiones e responsas in Twitter
+        tag_your_tweets: Etiquettar tu tweets
+        tag_your_tweets_title: Adder etiquettas a tu tweets
+        title: Interaction per medios social
+        twitter_account: Conto de Twitter
+        twitter_account_title: Configurar tu conto de Twitter que essera usate pro publicar in Twitter
+      top_admin: 
+        site: Sito
+        title: Administration

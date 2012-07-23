@@ -1,0 +1,76 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  layouts: 
+    application: 
+      all: Sve
+      ask_question: Postavi pitanje
+      badges: Značke
+      by_me: Od mene
+      collaborate: Saradnja
+      contributed: Pridoneseno
+      faq: ČPP
+      feed: Praćeno
+      follow_us_and_share: Pratite nas i delite
+      followed: Praćeno
+      forgot: Zaboravili ste?
+      home: Početna
+      join_group: Učlani se u %{group}
+      languages: Jezici
+      log_in: Prijava
+      logged: Prijavljen kao %{login}
+      logout: Odjava
+      manage_ads: Upravljanje oglasima
+      moderate: Moderisanje
+      need_to_signin: Prvo se prijavite.
+      not_member_join_dialog: Prvo treba da se pridružite grupi %{group} da biste završili ovu radnju. Kliknite ovde.
+      now: odmah.
+      openid: 
+        explaination: "Ako želite da otvorite nalog ili pak samo da se prijavite, izaberite dobavljača OpenID:"
+      pages: Stranice
+      preferred: Željeno
+      questions: Pitanja
+      questions_in: Pitanja u
+      questions_tagged: označena sa
+      random_question: Slučajno pitanje
+      search: Pretraži
+      settings: Postavke
+      signup: Upis
+      subscribe: Prijavi me
+      success_joining_group: Sada ste član grupe %{group}. Hvala vam što ste se pridružili!
+      tags: Oznake
+      title: Pitanja i odgovori
+      unanswered: Neodgovoreno
+      users: Korisnici
+      welcome_from: Dobro došli! Možete
+    manage: 
+      access: Pristup
+      actions: Radnje
+      announcements: Saopštenja
+      appearance: Izgled
+      close_group: Zatvori grupu
+      constrains: Zahtevi
+      content: Sadržaj
+      dashboard: Upravljačka tabla
+      domain: Domen
+      edit_layout: Uredi raspored
+      general: Opšte
+      group_features: Mogućnosti
+      group_look_and_feel: Izgled
+      group_user_management: Upravljanje korisnicima
+      invitations: Pozivnice
+      invoices: Fakture
+      members: Članovi
+      pages: Stranice
+      properties: Svojstva
+      reputation: Ugled
+      rewards: Nagrade
+      social: Društveno
+      stats: Statistike
+      theme: Tema
+      themes: Teme
+      widgets: Elementi
+    notifications: 
+      message: Ako više ne želite da primate e-obaveštenja od grupe %{group}, promenite postavke u prozoru za obaveštenja.

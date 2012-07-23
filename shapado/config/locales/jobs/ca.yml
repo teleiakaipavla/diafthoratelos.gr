@@ -1,0 +1,21 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} contestava a: %{question}"
+        send_twitter: La meva resposta a %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} va agradar una resposta en %{author} en: %{question}"
+        send_twitter: "Em va agradar una resposta %{author} en: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} acaba de guanyar el distintiu %{token} en % %{group_name} %{link}"
+        send_twitter: Acaba de guanyar el distintiu %{token} en % %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} comentar: %{question}"
+        send_twitter: El meu comentari en %{question}

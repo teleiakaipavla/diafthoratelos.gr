@@ -1,0 +1,20 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fryed-peach
+# Author: Shirayuki
+ja: 
+  activerecord: 
+    models: 
+      activities: 活動
+      activity: 活動
+  activity: 
+    asked: 質問
+    changed: 変更
+    created: 作成
+    deleted: 削除
+    destroyed: 削除
+    flagged: フラグ付け
+    requested_to_close: 完了申請
+    requested_to_open: 未了申請
+    updated: 更新

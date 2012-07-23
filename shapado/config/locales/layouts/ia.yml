@@ -1,0 +1,76 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  layouts: 
+    application: 
+      all: Totes
+      ask_question: Poner question
+      badges: Insignias
+      by_me: Per me
+      collaborate: Collaborar
+      contributed: Contribuite
+      faq: FAQ
+      feed: Sequite
+      follow_us_and_share: Seque nos e diffunde le parola
+      followed: Sequite
+      forgot: Oblidate?
+      home: Initio
+      join_group: Adherer a %{group}
+      languages: Linguas
+      log_in: Aperir session
+      logged: Authenticate como %{login}
+      logout: Clauder session
+      manage_ads: Gerer annuncios
+      moderate: Moderar
+      need_to_signin: Tu debe aperir session primo.
+      not_member_join_dialog: Es necessari devenir membro del gruppo "%{group}" pro completar iste action. Clicca hic pro facer lo.
+      now: ora!
+      openid: 
+        explaination: "Si tu vole crear un conto o solmente aperir un session, per favor selige tu providitor OpenID:"
+      pages: Paginas
+      preferred: Preferite
+      questions: Questiones
+      questions_in: Questiones in
+      questions_tagged: etiquettate con
+      random_question: Question aleatori
+      search: Cercar
+      settings: Configurationes
+      signup: Crear un conto
+      subscribe: Subscriber
+      success_joining_group: Tu es ora membro de %{group}, gratias!
+      tags: Etiquettas
+      title: Questiones & responsas
+      unanswered: Sin responsa
+      users: Usatores
+      welcome_from: Benvenite! Tu pote
+    manage: 
+      access: Accesso
+      actions: Actiones
+      announcements: Avisos
+      appearance: Apparentia
+      close_group: Clauder gruppo
+      constrains: Requisitos
+      content: Contento
+      dashboard: Pannello de instrumentos
+      domain: Dominio
+      edit_layout: Modificar disposition
+      general: General
+      group_features: Functiones
+      group_look_and_feel: Look & feel
+      group_user_management: Gestion de usatores
+      invitations: Invitationes
+      invoices: Facturas
+      members: Membros
+      pages: Paginas
+      properties: Proprietates
+      reputation: Reputation
+      rewards: Recompensas
+      social: Social
+      stats: Statisticas
+      theme: Thema
+      themes: Themas
+      widgets: Widgets
+    notifications: 
+      message: Si tu non vole plus reciper notificationes automatic de %{group}, cambia tu preferentias in le scheda pro notificationes.

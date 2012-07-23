@@ -1,0 +1,14 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mor
+# Author: Patcito
+es: 
+  activerecord: 
+    models: 
+      favorite: Favorito
+      favorites: Favoritos
+  unfavorites: 
+    create: 
+      success: La pregunta se ha quitado de tus favoritas
+      unauthenticated: Necesitas tener una cuenta para quitar un favorito

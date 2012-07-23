@@ -1,0 +1,73 @@
+en:
+  layouts:
+    application:
+      feed: Followed
+      need_to_signin: "You need to sign in first."
+      not_member_join_dialog: "You need to join %{group} to complete this action, click here to do so."
+      success_joining_group: "You are now a member of %{group}, thanks for joining!"
+      join_group: "Join %{group}"
+      title: "Questions & Answers"
+      questions: Questions
+      questions_in: Questions in
+      questions_tagged: tagged with
+      ask_question: Ask question
+      tags: Tags
+      users: Users
+      badges: Badges
+      unanswered: Unanswered
+      pages: Pages
+      logout: Log out
+      logged: Logged in as %{login}
+      search: Search
+      forgot: Forgot?
+      log_in: Login
+      signup: Sign up
+      settings: Settings
+      languages: Languages
+      moderate: Moderate
+      manage_ads: Manage ads
+      home: Home
+      subscribe: Subscribe
+      welcome_from: Welcome! You can
+      now: now!
+      faq: FAQ
+      all: All
+      followed: Followed
+      by_me: By Me
+      preferred: Preferred
+      contributed: Contributed
+      collaborate: Collaborate
+      random_question: Random question
+      follow_us_and_share: Follow us and share
+      openid:
+        explaination: "If you would like to register or just log in, please select your OpenID provider:"
+    manage:
+      site_management: Site management
+      close_group: Close group
+      edit_layout: Edit layout
+      group_user_management: User management
+      group_features: Features
+      group_look_and_feel: Look & feel
+      themes: Themes
+      appearance: Appearance
+      dashboard: Dashboard
+      properties: Properties
+      widgets: Widgets
+      actions: Actions
+      stats: Stats
+      members: Members
+      reputation: Reputation
+      content: Content
+      theme: Theme
+      domain: Domain
+      invoices: Invoices
+      pages: Pages
+      constrains: Requirements
+      rewards: Rewards
+      general: General
+      announcements: Announcements
+      social: Social
+      invitations: Invitations
+      access: Access
+    notifications:
+      message: "If you do not want to receive automatic notifications from %{group} anymore, change your preferences in the notifications screen."

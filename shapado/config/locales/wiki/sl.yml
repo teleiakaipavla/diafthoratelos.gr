@@ -1,0 +1,22 @@
+# Messages for Slovenian (slovenščina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dbc334
+sl: 
+  wiki: 
+    actions: 
+      all_history: Nazaj na zgodovino
+      back_to_question: Nazaj na vprašanje
+      revert: Povrni na to različico
+      show_diff: Primerjaj izbrani redakciji
+    diff: 
+      title: Razlike med %{prev} in %{curr}
+    history: 
+      current_version: Trenutna različica
+      previous_versions: Pretekle različice
+      title: Zgodovina (%{count})
+      version: Različica
+      version_summary: Povzetek različice
+    model: 
+      attributes: 
+        message: Povzetek

@@ -1,0 +1,32 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mor
+# Author: Patcito
+# Author: Vivaelcelta
+es: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Contenido
+        created_at: Creado el
+        link: Enlace
+    models: 
+      answer: Respuesta
+      answers: Respuestas
+  answers: 
+    create: 
+      annon_notice: El usuario ya está registrado, por favor inicia una nueva sesión.
+      flash_error: "algo fue mal añadiendo tu respuesta. \n  recuerda que: \n - no se permiten respuestas vacias ni repetidas. \n - debes esperar 20 segundos antes de volver a contestar. \n - solo puede hacer una sola respuesta por cada pregunta."
+      flash_notice: ¡Gracias!
+    edit: 
+      title: editar respuesta
+    form: 
+      answer_label: conteste la pregunta
+      comment_label: Opina sobre esta respuesta
+      comment_submit: comentar
+      submit: contestar
+    revert: 
+      title: Revertir la respuesta
+    update: 
+      flash_notice: la respuesta fue actualizada exitosamente.

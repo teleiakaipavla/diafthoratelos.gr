@@ -1,0 +1,120 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  widgets: 
+    about: 
+      description: Este widget mostra unha pequena descrición do seu grupo.
+      title: Acerca de
+    adsense: 
+      description: Este widget permite mostrar anuncios do Google AdSense.
+      title: AdSense
+    ask_question: 
+      ask: Preguntar
+      description: Este widget permite aos usuarios facer preguntas desde calquera lugar.
+      footer: Ollar todas as preguntas en %{group}
+      title: "Formular unha pregunta:"
+      view_question: <p>Pode vela <a href="%{question}">aquí</a> ou formular unha nova a continuación.</p>
+    badges: 
+      description: Este widget mostra as insignias gañadas recentemente polos usuarios.
+      see_all: Ver todas as insignias
+      title: Insignias recentes
+    contributors: 
+      description: Este widget mostra a lista de persoas que colaboraron nunha pregunta.
+      title: Persoas que colaboraron na pregunta
+    create: 
+      notice: O widget creouse correctamente.
+    current_tags: 
+      description: Este widget mostra as etiquetas seguidas polo usuario actual.
+    custom_html: 
+      description: Engada aquí calquera tipo de HTML que queira.
+    edit: 
+      title: Edit o widget
+    group_networks: 
+      description: Este widget mostra unha lista de ligazóns ás redes sociais para que os seus usuarios poidan seguilo nelas.
+      title: Síganos
+    groups: 
+      description: Este widget mostra os últimos grupos
+      title: Grupos recentes
+    index: 
+      add_new: Engadir un novo widget
+      description: Utilice as frechas para mover os seus widgets
+      external_widgets: Externo
+      external_widgets_title: Widgets que poderá incorporar ao seu propio sitio web
+      footer: Pé de páxina
+      header: Cabeceira
+      mainlist_widgets: Lista principal
+      mainlist_widgets_title: Widgets que aparecerán na lista principal de preguntas
+      name: Nome do widget
+      navbar: Barra de navegación
+      question_widgets: Pregunta
+      question_widgets_title: Widgets que aparecerán en cada páxina de pregunta
+      sidebar: Barra lateral
+      title: Xestionar os widgets da barra lateral
+      type: "Tipo:"
+      welcome_widgets: Benvido
+      zone: "Sección da páxina:"
+    mod_info: 
+      description: Este widget mostra información relevante aos moderadores como preguntas marcadas e peticións de información.
+    pages: 
+      description: Este widget mostra a lista de páxinas wiki
+      new: Engadir unha nova páxina
+      title: Páxinas wiki
+    question_badges: 
+      description: Este widget mostra as insignias gañadas con esta pregunta.
+      title: Insignias da pregunta
+    question_stats: 
+      description: Este widget mostra estatísticas sobre unha pregunta, como a data de creación e o número de visitas.
+    question_tags: 
+      description: Este widget mostra as etiquetas relacionadas coa páxina actual.
+      title: Etiquetas da pregunta
+    related_questions: 
+      description: Este widget mostra unha lista de preguntas relacionadas coa actual.
+      title: Preguntas relacionadas
+    settings: 
+      code: "Copie e pegue este código no seu sitio web ou blogue; por exemplo, como un widget de texto no Wordpress:"
+      custom_external_css: "Incluír CSS personalizado ao widget (recomendado se non está a incluír o CSS de Shapado):"
+      custom_html: "HTML personalizado:"
+      exclude_css_on_external: Excluír o CSS do seu sitio Shapado do widget
+      limit: "Cantidade a mostrar:"
+      on_questions: Mostrar na páxina da lista principal de preguntas
+      on_show_question: Mostrar mentres se ve unha pregunta
+      on_welcome: Mostrar na páxina de benvida
+      preview: "Vista previa do widget:"
+    share: 
+      description: Este widget mostra varios botóns para compartir a páxina actual nas redes sociais.
+      title: Compartir en
+    sharing_buttons: 
+      description: Este widget mostrará botóns para compartir nas redes sociais.
+      title: Compartir isto en
+    suggestions: 
+      description: Suxestión de amigos e etiquetas para o usuario.
+      follow_tag: + Seguir a etiqueta
+      follow_user: + Seguir o usuario
+      followed_by: Seguido por %{user}
+      title: Persoas e etiquetas a seguir
+      unfollow_tag: "- Deixar de seguir a etiqueta"
+      unfollow_user: "- Deixar de seguir o usuario"
+    tag_cloud: 
+      description: Este widget mostra unha nube de etiquetas
+      title: Nube de etiquetas
+    tag_list: 
+      description: Este widget mostra as etiquetas relacionadas coa páxina actual.
+      title: Etiquetas
+    top_groups: 
+      description: Este widget mostra os cinco mellores grupos
+      has_members: 
+        one: "%{count} membro"
+        other: "%{count} membros"
+      title: Os 5 mellores grupos
+    top_users: 
+      description: Este widget mostra os cinco mellores usuarios
+      title: Os 5 mellores usuarios
+    update: 
+      notice: O widget actualizouse correctamente.
+    users: 
+      description: Este widget mostra os novos membros rexistrados
+      title: Usuarios recentes
+    widget: 
+      change_position: "Cambiar a posición do widget:"

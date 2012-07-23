@@ -1,0 +1,124 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  widgets: 
+    about: 
+      description: Dieses Widget zeigt eine kurze Beschreibung Ihrer Gruppe an.
+      title: Über
+    adsense: 
+      description: Mit diesem Widget kannst Du „Google Adsense“-Anzeigen anzeigen lassen.
+      title: AdSense
+    ask_question: 
+      ask: Fragen
+      description: Dieses Widget erlaubt es Nutzern, vor überall ausgehend, Fragen zu stellen.
+      footer: Alle Fragen bei %{group} ansehen
+      title: "Eine Frage stellen:"
+      view_question: <p>Du kannst sie <a href="%{question}">hier</a> ansehen oder weiter unten eine weitere Frage stellen.</p>
+    badges: 
+      description: Dieses Widget zeigt die Abzeichen an, die kürzlich an Nutzer vergeben wurden.
+      see_all: Alle Abzeichen ansehen
+      title: Kürzlich vergebene Abzeichen
+    contributors: 
+      description: Dieses Widget zeigt die Liste der Personen an, die zu einer Frage etwas beigetragen haben.
+      title: Nutzer, die zur Frage beigetragen haben
+    create: 
+      notice: Das Widget wurde erfolgreich erstellt.
+    current_tags: 
+      description: Diese Widget zeigt die Stichwörter an, die vom aktuellen Nutzer beachtet werden.
+    custom_html: 
+      description: Füge hier jede Art von HTML hinzu, die Du möchtest.
+    edit: 
+      title: Widget bearbeiten
+    group_networks: 
+      description: Dieses Widget zeigt eine Liste mit Links zu sozialen Netzwerken an, so dass Deine Nutzer Dir auch dort folgen können.
+      title: Folge uns
+    groups: 
+      description: Dieses Widget zeigt die fünf neuesten Gruppen an
+      title: Kürzlich aktive Gruppen
+    index: 
+      add_new: Neues Widget hinzufügen
+      description: Verwende die Pfeile, um Deine Widgets zu verschieben
+      external_widgets: Extern
+      external_widgets_title: Widgets, die Du auf Deiner eigenen Website einbinden kannst
+      footer: Fußbereich
+      header: Kopfbereich
+      mainlist_widgets: Hauptliste
+      mainlist_widgets_title: Widgets, die auf der Seite mit der Hauptliste der Fragen angezeigt werden
+      name: Name des Widgets
+      navbar: Navigationsleiste
+      question_widgets: Frage
+      question_widgets_title: Widgets, die auf jeder Seite mit einer Frage angezeigt werden
+      sidebar: Seitenleiste
+      title: Widgets der Seitenleiste verwalten
+      type: "Typ:"
+      welcome_widgets: Herzlich willkommen
+      zone: "Seitenabschnitt:"
+    mod_info: 
+      description: Dieses Widget zeigt Informationen an, die für Moderatoren hilfreich sind, wie bswp. Kennzeichnungen und Berichtsanfragen.
+    pages: 
+      description: Dieses Widget zeigt die Liste der Wiki-Seiten an
+      new: Neue Seite hinzufügen
+      title: Wiki-Seiten
+    question_badges: 
+      description: Dieses Widget zeigt die Auszeichnungen an, die aufgrund dieser Frage verdient wurden.
+      title: Stichwörter zu Auszeichnungen
+    question_stats: 
+      description: Dieses Widget zeigt Statistiken zu einer Frage an, wie bspw. das Erstellungsdatum oder die Anzahl der Aufrufe.
+    question_tags: 
+      description: Dieses Widget zeigt mit der aktuellen Seite zusammenhängende Stichwörter an.
+      title: Stichwörter zu Fragen
+    related_questions: 
+      description: Dieses Widget zeigt eine Liste der mit der aktuellen Frage zusammenhängenden Fragen an.
+      title: Ähnliche Fragen
+    settings: 
+      code: "Diesen Code kopieren und auf Deiner Website oder Deinem Blog einfügen - analog zu einem Textwidget bei Wordpress:"
+      custom_external_css: "Benutzerdefiniertes CSS auf Dein Widget anwenden (empfohlen, sofern das CSS von Shapado nicht angewendet werden soll):"
+      custom_html: "Benutzerdefiniertes HTML:"
+      exclude_css_on_external: Das CSS Deiner Shapado-Website nicht auf Dein Widget anwenden
+      google_ad_client: google_ad_client
+      google_ad_height: google_ad_height
+      google_ad_slot: google_ad_slot
+      google_ad_width: google_ad_width
+      limit: "Anzuzeigende Menge:"
+      on_questions: Auf der Seite mit der Hauptliste der Fragen anzeigen
+      on_show_question: Beim Anzeigen einer Frage anzeigen
+      on_welcome: Auf der Willkommenseite anzeigen
+      preview: "Vorschau des Widgets:"
+    share: 
+      description: Diese Widget zeigt verschiedene Schaltflächen an, mit denen man die aktuelle Seite bei sozialen Netzwerken bekannt machen kann.
+      title: Teile mit uns
+    sharing_buttons: 
+      description: Dieses Widget wird Schaltflächen Sozialer Dienste anzeigen.
+      title: Darauf aufmerksam machen bei
+    suggestions: 
+      description: Vorschläge von Freunden und Schlagwörter für den zu beachtenden Nutzer.
+      follow_tag: + Stichwort beobachten
+      follow_user: + Nutzer folgen
+      followed_by: Beachtet von %{user}
+      title: Zu beachtende Nutzer und Stichwörter
+      unfollow_tag: "- Stichwort nicht mehr beobachten"
+      unfollow_user: "- Nutzer nicht mehr folgen"
+    tag_cloud: 
+      description: Dieses Widget zeigt die Stichwortwolke an
+      title: Stichwortwolke
+    tag_list: 
+      description: Dieses Widget zeigt mit der aktuellen Seite zusammenhängende Stichwörter an.
+      title: Stichwörter
+    top_groups: 
+      description: Dieses Widget zeigt die fünf aktivsten Gruppen an
+      has_members: 
+        one: Ein Mitglied
+        other: "%{count} Mitglieder"
+      title: Top 5 Gruppen
+    top_users: 
+      description: Dieses Widget zeigt die fünf aktivsten Nutzer an
+      title: Top 5 Nutzer
+    update: 
+      notice: Das Widget wurde erfolgreich aktualisiert.
+    users: 
+      description: Dieses Widget zeigt die neu registrierten Nutzer an
+      title: Kürzlich aktive Nutzer
+    widget: 
+      change_position: "Position des Widgets ändern:"

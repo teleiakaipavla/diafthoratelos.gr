@@ -1,0 +1,22 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Pinxnl
+# Author: Siebrand
+nl: 
+  comments: 
+    create: 
+      flash_notice: Bedankt voor uw opmerking
+    edit: 
+      title: Opmerking bewerken
+    shared: 
+      add_comment: Opmerking toevoegen...
+      comment_submit: Opmerking plaatsen
+      reply: Antwoord
+      said: schreef
+    update: 
+      flash_notice: De opmerking is aangepast.
+  models: 
+    comment: Opmerking
+    comments: Opmerkingen

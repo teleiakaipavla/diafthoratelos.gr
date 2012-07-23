@@ -1,0 +1,181 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    models: 
+      badge: Značka
+      badges: Značke
+  badges: 
+    index: 
+      all_tooltip: Prikaži sve zlatne, srebrne i bronzane značke.
+      bronze: Bronza
+      bronze_tooltip: Bronzane značke se lako dobijaju i služe da podstaknu korisnike da učestvuju.
+      description: Što više učestvujete s pitanjima i odgovorima, to dobijate više znački. Značke će biti istaknute na vašem profilu.
+      general: Obične značke
+      general_tooltip: Prikaži sve zadate značke.
+      gold: Zlato
+      gold_tooltip: Zlatne značke su najvrednije nagrade, i zato se najteže dobijaju. Ovakve značke dobijaju samo najposvećeniji korisnici.
+      silver: Srebro
+      silver_tooltip: Srebrne značke dobijaju aktivni korisnici koji rade prilično dugo vremena.
+      tags: Označi značke
+      tags_tooltip: Kada pitanja označena sa X dobiju odgovore s više od 100 pozitivnih glasova, onda se stvara značka X s imenom te oznake.
+      title: Značke
+    shared: 
+      addict: 
+        description: Posetio mrežno mesto dvadeset dana zaredom
+        name: Zavisnik
+      altruist: 
+        description: Prva nagrada koju ste ručno dodelili za nečije pitanje
+        name: Čovekoljubac
+      autobiographer: 
+        description: Popunio sva polja u korisničkom profilu
+        name: Autobiograf
+      benefactor: 
+        description: Prva nagrada koju ste ručno dodelili za svoje pitanje
+        name: Dobrotvor
+      celebrity: 
+        description: Ima više od sto pratioca
+        name: Slavna ličnost
+      citizen_patrol: 
+        description: Označio prvu poruku
+        name: Građanska patrola
+      civic_duty: 
+        description: Glasao trista puta
+        name: Građanska dužnost
+      cleanup: 
+        description: Napravio prvo vraćanje
+        name: Čistač
+      commentator: 
+        description: Napisao deset komentara
+        name: Komentator
+      critic: 
+        description: Prvi put negativno glasao
+        name: Kritičar
+      disciplined: 
+        description: Obrisao svoju poruku s tri boda ili više
+        name: Disciplinovan
+      editor: 
+        description: Prvi put uredio poruku
+        name: Urednik
+      effort_medal: 
+        description: Ima sto pozitivnih glasova
+        name: Medalja za trud
+      enlightened: 
+        description: Ima odgovor koji je prihvaćen s barem deset glasova „za“
+        name: Prosvetljen
+      famous_question: 
+        description: Postavio pitanje sa 10.000 pregleda
+        name: Poznato pitanje
+      fanatic: 
+        description: Posetio mrežno mesto 100 dana zaredom
+        name: Fanatik
+      favorite_answer: 
+        description: Ima odgovor koji je omiljen za 25 korisnika
+        name: Omiljeni odgovor
+      favorite_question: 
+        description: Postavio pitanje koje prati 25 korisnika
+        name: Omiljeno pitanje
+      friendly: 
+        description: Prvi put počeo da prati nekoga
+        name: Druželjubiv
+      good_answer: 
+        description: Pronašao odgovor na pitanje koje je dostiglo prosek od 25 glasova ili više
+        name: Dobar odgovor
+      good_question: 
+        description: Postavio pitanje koje je dostiglo prosek od 25 glasova ili više
+        name: Dobro pitanje
+      great_answer: 
+        description: Ima odgovor koji je dobio sto glasova „za“
+        name: Odličan odgovor
+      great_question: 
+        description: Postavio pitanje koje je dobilo sto glasova „za“
+        name: Odlično pitanje
+      guru: 
+        description: Pronašao rešenje na pitanje s prosekom od četrdeset glasova ili više
+        name: Guru
+      inquirer: 
+        description: Prvi put postavio pitanje
+        name: Pitač
+      interesting_person: 
+        description: Ima više od deset pratioca
+        name: Zanimljiva osoba
+      investor: 
+        description: Prva nagrada koju ste ponudili za nečije pitanje
+        name: Ulagač
+      merit_medal: 
+        description: Ima dvesta pozitivnih glasova
+        name: Medalja za zasluge
+      necromancer: 
+        description: Odgovorio na pitanje nakon više od šezdeset dana i s barem pet glasova
+        name: Nekromant
+      nice_answer: 
+        description: Ima odgovor koji je dobio deset glasova „za“
+        name: Lep odgovor
+      nice_question: 
+        description: Postavio pitanje koje je dobilo deset glasova „za“
+        name: Lepo pitanje
+      notable_question: 
+        description: Postavio pitanje sa 2.500 pregleda
+        name: Značajno pitanje
+      organizer: 
+        description: Napravio prvo preoznačavanje
+        name: Organizator
+      peer_pressure: 
+        description: Obrisao svoju poruku s minut tri boda ili manje
+        name: Pritisak sredine
+      pioneer: 
+        description: Među prvim upisanim korisnicima
+        name: Pionir
+      popstar: 
+        description: Ima petsto pozitivnih, a najviše deset negativnih glasova
+        name: Pop zvezda
+      popular_person: 
+        description: Ima više od pedeset pratioca
+        name: Popularna ličnost
+      popular_question: 
+        description: Postavio pitanje sa 1.000 pregleda
+        name: Popularno pitanje
+      promoter: 
+        description: Prva nagrada koju ste ponudili za svoje pitanje
+        name: Promoter
+      rockstar: 
+        description: Ima hiljadu pozitivnih, a najviše deset negativnih glasova
+        name: Rok zvezda
+      scholar: 
+        description: Dao potvrdan odgovor na prvo samopostavljeno pitanje
+        name: Učenik
+      self-learner: 
+        description: Odgovorio na sopstveno pitanje s barem tri glasa „za“
+        name: Pametnica
+      service_medal: 
+        description: Ima trista pozitivnih glasova
+        name: Medalja za službu
+      shapado: 
+        description: Posetio mrežno mesto osam dana zaredom
+      stellar_answer: 
+        description: Ima odgovor koji je omiljen za 100 korisnika
+        name: Zvezdani odgovor
+      stellar_question: 
+        description: Postavio pitanje koje prati sto korisnika
+        name: Zvezdano pitanje
+      student: 
+        description: Postavio pitanje s barem jednim glasom „za“
+        name: Učenik
+      supporter: 
+        description: Prvi put pozitivno glasao
+        name: Pristalica
+      troubleshooter: 
+        description: Prvi put odgovorio na pitanje
+        name: Rešavanje problema
+      tutor: 
+        description: Pronašao rešenje na pitanje s prosekom od dva glasa ili više
+        name: Tutor
+    show: 
+      description: "Korisnici koji su osvojili ovu značku. Nedavno dodeljeno za:"
+      earned: osvojeno
+      for_tag_bronze: 200 glasova u oznaci %{tag}
+      for_tag_gold: 1000 glasova u oznaci %{tag}
+      for_tag_silver: 400 glasova u oznaci %{tag}
+      title: Značka %{type}

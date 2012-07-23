@@ -1,0 +1,125 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  admin: 
+    manage: 
+      access: 
+        title: Пристап
+      answers: 
+        banning: 
+          title: Забрани одговор
+      appearance: 
+        logo_legend: Подигнете лого за групата (највеќе 2 МБ).
+        title: Одберете изглед и прилагодете го
+      close_group: 
+        description: Ако ја затворите групата, таа ќе биде недостапна за секого освен вас самите.
+        feedback: "Наведете зошто ја затворате групата:"
+      content: 
+        description: Поставете текст и стил за групата
+        footer: Подножје
+        head: заглавие
+        question_help: помош со прашања
+        question_prompt: потсетник за прашање
+        title: прилагодена содржина
+        top_bar: горна лента
+        top_bar_tip: внесете една врска по ред
+      invitations: 
+        invitations: Испратени покани
+        invitations_title: Список на сите ваши испратени покани
+        invite: Покани луѓе
+        invite_title: Поканете луѓе по е-пошта
+        title: Покани
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Поставување прашања од Twitter
+          question_asked_to: Прашањето е поставено на
+          question_must_include: Прашањето мора да ја содржи следната ознака за да може да биде објавено на Twitter
+          question_must_include_example: "на пр. #iAsk"
+          twitter_account: Сметката на Twitter на којашто вашите корисници ќе поставуваат прашања.
+        constrains: 
+          reputation_constrains_description: Овој образец ви овозможува да поставите колку бодови за углед ќе им треба на корисниците за да можат да извршат извесно дејство
+          reputation_constrains_subtitle: список на ограничувања за угледот за секое дејство
+          title: ограничувања
+        domain: 
+          description: "Можете да му назначите друг домен на вашето мреж. место за Shapado за да биде пристапно преку домен по ваш избор. Тоа се прави вака:"
+          instruction1: За да го направите ова најпрвин треба да се најавите на вашиот доменски добавувач (мрежното место кадешто сте го набавиле вашиот домен, како %{subdomain}.com).
+          instruction2: Таму ќе треба да појдете до делот DNS и да создадете нешто наречено CNAME.
+          instruction3: Одберете „www“ или било што друго како име на вашето CNAME.
+          instruction4: "Потоа во полето за домаќин или одредница внесете го вашиот тековен Shapado-домен: %{domain}."
+          instruction5: Откога ќе завршите со ова, по околу еден час, вашиот домен www.%{subdomain} треба да води кон %{appdomain}.
+          instruction6: Кога ќе дојдете до тоа, вратете се тука и внесете го вашето доменско име www.%{subdomain} во полето подолу и притиснете на копчето „поднови“. Ако имате прашања, поставете ни ги на  %{chat_url} или на нашиот форум за поддршка
+          title: Прилагодете ваш домен
+          warning: Дали сте сигурни дека сакате да го смените вашиот домен?
+        facebook_app: 
+          application_id: Назнака (ID) на програмот
+          facebook_app: Поставки за прилогот за Facebook
+          legend: Можете да го приалгодите вашиот прилог за Facebook. Со ова ќе ги најавувате вашите корисници, користејќи ги нивните сметки на Facebook. Имајтен а ум дека ова е потребно само ако користите ваш прилагоден домен.
+          secret_key: Таен клуч
+        general: 
+          title: својства на група
+        invitations: 
+          resend_button: Испрати пак
+          revoke_button: Отповикај
+        invite: 
+          body_instructions: Напишете им порака на луѓето што ги каните (незадолжително)
+          body_length_warning: Содржината може да има највеќе 400 знаци
+          emails_instructions: Внесете ги адресите, одделени со запирка
+          invitations: Испратени покани
+          invite: Покани луѓе
+          title: Поканете луѓе по е-пошта
+          user_role: Покани корисници како
+        post_to_twitter: 
+          legend: Страницава ви овозможува да одредите што ќе се испраќа на Twitter. Се користи сметката <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>. Ако сакате да користите друга сметка, тогаш стиснете <a href="%{link}">тука</a>.
+          legend_connect: Страницава ви овозможува да одредите што ќе се испраќа на Twitter. Најпрвин ќе треба да наведете сметка на Twitter. За да го сторите тоа, стиснете <a href="%{link}">тука</a>.
+          post_to_twitter: Објави ги активностите на Twitter
+          send_answers_to_twitter: Испрати сите одговори на Twitter
+          send_badges_to_twitter: Испрати ги сите новодобиени значки на Twitter
+          send_comments_to_twitter: Испрати ги сите коментари на Twitter
+          send_favorites_to_twitter: Испрати сите бендисани (омилени) одговори на Twitter
+          send_questions_to_twitter: Испрати сите прашања на Twitter
+        rewards: 
+          reputation_rewards_description: овој образец ви овозможува да поставите како корисниците можат да освојуваат и губат бодови за углед за извесно дејство
+          reputation_rewards_subtitle: список на награди за угледот
+          title: награди
+        share: 
+          title: сподели
+        tag_your_tweets: 
+          add_tags: Додајте ознаки на објавеното на Twitter
+          ends_with_example: "на пр. #shapado"
+          starts_with_example: "на пр. #qa"
+          title: Означете ги вашите објави на Twitter
+          tweet_ends_with: Приложете ознака кон објавеното на Twitter
+          tweet_starts_with: Вметнете ознака во објавеното на Twitter
+        title: Својства на групата
+        twitter_account: 
+          connect_to_other_twitter: Стиснете тука за да ја поврзете групата со друга сметка на Twitter
+          connect_to_twitter: Стиснете тука зада поврзете смета на Twitter со вашата група
+          disconnect_twitter_group: Исклучете ја групава од Twitter
+          legend: Оваа сметка ќе се користи за објавување на нови прашања и одговори на Twitter.
+          legend_with_account: Вашата сметка <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> ќе се користи за објавување на нови прашања и оговори на Twitter. Ако сакате да одредите што ќе се објавува на Twitter, тоа можете да го направите <a href="%{link}">тука</a>.
+          twitter_account: Сметка на Twitter
+        twitter_app: 
+          key: Клуч за прилож. програм
+          secret: Тајна за прилож. програм
+          twitter_app: Прилог за Twitter
+      questions: 
+        banning: 
+          title: Забрани прашање
+      social: 
+        ask_from_twitter: Постави прашање преку Twitter
+        ask_from_twitter_title: Дозволете им на вашите корисници да поставуваат прашања од Twitter
+        description: Поврзете ја групата со вашите друштвени мрежи
+        facebook_app: Прил. за Facebook
+        facebook_app_title: Наместете ги поставките на прилогот за Facebook со кој ќе се најавуваат корисниците
+        post_to_twitter: Објави на Twitter
+        post_to_twitter_title: Автоматски објавувај ги сите прашања и одговори на Twitter
+        tag_your_tweets: Означете ги вашите објави на Twitter
+        tag_your_tweets_title: Додајте ознаки на објавеното на Twitter
+        title: Општење преку друштвени медиуми
+        twitter_account: Сметка на Twitter
+        twitter_account_title: Наместете ја сметката на Twitter со која ќе објавувате на него
+      top_admin: 
+        site: Мреж. место
+        title: Админ

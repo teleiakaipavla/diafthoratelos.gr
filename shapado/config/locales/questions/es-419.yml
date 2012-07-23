@@ -1,0 +1,136 @@
+# Messages for Latin American Spanish (espanol de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danke7
+# Author: Patcito
+es-419: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Respuestas
+        asked_by: Preguntado por
+        body: Contenido
+        closed: Cerrada
+        created_at: Preguntado
+        language: Idioma
+        tags: Etiquetas
+        title: Titulo
+        updated_at: actualizado
+        updated_by: actualizado por
+        views: Visitas
+        votes: Votos
+    models: 
+      question: Pregunta
+      questions: Preguntas
+  questions: 
+    answer: 
+      add_comment: Comentar esta respuesta...
+      flag: Reportar abuso
+      pick_answer: Escoger como solución
+      unset_answer: ¿Quitar como solución?
+    create: 
+      flash_notice: La pregunta fue creada exitosamente.
+    edit: 
+      title: Editar pregunta
+    flag: 
+      title: Reportar abuso en esta pregunta
+    form: 
+      adult_content: Esta pregunta tiene contenido para adultos
+      body_tip: ¿Cuál es tu pregunta? por favor se descriptivo.
+      language_tip: Selecciona el idioma de tu pregunta.
+      tags_tip: Usa etiquetas para añadir más información sobre tu pregunta.
+    index: 
+      active: Activas
+      active_tooltip: Preguntas que se han actualizado recientemente
+      ask_question: Pregunte
+      empty: Nadie ha preguntado aun. ¡Se el primero!
+      followers_tooltip: Preguntas con más seguidores
+      help_to_answer: Ayudanos a responder
+      hot: Calientes
+      hot_tooltip: Preguntas con más actividad en los ultimos 5 dias
+      newest: Recientes
+      newest_tooltip: Preguntas más recientes
+      oldest: Antiguas
+      title: Todas las preguntas
+      unanswered_questions: Preguntas sin contestar
+      votes: Votos
+    model: 
+      messages: 
+        empty_tags: Disculpa, debes usar al menos una etiqueta.
+        title_too_long: El titulo es demasiado largo. No puede tener mas de 100 letras
+        too_many_tags: Disculpa, solo puedes entrar 9 etiquetas maximo.
+        too_short: Demasiado corto. Por favor, usa mas palabras que %{count} para ser mas especifico.
+    move: 
+      group_label: "Mover la pregunta a el group con slug:"
+      submit: Mover!
+      title: "Mover la pregunta: %{title}"
+    move_to: 
+      group_dont_exists: El grupo %{group} no existe
+      success: Pregunta movida a %{group}
+    new: 
+      how_to_ask: Como preguntar
+      title: Pregunte
+    question: 
+      accepted_tooltip: Esta pregunta tiene una respuesta aceptada
+    retag: 
+      title: Re-etiquetar
+    retag_form: 
+      cancel: Cancelar
+      submit: Actualizar las etiquetas!
+      title: Actualizar las etiquetas
+    retag_to: 
+      failure: Disculpa, las etiquetas no han podido ser actualizadas.
+      success: Las etiquetas han sido actualizados con exito.
+    revert: 
+      title: Revertir la pregunta
+    shared: 
+      flag: Reportar abuso
+    show: 
+      accepted_tooltip: Una de las respuestas fue aceptada como correcta
+      another_answers: Otras respuestas
+      answers: Respuestas
+      asked_on: preguntado en
+      ban: Prohibir
+      close: Cerrar
+      close_reason: "La pregunta ha sido cerrada por la siguiente razón:"
+      edit_request: Editar la solicitud
+      flag: Reportar abuso
+      flagged_as: Reportado como
+      flags: Reportado como
+      last_activity: Última actividad
+      open: Abierto
+      related_questions: Preguntas relacionadas
+      request_closing: Pedir cierre
+      request_closing_details: Pide cerrar esta pregunta
+      request_opening: Solicitar re-abrid
+      request_opening_details: Solicitar re-abrir esta pregunta
+      requested_close_as: Has solicitado cerrar esta pregunta como
+      requested_reopening: Has solicitado re-abrir esta pregunta
+      retag: Re-etiquetar
+      retract_request: Retractar la solicitud
+      share: Compartir esta pregunta en
+      share_on: Compartir esta pregunta en %{site}
+      solution: Solución
+      to_answer_question: para responder esta pregunta
+      unauthenticated_retag: Se necesita una cuenta para re-etiquetar
+      viewed: visto
+    solve: 
+      flash_notice: La pregunta ha sido resuelta
+    tags: 
+      filter: Buscar tags
+      title: Etiquetas
+      tooltip: Muestra las preguntas etiquetadas con %{tag}
+    unanswered: 
+      empty: Este grupo no tiene preguntas no contestar.
+      expert: Expertos
+      my_tags: Mis etiquetas
+      tags: Etiquetas sin respuesta
+      title: Preguntas no contestadas
+    unsolve: 
+      flash_notice: La pregunta ahora no esta resuelta.
+    unwatch: 
+      success: Ya no recibirás notificaciones via email por cada respuesta a esta pregunta.
+    update: 
+      flash_notice: La pregunta fue actualizada exitosamente.
+    watch: 
+      success: Ahora usted recibirá notificaciones via email por cada respuesta a esta pregunta.

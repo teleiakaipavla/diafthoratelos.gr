@@ -1,0 +1,14 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  searches: 
+    form: 
+      clear: 明确
+      search_box_title: 请检查是否已经问你的问题
+      tags_tip: 使用 [标签] 来指定标签。
+    index: 
+      empty: 您的搜索不匹配的任何问题。
+      search_text: 包含的问题
+      tags: 这些标记内

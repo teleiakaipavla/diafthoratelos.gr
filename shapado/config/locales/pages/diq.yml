@@ -1,0 +1,25 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  activerecord: 
+    models: 
+      page: Pela
+      pages: Peley
+  pages: 
+    actions: 
+      create_page: Pelaya newi vırazê
+      edit_page: Pele bıvurne
+      title: Kerdeni
+    edit: 
+      title: Pela bıvurnê
+    form: 
+      language_tip: Pelaya zıwani
+    index: 
+      title: Listeya pelan
+      wiki: Wiki
+      wiki_pages: Pelay Wiki
+      written_in: "%{language}'dı bınusne"
+    new: 
+      title: Pelaya newi

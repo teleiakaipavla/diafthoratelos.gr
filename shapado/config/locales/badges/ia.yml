@@ -1,0 +1,181 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    models: 
+      badge: Insignia
+      badges: Insignias
+  badges: 
+    index: 
+      all_tooltip: Monstrar tote le insignias de auro, argento e bronzo.
+      bronze: Bronzo
+      bronze_tooltip: Le insignias de bronzo es facile a ganiar e incoragia le usatores a participar.
+      description: Quanto plus tu contribue per poner o responder a questiones, tanto plus insignias tu ganiara. Illos apparera in le pagina de tu profilo.
+      general: Insignias ordinari
+      general_tooltip: Monstrar tote le insignias predefinite.
+      gold: Auro
+      gold_tooltip: Le insignias de auro es le typo de recompensa le plus grande; illos es anque le plus difficile a obtener. Solmente le usatores le plus dedicate recipe iste recompensas.
+      silver: Argento
+      silver_tooltip: Le insignias de argento es ganiate per usatores active qui ha participate durante un assatis longe tempore.
+      tags: Insignias de etiquetta
+      tags_tooltip: Quando un question con etiquetta X recipe responsas con plus de 100 votos positive, un insignia X es create con le nomine de iste etiquetta.
+      title: insignias
+    shared: 
+      addict: 
+        description: Visitava le sito cata die durante 20 dies consecutive
+        name: Maniaco
+      altruist: 
+        description: Le prime premio que tu adjudicava manualmente sur le question de un altere persona
+        name: Altruista
+      autobiographer: 
+        description: Completava tote le campos del profilo de usator
+        name: Autobiographo
+      benefactor: 
+        description: Le prime premio que tu adjudicava manualmente sur tu proprie question
+        name: Benefactor
+      celebrity: 
+        description: Accumulava plus de 100 sequitores
+        name: Celebritate
+      citizen_patrol: 
+        description: Prime message reportate
+        name: Patrulia civil
+      civic_duty: 
+        description: Votava 300 vices
+        name: Deber civic
+      cleanup: 
+        description: Faceva su prime revocation
+        name: Nettation
+      commentator: 
+        description: Lassava 10 commentos
+        name: Commentator
+      critic: 
+        description: Votava negativemente pro le prime vice
+        name: Critico
+      disciplined: 
+        description: Deleva un proprie message con un score de 3 o plus
+        name: Disciplinate
+      editor: 
+        description: Prime message modificate
+        name: Redactor
+      effort_medal: 
+        description: Recipeva 100 votos positive
+        name: Medalia de effortio
+      enlightened: 
+        description: Ha un responsa que esseva acceptate con al minus 10 votos positive
+        name: Exclarate
+      famous_question: 
+        description: Poneva un question con 10000 visitas
+        name: Question famose
+      fanatic: 
+        description: Visitava le sito cata die durante 100 dies consecutive
+        name: Fanatico
+      favorite_answer: 
+        description: Ha un responsa marcate como favorite per 25 usatores
+        name: Responsa favorite
+      favorite_question: 
+        description: Poneva un question sequite per 25 usatores
+        name: Question favorite
+      friendly: 
+        description: Sequer alcuno pro le prime vice
+        name: Amical
+      good_answer: 
+        description: Dava un responsa que attingeva un medio de plus de 25 votos
+        name: Bon responsa
+      good_question: 
+        description: Poneva un question que attingeva un medio de plus de 25 votos
+        name: Bon question
+      great_answer: 
+        description: Ha un responsa con 100 votos positive
+        name: Optime responsa
+      great_question: 
+        description: Question votate positivemente 100 vices
+        name: Optime question
+      guru: 
+        description: Dava un solution a un question con un medio de plus de 40 votos
+        name: Guru
+      inquirer: 
+        description: Poneva un question pro le prime vice
+        name: Investigator
+      interesting_person: 
+        description: Accumulava plus de 10 sequitores
+        name: Persona interessante
+      investor: 
+        description: Le prime premio que tu offereva sur le question de un altere persona
+        name: Investitor
+      merit_medal: 
+        description: Recipeva 200 votos positive
+        name: Medalia de merito
+      necromancer: 
+        description: Respondeva a un question plus de 60 dies plus tarde con al minus 5 votos
+        name: Necromante
+      nice_answer: 
+        description: Ha un responsa con 10 votos positive
+        name: Bon responsa
+      nice_question: 
+        description: Poneva un question votate positivemente 10 vices
+        name: Bon question
+      notable_question: 
+        description: Poneva un question con 2500 visitas
+        name: Question notabile
+      organizer: 
+        description: Faceva su prime re-etiquettage
+        name: Organisator
+      peer_pressure: 
+        description: Deleva un proprie message con un score de -3 o minus
+        name: Pression del pares
+      pioneer: 
+        description: Esser un del prime usatores a crear un conto
+        name: Pionero
+      popstar: 
+        description: Ha 500 votos positive, maximo de 10 votos negative
+        name: Popstar
+      popular_person: 
+        description: Accumulava plus de 50 sequitores
+        name: Persona popular
+      popular_question: 
+        description: Poneva un question con 1000 visitas
+        name: Question popular
+      promoter: 
+        description: Le prime premio que tu offereva sur tu proprie question
+        name: Promotor
+      rockstar: 
+        description: Ha 1000 votos positive, maximo de 10 votos negative
+        name: Rockstar
+      scholar: 
+        description: Respondeva a su prime proprie question con un responsa acceptate
+        name: Erudito
+      self-learner: 
+        description: Respondeva a un proprie question con al minus 3 votos positive
+        name: Autodidacto
+      service_medal: 
+        description: Ha 300 votos positive
+        name: Medalia de servicio
+      shapado: 
+        description: Visitava le sito cata die durante 8 dies consecutive
+      stellar_answer: 
+        description: Ha un responsa marcate como favorite per 100 usatores
+        name: Responsa stellar
+      stellar_question: 
+        description: Poneva un question sequite per 100 usatores
+        name: Question stellar
+      student: 
+        description: Poneva su prime question con al minus un voto positive
+        name: Studente
+      supporter: 
+        description: Votava positivemente pro le prime vice
+        name: Supporter
+      troubleshooter: 
+        description: Respondeva pro le prime vice
+        name: Resolutor de problemas
+      tutor: 
+        description: Dava un solution a un question con un medio de plus de 2 votos
+        name: Tutor
+    show: 
+      description: "Usatores que ha ganiate iste insignia. Recentemente attribuite a:"
+      earned: ganiate
+      for_tag_bronze: 200 votos in etiquetta %{tag}
+      for_tag_gold: 1000 votos in etiquetta %{tag}
+      for_tag_silver: 400 votos in etiquetta %{tag}
+      title: Insignia %{type}

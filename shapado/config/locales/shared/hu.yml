@@ -1,0 +1,34 @@
+# Messages for Hungarian (Magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dani
+# Author: Dj
+hu: 
+  shared: 
+    any_lang: Tetszőleges nyelv
+    current_tags: 
+      title: Kiválasztott címkék
+    description: Leírás
+    login_drop_down: 
+      with_facebook: Facebookkal
+      with_google: Google-lal
+      with_identica: Identi.ca-val
+      with_linked_in: LinkedInnel
+      with_openid: OpenID-vel
+      with_twitter: Twitterrel
+      with_user_pass: felhasználónév/jelszó
+    manage_navigation: 
+      title_content: Csoport-tartalom
+      title_options: Csoport beállításai
+    name: Név
+    preferred_lang: Előnyben részesített nyelveim
+    quick_question: 
+      random_question: Egy véletlenszerű kérdés megválaszolása
+    social_connect: 
+      find_friends_facebook: Ismerősök keresése Facebookon
+      find_friends_linked_in: Ismerős keresése LinkedInen
+      find_friends_twitter: Ismerősök keresése Twitteren
+    topbar: 
+      admin: Adminisztráció
+      logged_as: Bejelentkezve %{login} néven
+      user_page: Saját oldalam

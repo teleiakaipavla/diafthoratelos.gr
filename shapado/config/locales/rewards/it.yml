@@ -1,0 +1,12 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+it: 
+  rewards: 
+    close: 
+      error: È necessario aspettare %{time} prima di aggiudicare la ricompensa.
+    start: 
+      active_notice: Questa domanda ha già una ricompensa attiva.
+      reputation_notice: Non hai abbastanza reputazione per creare una ricompensa su questa domanda.
+      wait_notice: È necessario attendere per 2 giorni prima di offrire una ricompensa per questa domanda.

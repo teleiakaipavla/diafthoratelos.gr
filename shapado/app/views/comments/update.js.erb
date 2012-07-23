@@ -1,0 +1,8 @@
+var comment = $('#comment-<%=@comment.id%>');
+
+var newComment = '<%=escape_javascript(render "comments/comment", comment: @comment, source: params[:source], mini: true) %>';
+comment.replaceWith(newComment);
+Effects.fade(comment);
+
+Messages.show('<%=escape_javascript(t("comments.update.flash_notice"))-%>', "notice");
+

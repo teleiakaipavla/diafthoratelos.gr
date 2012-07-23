@@ -1,0 +1,19 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  activerecord: 
+    models: 
+      activities: Aktivitäten
+      activity: Aktivität
+  activity: 
+    asked: fragte
+    changed: änderte
+    created: erstellte
+    deleted: löschte
+    destroyed: löschte
+    flagged: kennzeichnete
+    requested_to_close: bat um Schießung
+    requested_to_open: bat um Öffnung
+    updated: aktualisierte

@@ -1,0 +1,24 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+fr: 
+  sessions: 
+    create: 
+      flash_error: Nous n'avons pas pu vous connecter en tant que '%{login}'
+      flash_notice: Connexion réussie
+    destroy: 
+      flash_notice: Vous avez été déconnecté.
+    new: 
+      log_in: Connectez-vous
+      not_registered: Pas encore enregistré ?
+      registered: Déjà enregistré ?
+      remember_me: Se souvenir de moi
+      sign_in: S’identifier
+      signup: Créer un compte
+      with_authentication: Se connecer avec notre système d'identification
+      with_facebook: Connectez-vous avec Facebook
+      with_openid: Connectez-vous avec OpenID
+      with_twitter: Connectez-vous avec Twitter

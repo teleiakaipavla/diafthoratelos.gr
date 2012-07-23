@@ -1,0 +1,21 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+it: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} ha risposto a : %{question}"
+        send_twitter: La mia risposta alla domanda %{question}
+      on_favorite_answer: 
+        group_send_twitter: "A %{user} è piaciuta una risposta da parte di %{author} su: %{question}"
+        send_twitter: "Mi è piaciuta una risposta da parte di %{author} su: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} ha appena vinto il distintivo %{token} nel %{group_name}, %{link}"
+        send_twitter: Ho appena vinto il distintivo %{token} sul gruppo %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} ha commentato su: %{question}"
+        send_twitter: Il mio commento su %{question}

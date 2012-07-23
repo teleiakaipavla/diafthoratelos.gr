@@ -1,0 +1,90 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  feeds: 
+    feed: Стужка
+    post_new_questions: Даслаць новае пытаньне ў
+    question: Падпісацца на гэтае пытаньне
+    questions: Падпісацца на ўсе пытаньні
+    share_on_twitter: Twitter, Facebook і іншае…
+    tag: Падпісацца на тэг
+    user: Падпісацца на пытаньні гэтага карыстальніка
+  global: 
+    actions: Дзеяньні
+    active: Актывізаваць
+    alphabetically: Па альфабэце
+    anonymous: Ананім
+    blog: Блёг
+    by: ад
+    by_semi: "Ад:"
+    chat: Чат
+    current: Цяперашняя
+    edited: Рэдагаваны
+    edited_by_semi: "Рэдагавалася:"
+    feedback: Водгук
+    follow: Сачыць
+    followed_by: "Сочаць:"
+    following: Сачэньне
+    from: з %{site}
+    group_not_found: Старонка %{url} не існуе
+    home: Пачатак
+    next_button: Наступнае
+    open: Адкрыць
+    or: ці
+    permission_denied: Доступ забаронены
+    please_login: Калі ласка, увайдзіце ў сыстэму
+    preview: Папярэдні прагляд
+    previous: Папярэдні
+    privacy: Прыватнасьць
+    share: Адкрыць доступ
+    sign_up: Зарэгістравацца
+    size: Памер
+    sort_by: "Сартаваць па:"
+    tags_label: "Тэгі:"
+    tos: Умовы абслугоўваньня
+    unfollow: Не сачыць
+    unknown_place: Невядомае
+    view: Прагляд
+    view_question: Прагляд пытаньня
+    what_to_do: Што Вы жадаеце зрабіць?
+  models: 
+    question: Пытаньне
+  preferred_languages: 
+    any: Любая
+    user: Мае пажаданыя мовы
+  roles: 
+    moderator: Мадэратар
+    owner: Уладальнік
+    user: Звычайны карыстальнік
+  scaffold: 
+    add: Дадаць
+    are_you_sure: Вы ўпэўнены?
+    back: Назад
+    cancel: Скасаваць
+    close: Закрыць
+    create: Стварыць
+    destroy: Выдаліць
+    details: Падрабязнасьці
+    edit: Рэдагаваць
+    more: Далей…
+    new: Дадаць новую %{model}
+    post_as_anonymous: Даслаць ананімна
+    save: Захаваць
+    send: Даслаць
+    show: Паказаць
+    sure: Вы ўпэўнены, што жадаеце выдаліць %{model} ?
+    update: Абнавіць
+  time: 
+    ago: "%{time} таму"
+    today: сёньня
+    yesterday: учора
+  views: 
+    pagination: 
+      first: Першая
+      last: Апошняя
+      next: Наступная &raquo;
+      previous: "&laquo; Папярэдняя"
+      truncate: …

@@ -1,0 +1,37 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+it: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Fogli di stile
+        js: JavaScript
+    models: 
+      page: Pagina
+      pages: Pagine
+  pages: 
+    actions: 
+      create_page: Crea nuova pagina
+      edit_page: Modifica pagina
+      title: Azioni
+    create: 
+      success: La pagina è stata creata.
+    edit: 
+      title: Modifica pagina
+    form: 
+      language_tip: Lingua della pagina
+      title_tip: "Titolo della pagina. Usabile per fare riferimento alla pagina. Ad esempio: [[FAQ|controlla le faq]]"
+    index: 
+      create_page: Crea nuova pagina
+      title: Lista delle pagine
+      wiki: Wiki
+      wiki_pages: Pagine wiki
+      written_in: Scritto in %{language}
+    new: 
+      title: Nuova pagina
+    title: Fixme
+    update: 
+      success: Pagina aggiornata.

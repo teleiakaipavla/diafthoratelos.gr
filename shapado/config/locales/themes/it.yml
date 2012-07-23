@@ -1,0 +1,44 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+it: 
+  themes: 
+    edit: 
+      title: Modifica tema
+    form: 
+      bg_color_legend: Definisci un colore pieno come sfondo, controlla il contrasto con la tua app.
+      bg_image_legend: Questa immagine verrà visualizzata come sfondo in ogni pagina. Le dimensioni non possono superare gli 800K e il tipo deve essere GIF, JPG o PNG.
+      colors_and_bg: Colori e sfondi
+      custom_css_legend: Se conosci il linguaggio CSS, usalo per personalizzare lo stile del tuo sito. È possibile utilizzare normale CSS o SCSS.
+      fluid_layout: Layout fluido
+      fluid_layout_legend: Un layout fluido renderà la larghezza di ogni elemento della pagina dipendente dalla viewport piurttosto che dall'elemento contenitore iniziale. In altre parole, quando viene ridimensionato il browser o si passa ad un apparecchio con schermo piccolo, il layout si muoverà dentro e fuori.
+      main_color_legend: Questo è uno dei colori più utilizzati su ogni pagina, assicurati di scegliere quello giusto per il tuo brand o comunità.
+      modules_color_legend: Assicurati che questo colore e il colore principale stiano bene insieme.
+      submit_update: Aggiorna il tema
+      text_color_legend: Assicurati che il testo sia leggibile e compatibile con il colore di sfondo.
+      update: Aggiorna il tema
+    index: 
+      description: Trova qui tutte il tema e cambia l'aspetto della tua applicazione.
+      new_theme: È possibile creare il proprio tema qui.
+    ready: 
+      success: Il tema è pronto!
+    show: 
+      apply: Applica
+      bg_color: Colore di sfondo
+      bg_image: Immagine di sfondo
+      brand_color: Colore della marca
+      button_bg: Pulsanti colore di sfondo
+      button_fg: Pulsanti colore di primo piano
+      fg_color: Colore di primo piano
+      fluid: Fluido (questo renderà il layout elastico quando viene ridimensionata la finestra del browser)
+      link_bg: Colore di sfondo dei link
+      link_fg: Colore di primo piano dei link
+      main_color: Colore principale
+      modules_color: Colore dei moduli
+      not_ready: Questo tema non è pronto per essere utilizzato, torna presto.
+      text_color: Colore del testo
+      try: Prova
+      use_link_bg: Utilizzare uno sfondo per i link
+      view_bg: Colore di sfondo della visualizzazione
+      view_fg: Colore di primo piano della visualizzazione

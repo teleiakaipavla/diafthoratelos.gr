@@ -1,0 +1,179 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Responsas
+        asked_by: Ponite per
+        banned: Bannite
+        body: Texto
+        closed: Claudite
+        created_at: Ponite
+        language: Lingua
+        tags: Etiquettas
+        title: Titulo
+        updated_at: actualisate
+        updated_by: actualisate per
+        views: Visitas
+        votes: Votos
+    models: 
+      question: Question
+      questions: Questiones
+  questions: 
+    answer: 
+      add_comment: Adder commento...
+      favorite: Salveguardar
+      favorite_tooltip: Adder iste responsa a tu favorites
+      flag: Marcar
+      pick_answer: Seliger como solution
+      unfavorite: Non plus salveguardar
+      unfavorite_tooltip: Remover iste responsa de tu favorites
+      unset_answer: Dismarcar como solution?
+    answer_toolbar: 
+      flagged_by_you: Marcate per te
+    close: 
+      failure: Iste question ha un recompensa active e non pote esser claudite.
+    create: 
+      already_registered: Un usator con le adresse electronic %{email} es jam registrate. Per favor aperi session con iste adresse.
+      flash_notice: Le question ha essite create.
+    disallow_spam: 
+      error: Es necessari attender 20 secundas ante de poner un altere question.
+    edit: 
+      title: Modifica question
+    flag: 
+      title: Marcar question
+    form: 
+      add_attachment: Adder annexo
+      adult_content: Iste question contine material pro adultos.
+      body_tip: Que es tu question? Sia descriptive.
+      language_tip: Selige le lingua de tu question.
+      related_questions_desc: Hic essera monstrate similar questiones.
+      remove_attachment: Remover
+      tags_tip: Usa etiquettas pro adder plus information super le question.
+    history: 
+      back: ← retornar al question
+    index: 
+      active: Active
+      active_tooltip: Questiones que ha essite actualisate recentemente
+      ask_question: Poner question
+      empty: Nemo ha ancora ponite un question. Sia le prime!
+      followers_tooltip: Questiones con le plus grande numero de sequitores
+      has_followers: 
+        one: "%{count} sequitor"
+        other: "%{count} sequitores"
+      help_to_answer: Adjuta nos a responder
+      hot: Popular
+      hot_tooltip: Le questiones le plus active in le ultime 5 dies
+      newest: Le plus nove
+      newest_tooltip: Le questiones le plus recente
+      oldest: Le plus ancian
+      title: Tote le questiones
+      unanswered_questions: Questiones sin responsa
+      votes: Votos
+    model: 
+      messages: 
+        empty_tags: Es obligatori usar al minus un etiquetta.
+        tags_not_added: Le etiquettas '%{tags}' non poteva esser addite. Es necessari haber un reputation de %{reputation_required} pro crear nove etiquettas.
+        title_too_long: Le titulo non pote continer plus de 100 characteres.
+        too_many_tags: Non es possibile entrar plus de 20 etiquettas.
+        too_short: 
+          one: Es necessari que le titulo ha plus de %{count} parola.
+          other: Es necessari que le titulo ha plus de %{count} parolas.
+    move: 
+      group_label: "Transferer al gruppo con le limace:"
+      submit: Transferer!
+      title: "Transferer le question: %{title}"
+    move_to: 
+      group_dont_exists: Le gruppo %{group} non existe
+      success: Question displaciate a %{group}
+    new: 
+      description: Per favor sia descriptive e assecura te de adder etiquettas relevante de maniera que tu question pote esser facilemente trovate.
+      how_to_ask: Como poner
+      title: Poner question
+    question: 
+      accepted_tooltip: Iste question ha un responsa que ha essite acceptate
+      answer_verb: Responsa
+      has_answers: 
+        one: "%{count} responsa"
+        other: "%{count} responsas"
+      wiki_title: "Wiki: %{title}"
+    retag: 
+      title: Re-etiquettar
+    retag_form: 
+      cancel: Cancellar
+      submit: Actualisar etiquettas!
+      title: Actualisar etiquettas
+    retag_to: 
+      failure: Infortunatemente, le etiquettas non poteva esser actualisate.
+      success: Le etiquettas ha essite actualisate con successo.
+    revert: 
+      title: Reverter question
+    shared: 
+      flag: Marcar
+    show: 
+      accepted_tooltip: Un del responsas esseva acceptate como le responsa correcte.
+      another_answers: Altere responsas
+      answers: Responsas
+      asked_on: ponite le
+      ban: Bannir
+      close: Clauder
+      close_reason: "Le question ha essite claudite pro le sequente ration:"
+      create_reward: Crear premio
+      create_reward_description: Recompensa le melior responsa con alcun de tu proprie karma.
+      edit_request: Modificar requesta
+      flag: Marcar
+      flagged_as: Marcate como
+      flags: Reportate como
+      follow_tooltip: Sequer iste question
+      follow_up: Prosequer
+      follow_up_description: Crear un nove question a base de iste message.
+      follow_up_of: Iste question es un continuation de
+      history: Historia
+      last_activity: Ultime activitate
+      more_actions: Plus actiones
+      open: Aperte
+      related_questions: Questiones connexe
+      request_closing: Requestar clausura
+      request_closing_details: Requestar a clauder iste question
+      request_opening: Requestar reapertura
+      request_opening_details: Requestar a reaperir iste question
+      requested_close_as: Tu requestava le clausura de iste question como
+      requested_reopening: Tu requestava le reapertura de iste question
+      retag: Re-etiquettar
+      retract_request: Retraher requesta
+      share: Divider iste question in
+      share_on: Divider iste question in %{site}
+      solution: Solution
+      to_answer_question: pro responder a iste question
+      unauthenticated_retag: Tu debe haber un conto pro re-etiquettar questiones
+      unban: Disbannir
+      unfollow_tooltip: Cessar de sequer iste question
+      viewed: vidite
+    solve: 
+      flash_notice: Le question ha essite resolvite.
+    tags: 
+      filter: Cercar etiquettas
+      title: Etiquettas
+      tooltip: Monstrar questiones con etiquetta %{tag}
+    toolbar: 
+      answer_by_mail: Responder per e-mail
+      more_actions: Plus actiones
+      requests: Requestas
+      your_close_request: Vostre requesta de clausura
+    unanswered: 
+      empty: Iste gruppo non ha questiones sin responsa.
+      expert: Expertos
+      my_tags: Mi etiquettas
+      tags: Etiquettas sin responsa
+      title: Questiones sin responsa
+    unsolve: 
+      flash_notice: Le question presentemente non es resolvite.
+    unwatch: 
+      success: Tu non plus recipera notification per e-mail pro cata nove responsa a iste question.
+    update: 
+      flash_notice: Le question ha essite actualisate.
+    watch: 
+      success: Tu recipera ora notificationes per e-mail pro cata nove responsa a iste question.

@@ -1,0 +1,77 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  shared: 
+    any_lang: Alle talen
+    by_anon: Door anoniem
+    current_tags: 
+      title: Geselecteerde labels
+    description: Beschrijving
+    empty: 
+      activities: 
+        description: 
+          text: Deze ruimte wordt automatisch opgevuld als mensen de site gaan gebruiken.
+        title: Er zijn nog geen activiteiten.
+      answers: 
+        description: 
+          text: U kunt de eerste zijn!
+        title: Deze vraag is nog niet beantwoord.
+      default: 
+        description: 
+          text: U kunt als eerste %{action_link}!
+        title: Sorry! Hier is niet veel te zien.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Klik hier om alle vragen in alle talen te bekijken.
+        title: Helaas. Er zijn geen vragen gesteld in deze taal.
+      filtered_questions: 
+        description: 
+          action_link: Klik hier om alle vragen weer te geven
+        title: Helaas. Er zijn geen vragen beschikbaar met dit filter.
+      questions: 
+        description: 
+          action_link: een vraag stellen
+          text: <a href="%{url}">%{action_link}<a/> als eerste!
+      themes: 
+        description: 
+          action_link: nu
+          text: maak er een aan %{action_link}
+        title: U hebt nog geen thema's aangemaakt.
+    filter: "Filter:"
+    language: "Taal:"
+    language_filter_tooltip: Probeer het met een andere taal.
+    languages: "Talen:"
+    layout: 
+      footer: 
+        cc_footer: Alle inhoud en gegevens van shapado.com zijn beschikbaar onder de licentie %{cc_link}
+        powered_by: Aangeboden met %{source_link} %{version} onder de %{agpl_link}
+    login_drop_down: 
+      sign_up_user_pass: Aanmelden met e-mailadres en wachtwoord
+      with_email_pass: Aanmelden met uw e-mailadres
+      with_facebook: met Facebook
+      with_google: met Google
+      with_identica: met Identi.ca
+      with_linked_in: met LinkedIn
+      with_openid: OpenID
+      with_twitter: met Twitter
+    manage_navigation: 
+      title_content: Groepsinhoud
+      title_features: Groepsfuncties
+      title_options: Groepsopties
+    name: Naam
+    preferred_lang: Voorkeurstalen
+    quick_question: 
+      random_question: Een willekeurige vraag beantwoorden
+    social_connect: 
+      find_friends_facebook: Vrienden op Facebook vinden
+      find_friends_identica: Vrienden op Identi.ca vinden
+      find_friends_linked_in: Vrienden op LinkedIn vinden
+      find_friends_twitter: Vrienden op Twitter vinden
+    topbar: 
+      admin: Beheer
+      logged_as: Aangemeld als %{login}
+      user_page: Mijn pagina
+    view_mode: "Weergavemodus:"

@@ -1,0 +1,47 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: Grigol
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  notifier: 
+    earned_badge: 
+      message1: Вы заслужили значок %{badge} в %{app}
+      message2: "Описание беджа:"
+      message3: Вы можете просмотреть все ваши беджи на вашей %{user_page}
+    favorited: 
+      message1: "%{user} добавил ваш вопрос в список избранных в группе %{group}"
+      message2: "Текст вопроса:"
+      message3: "Вы можете посмотреть здесь:"
+    follow: 
+      message1: "%{user} теперь отслеживает ваши вопросы и ответы в %{app}"
+      message2: Вы можете подписаться снова, нажав на кнопку «Подписаться» на его %{user_page}
+    give_advice: 
+      message1: "%{user} недавно задал вопрос, на который вы могли бы ответить:"
+      message2: "Для обратной связи просто ответьте здесь на это сообщение:"
+      message3: "Или, если вы знаете, кто сможет ответить, то отправьте им эту ссылку:"
+      message4: Если мы не получим от вас ответа в ближайшее время, мы спросим кого-нибудь ещё. Вы по прежнему сможете ответить, когда захотите.
+    global: 
+      hi: Здравствуйте, %{user},
+      hi_no_user: Здравствуйте,
+      user_page: странице пользователя
+    new_answer: 
+      message: "%{user} добавил ответ %{new_answer} на вопрос %{question}"
+    new_comment: 
+      message: "%{user} оставил комментарий %{new_comment} на вопрос %{link}"
+    new_feedback: 
+      message1: Пользователь %{user} <%{email}> отправил отзыв
+      message2: Анонимный пользователь отправил отзыв с IP-адреса %{ip}
+      message3: "Адрес электронной почты: %{email}"
+      message4: "Тема: %{subject}"
+    report: 
+      message1: Отчёт для группы %{group}
+      message2: С %{date}
+      message3: "Задано вопросов: %{questions}"
+      message4: "Создано ответов: %{answers}"
+      message5: "Отдано голосов: %{votes}"
+      message6: "Вручено беджей: %{badges}"
+      message7: Учётная запись включает %{users} пользователя/пользователей.
+      message8: Перейдите в свою группу по ссылке %{link}

@@ -1,0 +1,16 @@
+-if !question.close_requests.empty?
+  %ul.close_requests.list
+    -question.close_requests.group_by{|f| f.reason}.each do |reason, close_requests|
+      %li
+        -if current_user.mod_of?(current_group)
+          %a{:href => question_close_requests_path(question)}
+            = close_requests.size
+            x
+            %strong
+              = t(reason, :scope=>"close_requests.form")
+        -else
+          %a{:href => "#"}
+          = close_requests.size
+          x
+          %strong
+            = t(reason, :scope=>"close_requests.form")

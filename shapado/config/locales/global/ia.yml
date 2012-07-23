@@ -1,0 +1,95 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  feeds: 
+    feed: Syndication
+    post_new_questions: Publicar nove questiones in
+    question: Subscriber a iste question
+    questions: Subscriber a tote le questiones
+    share_on_twitter: Twitter, Facebook e plus...
+    tag: Subscriber al etiquetta
+    user: Subscriber a questiones de usatores
+  global: 
+    actions: Actiones
+    active: Activar
+    alphabetically: Alphabeticamente
+    anonymous: Anonyme
+    blog: Blog
+    by: per
+    by_semi: "Per:"
+    chat: Conversar
+    current: Actual
+    edited: Modificate
+    edited_by: Modificate per
+    edited_by_semi: "Modificate per:"
+    feedback: Commentos
+    follow: Sequer
+    followed_by: "Sequite per:"
+    following: Sub observation
+    from: de %{site}
+    group_not_found: Le pagina %{url} non existe
+    home: Initio
+    next_button: Sequente
+    open: Aperir
+    or: o
+    permission_denied: Permission refusate
+    please_login: Per favor aperi un session
+    preview: Previsualisar
+    previous: Precedente
+    privacy: Confidentialitate
+    share: Divider
+    sign_up: Crear conto
+    size: Dimension
+    sort_by: "Ordinar per:"
+    tags_label: "Etiquettas:"
+    tos: CdS
+    unfollow: Non plus sequer
+    unknown_place: Incognite
+    view: Leger
+    view_question: Vider le question
+    what_to_do: Que vole tu facer?
+  models: 
+    question: Le question
+  number: 
+    x_time: 
+      one: "%{count} vice"
+      other: "%{count} vices"
+      zero: Nunquam
+  preferred_languages: 
+    any: Qualcunque
+    user: Mi linguas preferite
+  roles: 
+    moderator: Moderator
+    owner: Proprietario
+    user: Usator normal
+  scaffold: 
+    add: Adder
+    are_you_sure: Es tu secur?
+    back: Retro
+    cancel: Cancellar
+    close: Clauder
+    create: Crear
+    destroy: Deler
+    details: Detalios
+    edit: Modificar
+    more: Plus...
+    new: Adder nove %{model}
+    post_as_anonymous: Publicar anonymemente
+    save: Salveguardar
+    send: Inviar
+    show: Monstrar
+    sure: Es tu secur de voler deler iste %{model}?
+    update: Actualisar
+  time: 
+    ago: "%{time} retro"
+    today: hodie
+    yesterday: heri
+  views: 
+    pagination: 
+      first: Prime
+      last: Ultime
+      next: Sequente &raquo;
+      previous: "&laquo; Precedente"
+      truncate: ...

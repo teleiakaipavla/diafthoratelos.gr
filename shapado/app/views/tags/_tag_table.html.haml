@@ -1,0 +1,11 @@
+%table.tag-list{:style => "width: 100%"}
+  = tag_table.each_slice(4) do |tags|
+    %tr
+      - tags.each do |tag|
+        %td{:style => "line-height: 14px"}
+          %span.tag{:class => "tag_#{tag}"}
+            = tag_link(tag)
+            %span.count
+              = tag.count.to_i
+#additional_info
+  = paginate @tags

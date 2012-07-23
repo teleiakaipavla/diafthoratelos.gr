@@ -1,0 +1,137 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: KagerMtc
+# Author: Kghbln
+# Author: The Evil IP address
+de: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: aktiviert bei
+        activation_code: Aktivierungscode
+        age: Alter
+        asked_by: gefragt von
+        avatar: Profilbild
+        birthday: Geburtstag
+        created_at: registriert
+        current_password: Aktuelles Kennwort
+        email: E-Mail
+        fullname: Bürgerlicher Name
+        hide_country: Mein Herkunftsland nicht anzeigen
+        language: Sprache
+        language_filter: Nach Sprache filtern
+        last_logged_at: gesehen
+        login: Nutzername
+        name: Bürgerlicher Name
+        password: Passwort
+        password_confirmation: Passwortbestätigung
+        preferred_languages: "Ich möchte Fragen in den folgenden Sprachen lesen:"
+        preferred_tags: Bevorzugte Kennzeichnung
+        reputation: Reputation
+        timezone: Zeitzone
+        updated_at: aktualisiert am
+        website: Website
+    models: 
+      user: Nutzer
+      users: Nutzer
+  users: 
+    actions: 
+      edit_others_posts: Bearbeite Beiträge anderer
+      edit_wiki_post: Beiträge im Wiki bearbeiten
+      flag: Kennzeichnen
+      retag_others_questions: Ändere die Stichwörter von Fragen anderer
+      vote_down: Negativ bewerten
+      vote_to_close_any_question: Beantrage die Beendigung einer beliebigen Frage
+      vote_to_close_own_question: Beantrage die Beendigung einer eigenen Frage
+      vote_up: Positiv bewerten
+    anonymous_form: 
+      never_shown: nie angezeigt
+    change_password: 
+      submit: Mein Passwort ändern
+      title: Passwort ändern
+    check_custom_domain: 
+      reset_domain_button: Nein, bitte die benutzerdefinierte Domain auf %{domain} zurückstellen.
+      title: Ist Deine neue benutzerdefinierte Domain funktionsfähig?
+      working_domain_link: Ja, ich kann unten erkennen, dass meine neue Domain funktionsfähig ist.
+    create: 
+      flash_error: Wir konnten dieses Nutzerkonto leider nicht einrichten. Versuche es erneut oder kontaktiere einen Administrator (Link s.o.).
+      flash_notice: Vielen Dank für die Anmeldung!
+    edit: 
+      enable_twitter: Verknüpfung mit Facebook- oder Twitterkonten
+      submit: Speichern
+      title: Einstellungen
+    follow: 
+      flash_error: Du kannst Dich nicht selbst beobachten.
+      flash_notice: Du beachtest jetzt %{user}.
+    form: 
+      activities_notification: E-Mail-Benachrichtigungen zu Aktivitäten, z. B. zu erhaltenen Auszeichnungen, neuen Anhängern, etc.
+      avatar_tip: Ändere Dein Profilbild mit „Gravatar“
+      check_domain: Überprüfe %{domain}
+      check_domain_title: Überprüfe die benutzerdefinierten Domains meiner Gruppe
+      desktop_notification: Desktop-Benachrichtigungen
+      give_advice_notification: E-Mail-Benachrichtigungen zu Fragen in Deinem Fachgebiet
+      information: Nutzerinformationen
+      language: "Die Sprache, die für die Nutzeroberfläche verwendet werden soll:"
+      new_answer_notification: E-Mail-Benachrichtigungen zu neuen Antworten
+      notifications: Benachrichtigungen
+      reports_notification: Bericht mit den letzten Gruppenaktivitäten (nur für Gruppenadministratoren)
+      send_answers_to_twitter: Meine Antworten bei Twitter veröffentlichen
+      send_badges_to_twitter: Meine neu gewonnenen Abzeichen bei Twitter veröffentlichen
+      send_comments_to_twitter: Meine Kommentare bei Twitter veröffentlichen
+      send_favorites_to_twitter: Meine Lieblingsantworten bei Twitter veröffentlichen
+      send_questions_to_twitter: Meine Fragen bei Twitter veröffentlichen
+      show_more_lang: Weitere Sprachen
+      social_interaction: Social-Media-Interaktion
+    index: 
+      empty: Diese Gruppe hat keine Mitglieder - beteilige Dich, indem Du dieser Gruppe beitrittst
+      filter: Suche nach Nutzern
+      name: Name
+      name_tooltip: Nutzer, alphabetisch geordnet
+      near: In Deiner Nähe
+      near_tooltip: Nutzer in Deiner Nähe
+      newest: Neuester
+      newest_tooltip: Neue Nutzer
+      oldest: Ältester
+      oldest_tooltip: Die ersten Nutzer
+      reputation: Reputation
+      reputation_tooltip: Nutzer, nach Reputation geordnet
+      title: Alle Nutzer
+    messages: 
+      errors: 
+        reputation_needed: "Du brauchst einen Reputationswert von %{min_reputation} für: %{action}"
+    new: 
+      description: Werde ein Teil dieser Gemeinschaft, um Fragen stellen, Antworten geben und um lernen zu können!
+      join_group: "%{group} beitreten"
+      submit: Anmeldung
+      title: Anmeldung als neuer Nutzer
+    show: 
+      edit_profile: Profil bearbeiten
+      follow: Beachten
+      followers: Anhänger
+      following: Beachtet
+      title: Nutzer %{user}
+      unfollow: Nicht mehr beachten
+      views: Aufrufe
+    show_json: 
+      edit_it: Klicke hier, um Deinen Lebenslauf auf Deinem Profil anzugeben.
+      no_description: Dieser Nutzer hat seinen Lebenslauf noch nicht angegeben.
+    top_user: 
+      connect: Verbinden
+      my_karma: "Mein Karma: %{karma}"
+      profile: Profil
+    unfollow: 
+      flash_notice: Du beachtest %{user} nicht mehr.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Du beachtest jetzt das Schlagwort %{tag}.
+      unfollowed: 
+        flash_notice: Du beachtest das Schlagwort %{tag} nicht mehr.
+    user_bar: 
+      create_account: Ein Nutzerkonto anlegen
+      not_logged_in: Nicht angemeldet
+      signed_as: Angemeldet als
+    user_mini: 
+      admin: "[ Administrator ]"
+      editor: "[ Bearbeiter ]"
+      mod: "[ Moderator ]"

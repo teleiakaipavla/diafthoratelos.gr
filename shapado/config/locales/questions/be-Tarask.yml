@@ -1,0 +1,171 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Адказы
+        asked_by: Зададзена
+        banned: Заблякаваны
+        body: Тэкст
+        closed: Закрытае
+        created_at: Запытанае
+        language: Мова
+        tags: Тэгі
+        title: Назва
+        updated_at: абноўлены
+        updated_by: абноўленае
+        views: Прагляды
+        votes: Галасы
+    models: 
+      question: Пытаньне
+      questions: Пытаньні
+  questions: 
+    answer: 
+      add_comment: Дадаць камэнтар…
+      favorite: Захаваць
+      favorite_tooltip: Дадаць гэты адказ у Вашыя ўлюблёныя
+      flag: Пазначыць
+      pick_answer: Выбраць у якасьці рашэньня
+      unfavorite: Незахаванае
+      unfavorite_tooltip: Выдаліць гэты адказ з Вашых улюблёных
+      unset_answer: Адмяніць рашэньне?
+    answer_toolbar: 
+      flagged_by_you: Пазначаныя Вамі
+    close: 
+      failure: Гэтае пытаньне мае актыўная ўзнагароды і ня можа быць закрытае.
+    create: 
+      already_registered: Карыстальнік з адрасам электроннай пошты %{email} ужо зарэгістраваны. Калі ласка, увайдзіце ў сыстэму праз гэтую электронную пошту.
+      flash_notice: Пытаньне было створанае пасьпяхова.
+    disallow_spam: 
+      error: Вам неабходна пачакаць 20 сэкундаў перад тым, як задаць іншае пытаньне.
+    edit: 
+      title: Рэдагаваньне пытаньня
+    flag: 
+      title: Пазначыць пытаньне
+    form: 
+      add_attachment: Дадаць далучэньне
+      adult_content: Гэтае пытаньне ўтрымлівае матэрыялы для дарослых.
+      body_tip: Якое Вашае пытаньне? Зрабіце яго больш зразумелым.
+      language_tip: Выберыце мову, на якой будзе задавацца пытаньне.
+      related_questions_desc: Тут будуць паказаныя падобныя пытаньні.
+      remove_attachment: Выдаліць
+      tags_tip: Выкарыстоўвайце тэгі для дадатковай інфармацыі пра Вашае пытаньне.
+    history: 
+      back: ← вярнуцца да пытаньня
+    index: 
+      active: Актыўныя
+      active_tooltip: Апошнія абноўленыя пытаньні
+      ask_question: Задаць пытаньне
+      empty: Пакуль што ніхто не задаваў пытаньні. Будзьце першым!
+      followers_tooltip: Пытаньні, за якімі сочаць больш за ўсіх
+      help_to_answer: Дапамажыце нам даць адказ
+      hot: Гарачыя
+      hot_tooltip: Пытаньні з самай вялікай актыўнасьцю за апошнія 5 дзён
+      newest: Найнавейшыя
+      newest_tooltip: Апошнія зададзеныя пытаньні
+      oldest: Найстарэйшыя
+      title: Усе пытаньні
+      unanswered_questions: Пытаньні без адказаў
+      votes: Галасы
+    model: 
+      messages: 
+        empty_tags: Прабачце, Вы павінны выкарыстаць хаця б адзін тэг.
+        tags_not_added: Тэгі «%{tags}» ня могуць быць дададзеныя. Вам неабходна мець рэпутацыю %{reputation_required}, каб ствараць новыя тэгі
+        title_too_long: Прабачце, загаловак не павінен ўтрымліваць болей чым 100 сымбаляў.
+        too_many_tags: Прабачце, Вы можаце ўвесьці максымум 20 тэгаў.
+    move: 
+      group_label: "Перанесьці ў групу з назвай:"
+      submit: Перанесьці!
+      title: "Перанесьці пытаньне: %{title}"
+    move_to: 
+      group_dont_exists: Група %{group} не існуе
+      success: Пытаньне перанесенае ў %{group}
+    new: 
+      description: Калі ласка, будзьце больш зразумелым і ўпэўніцеся, што дадалі зьвязаныя тэгі такім чынам, што іх будзе лёгка знайсьці.
+      how_to_ask: Як задаць пытаньне
+      title: Задаць пытаньне
+    question: 
+      accepted_tooltip: Гэтае пытаньне мае прыняты адказ
+      answer_verb: Адказаць
+      wiki_title: "Вікі: %{title}"
+    retag: 
+      title: Зьмяніць тэг
+    retag_form: 
+      cancel: Скасаваць
+      submit: Абнавіць тэгі!
+      title: Абнавіць тэгі
+    retag_to: 
+      failure: Прабачце, немагчыма аднавіць тэгі.
+      success: Тэгі пасьпяхова абноўленыя.
+    revert: 
+      title: Адкаціць пытаньне
+    shared: 
+      flag: Пазначыць
+    show: 
+      accepted_tooltip: Адзін з адказаў быў прызнаны слушным.
+      another_answers: Іншыя адказы
+      answers: Адказы
+      asked_on: зададзенае
+      ban: Заблякаваць
+      close: Закрыць
+      close_reason: "Пытаньне было закрытае па наступнай прычыне:"
+      create_reward: Стварыць узнагароду
+      create_reward_description: Узнагародзіць лепшы адказ каб палепшыць Вашую карму.
+      edit_request: Рэдагаваць запыт
+      flag: Пазначыць
+      flagged_as: Пазначанае як
+      flags: Памечанае як
+      follow_tooltip: Сачыць за гэтым пытаньнем
+      follow_up: Сачыць
+      follow_up_description: Стварыць новае пытаньне заснаванае на гэтым паведамленьні.
+      follow_up_of: Гэтае пытаньне ўзьнікла пасьля
+      history: Гісторыя
+      last_activity: Апошняя актыўнасьць
+      more_actions: Болей дзеяньняў
+      open: Адкрыць
+      related_questions: Зьвязаныя пытаньні
+      request_closing: Запыт на закрыцьцё
+      request_closing_details: Запыт на закрыцьцё гэтага пытаньня
+      request_opening: Новае адкрыцьцё запыту
+      request_opening_details: Запыт на паўторнае адкрыцьцё гэтага пытаньня
+      requested_close_as: Вы запыталі закрыцьцё гэтага пытаньня
+      requested_reopening: Вы запыталі паўторнае адкрыцьцё гэтага пытаньня
+      retag: Зьмяніць тэг
+      retract_request: Адклікаць запыт
+      share: Разьмясьціць гэтае пытаньне на
+      share_on: Разьмясьціць гэтае пытаньне на %{site}
+      solution: Рашэньне
+      to_answer_question: адказаць на гэтае пытаньне
+      unauthenticated_retag: Вам неабходна мець рахунак каб зьмяняць тэгі пытаньняў
+      unban: Разблякаваць
+      unfollow_tooltip: Спыніць сачэньне за гэтым пытаньнем
+      viewed: прагледжанае
+    solve: 
+      flash_notice: Пытаньне было вырашанае.
+    tags: 
+      filter: Пошук тэгаў
+      title: Тэгі
+      tooltip: Паказаць пытаньні з тэгам %{tag}
+    toolbar: 
+      answer_by_mail: Адказаць па электроннай пошце
+      more_actions: Болей дзеяньняў
+      requests: Запыты
+      your_close_request: Вашыя запыты на закрыцьцё
+    unanswered: 
+      empty: У гэтай групе няма пытаньняў без адказу.
+      expert: Экспэрты
+      my_tags: Мае тэгі
+      tags: Тэгі без адказаў
+      title: Пытаньні без адказаў
+    unsolve: 
+      flash_notice: Пытаньне пакуль што не вырашанае.
+    unwatch: 
+      success: Цяпер Вы ня будзеце атрымліваць абвяшчэньні па электроннай пошце па кожнаму новаму адказу на гэтае пытаньне.
+    update: 
+      flash_notice: Пытаньне было абноўленае пасьпяхова.
+    watch: 
+      success: Цяпер Вы будзеце атрымліваць абвяшчэньні па электроннай пошце па кожнаму новаму адказу на гэтае пытаньне.

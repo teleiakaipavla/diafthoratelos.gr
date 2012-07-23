@@ -1,0 +1,9 @@
+# Messages for Silesian (Ślůnski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+szl: 
+  shared: 
+    topbar: 
+      admin: Admin
+      user_page: Moja zajta

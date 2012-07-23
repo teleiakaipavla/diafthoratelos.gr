@@ -1,0 +1,33 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+it: 
+  invitations: 
+    accept: 
+      create_account: Crea un account (1 di 2)
+      create_account_step2: Crea Account
+      description: "%{group} è una collezione in continuo miglioramento di domande e risposte su qualsiasi argomento."
+      done: Fatto!
+      facebook_connect: Connettiti con il tuo account Facebook
+      final_step: Passaggio finale (2 di 2)
+      find_friends: "Trova amici e collegati:"
+      follow_things: Segui Tag e Persone
+      follow_things_description: Domande relative a questi appariranno sul tuo feed.
+      other_connect: o utilizza uno di questi.
+      other_social_options: È inoltre possibile utilizzare %{linkedin} e %{identica}.
+      point1: Chiedete agli esperti che conoscono un determinato argomento.
+      point2: Segui argomenti che ti interessano e rispondi alle domande.
+      point3: Vota e modifica risposte e pagine wiki per migliorarle. Conquista dei badge
+      point4: Rispondi dal client di posta elettronica senza fatica.
+      twitter_connect: Connettiti con il tuo account Twitter
+      welcome: Benvenuto
+    create: 
+      flash_notice: Gli inviti sono stati inviati con successo.
+      limit_notice: 
+        one: "Siamo spiacenti, non è possibile inviare più di %{limit} invito alla volta. "
+        other: Siamo spiacenti, non è possibile inviare più di %{limit} inviti alla volta.
+    resend: 
+      flash_notice: Il tuo invito è stato reinviato con successo.
+    revoke: 
+      flash_notice: Il tuo invito è stato revocato con successo.

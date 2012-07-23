@@ -1,0 +1,519 @@
+
+// $has_bg_image boolean
+// $bg_color color
+// $fg_color color
+// $bg_image_url string
+// $view_bg_color color
+// $use_link_bg_color boolean
+// $brand_color color
+// $fluid boolean
+
+$fg_brand_color: scale-lightness($brand_color, 80%);
+@if(lightness($fg_brand_color) == 100%) {
+  $fg_brand_color: darken($fg_brand_color, 60%);
+}
+
+
+$dark_brand_color: scale-lightness($brand_color, -35%);
+@if(lightness($dark_brand_color) == 0%) {
+  $dark_brand_color: scale-lightness($dark_brand_color, 35%);
+}
+
+$light_brand_color: scale-lightness($brand_color, 90%);
+@if(lightness($fg_brand_color) == 100%) {
+  $fg_brand_color: darken($fg_brand_color, 60%);
+}
+
+$fg_light_brand_color: scale-lightness($fg_color, 20%);
+@if lightness($fg_light_brand_color) == 100% {
+  $fg_light_brand_color: scale-lightness($fg_color, -20%);
+}
+
+$border_color: $view_bg_color;
+$border_color: scale-lightness($view_bg_color, -10%);
+@if lightness($border_color) == 0% {
+  $border_color: scale-lightness($border_color, 10%);
+}
+
+$highlighted_view_bg_color: adjust-color($view_bg_color, $red: 11, $green: 11, $blue: -66);
+
+
+/* Dynamic vars
+ * $fg_brand_color: foreground used when the background is $brand_color.
+ * $dark_brand_color: a darkeness brand_color
+ * $light_brand_color: a lightness brand_color
+ * $fg_light_brand_color:
+ * $highlighted_view_bg_color:
+ * $border_color
+ */
+
+@import 'generals';
+@import 'layout';
+@import 'items';
+@import 'widgets';
+
+#feedback-btn {
+  p a {
+    background-color: $brand_color;
+    -moz-box-shadow: 0 2px 7px $bg_shadow;
+    -webkit-box-shadow: 0 2px 7px $bg_shadow;
+    -o-box-shadow: 0 2px 7px $bg_shadow;
+    -khtml-box-shadow: 0 2px 7px $bg_shadow;
+    -box-shadow: 0 2px 7px $bg_shadow;
+    border: 3px solid darken($brand_color, 10%);
+    color: $fg_brand_color; } }
+
+// shapado/modules/comments
+.comments {
+  article.comment {
+    .comment-body {
+      .user-login {
+        color: $brand_color; } }
+    .actions {
+      a {
+        color: $brand_color; } } } }
+
+// shapado/modules/history
+
+form.history {
+  ul li {
+    border-bottom: 1px solid darken($view_bg_color, 10%);
+    .top {
+      background-color: darken($view_bg_color, 5%); }
+    p.current {
+      color: #cc0000; }
+    .tag-list li strong {
+      color: $fg_color; } } }
+
+.buttons-history {
+  input {
+    color: white; } }
+
+.diff-view {
+  .navform {
+    background-color: darken($view_bg_color, 5%); } }
+
+// shapado/modules/invoices
+.invoices {
+  .thanks {
+    background-color: #ffefa7;
+    p {
+      a {
+        color: $brand_color; }
+      &.action {
+        em {
+          color: $brand_color; } } } }
+  table {
+    border: 1px solid darken($view_bg_color, 8.5%);
+    tfoot {
+      background-color: #fff2e1; } } }
+
+.manage-layout {
+  .invoices {
+    table {
+      border: 1px solid darken($view_bg_color, 5%);
+      a {
+        color: $brand_color; }
+      td {
+        border-bottom: 1px solid darken($view_bg_color, 5%);
+        background-color: $view_bg_color; }
+      tr:nth-child(2n) td {
+        background-color: darken($view_bg_color, 3%); }
+      thead, thead tr td {
+        background-color: darken($view_bg_color, 10%) !important;
+        td {
+          border: 1px solid darken($view_bg_color, 20%); } } } } }
+
+.each-invoice {
+  h2 {
+    border-bottom: 1px solid $brand_color; } }
+
+// shapado/modules/invoices
+.main-question {
+  .author {
+    a {
+      color: $brand_color; } }
+  .stats a {
+    color: $brand_color; }
+  #panel-forms {
+    form {
+      background-color: $light_brand_color; } } }
+
+#answers-content-wrap {
+  h2 {
+    border-top: 1px solid $border_color;
+  }
+  .filters {
+    background-color: $light_brand_color;
+    color: $fg_light_brand_color;
+    a {
+      color: $fg_light_brand_color; } }
+  .answers-list {
+    article.solution {
+      border-left: 5px solid #a2c538; } }
+  .answer_vote_box {
+    .vote_box button {
+      &.negative {
+        background-color: lighten($view_bg_color, 10%);
+        &:hover, &.checked {
+          background-color: #cc0000 !important; } }
+      &.positive {
+        background-color: lighten($view_bg_color, 10%);
+        &:hover, &.checked {
+          background-color: #a2c538 !important} } } }
+  .answer {
+    .author {
+      * {
+        color: ligthen($fg_light_brand_color, 20%); }
+      .user-data a {
+        color: $brand_color; }
+      img {
+        border: 1px solid darken($view_bg_color, 10%); } } } }
+
+.followUp-content {
+  border-bottom: 1px solid darken($view_bg_color, 10%); }
+
+#close_reason {
+  color: white;
+  background-color: #cc0000; }
+
+// Groups
+//========================================================================
+.groups_container {
+  ul {
+    li {
+      border-top: 1px solid darken($view_bg_color, 10%);
+      .logo {
+        border: 1px solid darken($view_bg_color, 10%); }
+      .actions {
+        background-color: lighten($fg_color, 97%);
+        a {
+          color: lighten($fg_color, 60%);
+          &:hover {
+            color: $fg_color; } } } } } }
+
+// Main Question - Answers
+//------------------------------------------------------------------------------
+#answers-content-wrap {
+  .answers-list {
+    .answer_vote_box {
+      .vote_box button {
+        &.negative {
+          background-color: #fafafa; }
+        &.positive {
+          background-color: #fafafa; } } } } }
+
+// Members
+//------------------------------------------------------------------------------
+.manage-layout {
+  .members {
+    ul li {
+      .role {
+        background-color: #cc0000;
+        color: white; }
+      .user-info {
+        h2 a {
+          color: $fg_color; } } } } }
+
+// Pages
+//------------------------------------------------------------------------------
+.page-list {
+  .title a {
+    background-color: $brand_color;
+    background-image: -khtml-gradient(linear, left top, left bottom, from($brand_color), to($dark_brand_color));
+    background-image: -moz-linear-gradient($brand_color, $dark_brand_color);
+    background-image: -ms-linear-gradient($brand_color, $dark_brand_color);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $brand_color), color-stop(100%, $dark_brand_color));
+    background-image: -webkit-linear-gradient($brand_color, $dark_brand_color);
+    background-image: -o-linear-gradient($brand_color, $dark_brand_color);
+    background-image: linear-gradient($brand_color, $dark_brand_color);
+    color: white;
+    border: 1px solid $dark_brand_color !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  &:hover {
+    color: white; }
+  }
+  .page {
+    border-bottom: 1px solid darken($view_bg_color, 5%);
+    h2 {
+      a {
+        color: $fg_color; } }
+    .actions-bar {
+      background-color: darken($view_bg_color, 5%);
+      li {
+        a {
+          &:hover {
+            color: white !important; } } } } } }
+
+.ui-widget-header {
+  background: #cccccc !important;
+  color: $fg_color !important; }
+
+// Suggestions
+//------------------------------------------------------------------------------
+.suggestions {
+  #main-content-wrap {
+    ul {
+      li {
+        border-top: 1px solid darken($view_bg_color, 10%);
+        img {
+          border: 1px solid darken($view_bg_color, 5%); }
+        .info {
+          .link {
+            color: $fg_color;
+            &:hover {
+              color: $brand_color; } }
+          .f-link a {
+            &:hover {
+              background-color: $brand_color;
+              color: white; } } } } } } }
+
+// Users
+//------------------------------------------------------------------------------
+.userData {
+  ul.badges {
+    li {
+      a {
+        color: $fg_color; } } } }
+
+.userHistory {
+  .userDescription {
+    img {
+      border: 1px solid darken($view_bg_color, 5%); }
+    p {
+      a {
+        color: $brand_color; } } }
+  ul.profile-stats {
+    background-color: darken($view_bg_color, 5%);
+    border: 1px solid darken($view_bg_color, 10%);
+    li {
+      &.follow {
+        background-color: $brand_color;
+        a {
+          color: white; } } } } }
+
+.userHistory {
+  .badges {
+    border-top: 1px solid darken($view_bg_color, 10%);
+    border-bottom: 1px solid darken($view_bg_color, 10%); } }
+
+.list-users {
+  .top {
+    border-bottom: 1px solid darken($view_bg_color, 10%); }
+  .filters {
+    li {
+      strong {}
+      a {
+        color: #999999;
+        &:hover, a.active {
+          color: $fg_color;
+          border-bottom-color: $brand_color; } } } }
+  ul.items {
+    li {
+      border-bottom: 1px solid darken($view_bg_color, 10%);
+      .summary {
+        img {}
+        h3 {
+          a {
+            color: $fg_color; } } } } } }
+
+
+// Admin nav
+.admin-nav {
+  border: 1px solid darken($view_bg_color, 10%);
+  background-color: #f9f9f9;
+  li a {
+    border-right: 1px solid darken($view_bg_color, 5%);
+    color: #999999;
+    &:hover {
+      color: $fg_color;
+      background-color: darken($view_bg_color, 10%); } } }
+
+.invite .admin-nav .invite a,
+.invitations .admin-nav .invitations a {
+  background-color: $light_brand_color;
+  color: $fg_light_brand_color; }
+
+
+// shapado/others/forms
+.questions {
+  form.question_comment_form, form.answer_comment_form, .edit_comment_form, .edit_answer {
+    color: $fg_light_brand_color;
+    background-color: $light_brand_color; } }
+
+.questions-controller.index .toolbar .answers a {
+  color: $brand_color;
+  &:hover {
+    background-color: $brand_color;
+    color: $light_brand_color; } }
+
+.related_questions {
+  #related_questions {
+    article {
+      h3 {
+        a:hover {
+          background-color: $brand_color;
+          color: white; } } } } }
+
+.manage-layout, {
+  #main-content-wrap {
+    .ui-tabs, .ui-tabs-nav {
+      .ui-tabs-nav {
+        border-bottom: 1px solid darken($view_bg_color, 10%);
+        li {
+          border-color: darken($view_bg_color, 10%);
+          a {
+            color: #666666; }
+          &.ui-tabs-selected a {
+            color: $fg_color; } } } } } }
+
+.manage-layout {
+  .access {
+    form {
+      h2 {
+        border-bottom: 1px solid darken($view_bg_color, 5%); } } } }
+
+.save-search,
+.announcement {
+  background-color: $highlighted_view_bg_color; }
+
+.widgets-admin {
+  .select-widget {
+    background-color: #fff8e6;
+    .zone, .type {
+      p {
+        color: $fg_color;
+        strong {
+          color: $fg_color; } } } }
+  .container {
+    .container {
+      border: 1px solid darken($view_bg_color, 10%); }
+    .header {
+      background-color: darken($view_bg_color, 10%);
+      color: $fg_color;
+      a {
+        color: $brand_color; } }
+    .top {
+      background-color: #fef9ed;
+      border-bottom: 1px solid darken($view_bg_color, 10%); }
+    .widget {
+      h3 {
+        border-bottom: 1px solid darken($view_bg_color, 10%); } } } }
+
+
+// shapado/other/plans
+.plans {
+  .each {
+    border-top: 1px solid darken($view_bg_color, 10%);
+    border-bottom: 1px solid darken($view_bg_color, 10%);
+    border-right: 1px solid darken($view_bg_color, 10%);
+    .header {
+      border-bottom: 1px solid darken($view_bg_color, 10%);
+      background-color: #f9f9f9;
+      h2 {
+        text-shadow: 0 0 3px #999999;
+        color: $fg_color; } }
+    .price {
+      color: #777777; }
+    .button a {
+      color: #666666; }
+    .bottom {
+      background-image: -moz-linear-gradient(top, darken($view_bg_color, 10%), #aaaaaa);
+      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #aaaaaa), color-stop(1, darken($view_bg_color, 10%))); } }
+  .first {
+    border: 1px solid darken($view_bg_color, 10%); }
+  .last {
+    border: 1px solid darken($view_bg_color, 10%); }
+  p.free-offer {
+    color: ligthen($fg_color, 53%);
+    a {
+      color: lighten($fg_color, 33%); } }
+  .selected {
+    border: 1px solid #ed671f;
+    background-color: #fff3d2;
+    -moz-box-shadow: 0 0 5px $fg_color;
+    -webkit-box-shadow: 0 0 5px $fg_color;
+    -o-box-shadow: 0 0 5px $fg_color;
+    -khtml-box-shadow: 0 0 5px $fg_color;
+    box-shadow: 0 0 5px $fg_color;
+    .header {
+      background-color: #ffcc66; }
+    .price {
+      text-shadow: 0 1px 3px $fg_color;
+      color: white; }
+    .button a {
+      color: white;
+      text-shadow: 0 1px 1px $fg_color; }
+    .bottom {
+      background-image: -moz-linear-gradient(top, #ed671e, #b4490f);
+      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b4490f), color-stop(1, #ed671e));
+      background-color: #ed671e; } } }
+
+// shapado/others/quick-question
+.quick_question {
+  background-color: $view_bg_color;
+  .search-feedback: {
+    color: #999999; }}
+
+
+//Themes
+.themes-controller #main-content-wrap p a{
+  background-color: $brand_color;
+  background-image: -khtml-gradient(linear, left top, left bottom, from($brand_color), to($dark_brand_color));
+  background-image: -moz-linear-gradient($brand_color, $dark_brand_color);
+  background-image: -ms-linear-gradient($brand_color, $dark_brand_color);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $brand_color), color-stop(100%, $dark_brand_color));
+  background-image: -webkit-linear-gradient($brand_color, $dark_brand_color);
+  background-image: -o-linear-gradient($brand_color, $dark_brand_color);
+  background-image: linear-gradient($brand_color, $dark_brand_color);
+  color: white;
+  border: 1px solid $dark_brand_color !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.themes-controller #main-content-wrap p a:hover {
+    color: white;
+}
+
+.themes-controller #main-content-wrap .details-theme li div{
+  border: 1px solid darken($view_bg_color, 10%);
+}
+
+.themes-controller #main-content-wrap .themes .theme {
+  border-top: 1px solid darken($view_bg_color, 10%);
+}
+
+.themes-controller #main-content-wrap .themes .theme p a, .themes-controller #main-content-wrap .themes .theme h2 a{
+  color: $brand_color;
+}
+.themes-controller #main-content-wrap .themes .theme .toolbar {
+  background-color: lighten($view_bg_color, 10%);
+}
+.themes-controller #main-content-wrap .themes .theme form .theme_colors .field .Icon{
+  border: 1px solid darken($view_bg_color, 10%);
+}
+
+.themes-controller .theme {
+  .display-color { border: 1px solid $border_color }
+}
+
+.devise-passwords-controller #main-content-wrap .errorExplanation{
+  background-color: #fdecec;
+  border: 1px solid #c00;
+}
+
+.top-classic {
+  background-color: $view_bg_color;
+  color: $fg_color;
+  .menubar {
+    a {
+      background-color: darken($view_bg_color, 10%);
+      color: #000;
+      &:hover {
+        background-color: $brand_color;
+        color: $fg_brand_color;
+      }
+    }
+  }
+}
+

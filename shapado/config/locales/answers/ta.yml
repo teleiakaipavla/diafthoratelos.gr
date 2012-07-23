@@ -1,0 +1,21 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+# Author: TRYPPN
+ta: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: உள்ளடக்கம்
+        link: இணைப்பு
+    models: 
+      answer: விடை
+      answers: விடைகள்
+  answers: 
+    create: 
+      flash_notice: நன்றி !
+    form: 
+      answer_label: கேள்விக்கு பதிலளிக்கவும்
+      comment_submit: கருத்து
+      submit: விடை

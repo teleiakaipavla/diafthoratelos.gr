@@ -1,0 +1,22 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  sessions: 
+    create: 
+      flash_error: Не могу да вас пријавим као „%{login}“
+      flash_notice: Пријављени сте
+    destroy: 
+      flash_notice: Одјављени сте.
+    new: 
+      log_in: Пријава
+      not_registered: Немате налог?
+      registered: Имате налог?
+      remember_me: Запамти ме
+      sign_in: Пријава
+      signup: Упис
+      with_authentication: Пријава с нашим системом за потврду
+      with_facebook: Пријава преко Фејсбука
+      with_openid: Пријава путем OpenID-ја
+      with_twitter: Пријава преко Твитера

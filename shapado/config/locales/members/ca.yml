@@ -1,0 +1,23 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+ca: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rol
+  members: 
+    create: 
+      error: Ho sentim, l'usuari ** %{user_id} ** no existeix.
+      notice: "%{login} s'afegia reeixidament en %{role}."
+    form: 
+      destroy_confirm: Esteu segur? Aquest usuari ja no serà un membre d'aquest grup.
+      login_tip: Cerqueu mentre introduïu el text
+    index: 
+      manage_members_title: Gestioneu els membres
+      title: Membres del grup %{name}
+      title_isolate: Membres de %{name}
+    update: 
+      error: Ho sentim, no teniu prou permisos per canviar ** %{login} ** membres.

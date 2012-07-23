@@ -1,0 +1,27 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Manoillon
+# Author: McDutchie
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+# Author: Zebulon84
+fr: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: role
+  members: 
+    create: 
+      error: Désolé, l'utilisateur **%{user_id}** n'existe pas.
+      notice: "%{login} a été ajouté à %{role} avec succès."
+    form: 
+      destroy_confirm: Êtes-vous sûr ? Cet utilisateur ne sera plus membre de ce groupe
+      login_tip: Chercher pendant la frappe
+    index: 
+      manage_members_title: Gérer les membres
+      title: Membres du groupe %{name}
+      title_isolate: Membres de %{name}
+    update: 
+      error: Désolé, vous n'avez pas les droits suffisant pour mettre à jour le compte  de **%{login}**.

@@ -1,0 +1,95 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Штодзённае абмежаваньне
+        default_tags: Тэгі па змоўчваньні
+        description: Апісаньне
+        domain: Дамэн
+        enable_latex: Дазволіць LaTeX з jqmath (хутка, але без некаторых магчымасьцяў)
+        enable_mathjax: Дазволіць LaTeX з mathjax (павольна, але з усімі магчымасьцямі)
+        fb_button: Уключыць кнопку Facebook Like (адмоўна ўплывае на прыватнасьць)
+        forum: Дазволіць болей аднаго адказу на карыстальніка
+        group_created_by: створаная
+        language: Мова па змоўчваньні
+        languages: Дадатковыя мовы
+        legend: Легенда
+        logo: Лягатып
+        may_contain_adult_content: Гэты сайт можа ўтрымліваць зьмест для дарослых
+        name: Назва
+        owner: Гэтая група была створаная %{login}
+        registered_only: Толькі зарэгістраваныя людзі могуць зайсьці на сайт
+        signup_type: "Якім спосабам Вашыя карыстальнікі могуць уваходзіць у сыстэму:"
+        state: Стан
+        subdomain: URL-адрас
+        wysiwyg_editor: Уключыць рэдактар зручны для карыстальніка
+    models: 
+      default_tags_message: Вы ня можаце мець болей 10 тэгаў па змоўчваньні
+      group: Група
+      groups: Групы
+      reputation_rewards_answer_constrain: Абмежаваньне ўзнагароднаў за адказы, якія лічацца адмоўнымі
+      reputation_rewards_ask_constrain: Абмежаваньне, пры якім адказ лічыцца адмоўным
+      reputation_rewards_key: Няслушны ключ
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Прабачце, нешта пайшло ня так. Калі ласка, паспрабуйце яшчэ раз.
+      success_twitter_connection: Віншуем, Вы пасьпяхова злучыліся з Вашым рахункам на Twitter!
+    create: 
+      flash_notice: Вашая група была пасьпяхова створаная. Цяпер Вы можаце пачаць яе ўстанаўліваць.
+    edit: 
+      title: Рэдагаваць Вашую групу
+    form: 
+      access: Устаноўкі доступу
+      analytics_engine: Рухавік Analytics
+      analytics_legend: Група будзе мець магчымасьць выкарыстоўваць уласны код сачэньня
+      any_language: Любая
+      custom_analytics: Дазволіць нестандартныя аналітыкі
+      custom_html: Дазволіць нестандартны HTML
+      custom_js: Дазволіць нестандартны JavaScript
+      default_tags_legend: Падзяляйце тэгі коскамі. Дазволена толькі 10 па змоўчваньні.
+      description_legend: Вы можаце выкарыстоўваць 400 сымбаляў для апісаньня групы.
+      isolate_group: Ізаляваць групу ад іншых групаў
+      legend_legend: Гэта будзе выкарыстоўвацца ў загалоўку. Вы маеце 40 сымбаляў.
+      logo_legend: Вы можаце загрузіць лягатып групы. Максымальны памер файла складае 2 Мб.
+      members_only: Толькі сябры групы будуць мець доступ да гэтай групы
+      signup_all: Усе выбраныя правайдэры плюс карыстальнік/пароль
+      signup_email: Толькі карыстальнік/пароль
+      signup_noemail: Усе выбраныя правайдэры мінус карыстальнік/пароль
+      signup_social: Карыстальнікі вымушаныя карыстацца Facebook, Twitter, LinkedIn ці Identica
+      website_analytics_id: Ідэнтыфікатар аналітыкі сайта
+    group: 
+      about: Пра
+      accept_group: Прыняць гэтую групу
+      allow_ads: Дазволіць рэкляму
+      close: Закрыць
+      close_group: Закрыць гэтую групу
+      disallow_ads: Забараніць рэкляму
+    index: 
+      actives: Актыўныя
+      create_your_own: стварыць уласную групу
+      description: Гэта сьпіс створаных публічных групаў. Карыстайцеся функцыяй пошуку каб знайсьці групу. Таксама Вы можаце %{link}.
+      filter: Пошук групаў
+      most_active: Самыя актыўныя
+      name: Назва
+      pendings: Чакае
+      request_group: Запытаць новую групу
+      title: Групы
+    new: 
+      title: Стварэньне ўласнай групы
+    show: 
+      accept_group: Прыняць гэтую групу
+      accept_group_with_custom_ads: Прыняць групу і дазволіць нестандартную рэкляму
+      close_group: Закрыць гэтую групу
+      group_awaiting_acceptance: Гэтая група чакае прыняцьця мадэратарам.
+      group_closed: Гэтая група была закрытая.
+      title: Пра %{name}
+      visit_group: Наведаць гэтую групу
+    top_grouplist: 
+      active_site: "Актыўны сайт:"
+    update: 
+      notice: Вашая група была пасьпяхова абноўленая.

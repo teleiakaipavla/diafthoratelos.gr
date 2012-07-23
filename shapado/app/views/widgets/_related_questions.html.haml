@@ -1,0 +1,12 @@
+-related_questions = Question.related_questions(@question).page(1).per_page(widget.settings['limit']||10)
+
+- if related_questions && !related_questions.empty?
+  .module.widget.block{:class => 'widget-related_questions'}
+    = render "widgets/header", :widget => widget
+    %aside
+      %ul.list
+        -related_questions.each do |rq|
+          - if !rq.nil?
+            %li
+              = link_to h(rq.title), question_path(rq), :title => truncate(strip_tags(rq.body), :length => 200)
+

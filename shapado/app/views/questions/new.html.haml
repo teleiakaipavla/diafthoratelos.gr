@@ -1,0 +1,24 @@
+
+-content_for :header do
+  %h1
+    = t(".title")
+  %p.description
+    = raw(current_group.question_help)
+
+= form_for(@question, html: {class: "question-form", id: "ask_question", multipart: true, data: {'login-required' => true}}) do |f|
+  =render :partial => "form", :locals => {:f => f}
+
+  .field.form-options
+    .column
+      .checkbox
+        = f.label :wiki, "Wiki"
+        = f.check_box :wiki
+    .column
+      .checkbox
+        = f.label :anonymous, t("scaffold.post_as_anonymous")
+        = f.check_box :anonymous, {:class => "checkbox"}, true, false
+
+    .buttons
+      = f.submit t('scaffold.create'), :class => "save"
+      = t("global.or")
+      = link_to t('scaffold.cancel'), questions_path

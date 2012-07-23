@@ -1,0 +1,21 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+ru: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} ответил на: %{question}"
+        send_twitter: Мой ответ на %{question}
+      on_favorite_answer: 
+        group_send_twitter: "Пользователю %{user} нравится ответ %{author} на вопрос: %{question}"
+        send_twitter: "Мне нравится ответ %{author} на вопрос: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} только что заработал бэдж %{token} в группе %{group_name} %{link}"
+        send_twitter: Я только что заработал бэдж %{token} в группе %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "Комментарий %{user} на: %{question}"
+        send_twitter: Мой комментарий на %{question}

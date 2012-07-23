@@ -1,0 +1,28 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  mailers: 
+    notifications: 
+      created_flag: 
+        subject: Нова порука означена на %{group}
+      earned_badge: 
+        subject: У групи %{group} сте освојили значку!
+      favorited: 
+        subject: "%{login} је додао ваше питање као омиљено"
+      follow: 
+        subject: "%{login} вас сада прати на %{app}"
+      give_advice: 
+        friend_subject: "Вашем пријатељу треба помоћ: %{question_title}"
+        subject: "Треба нам ваш савет: %{question_title}"
+      new_answer: 
+        subject_friend: Ваш пријатељ %{login} одговори на питање %{title}
+        subject_other: "%{login} одговори на питање %{title}"
+        subject_owner: "%{login} одговори на питање %{title}"
+      new_comment: 
+        subject: "%{login} прокоментариса на %{group}"
+      new_invitation: 
+        subject: "%{user} вас позива да се учланите у %{group}"
+      report: 
+        subject: Извештај групе %{group} од %{app}

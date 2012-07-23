@@ -1,0 +1,61 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+fi: 
+  notifier: 
+    admin_login: 
+      message1: Käyttäjä %{user} on yhdistetty hallinnoijana klo %{time} IP-osoitteesta %{ip}.
+      subject: "Varoitus: pääkäyttäjäyhteys"
+    created_flag: 
+      message1: Vastaanotit tämä viestin, koska olet ryhmän %{group} moderaattori.
+      message2: "Viesti on raportoitu seuraavasta syystä:"
+      message2bis: Voit lukea merkityn viestin täällä.
+      message2bistext: "Voit lukea merkityn viestin napsauttamalla seuraavaa linkkiä:"
+      message3: "Siirry moderaattorisivulle nähdäksesi merkittyjen aiheiden luettelon:"
+      message4: Vieraile moderaattorisivulla nähdäksesi merkittyjen aiheiden luettelon.
+    earned_badge: 
+      message1: Ansaitsit rintanapin %{badge} sovelluksella %{app}
+      message2: "Rintanappikuvaus:"
+      message3: Voit nähdä kaikki rintanappisi käyttäjäsivullasi %{user_page}
+    favorited: 
+      message1: "%{user} tallensi vastauksesi ryhmään %{group} suosikkina"
+      message2: "Kysymys oli:"
+      message3: "Näet sen täältä:"
+    follow: 
+      message1: "%{user} seuraa nyt kysymyksiäsi ja vastauksiasi sovelluksella %{app}"
+      message2: Voit seurata häntä napsauttamalla painiketta "Seuraa" hänen käyttäjäsivullaan %{user_page}
+    give_advice: 
+      message1: "%{user} kysyi juuri kysymyksen, johon saatat kyetä vastaamaan:"
+      message2: "Jos haluta vastata, vastaa tähän viestiin:"
+      message3: "Tai, jos tiedät jonkun, joka kykenee vastaamaan, lähetä hänelle tämä viitelinkki:"
+      message4: Jos emme saa vastausta sinulta pian, kysymme joltain muulta. Voit silti vastata milloin haluat.
+    global: 
+      hi: Hei %{user},
+      hi_no_user: Hei,
+      user_page: käyttäjäsivu
+    new_answer: 
+      message: "%{user} vastasi %{new_answer} kysymykseen %{question}"
+    new_comment: 
+      message: "%{user} kommentoi %{new_comment} kysymyksessä %{link}"
+    new_feedback: 
+      message1: Käyttäjä %{user} <%{email}> lähetti palautetta
+      message2: Anonyymi käyttäjä lähetti palautetta IP-osoitteesta %{ip}
+      message3: "Sähköpostiosoite: %{email}"
+      message4: "Aihe: %{subject}"
+    new_invitation: 
+      message1: Napsauta tästä hyväksyäksesi kutsu %{link}
+      message2: Ryhmän %{group} tiimi.
+      message3: "Viesti kutsujaltasi:"
+      subject: Käyttäjä %{user} on kutsunut sinut ryhmään %{group}
+    report: 
+      message1: Ilmoita ryhmälle %{group}
+      message2: "%{date} lähtien"
+      message3: "%{questions} kysymystä luotiin"
+      message4: "%{answers} vastausta luotiin"
+      message5: "%{votes} ääntä annettiin"
+      message6: "%{badges} rintanappia myönnettiin"
+      message7: Tilillä on %{users} käyttäjää.
+      message8: Vieraile ryhmässäsi kohteessa %{link}

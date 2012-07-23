@@ -1,0 +1,22 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rol
+  members: 
+    create: 
+      error: Lo sentimos, el usuario **%{user_id}** no existe.
+      notice: "%{login} ha sido añadido correctamente como %{role}."
+    form: 
+      destroy_confirm: ¿Está seguro? Este usuario ya no será un miembro de este grupo.
+      login_tip: Busca cuando digitas
+    index: 
+      manage_members_title: Administrar membresías
+      title: Miembros del grupo %{name}
+      title_isolate: Miembros de %{name}
+    update: 
+      error: Lo sentimos, usted no tiene permisos suficientes para cambiar membresía de **%{login}**.

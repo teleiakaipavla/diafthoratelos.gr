@@ -1,0 +1,40 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Затвори прашање
+      index: 
+        all: сите
+        ban: забрани
+        banned: забранети прашања
+        content: содржина
+        flagged: означени прашања
+        item_title: наслов
+        need_tags: преозначи
+        title: модерирање
+      opening: 
+        title: Отвори прашање
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Забрането
+        banned_tooltip: Прикажувај само забранети прашања
+        filters: "Филтри:"
+        title: Модерација на прашања
+        unbanned: Отстранета забрана
+        unbanned_tooltip: Прикажувај само прашања со отстранета забрана
+      index: 
+        title: Модерација на прашања
+      subtabs: 
+        flagged: Означени
+        flagged_tooltip: Прашања означени од корисниците
+        retag: Треба ознаки
+        retag_tooltip: Прашања без ознаки
+        to_close: Затворање на барања
+        to_close_tooltip: Прашања за кои е побарано да се затворат
+        to_open: Барања за преотворање
+        to_open_tooltip: Затворени прашања за кои е побарано повторно да се отворат

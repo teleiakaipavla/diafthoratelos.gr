@@ -1,0 +1,52 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  layouts: 
+    application: 
+      ask_question: Ställ fråga
+      badges: Emblem
+      forgot: Har du glömt?
+      home: Hem
+      languages: Språk
+      log_in: Logga in
+      logged: Inloggad som %{login}
+      logout: Logga ut
+      manage_ads: Hantera annonser
+      moderate: Medel
+      now: nu!
+      openid: 
+        explaination: "Om du vill registrera dig eller logga in, vänligen välj din OpenID leverantör:"
+      pages: Sidor
+      questions: Frågor
+      questions_in: Frågor i
+      questions_tagged: taggad med
+      search: Sök
+      settings: Inställningar
+      signup: Skapa ett användarkonto
+      subscribe: Prenumerera
+      tags: Taggar
+      title: Frågor & Svar
+      unanswered: Obesvarade
+      users: Användare
+      welcome_from: Välkommen! Du kan
+    manage: 
+      actions: Åtgärder
+      announcements: Meddelanden
+      constrains: Krav
+      content: Innehåll
+      dashboard: Instrumentbräda
+      domain: Domän
+      general: Allmänt
+      members: Medlemmar
+      pages: Sidor
+      properties: Egenskaper
+      reputation: Rykte
+      rewards: Belöningar
+      stats: Statistik
+      theme: Tema
+      widgets: Widgets
+    notifications: 
+      message: Om du inte vill ta emot automatiska meddelanden från %{group} längre, ändra dina inställningar i anmälningsskärmen.

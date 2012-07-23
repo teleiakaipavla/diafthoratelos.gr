@@ -1,0 +1,22 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Raspi
+fi: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} vastasi: %{question}"
+        send_twitter: Vastaukseni kysymykseen %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} piti vastaajan %{author} vastauksesta kysymyksessä: %{question}"
+        send_twitter: "Pidin käyttäjän %{author} vastauksesta kysymykseen: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} voitti juuri rintamerkin %{token} kohteessa %{group_name} %{link}"
+        send_twitter: Voitin juuri rintamerkin %{token} kohteessa %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} kommentoi kysymykseen: %{question}"
+        send_twitter: Kommenttini kysymykseen %{question}

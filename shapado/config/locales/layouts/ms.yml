@@ -1,0 +1,76 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  layouts: 
+    application: 
+      all: Semua
+      ask_question: Tanyakan soalan
+      badges: Lencana
+      by_me: Oleh Saya
+      collaborate: Kerjasama
+      contributed: Disumbangkan
+      faq: Soalan Lazim
+      feed: Diikuti
+      follow_us_and_share: Ikuti kami dan berkongsi
+      followed: Diikuti
+      forgot: Lupa?
+      home: Laman utama
+      join_group: Sertai %{group}
+      languages: Bahasa
+      log_in: Log masuk
+      logged: Log masuk sebagai %{login}
+      logout: Log keluar
+      manage_ads: Uruskan iklan
+      moderate: Kawal selia
+      need_to_signin: Anda perlu mendaftar diri terlebih dahulu.
+      not_member_join_dialog: Anda perlu menyertai %{group} untuk melengkapkan tindakan ini; klik di sini untuk berbuat demikian.
+      now: sekarang!
+      openid: 
+        explaination: "Jika anda ingin mendaftar atau sekadar log masuk, sila pilih pembekal OpenID anda:"
+      pages: Laman
+      preferred: Diutamakan
+      questions: Soalan
+      questions_in: Soalan dalam
+      questions_tagged: bertag
+      random_question: Soalan rawak
+      search: Cari
+      settings: Tetapan
+      signup: Daftar diri
+      subscribe: Langgan
+      success_joining_group: Anda kini menganggotai %{group}; terima kasih atas penyertaan anda!
+      tags: Tag
+      title: Soalan & Jawapan
+      unanswered: Tak terjawab
+      users: Pengguna
+      welcome_from: Selamat datang! Anda boleh
+    manage: 
+      access: Akses
+      actions: Tindakan
+      announcements: Pengumuman
+      appearance: Penampilan
+      close_group: Tutup kumpulan
+      constrains: Keperluan
+      content: Kandungan
+      dashboard: Papan Pemuka
+      domain: Domain
+      edit_layout: Sunting susun atur
+      general: Umum
+      group_features: Ciri-ciri
+      group_look_and_feel: Wajah
+      group_user_management: Pengurusan Pengguna
+      invitations: Jemputan
+      invoices: Invois
+      members: Ahli
+      pages: Laman
+      properties: Sifat
+      reputation: Reputasi
+      rewards: Ganjaran
+      social: Sosial
+      stats: Statistik
+      theme: Tema
+      themes: Tema
+      widgets: Widget
+    notifications: 
+      message: Jika anda tidak ingin menerima pemberitahuan automatik dari %{group} lagi, tukar keutamaan anda di skirn pemberitahuan.

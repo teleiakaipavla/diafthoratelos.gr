@@ -1,0 +1,41 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Закрыць пытаньне
+      index: 
+        all: Усе
+        ban: Заблякаваць
+        banned: Забароненыя пытаньні
+        content: Зьмест
+        flagged: Пазначаныя пытаньні
+        item_title: Назва
+        need_tags: Зьмяніць тэг
+        title: Мадэрацыя
+      opening: 
+        title: Адкрыць пытаньне
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Заблякаваныя
+        banned_tooltip: Паказаць толькі заблякаваныя пытаньні
+        filters: "Фільтры:"
+        title: Мадэрацыя пытаньняў
+        unbanned: Незаблякаваныя
+        unbanned_tooltip: Паказаць толькі незаблякаваныя пытаньні
+      index: 
+        title: Мадэрацыя пытаньняў
+      subtabs: 
+        flagged: Пазначаныя
+        flagged_tooltip: Пытаньні пазначаныя ўдзельнікамі
+        retag: Неабходныя тэгі
+        retag_tooltip: Пытаньні без тэгаў
+        to_close: Запыты на закрыцьцё
+        to_close_tooltip: Пытаньні, на якія пададзеныя запыты на закрыцьцё
+        to_open: Запыты на паўторнае адкрыцьцё
+        to_open_tooltip: Закрытыя пытаньні, якія карыстальнікі запыталі адкрыць зноў

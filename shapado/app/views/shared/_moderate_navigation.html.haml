@@ -1,0 +1,10 @@
+%nav
+  %ul.content-tabs
+    %li.questions
+      =link_to t("layouts.application.questions"), moderate_questions_path
+    %li.answers
+      =link_to t('answers.activerecord.models.answers'), moderate_answers_path
+    %li.users
+      =link_to t("layouts.application.users"), moderate_users_path
+
+  = render "subtabs"

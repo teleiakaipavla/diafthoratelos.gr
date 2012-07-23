@@ -1,0 +1,91 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Analuisa
+# Author: Hamilton Abreu
+pt-PT: 
+  admin: 
+    manage: 
+      appearance: 
+        logo_legend: Faça o upload de um logótipo para o seu grupo. Deve ter menos de 2MB.
+        title: Escolha e personalize o seu tema
+      content: 
+        description: Configure o seu grupo com texto e estilo personalizado
+        footer: Rodapé
+        head: Cabeçalho
+        question_help: Ajuda de perguntas
+        question_prompt: Linha da pergunta
+        title: Conteúdo personalizado
+        top_bar: Barra do topo
+        top_bar_tip: Introduza um link por linha
+      invitations: 
+        invitations: Convites enviados
+        invitations_title: Lista de todos os convites que enviou
+        invite: Convide pessoas
+        invite_title: Convide pessoas por e-mail
+        title: Convites
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Fazer perguntas a partir do Twitter
+          question_asked_to: Pergunta feita a
+          question_must_include: A pergunta deve incluir a seguinte tag para ser enviada pelo Twitter
+          question_must_include_example: "por exemplo, #iAsk"
+        constrains: 
+          reputation_constrains_description: Este formulário permite-lhe configurar quantos pontos de reputação os utilizadores necessitam para executar uma determinada acção
+          reputation_constrains_subtitle: Lista de requisitos de reputação para cada acção
+          title: Requisitos
+        domain: 
+          description: "Pode mapear o seu site de forma a ser acessível através do seu domínio próprio. Faça-o assim:"
+          instruction1: Para fazê-lo, antes autentique-se no fornecedor do seu domínio. É o site onde comprou o seu domínio, do tipo %{subdomain}.com.
+          instruction2: Lá, vá à secção de DNS e crie uma coisa chamada um CNAME.
+          instruction3: Escolha 'www' ou outra coisa para o seu CNAME.
+          instruction4: "Depois, no campo do host ou de destino, coloque o seu domínio Shapado actual: %{domain}."
+          instruction5: Cerca de uma hora depois de o fazer, o seu domínio www.%{subdomain} deverá apontar para %{appdomain}.
+          instruction6: Quando for este o caso, volte cá, coloque o nome do seu domínio www.%{subdomain} no campo abaixo e clique 'Actualizar'. Se tem questões, coloque-as em %{chat_url} ou no nosso fórum de suporte.
+          title: Defina o seu domínio
+          warning: Tem a certeza de que quer alterar o seu domínio?
+        facebook_app: 
+          facebook_app: Configurações da Facebook App
+          secret_key: Chave secreta
+        general: 
+          title: Propriedades do grupo
+        invitations: 
+          resend_button: Reenviar
+        invite: 
+          emails_instructions: Digite os e-mails separados por vírgulas
+          invitations: Convites enviados
+          invite: Convide pessoas
+          title: Convide pessoas por e-mail
+        post_to_twitter: 
+          legend: Esta página permite que configure o que é enviado para o Twitter. A conta que está a ser utilizada é <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>, se quiser utilizar uma conta diferente, por favor clique <a href="%{link}">aqui</a>.
+          legend_connect: Esta página permite-lhe que configure o que é enviado para o Twitter. Terá de especificar uma conta de Twitter primeiro, por favor clique <a href="%{link}">aqui</a> para fazê-lo.
+          post_to_twitter: Poste as actividades no Twitter
+          send_answers_to_twitter: Envie todas as respostas para o Twitter
+          send_comments_to_twitter: Envie todos os comentários para o Twitter
+          send_favorites_to_twitter: Envie todas as respostas favoritas para o Twitter
+          send_questions_to_twitter: Envie todas as perguntas para o Twitter
+        rewards: 
+          reputation_rewards_description: Este formulário permite-lhe configurar de que forma os utilizadores podem ganhar e perder pontos de reputação por uma dada acção
+          reputation_rewards_subtitle: Lista de prémios de reputação
+          title: Prémios
+        share: 
+          title: Partilhar
+        tag_your_tweets: 
+          add_tags: Adicione tags aos seus tweets
+          ends_with_example: "por exemplo, #shapado"
+          starts_with_example: "por exemplo, #qa"
+        twitter_account: 
+          legend: Esta conta será utilizada para postar novas perguntas e respostas no Twitter.
+          legend_with_account: A sua conta no Twitter <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> será usada para postar novas perguntas e respostas no Twitter. Poderá configurar o que é enviad para o Twitter <a href="%{link}">aqui</a>.
+          twitter_account: Conta do Twitter
+        twitter_app: 
+          twitter_app: Twitter app
+      social: 
+        facebook_app: Facebook App
+        facebook_app_title: Configure a sua Facebook app que vai ser utilizada para permitir que os seus utilizadores façam o login com a sua conta do Facebook
+        post_to_twitter: Enviar para o Twitter
+        tag_your_tweets_title: Adicione tags aos seus tweets
+        twitter_account: Conta no Twitter
+        twitter_account_title: Configure a sua conta no Twitter que irá ser usada para postar no Twitter
+      top_admin: 
+        title: Administrador

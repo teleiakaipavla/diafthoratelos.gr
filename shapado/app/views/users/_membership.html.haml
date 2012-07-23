@@ -1,0 +1,34 @@
+- user = membership.user
+%li
+  .stats
+    .box.votes
+      -count = user.questions.where(:group_id => current_group.id).count
+      .counter{:class => class_for_number(count) }
+        =format_number(count)
+      .text
+        = t(:questions, :scope => "activerecord.models")
+    .box.answers
+      -count = user.answers.where(:group_id => current_group.id).count
+      .counter{:class => class_for_number(count) }
+        =format_number(count)
+      .text
+        = t(:answers, :scope => "activerecord.models")
+    .box.views
+      .counter{:class => class_for_number(membership.reputation) }
+        =format_number(user.reputation_on(current_group))
+      .text
+        = t(:reputation, :scope => "activerecord.attributes.user")
+
+  / User Summary
+  .summary
+    = avatar_img(user, :size => "small")
+    %h3
+      = link_to h(user.display_name), user_path(user), :class => "pjax", :"data-layout" => "user"
+    =find_and_preserve(auto_link(user.bio))
+    .badges
+      -user.badges_on(current_group, :limit => 3).each do |badge|
+        =render :partial => "badges/badge", :object => badge, :locals => {:mini => true}
+    .owner-data
+      %strong
+        = t(:created_at, :scope => "activerecord.attributes.user")
+        = t("time.ago", :time => time_ago_in_words(membership.joined_at || membership.created_at))

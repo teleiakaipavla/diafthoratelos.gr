@@ -1,0 +1,41 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Raspi
+fi: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Sulje kysymys
+      index: 
+        all: Kaikki
+        ban: Porttikielto
+        banned: Kielletyt kysymykset
+        content: Sisältö
+        flagged: Merkityt kysymykset
+        item_title: Otsikko
+        need_tags: Uudelleenmerkintä
+        title: Valvo
+      opening: 
+        title: Avaa kysymys
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Kielletty
+        banned_tooltip: Näytä vain kielletyt kysymykset
+        filters: "Suodattimet:"
+        title: Hallitse kysymyksiä
+        unbanned: Sallinut
+        unbanned_tooltip: Näytä vain kysymykset, joita ei ole kielletty
+      index: 
+        title: Hallitse kysymyksiä
+      subtabs: 
+        flagged: Merkitty
+        flagged_tooltip: Käyttäjien merkkaamat kysymykset
+        retag: Tarvitsee tunnisteita
+        retag_tooltip: Kysymykset ilman tunnisteita
+        to_close: Sulkemispyynnöt
+        to_close_tooltip: Kysymyksiä, joita käyttäjät ovat pyytäneet suljettaviksi
+        to_open: Avaamispyynnöt
+        to_open_tooltip: Suljettujen kysymysten käyttäjät pyysivät uudelleenavaamista

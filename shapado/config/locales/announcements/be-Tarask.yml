@@ -1,0 +1,22 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Канчаецца на
+        message: Паведамленьне
+        only_anonymous: Толькі для ананімных карыстальнікаў
+        starts_at: Пачынаецца з
+  announcements: 
+    actions: 
+      delete: Выдаліць
+      title: Дзеяньні
+    create: 
+      success: Вашае абвяшчэньня было створанае пасьпяхова.
+    index: 
+      description: Кіраваньне і стварэньне новых абвяшчэньняў, якія будуць паказаныя наведвальнікам Вашага сайту.
+      title: Аб’явы

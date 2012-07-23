@@ -1,0 +1,19 @@
+- unless params[:controller] == 'questions' && params[:action] == 'new'
+  .quick_question.clearfix
+    -quick_question = Question.new
+    =form_for(quick_question, url: new_question_url, html: {method: :get, class: "form", id: "ask_question", data: {'login-required' => true}}) do |f|
+      -# TODO: refactor this
+      -lang = logged_in? ? current_user.main_language : nil
+      -lang = current_group.language ? current_group.language : lang
+      =f.text_field :title, :class => "text_area", :id => "question_title", :autocomplete => 'off', :placeholder => raw(current_group.question_prompt) || t(".quick_question")
+      .buttons-quickq
+        =f.submit t("questions.index.ask_question", :default => :"layouts.application.ask_question"), :class => "ask_question"
+        .search-feedback
+          type to search
+
+      -if lang
+        = f.hidden_field :language, :value => lang
+      -else
+        = language_select(f, quick_question)
+      .clear
+    .clear

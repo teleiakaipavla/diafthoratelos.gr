@@ -1,0 +1,38 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+fi: 
+  activerecord: 
+    models: 
+      vote: Ääni
+      votes: Äänet
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Sinä ja %{votes} muuta käyttäjää on äänestänyt tätä kommenttia.
+        no_user_more_votes: Enemmän kuin %{votes} henkeä on äänestänyt kannattavansa tätä kommenttia. Äänestä napsauttamalla.
+        no_user_no_vote: Äänestä tätä kommenttia napsauttamalla.
+        no_user_one_vote: Vain yksi käyttäjä pitää tästä kommentista. Kannata napsauttamalla.
+        one_vote_two_users: Sinä ja yksi muu käyttäjä on äänestänyt tätä kommenttia.
+        one_vote_user: Vain sinä olet äänestänyt tätä kommenttia.
+    control: 
+      have_voted_down: Peru hylkäämisäänesi napsauttamalla
+      have_voted_up: Peru kannatusäänesi napsauttamalla
+      to_vote_down: Anna hylkäämisääni napsauttamalla
+      to_vote_up: Anna kannatusääni napsauttamalla
+    create: 
+      average: 
+        one: "%{count} ääni"
+        other: "%{count} ääntä"
+      flash_error: Et voi äänestää tässä
+      flash_notice: Kiitos äänestäsi!
+      unauthenticated: Anonyymit käyttäjät eivät voi äänestää
+    destroy: 
+      flash_notice: Äänesi peruutus onnistui.
+    model: 
+      messages: 
+        closed_question: Et voi äänestää missään kirjoituksessa, joka kuuluu suljettuun kysymykseen
+        vote_down_comment: Kommentteja ei voi äänestää kumoon

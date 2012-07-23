@@ -1,0 +1,125 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  admin: 
+    manage: 
+      access: 
+        title: Akses
+      answers: 
+        banning: 
+          title: Larang jawapan
+      appearance: 
+        logo_legend: Muat naik logo kumpulan anda, asalkan tidak melebihi 2MB.
+        title: Pilih dan suaikan tema anda
+      close_group: 
+        description: Kumpulan yang ditutup akan tidak boleh diakses oleh sesiapa melainkan anda.
+        feedback: "Sila beritahu kami sebab anda hendak menutup kumpulan anda:"
+      content: 
+        description: Konfigurasi kumpulan anda dengan teks dan gaya yang tersuai
+        footer: Pembawah
+        head: pengatas
+        question_help: Bantuan pertanyaan
+        question_prompt: Prompt soalan
+        title: Kandungan tempahan
+        top_bar: Bar atas
+        top_bar_tip: Isikan satu pautan segaris
+      invitations: 
+        invitations: Jemputan dihantar
+        invitations_title: Senari semua jemputan yang telah anda hantar
+        invite: Jemput orang
+        invite_title: Jemput orang melalui e-mel
+        title: Jemputan
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Menanyakan soalan dari Twitter
+          question_asked_to: Soalan Ditanyakan Kepada
+          question_must_include: Soalan mestilah menyertakan tag yang berikut untuk ditweetkan
+          question_must_include_example: "cth. #iAsk"
+          twitter_account: Akaun Twitter yang ditujui oleh soalan pengguna anda.
+        constrains: 
+          reputation_constrains_description: Borang ini membolehkan anda menataletak keperluan mata reputasi pengguna untuk melakukan tindakan tertentu
+          reputation_constrains_subtitle: Senarai keperluan reputasi untuk setiap tindakan
+          title: Keperluan
+        domain: 
+          description: "Anda boleh memetakan domain yang berlainan pada tapak Shapado anda supaya ia boleh dicapai melalui domain tersuai anda sendiri. Inilah caranya:"
+          instruction1: Untuk berbuat demikian, mula-mula anda perlu log masuk ke dalam penyedia domain anda, iaitu tempat anda membeli domain anda seperti %{subdomain}.com.
+          instruction2: Di situ, anda perlu pergi ke bahagian DNS dan membuat sesuatu yang dipanggil CNAME.
+          instruction3: Pilih 'www' atau apa sahaja sebagai nama CNAME anda.
+          instruction4: "Kemudian, dalam ruangan hos atau destinasi, nyatakan domain Shapado anda sekarang: %{domain}."
+          instruction5: Sebaik sahaja ini selesai, selepas lebih kurang sejam, domain anda www.%{subdomain} sewajarnya menghala ke %{appdomain}.
+          instruction6: Selepas itu, kembali ke sini dan taipkan nama domain anda, www.%{subdomain} dalam ruangan di bawah, kemudian tekan butang 'kemas kini. Jika anda ada apa-apa soalan, tanya kami di %{chat_url} ataupun forum bantuan kami.
+          title: Konfigurasi domain tersuai anda
+          warning: Adakah anda benar-benar ingin menukar domain anda?
+        facebook_app: 
+          application_id: ID Aplikasi
+          facebook_app: Tetapan aplikasi Facebook
+          legend: Anda boleh mengkonfigurasi Aplikasi Facebook anda. Ini akan digunakan untuk melogmasukkan pengguna anda dengan akaun Facebook mereka. Anda diingatkan bahawa ini diperlukan hanya jika anda menggunakan domain tersuai.
+          secret_key: Kunci Rahsia
+        general: 
+          title: Sifat kumpulan
+        invitations: 
+          resend_button: Hantar semula
+          revoke_button: Tarik balik
+        invite: 
+          body_instructions: Tulis pesanan kepada sesiapa yang anda jemput (pilihan)
+          body_length_warning: Isi tidak boleh melebihi 400 aksara
+          emails_instructions: Isikan e-mel, asingkan dengan tanda koma
+          invitations: Jemputan dihantar
+          invite: Jemput orang
+          title: Jemput orang melalui e-mel
+          user_role: Jemput pengguna sebagai
+        post_to_twitter: 
+          legend: Laman ini membolehkan anda untuk mengawal bahan-bahan yang dihantar ke Twitter. Akaun yang digunakan ialah <a href="http://twitter.com/<span class="notranslate">%{twitter_account}">@%{twitter_account}</a>. Jika anda mahu menggunakan akaun yang lain, sila klik <a href="%{link}">sini</a>.
+          legend_connect: Laman ini membolehkan anda untuk mengawal bahan-bahan yang dihantar ke Twitter. Anda perlu menyatakan akaun Twitter terlebih dahulu. Sila klik <a href="%{link}">sini</a> untuk berbuat demikian.
+          post_to_twitter: Kirim aktiviti ke Twitter
+          send_answers_to_twitter: Hantar semua jawapan ke Twitter
+          send_badges_to_twitter: Hantar semua lencana yang baru diraih ke Twitter
+          send_comments_to_twitter: Hantar semua komen ke Twitter
+          send_favorites_to_twitter: Hantar semua jawapan kegemaran ke Twitter
+          send_questions_to_twitter: Hantar semua soalan ke Twitter
+        rewards: 
+          reputation_rewards_description: Borang ini membolehkan anda menatarajah naik turun mata reputasi pengguna atas tindakan-tindakan tertentu
+          reputation_rewards_subtitle: Senarai ganjaran reputasi
+          title: Ganjaran
+        share: 
+          title: Kongsi
+        tag_your_tweets: 
+          add_tags: Tambahkan tag pada tweet anda
+          ends_with_example: "cth. #shapado"
+          starts_with_example: "cth. #qa"
+          title: Tagkan tweet anda
+          tweet_ends_with: Tambahkan tag di akhir tweet anda
+          tweet_starts_with: Tambahkan tag di awal tweet anda
+        title: Sifat kumpulan
+        twitter_account: 
+          connect_to_other_twitter: Klik di sini untuk menghubungkan akaun Twitter yang berbeza kepada kumpulan anda
+          connect_to_twitter: Klik di sini untuk menghubungkan akaun Twitter kepada kumpulan anda
+          disconnect_twitter_group: Putuskan sambungan kumpulan ini dari Twitter
+          legend: Akaun ini akan digunakan untuk mengepos soalan dan jawapan baru ke Twitter.
+          legend_with_account: Akaun Twitter anda, <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> akan digunakan untuk mengirim soalan dan jawapan baru pada Twitter. Anda boleh mengawal bahan-bahan yang dihantar ke Twitter <a href="%{link}">di sini</a>.
+          twitter_account: Akaun Twitter
+        twitter_app: 
+          key: Kunci aplikasi
+          secret: Rahsia aplikasi
+          twitter_app: Aplikasi Twitter
+      questions: 
+        banning: 
+          title: Larang soalan
+      social: 
+        ask_from_twitter: Tanya dari Twitter
+        ask_from_twitter_title: Benarkan pengguna anda untuk menanyakan soalan dari Twitter
+        description: Sambungkan kumpulan anda kepada rangkaian sosial anda
+        facebook_app: Aplikasi Facebook
+        facebook_app_title: Laraskan aplikasi Facebook anda yang akan digunakan untuk membolehkan pengguna anda log masuk dengan akaun Facebook mereka
+        post_to_twitter: Poskan di Twitter
+        post_to_twitter_title: Kirimkan semua soalan dan jawapan kepada Twitter secara automatik
+        tag_your_tweets: Tagkan tweet anda
+        tag_your_tweets_title: Bubuh tag pada tweet anda
+        title: Interaksi media sosial
+        twitter_account: Akaun Twitter
+        twitter_account_title: Laraskan akaun Twitter anda yang akan digunakan untuk mengirim kepada Twitter
+      top_admin: 
+        site: Tapak
+        title: Pentadbir

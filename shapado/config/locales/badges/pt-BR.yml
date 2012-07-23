@@ -1,0 +1,172 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giro720
+# Author: Pedroca cerebral
+# Author: Vgeorge
+pt-BR: 
+  activerecord: 
+    models: 
+      badge: Medalha
+      badges: Medalhas
+  badges: 
+    index: 
+      description: Todas as medalhas que você pode ganhar. Compartilhe o seu conhecimento, ganhe medalhas.
+      title: medalhas
+    shared: 
+      addict: 
+        description: Visitou o site em 20 dias consecutivos
+        name: Viciado
+      altruist: 
+        description: Primeira recompensa que você concedeu manualmente na pergunta de outra pessoa
+        name: Altruísta
+      autobiographer: 
+        description: Preencheu todos os campos do perfil de usuário
+        name: Autobiógrafo
+      benefactor: 
+        description: Primeira recompensa que você concedeu manualmente em sua própria pergunta
+        name: Benfeitor
+      celebrity: 
+        description: Obteve mais de 100 seguidores
+        name: Celebridade
+      citizen_patrol: 
+        description: Primeira post reportado
+        name: Patrulha civil
+      civic_duty: 
+        description: Votou 300 vezes
+        name: Dever cívico
+      cleanup: 
+        description: Fez a primeira reversão
+        name: Limpeza
+      commentator: 
+        description: Fez 10 comentários
+        name: Comentador
+      critic: 
+        description: Votou negativamente pela primeira vez
+        name: Crítico
+      disciplined: 
+        description: Eliminou publicação própria com pontuação de 3 ou superior
+        name: Disciplinado
+      editor: 
+        description: Primeira mensagem editada
+        name: Editor
+      effort_medal: 
+        description: Obteve 100 votos positivos
+        name: Medalha de esforço
+      enlightened: 
+        description: Tem uma resposta que foi aceita com pelo menos 10 votos positivos
+        name: Iluminado
+      famous_question: 
+        description: Fez uma pergunta com 10000 visualizações
+        name: Pergunta famosa
+      fanatic: 
+        description: Visitou o site em 100 dias consecutivos
+        name: Fanático
+      favorite_answer: 
+        description: Tem uma resposta eleita favorita por 25 usuários
+        name: Resposta favorita
+      favorite_question: 
+        description: Fez uma pergunta seguida por 25 usuários
+        name: Pergunta favorita
+      friendly: 
+        description: Seguir alguém pela primeira vez
+        name: Amistoso
+      good_answer: 
+        description: Deu uma resposta que atingiu uma média de mais de 25 votos
+        name: Boa resposta
+      good_question: 
+        description: Fez uma pergunta que atingiu uma média de mais de 25 votos
+        name: Boa pergunta
+      great_answer: 
+        description: Tem uma resposta com 100 votos positivos
+        name: Ótima resposta
+      great_question: 
+        description: Pergunta com 100 votos positivos
+        name: Ótima pergunta
+      guru: 
+        description: Deu uma solução a uma pergunta com uma média de mais de 40 votos
+        name: Guru
+      inquirer: 
+        description: Fez sua primeira pergunta
+        name: Questionador
+      interesting_person: 
+        description: Obteve mais de 10 seguidores
+        name: Pessoa interessante
+      investor: 
+        description: Primeira recompensa oferecida na questão de outra pessoa
+        name: Investidor
+      merit_medal: 
+        description: Obter 200 votos positivos
+        name: Medalha de mérito
+      necromancer: 
+        description: Respondeu a uma pergunta mais de 60 dias depois, com pelo menos 5 votos
+        name: Necromante
+      nice_answer: 
+        description: Tem uma resposta com 10 votos positivos
+        name: Boa resposta
+      nice_question: 
+        description: Fez uma pergunta votada positivamente 10 vezes
+        name: Boa pergunta
+      notable_question: 
+        description: Fez uma pergunta com 2500 visualizações
+        name: Pergunta notável
+      organizer: 
+        description: Fez a primeira alteração de tag
+        name: Organizador
+      peer_pressure: 
+        description: Eliminou publicação própria com pontuação de -3 ou inferior
+        name: Pressão dos pares
+      pioneer: 
+        description: Ser um dos primeiros usuários a registar-se
+        name: Pioneiro
+      popstar: 
+        description: Tem 500 votos positivos, máximo de 10 votos negativos
+        name: Popstar
+      popular_person: 
+        description: Conseguiu mais de 50 seguidores
+        name: Pessoa popular
+      popular_question: 
+        description: Fez uma pergunta com 1.000 visualizações
+        name: Pergunta popular
+      promoter: 
+        description: Primeira recompensa oferecida em sua própria pergunta
+        name: Promotor
+      rockstar: 
+        description: Tem 1000 votos positivos, máximo de 10 votos negativos
+        name: Rockstar
+      scholar: 
+        description: Respondeu à primeira pergunta própria com uma resposta aceita
+        name: Erudito
+      self-learner: 
+        description: Respondeu à sua própria pergunta, com pelo menos 3 votos positivos
+        name: Autodidata
+      service_medal: 
+        description: Tem 300 votos positivos
+        name: Medalha de serviço
+      shapado: 
+        description: Visitou o site em 8 dias consecutivos
+      stellar_answer: 
+        description: Tem uma resposta eleita favorita por 100 usuários
+        name: Resposta estelar
+      stellar_question: 
+        description: Fez uma pergunta seguida por 100 usuários
+        name: Pergunta extraordinária
+      student: 
+        description: Fez a primeira pergunta com pelo menos um voto positivo
+        name: Estudante
+      supporter: 
+        description: Votado positivamente pela primeira vez
+        name: Apoiador
+      troubleshooter: 
+        description: Deu a sua primeira resposta
+        name: Solucionador de problemas
+      tutor: 
+        description: Deu uma solução a uma pergunta com uma média de mais de 2 votos
+        name: Tutor
+    show: 
+      description: "Usuários que receberam esta medalha. Recentemente dada a:"
+      earned: recebida
+      for_tag_bronze: 200 votos na tag %{tag}
+      for_tag_gold: 1000 votos na tag %{tag}
+      for_tag_silver: 400 votos na tag %{tag}
+      title: Medalha %{type}

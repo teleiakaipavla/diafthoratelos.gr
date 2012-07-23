@@ -1,0 +1,135 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: "активирано:"
+        activation_code: Потврдни код
+        age: Узраст
+        asked_by: "поставио:"
+        avatar: Слика на профилу
+        birthday: Рођендан
+        created_at: се придружи
+        current_password: Текућа лозинка
+        email: Е-адреса
+        fullname: Име и презиме
+        hide_country: Не приказуј из које сам земље
+        language: Језик
+        language_filter: Филтрирај по језику
+        last_logged_at: виђен
+        login: Корисничко име
+        name: Право име
+        password: Лозинка
+        password_confirmation: Потврда лозинке
+        preferred_languages: "Желите да читате питања на следећем језику:"
+        preferred_tags: Жељене ознаке
+        reputation: Углед
+        timezone: Временска зона
+        updated_at: "ажурирано:"
+        website: Сајт
+    models: 
+      user: Корисник
+      users: Корисници
+  users: 
+    actions: 
+      edit_others_posts: уређујете туђе поруке
+      edit_wiki_post: уређујете поруке на викију
+      flag: означавате
+      retag_others_questions: преозначавате туђа питања
+      vote_down: гласате „против“
+      vote_to_close_any_question: захтевате затварања било ког питања
+      vote_to_close_own_question: захтевате затварање сопствених питања
+      vote_up: гласате „за“
+    anonymous_form: 
+      never_shown: никад се не приказује
+    change_password: 
+      submit: Промени лозинку
+      title: Промена лозинке
+    check_custom_domain: 
+      reset_domain_button: Не ради. Користи домен %{domain}
+      title: Да ли ради ваш нови прилагођени домен?
+      working_domain_link: Да. Испод могу да видим како нови домен ради.
+    create: 
+      flash_error: Нажалост, не могу да отворим налог. Покушајте поново или се обратите администратору (веза је изнад).
+      flash_notice: Хвала вам на упису!
+    edit: 
+      enable_twitter: Омогућите налоге на Фејсбуку или Твитеру
+      submit: Сачувај
+      title: Поставке
+    follow: 
+      flash_error: Не можете пратити себе.
+      flash_notice: Сада пратите корисника %{user}.
+    form: 
+      activities_notification: Примај е-обавештења о системским активностима као што су освојене значке, нови пратиоци итд.
+      avatar_tip: Промените слику на профилу помоћу Граватара
+      check_domain: Провери %{domain}
+      check_domain_title: Проверите прилагођене домене ваше групе
+      desktop_notification: Обавештења на радној површини
+      give_advice_notification: Примај е-обавештења о питањима из моје стручне области
+      information: Подаци
+      language: Језик мрежног места
+      new_answer_notification: Примај е-обавештења о новим одговорима
+      notifications: Обавештења
+      reports_notification: Примај извештај о најновијим активностима групе (само за администраторе групе)
+      send_answers_to_twitter: Пошаљи моје одговоре на Твитер
+      send_badges_to_twitter: Пошаљи моје новоосвојене значке на Твитер
+      send_comments_to_twitter: Пошаљи моје коментаре на Твитер
+      send_favorites_to_twitter: Пошаљи моје омиљене одговоре на Твитер
+      send_questions_to_twitter: Пошаљи моја питања на Твитер
+      show_more_lang: Прикажи више језика
+      social_interaction: Општење преко друштвених медија
+    index: 
+      empty: Ова група нема чланова. Учествујте тако што ћете се придружити групи.
+      filter: Претражи кориснике
+      name: Име
+      name_tooltip: Корисници поређани по азбучном реду
+      near: У вашој близини
+      near_tooltip: Корисници у вашој близини
+      newest: Најновији
+      newest_tooltip: Тек уписани корисници
+      oldest: Најстарији
+      oldest_tooltip: Први регистровани корисници
+      reputation: Углед
+      reputation_tooltip: Корисници поређани по највишем угледу
+      title: Сви корисници
+    messages: 
+      errors: 
+        reputation_needed: Потребан вам је углед од %{min_reputation} да %{action}
+    new: 
+      description: Постаните део заједнице — питајте, одговарајте и учите!
+      join_group: Учлани се у %{group}
+      submit: Отвори налог
+      title: Отварање налога
+    show: 
+      edit_profile: Уреди профил
+      follow: Прати
+      followers: Пратиоци
+      following: Прати
+      title: Корисник %{user}
+      unfollow: Престани с праћењем
+      views: прегледа
+    show_json: 
+      edit_it: Кликните овде да попуните биографију на вашем профилу.
+      no_description: Корисник још није попунио своју биографију.
+    top_user: 
+      connect: Повежи ме
+      my_karma: "Моја карма: %{karma}"
+      profile: Профил
+    unfollow: 
+      flash_notice: Више не пратите корисника %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Сада пратите ознаку %{tag}.
+      unfollowed: 
+        flash_notice: Више не пратите ознаку %{tag}.
+    user_bar: 
+      create_account: Отворите налог
+      not_logged_in: Нисте пријављени
+      signed_as: Пријављен као
+    user_mini: 
+      admin: "[Администратор]"
+      editor: "[Уредник]"
+      mod: "[Модератор]"

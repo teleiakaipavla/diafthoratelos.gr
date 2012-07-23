@@ -1,0 +1,5 @@
+.badge_item
+  = pjax_link_to badge.name, "badges", badge_path(badge), {:class => "badge #{badge.type}", :title => badge.description}
+  -if !local_assigns[:hide_user] && !local_assigns[:mini]
+    %span.user
+      = pjax_link_to truncate(badge.user.display_name, :length => 20), "user", user_path(badge.user), {:title => badge.user.display_name}

@@ -1,0 +1,123 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+# Author: Tomi Toivio
+fi: 
+  widgets: 
+    about: 
+      description: Tämä käyttöliittymäkomponentti näyttää ryhmäsi lyhyen kuvauksen.
+      title: Ohjelmasta
+    adsense: 
+      description: Tämä käyttöliittymäkomponentti mahdollistaa Google AdSense -mainoksien näyttämisen.
+      title: AdSense
+    ask_question: 
+      ask: Kysy
+      description: Tämä käyttöliittymäkomponentti mahdollistaa käyttäjien kysyä kysymyksiä kaikkialta.
+      footer: Katso kaikki kysymykset ryhmästä %{group}
+      title: "Kysy kysymys:"
+      view_question: <p>Voit katsoa sitä <a href="%{question}">täältä</a> tai kysyä toisen alla.</p>
+    badges: 
+      description: Tämä käyttöliittymäkomponentti näyttää käyttäjien äskettäiset ansaitut rintamerkit.
+      see_all: Näytä kaikki rintamerkit
+      title: Viimeaikaiset rintanapit
+    contributors: 
+      description: Tämä käyttöliittymäkomponentti näyttää niiden ihmisten luettelon, jotka avustivat kysymyksellä.
+      title: Kysymyksen avustajat
+    create: 
+      notice: Vimpaimen luominen onnistui.
+    current_tags: 
+      description: Tämä käyttöliittymäkomponentti näyttää nykyisen käyttäjän seuraamat tunnisteet.
+    custom_html: 
+      description: Lisää mitä tahansa HTML:ää tänne.
+    edit: 
+      title: Muokkaa Widgetiä
+    group_networks: 
+      description: Tämä käyttöliittymäkomponentti näyttää sosiaalisen verkon linkkiluettelon niin, että käyttäjäsi voivat seurata sinua sinne.
+      title: Seuraa meitä
+    groups: 
+      description: Tämä ikkunaolio näyttää äskettäiset ryhmät
+      title: Äskettäiset ryhmät
+    index: 
+      add_new: Lisää uusi widget
+      description: Käytä nuolinäppäimiä ikkunaolioitesi siirtämiseen
+      external_widgets: Ulkoinen
+      external_widgets_title: Käyttöliittymäkomponentit, jotka voit upottaa omalle sivustollesi
+      footer: Alatunniste
+      header: Ylätunniste
+      mainlist_widgets: Päälista
+      mainlist_widgets_title: Käyttöliittymäkomponentit, jotka näkyvät kysymysten pääluettelossa
+      name: Widgetin nimi
+      navbar: Navigointipalkki
+      question_widgets: Kysymys
+      question_widgets_title: Käyttöliittymäkomponentit, jotka näkyvät kaikilla kysymyssivuilla
+      sidebar: Sivupalkki
+      title: Hallinnoi sivupalkki-ikkunaolioita
+      type: "Tyyppi:"
+      welcome_widgets: Tervetuloa
+      zone: "Sivun lohko:"
+    mod_info: 
+      description: Tämä käyttöliittymäkomponentti näyttää moderaattoreille olennaisia tietoja kuten merkintöjä ja pyyntöilmoituksia.
+    pages: 
+      description: Tämä ikkunaolio näyttää wiki-sivujen luettelon
+      new: Lisää uusi sivu
+      title: Wiki-sivut
+    question_badges: 
+      description: Tämä käyttöliittymäkomponentti näyttää tuosta kysymyksestä ansaitut rintamerkit.
+      title: Kysymysrintamerkit
+    question_stats: 
+      description: Tämä käyttöliittymäkomponentti näyttää sellaiset kysymystilastot, kuten luomispäivämäärän ja katsomislukumäärät.
+    question_tags: 
+      description: Tämä käyttöliittymäkomponentti näyttää nykyiseen sivuun liittyviä tunnisteita.
+      title: Kysymyksen tunnisteet
+    related_questions: 
+      description: Tämä käyttöliittymäkomponentti näyttää nykyiseen kysymykseen liittyvien kysymysten luettelon.
+      title: Aiheeseen liittyvät kysymykset
+    settings: 
+      code: "Kopioi ja liitä tämä koodi sivustoosi tai blogiin, kuten text widgetiin Wordpressissä:"
+      custom_external_css: "Sisällytä oma CSS käyttöliittymäkomponenttiisi (suositeltavaa, jos et sisällytä Shapado CSS -määrittelyä):"
+      custom_html: "Mukautettu HTML:"
+      exclude_css_on_external: Jätä shapado-sivustosi CSS pois käyttöliittymäkomponentista
+      limit: "Määrä:"
+      on_questions: Näytä kysymysten pääluettelosivulla
+      on_show_question: Näytä kysymysten näyttämisessä
+      on_welcome: Näytä Tervetuloa-sivulla
+      preview: "Widgetin esikatselu:"
+    share: 
+      description: Tämä käyttöliittymäkomponentti näyttää eri painikkeita nykyisen sivun jakamiseksi sosiaalisissa verkoissa.
+      title: jaa
+    sharing_buttons: 
+      description: Tämä käyttöliittymäkomponentti näyttää sosiaalisen median jakopainikkeet.
+      title: Jaa tämä
+    suggestions: 
+      description: Käyttäjän seurattavat ystäväsuositukset ja tunnisteet.
+      follow_tag: + Seuraa tunnistetta
+      follow_user: + Seuraa käyttäjää
+      followed_by: Seuraaja %{user}
+      title: Seurattavat ihmiset ja tunnisteet
+      unfollow_tag: Lopeta tagin seuraaminen
+      unfollow_user: Lopeta käyttäjän seuraaminen
+    tag_cloud: 
+      description: Tämä ikkunaolio näyttää painotetun luettelon
+      title: Painotettu luettelo
+    tag_list: 
+      description: Tämä käyttöliittymäkomponentti näyttää nykyiseen sivuun liittyvät tunnisteet.
+      title: Tunnisteet
+    top_groups: 
+      description: Tämä ikkunaolio näyttää viisi huippuryhmää
+      has_members: 
+        one: "%{count} jäsen"
+        other: "%{count} jäsentä"
+      title: Viisi huippuryhmää
+    top_users: 
+      description: Tämä ikkunaolio näyttää viisi huippukäyttäjää
+      title: Viisi huippukäyttäjää
+    update: 
+      notice: Vimpaimen päivittäminen onnistui.
+    users: 
+      description: Tämä ikkunaolio näyttää äskettäin rekisteröityneet jäsenet
+      title: Äskettäiset käyttäjät
+    widget: 
+      change_position: "Vaihda käyttöliittymäkomponentin sijainti:"

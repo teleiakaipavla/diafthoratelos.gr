@@ -1,0 +1,183 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Deneb
+# Author: Giallu
+it: 
+  activerecord: 
+    models: 
+      badge: Badge
+      badges: Badge
+  badges: 
+    index: 
+      all_tooltip: Visualizza tutti i distintivi oro, argento e bronzo.
+      bronze: Bronzo
+      bronze_tooltip: Distintivi di bronzo sono facili da vincere e incoraggiano gli utenti a partecipare.
+      description: Più contribuisci facendo o rispondendo a domande, più distintivi guadagnerai. Questi saranno visibili sulla tua pagina di profilo.
+      general: Distintivi normali
+      general_tooltip: Visualizza tutti i distintivi predefiniti.
+      gold: Oro
+      gold_tooltip: I distintivi oro sono la massima ricompensa, ma sono anche i più difficili da ottenere. Solo gli utenti più dedicati ottengono queste ricompense.
+      silver: Argento
+      silver_tooltip: I distintivi d'argento sono assegnati a utenti attivi che sono stati coinvolti per un tempo abbastanza lungo.
+      tags: Distintivi per i tag
+      tags_tooltip: Quando domande taggate con X ottengono risposte con più di 100 voti, un distintivo X viene creato con il nome di quel tag.
+      title: badge
+    shared: 
+      addict: 
+        description: Ha visitato il sito ogni giorno per 20 giorni consecutivi
+        name: Maniaco
+      altruist: 
+        description: Il primo compenso che hai assegnato manualmente ad una domanda di un'altra persona
+        name: Altruista
+      autobiographer: 
+        description: Completati tutti i campi del profilo utente
+        name: Autobiografo
+      benefactor: 
+        description: Il primo compenso che hai assegnato manualmente per una tua domanda
+        name: Benefattore
+      celebrity: 
+        description: Ha raggiunto più di 100 seguaci
+        name: Celebrità
+      citizen_patrol: 
+        description: Primo post segnalato
+        name: Pattuglia cittadina
+      civic_duty: 
+        description: Votato 300 volte
+        name: Dovere civico
+      cleanup: 
+        description: Ha fatto il primo rollback
+        name: Pulizia
+      commentator: 
+        description: Lasciati 10 commenti
+        name: Commentatore
+      critic: 
+        description: Votato negativamente per la prima volta
+        name: Critico
+      disciplined: 
+        description: Cancellato post proprio con punteggio di 3 o superiore
+        name: Disciplinato
+      editor: 
+        description: Primo messaggio modificato
+        name: Correttore
+      effort_medal: 
+        description: Ha ottenuto 100 voti positivi
+        name: Medaglia all'impegno
+      enlightened: 
+        description: Ha una risposta che è stata accettata con almeno 10 voti positivi
+        name: Illuminato
+      famous_question: 
+        description: Ha posto una domanda con 10000 visualizzazioni
+        name: Domanda famosa
+      fanatic: 
+        description: Ha visitato il sito ogni giorno per 100 giorni consecutivi
+        name: Fanatico
+      favorite_answer: 
+        description: Ha una risposta preferita da 25 utenti
+        name: Risposta preferita
+      favorite_question: 
+        description: Ha fatto una domanda seguita da 25 utenti
+        name: Domanda preferita
+      friendly: 
+        description: Segui qualcuno per la prima volta
+        name: Amichevole
+      good_answer: 
+        description: Ha dato una risposta che ha raggiunto una media di più di 25 voti
+        name: Buona risposta
+      good_question: 
+        description: Ha fatto una domanda che ha raggiunto una media di più di 25 voti
+        name: Buona domanda
+      great_answer: 
+        description: Ha una risposta con 100 voti positivi
+        name: Ottima risposta
+      great_question: 
+        description: Domanda votata positivamente 100 volte
+        name: Grande domanda
+      guru: 
+        description: Ha dato una soluzione ad una domanda con una media di più di 40 voti
+        name: Guru
+      inquirer: 
+        description: Ha fatto una domanda per la prima volta
+        name: Indagatore
+      interesting_person: 
+        description: Ha raggiunto più di 10 seguaci
+        name: Persona interessante
+      investor: 
+        description: Il primo riconoscimento che hai assegnato ad una domanda di un'altra persona
+        name: Investitore
+      merit_medal: 
+        description: Ha ottenuto 200 voti positivi
+        name: Medaglia al merito
+      necromancer: 
+        description: Risposto ad una domanda più di 60 giorni dopo con almeno 5 voti
+        name: Necromante
+      nice_answer: 
+        description: Ha una risposta con 10 voti positivi
+        name: Bella risposta
+      nice_question: 
+        description: Ha fatto una domanda con 10 voti positivi
+        name: Bella domanda
+      notable_question: 
+        description: Ha posto una domanda con 2500 visualizzazioni
+        name: Domanda nota
+      organizer: 
+        description: Ha fatto il primo re-tag
+        name: Organizzatore
+      peer_pressure: 
+        description: Cancellato post proprio con punteggio di -3 o inferiore
+        name: Sotto pressione
+      pioneer: 
+        description: Essere uno dei primi utenti registrati
+        name: Pioniere
+      popstar: 
+        description: Ha 500 voti positivi, al massimo 10 voti negativi
+        name: Popstar
+      popular_person: 
+        description: Hai più di 50 seguaci
+        name: Persona popolare
+      popular_question: 
+        description: Ha posto una domanda con 1000 visualizzazioni
+        name: Domanda popolare
+      promoter: 
+        description: Il primo compenso che hai offerto per una tua domanda
+        name: Promotore
+      rockstar: 
+        description: Ha 1.000 voti positivi, al massimo 10 voti negativi
+        name: Rockstar
+      scholar: 
+        description: Ha risposto alla prima domanda fatta a se stesso con una risposta accettata
+        name: Studioso
+      self-learner: 
+        description: Ha risposto a una domanda propria con almeno 3 voti positivi
+        name: Autodidatta
+      service_medal: 
+        description: Ha 300 voti a favore
+        name: Medaglia al servizio
+      shapado: 
+        description: Ha visitato il sito ogni giorno per 8 giorni consecutivi
+      stellar_answer: 
+        description: Ha una risposta preferita da 100 utenti
+        name: Risposta stellare
+      stellar_question: 
+        description: Ha fatto una domanda seguita da 100 utenti
+        name: Domanda stellare
+      student: 
+        description: Prima domanda fatta con almeno un voto positivo
+        name: Allievo
+      supporter: 
+        description: Votato positivamente per la prima volta
+        name: Sostenitore
+      troubleshooter: 
+        description: Risposto per la prima volta
+        name: Risolutore
+      tutor: 
+        description: Ha dato una soluzione a un problema con una media di oltre 2 voti
+        name: Tutor
+    show: 
+      description: "Utenti che hanno meritato questo badge. Premiato recentemente:"
+      earned: guadagnato
+      for_tag_bronze: 200 voti in tag %{tag}
+      for_tag_gold: 1000 voti in tag %{tag}
+      for_tag_silver: 400 voti in tag %{tag}
+      title: Badge %{type}

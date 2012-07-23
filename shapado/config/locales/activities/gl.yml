@@ -1,0 +1,19 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    models: 
+      activities: Actividades
+      activity: Actividade
+  activity: 
+    asked: preguntou
+    changed: modificou
+    created: creou
+    deleted: borrou
+    destroyed: borrou
+    flagged: marcou
+    requested_to_close: solicitou o peche
+    requested_to_open: solicitou a apertura
+    updated: actualizou

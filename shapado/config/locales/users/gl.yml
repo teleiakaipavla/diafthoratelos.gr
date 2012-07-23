@@ -1,0 +1,135 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: activado o
+        activation_code: Código de activación
+        age: Idade
+        asked_by: preguntado por
+        avatar: Imaxe de perfil
+        birthday: Aniversario
+        created_at: rexistrado o
+        current_password: Contrasinal actual
+        email: Correo electrónico
+        fullname: Nome completo
+        hide_country: Non mostrar o meu país
+        language: Lingua
+        language_filter: Filtrar por lingua
+        last_logged_at: visto o
+        login: Nome de usuario
+        name: Nome real
+        password: Contrasinal
+        password_confirmation: Confirmación do contrasinal
+        preferred_languages: "As linguas nas que quere ler as preguntas:"
+        preferred_tags: Etiquetas preferidas
+        reputation: Reputación
+        timezone: Zona horaria
+        updated_at: actualizado o
+        website: Páxina web
+    models: 
+      user: Usuario
+      users: Usuarios
+  users: 
+    actions: 
+      edit_others_posts: Editar a entrada doutro
+      edit_wiki_post: Editar entradas do wiki
+      flag: Marcar
+      retag_others_questions: Modificar as etiquetas das preguntas doutros
+      vote_down: Votar negativamente
+      vote_to_close_any_question: Pedir o peche de calquera pregunta
+      vote_to_close_own_question: Pedir o peche dunha pregunta propia
+      vote_up: Votar positivamente
+    anonymous_form: 
+      never_shown: nunca mostrado
+    change_password: 
+      submit: Cambiar o contrasinal
+      title: Cambiar o contrasinal
+    check_custom_domain: 
+      reset_domain_button: Non, restablecer o dominio personalizado a %{domain}
+      title: Funciona correctamente o seu novo dominio personalizado?
+      working_domain_link: Si, podo ver que o meu novo dominio funciona.
+    create: 
+      flash_error: Por desgraza, non podemos crear a conta. Inténteo de novo ou póñase en contacto cun administrador (a ligazón está enriba).
+      flash_notice: Grazas por se rexistrar!
+    edit: 
+      enable_twitter: Activar as súas contas no Facebook ou no Twitter
+      submit: Gardar
+      title: Configuracións
+    follow: 
+      flash_error: Non pode seguirse a si mesmo.
+      flash_notice: Agora xa está seguindo a %{user}.
+    form: 
+      activities_notification: Recibir notificacións por correo electrónico sobre as actividades do sistema, como ganancia de insignias, novos seguidores etc.
+      avatar_tip: Cambiar a imaxe do seu perfil usando o gravatar
+      check_domain: Comprobar %{domain}
+      check_domain_title: Comprobe os dominios personalizados dos seus grupos
+      desktop_notification: Notificacións no escritorio
+      give_advice_notification: Recibir notificacións por correo electrónico sobre as preguntas ligadas co seu campo de experiencia
+      information: Información
+      language: Lingua empregada na interface do sitio
+      new_answer_notification: Recibir notificacións por correo electrónico sobre novas respostas
+      notifications: Notificacións
+      reports_notification: Recibir un informe coas últimas actividades do grupo (soamente para o administrador do grupo)
+      send_answers_to_twitter: Enviar as miñas respostas ao meu Twitter
+      send_badges_to_twitter: Enviar as miñas novas insignias ao meu Twitter
+      send_comments_to_twitter: Enviar os meus comentarios ao meu Twitter
+      send_favorites_to_twitter: Enviar as miñas respostas favoritas ao meu Twitter
+      send_questions_to_twitter: Enviar as miñas preguntas ao meu Twitter
+      show_more_lang: Mostrar máis linguas
+      social_interaction: Interacción coas redes sociais
+    index: 
+      empty: Este grupo aínda non conta con ningún membro. Únase a el.
+      filter: Procurar usuarios
+      name: Nome
+      name_tooltip: Usuarios ordenados alfabeticamente
+      near: Preto de vostede
+      near_tooltip: Usuarios que están preto de vostede
+      newest: Os máis novos
+      newest_tooltip: Os usuarios que acaban de unirse
+      oldest: Os máis antigos
+      oldest_tooltip: Os primeiros usuarios en unirse
+      reputation: Reputación
+      reputation_tooltip: Usuarios ordenados por maior reputación
+      title: Todos os usuarios
+    messages: 
+      errors: 
+        reputation_needed: Necesita unha reputación de %{min_reputation} para poder %{action}
+    new: 
+      description: Sexa parte desta comunidade para preguntar, responder e aprender!
+      join_group: Unirse a %{group}
+      submit: Rexístrese
+      title: Rexístrese como novo usuario
+    show: 
+      edit_profile: Editar o perfil
+      follow: Vixiar
+      followers: Seguidores
+      following: Seguindo
+      title: Usuario %{user}
+      unfollow: Deixar de vixiar
+      views: visitas
+    show_json: 
+      edit_it: Prema aquí para encher a súa biografía no seu perfil.
+      no_description: Este usuario aínda non encheu a súa biografía.
+    top_user: 
+      connect: Conectar
+      my_karma: "O meu karma: %{karma}"
+      profile: Perfil
+    unfollow: 
+      flash_notice: Xa non está seguindo a %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Agora xa está seguindo a etiqueta %{tag}.
+      unfollowed: 
+        flash_notice: Xa non está seguindo a etiqueta %{tag}.
+    user_bar: 
+      create_account: Crear unha conta
+      not_logged_in: Non accedeu ao sistema
+      signed_as: Rexistrado como
+    user_mini: 
+      admin: "[ Administrador ]"
+      editor: "[ Editor ]"
+      mod: "[ Moderador ]"

@@ -1,0 +1,14 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Od1n
+# Author: Patcito
+fr: 
+  activerecord: 
+    models: 
+      favorite: Favorite
+      favorites: Favorites
+  unfavorites: 
+    create: 
+      success: La question a été retirée de vos favoris
+      unauthenticated: Vous devez créer un compte pour supprimer des favoris

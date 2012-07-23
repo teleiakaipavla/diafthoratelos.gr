@@ -1,0 +1,22 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  wiki: 
+    actions: 
+      all_history: 回到历史
+      back_to_question: 回到问题
+      revert: 恢复到此版本
+      show_diff: 选定的版本进行比较
+    diff: 
+      title: "%{prev} 和 %{curr} 的不同"
+    history: 
+      current_version: 当前版本
+      previous_versions: 以前的版本
+      title: 历史（%{count}）
+      version: 版本
+      version_summary: 版本摘要
+    model: 
+      attributes: 
+        message: 摘要

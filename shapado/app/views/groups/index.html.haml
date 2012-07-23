@@ -1,0 +1,19 @@
+.groups_container
+  %h1
+    = t('.title')
+  %p.description
+    - link = link_to t(".create_your_own"), new_group_path, :class => "request_group"
+    =raw t('.description', :link => link)
+
+  = form_tag groups_path, :id => "filter_groups", :method => "get" do
+    .field
+      = label_tag :q, t(".filter")
+      = text_field_tag "q", params[:q]
+      = submit_tag("filterr")
+
+  %ul.items#groups
+    = render :partial => "group", :collection => @groups
+
+  #additional_info.clearfix
+    = paginate @groups
+

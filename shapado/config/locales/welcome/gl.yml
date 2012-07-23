@@ -1,0 +1,27 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  welcome: 
+    confirm_age: 
+      notice: Só pode entrar nesta páxina se ten, polo menos, 18 anos de idade, ou, en calquera caso, a idade da maioría legal na xurisdición onde resida ou desde a cal está a acceder a esta páxina.
+      over_18: Teño máis de 18
+      under_18: Teño menos de 18
+      warning: "ATENCIÓN: Esta páxina pode conter material explícito para adultos."
+    feedback: 
+      captcha_error: Asegúrese de encher o CAPTCHA correctamente e dar un enderezo de correo electrónico válido.
+      captcha_notice: Grazas polo seus comentarios; porémonos en contacto con vostede en canto poidamos.
+      email_description: Escriba o seu enderezo de correo electrónico para que poidamos dar resposta á súa mensaxe
+      feedback_description: Descrición
+      feedback_title: Título
+      title: Dea a súa opinión
+    index: 
+      active: Activas
+      browse_all_or_by_tags: Ollar a %{full_list_of_questions} ou %{browse_by_tags}
+      browse_by_tags: navegar por etiquetas
+      create_own_site: Cree o seu propio sitio de preguntas e respostas de xeito gratuíto en 8 segundos
+      full_list_of_questions: lista completa de preguntas
+      hot: Populares
+      quick_question: Faga unha pregunta, nós atoparemos a alguén que a responda
+      recent_questions: Preguntas recentes

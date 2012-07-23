@@ -1,0 +1,73 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+ca: 
+  layouts: 
+    application: 
+      all: Tots els
+      ask_question: Feu una pregunta
+      badges: Distintius
+      by_me: Per mi
+      collaborate: Col. laborar
+      contributed: Va contribuir
+      faq: PREGUNTES MÉS FREQÜENTS
+      follow_us_and_share: Segueix-nos i comparteix
+      followed: Seguit
+      forgot: Ho heu oblidat?
+      home: Inici
+      join_group: Uneix-te a %{group}
+      languages: Idiomes
+      log_in: Inici de sessió
+      logged: Heu entrat com a %{login}
+      logout: Finalitza la sessió
+      manage_ads: Gestioneu els anuncis
+      moderate: Modereu
+      now: ara!
+      openid: 
+        explaination: "Si voleu registrar-vos o només iniciar la sessiò, trieu el vostre proveïdor d'OpenID:"
+      pages: Pàgines
+      preferred: Preferit
+      questions: Preguntes
+      questions_in: Preguntes a
+      questions_tagged: etiquetat com
+      random_question: Pregunta aleatòria
+      search: Cerca
+      settings: Configuració
+      signup: Registreu-vos
+      subscribe: Subscriviu-vos
+      tags: Etiquetes
+      title: Preguntes i respostes
+      unanswered: Sense respondre
+      users: Usuaris
+      welcome_from: Benvinguts! Podeu
+    manage: 
+      access: Accés
+      actions: Accions
+      announcements: Avisos
+      appearance: Aparença
+      close_group: Grup a prop
+      constrains: Requeriments
+      content: Contingut
+      dashboard: Tauler d'instruments
+      domain: Domini
+      edit_layout: Editar format
+      general: General
+      group_features: Característiques
+      group_look_and_feel: Cop d'ull & se senten
+      group_user_management: Direcció d'usuari
+      invitations: Invitacions
+      invoices: Factures
+      members: Membres
+      pages: Pàgines
+      properties: Propietats
+      reputation: Reputació
+      rewards: Recompenses
+      social: Social
+      stats: Estadístiques
+      theme: Tema
+      themes: Temes
+      widgets: Ginys
+    notifications: 
+      message: Si no voleu rebre més les notificacions automàtiques de %{group}, canvieu les vostres preferències a la pantalla de notificacions.

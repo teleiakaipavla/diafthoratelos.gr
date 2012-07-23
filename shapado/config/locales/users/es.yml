@@ -1,0 +1,142 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Armando-Martin
+# Author: Crazymadlover
+# Author: Danke7
+# Author: Fitoschido
+# Author: Mor
+# Author: Ovruni
+# Author: Patcito
+# Author: Vivaelcelta
+es: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: activado en
+        activation_code: Código de activación
+        age: Edad
+        asked_by: preguntado por
+        avatar: Imagen del perfil
+        birthday: Fecha de Cumpleaños
+        created_at: registrado
+        current_password: Contraseña actual
+        email: Correo electrónico
+        fullname: Nombre completo
+        hide_country: No mostrar mi pais
+        language: Idioma
+        language_filter: Filtro por idioma
+        last_logged_at: visto
+        login: Nombre de usuario
+        name: Nombre real
+        password: Contraseña
+        password_confirmation: Confirmación de contraseña
+        preferred_languages: "Quieres leer las preguntas en los siguientes idiomas:"
+        preferred_tags: Etiquetas preferidas
+        reputation: Reputación
+        timezone: Zona horaria
+        updated_at: actualizado en
+        website: Sitio web
+    models: 
+      user: Usuario
+      users: Usuarios
+  users: 
+    actions: 
+      edit_others_posts: Editar preguntas o respuestas de otros usuarios
+      edit_wiki_post: Editar wikis
+      flag: Reportar como abuso
+      retag_others_questions: Cambiar las etiquetas de las preguntas de otros usuarios
+      vote_down: Votar negativo
+      vote_to_close_any_question: " Solicitar el cierre de cualquiera pregunta"
+      vote_to_close_own_question: Pedir cerrar su propia pregunta
+      vote_up: Votar positivo
+    anonymous_form: 
+      never_shown: Nunca mostrado
+    change_password: 
+      submit: Cambiar mi contraseña
+      title: Cambiar contraseña
+    check_custom_domain: 
+      reset_domain_button: No, por favor restablezca el dominio personalizado en %{domain}
+      title: ¿Está funcionando su nuevo dominio personalizado?
+      working_domain_link: Sí, puedo ver de que mi nuevo dominio está funcionando debajo.
+    create: 
+      flash_error: No hemos podido crear tu cuenta, lo sentimos. Por favor intentalo otra vez, o contacta a un administrador (el enlace esta arriba).
+      flash_notice: ¡Gracias por registrarse!
+    edit: 
+      enable_twitter: Habilita tus cuentas twitter y facebook
+      submit: Guardar
+      title: Configuración
+    follow: 
+      flash_error: No se puede seguir a sí mismo.
+      flash_notice: Ya esta siguiendo a %{user}.
+    form: 
+      activities_notification: Recibir notificaciones via correo electronico sobre actividades del sistema tales como insignias ganadas, nuevos seguidores, etc.
+      avatar_tip: Cambia tu imagen del perfil usando gravatar
+      check_domain: Compruebe %{domain}
+      check_domain_title: Compruebe los dominios personalizados de su grupo
+      desktop_notification: Notificaciones de escritorio
+      give_advice_notification: Obtener notificaciones via correo electrónico sobre preguntas en su campo de experiencia.
+      information: Información
+      language: Idioma usado para la interfaz de la pagina
+      new_answer_notification: Obtener notificaciones de nuevas respuestas por correo electrónico
+      notifications: Notificaciones
+      reports_notification: Recibir un reporte con las ultimas actividades del grupo (solo para administradores de grupo)
+      send_answers_to_twitter: Publicar mis respuestas en Twitter
+      send_badges_to_twitter: Publicar todas mis insignias recién ganadas en Twitter
+      send_comments_to_twitter: Enviar mis comentarios a Twitter
+      send_favorites_to_twitter: Publicar mis respuestas favoritas en Twitter
+      send_questions_to_twitter: Publicar mis preguntas en Twitter
+      show_more_lang: Mostrar más idiomas
+      social_interaction: Interacción por los medios sociales
+    index: 
+      empty: Este grupo no tiene miembros, participe para unirse a este grupo.
+      filter: Busca usuarios
+      name: Por nombre de usuario
+      name_tooltip: Usuarios ordenados alfabéticamente
+      near: Cerca de ti
+      near_tooltip: Usuarios que están cerca de usted
+      newest: Recientes
+      newest_tooltip: Usuarios que se acaban de unir
+      oldest: Antiguos
+      oldest_tooltip: Usuarios que se unieron primero
+      reputation: Reputación
+      reputation_tooltip: Usuarios ordenados por reputación
+      title: Todos los usuarios
+    messages: 
+      errors: 
+        reputation_needed: Necesitas una reputación de %{min_reputation} para %{action}
+    new: 
+      description: Sea parte de esta comunidad para preguntar, responder y aprender!
+      join_group: Únase a %{group}
+      submit: Registrarse
+      title: Registrar un nuevo usuario
+    show: 
+      edit_profile: Editar perfil
+      follow: Seguir
+      followers: Seguidores
+      following: Siguiendo
+      title: Usuario %{user}
+      unfollow: Dejar de seguir
+      views: vistas
+    show_json: 
+      edit_it: Haga clic aquí para completar su biografía en su perfil.
+      no_description: Este usuario no ha completado aún su biografía.
+    top_user: 
+      connect: Conectar
+      my_karma: "Mi karma: %{karma}"
+      profile: Perfil
+    unfollow: 
+      flash_notice: Ya no estás siguiendo a %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Ahora estás siguiendo la etiqueta %{tag}.
+      unfollowed: 
+        flash_notice: Ya no estás siguiendo la etiqueta %{tag}.
+    user_bar: 
+      create_account: Crear una cuenta
+      not_logged_in: No ha iniciado sesión
+      signed_as: Conectase como
+    user_mini: 
+      admin: "[ Administrador ]"
+      editor: "[ Editor ]"
+      mod: "[ Moderador ]"

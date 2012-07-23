@@ -1,0 +1,30 @@
+
+-content_for :header do
+  %h1
+    = t('pages.index.wiki_pages')
+
+-if logged_in? && current_user.can_edit_wiki_post_on?(current_group)
+  .toolbar
+    %ul.menubar
+      %li.action
+        = link_to t(".create_page"), new_page_path, :class => "add-page pjax", :"data-layout" => "pages"
+.page-list
+  -@pages.each do |page|
+    %article.page
+      %h2
+        = pjax_link_to h(page.title), "pages", page_path(page)
+      %p
+        &= truncate(strip_tags(page.body), :length => 200)
+      -if page.language
+        %small
+          =t(".written_in", :language => t("languages.#{page.language}"))
+      -if logged_in? && current_user.can_edit_wiki_post_on?(current_group)
+        .toolbar
+          %ul.menubar
+            %li.action
+              = pjax_link_to t("scaffold.edit"), "pages", edit_page_path(page)
+            -if current_user.mod_of?(current_group)
+              %li.action
+                =link_to t("scaffold.destroy"), page_path(page.id), :class => "important", :method => :delete, :confirm => t("scaffold.sure", :model => t("activerecord.models.page"))
+
+  = paginate @pages

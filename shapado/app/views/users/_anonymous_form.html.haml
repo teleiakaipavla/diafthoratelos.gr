@@ -1,0 +1,16 @@
+-if !is_bot? && current_group.enable_anonymous
+  .field
+    = label_tag "user[name]", t(:name, :scope => "activerecord.attributes.user"), :class => "label"
+    = text_field_tag "user[name]", params[:user] ? params[:user][:name] : t("global.anonymous"), :class => "text_field"
+  .field
+    = label_tag "user[email]", t(:email, :scope => "activerecord.attributes.user"), :class => "label"
+    = text_field_tag "user[email]", params[:user] ? params[:user][:website] : "", :class => "text_field"
+    %small
+      = t(".never_shown")
+  .field
+    = label_tag "user[website]", t(:website, :scope => "activerecord.attributes.user"), :class => "label"
+    = text_field_tag "user[website]", params[:user] ? params[:user][:website] : "", :class => "text_field"
+
+  .field.capcha
+    -if AppConfig.recaptcha["activate"]
+      =recaptcha_tag(:challenge, :width => 600, :rows => 5, :display => {:lang => I18n.locale}).html_safe

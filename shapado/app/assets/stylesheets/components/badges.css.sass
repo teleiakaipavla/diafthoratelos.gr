@@ -1,0 +1,84 @@
+@import "setup"
+
+.badges-controller
+  &.index
+    .content
+      padding: 0 30px 30px 30px
+  &.show
+    #badges_show
+      padding-top: 50px
+
+      .description
+        text-align: center
+        padding-bottom: 20px
+        margin-bottom: 20px
+        p
+          font-size: 15px
+          border: none
+          margin: 0
+          padding: 0
+
+      .badge_item
+        margin: 0 0 15px 0
+        height: 64px
+        a
+          padding: 10px 64px
+          font-size: 32px
+          +huge-radius
+          +menu-shadow
+        .badge
+          background-image: image-url("ribbons-big.png")
+          &.silver
+            background-position: 0px 0px
+          &.gold
+            background-position: 0px -64px
+          &.bronze
+            background-position: 0px -128px
+
+      .counter
+        text-align: center
+        p
+          font-size: 14px
+          font-style: italic
+
+      .users
+        padding: 0 50px 50px 50px
+        ul
+          li
+            padding: 20px 0
+
+            .stats
+              width: 20%
+              float: left
+              margin: 0 10px 0 0
+
+              .box
+                height: 20px
+
+                .counter
+                  margin: 0
+                  padding: 0
+                  width: 20%
+                  font-size: 12px
+                  border: 0px
+
+                .text
+                  margin: 0
+                  padding: 0
+                  float: left
+                  font-size: 12px
+                  width: 70%
+
+            .summary
+              float: left
+              width: 70% !important
+              img
+                float: left
+                margin: 0 10px 0 0
+              h3
+                margin-bottom: 5px
+                a
+                  font-size: 26px
+              .owner-data strong
+                font-size: 12px
+                font-style: italic

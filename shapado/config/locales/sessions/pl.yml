@@ -1,0 +1,19 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  sessions: 
+    create: 
+      flash_notice: Zalogowano pomyślnie
+    destroy: 
+      flash_notice: Zostałeś wylogowany.
+    new: 
+      log_in: Login
+      not_registered: Nie masz konta?
+      registered: Już zarejestrowany?
+      remember_me: Pamiętaj mnie
+      with_authentication: Zaloguj się poprzez nasz system uwierzytelniania
+      with_facebook: Zaloguj się z Facebooka
+      with_openid: Zaloguj używając OpenID
+      with_twitter: Zaloguj się poprzez Twitter

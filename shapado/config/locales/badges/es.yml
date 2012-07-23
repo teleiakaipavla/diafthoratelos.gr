@@ -1,0 +1,185 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Armando-Martin
+# Author: Crazymadlover
+# Author: Mor
+# Author: Patcito
+# Author: Vivaelcelta
+es: 
+  activerecord: 
+    models: 
+      badge: insignia
+      badges: insignias
+  badges: 
+    index: 
+      all_tooltip: Mostrar todas las insignias de oro, plata y bronce.
+      bronze: Bronce
+      bronze_tooltip: Las insignias de bronce son fáciles de ganar y animan a los usuarios a participar.
+      description: Cuantas más contribuciones realices, preguntando o respondiendo a preguntas, serás recompensado con más insignias. Estas aparecerán en tu página de perfil.
+      general: Insignias regulares
+      general_tooltip: Mostrar todas las insignias predefinidas.
+      gold: Oro
+      gold_tooltip: Las insignias de oro son el mayor tipo de recompensa, también son las más difíciles de obtener. Sólo los usuarios más dedicados obtienen estas recompensas.
+      silver: Plata
+      silver_tooltip: Las insignias de plata son ganadas por usuarios activos que han participado durante bastante tiempo.
+      tags: Insignias de etiqueta
+      tags_tooltip: Cuando las preguntas etiquetadas con X obtienen respuestas de más de 100 votos positivos (upvotes), se crea una insignia X con el nombre de esa etiqueta.
+      title: Insignias
+    shared: 
+      addict: 
+        description: Visita el sitio 20 días consecutivos
+        name: Adicto
+      altruist: 
+        description: Primera recompensa que has concedido manualmente en la pregunta de otra persona
+        name: Altruista
+      autobiographer: 
+        description: completed all user profile fields
+        name: Autobiógrafo
+      benefactor: 
+        description: Primera recompensa que has concedido manualmente en tu propia pregunta
+        name: Benefactor
+      celebrity: 
+        description: Tiene más de 100 seguidores
+        name: Celebridad
+      citizen_patrol: 
+        description: Primer post reportado
+        name: Patrulla civil
+      civic_duty: 
+        description: Vota 300 veces
+        name: Deber cívico
+      cleanup: 
+        description: Hizo la primera reversión
+        name: Limpieza
+      commentator: 
+        description: Deja 10 comentarios
+        name: Comentador
+      critic: 
+        description: Votar negativamente por primera vez
+        name: Crítico
+      disciplined: 
+        description: Borrado post propio con puntuación de 3 o superior
+        name: Disciplinado
+      editor: 
+        description: Primer mensaje editado
+        name: Editor
+      effort_medal: 
+        description: Recibir 100 votos positivos
+        name: Insignia del esfuerzo
+      enlightened: 
+        description: Tiene una respuesta aceptada con al menos 10 votos positivos
+        name: Iluminado
+      famous_question: 
+        description: Hace una pregunta con 10000 visitas
+        name: Pregunta famosa
+      fanatic: 
+        description: Visita el sitio 100 días consecutivos
+        name: Fanático
+      favorite_answer: 
+        description: Tiene una respuesta elegida favorita por 25 usuarios
+        name: Respuesta favorita
+      favorite_question: 
+        description: Hecha una pregunta seguida por 25 usuarios
+        name: Pregunta favorita
+      friendly: 
+        description: Sigue a alguien por primera vez
+        name: Amistoso
+      good_answer: 
+        description: Tiene una respuesta que alcanzo un promedio de más de 25 votos
+        name: Buena respuesta
+      good_question: 
+        description: Ha hecho una pregunta que alcanzó un promedio de más de 25 votos
+        name: Buena pregunta
+      great_answer: 
+        description: Tiene una respuesta con mas de 100 votos positivos
+        name: great answer
+      great_question: 
+        description: Pregunta votada 100 veces
+        name: Gran pregunta
+      guru: 
+        description: dar solución a una pregunta con promedio de votos superior a 40
+        name: Guru
+      inquirer: 
+        description: Preguntar por primera vez
+        name: Investigador
+      interesting_person: 
+        description: Tiene más de 10 seguidores
+        name: Persona interesante
+      investor: 
+        description: " Primera recompensa que has ofrecido en la pregunta de otra persona"
+        name: Inversor
+      merit_medal: 
+        description: Recibir 200 votos positivos
+        name: Insignia del merito
+      necromancer: 
+        description: Contesta una pregunta mas de 60 dias despues con al menos 5 votos positivos
+        name: Nigromante
+      nice_answer: 
+        description: Tiene una respuesta con 10 votos positivos
+        name: Respuesta bonita
+      nice_question: 
+        description: Tiene una pregunta con 10 votos positivos
+        name: Pregunta bonita
+      notable_question: 
+        description: Hace una pregunta con 2500 visitas
+        name: Pregunta memorable
+      organizer: 
+        description: Ha modificado etiquetas por la primera vez
+        name: Organizador
+      peer_pressure: 
+        description: borra su propio post con puntaje menor igual a -3
+        name: peer pressure
+      pioneer: 
+        description: Ser de los primeros usuarios registrados
+        name: Pionero
+      popstar: 
+        description: Tiene 500 votos positivos, con un máximo de 10 votos negativos
+        name: Popstar
+      popular_person: 
+        description: Tiene más de 50 seguidores
+        name: Persona popular
+      popular_question: 
+        description: hace una pregunta con 1000 visitas
+        name: Pregunta popular
+      promoter: 
+        description: Primera recompensa que has ofrecido en tu propia pregunta
+        name: Promotor
+      rockstar: 
+        description: Tiene 1.000 votos positivos, máximo 10 votos negativos
+        name: Rockstar
+      scholar: 
+        description: Ha aceptado su repuesta a su propia pregunta por la primera vez
+        name: Erudito
+      self-learner: 
+        description: Contestó una pregunta propia con al menos 3 votos positivos
+        name: Autodidacta
+      service_medal: 
+        description: Tiene 300 votos positivos
+        name: Insignia de servicio
+      shapado: 
+        description: Visita el sitio 8 días consecutivos
+      stellar_answer: 
+        description: Tiene una respuesta que ha sido agregada como favorita por 100 usuarios
+        name: Respuesta estelar
+      stellar_question: 
+        description: Hecha una pregunta seguida por 100 usuarios
+        name: Pregunta extraordinaria
+      student: 
+        description: Primera pregunta con al menos un voto positivo
+        name: Estudiante
+      supporter: 
+        description: votar positivamente por primera vez
+        name: Aficionado
+      troubleshooter: 
+        description: Responder por primera vez
+        name: Solucionador de problemas
+      tutor: 
+        description: Dar solución a una pregunta con promedio de votos superior a 2
+        name: Tutor
+    show: 
+      description: "Usuarios que ganaron esta insignia. Recientemente otorgada a:"
+      earned: Otorgada
+      for_tag_bronze: 200 votos en la etiqueta %{tag}
+      for_tag_gold: 1000 votos en la etiqueta %{tag}
+      for_tag_silver: 400 votos en la etiqueta %{tag}
+      title: Insignia %{type}

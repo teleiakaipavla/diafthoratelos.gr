@@ -1,0 +1,20 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Raspi
+# Author: Tomi Toivio
+fi: 
+  activerecord: 
+    models: 
+      activities: Aktiviteetit
+      activity: Toiminta
+  activity: 
+    asked: kysyi
+    changed: muuttunut
+    created: luotu
+    deleted: poistettu
+    destroyed: poistettu
+    flagged: merkitty
+    requested_to_close: pyydetään sulkemaan
+    requested_to_open: pyydetty avaamaan
+    updated: päivitetty

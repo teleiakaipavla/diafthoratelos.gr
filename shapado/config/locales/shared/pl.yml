@@ -1,0 +1,44 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  shared: 
+    any_lang: Dowolny język
+    by_anon: Przez anonimowego
+    current_tags: 
+      title: Wybrane tagi
+    description: Opis
+    empty: 
+      answers: 
+        description: 
+          text: Bądź pierwszy!
+        title: Nikt nie odpowiedział jeszcze na to pytanie.
+      questions: 
+        description: 
+          action_link: zadaj pytanie
+      themes: 
+        description: 
+          action_link: teraz
+    login_drop_down: 
+      with_facebook: z Facebooka
+      with_google: z Google
+      with_identica: z Identi.ca
+      with_linked_in: z LinkedIn
+      with_openid: OpenID
+      with_twitter: z Twittera
+    manage_navigation: 
+      title_content: Zawartość grupy
+    name: Nazwa
+    preferred_lang: Preferowany język
+    quick_question: 
+      random_question: Odpowiedz na losowe pytanie
+    social_connect: 
+      find_friends_facebook: Znajdź przyjaciół na Facebooku
+      find_friends_identica: Znajdź przyjaciół na Identi.ca
+      find_friends_linked_in: Znajdź przyjaciół na LinkedIn
+      find_friends_twitter: Znajdź znajomych na Twitterze
+    topbar: 
+      admin: Administrator
+      logged_as: Zalogowany jako %{login}
+      user_page: Moja strona

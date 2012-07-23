@@ -1,0 +1,24 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+fi: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rooli
+  members: 
+    create: 
+      error: Olemme pahoillamme, käyttäjää **%{user_id}** ei ole olemassa.
+      notice: "%{login} lisätty onnistuneesti rooliin %{role}."
+    form: 
+      destroy_confirm: Oletko varma? Tämän jälkeen tämä käyttäjä ei ole enää tämän ryhmä jäsen.
+      login_tip: Etsi kirjoittamisen aikana
+    index: 
+      manage_members_title: Hallinnoi jäseniä
+      title: Jäsenet / ryhmä %{name}
+      title_isolate: Jäsenet / %{name}
+    update: 
+      error: Pahoittelemme, et voi muuttaa käyttäjän **%{login}** jäsenyyttä

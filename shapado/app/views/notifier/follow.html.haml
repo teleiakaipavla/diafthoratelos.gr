@@ -1,0 +1,7 @@
+-link = url_for(:host => @group.domain, :controller => "users", :action => "show", :id => @follower.to_param)
+= t("notifier.global.hi", :user => @user.login)
+%br
+%br
+
+= t("notifier.follow.message1", :user => @follower.login, :app => @group.name)
+=raw t("notifier.follow.message2", :user_page => link_to(t("notifier.global.user_page"), link))

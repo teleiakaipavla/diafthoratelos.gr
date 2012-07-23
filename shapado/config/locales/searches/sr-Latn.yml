@@ -1,0 +1,19 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  searches: 
+    form: 
+      clear: Očisti
+      search_box_title: Proverite da li je pitanje već postavljeno
+      tags_tip: Koristite [tag] da odredite oznake.
+    index: 
+      advanced_search: napredna pretraga
+      description: Koristite postavke na %{link} da dobijete svedene rezultate.
+      empty: Pretraga nije pronašla rezultate.
+      found_results: Pronađeno je %{quantity} rezultata.
+      input_legend: Ova sačuvana pretraga će stajati na traci za navigaciju radi bržeg pristupa.
+      input_title: "Sačuvaj pretragu kao:"
+      search_text: Pitanja koja sadrže
+      tags: unutar ovih oznaka

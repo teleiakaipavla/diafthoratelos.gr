@@ -1,0 +1,7 @@
+=link_to t("global.current"), diff_question_path(post, :curr => number, :prev => "current")
+-if (number-1) >= 0
+  |
+  =link_to t("global.previous"), diff_question_path(post, :curr => number, :prev => number-1 )
+-if logged_in? && ((post.wiki && current_user.can_edit_wiki_post_on?(post.group)) || current_user.can_edit_others_posts_on?(post.group) || current_user.can_modify?(post))
+  |
+  =link_to t("wiki.actions.revert"), revert_question_path(post, :version => number), :class => "revert"

@@ -1,0 +1,10 @@
+# Messages for Latvian (latviešu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Xil
+lv: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Jāapstiprina
+        title: Nosūtīt apstiprināšanas e-pastus

@@ -1,0 +1,56 @@
+# Messages for Simplified Chinese (‪中文(简体)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Junmin
+zh-CN: 
+  admin: 
+    manage: 
+      content: 
+        footer: 页脚
+        head: 标题
+        question_help: 问题帮助
+        question_prompt: 问题提示
+        title: 自定义内容
+        top_bar: 顶栏
+        top_bar_tip: 输入每行一个链接
+      properties: 
+        constrains: 
+          reputation_constrains_description: 你可以在以下表格配置用户执行某动作所需要的威望分数
+          reputation_constrains_subtitle: 操作所需的威望分数列表
+          title: 需求
+        domain: 
+          description: 因此，它可以通过自己的自定义域名访问，您可以将映射您的网站。这是你怎么做：
+          instruction1: 这样做首先需要登录到您的域提供商。这是你在哪里买您的域如 %{subdomain}.com 站点。
+          instruction2: 那里您需要转到 DNS 部分创建称为一个 CNAME 的东西。
+          instruction3: 选择 ‘www’ 或任何其他为您 CNAME 名。
+          instruction4: 然后主机或目标领域把当前的 Shapado 域： %{domain}。
+          instruction5: 此操作后一小时左右完成您的域 www.%{subdomain} 后应指向 %{appdomain}。
+          instruction6: 当这是回到这里，把您的域的名称 www.%{subdomain} 在下面的字段并按更新按钮。有的问题要求我们在 %{chat_url} 或对我们的支持论坛。
+          title: 设置您的域
+          warning: 确实要更改您的域吗？
+        general: 
+          title: 组属性
+        rewards: 
+          reputation_rewards_description: 此窗体可以配置用户可以如何赢得和失去信誉点为给定的行动
+          reputation_rewards_subtitle: 列表中的声誉奖励
+          title: 奖励
+        share: 
+          add_tags: 为你的 tweets 添加标记
+          application_id: 应用程序 ID
+          asking_from_twitter: 从 Twitter 问的问题
+          ends_with_example: 例如：#shapado
+          facebook_app: Facebook 应用设置
+          question_asked_to: 问到的问题
+          question_must_include: 问题一定要包含以下标记才能通过tweet发布。
+          question_must_include_example: 例如：#iAsk
+          secret_key: 密匙
+          starts_with_example: 比如：#qa
+          title: 共享
+          title_on_dlvr: 在Dlvr.it 上共享
+          tweet_ends_with: 将一个标签附加到你的推
+          tweet_starts_with: 开头要你的推的标记
+          twitter_account: Twitter 帐户您的用户会问到的问题。
+        theme: 
+          logo_legend: 为你的组上传一个标志。图片的大小必须小于2mb.
+          title: 设置组的主题

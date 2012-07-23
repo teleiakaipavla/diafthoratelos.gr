@@ -1,0 +1,7 @@
+= stylesheet_link_tag('application')
+
+= yield :css
+-current_theme = current_group.current_theme || Theme.where(:is_default => true).first
+%link{:href => css_group_path(current_group, params[:test_theme] || current_theme.id, current_theme.version),  :rel => "stylesheet", :media => "screen", :type => "text/css"}
+
+<!--[if lt IE 8]><link type="text/css" rel="stylesheet" media="screen" href="/stylesheets/ie7.css"><![endif]-->

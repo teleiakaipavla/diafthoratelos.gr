@@ -1,0 +1,32 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: 原因
+    models: 
+      flag: 标志
+      flags: 标志
+  flags: 
+    create: 
+      flash_error: 您不能标记这
+      flash_notice: 感谢你的报告
+    destroy: 
+      flash_notice: 你的旗帜已成功地被吊销。
+    edit: 
+      title: 编辑 %{model} 的标志
+    form: 
+      attention: 需要主持人注意
+      label: 请小心的标志
+      offensive: 滥用的进攻或仇恨言论
+      spam: 垃圾邮件
+    model: 
+      messages: 
+        already_requested: 您已标记的笔记这 %{model}
+    new: 
+      title: 标志 %{model}
+    update: 
+      flash_notice: 问题标记已成功更新。

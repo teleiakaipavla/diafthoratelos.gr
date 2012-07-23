@@ -1,0 +1,86 @@
+= javascript_include_tag "modules/editor"
+- qpath = question_path(@question, :format => :mobile)
+
+- if params[:actions]
+  %div{:data => {:role => "page"}}
+    %div{:"data-role"=>"header", :"data-theme"=>"d", :"data-position"=>"inline"}
+      %h1
+        = t('global.actions')
+
+    %div{:"data-role" => "content", :"data-theme" => "c"}
+      %p
+        = t('global.what_to_do')
+      = link_to t('global.view'), qpath, :"data-role" => "button", :"data-theme" => "e"
+      -if logged_in?
+        -if current_user.can_modify?(@question)
+          = link_to t('scaffold.edit'), edit_question_path(@question, :format => :mobile), :"data-role" => "button", :"data-theme" => "c"
+
+        = link_to t('users.action.vote_up'), question_votes_path(@question, :vote_up => true, :source => qpath), :method => :post, :"data-role" => "button", :"data-theme" => "c"
+        = link_to t('users.actions.vote_down'), question_votes_path(@question, :vote_down => true, :source => qpath), :method => :post, :"data-role" => "button", :"data-theme" => "c"
+        - if @question.follower?(current_user)
+          = link_to t('global.unfollow'), unfollow_question_path(@question, :format => :mobile), :"data-role" => "button", :"data-theme" => "c"
+        -else
+          = link_to t('global.follow'), follow_question_path(@question, :format => :mobile), :"data-role" => "button", :"data-theme" => "c"
+      = link_to t('questions.index.title'), questions_path(:format => :mobile), :"data-role" => "button", :"data-theme" => "b"
+-else
+  - question_body = find_and_preserve(shapado_auto_link(markdown(@question.body.present? ? @question.body : @question.title)))
+  %div{:data => {:role => "page"}}
+    %div{:"data-role" => "header"}
+      %h1
+        = @question.title[0,20]+"..."
+
+      = render "shared/mobile/header_actions"
+
+      %div{:"data-role" => "navbar"}
+        %div{:"data-role" => "controlgroup", :"data-type" => "horizontal"}
+          %span{:"data-inline" => true, :style => "margin-left: 15px"}
+            sort answers by
+          %a{:href => question_path(@question, :format => :mobile, :sort => "newest"), :"data-role" => "button", :"data-transition"=>"slideup"}
+            Newest
+          %a{:href => question_path(@question, :format => :mobile, :sort => "oldest"), :"data-role" => "button", :"data-transition"=>"slideup"}
+            Oldest
+          %a{:href => question_path(@question,:format => :mobile, :sort => "votes"), :"data-role" => "button", :"data-transition"=>"slideup"}
+            Votes
+    %div{:"data-role" => "content"}
+      %h1
+        = @question.title
+
+      %div{:"data-role" => "content"}
+        .markdown
+          = question_body
+
+      %div{:"data-role" => "collapsible", :"data-theme" => "e"}
+        %h3
+          Answers
+          %span{:class=>"ui-li-count"}
+            = @answers.total_count
+
+        - if @question.accepted
+          - solution = @question.answer
+          = render :partial => 'questions/answer', :locals => {:answer => solution, :question => @question}
+
+        - @answers.each do |answer|
+          = render :partial => 'questions/answer', :locals => {:answer => answer, :question => @question}
+
+      - if !@question.closed
+        = form_for @answer, :url => question_answers_path(@question.id, :format => :mobile), :html => {:class => "add_answer"} do |f|
+          %h3
+            Answer the question
+          %div{:"data-role"=>"fieldcontain"}
+            = render "answers/editor.html.haml", {:f => f, :markdown => true}
+
+          %div{:"data-role"=>"fieldcontain"}
+            %fieldset{:"data-role"=>"controlgroup", :"data-type"=>"horizontal"}
+              = f.label :wiki, "Wiki"
+              = f.check_box :wiki, :class => "checkbox"
+
+              = f.label :anonymous, t("scaffold.post_as_anonymous"), :class => "radio"
+              = f.check_box :anonymous, {:class => "checkbox"}, true, false
+
+          %div{:"data-role"=>"fieldcontain", :"data-inline" => "true"}
+            %fieldset{:"data-role"=>"controlgroup", :"data-type"=>"horizontal"}
+              = link_to t('scaffold.cancel'), '', :class => 'cancel', :"data-role" => "button", :"data-theme" => "b"
+              = submit_tag t('answers.form.submit'), :class => "save"
+
+    %div{:"data-role" => "footer"}
+      = paginate(@answers)

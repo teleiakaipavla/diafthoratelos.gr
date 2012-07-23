@@ -1,0 +1,22 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  errors: 
+    forbidden: 
+      explanation: Nemate potrebna prava da pristupite ovoj stranici.
+      title: Pristup je odbijen
+    go_to: Idi na stranicu %{link}
+    help_us_answer: Pomozite nam da odgovorimo na %{link}
+    internal_error: 
+      explanation: Obavešteni smo o ovom problemu i ubrzo ćemo ga pogledati.
+      title: Nažalost, došlo je do greške.
+    not_found: 
+      explanation: Možda ste pogrešno napisali adresu ili je stranica premeštena.
+      title: Stranica nije pronađena.
+    options_label: "Nešto drugo da probate:"
+    search: Pretraga
+    unprocessable_entity: 
+      explanation: Možda ste pokušali da promenite nešto čemu nemate pristup.
+      title: Promena koju ste želeli je odbijena.

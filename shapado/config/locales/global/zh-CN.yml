@@ -1,0 +1,56 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Hzy980512
+zh-CN: 
+  feeds: 
+    feed: 饲料
+    post_new_questions: 发布新问题
+    question: 订阅此问题
+    questions: 订阅的所有问题
+    share_on_twitter: Twitter、 Facebook 和更多 …
+    tag: 订阅标记
+    user: 订阅的用户问题
+  global: 
+    active: 激活
+    anonymous: 匿名
+    by: 由
+    current: 现时
+    from: 从 %{site}
+    group_not_found: 页面 %{url} 不存在
+    or: 或
+    permission_denied: 权限被拒绝
+    please_login: 请登录
+    preview: 预览
+    previous: 前
+    share: 共享
+    size: 大小
+    view: 查看
+    view_question: 查看问题
+  models: 
+    question: 问题
+  roles: 
+    moderator: 版主
+  scaffold: 
+    add: 添加
+    are_you_sure: 你确定？
+    back: 返回
+    cancel: 取消
+    close: 关闭
+    create: 创建
+    destroy: 删除
+    details: 详细信息
+    edit: 编辑
+    more: 更多...
+    new: 添加新 %{model}
+    post_as_anonymous: 匿名发帖
+    save: 保存
+    send: 发送
+    show: 显示
+    sure: 确实要删除这 %{model} 吗？
+    update: 更新
+  time: 
+    ago: "%{time} 前"
+    today: 今天
+    yesterday: 昨天

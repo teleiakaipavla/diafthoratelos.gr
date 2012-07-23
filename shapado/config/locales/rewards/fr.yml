@@ -1,0 +1,12 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: DavidL
+fr: 
+  rewards: 
+    close: 
+      error: Vous devrez attendre %{time} avant d'attribuer cette récompense.
+    start: 
+      active_notice: Cette question a déjà une récompense active.
+      reputation_notice: Vous n'avez pas assez de réputation pour créer une récompense sur cette question.
+      wait_notice: Vous devrez attendre 2 jours avant d'offrir une récompense sur cette question.

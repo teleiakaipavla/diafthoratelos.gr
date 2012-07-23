@@ -1,0 +1,12 @@
+- recent_groups = widget.recent_groups
+- if recent_groups.count > 0
+  .module.clearfix.widget.block{:class => 'widget-question_badges'}
+    = render "widgets/header", :widget => widget
+    %aside
+      %ul.list
+        - recent_groups.each do |group|
+          %li
+            = link_to h(group.name), domain_url(:custom => group.domain)
+            &= truncate(strip_tags(group.description), :length => 35)
+    %footer
+      = link_to t("scaffold.more"), groups_path

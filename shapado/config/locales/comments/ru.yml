@@ -1,0 +1,21 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: G0rn
+# Author: Lockal
+ru: 
+  comments: 
+    create: 
+      flash_notice: Спасибо за ваш комментарий
+    edit: 
+      title: Редактировать комментарий
+    shared: 
+      add_comment: Добавить комментарий…
+      comment_submit: Комментировать
+      reply: Ответить
+      said: написал(а)
+    update: 
+      flash_notice: Комментарий успешно обновлен.
+  models: 
+    comment: Комментарий
+    comments: Комментарии

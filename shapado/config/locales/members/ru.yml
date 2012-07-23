@@ -1,0 +1,16 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+ru: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Роль
+  members: 
+    form: 
+      login_tip: Поиск по мере ввода
+    index: 
+      manage_members_title: Управление участниками
+      title: Участники группы %{name}
+      title_isolate: Участники %{name}

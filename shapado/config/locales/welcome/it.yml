@@ -1,0 +1,29 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+# Author: Ric
+it: 
+  welcome: 
+    confirm_age: 
+      notice: Si può aprire questa pagina solo se si hanno almeno 18 anni ovvero la maggiore età in base alla giurisdizione in cui si risiede o da cui si accede a questa pagina.
+      over_18: Ho più di 18 anni
+      under_18: Ho meno di 18 anni
+      warning: "Attenzione: questa pagina potrebbe contenere materiale per adulti esplicito."
+    feedback: 
+      captcha_error: Per favore, assicurati di compilare il captcha correttamente e usa un indirizzo email valido.
+      captcha_notice: Grazie per i vostri commenti, vi risponderemo al più presto possibile.
+      email_description: Inserire l'indirizzo email a cui inviare la risposta al vostro messaggio
+      feedback_description: Descrizione
+      feedback_title: Titolo
+      title: Invia i tuoi commenti
+    index: 
+      active: Attivo
+      browse_all_or_by_tags: Vedere la %{full_list_of_questions} o %{browse_by_tags}
+      browse_by_tags: sfoglia per tag
+      create_own_site: Crea gratis il tuo sito di Q&amp;A in 8 secondi
+      full_list_of_questions: lista completa delle domande
+      hot: Hot
+      quick_question: Fai una domanda, troveremo qualcuno che risponda
+      recent_questions: Domande recenti

@@ -1,0 +1,42 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Pinxnl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Vraag sluiten
+      index: 
+        all: Alle
+        ban: Verbergen
+        banned: Verborgen vragen
+        content: Inhoud
+        flagged: Gemarkeerde vragen
+        item_title: Naam
+        need_tags: Labels wijzigen
+        title: Modereren
+      opening: 
+        title: Vraag openen
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Verbannen
+        banned_tooltip: Alleen verbannen vragen weergeven
+        filters: "Filters:"
+        title: Vragen modereren
+        unbanned: Ban opgeheven
+        unbanned_tooltip: Alleen niet-verbannen vragen weergeven
+      index: 
+        title: Vragen modereren
+      subtabs: 
+        flagged: Gemarkeerd
+        flagged_tooltip: Door de gebruikers gemarkeerde vragen
+        retag: Labels nodig
+        retag_tooltip: Vragen zonder labels
+        to_close: Sluitingsverzoeken
+        to_close_tooltip: Vragen waarvoor gebruikers een sluitingsverzoek hebben gemaakt
+        to_open: Verzoeken voor heropenen
+        to_open_tooltip: Gesloten vragen waarvoor gebruikers een verzoek tot heropenen hebben gemaakt

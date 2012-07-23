@@ -1,0 +1,26 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dj
+hu: 
+  themes: 
+    edit: 
+      title: Téma szerkesztése
+    form: 
+      colors_and_bg: Színek és hátterek
+      update: Téma frissítése
+    show: 
+      apply: Alkalmaz
+      bg_color: Háttérszín
+      bg_image: Háttérkép
+      button_bg: Gomb háttérszíne
+      button_fg: Gomb előtér színe
+      link_bg: Hivatkozás háttérszíne
+      link_fg: Hivatkozás előtérszíne
+      main_color: Fő szín
+      modules_color: Modulok színe
+      text_color: Szöveg színe
+      try: Kipróbál
+      use_link_bg: Háttér használata hivatkozások esetén
+      view_bg: Nézet háttérszíne
+      view_fg: Nézet előtérszíne

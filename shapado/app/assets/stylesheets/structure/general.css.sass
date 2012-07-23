@@ -1,0 +1,166 @@
+@import "setup"
+
+a
+  outline: 0
+  text-decoration: none
+  &:hover, &:focus
+    border-bottom: 0
+  img
+    border: 0
+
+article
+  padding: 15px
+  &:last-child
+    border: 0px
+  .user-data
+    margin-bottom: 5px
+    font-size: $xs
+  h2
+    font-weight: normal
+    font-size: 24px
+    margin: 10px 0 5px 0
+    width: 505px
+    white-space: normal !important
+    &:first-letter
+      text-transform: uppercase
+
+// HEADER
+header
+  .title
+    padding: 0 15px
+  .quick_question
+    +normal-radius
+    padding: 15px 0 15px 15px
+    margin-bottom: 3px
+    h2
+      margin: 0 0 5px 0
+      font-weight: normal
+      font-style: italic
+      +text-shadow
+      &:first-letter
+        text-transform: uppercase
+
+    form
+      margin: 0
+      input.text_area
+        float: left
+        width: 96%
+        margin: 5px 5px 5px 0px
+      .search-feedback
+        float: right
+
+//NAVIGATION
+ul.content-tabs
+  zoom: 1
+  width: 100%
+  &:before, &:after
+    display: table
+    content: ""
+  &:after
+    clear: both
+  li
+    display: inline
+    a
+      float: left
+      width: auto
+      padding: 0 15px 0 36px
+      display: block
+      line-height: 35px
+      text-transform: uppercase
+      font-size: $s
+      background-position: 7px 50%
+      background-repeat: no-repeat
+
+    &.questions a
+      background-image: image-url('q-icon-medium.png')
+    &.answers a
+      background-image: image-url('ans-icon-medium.png')
+    &.unanswered a
+      background-image: image-url('noans-icon-medium.png')
+    &.activities a
+      background-image: image-url('activity-iacon.png')
+    &.badges a
+      background-image: image-url('ribbon-medium.png')
+    &.users a
+      background-image: image-url('user-medium.png')
+    &.tags a
+      background-image: image-url('tags-medium.png')
+
+// FILTERS
+.filters
+  zoom: 1
+  ul
+    label
+      float: left
+      display: inline
+      font-size: 13px
+      line-height: 30px
+      font-weight: bold
+      margin: 0 5px
+    li
+      display: inline
+      a
+        float: left
+        display: block
+        padding: 0 12px 0 12px
+        font-size: 13px
+        line-height: 30px
+
+.admin-nav
+  overflow: hidden
+  margin: 0 0 30px 0
+  +normal-radius
+  li
+    float:left
+    display: inline
+    margin: 0 0 -1px 0
+    a
+      padding: 10px 15px
+      display: block
+      float: left
+      font-size: 11px
+      text-transform: uppercase
+
+//FOOTER
+footer
+  display: block
+  padding: 20px
+  text-align: center
+  ul
+    width: 555px
+    margin: 0 auto
+    li:first-child
+      a
+        margin: 0 20px 0 0
+    li:last-child
+      border: none
+      a
+        margin-right: 0
+    li
+      float: left
+      display: inline
+
+      margin: 0 0 10px 0
+      a
+        margin: 0 10px
+        font-size: 12px
+      a:hover
+        border-bottom: 1px dotted
+  p
+    clear: both
+    float: none
+    margin: 0 0 3px 0
+    font-size: 12px
+    a:hover
+      border-bottom: 1px dotted
+
+// WIDGETS
+
+.footer-widgets
+  max-width: 1000px
+  margin: 0 auto
+  clear: both
+
+.header-widgets
+  float: left
+  width: 860px

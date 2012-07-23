@@ -1,0 +1,76 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  layouts: 
+    application: 
+      all: Сите
+      ask_question: постави прашање
+      badges: значки
+      by_me: Од мене
+      collaborate: Соработка
+      contributed: Придонесени
+      faq: ЧПП
+      feed: Следени
+      follow_us_and_share: Следете нè и споделувајте
+      followed: Следени
+      forgot: заборавивте?
+      home: почетна
+      join_group: Зачлени се во %{group}
+      languages: јазици
+      log_in: најава
+      logged: најавен како %{login}
+      logout: одјава
+      manage_ads: раководење со реклами
+      moderate: модерирај
+      need_to_signin: Ќе треба прво да се најавите.
+      not_member_join_dialog: Ќе треба да се зачлените во %{group} за да го извршите ова дејство. Стиснете тука.
+      now: веднаш!
+      openid: 
+        explaination: ако сакате да се регистрирате или пак само да се најавите, одберете го вашиот добавувач на OpenID
+      pages: страници
+      preferred: Претпочитани
+      questions: прашања
+      questions_in: прашања во
+      questions_tagged: означени со
+      random_question: Случајно прашање
+      search: пребарај
+      settings: нагодувања
+      signup: регистрација
+      subscribe: претплати се
+      success_joining_group: Сега членувате во %{group}. Ви благодариме што ни се придруживте!
+      tags: ознаки
+      title: прашања и одговори
+      unanswered: неодговорени
+      users: корисници
+      welcome_from: "добредојдовте! еве што можете да правите:"
+    manage: 
+      access: Пристап
+      actions: дејства
+      announcements: соопштенија
+      appearance: Изглед
+      close_group: Затвори група
+      constrains: ограничувања
+      content: содржина
+      dashboard: Контролна табла
+      domain: домен
+      edit_layout: Уреди распоред
+      general: општо
+      group_features: Можности
+      group_look_and_feel: Изглед и чувство
+      group_user_management: Раководење со корисници
+      invitations: Покани
+      invoices: Фактури
+      members: членови
+      pages: страници
+      properties: својства
+      reputation: углед
+      rewards: награди
+      social: Друштвени
+      stats: статистики
+      theme: мотив
+      themes: Мотиви
+      widgets: елементи
+    notifications: 
+      message: Ако повеќе не сакате да добивате автоматски известувања од %{group} , изменете си ги нагодувањата во екранот за известувања.

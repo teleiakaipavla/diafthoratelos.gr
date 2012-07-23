@@ -1,0 +1,22 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rol
+  members: 
+    create: 
+      error: Sentímolo, o usuario **%{user_id}** non existe.
+      notice: "%{login} engadiuse correctamente como %{role}."
+    form: 
+      destroy_confirm: Está seguro? Este usuario xa non será membro deste grupo.
+      login_tip: Procurar á vez que escribe
+    index: 
+      manage_members_title: Xestionar os membros
+      title: Membros do grupo de %{name}
+      title_isolate: Membros de %{name}
+    update: 
+      error: Sentímolo, non ten os permisos necesarios para cambiar as afiliacións de **%{login}**.

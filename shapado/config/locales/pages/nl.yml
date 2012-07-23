@@ -1,0 +1,37 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Siebrand
+nl: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Stylesheets
+        js: JavaScript
+    models: 
+      page: Pagina
+      pages: Pagina's
+  pages: 
+    actions: 
+      create_page: Nieuwe pagina aanmaken
+      edit_page: Pagina bewerken
+      title: Handelingen
+    create: 
+      success: De pagina is aangemaakt.
+    edit: 
+      title: Bezig met het bewerken van pagina
+    form: 
+      language_tip: Taal van de pagina
+      title_tip: "Paginanaam. Gebruik dit als referentie aan de pagina. Bijvoorbeeld: [[FAQ|Kijk in de FAQ]]"
+    index: 
+      create_page: Nieuwe pagina aanmaken
+      title: Paginalijst
+      wiki: Wiki
+      wiki_pages: Wikipagina's
+      written_in: Geschreven in %{language}
+    new: 
+      title: Nieuwe pagina
+    title: FIXME
+    update: 
+      success: De pagina is bijgewerkt.

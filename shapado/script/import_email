@@ -1,0 +1,62 @@
+#!/usr/bin/env ruby
+
+ENV["RAILS_ENV"] ||= (ARGV[0] || "development")
+
+require "#{File.expand_path("../..", __FILE__)}/lib/shapado/scripting/easy_loader"
+# require File.expand_path("../../config/environment", __FILE__)
+require 'mail'
+
+emails_dir = "#{Rails.root}/tmp/emails"
+router = Rails.application.routes
+
+Dir.glob(emails_dir+"/*") do |path|
+  subdomain = File.basename(path)
+  group = Group.where(:subdomain => subdomain).first
+  if group.nil?
+    next
+  end
+
+  Dir.glob(path+"/*") do |email_info|
+    info = JSON.load(File.read(email_info))
+    user = User.where(:email => info["user_email"]).first
+
+    if user.nil?
+      puts "user with email #{info["user_email"]} was not found"
+      next
+    end
+
+    if info["question_id"] # Answer
+      question = group.questions.find(info["question_id"])
+      puts "Creating answer on #{group.name}: #{question.title.inspect}"
+
+      answer = question.answers.create!(:body => info["body"], :user => user,
+                                        :group => group, :created_at => info["created_at"])
+
+      link = router.url_for(:controller => "answers", :action => "show", :question_id => question, :id => answer, :host => AppConfig.domain)
+
+      Jobs::Activities.async.on_create_answer(answer.id).commit!
+      Jobs::Answers.async.on_create_answer(question.id, answer.id, link).commit!
+
+    else # Question
+      puts "Creating question on #{group.name}: #{info["title"].inspect}"
+
+      question = Question.create!(:body => info["body"], :title => info["title"],
+                                  :created_at => info["created_at"], :user => user,
+                                  :group => group)
+      question.add_contributor(question.user)
+      group.tag_list.add_tags(*question.tags)
+
+      question.user.stats.add_question_tags(*question.tags)
+      question.user.on_activity(:ask_question, group)
+
+      link = router.url_for(:controller => "questions", :action => "show", :id => question, :host => AppConfig.domain)
+      Jobs::Questions.async.on_ask_question(question.id, link).commit!
+      Jobs::Mailer.async.on_ask_question(question.id).commit!
+      Jobs::Tags.async.question_retagged(question.id, question.tags, [], Time.now).commit!
+
+      group.on_activity(:ask_question)
+    end
+
+    FileUtils.rm_rf(email_info)
+  end
+end

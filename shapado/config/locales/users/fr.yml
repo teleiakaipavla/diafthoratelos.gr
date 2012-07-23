@@ -1,0 +1,140 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gomoko
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+# Author: Verdy p
+# Author: Zetud
+fr: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: activé le
+        activation_code: Code d'activation
+        age: Âge
+        asked_by: posée par
+        avatar: Image de profile
+        birthday: Anniversaire
+        created_at: membre
+        current_password: Mot de passe actuel
+        email: Courriel
+        fullname: Nom complet
+        hide_country: Ne pas dévoiler mon pays
+        language: Langue
+        language_filter: Filtrer par langue
+        last_logged_at: vu
+        login: Nom d’utilisateur
+        name: Nom réel
+        password: Mot de passe
+        password_confirmation: Confirmation du mot de passe
+        preferred_languages: "Vous souhaitez lire les questions dans les langues suivantes :"
+        preferred_tags: Tags préférés
+        reputation: Réputation
+        timezone: Fuseau horaire
+        updated_at: actualisé le
+        website: Site internet
+    models: 
+      user: Utilisateur
+      users: Utilisateurs
+  users: 
+    actions: 
+      edit_others_posts: Modifier les postes des autres
+      edit_wiki_post: Éditer les postes wiki
+      flag: Rapporter
+      retag_others_questions: Modifier les étiquettes des questions des autres utilisateurs
+      vote_down: Voter négatif
+      vote_to_close_any_question: Demander de fermer toute question
+      vote_to_close_own_question: Demander de fermer sa propre question
+      vote_up: Voter positif
+    anonymous_form: 
+      never_shown: jamais montré
+    change_password: 
+      submit: Changer mon mot de passe
+      title: Changer le mot de passe
+    check_custom_domain: 
+      reset_domain_button: Non, veuillez réinitialiser le domaine personnalisé en %{domain}
+      title: Votre nouveau domaine personnalisé fonctionne-t-il?
+      working_domain_link: Oui, je peux voir que mon nouveau domaine fonctionne ci-dessous.
+    create: 
+      flash_error: Désolé, nous n'avons pas pu configurer votre compte. Essayez encore s'il vous plait, ou contactez un administrateur (le lien est ci-dessus).
+      flash_notice: Merci de vous être enregistré !
+    edit: 
+      enable_twitter: Activer vos comptes Facebook ou Twitter
+      submit: Sauvegarder
+      title: Configuration
+    follow: 
+      flash_error: Vous ne pouvez pas vous suivre vous-même.
+      flash_notice: Vous suivez maintenant %{user}.
+    form: 
+      activities_notification: Recevoir des notifications via courrier électronique sur les activités système telles que les insignes gagnées, les nouveaux suiveurs, etc.
+      avatar_tip: Changer l'image de votre profil en utilisant gravatar
+      check_domain: Vérifier %{domain}
+      check_domain_title: Vérifiez vos domaines de groupes personnalisées
+      desktop_notification: Notifications du bureau
+      give_advice_notification: Recevoir des notifications via courrier électronique sur les questions liées à votre champ d'expertise
+      information: Information
+      language: Langue utilisée pour l'interface du site
+      new_answer_notification: Obtenir des notifications via email de nouvelles réponses
+      notifications: Notifications
+      reports_notification: Recevoir un rapport avec les dernières activités du groupes (juste pour l'admin du groupe)
+      send_answers_to_twitter: Envoyer mes réponses sur mon Twitter
+      send_badges_to_twitter: Envoyer mes décorations récemment obtenues sur mon Twitter
+      send_comments_to_twitter: Envoyer mes commentaires sur Twitter
+      send_favorites_to_twitter: Envoyer mes réponses préférées sur mon Twitter
+      send_questions_to_twitter: Envoyer mes questions sur mon Twitter
+      show_more_lang: Afficher plus de langues
+      social_interaction: Interaction avec les médias sociaux
+    index: 
+      empty: Ce groupe n'a pas de membres pour l'instant. Participez pour en devenir un.
+      filter: Recherchez des utilisateurs
+      name: Nom
+      name_tooltip: Utilisateurs par ordre alphabétique
+      near: Près de vous
+      near_tooltip: Utilisateurs qui sont proches de vous
+      newest: Les plus récents
+      newest_tooltip: Utilisateurs vennant d'ouvrir un compte
+      oldest: Les plus anciens
+      oldest_tooltip: Utilisateurs ayant ouvert leur compte en premier
+      reputation: Réputation
+      reputation_tooltip: Utilisateurs par ordre de réputation
+      title: Tous les utilisateurs
+    messages: 
+      errors: 
+        reputation_needed: Vous avez besoin d'une réputation de %{min_reputation} à fin de pouvoir %{action}
+    new: 
+      description: Devenez membre de cette communauté pour poser des questions, répondre et apprendre!
+      join_group: Rejoignez %{group}
+      submit: Inscrivez-vous
+      title: Se connecter en tant que nouvel utilisateur
+    show: 
+      edit_profile: Modifier le profil
+      follow: Suivre
+      followers: Suiveurs
+      following: Suivi
+      title: Utilisateur %{user}
+      unfollow: Ne plus suivre
+      views: vues
+    show_json: 
+      edit_it: Cliquez ici pour remplir votre bio sur votre profil.
+      no_description: Cet utilisateur n'a pas encore rempli sa biographie.
+    top_user: 
+      connect: Se connecter
+      my_karma: "Mon karma: %{karma}"
+      profile: Profil
+    unfollow: 
+      flash_notice: Vous ne suivez plus %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Vous suivez maintenant la balise %{tag}.
+      unfollowed: 
+        flash_notice: Vous ne suivez plus la balise %{tag}.
+    user_bar: 
+      create_account: Créer un compte
+      not_logged_in: Non connecté
+      signed_as: Connecté en tant que 
+    user_mini: 
+      admin: "[ Admin ]"
+      editor: "[ Éditeur ]"
+      mod: "[ Modérateur ]"

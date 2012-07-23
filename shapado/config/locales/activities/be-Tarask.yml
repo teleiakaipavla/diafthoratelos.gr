@@ -1,0 +1,19 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    models: 
+      activities: Актыўнасьці
+      activity: Актыўнасьць
+  activity: 
+    asked: запытаная
+    changed: зьмененая
+    created: створаная
+    deleted: выдалена
+    flagged: пазначаныя
+    requested_to_close: пададзены запыт на закрыцьцё
+    requested_to_open: пададзены запыт на адкрыцьцё
+    updated: абноўлены

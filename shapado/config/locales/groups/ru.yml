@@ -1,0 +1,95 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: Eleferen
+# Author: Lockal
+# Author: Shemerey
+# Author: Александр Сигачёв
+ru: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Дневное ограничение
+        default_tags: Теги по умолчанию
+        description: Описание
+        domain: Домен
+        enable_latex: Включить LaTeX с jqmath (быстро но не с полной функциональностью)
+        fb_button: Включить кнопку Facebook (отрицательно влияет на защиту личной информации)
+        forum: Разрешить больше одного варианта ответа на пользователя
+        group_created_by: кем создано
+        language: Язык по умолчанию
+        languages: Дополнительные языки
+        legend: Краткое описание
+        logo: Логотип
+        may_contain_adult_content: Этот сайт может содержать материалы для взрослых
+        name: Имя
+        owner: Эта группа создана %{login}
+        registered_only: Только зарегистрированные люди могут зайти на сайт
+        signup_type: "Какие методы могут использовать пользователи для регистрации:"
+        state: Состояние
+        subdomain: URL
+        wysiwyg_editor: Включить удобный для пользования редактор
+    models: 
+      default_tags_message: Нельзя установить более 10 тегов по умолчанию
+      group: Группа
+      groups: Группы
+      reputation_rewards_answer_constrain: Ограничение на награды за ответы должно быть отрицательным
+      reputation_rewards_ask_constrain: Ограничение на задание вопроса должно быть отрицательным
+      reputation_rewards_key: Недопустимый ключ
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Извините, что-то пошло не так. Попробуйте еще раз, пожалуйста.
+      success_twitter_connection: Поздравляем, вы подключили свой Twitter успешно!
+    create: 
+      flash_notice: Ваша группа успешно создана, теперь вы можете приступить к её настройке.
+    edit: 
+      title: Редактировать свою группу
+    form: 
+      access: Настройки доступа
+      analytics_engine: Параметры инструментов Analytics
+      analytics_legend: Группа может использовать собственный код отслеживания
+      any_language: Любой
+      custom_analytics: Разрешить настраиваемый Analytics
+      custom_html: Разрешить настраиваемый HTML
+      custom_js: Разрешить настраиваемый JavaScript
+      default_tags_legend: Разделяйте теги запятыми. Разрешено только 10 тегов по умолчанию.
+      description_legend: Вы можете использовать 400 символов для описания группы.
+      isolate_group: Изолировать группу от других групп
+      legend_legend: Оно будет использоваться в заголовке. Максимальный размер — 40 символов.
+      logo_legend: Вы можете загрузить логотип группы. Максимальный размер файла составляет 2 МБ.
+      members_only: Только участники группы будут иметь доступ к этой группе
+      signup_all: Все выбранные провайдеры плюс имя / пароль
+      signup_email: Только адрес электронной почты (пользователи могут войти только через электронную почту и пароль)
+      signup_noemail: Без адреса электронной почты и пароля (пользователи входят через OpenID, Facebook, Twitter)
+      signup_social: Только социальные сети (пользователи могут войти только через Facebook, Twitter, LinkedIn и Identica)
+      website_analytics_id: Код Analytics сайта
+    group: 
+      about: О группе
+      accept_group: Принять эту группу
+      allow_ads: Разрешить рекламу
+      close: Закрыть
+      close_group: Закрыть эту группу
+      disallow_ads: Запретить рекламу
+    index: 
+      actives: Активные
+      create_your_own: создать собственную группу
+      description: Это список всех созданных открытых групп. Используйте поле поиска ниже для фильтрации групп. Вы также можете %{link}.
+      filter: Поиск групп
+      most_active: Самые активные
+      name: Имя
+      pendings: На рассмотрении
+      request_group: Запросить новую группу
+      title: Группы
+    new: 
+      title: Создание собственной группы
+    show: 
+      accept_group: Принять группу
+      accept_group_with_custom_ads: Принять группу и разрешить настраиваемую рекламу
+      close_group: Закрыть эту группу
+      group_awaiting_acceptance: Эта группа ждёт своего принятия модератором.
+      group_closed: Эта группа была закрыта.
+      title: О %{name}
+      visit_group: Перейти в эту группу
+    update: 
+      notice: Ваша группа успешно обновлена.

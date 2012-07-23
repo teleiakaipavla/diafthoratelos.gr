@@ -1,0 +1,53 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  global: 
+    active: چارندول
+    anonymous: ورکنومی
+    blog: بلاګ
+    chat: بانډار
+    current: تازه
+    follow: څارل
+    home: کور
+    next_button: راتلونکی
+    open: پرانيستل
+    or: يا
+    previous: پخوانی
+    share: شريکول
+    sign_up: نومليکل
+    size: کچه
+    unfollow: ناڅارل
+    unknown_place: ناجوت
+    view: کتل
+    view_question: پوښتنه کتل
+    what_to_do: تاسې څه غواړۍ چې وې کړۍ؟
+  models: 
+    question: پوښتنه
+  preferred_languages: 
+    any: هر يو
+  roles: 
+    owner: خاوند
+  scaffold: 
+    add: ورګډول
+    are_you_sure: آيا تاسې ډاډه ياست؟
+    back: پر شا
+    cancel: ناګارل
+    close: تړل
+    create: جوړول
+    destroy: ړنګول
+    edit: سمول
+    more: نور ...
+    save: خوندي کول
+    send: لېږل
+    show: ښکاره کول
+    update: اوسمهالول
+  time: 
+    ago: "%{time} دمخه"
+    today: نن
+    yesterday: پرون
+  views: 
+    pagination: 
+      first: لومړنی
+      last: وروستنی

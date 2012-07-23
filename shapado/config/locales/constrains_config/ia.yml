@@ -1,0 +1,8 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activemodel: 
+    models: 
+      constrains_config: Configuration del restrictiones de reputation

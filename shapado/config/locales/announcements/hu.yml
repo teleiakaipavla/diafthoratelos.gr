@@ -1,0 +1,22 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dani
+# Author: Dj
+hu: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Vége
+        message: Üzenet
+        only_anonymous: Csak anonim felhasználóknak
+        starts_at: Kezdés ideje
+  announcements: 
+    actions: 
+      delete: Eltávolítás
+      title: Műveletek
+    create: 
+      success: Közleményed sikeresen létrejött.
+    index: 
+      description: Közlemények létrehozása és kezelése, amely a látogatóid számára a honlapon mindig megjelenik.
+      title: Közlemények

@@ -1,0 +1,22 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Jim-by
+be-Tarask: 
+  open_requests: 
+    create: 
+      flash_notice: Запыт на паўторнае адкрыцьцё створаны пасьпяхова
+    destroy: 
+      flash_notice: Запыт на паўторнае адкрыцьцё пасьпяхова выдалены
+    edit: 
+      title: Рэдагаваць запыт на паўторнае адкрыцьцё
+    form: 
+      request_opening_details: Запыт на паўторнае адкрыцьцё гэтага пытаньня
+    index: 
+      title: Сьпіс запытаў на паўторнае адкрыцьцё
+    model: 
+      prural_name: Запыт на паўторнае адкрыцьцё
+    new: 
+      title: Запыт на паўторнае адкрыцьцё
+    update: 
+      flash_notice: Запыт на паўторнае адкрыцьцё пасьпяхова абноўлены

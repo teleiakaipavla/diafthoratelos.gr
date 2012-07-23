@@ -1,0 +1,36 @@
+app_name            = 'websocket'
+grace_time          = 120
+rails_root          = '<%= "#{deploy_to}/current" %>'
+rails_env           = '<%= environment %>'
+log_file            = "#{rails_root}/log/#{app_name}_bluepill.log"
+cmd_bin             = "/usr/bin/env RAILS_ENV=#{rails_env} bundle exec script/#{app_name}"
+cmd_pid             = "#{rails_root}/tmp/pids/#{app_name}.pid"
+
+cmd_start_cmd       = "#{cmd_bin}"
+cmd_stop_cmd        = "kill -9 {{PID}}"
+cmd_restart_cmd     = "bash -c '#{cmd_stop_cmd} && #{cmd_start_cmd}'"
+
+
+puts ">> Starting #{app_name} bluepill with RAILS_ROOT=#{rails_root} and RAILS_ENV=#{rails_env}"
+
+Bluepill.application(app_name, :log_file => log_file) do |app|
+  app.process("cmd-#{app_name}") do |process|
+    process.pid_file = cmd_pid
+    process.daemonize = true
+    process.working_dir = rails_root
+
+    process.start_command = cmd_start_cmd
+    process.stop_command = cmd_stop_cmd
+    process.restart_command = cmd_restart_cmd
+
+    process.start_grace_time = grace_time
+    process.stop_grace_time = grace_time
+    process.restart_grace_time = grace_time
+
+    process.uid = "<%= user %>"
+    process.gid = "<%= group %>"
+
+    process.checks :mem_usage, :every => 15.seconds, :below => 165.megabytes, :times => [3,4], :fires => :stop
+    process.checks :cpu_usage, :every => 15.seconds, :below => 90, :times => [3,4], :fires => :stop
+  end
+end

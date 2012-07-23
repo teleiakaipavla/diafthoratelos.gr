@@ -1,0 +1,37 @@
+en:
+  moderate:
+    questions:
+      index:
+       title: "Moderate Questions"
+      flagged:
+        title: "Moderate Questions"
+        filters: "Filters:"
+        unbanned: Unbanned
+        unbanned_tooltip: Show only unbanned questions
+        banned: Banned
+        banned_tooltip: Show only banned questions
+      subtabs:
+        retag: Need tags
+        retag_tooltip: Questions without tags
+        flagged: Flagged
+        flagged_tooltip: Questions flagged by the users
+        to_close: Closing requests
+        to_close_tooltip: Questions users requested to be closed
+        to_open: Reopen requests
+        to_open_tooltip: Closed questions users requested to reopen
+
+  admin:
+    moderate:
+      index:
+        title: Moderate
+        ban: Ban
+        content: Content
+        item_title: Title
+        all: All
+        flagged: Flagged questions
+        banned: Banned questions
+        need_tags: Retag
+      opening:
+        title: Open question
+      closing:
+        title: Close question

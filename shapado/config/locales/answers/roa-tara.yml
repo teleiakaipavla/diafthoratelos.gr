@@ -1,0 +1,25 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Cuèrpe
+        created_at: Ccrejate 'u
+        link: Collegamende
+    models: 
+      answer: Resposte
+      answers: Resposte
+  answers: 
+    create: 
+      annon_notice: L'utende jè ggià reggistrate, pe piacere tràse.
+      flash_notice: Grazie!
+    edit: 
+      title: Stoche a cange 'a resposte
+    form: 
+      answer_label: Respunne a 'a domande
+      comment_label: Commende sus a sta resposte
+      comment_submit: Commende
+      submit: Resposte

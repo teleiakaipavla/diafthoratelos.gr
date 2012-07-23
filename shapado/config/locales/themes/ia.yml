@@ -1,0 +1,44 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  themes: 
+    edit: 
+      title: Modificar apparentia
+    form: 
+      bg_color_legend: Defini un color plan de fundo. Assecura te que illo contrasta ben con tu application.
+      bg_image_legend: Iste imagine apparera como fundo in cata pagina. Le dimension non pote exceder 800K e le formato debe esser GIF, JPG o PNG.
+      colors_and_bg: Colores e fundos
+      custom_css_legend: Si tu cognosce le linguage CSS, usa isto pro personalisar le stilo de tu sito. Es possibile usar CSS normal o SCSS.
+      fluid_layout: Disposition fluide
+      fluid_layout_legend: Con un disposition fluide, le latitude de cata elemento del pagina depende del dimension del fenestra e non del elemento contentor initial. In altere parolas, quando on redimensiona le fenestra del navigator o comencia a usar un apparato con schermo micre, le disposition se extende o se reduce.
+      main_color_legend: Isto es un del colores le plus usate in cata pagina. Assecura te de seliger le color adequate pro tu marca o communitate.
+      modules_color_legend: Assecura te que iste color e le color principal va ben insimul.
+      submit_update: Actualisar apparentia
+      text_color_legend: Assecura te que le texto es legibile e va ben con le color de fundo.
+      update: Actualisar apparentia
+    index: 
+      description: Cerca hic tu themas visual e cambia le apparentia de tu application.
+      new_theme: Tu pote construer tu proprie thema visual hic.
+    ready: 
+      success: Le apparentia es preste!
+    show: 
+      apply: Applicar
+      bg_color: Color de fundo
+      bg_image: Imagine de fundo
+      brand_color: Color del marca
+      button_bg: Color de fundo del buttones
+      button_fg: Color de prime plano del buttones
+      fg_color: Color de prime plano
+      fluid: Fluide (isto rendera le disposition elastic quando le fenestra del navigator es redimensionate)
+      link_bg: Color de fundo del ligamines
+      link_fg: Color de prime plano del ligamines
+      main_color: Color principal
+      modules_color: Color del modulos
+      not_ready: Iste thema non es preste a esser usate. Reveni tosto.
+      text_color: Color del texto
+      try: Probar
+      use_link_bg: Usar un fundo pro ligamines
+      view_bg: Color de fundo del vista
+      view_fg: Color de prime plano del vista

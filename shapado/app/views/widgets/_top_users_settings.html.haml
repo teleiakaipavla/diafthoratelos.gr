@@ -1,0 +1,6 @@
+
+.field
+  = label :limit, t('widgets.settings.limit'), :class => "label"
+  = text_field_tag "settings[limit]", widget.settings["limit"],:class => "text_field"
+
+= render :partial => "shared/external_widget_settings", :locals => {:widget => widget}

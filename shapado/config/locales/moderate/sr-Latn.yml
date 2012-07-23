@@ -1,0 +1,40 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Zatvori pitanje
+      index: 
+        all: Sve
+        ban: Zabrani
+        banned: Zabranjena pitanja
+        content: Sadržaj
+        flagged: Označena pitanja
+        item_title: Naslov
+        need_tags: Preoznači
+        title: Moderisanje
+      opening: 
+        title: Otvori pitanje
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Zabranjeno
+        banned_tooltip: Prikazuj samo zabranjena pitanja
+        filters: "Filteri:"
+        title: Moderacija pitanja
+        unbanned: Uklonjena zabrana
+        unbanned_tooltip: Prikazuj samo pitanja s uklonjenom zabranom
+      index: 
+        title: Moderacija pitanja
+      subtabs: 
+        flagged: Označeno
+        flagged_tooltip: Pitanja označena od strane korisnika
+        retag: Treba oznake
+        retag_tooltip: Pitanja bez oznaka
+        to_close: Zahtevi za zatvaranje
+        to_close_tooltip: Pitanja koja su zahtevana da budu zatvorena
+        to_open: Zahtevi za preotvaranje
+        to_open_tooltip: Zatvorena pitanja za koja je zahtevano da budu ponovo otvorena

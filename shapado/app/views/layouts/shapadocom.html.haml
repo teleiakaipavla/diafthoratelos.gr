@@ -1,0 +1,156 @@
+!!! 5
+-ie_html :class => 'no-js', :lang => I18n.locale do
+  %head
+    %meta{:charset => "utf-8"}
+    %title Shapado, social Q&A
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+    %meta{:content => "", :name => "description"}
+    %meta{:content => "", :name => "author"}
+    / Le styles
+    = stylesheet_link_tag "shapadocom"
+
+    / Le HTML5 shim, for IE6-8 support of HTML5 elements
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    / Le fav and touch icons
+    %link{:href => "/favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "../assets/ico/apple-touch-icon-144-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "144x144"}/
+    %link{:href => "../assets/ico/apple-touch-icon-114-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "114x114"}/
+    %link{:href => "../assets/ico/apple-touch-icon-72-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "72x72"}/
+    %link{:href => "../assets/ico/apple-touch-icon-57-precomposed.png", :rel => "apple-touch-icon-precomposed"}/
+  %body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.brand{:href => "#"} Shapado
+          .nav-collapse.pull-right
+            %ul.nav
+              %li.active
+                %a{:href => "/plans"} Starts at $9/month or free
+              %li#pricingli
+                %a{:href => "/plans", :id => 'pricing-link'} Pricing
+
+
+          / /.nav-collapse
+    .container
+      / Main hero unit for a primary marketing message or call to action
+      .hero-unit
+        %h1 Smart and social Q&A for your world!
+      .row
+        .span4.pitches
+          %p
+            %strong#pitch Shapado is a questions and answers site for your enterprise or community, your “knowledge base on the cloud”. It makes sure questions never get asked twice by making the information flow.
+          %p
+            %strong#pitchy Thanks to a powerful search engine, the ability to answer by email and edit each other answers to improve them as wiki, Shapado will make information available accross the company with no fuss.
+          %p
+            = link_to "See plans and pricing!", '/plans', :class => 'btn btn-success btn-large'
+            = link_to "or give it a try.", '/questions'
+        .span8
+          = image_tag('/images/landing/shapafrontall.png')
+
+      / Example row of columns
+      .row.features
+        .span4
+          %h2 Public or private
+          %p Make your site either public or private so that only you and users can ask and answer questions.
+        .span4
+          %h2 Answer by mail
+          %p You can use Shapado without leaving your favorite mail client, just subscribe to people or tag and you will receive your question by mail so you can just answer from there
+          %p
+            %a.btn{:href => "#", "data-toggle"=>"modal", :href=>"#answer-by-email"} View details &raquo;
+        .span4
+          %h2 Improve
+          %p Don't like an answer? Edit it and correct it. Not sure your answer is the best? Mark it as wiki so others can improve it too. You can also upvote and downvote answers to highlight relevant answers so they appear on top of threads.
+          %p
+            %a.btn{:href => "#", "data-toggle"=>"modal", :href=>"#improve"} View details &raquo;
+      .row
+        .span4
+          %h2 Customize
+          %p You can easily change the color set of shapado and upload your own with just a few clicks, no coding needed. If you know a bit of web programming, you can also modify the whole CSS, html and also add your own Javascript plugins. Shapado also comes with a set of widgets to add more information on the sidebar such as top contributers, related questions and more.
+          %p
+            %a.btn{:href => "#", "data-toggle"=>"modal", :href=>"#themes"} View details &raquo;
+        .span4
+          %h2 Monetize
+          %p Shapado allows you to add your own ads so you can start making money with your site and enjoy passive revenue from your site.
+          %p
+            %a.btn{:href => "#", "data-toggle"=>"modal", :href=>"#ads"} View details &raquo;
+        .span4
+          %h2 SEO
+          %p Shapado is optimized for SEO using among other things Google's schema.org markup and a mobile version of the site. We also compress and cache all our assets to make the site fast.
+      .row
+        .span4
+          %h2 Build a community
+          %p Shapado offers you the possibility to build a passionate, engaged and diverse community thanks to all our social features such as upvoting, reputation points, badges and translation features.
+        .span4
+          %h2 Offer great content
+          %p As your community will grow, so will the content of your site. Thanks to our wiki built-in features, your content will not only grow in quantity but also in quality.
+        .span4
+          %h2 Social and you
+          %p It all comes down the community of humans, and this is you. Shapado allows you to follow specific people and tags so you only see questions and answers on people and topics that actually interest you. All the upvotes and badges you will receive and give with time will make you feel the love of being part of a passionate and knowledge hungry community. Have fun!
+          %p
+            %a.btn{:href => "#", "data-toggle"=>"modal", :href=>"#social"} View details &raquo;
+      #social.modal.hide
+        .modal-header
+          %button.close{"data-dismiss" => "modal", :type => "button"} ×
+          %h3 Customize
+        .modal-body
+          = image_tag('/images/landing/socialsignin.png')
+          = image_tag('/images/landing/filters.png', :class => 'pull-right')
+          %p
+            Sign in using your favorite social network account and start following your friends. You can also filter questions that are asked people and tags you follow so you get to see the content that is the most relevant to you.
+        .modal-footer
+          %a.btn{"data-dismiss" => "modal", :href => "#"} Close
+      #themes.modal.hide
+        .modal-header
+          %button.close{"data-dismiss" => "modal", :type => "button"} ×
+          %h3 Customize
+        .modal-body
+          = image_tag('/images/landing/themes.png')
+          %p
+            Simply change the main colors and logo or write your own css and javascript code.
+        .modal-footer
+          %a.btn{"data-dismiss" => "modal", :href => "#"} Close
+      #ads.modal.hide
+        .modal-header
+          %button.close{"data-dismiss" => "modal", :type => "button"} ×
+          %h3 Monetize
+        .modal-body
+          = image_tag('/images/landing/ads.png')
+          %p
+            Place ads wherever you want and start making money!
+        .modal-footer
+          %a.btn{"data-dismiss" => "modal", :href => "#"} Close
+      #improve.modal.hide
+        .modal-header
+          %button.close{"data-dismiss" => "modal", :type => "button"} ×
+          %h3 Improve the content
+        .modal-body
+          = image_tag('/images/landing/upvote.png')
+          %p
+            Upvote or downvote answers, edit them, pick them as solution so they appear on top of each threads. Create wiki pages so that the community may improve the information.
+        .modal-footer
+          %a.btn{"data-dismiss" => "modal", :href => "#"} Close
+      #answer-by-email.modal.hide
+        .modal-header
+          %button.close{"data-dismiss" => "modal", :type => "button"} ×
+          %h3 Answer by mail
+        .modal-body
+          = image_tag('/images/landing/byemail.png')
+          %p Each question has an "Answer by email" link. Just click on it and you will be taken to your mail client. You will also be able to reply by mail when you receive a question in your mailbox.
+        .modal-footer
+          %a.btn{"data-dismiss" => "modal", :href => "#"} Close
+      %hr/
+      %footer
+        %p &copy; Ricodigo 2012
+    / /container
+    /
+      Le javascript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+    = javascript_include_tag "shapadocom"
+

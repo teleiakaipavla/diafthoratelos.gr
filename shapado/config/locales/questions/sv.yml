@@ -1,0 +1,144 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lokal Profil
+# Author: The real emj
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Svar
+        asked_by: Frågat av
+        body: Innehåll
+        closed: Stängt
+        created_at: Frågade
+        language: Språk
+        tags: Taggar
+        title: Titel
+        updated_at: uppdaterad
+        updated_by: uppdaterad av
+        views: Visningar
+        votes: Röster
+    models: 
+      question: Fråga
+      questions: Frågor
+  questions: 
+    answer: 
+      add_comment: Lägg till kommentar...
+      favorite: Spara
+      flag: Flagga
+      pick_answer: Välj en lösning
+      unset_answer: Tabort lösning?
+    create: 
+      flash_notice: Frågan har skapats.
+    edit: 
+      title: Redigerar fråga
+    flag: 
+      title: Flagga fråga
+    form: 
+      adult_content: Denna fråga innehåller vuxet material.
+      body_tip: Vad är din fråga? Var noggrann med beskrivningen.
+      language_tip: Välj det språk som frågan ställs i.
+      tags_tip: Använd taggar att lägga till mer information om din fråga.
+    history: 
+      back: ← tillbaka till fråga
+    index: 
+      active: Aktiv
+      active_tooltip: Frågor som har blivit updaterade nyligen
+      ask_question: Ställ fråga
+      followers_tooltip: Frågor med flest anhängare
+      has_followers: 
+        one: "%{count} följare"
+        other: "%{count} följare"
+      help_to_answer: Hjälp oss att besvara
+      hot_tooltip: Frågor med största aktiviten de sista fem dagarna
+      newest: Nyaste
+      newest_tooltip: De senast ställda frågorna
+      oldest: Äldsta
+      unanswered_questions: Obesvarade frågor
+      votes: Röster
+    model: 
+      messages: 
+        empty_tags: Tyvärr, måste du använda minst en tagg.
+        title_too_long: Tyvärr, titeln inte innehålla mer än 100 tecken.
+        too_many_tags: Tyvärr, kan du bara tagga upp till 20 taggar maximalt.
+        too_short: Tyvärr, din titel måste innehålla mer än %{count} ord.
+    move: 
+      submit: Flytta!
+      title: "Flytta fråga: %{title}"
+    move_to: 
+      group_dont_exists: Gruppen %{group} existerar inte
+      success: Fråga flyttad till %{group}
+    new: 
+      how_to_ask: Hur man frågar
+      title: Ställ fråga
+    question: 
+      answer_verb: Svar
+      has_answers: 
+        one: "%{count} svar"
+        other: "%{count} svar"
+    retag: 
+      title: Retag
+    retag_form: 
+      cancel: Avbryt
+      submit: Uppdatera taggar!
+      title: Uppdatera taggar
+    shared: 
+      flag: Flagga
+    show: 
+      accepted_tooltip: Ett av svaren godkändes som rät svar
+      another_answers: Andra svar
+      answers: Svar
+      asked_on: frågad på
+      ban: Blockera
+      close: Stäng
+      close_reason: Denna fråga har stängs på grund av nedanstående anledning
+      create_reward: Skapa belöning
+      create_reward_description: Belöna svaret med en del av din egen karma
+      edit_request: Ändra begäran
+      flag: Flagga
+      flagged_as: Flaggad som
+      flags: Rapporterad som
+      follow_tooltip: Följ denna fråga
+      follow_up: Flj upp
+      follow_up_description: Skapa en ny fråga baserad på denna post
+      follow_up_of: Denna fråga är en uppföljning av
+      history: Historik
+      last_activity: Senaste aktivitet
+      more_actions: Fler åtgärder
+      open: Öppna
+      related_questions: Närliggande frågor
+      request_closing: Begär om stängning
+      request_closing_details: Begär att stänga denna fråga
+      request_opening: Begär återöppning
+      request_opening_details: Begär att återöppna denna fråga
+      requested_close_as: Du bad om att stänga denna fråga som
+      requested_reopening: Du bad att återöppna denna fråga
+      retag: ändra tag
+      retract_request: Återkallsa begäran
+      share: Dela denna fråga på
+      share_on: Dela denna fråga på %{site}
+      solution: Lösning
+      to_answer_question: för att svara på denna fråga
+      unauthenticated_retag: Du msåte ha ett konto för att ändra tag på frågor
+      unban: avblockera
+      unfollow_tooltip: Sluta följa denna fråga
+      viewed: sedd
+    solve: 
+      flash_notice: Frågan var löst.
+    tags: 
+      filter: Sök efter taggar
+      title: Taggar
+    toolbar: 
+      answer_by_mail: Svara via e-post
+    unanswered: 
+      expert: Experter
+      my_tags: Mina taggar
+      tags: Obesvarade taggar
+      title: Obesvarade frågor
+    unsolve: 
+      flash_notice: Frågan är inte löst längre.
+    watch: 
+      success: Du kommer nu få meddelanden via e-post för varje nytt svar på denna fråga.

@@ -1,0 +1,29 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  mailers: 
+    notifications: 
+      created_flag: 
+        subject: Новыя паведамленьні пазначаныя ў %{group}
+      earned_badge: 
+        subject: Вы атрымалі адзнаку ў %{group}!
+      favorited: 
+        subject: "%{login} дадаў Вашае пытаньне ва ўлюблёныя!"
+      follow: 
+        subject: "%{login} зараз сочыць за Вамі на %{app}"
+      give_advice: 
+        friend_subject: "Вашаму сябру патрэбная дапамога: %{question_title}"
+        subject: "Нам патрэбны Вашая парада: %{question_title}"
+      new_answer: 
+        subject_friend: Ваш сябар %{login} адказаў на пытаньне %{title}
+        subject_other: "%{login} адказаў на пытаньне %{title}"
+        subject_owner: "%{login} адказаў на Вашае пытаньне %{title}"
+      new_comment: 
+        subject: "%{login} пакінуў камэнтар у %{group}"
+      new_invitation: 
+        subject: "%{user} запрашае Вас далучыцца да %{group}"
+      report: 
+        subject: Паведаміць групе %{group} на %{app}

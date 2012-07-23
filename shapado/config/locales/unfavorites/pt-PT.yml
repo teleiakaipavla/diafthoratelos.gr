@@ -1,0 +1,13 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  activerecord: 
+    models: 
+      favorite: Favorita
+      favorites: Favoritas
+  unfavorites: 
+    create: 
+      success: A pergunta foi removida das suas favoritas
+      unauthenticated: Precisa de uma conta para remover uma favorita

@@ -1,0 +1,36 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    models: 
+      vote: Глас
+      votes: Гласови
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Ви и још %{votes} других корисника је подржало коментар.
+        no_user_more_votes: Више од %{votes} корисника је подржало коментар. Кликните на дугме да га подржите и ви.
+        no_user_no_vote: Кликните да подржите коментар.
+        no_user_one_vote: Само један корисник је подржао коментар. Кликните на дугме да га подржите и ви.
+        one_vote_two_users: Ви и још један корисник сте подржали коментар.
+        one_vote_user: Само сте ви подржали коментар.
+    control: 
+      have_voted_down: Кликните да поништите глас „против“
+      have_voted_up: Кликните да поништите глас „за“
+      to_vote_down: Кликните да гласате „против“
+      to_vote_up: Кликните да гласате „за“
+    create: 
+      average: 
+        one: "%{count} глас"
+        other: "%{count} гласа"
+      flash_error: Не можете да гласате за ово
+      flash_notice: Хвала вам на гласању!
+      unauthenticated: Анонимни корисници не могу да гласају
+    destroy: 
+      flash_notice: Ваш глас је поништен.
+    model: 
+      messages: 
+        closed_question: Не можете гласати на поруке које припадају затвореном питању
+        vote_down_comment: За коментаре не можете гласати „против“

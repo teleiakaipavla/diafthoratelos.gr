@@ -1,0 +1,22 @@
+.quick_question
+  %h2
+    = raw(current_group.question_prompt) || t("shared.quick_question")
+  -@question = Question.new
+  =form_for(@question, html: {class: "form", id: "ask_question", data: {'login-required' => true}}) do |f|
+    -lang = logged_in? ? current_user.main_language : nil
+    -lang = current_group.language ? current_group.language : lang
+
+    .step1
+      =f.text_field :title, class: "text_field", id: "question_title"
+
+    .step2
+      =f.label :body, "Enter the description for your question"
+      =f.text_area :body, class: "text_area", id: "question_body"
+      -if lang
+        = f.hidden_field :language, value: lang
+      -else
+        = language_select(f, @question)
+
+    =f.submit t(".ask_question", default: :"layouts.application.ask_question"), class: "ask_question require_login", data: {'login-required' => true}
+    .clear
+  .clear

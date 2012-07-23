@@ -1,0 +1,9 @@
+var commentable = $('<%="##{@comment.commentable.class.to_s.downcase}-#{@comment.commentable.id}"-%>');
+var comments = commentable.find('.comments');
+comments.append('<%= escape_javascript(render "comments/comment", comment: @comment, source: params[:source], mini: true) %>');
+comments.find('.counter').text(comments.find('article.comment').length);
+var form = commentable.find('form#new_comment');
+form.find('a.cancel_comment').trigger('click');
+form.find('textarea').val('');
+Effects.fade(comments.find('#comment-<%=@comment.id-%>'));
+Messages.show('<%=escape_javascript(t("comments.create.flash_notice"))-%>', "notice");

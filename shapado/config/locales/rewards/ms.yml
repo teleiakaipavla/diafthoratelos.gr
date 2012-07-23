@@ -1,0 +1,12 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  rewards: 
+    close: 
+      error: Anda perlu menunggu %{time} sebelum dapat memberikan ganjaran ini.
+    start: 
+      active_notice: Soalan ini sudah ada ganjaran aktif.
+      reputation_notice: Anda tidak cukup reputasi untuk membuat ganjaran untuk soalan ini.
+      wait_notice: Anda perlu menunggu 2 hari sebelum menawarkan ganjaran untuk soalan ini.

@@ -1,0 +1,14 @@
+%li#lang-select-toggle{"data-language"=>change_language_filter_path}
+  %label
+    = t('shared.languages')
+%li.current_language{"rel"=>'tipsy', "title" => t('shared.language_filter_tooltip')}
+  -if logged_in?
+    = link_to language_desc(current_user.language_filter), "#", "data-language" => current_user.language_filter
+  -else
+    = link_to language_desc(logged_out_language_filter), "#", "data-language" => logged_out_language_filter
+  %ul.drop-menu
+    -langs_options = languages_options(current_group.languages)
+    -langs_options.unshift([t('shared.any_lang'), "any"])
+    -langs_options.each do |k,v|
+      %li
+        = link_to k, "#", :class => 'lang-option', "data-language" => v

@@ -1,0 +1,22 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  open_requests: 
+    create: 
+      flash_notice: 成功地重新创建请求
+    destroy: 
+      flash_notice: 请求重新打开已删除成功
+    edit: 
+      title: 编辑请求重开
+    form: 
+      request_opening_details: 请求重新打开此问题
+    index: 
+      title: 要重新打开请求的列表
+    model: 
+      prural_name: 请重新打开
+    new: 
+      title: 请求重新打开
+    update: 
+      flash_notice: 请求重新打开更新成功

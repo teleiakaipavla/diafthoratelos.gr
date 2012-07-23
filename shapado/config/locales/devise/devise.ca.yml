@@ -1,0 +1,67 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  devise: 
+    confirmations: 
+      confirmed: Es va confirmar el seu compte. Ara que s'han signat dins.
+      send_instructions: Vostè rebrà un correu electrònic amb instruccions sobre com crear el vostre compte en uns quants minuts.
+    failure: 
+      inactive: El seu compte no va ser activat encara.
+      invalid: Adreça de correu electrònic no és vàlid o contrasenya.
+      invalid_token: Fitxa de l'autenticació no és vàlid.
+      locked: El seu compte és tancat.
+      timeout: La sessió de venciment, si us plau, signar dins una altra vegada continuar.
+      unauthenticated: Necessita inscriure's o inscriure's abans de continuar.
+      unconfirmed: Vostè ha de crear el vostre compte abans de continuar.
+    mailer: 
+      confirm_account: 
+        instruction1: "Pot confirmar el seu compte a través de l'enllaç sota:"
+        link: Confirmar el meu compte
+        welcome: Benvingut
+      confirmation_instructions: 
+        subject: Instruccions de confirmació
+      hello: Hola
+      reset_password: 
+        instruction1: Algú ha sol·licitat un enllaç per canviar la contrasenya, i vostè pot fer això a través de l'enllaç sota.
+        link: Canviar la meva contrasenya
+        nonrequested: Si vostè no hi hagi demanat això, si us plau ignori aquest missatge.
+        warning: La contrasenya no canviarà fins que no accedir a l'enllaç a dalt i creeu-ne un de nou.
+      reset_password_instructions: 
+        subject: Instruccions de reinicialització de contrasenya
+      unlock: 
+        instruction1: El seu compte ha estat tancat a causa d'una quantitat excessiva de senyal sense èxit en els intents.
+        instruction2: "Feu clic a l'enllaç sota per obrir el seu compte:"
+        link: Obrir el meu compte
+      unlock_instructions: 
+        subject: Obrir les instruccions
+    passwords: 
+      link: Has oblidat la contrasenya?
+      send_button: Enviï'm les instruccions de reinicialització de contrasenya
+      send_instructions: Vostè rebrà un correu electrònic amb les instruccions de restablir la contrasenya en uns quants minuts.
+      updated: Va ser canviat la contrasenya. Ara que s'han signat dins.
+    registrations: 
+      destroyed: Adéu! El seu compte amb èxit s'ha cancel·lat. Esperem veure'l altra vegada aviat.
+      link: Registra't
+      signed_up: Ha signat cap amunt d'amb èxit. Si està activat, una confirmació va ser enviat al seu correu electrònic.
+      updated: Vostè ha actualitzat el seu compte correctament.
+    sessions: 
+      link: Inicieu la sessió
+      new: 
+        openid_url: La seva URL d'OpenID
+        remember_me: Mantén-me connectat
+      registered_only: Must be signed in per veure el contingut.
+      sign_out: Tanca la sessió
+      signed_in: Signat dins reeixidament.
+      signed_out: Sessió no iniciada correctament.
+      signin_group: Inicieu la sessió a %{group}
+    unlocks: 
+      link: No va rebre instruccions de desbloquejar?
+      send_instructions: Vostè rebrà un correu electrònic amb instruccions sobre com obrir el seu compte en uns quants minuts.
+      unlocked: El seu compte s'obria. Ara que s'han signat dins.
+  errors: 
+    messages: 
+      already_confirmed: va ser confirmat
+      not_found: no s'ha trobat
+      not_locked: no va ser tancat

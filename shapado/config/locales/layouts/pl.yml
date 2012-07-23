@@ -1,0 +1,52 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  layouts: 
+    application: 
+      all: Wszystko
+      ask_question: Zadaj pytanie
+      badges: Odznaki
+      by_me: Przeze mnie
+      faq: FAQ
+      forgot: Nie pamiętasz?
+      join_group: Dołącz do %{group}
+      languages: Języki
+      log_in: Login
+      logged: Zalogowany jako %{login}
+      logout: Wyloguj się
+      manage_ads: Zarządzaj reklamami
+      moderate: Moderuj
+      now: teraz!
+      pages: Strony
+      preferred: Preferowane
+      questions: Pytania
+      random_question: Losowe pytanie
+      search: Szukaj
+      settings: Ustawienia
+      subscribe: Subskrybuj
+      tags: Etykiety
+      title: Pytania i odpowiedzi
+      unanswered: Bez odpowiedzi
+      users: Użytkownicy
+      welcome_from: Witamy! Możesz
+    manage: 
+      access: Dostęp
+      actions: Akcje
+      announcements: Ogłoszenia
+      appearance: Wygląd
+      constrains: Wymagania
+      content: Zawartość
+      domain: Domena
+      general: Ogólne
+      group_features: Funkcjonalności
+      group_user_management: Zarządzanie użytkownikami
+      invitations: Zaproszenia
+      members: Członkowie
+      pages: Strony
+      properties: Właściwości
+      reputation: Reputacja
+      rewards: Nagrody
+      stats: Statystyki
+      widgets: Gadżety

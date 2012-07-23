@@ -1,0 +1,37 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  doc: 
+    chat: 
+      title: Podrška za ćaskanje
+    plans: 
+      15millions: Petnaest miliona pregleda stranica mesečno
+      1million: Milion pregleda stranica mesečno
+      247_all_support: Na stranicama, preko e-pošte, ćaskanja i telefonski (24 č. dnevno)
+      5millions: Pet miliona pregleda stranica mesečno
+      all_support: Na stranicama, preko e-pošte, ćaskanja i telefonski
+      basic_restrictions: Bez oglasa po izboru i prilagodljivog sučelja
+      beta_info: Do sada su sva mrežna mesta besplatna i imaju iste mogućnosti kao Optimalni plan, osim podrške preko mrežnih stranica, e-pošte i ćaskanja.
+      big_sites: Visokoprometna mrežna mesta
+      custom_ads: Koristite sopstvene oglase
+      custom_analytics: Statistike prometa
+      custom_domain: Prilagođeni domen
+      custom_themes: Koristite naše prilagođene teme
+      custom_ui: Potpuno prilagodljivo sučelje
+      free_plan: besplatan plan
+      getting_popular: Sticanje popularnosti
+      huge_sites: Mrežna mesta s ogromnim prometom
+      month: mesec
+      page_views: Za mala/privatna mrežna mesta
+      plans: Planovi
+      private_site: Omogući privatni/javni pristup
+      small_private: Mala/privatna mrežna mesta
+      start_monetizing: počnite da zarađujete
+      support: Podrška
+      title: Planovi i cene
+      unlimited: Neograničeni mesečni promet
+      we_offer: Nudimo vam i
+      web_support: Podrška na mrežnim stranicama
+      with_unlimited: s neograničenim prometom, bez reklama i prilagođenih domena.

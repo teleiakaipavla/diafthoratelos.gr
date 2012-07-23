@@ -1,0 +1,69 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Pinxnl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  devise: 
+    confirmations: 
+      confirmed: Uw gebruiker is bevestigd. U bent nu aangemeld.
+      send_instructions: U ontvangt binnenkort een e-mail met daarin een beschrijving hoe u uw gebruiker kunt bevestigen.
+    failure: 
+      inactive: Uw gebruiker is nog niet geactiveerd.
+      invalid: Ongeldig e-mailadres of wachtwoord.
+      invalid_token: Ongeldig authenticatietoken.
+      locked: Uw gebruiker is geblokkeerd.
+      timeout: Uw sessie is verlopen. Meld opnieuw aan om door te kunnen gaan.
+      unauthenticated: U moet aanmelden of registeren voordat u door kunt gaan.
+      unconfirmed: U moet uw gebruiker bevestigen voordat u verder kunt gaan.
+    mailer: 
+      confirm_account: 
+        instruction1: "Bevestig uw gebruiker via de onderstaande link:"
+        link: Mijn gebruiker bevestigen
+        welcome: Welkom
+      confirmation_instructions: 
+        subject: Instructies voor bevestigen
+      hello: Hallo
+      reset_password: 
+        instruction1: Iemand heeft een verzoek gedaan om uw wachtwoord te wijzigen; u kunt dit doen via de onderstaande link.
+        link: Mijn wachtwoord wijzigen
+        nonrequested: Als dit verzoek niet van u komt, negeer deze e-mail dan.
+        warning: Uw wachtwoord wordt pas gewijzigd als u de onderstaande link gebruikt en een nieuw wachtwoord invoert.
+      reset_password_instructions: 
+        subject: Instructies voor het opnieuw instellen van uw wachtwoord
+      unlock: 
+        instruction1: Uw gebruiker is geblokkeerd vanwege een bovenmatige hoeveelheid aanmeldpogingen.
+        instruction2: "Klik hieronder om uw gebruiker te deblokkeren:"
+        link: Mijn gebruiker deblokkeren
+      unlock_instructions: 
+        subject: Instructie voor opheffen blokkade
+    passwords: 
+      link: Wachtwoord vergeten?
+      send_button: Stuur me instructies om mijn wachtwoord opnieuw in te stellen
+      send_instructions: U ontvangt binnenkort een e-mail met daarin een beschrijving hoe u uw wachtwoord kunt wijzigen.
+      updated: Uw wachtwoord is gewijzigd. U bent nu aangemeld.
+    registrations: 
+      destroyed: Tot ziens! Uw gebruiker is geannuleerd. We hopen u snel terug te zien.
+      link: Registreren
+      signed_up: U bent nu geregistreerd. Indien dit ingeschakeld is, werd er een bevestiging verstuurd naar uw e-mailadres.
+      updated: Uw gebruiker is bijgewerkt.
+    sessions: 
+      link: Aanmelden
+      new: 
+        openid_url: Uw OpenID-URL
+        remember_me: Ik wil aangemeld blijven
+      registered_only: U moet aangemeld zijn om de inhoud te zien.
+      sign_out: Afmelden
+      signed_in: Aangemeld.
+      signed_out: Afgemeld.
+      signin_group: Aanmelden bij %{group}
+    unlocks: 
+      link: Hebt u geen instructies ontvangen om de blokkade op te heffen?
+      send_instructions: U ontvangt binnenkort een e-mail met daarin een beschrijving hoe u de blokkade van uw gebruiker kunt opheffen.
+      unlocked: De blokkade van uw gebruiker is opgeheven. U bent nu aangemeld.
+  errors: 
+    messages: 
+      already_confirmed: is reeds bevestigd
+      not_found: niet gevonden
+      not_locked: was niet gesloten

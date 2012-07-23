@@ -1,0 +1,12 @@
+%h1
+  = t('layouts.manage.close_group')
+%p.description
+  = t('admin.manage.close_group.description')
+
+= form_for :group, :url => close_group_path(current_group) do |form|
+  = text_area_tag t('admin.manage.close_group.feedback')
+  .form-options
+    .buttons
+      = form.submit t('scaffold.close')
+
+

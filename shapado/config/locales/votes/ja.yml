@@ -1,0 +1,29 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+# Author: 青子守歌
+ja: 
+  activerecord: 
+    models: 
+      vote: 投票
+      votes: 投票
+  votes: 
+    control: 
+      have_voted_down: マイナスの投票を取り消します
+      have_voted_up: プラスの投票を取り消します
+      to_vote_down: マイナスの投票をします
+      to_vote_up: プラスの投票をします
+    create: 
+      average: 
+        one: "%{count}票"
+        other: "%{count}票"
+      flash_error: 投票はできません
+      flash_notice: 投票していただいてありがとうございます！
+      unauthenticated: ユーザでないと投票できません
+    destroy: 
+      flash_notice: あなたの投票を削除しました。
+    model: 
+      messages: 
+        closed_question: 閉じられた質問に属する記事には投票できません
+        vote_down_comment: コメントは投票で否決できません

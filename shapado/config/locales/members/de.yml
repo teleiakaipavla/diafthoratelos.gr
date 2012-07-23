@@ -1,0 +1,22 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Nutzergruppen
+  members: 
+    create: 
+      error: Der Nutzer **%{user_id}** ist leider nicht vorhanden.
+      notice: "%{login} wurde erfolgreich als %{role} hinzugefügt."
+    form: 
+      destroy_confirm: Bist Du sicher? Danach wird dieser Nutzer nicht mehr Mitglied dieser Gruppe sein.
+      login_tip: Suche während der Eingabe
+    index: 
+      manage_members_title: Mitglieder verwalten
+      title: Mitglieder der Gruppe %{name}
+      title_isolate: Mitglieder von %{name}
+    update: 
+      error: Du kannst die Mitgliedschaft von **%{login}** leider nicht ändern.

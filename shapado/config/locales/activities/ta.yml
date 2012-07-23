@@ -1,0 +1,17 @@
+# Messages for Tamil (தமிழ்)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Aswn
+# Author: Shanmugamp7
+ta: 
+  activerecord: 
+    models: 
+      activities: செயல்கள்
+      activity: செயல்
+  activity: 
+    asked: கேட்கப்பட்டது
+    changed: மாற்றப்பட்டது
+    created: உருவாக்கப்பட்டது
+    deleted: நீக்கப்பட்டது
+    requested_to_close: மூட கோரப்பட்டது
+    updated: புதிப்பிக்கப்பட்டது

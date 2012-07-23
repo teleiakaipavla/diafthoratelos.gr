@@ -1,0 +1,8 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+it: 
+  activemodel: 
+    models: 
+      constrains_config: Configurazione Vincoli di Reputazione

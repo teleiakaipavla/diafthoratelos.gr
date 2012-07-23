@@ -1,0 +1,20 @@
+# Messages for Norwegian Bokmål (‪norsk (bokmål)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  welcome: 
+    confirm_age: 
+      over_18: Jeg er over 18
+      under_18: Jeg er under 18
+      warning: "ADVARSEL: Denne siden kan inneholde seksuelt materiale."
+    feedback: 
+      email_description: Oppgi e-postadressen din slik at vi kan svare på meldingen din
+      feedback_description: Beskrivelse
+      feedback_title: Tittel
+      title: Send tilbakemeldingen din
+    index: 
+      active: Aktiv
+      browse_all_or_by_tags: Se %{full_list_of_questions} eller %{browse_by_tags}
+      full_list_of_questions: full liste over spørsmål
+      recent_questions: Siste spørsmål

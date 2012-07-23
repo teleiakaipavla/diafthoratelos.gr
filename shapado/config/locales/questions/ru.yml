@@ -1,0 +1,139 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: Eleferen
+# Author: G0rn
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Ответы
+        asked_by: Задано
+        body: Текст
+        closed: Закрыто
+        created_at: Задано
+        language: Язык
+        tags: Теги
+        title: Заголовок
+        updated_at: обновлено
+        updated_by: обновлено
+        views: Просмотры
+        votes: Голоса
+    models: 
+      question: Вопрос
+      questions: Вопросы
+  questions: 
+    answer: 
+      add_comment: Добавить комментарий…
+      favorite: Сохранить
+      flag: Отметить
+      pick_answer: Выбрать в качестве решения
+      unset_answer: Аннулировать решение?
+    create: 
+      flash_notice: Вопрос успешно создан.
+    edit: 
+      title: Редактирование вопроса
+    flag: 
+      title: Отметить вопрос
+    form: 
+      adult_content: Этот вопрос содержит материалы для взрослых.
+      body_tip: В чём состоит вопрос? Сделайте его более информативным.
+      language_tip: Выберите язык вопроса.
+      tags_tip: Используйте теги для добавления информации о вашем вопросе.
+    index: 
+      active: Активные
+      active_tooltip: Недавно обновлённые вопросы
+      ask_question: Задать вопрос
+      empty: Пока никто не задавал вопросы, станьте первыми!
+      help_to_answer: Помогите ответить на
+      hot: Горячие
+      hot_tooltip: Вопросы с наибольшей активностью за последние 5 дней
+      newest: Новейшие
+      newest_tooltip: Недавно заданные вопросы
+      oldest: Старейшие
+      title: Все вопросы
+      unanswered_questions: Вопросы без ответов
+      votes: Голоса
+    model: 
+      messages: 
+        empty_tags: Необходимо указать хотя бы один тег.
+        title_too_long: К сожалению, название не должно содержать более 100 знаков.
+        too_many_tags: К сожалению, можно ввести только не более 20 тегов.
+        too_short: К сожалению, ваш заголовок должен иметь больше чем %{count} слов.
+    move: 
+      group_label: "Переместить в группу с именем:"
+      submit: Переместить!
+      title: "Переместить вопрос: %{title}"
+    move_to: 
+      group_dont_exists: Группа %{group} не существует
+      success: Вопрос перемещён в %{group}
+    new: 
+      how_to_ask: Как задавать вопросы
+      title: Задать вопрос
+    question: 
+      accepted_tooltip: На этот вопрос есть принятый ответ
+    retag: 
+      title: Изменить теги
+    retag_form: 
+      cancel: Отменить
+      submit: Обновить теги!
+      title: Обновление тегов
+    retag_to: 
+      failure: К сожалению, теги не могут быть обновлены.
+      success: Теги успешно обновлены.
+    revert: 
+      title: Откатить вопрос
+    shared: 
+      flag: Отметить
+    show: 
+      accepted_tooltip: Один из ответов был принят в качестве правильного ответа
+      another_answers: Другие ответы
+      answers: Ответы
+      asked_on: задано
+      ban: Заблокировать
+      close: Закрыть
+      close_reason: "Вопрос закрыт по следующей причине:"
+      edit_request: Изменить запрос
+      flag: Отметить
+      flagged_as: С отметкой
+      flags: Отмечен как
+      last_activity: Последние действия
+      open: Открыть
+      related_questions: Похожие вопросы
+      request_closing: Запрос закрытия
+      request_closing_details: Оставить запрос на закрытие этого вопроса
+      request_opening: Переоткрытие запроса
+      request_opening_details: Запрос на повторное открытие этого вопроса
+      requested_close_as: Вы запросили закрытие этого вопроса
+      requested_reopening: Вы запросили переоткрытие этого вопроса
+      retag: Изменить теги
+      retract_request: Отозвать запрос
+      share: Разместить этот вопрос на
+      share_on: Разместить этот вопрос на %{site}
+      solution: Решение
+      to_answer_question: ответить на этот вопрос
+      unauthenticated_retag: Для изменения тегов вопросов необходимо зарегистрировать учётную запись
+      viewed: просмотрено
+    solve: 
+      flash_notice: Вопрос был решён.
+    tags: 
+      filter: Поиск по тегам
+      title: Теги
+      tooltip: Показать вопросы с тегом %{tag}
+    unanswered: 
+      empty: В этой группе нет вопросов без ответов.
+      expert: Эксперты
+      my_tags: Мои теги
+      tags: Теги без ответов
+      title: Вопросы без ответов
+    unsolve: 
+      flash_notice: Вопрос пока не решён.
+    unwatch: 
+      success: Вы больше не будете  получать почтовые уведомления по каждому новому ответу на этот вопрос
+    update: 
+      flash_notice: Вопрос успешно обновлён.
+    watch: 
+      success: Теперь вы будете  получать почтовые уведомления по каждому новому ответу на этот вопрос

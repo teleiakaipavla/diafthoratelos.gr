@@ -1,0 +1,8 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  activemodel: 
+    models: 
+      constrains_config: Konfiguration der Reputationsbeschränkungen

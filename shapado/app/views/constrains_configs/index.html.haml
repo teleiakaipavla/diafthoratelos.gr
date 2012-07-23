@@ -1,0 +1,32 @@
+%h1
+  =t("admin.manage.properties.constrains.reputation_constrains_subtitle")
+
+=render :partial => "admin/manage/properties/subtabs"
+
+%p.description
+  =t("admin.manage.properties.constrains.reputation_constrains_description")
+
+%ul.admin-nav
+  %li
+    = link_to t(".current", default: "current"), domain_url(custom: @group.domain, controller: "constrains_configs", action: "index")
+  - ConstrainsConfig.where(:group_id => nil).all.each do |mode|
+    %li
+      = link_to mode.name, domain_url(custom: @group.domain, controller: "constrains_configs", action: "index", mode: mode.id)
+ 
+  - current_group.constrains_configs.all.each do |mode|
+    %li
+      = link_to mode.name, domain_url(custom: @group.domain, controller: "constrains_configs", action: "index", mode: mode.id)
+      = link_to t('scaffold.edit'), domain_url(custom: @group.domain, controller: "constrains_configs", action: "edit", id: mode.id)
+      = link_to t('scaffold.destroy'),  constrains_config_url(mode), :metod => :delete, :confirm => t("scaffold.sure", :model => ConstrainsConfig.model_name.human)
+
+  %li   
+    = link_to t("scaffold.new", model: ConstrainsConfig.model_name.human), domain_url(custom: @group.domain, controller: "constrains_configs", action: "new")
+
+= form_for(@group, :html => {:class => "form", :multipart => true}) do |f|
+  = f.error_messages
+  = hidden_field_tag :source, domain_url(:custom => @group.domain, :controller => "admin/manage", :action => "properties", :tab => @active_subtab)
+
+  = render :partial => "groups/reputation_constrains_form", :object => f
+
+  .buttons
+    = f.submit t('scaffold.update'), :class => "save"

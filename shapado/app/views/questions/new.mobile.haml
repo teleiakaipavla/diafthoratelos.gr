@@ -1,0 +1,48 @@
+%div{:data => {:role => "page"}}
+  %div{:"data-role" => "header"}
+    %h1
+      = t('.title')
+    = link_to t('global.home'), '/mobile', "class" => "ui-btn-right"
+
+
+  %div{:"data-role" => "content"}
+    = form_for(@question, :html=>{:class => "form", :id => "ask_question"}) do |f|
+      = f.error_messages
+      = error_messages_for(:user)
+
+      =render "followup_form.html.haml", local_assigns
+
+      -if @question.position
+        = hidden_field_tag "question[position][lat]", @question.position["lat"], :class => "lat_input"
+        = hidden_field_tag "question[position][long]", @question.position["long"], :class => "long_input"
+      %div{:"data-role"=>"fieldcontain"}
+        = f.label :title, "#{t(:title, :scope => "activerecord.attributes.question")}*", :class => "label"
+        = f.text_field :title, :class => "text_field"
+        .description
+          = raw(current_group.question_prompt)
+      %div{:"data-role"=>"fieldcontain"}
+        =render "editor.html.haml", :f => f
+
+      -if current_group.languages.size>1 && AppConfig.enable_i18n
+        %div{:"data-role"=>"fieldcontain"}
+          = f.label :language, t(:language, :scope => "activerecord.attributes.question"), :class => "label"
+          = language_select(f, @question)
+          .description
+            = t(".language_tip")
+      -else
+        = f.hidden_field :language, :value => (current_group.language || AppConfig.default_language)
+
+      %div{:"data-role"=>"fieldcontain"}
+        %fieldset{:"data-role"=>"controlgroup", :"data-type"=>"horizontal"}
+          = f.label :wiki, "Wiki"
+          = f.check_box :wiki, :class => "checkbox"
+
+          = f.label :anonymous, t("scaffold.post_as_anonymous"), :class => "radio"
+          = f.check_box :anonymous, {:class => "checkbox"}, true, false
+
+      %div{:"data-role"=>"fieldcontain", :"data-inline" => "true"}
+        %fieldset{:"data-role"=>"controlgroup", :"data-type"=>"horizontal"}
+          = link_to t('scaffold.cancel'), questions_path(:format => :mobile), :class => "button cancel", :"data-role" => "button", :"data-theme" => "b"
+          = f.submit t('scaffold.create'), :"data-role" => "button"
+
+

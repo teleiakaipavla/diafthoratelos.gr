@@ -1,0 +1,35 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+# Author: Luckas Blade
+pt-PT: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Folhas de estilo
+        js: JavaScript
+    models: 
+      page: Página
+      pages: Páginas
+  pages: 
+    actions: 
+      create_page: Criar página nova
+      edit_page: Editar página
+      title: Acções
+    create: 
+      success: A página foi criada.
+    edit: 
+      title: A editar página
+    form: 
+      language_tip: Língua da página
+      title_tip: "Título da página, usado para referi-la. Por exemplo: [[FAQ|veja a FAQ]]"
+    index: 
+      create_page: Criar página nova
+      title: Lista de páginas
+      written_in: Escrita em %{language}
+    new: 
+      title: Página nova
+    title: Corrigir
+    update: 
+      success: A página foi actualizada.

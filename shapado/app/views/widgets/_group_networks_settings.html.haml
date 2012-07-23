@@ -1,0 +1,6 @@
+
+
+.field.networks
+  = render "shared/networks", :networks => widget.networks, :share => false
+
+= render :partial => "shared/external_widget_settings", :locals => {:widget => widget}

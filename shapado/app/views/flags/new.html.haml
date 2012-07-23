@@ -1,0 +1,5 @@
+
+
+= render "flags/#{@resource.class.to_s.tableize.singularize}", {:resource => @resource, :flag => @flag}
+
+= render "flags/form", :flag => @flag, :source => @source, :flaggeable => @resource, :form_id => "question_flag_form"

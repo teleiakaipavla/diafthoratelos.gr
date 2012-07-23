@@ -1,0 +1,12 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  rewards: 
+    close: 
+      error: Es necessari attender %{time} ante de conceder iste recompensa.
+    start: 
+      active_notice: Iste question ha jam un recompensa active.
+      reputation_notice: Tu non ha sufficiente reputation pro crear un recompensa pro iste question.
+      wait_notice: Es necessari attender 2 dies ante de offerer un recompensa pro iste question.

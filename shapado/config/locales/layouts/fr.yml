@@ -1,0 +1,82 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: Gomoko
+# Author: Hashar
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+# Author: Verdy p
+fr: 
+  layouts: 
+    application: 
+      all: Toutes
+      ask_question: Posez une question
+      badges: Insignes
+      by_me: Par moi
+      collaborate: Collaborez
+      contributed: Contribué
+      faq: FAQ
+      feed: Suivi
+      follow_us_and_share: Suivez-nous et à partagez
+      followed: Suivie
+      forgot: Oublié ?
+      home: Accueil
+      join_group: Rejoignez %{group}
+      languages: Langues
+      log_in: Se connecter
+      logged: Connecté %{login}
+      logout: Se déconnecter
+      manage_ads: Gérer les publicités
+      moderate: Modérer
+      need_to_signin: Vous devez d'abord vous connecter.
+      not_member_join_dialog: Vous devez rejoindre %{group} pour terminer cette action; cliquez ici pour le faire.
+      now: maintenant !
+      openid: 
+        explaination: "Si vous souhaitez ouvrir un compte ou juste vous connectez, sélectionnez un fournisseur openid:"
+      pages: Pages
+      preferred: Préféré
+      questions: Questions
+      questions_in: Questions en
+      questions_tagged: taguées
+      random_question: Question au hasard
+      search: Chercher
+      settings: Configuration
+      signup: Créer un compte
+      subscribe: S'inscrire
+      success_joining_group: Vous êtes maintenant membre de %{group}, merci de l'avoir rejoint!
+      tags: Balises
+      title: questions & réponses
+      unanswered: Sans réponses
+      users: Utilisateurs
+      welcome_from: Bienvenue ! Vous pouvez
+    manage: 
+      access: Accès
+      actions: Actions
+      announcements: Annonces
+      appearance: Apparence
+      close_group: Fermer le groupe
+      constrains: Contraintes
+      content: Contenu
+      dashboard: Dashboard
+      domain: Domaine
+      edit_layout: Modifier la mise en page
+      general: Général
+      group_features: Fonctionnalités
+      group_look_and_feel: Look & feel
+      group_user_management: Gestion des utilisateurs
+      invitations: Invitations
+      invoices: Factures
+      members: Membres
+      pages: Pages
+      properties: Propriétés
+      reputation: Réputation
+      rewards: Récompenses
+      social: Social
+      stats: États
+      theme: Thème
+      themes: Thèmes
+      widgets: Widgets
+    notifications: 
+      message: Si vous ne souhaitez plus recevoir de notifications automatiques de %{group}, vous pouvez changer votre configuration de notifications.

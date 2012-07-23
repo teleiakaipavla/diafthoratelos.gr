@@ -1,0 +1,10 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Papapep
+ca: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Necessita confirmació
+        title: Envia els correus electrònics de confirmació

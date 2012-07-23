@@ -1,0 +1,55 @@
+#!/usr/bin/env ruby
+
+# require File.expand_path("../../config/environment", __FILE__)
+
+require "#{File.expand_path("../..", __FILE__)}/lib/shapado/scripting/easy_loader"
+
+require 'eventmachine'
+require 'em-websocket'
+require 'magent'
+require 'magent/web_socket_server'
+require 'fixed_array'
+
+module Shapado
+  class WebSocketServer < Magent::WebSocketServer
+    def setup
+      @chat_messages = Hash.new
+      super
+    end
+
+    protected
+    def on_ack(ws, channel_id)
+      if messages = @chat_messages[channel_id]
+        messages.each {|msg| ws.send(msg.to_json) }
+      end
+    end
+
+    def validate_chat_message(channel_id, chat_message)
+      @chat_messages[channel_id] ||= FixedArray.new(10)
+      @chat_messages[channel_id].add(chat_message)
+      chat_message
+    end
+
+    def generate_unique_key(default = nil)
+      user = User.where(:socket_key => default).first if default.present?
+      key = (user ? user.socket_key : UUIDTools::UUID.random_create.hexdigest)
+    end
+
+    def validate_channel_id(id)
+      channel = Group.by_slug(id)
+      if channel
+        channel.slug
+      else
+        $stderr.puts "channel cannot be validated: #{id}"
+      end
+    end
+
+    def user_name(socket_key, sid)
+      user = User.where(:socket_key => socket_key).first
+      user ? user.name||user.nickname : "Guest #{sid}" # FIXME :/
+    end
+  end
+end
+
+Shapado::WebSocketServer.start(:debug => (Rails.env == "development"))
+

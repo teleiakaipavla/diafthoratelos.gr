@@ -1,0 +1,184 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+# Author: Tomi Toivio
+fi: 
+  activerecord: 
+    models: 
+      badge: Rintanappi
+      badges: Rintanapit
+  badges: 
+    index: 
+      all_tooltip: Näytä kaikki kulta-, hopea- ja pronssirintanapit.
+      bronze: Pronssi
+      bronze_tooltip: Pronssisia ansiomerkkejä on helppo voittaa. Ne kannustavat käyttäjiä osallistumaan.
+      description: Mitä enemmän osallistut kysymällä kysymyksiä tai vastaamalla niihin, sitä enemmän rinanappeja sinulle myönnetään. Nämä tulevat näkyviin käyttäjäprofiilisivullasi.
+      general: Tavalliset rintanapit
+      general_tooltip: Näytä kaikki määritellyt rintanapit.
+      gold: Kulta
+      gold_tooltip: Kultaiset ansiomerkit ovat suurin palkinto, mutta ne on myös vaikeinta saada. Vain kaikkein omistautuneimmat käyttäjät saavat näitä palkintoja.
+      silver: Hopea
+      silver_tooltip: Hopeisia ansiomerkkejä saavat aktiiviset käyttäjät, jotka ovat olleet mukana melko pitkään.
+      tags: Tagien rintanapit
+      tags_tooltip: Kun tagilla X merkityt kysymykset saavat yli 100 ääntä, tälle tagille luodaan merkki X.
+      title: rintanapit
+    shared: 
+      addict: 
+        description: Vieraillut sivustolla päivittäin 20 peräkkäisenä päivänä
+        name: Narkomaani
+      altruist: 
+        description: Ensimmäinen palkinto, jonka manuaalisesti myönsit toisen henkilön kysymykselle
+        name: Altruisti
+      autobiographer: 
+        description: Kaikki käyttäjäprofiilikentät tulivat valmiiksi
+        name: Omaelämäkerta
+      benefactor: 
+        description: Ensimmäinen palkinto, jonka itse manuaalisesti myönsit omalle kysymyksellesi
+        name: Hyväntekijä
+      celebrity: 
+        description: Saanut yli 100 seuraajaa
+        name: Julkkis
+      citizen_patrol: 
+        description: Merkitty ensimmäisen kerran
+        name: Kansalaisvartio
+      civic_duty: 
+        description: Äänestetty 300 kertaa
+        name: Kansalaisvelvollisuus
+      cleanup: 
+        description: Teki ensimmäisen palautumisen
+        name: Siistiminen
+      commentator: 
+        description: Jäljellä 10 kommenttia
+        name: Kommentaattori
+      critic: 
+        description: Äänesti kielteisesti ensimmäisen kerran
+        name: Kriitikko
+      disciplined: 
+        description: Poistettu omat kirjoitukset, joiden pisteet ovat 3 tai enemmän
+        name: Kurinalainen
+      editor: 
+        description: Muokkasi tekstiä ensimmäisen kerran
+        name: Toimittaja
+      effort_medal: 
+        description: Saanut 100 myönteistä ääntä
+        name: Ponnistelumitali
+      enlightened: 
+        description: On vastaus, joka on hyväksytty vähintään 10:llä kannatusäänellä
+        name: Valistunut
+      famous_question: 
+        description: Kysyi kysymyksen, jota katsottu 10 000 kertaa
+        name: Kuuluisia kysymys
+      fanatic: 
+        description: Vieraillut sivustolla päivittäin 100 peräkkäisen päivän ajan
+        name: Fanaatikko
+      favorite_answer: 
+        description: On 25 käyttäjän suosikkivastaus
+        name: Suosikkivastaus
+      favorite_question: 
+        description: Kysyi kysymyksen, jota seuraa 25 käyttäjää
+        name: Suosikkikysymys
+      friendly: 
+        description: Alkoi seurata jotakuta ensimmäisen kerran
+        name: Ystävällinen
+      good_answer: 
+        description: Antoi vastauksen, joka saavutti keskimäärin 25 ääntä tai enemmän
+        name: Hyvä vastaus
+      good_question: 
+        description: Kysyi kysymyksen, joka sai keskimäärin 25 ääntä tai enemmän
+        name: Hyvä kysymys
+      great_answer: 
+        description: On vastaus, jota on kannatettu äänestyksessä 100 kertaa
+        name: Upea vastaus
+      great_question: 
+        description: Kysyi kysymyksen, joka sai 100 kannastusääntä
+        name: Upea kysymys
+      guru: 
+        description: Antoi kysymykseen ratkaisun, joka sai keskimäärin 40 ääntä tai enemmän
+        name: Guru
+      inquirer: 
+        description: Kysyi kysymyksen ensimmäistä kertaa
+        name: Kyselijä
+      interesting_person: 
+        description: Saanut yli 10 seuraajaa
+        name: Mielenkiintoinen henkilö
+      investor: 
+        description: Ensimmäinen palkinto, jonka tarjosit toisen henkilön kysymykseen
+        name: Sijoittaja
+      merit_medal: 
+        description: Saanut 200 myönteistä ääntä
+        name: Ansiomitali
+      necromancer: 
+        description: Vastasi kysymykseen yli 60 päivää myöhemmin vähintään viidellä äänellä
+        name: Nekromantikko
+      nice_answer: 
+        description: On vastaus, joka on saanut 10 kannatusääntä
+        name: Kiva vastaus
+      nice_question: 
+        description: Kysyi kysymyksen, joka on saanut 10 kannatusääntä
+        name: Kiva kysymys
+      notable_question: 
+        description: Kysyi kysymyksen, jota katsottu 2500 kertaa
+        name: Merkittävä kysymys
+      organizer: 
+        description: Teki ensimmäisen uudelleenmerkinnän
+        name: Järjestäjä
+      peer_pressure: 
+        description: Poisti oman kirjoituksen, jolla oli -3 pistettä tai vähemmän
+        name: Vertaispaine
+      pioneer: 
+        description: Oli yksi ensimmäisiä rekisteröityneitä
+        name: Pioneeri
+      popstar: 
+        description: On 500 myönteistä ääntä, enintään 10 kielteistä
+        name: Poptähti
+      popular_person: 
+        description: Saanut yli 50 seuraajaa
+        name: Suosittu henkilö
+      popular_question: 
+        description: Kysyi kysymyksen, jota on katsottu 1000 kertaa
+        name: Suosittu kysymys
+      promoter: 
+        description: Ensimmäinen palkinto, jonka tarjosit omaan kysymykseesi
+        name: Edistäjä
+      rockstar: 
+        description: On 100 myönteistä ääntä, enintään 10 kielteistä
+        name: Rock-tähti
+      scholar: 
+        description: Vastasi ensimmäiseksi itsekysyttyyn kysymykseen hyväksytyllä vastauksella
+        name: Tutkija
+      self-learner: 
+        description: Vastannut omaan kysymykseen vähintään kolmella kannatusäänellä
+        name: Itseopiskelija
+      service_medal: 
+        description: On 300 myönteistä ääntä
+        name: Palvelumitali
+      shapado: 
+        description: Vieraillut sivustolla päivittäin 8 peräkkäisenä päivänä
+      stellar_answer: 
+        description: 100 käyttäjää on merkinnyt tämän käyttäjän vastauksen suosikikseen
+        name: Tähtivastaus
+      stellar_question: 
+        description: Kysyi kysymyksen, jota seuraa 100 käyttäjää
+        name: Tähtikysymys
+      student: 
+        description: Kysyi kysymyksen, jolla on vähintään yksi kannatusääni
+        name: Opiskelija
+      supporter: 
+        description: Äänesti myönteisesti ensimmäisen kerran
+        name: Kannattaja
+      troubleshooter: 
+        description: Vastasi ensimmäisen kerran
+        name: Vianjäljittäjä
+      tutor: 
+        description: Antoi kysymykseen ratkaisun, joka sai keskimäärin 2 ääntä tai enemmän
+        name: Tuutori
+    show: 
+      description: "Käyttäjät, jotka ansaitsivat tämän rintanapin. Äskettäin myönnetty henkilöille:"
+      earned: ansainnut
+      for_tag_bronze: 200 ääntä tunnisteessa %{tag}
+      for_tag_gold: 1000 ääntä tunnisteessa %{tag}
+      for_tag_silver: 400 ääntä tunnisteessa %{tag}
+      title: Rintanappi %{type}

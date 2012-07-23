@@ -1,0 +1,6 @@
+%h1
+  = t('widgets.edit.title')
+%p.description
+  =t(".description")
+
+= render "form", :widget => @widget, :position => params[:position], :tab => params[:tab]

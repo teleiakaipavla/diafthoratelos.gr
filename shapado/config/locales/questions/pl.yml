@@ -1,0 +1,109 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Odpowiedzi
+        asked_by: Zadane przez
+        banned: Zbanowany
+        body: Treść
+        closed: Zamknięte
+        created_at: Zapytany
+        language: Język
+        tags: Etykiety
+        title: Tytuł
+        updated_at: zaktualizowane
+        updated_by: zaktualizowane przez
+        views: Odsłon
+        votes: Oceny
+    models: 
+      question: Pytanie
+      questions: Pytania
+  questions: 
+    answer: 
+      add_comment: Dodaj komentarz
+      favorite: Zapisz
+      favorite_tooltip: Dodać tę odpowiedź do ulubionych
+      pick_answer: Wybierz jako rozwiązanie
+      unfavorite_tooltip: Usuń tę odpowiedź z ulubionych
+    create: 
+      already_registered: Użytkownik posiadający adres e-mail %{email} jest już zarejestrowany, proszę się zalogować korzystając z tego e-maila.
+    disallow_spam: 
+      error: Musisz poczekać 20 sekund zanim zadasz kolejne pytanie.
+    form: 
+      add_attachment: Dodaj załącznik
+      adult_content: To pytanie zawiera materiały dla dorosłych.
+      language_tip: Wybierz język w którym jest zadawane to pytanie.
+      remove_attachment: Usuń
+    history: 
+      back: ← powróć do pytania
+    index: 
+      active: Aktywne
+      active_tooltip: Pytania, które zostały ostatnio zaktualizowane
+      ask_question: Zadaj pytanie
+      empty: Nikt jeszcze nie zadawał pytań. Bądź pierwszy!
+      has_followers: 
+        one: "%{count} śledzący"
+        other: "%{count} śledzących"
+      hot: Gorące
+      newest: Najnowsze
+      newest_tooltip: Ostatnio zadawane pytania
+      oldest: Najstarsze
+      title: Wszystkie pytania
+      unanswered_questions: Pytania bez odpowiedzi
+    model: 
+      messages: 
+        empty_tags: Należy użyć co najmniej jednej etykiety.
+        tags_not_added: Etykiety '%{tags}' nie mogą zostać dodane. Wymagane jest posiadanie reputacji %{reputation_required} aby tworzyć nowe etykiety
+        title_too_long: Niestety, tytuł nie może zawierać więcej niż 100 znaków.
+        too_many_tags: Możesz wprowadzić maksimum 20 etykiet
+        too_short: 
+          one: Tytuł musi zawierać więcej niż %{count} słowo.
+          other: Tytuł musi zawierać więcej niż %{count} słów.
+    move: 
+      submit: Przenieś!
+      title: "Przenieś pytanie: %{title}"
+    move_to: 
+      success: Pytanie przeniesione do grupy %{group}
+    new: 
+      how_to_ask: Jak zadawać pytania
+      title: Zadaj pytanie
+    question: 
+      answer_verb: Odpowiedz
+      has_answers: 
+        one: "%{count} odpowiedź"
+        other: "%{count} odpowiedzi"
+      wiki_title: "Wiki: %{title}"
+    retag_form: 
+      cancel: Anuluj
+    show: 
+      another_answers: Inne odpowiedzi
+      asked_on: zadane na
+      ban: Banuj
+      close: Zamknięte
+      follow_tooltip: Śledź to pytanie
+      history: Historia
+      more_actions: Więcej akcji
+      open: Otwarte
+      solution: Rozwiązanie
+      unban: Odbanuj
+      unfollow_tooltip: Przestań śledzić to pytanie
+      viewed: wyświetlono
+    solve: 
+      flash_notice: Problem został rozwiązany.
+    tags: 
+      title: Etykiety
+    toolbar: 
+      answer_by_mail: Odpowiedz poprzez e-mail
+      more_actions: Więcej akcji
+      requests: Żądania
+    unanswered: 
+      expert: Eksperci
+      title: Pytania bez odpowiedzi
+    unwatch: 
+      success: Nie będziesz więcej otrzymywał powiadomień na e-mail o nowych odpowiedziach na to pytanie.
+    watch: 
+      success: Będziesz otrzymywać powiadomienia poprzez e-mail o nowych odpowiedziach na to pytanie.

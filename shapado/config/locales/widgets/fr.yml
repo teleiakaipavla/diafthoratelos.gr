@@ -1,0 +1,122 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gomoko
+# Author: Od1n
+# Author: Patcito
+fr: 
+  widgets: 
+    about: 
+      description: Ce widget affiche une brève description de votre groupe.
+      title: À propos
+    adsense: 
+      description: Ce widget vous permet d'afficher les annonces de Google AdSense.
+      title: AdSense
+    ask_question: 
+      ask: Demander
+      description: Ce widget permet aux utilisateurs de poser des questions depuis n'importe où.
+      footer: Voir toutes les questions sur %{group}
+      title: "Poser une question:"
+      view_question: <p>Vous pouvez la visualiser <a href="%{question}">ici</a> ou demander une autre ci-dessous.</p>
+    badges: 
+      description: Ce widget affiche les décorations récemment obtenues par les utilisateurs.
+      see_all: Voir toutes les décorations
+      title: Insignes récents
+    contributors: 
+      description: Ce widget affiche la liste des personnes qui ont contribué à une question.
+      title: Contributeurs à la question
+    create: 
+      notice: Le widget a été créé avec succès.
+    current_tags: 
+      description: Ce widget affiche les balises suivies par l'utilisateur actuel.
+    custom_html: 
+      description: Ajouter n'importe quel HTML que vous voulez ici.
+    edit: 
+      title: Modifier le widget
+    group_networks: 
+      description: Ce widget affiche une liste de liens de réseau social afin que vos utilisateurs puissent vous suivre là.
+      title: Nous suivre
+    groups: 
+      description: Ce widget montre les derniers groupes en date
+      title: Groupes récents
+    index: 
+      add_new: Ajouter un nouveau widget
+      description: Utiliser les flèches pour déplacer les widgets
+      external_widgets: Externe
+      external_widgets_title: Widgets que vous pouvez intégrer sur votre propre site
+      footer: Pied de page
+      header: En-tête
+      mainlist_widgets: Liste principale
+      mainlist_widgets_title: Widgets qui apparaîtront sur la liste principale des questions
+      name: Nom du widget
+      navbar: Barre de navigation
+      question_widgets: Question
+      question_widgets_title: Widgets qui apparaîtront sur chaque page de question
+      sidebar: Barre latérale
+      title: administrer les widgets de la barre latérale
+      type: "Type :"
+      welcome_widgets: Bienvenue
+      zone: "Section de la page:"
+    mod_info: 
+      description: Ce widget affiche des informations adaptées aux modérateurs telles que les drapeaux et les demandes de rapport.
+    pages: 
+      description: Ce widget liste les pages wiki
+      new: Ajouter une nouvelle page
+      title: Pages wiki
+    question_badges: 
+      description: Ce widget affiche les décorations gagnées avec cette question.
+      title: Décorations de question
+    question_stats: 
+      description: Ce widget affiche des statistiques sur une question comme sa date de création et son nombre de visualisations.
+    question_tags: 
+      description: Ce widget affiche les balises liées à la page en cours.
+      title: Balises de question
+    related_questions: 
+      description: Ce widget affiche une liste de questions liées à la question en cours.
+      title: Questions connexes
+    settings: 
+      code: "Copiez et collez ce code dans votre site ou votre blog, comme un widget texte dans votre Wordpress:"
+      custom_external_css: "Inclure du CSS personnalisé à votre widget (recommandé si vous n'incluez pas le CCS de Shapado):"
+      custom_html: "HTML personnalisé:"
+      exclude_css_on_external: Exclure le CSS du site shapado de votre widget
+      limit: "Quantité à afficher :"
+      on_questions: Afficher sur la page de la liste principale des questions
+      on_show_question: S'affiche en affichant une question
+      on_welcome: Afficher sur la page d'accueil
+      preview: "Aperçu du widget:"
+    share: 
+      description: Ce widget affiche différents boutons pour partager la page actuelle sur les réseaux sociaux.
+      title: Partager
+    sharing_buttons: 
+      description: Ce widget affichera les boutons de partage social.
+      title: Partager cela sur
+    suggestions: 
+      description: Suggestion d'amis et de balises à suivre pour l'utilisateur.
+      follow_tag: + Suivre la balise
+      follow_user: + Suivre l'utilisateur
+      followed_by: Suivi par %{user}
+      title: Personnes et balises à suivre
+      unfollow_tag: "- Balise ne plus suivre"
+      unfollow_user: "- Ne plus suivre l'utilisateur"
+    tag_cloud: 
+      description: Ce widget montre un nuage de tags
+      title: Nuage de tags
+    tag_list: 
+      description: Ce widget affiche les balises liées à la page en cours.
+      title: Balises
+    top_groups: 
+      description: Ce widget montre le top 5 des groupes les plus actifs
+      has_members: 
+        one: "%{count} membre"
+        other: "%{count} membres"
+      title: Top 5 des groupes
+    top_users: 
+      description: Ce widget montre le top 5 des utilisateurs
+      title: Top 5 des utilisateurs
+    update: 
+      notice: Le widget a été mis à jour avec succès.
+    users: 
+      description: Ce widget montre les nouveaux membres enregistrés
+      title: Utilisateurs récents
+    widget: 
+      change_position: "Changer la position du widget:"

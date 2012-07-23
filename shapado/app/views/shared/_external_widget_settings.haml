@@ -1,0 +1,13 @@
+- if params[:tab] == 'external'
+  .group
+    = check_box_tag "settings[exclude_css_on_external]", nil, widget.settings["exclude_css_on_external"], :class => "checkbox"
+    = label :exclude_css_on_external, t('widgets.settings.exclude_css_on_external'), :class => "radio"
+  .group
+    = label :custom_external_css, t('widgets.settings.custom_external_css')
+    = text_area_tag "settings[custom_external_css]", widget.settings["custom_external_css"], :placeholder => "section a {font-size:18px;}"
+  .group
+    = label :preview, t('widgets.settings.preview')
+    = raw widget_code(widget)
+  .group
+    = label :settings, t('widgets.settings.code')
+    = widget_code(widget)

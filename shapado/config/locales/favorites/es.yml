@@ -1,0 +1,13 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  activerecord: 
+    models: 
+      favorite: Favorito
+      favorites: Favoritos
+  favorites: 
+    create: 
+      success: La pregunta ha sido añadida a tus favoritas
+      unauthenticated: Necesitas tener una cuenta para agregar favoritos

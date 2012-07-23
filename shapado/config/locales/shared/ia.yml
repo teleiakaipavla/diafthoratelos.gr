@@ -1,0 +1,76 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  shared: 
+    any_lang: Omne lingua
+    by_anon: Per anonymo
+    current_tags: 
+      title: Etiquettas seligite
+    description: Description
+    empty: 
+      activities: 
+        description: 
+          text: Iste loco se plenara automaticamente quando on comencia a usar iste sito.
+        title: Il non ha activitates al momento.
+      answers: 
+        description: 
+          text: Sia le prime!
+        title: Nemo ha ancora respondite a iste question.
+      default: 
+        description: 
+          text: Sia le prime a %{action_link}!
+        title: Regrettabilemente, il non ha multo a vider hic.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Clicca hic pro vider questiones in omne linguas.
+        title: Regrettabilemente, nulle question es disponibile in iste lingua.
+      filtered_questions: 
+        description: 
+          action_link: Clicca hic pro monstrar tote le questiones
+        title: Regrettabilemente, nulle question es disponibile con iste filtro.
+      questions: 
+        description: 
+          action_link: poner un question
+          text: Sia le prime a <a href="%{url}"> %{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: ora
+          text: crear un %{action_link}
+        title: Tu non ha ancora create apparentias.
+    filter: "Filtro:"
+    language: "Lingua:"
+    language_filter_tooltip: Proba con un altere lingua.
+    languages: "Linguas:"
+    layout: 
+      footer: 
+        cc_footer: Tote le contento e datos de Shapado.com es disponibile sub licentia %{cc_link}
+        powered_by: Actionate per %{source_link} %{version} sub le %{agpl_link}
+    login_drop_down: 
+      sign_up_user_pass: Crea un conto con adresse de e-mail e contrasigno
+      with_email_pass: Identifica te con tu adresse de e-mail
+      with_facebook: con Facebook
+      with_google: con Google
+      with_identica: con Identi.ca
+      with_linked_in: con LinkedIn
+      with_openid: OpenID
+      with_twitter: con Twitter
+    manage_navigation: 
+      title_content: Contento del gruppo
+      title_features: Functionalitate del gruppo
+      title_options: Optiones de gruppo
+    name: Nomine
+    preferred_lang: Mi linguas preferite
+    quick_question: 
+      random_question: Responder a un question aleatori
+    social_connect: 
+      find_friends_facebook: Trovar amicos in Facebook
+      find_friends_identica: Trovar amicos in Identi.ca
+      find_friends_linked_in: Trovar amicos in LinkedIn
+      find_friends_twitter: Trovar amicos in Twitter
+    topbar: 
+      admin: Admin
+      logged_as: Authenticate como %{login}
+      user_page: Mi pagina
+    view_mode: "Modo de visualisation:"

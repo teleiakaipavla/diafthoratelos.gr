@@ -1,0 +1,179 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Odgovori
+        asked_by: "Postavio:"
+        banned: Zabranjeno
+        body: Tekst
+        closed: Zatvoreno
+        created_at: Postavljeno
+        language: Jezik
+        tags: Oznake
+        title: Naslov
+        updated_at: ažurirano
+        updated_by: "ažurirao:"
+        views: Pregledi
+        votes: Glasovi
+    models: 
+      question: Pitanje
+      questions: Pitanja
+  questions: 
+    answer: 
+      add_comment: Dodaj komentar
+      favorite: Sačuvaj
+      favorite_tooltip: Dodaj pitanje u omiljene
+      flag: Označi
+      pick_answer: Izaberite rešenje
+      unfavorite: Ukloni sačuvano
+      unfavorite_tooltip: Ukloni pitanje iz omiljenih
+      unset_answer: Razrešiti rešenje?
+    answer_toolbar: 
+      flagged_by_you: Označeno od strane vas
+    close: 
+      failure: Ovo pitanje ima aktivnu nagradu i ne može se zatvoriti.
+    create: 
+      already_registered: Već je upisan korisnik s adresom %{email}. Prijavite se s njom.
+      flash_notice: Pitanje je postavljeno.
+    disallow_spam: 
+      error: Sačekajte dvadeset sekundi pre postavljanja drugog pitanja.
+    edit: 
+      title: Uređivanje pitanja
+    flag: 
+      title: Označavanje pitanja
+    form: 
+      add_attachment: Dodaj prilog
+      adult_content: Ovo pitanje sadrži materijal za odrasle.
+      body_tip: Šta želite da pitate? Budite opisni.
+      language_tip: Izaberite jezik pitanja.
+      related_questions_desc: Ovde će biti prikazana slična pitanja.
+      remove_attachment: Ukloni
+      tags_tip: Koristite oznake da dodate više o svom pitanju.
+    history: 
+      back: ← nazad na pitanje
+    index: 
+      active: Aktivna
+      active_tooltip: Nedavno ažurirana pitanja
+      ask_question: Postavi pitanje
+      empty: Još niko nije postavio nijedno pitanje. Budite prvo koji će to da uradi!
+      followers_tooltip: Pitanja s najviše pratioca
+      has_followers: 
+        one: "%{count} pratilac"
+        other: "%{count} pratioca"
+      help_to_answer: Pomozite nam da odgovorimo na
+      hot: Zanimljiva
+      hot_tooltip: Pitanja s najviše aktivnosti u poslednjih pet dana
+      newest: Najnovija
+      newest_tooltip: Najskorija postavljena pitanja
+      oldest: Najstarija
+      title: Sva pitanja
+      unanswered_questions: neodgovorena pitanja
+      votes: Glasovi
+    model: 
+      messages: 
+        empty_tags: Nažalost, morate uneti barem jednu oznaku.
+        tags_not_added: Ne mogu da dodam oznake „%{tags}“. Da biste mogli da dodajete oznake, potreban vam je ugled od %{reputation_required}
+        title_too_long: Naslov ne može sadržati više od sto znakova.
+        too_many_tags: Nažalost, možete uneti najviše dvadeset oznaka.
+        too_short: 
+          one: Naslov mora da ima više od %{count} reč.
+          other: Naslov mora da ima više od %{count} reči.
+    move: 
+      group_label: "Premesti u grupu s naslovom:"
+      submit: Premesti
+      title: "Premeštanje pitanja: %{title}"
+    move_to: 
+      group_dont_exists: Grupa %{group} ne postoji
+      success: Pitanje je premešteno u %{group}
+    new: 
+      description: Napišite opisno i ne zaboravite da dodate srodne oznake, da bi se pitanje moglo lakše pronaći.
+      how_to_ask: Kako da postavite pitanje
+      title: Postavljanje pitanja
+    question: 
+      accepted_tooltip: Ovo pitanje ima odgovor koji je prihvaćen
+      answer_verb: Odgovori
+      has_answers: 
+        one: "%{count} odgovor"
+        other: "%{count} odgovora"
+      wiki_title: "Viki: %{title}"
+    retag: 
+      title: Ponovno označavanje
+    retag_form: 
+      cancel: Otkaži
+      submit: Ažuriraj oznake
+      title: Ažuriranje oznaka
+    retag_to: 
+      failure: Ne mogu da ažuriram oznake.
+      success: Oznake su ažurirane.
+    revert: 
+      title: Vraćanje pitanja
+    shared: 
+      flag: Oznaka
+    show: 
+      accepted_tooltip: Jedan od odgovora je prihvaćen kao tačan.
+      another_answers: Drugi odgovori
+      answers: Odgovori
+      asked_on: postavljeno na
+      ban: Zabrani
+      close: Zatvori
+      close_reason: "Pitanje je zatvoreno iz sledećeg razloga:"
+      create_reward: Napravi nagradu
+      create_reward_description: Nagradite najbolje pitanje s delom vaše karme.
+      edit_request: Uredi zahtev
+      flag: Oznaka
+      flagged_as: Označeno kao
+      flags: Prijavljeno kao
+      follow_tooltip: Prati ovo pitanje
+      follow_up: Prosledi
+      follow_up_description: Napravite novo pitanje zasnovano na ovoj poruci.
+      follow_up_of: Pitanje je postavljeno kao prosleđivanje
+      history: Istorija
+      last_activity: Poslednja aktivnost
+      more_actions: Više radnji
+      open: Otvori
+      related_questions: Srodna pitanja
+      request_closing: Zahtevaj zatvaranje
+      request_closing_details: Zahtevajte zatvaranje ovog pitanja
+      request_opening: Zahtevaj ponovno otvaranje
+      request_opening_details: Zahtevaj ponovno otvaranje pitanja
+      requested_close_as: Zahtevali ste zatvaranje pitanja kao
+      requested_reopening: Zahtevali ste ponovno otvaranje pitanja
+      retag: Preoznači
+      retract_request: Povuci zahtev
+      share: Delite ovo pitanje na
+      share_on: Delite ovo pitanje na %{site}
+      solution: Rešenje
+      to_answer_question: da odgovorite na ovo pitanje
+      unauthenticated_retag: Morate imati nalog da biste mogli da preoznačavate pitanja
+      unban: Ukloni zabranu
+      unfollow_tooltip: Prestani s praćenjem ovog pitanja
+      viewed: pregledano
+    solve: 
+      flash_notice: Pitanje je rešeno.
+    tags: 
+      filter: Pretraži oznake
+      title: Oznake
+      tooltip: Prikaži pitanja s oznakom %{tag}
+    toolbar: 
+      answer_by_mail: Odgovori preko e-pošte
+      more_actions: Više radnji
+      requests: Zahtevi
+      your_close_request: Vaš zahtev za zatvaranje
+    unanswered: 
+      empty: Ova grupa nema neodgovorenih pitanja.
+      expert: Stručnjaci
+      my_tags: Moje oznake
+      tags: Neodgovorene oznake
+      title: Neodgovorena pitanja
+    unsolve: 
+      flash_notice: Pitanje više nije rešeno.
+    unwatch: 
+      success: Više nećete primati e-obaveštenja za svaki novi odgovor na ovo pitanje.
+    update: 
+      flash_notice: Pitanje je ažurirano.
+    watch: 
+      success: Od sada ćete primiti e-obaveštenje za svaki novi odgovor na ovo pitanje.

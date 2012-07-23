@@ -1,0 +1,39 @@
+# Messages for Swedish (Svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lokal Profil
+# Author: Tobulos1
+sv: 
+  admin: 
+    manage: 
+      content: 
+        footer: Sidfot
+        head: rubrik
+        question_help: Fråga hjälp
+        title: Anpassat innehåll
+        top_bar: Översta fältet
+        top_bar_tip: Ange en länk per rad
+      properties: 
+        domain: 
+          description: "Du kan skapa en karta över din webbplats så att den kan nås via din egen domän. Såhär gör du det:"
+          instruction1: För att göra så måste du först logga in på din domänleverantör. Det är platsen där du köpte din domän, t.ex %{subdomain}.com.
+          instruction2: Där måste du gå till DNS avsnittet och skapa något som kallas en CNAME.
+          instruction3: Sätt 'www' eller något annat som namnet på din CNAME.
+          instruction4: "Sedan i värd-eller målfältet, sätt din nuvarande Shapado domän: %{domain}."
+          instruction5: När detta är gjort, efter en timme eller så, ska din domän www.%{subdomain} peka på %{appdomain}.
+          instruction6: När detta är fallet, kom tillbaka hit och sätt ditt domännamn www.%{subdomain} i fältet nedan och tryck på 'uppdatera'. Om du har frågor, fråga oss i %{chat_url} eller på vårt supportforum.
+          title: Ställ in din domän
+          warning: Är du säker på att du vill ändra din domän?
+        general: 
+          title: Grupp-egenskaper
+        rewards: 
+          reputation_rewards_description: Denna blankett tillåter dig att konfigurera hur användare kan vinna och förlora rykte-poäng för en viss åtgärd
+          reputation_rewards_subtitle: Lista över rykt- belöningar
+          title: Belöningar
+        share: 
+          asking_from_twitter: Ställa frågor från Twitter
+          ends_with_example: "t.ex. #shapado"
+          question_must_include_example: "t.ex. #iAsk"
+          twitter_account: Det Twitter-konto dina användare kommer att ställa frågor till.
+        theme: 
+          logo_legend: Ladda upp en logotyp för din grupp. Det måste vara mindre än 2MB.

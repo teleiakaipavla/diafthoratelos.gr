@@ -1,0 +1,9 @@
+%ul.user-list.menubar.offline{'data-signin-notice' => t('layouts.application.need_to_signin')}
+  - unless current_group.is_email_only_signup?
+    %li
+      %a.signin-dropdown
+        = t('devise.sessions.link')
+      = render "shared/login_drop_down"
+  - else
+    %li
+      = link_to t('devise.sessions.link'), new_user_session_path, :class => 'signin-dropdown'

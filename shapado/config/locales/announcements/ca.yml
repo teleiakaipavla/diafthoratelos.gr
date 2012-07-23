@@ -1,0 +1,22 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+ca: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Acaba a
+        message: Missatge
+        only_anonymous: Només per a usuaris anònims
+        starts_at: Comença a
+  announcements: 
+    actions: 
+      delete: Elimina
+      title: Accions
+    create: 
+      success: El seu anunci es creava reeixidament.
+    index: 
+      description: Gestionar i crear nous anuncis que es mostraran lloc ampli als seus visitants.
+      title: Avisos

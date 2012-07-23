@@ -1,0 +1,61 @@
+@import "setup"
+
+body
+  font-family: $arial
+  font-size: $s
+
+// Headings > H1, H2, H3, H4, H5, H6
+// -------------------------------------------------------------------------------------------------------------------
+h1, .h1
+  font: $xxl/$xxl
+h2, .h2
+  font: $xl/$xl
+h3, .h3
+  font: $l/$l
+h4, .h4
+  font: $m/$m
+h5, .h5
+  font: $s/$s
+h6, .h6
+  font: $xs/$xs
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6
+  font-weight: bold
+
+// Paragraphs > P, BR, LI, OL, UL, A
+// -------------------------------------------------------------------------------------------------------------------
+p, .p,
+ul, ol, li,
+a
+  font: normal $s/$l
+br
+  font-size: 0px
+
+// Formatting Tags > B, EM, I, SMALL, STRONG, SUB
+// -------------------------------------------------------------------------------------------------------------------
+b, .b,
+strong, .strong
+  font-weight: bold
+em, .em,
+i, .i
+  font-style: italic
+small, .small,
+sub, .sub,
+sup, .sup
+  font-size: $xs
+
+// "Computer Output" Tags > CODE, PRE
+// -------------------------------------------------------------------------------------------------------------------
+code, .code,
+pre, .pre
+  font-family: $courier
+
+article
+  padding: 5px
+
+ul, ol
+  list-style: none

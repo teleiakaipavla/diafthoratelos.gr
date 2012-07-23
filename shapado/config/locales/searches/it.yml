@@ -1,0 +1,20 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+it: 
+  searches: 
+    form: 
+      clear: Pulisci
+      search_box_title: Controlla se la domanda già stata chiesta
+      tags_tip: Usare [tag] per specificare i tag.
+    index: 
+      advanced_search: ricerca avanzata
+      description: Utilizzare le opzioni %{link} per raffinare i risultati.
+      empty: La ricerca non ha prodotto risultati.
+      found_results: sono stati trovati %{quantity} risultati.
+      input_legend: Questa ricerca salvata apparirà sulla barra di navigazione per un rapido accesso.
+      input_title: "Salva questa ricerca come:"
+      search_text: Domande contenenti
+      tags: con questi tag

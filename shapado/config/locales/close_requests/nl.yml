@@ -1,0 +1,34 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Siebrand
+nl: 
+  close_requests: 
+    create: 
+      flash_notice: Het sluitingsverzoek is ingediend
+    destroy: 
+      flash_notice: Het sluitingsverzoek is afgehandeld
+    edit: 
+      title: Sluitingsverzoek bewerken
+    form: 
+      close_with_reason: Deze vraag met deze reden sluiten
+      dupe: Duplicaat
+      no_question: Geen vraag
+      not_relevant: Niet relevant
+      ot: Ander onderwerp
+      request_closing_details: Sluitingsverzoek voor deze vraag indienen
+      retract: Intrekken
+      spam: spam
+    index: 
+      title: Lijst met sluitingsverzoeken
+    model: 
+      attributes: 
+        comment: Opmerking
+        reason: Reden
+        user: Gebruiker
+      messages: 
+        already_requested: U hebt al een sluitingsverzoek voor deze vraag ingediend
+      name: Sluitingsverzoek
+      prural_name: Sluitingsverzoeken
+    update: 
+      flash_notice: Het sluitingsverzoek is bijgewerkt

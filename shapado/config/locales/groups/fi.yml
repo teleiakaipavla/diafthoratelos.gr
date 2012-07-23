@@ -1,0 +1,99 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+# Author: Tomi Toivio
+fi: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Päivittäinen raja
+        default_tags: Oletustunnisteet
+        description: Kuvaus
+        domain: Toimialue
+        enable_latex: Ota käyttöön LaTex yhdessä jqmath:n kanssa (nopea, mutta ei täysin ominaisuuksin)
+        enable_mathjax: Ota käyttöön LaTeX yhdessä mathjax:in kanssa (hidas, mutta täysillä ominaisuuksilla)
+        fb_button: Ota käyttöön Facebookin Tykkää-painike (ei yksityisyystävällinen)
+        forum: Salli käyttäjälle useampia kuin yhden vastauksen
+        group_created_by: "luotu:"
+        language: Oletuskieli
+        languages: Ylimääräiset kielet
+        legend: Selite
+        logo: Logo
+        may_contain_adult_content: Tämä sivusto voi sisältää aikuisviihdettä
+        name: Nimi
+        owner: "Tämän ryhmän loi: %{login}"
+        registered_only: Vain rekisteröityneet käyttäjät voivat käyttää sivustoa
+        signup_type: "Mitä menetelmiä käyttäjäsi voivat käyttää sisäänkirjautumiseen:"
+        state: Tila
+        subdomain: Verkko-osoite
+        track_users: Kysy käyttäjiltä fyysistä sijaintia.
+        wysiwyg_editor: Ota käyttöön käyttäjäystävällinen editori
+    models: 
+      default_tags_message: Et voi luoda yli 10 oletustunnistetta
+      duplicate_domain_message: Valitettavasti tämä domain on jo viety.
+      group: Ryhmä
+      groups: Ryhmät
+      reputation_rewards_answer_constrain: Vastauksen palkitsemisen rajoitteen pitäisi olla negatiivinen
+      reputation_rewards_ask_constrain: Kysymisen rajoitteen pitäisi olla negatiivinen
+      reputation_rewards_key: Virheellinen avain
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Jokin meni pieleen. Yritä uudelleen.
+      success_twitter_connection: Onnea, olet yhdistänyt Twitter-tilisi onnistuneesti!
+    create: 
+      flash_notice: Ryhmäsi luotiin onnistuneesti. Voit aloittaa nyt asettamaan sen asetuksia.
+    edit: 
+      title: Muokkaa ryhmääsi
+    form: 
+      access: Käyttöoikeusasetukset
+      analytics_engine: Analytiikkakone
+      analytics_legend: Ryhmä voi käyttää omaa jäljityskoodia
+      any_language: Mikä tahansa
+      custom_analytics: Salli räätälöity analytiikka
+      custom_html: Salli räätälöity HTML
+      custom_js: Salli mukautettu JavaScript
+      default_tags_legend: Erottele tunnisteet pilkuilla. Vain 10 oletustunnistetta sallitaan.
+      description_legend: Voit käyttää 400 merkkiä ryhmän kuvailemiseen.
+      isolate_group: Eristä ryhmä muista ryhmistä
+      legend_legend: Sitä käytetään otsakkeessa. Käytettävissä on 40 merkkiä.
+      logo_legend: Voit kopioida palvelimelle ryhmän logon. Tiedoston enimmäiskoko on 2 megatavua.
+      members_only: Vain ryhmän jäsenet voivat käyttää tätä ryhmää
+      signup_all: Kaikki valitut tarjoajat lisättynä käyttäjä ja salasana
+      signup_email: Vain käyttäjä/salasana
+      signup_noemail: Kaikki valitut tarjoajat miinus käyttäjä/salasana
+      signup_social: Käyttäjien on pakko käyttää joko Facebookia, Twitteriä, LinkeIniä tai Identicaa
+      website_analytics_id: Verkkosivun analytiikkatunnus
+    group: 
+      about: Tietoja
+      accept_group: Hyväksy tämä ryhmä
+      allow_ads: Salli mainokset
+      close: Sulje
+      close_group: Sulje tämä ryhmä
+      disallow_ads: Älä hyväksy mainoksia
+    index: 
+      actives: Käytössä
+      create_your_own: Luo oma ryhmä
+      description: Tämä on luettelo julkisista ryhmistä. Käytä hakukenttää alla suodattaaksesi ryhmiä. Voit myös %{link}.
+      filter: Etsi ryhmiä
+      most_active: Aktiivisimmat
+      name: Nimi
+      pendings: Odottava
+      request_group: Pyydä uusi ryhmä
+      title: Ryhmät
+    new: 
+      title: Luo ryhmä
+    show: 
+      accept_group: Hyväksy tämä ryhmä
+      accept_group_with_custom_ads: Hyväksy ryhmä ja salli mukautetun mainokset
+      close_group: Sulje tämä ryhmä
+      group_awaiting_acceptance: Tämä ryhmä odottaa valvojan hyväksymistä.
+      group_closed: Tämä ryhmä oli suljettu.
+      title: Ohjelmasta %{name}
+      visit_group: Vieraile tässä ryhmässä
+    top_grouplist: 
+      active_site: "Aktiivinen sivusto:"
+    update: 
+      notice: Ryhmäsi päivittäminen onnistui.

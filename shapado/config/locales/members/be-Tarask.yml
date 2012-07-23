@@ -1,0 +1,23 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Роля
+  members: 
+    create: 
+      error: Прабачце, карыстальнік **%{user_id}** не існуе
+      notice: "%{login} быў пасьпяхова дададзены як %{role}."
+    form: 
+      destroy_confirm: Вы ўпэўнены? Гэты карыстальнік больш ня будзе ўдзельнікам гэтай групы.
+      login_tip: Пошук падчас увядзеньня
+    index: 
+      manage_members_title: Кіраваньне ўдзельнікамі
+      title: Удзельнікі групы %{name}
+      title_isolate: Удзельнікі %{name}
+    update: 
+      error: Прабачце, Вы ня можаце зьмяняць ўдзел **%{login}'s**

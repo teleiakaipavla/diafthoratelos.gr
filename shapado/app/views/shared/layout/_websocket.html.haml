@@ -1,0 +1,2 @@
+#websocket{:"data-key" => logged_in? ? current_user.socket_key : nil, :"data-group" => current_group.id, :"data-host" => request.host}
+#chat_div{:"data-title" => "Chat: #{current_group.name}", :"data-user" => logged_in? ? current_user.id : nil}

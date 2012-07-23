@@ -1,0 +1,120 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  widgets: 
+    about: 
+      description: Ovaj element prikazuje kratak opis vaše grupe.
+      title: O elementu
+    adsense: 
+      description: Ovaj element vam omogućava da prikažete oglase sa Gugl adsensa.
+      title: Adsens
+    ask_question: 
+      ask: Pitaj
+      description: Ovaj element omogućava korisnicima da postavljaju pitanja odakle god žele.
+      footer: Sva pitanja u %{group}
+      title: "Postavite pitanje:"
+      view_question: <p>Možete ga pogledati <a href="%{question}">ovde</a> ili postaviti drugo ispod.</p>
+    badges: 
+      description: Ovaj element prikazuje skorašnje značke koje su osvojili korisnici.
+      see_all: Sve značke
+      title: Skorašnje značke
+    contributors: 
+      description: Ovaj element prikazuje spisak ljudi koji su doprineli pitanju.
+      title: Učesnici u pitanju
+    create: 
+      notice: Element je napravljen.
+    current_tags: 
+      description: Ovaj element prikazuje oznake koje prati tekući korisnik.
+    custom_html: 
+      description: Ovde dodajte HTML tekst u bilo kom vidu.
+    edit: 
+      title: Uređivanje elementa
+    group_networks: 
+      description: Ovaj element prikazuje spisak veza do društvenih mreža tako da vaši korisnici mogu da vas prate tamo.
+      title: Pratite nas
+    groups: 
+      description: Ovaj element prikazuje najnovije grupe.
+      title: Skorašnje grupe
+    index: 
+      add_new: Dodaj novi element
+      description: Elemente pomerate uz pomoć strelica.
+      external_widgets: Spoljašnje
+      external_widgets_title: Elementi koje ćete moći da ugradite na mrežno mesto
+      footer: Podnožje
+      header: Zaglavlje
+      mainlist_widgets: Glavni spisak
+      mainlist_widgets_title: Elementi koji će biti prikazani na glavnom spisku pitanja
+      name: Naziv elementa
+      navbar: Traka za navigaciju
+      question_widgets: Pitanje
+      question_widgets_title: Elementi koji će biti prikazani na svakoj stranici s pitanjima
+      sidebar: Bočna traka
+      title: Upravljanje bočnim elementima
+      type: "Vrsta:"
+      welcome_widgets: Dobro došli
+      zone: "Deo stranice:"
+    mod_info: 
+      description: Ovaj element prikazuje podatke koji su potrebni moderatorima, kao što su oznake i zahtevi za prijavu.
+    pages: 
+      description: Ovaj element prikazuje spisak stranica na vikiju.
+      new: Dodaj novu stranicu
+      title: Viki stranice
+    question_badges: 
+      description: Ovaj element prikazuje značke koje ste osvojili za to pitanje.
+      title: Značke pitanja
+    question_stats: 
+      description: Ovaj element prikazuje statističke podatke o pitanju, kao što su datum stvaranja i broj pregleda.
+    question_tags: 
+      description: Ovaj element prikazuje oznake koje su srodne s tekućom stranicom.
+      title: Oznake pitanja
+    related_questions: 
+      description: Ovaj element prikazuje spisak pitanja koja su srodna s tekućim pitanjem.
+      title: Srodna pitanja
+    settings: 
+      code: "Umnožite kod na vaše mrežno mesto ili blog:"
+      custom_external_css: "Uključite prilagođeni CSS u vaš element (preoručuje se ako ne uključujete CSS iz Šapada):"
+      custom_html: "Prilagođeni HTML:"
+      exclude_css_on_external: Izuzmi CSS na Šapadu iz vašeg elementa
+      limit: "Količina za prikaz:"
+      on_questions: Istakni na stranicama s glavnim spiskom „Pitanja“
+      on_show_question: Istakni pri prikazivanju pitanja
+      on_welcome: Istakni na stranici „Dobro došli“
+      preview: "Pregled elementa:"
+    share: 
+      description: Ovaj element prikazuje razne dugmadi za deljenje tekuće stranice na društvenim mrežama.
+      title: Dajte svoj udeo
+    sharing_buttons: 
+      description: Ovaj element prikazuje dugmadi za deljenje preko društvenih mreža.
+      title: Delite ovo na
+    suggestions: 
+      description: Predlog o tome koje prijatelje i oznake da prati korisnik.
+      follow_tag: + Prati oznaku
+      follow_user: + Prati korisnika
+      followed_by: "Prati: %{user}"
+      title: Ljudi i oznake za praćenje
+      unfollow_tag: – prestanite da pratite oznaku
+      unfollow_user: – prestanite da pratite korisnika
+    tag_cloud: 
+      description: Ovaj element prikazuje oblačić oznaka.
+      title: Oblačić oznaka
+    tag_list: 
+      description: Ovaj element prikazuje oznake koje su srodne s tekućom stranicom.
+      title: Oznake
+    top_groups: 
+      description: Ovaj element prikazuje pet najboljih grupa.
+      has_members: 
+        one: "%{count} član"
+        other: "%{count} člana"
+      title: Najboljih 5 grupa
+    top_users: 
+      description: Ovaj element prikazuje pet najboljih korisnika.
+      title: Najboljih 5 korisnika
+    update: 
+      notice: Element je ažuriran.
+    users: 
+      description: Ovaj element prikazuje novoupisane korisnike.
+      title: Skorašnji korisnici
+    widget: 
+      change_position: "Promenite položaj elementa:"

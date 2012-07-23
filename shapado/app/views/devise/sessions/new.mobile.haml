@@ -1,0 +1,15 @@
+-count =0
+
+%div{:data => {:role => "page"}}
+  %div{:"data-role"=>"header", :"data-theme"=>"d", :"data-position"=>"inline"}
+    %h1
+      Providers
+  %div{:"data-role" => "content", :"data-theme" => "c"}
+    %p
+      Select your account provider
+    -entries = multiauth_providers.keys
+
+    %div{"data-role"=>"controlgroup"}
+      -entries.each do |provider|
+        -config = multiauth_providers[provider]
+        =link_to(provider, "/users/auth/#{config["openid"] ? "open_id?format=mobile&openid_url=#{config["openid"]}" : "#{provider.underscore}?format=mobile"}", :class => "#{provider} #{config["class"]}", :id => "btn_#{count+=1}", :"data-role" => "button", :"rel" => "external")

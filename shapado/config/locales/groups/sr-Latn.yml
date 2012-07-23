@@ -1,0 +1,96 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Dnevno ograničenje
+        default_tags: Podrazumevane oznake
+        description: Opis
+        domain: Domen
+        enable_latex: Omogući LaTeX sa jqmath-om (brzo, ali nema sve mogućnosti)
+        enable_mathjax: Omogući LaTeX sa mathjax-om (sporo, ali ima sve mogućnosti)
+        fb_button: Omogući dugme „Sviđa mi se“ na Fejsbuku (nije pogodno za privatnost)
+        forum: Dozvoli više od jednog odgovora po korisniku
+        group_created_by: "napravio:"
+        language: Podrazumevani jezik
+        languages: Dodatni jezici
+        legend: Legenda
+        logo: Logotip
+        may_contain_adult_content: Ovo mrežno mesto može imati sadržaj za odrasle
+        name: Naziv
+        owner: Ovu grupu je napravio %{login}
+        registered_only: Samo upisani korisnici mogu da pristupe mrežnom mestu
+        signup_type: "Na koji način se vaši korisnici mogu upisati:"
+        state: Država
+        subdomain: Adresa
+        track_users: Zahtevaj fizičko mesto korisnika
+        wysiwyg_editor: Omogući zgodan korisnički uređivač
+    models: 
+      default_tags_message: Ne možete imati više od deset podrazumevanih oznaka
+      duplicate_domain_message: Nažalost, domen je zauzet.
+      group: Grupa
+      groups: Grupe
+      reputation_rewards_answer_constrain: Ograničenje za nagrađivanje odgovora treba da bude negativno
+      reputation_rewards_ask_constrain: Ograničenje za postavljanje pitanja treba da bude negativno
+      reputation_rewards_key: Neispravan ključ
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Nažalost, došlo je do greške. Pokušajte ponovo.
+      success_twitter_connection: Čestitamo! Povezali ste svoj nalog na Tviteru.
+    create: 
+      flash_notice: Vaša grupa je napravljena. Sada možete početi da je podešavate.
+    edit: 
+      title: Uredite svoju grupu
+    form: 
+      access: Postavke pristupa
+      analytics_engine: Analitički pogon
+      analytics_legend: Grupa će moći da koristi sopstveni kôd za praćenje
+      any_language: bilo koji
+      custom_analytics: Dozvoli prilagođenu analitiku
+      custom_html: Dozvoli prilagođeni HTML
+      custom_js: Dozvoli prilagođeni javaskript
+      default_tags_legend: Odvojite oznake zapetama. Dozvoljeno je samo deset podrazumevanih oznaka.
+      description_legend: Imate 400 znakova za opis grupe.
+      isolate_group: Odvoji grupu od ostalih grupa
+      legend_legend: Koristiće se u zaglavlju. Imate 40 znakova.
+      logo_legend: Možete otpremiti logotip grupe. Najveća veličina datoteke je 2 MB.
+      members_only: Samo članovi grupe će imati pristup do nje
+      signup_all: Svi izabrani dobavljači, plus korisnik i lozinka
+      signup_email: Samo korisnik/lozinka
+      signup_noemail: Svi izabrani dobavljači, minus korisnik i lozinka
+      signup_social: Korisnici su primorani da koriste Fejsbuk, Tviter, Linkedin ili Identiku
+      website_analytics_id: Naznaka analitike mrežnog mesta
+    group: 
+      about: O grupi
+      accept_group: Prihvati grupu
+      allow_ads: Dozvoli oglase
+      close: Zatvori
+      close_group: Zatvori grupu
+      disallow_ads: Zabrani oglase
+    index: 
+      actives: Aktivne
+      create_your_own: napraviti sopstvenu grupu
+      description: Ovo je spisak napravljenih javnih grupa. Svrstajte ih ispod u polju za pretragu. Možete i %{link}.
+      filter: Pretraga grupa
+      most_active: Najaktivnije
+      name: Naziv
+      pendings: Na čekanju
+      request_group: Zahtevaj novu grupu
+      title: Grupe
+    new: 
+      title: Napravite sopstvenu grupu
+    show: 
+      accept_group: Prihvati grupu
+      accept_group_with_custom_ads: Prihvati grupu i dozvoli prilagođene oglase
+      close_group: Zatvori grupu
+      group_awaiting_acceptance: Ova grupa čeka na odobrenje moderatora.
+      group_closed: Ova grupa je zatvorena.
+      title: O grupi %{name}
+      visit_group: Poseti grupu
+    top_grouplist: 
+      active_site: "Aktivno mr. mesto:"
+    update: 
+      notice: Vaša grupa je ažurirana.

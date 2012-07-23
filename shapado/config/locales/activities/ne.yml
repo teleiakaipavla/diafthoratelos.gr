@@ -1,0 +1,18 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+ne: 
+  activerecord: 
+    models: 
+      activities: क्रियाकलापहरू
+      activity: क्रियाकलाप
+  activity: 
+    asked: सोधिएको
+    changed: परिवर्तित
+    created: बनाइएको
+    deleted: मेटिएको
+    destroyed: हटाइएको
+    flagged: चिन्ह लगाइएको
+    requested_to_close: बन्द गर्न अनुरोध गरिएको
+    requested_to_open: खोल्न अनुरोध गरिएको

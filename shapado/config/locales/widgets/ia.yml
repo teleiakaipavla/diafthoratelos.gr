@@ -1,0 +1,120 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  widgets: 
+    about: 
+      description: Iste widget presenta un curte description de tu gruppo.
+      title: A proposito
+    adsense: 
+      description: Iste widget permitte presentar annuncios de Google AdSense.
+      title: AdSense
+    ask_question: 
+      ask: Demandar
+      description: Iste widget permitte que usatores pone questiones ab ubicunque.
+      footer: Vider tote le questiones sur %{group}
+      title: "Poner un question:"
+      view_question: <p>Tu pote vider lo <a href="%{question}">hic</a> o poner un altere hic infra.</p>
+    badges: 
+      description: Iste widget monstra insignias recentemente ganiate per usatores.
+      see_all: Vider tote le insignias
+      title: Insignias recente
+    contributors: 
+      description: Iste widget monstra le lista de personas qui ha contribuite a un question.
+      title: Contributores al question
+    create: 
+      notice: Le widget ha essite create con successo.
+    current_tags: 
+      description: Iste widget monstra etiquettas sequite per le usator actual.
+    custom_html: 
+      description: Adde hic qualcunque typo de HTML que tu desira.
+    edit: 
+      title: Modificar widget
+    group_networks: 
+      description: Iste widget monstra un lista de ligamines a retes social, de sorta que le usatores pote sequer in illos.
+      title: Sequer nos
+    groups: 
+      description: Iste widgets monstra le ultime gruppos
+      title: Gruppos recente
+    index: 
+      add_new: Adder nove widget
+      description: Usa le sagittas pro displaciar tu widgets
+      external_widgets: Externe
+      external_widgets_title: Widgets que tu pote incorporar in tu proprie sito
+      footer: Pede del pagina
+      header: Titulo
+      mainlist_widgets: Lista principal
+      mainlist_widgets_title: Widgets que apparera in le lista principal de questiones
+      name: Nomine del widget
+      navbar: Barra de navigation
+      question_widgets: Question
+      question_widgets_title: Widgets que apparera in cata pagina de question
+      sidebar: Barra lateral
+      title: Administrar widgets del barra lateral
+      type: "Typo:"
+      welcome_widgets: Benvenite
+      zone: "Section del pagina:"
+    mod_info: 
+      description: Iste widget monstra information relevante al moderatores como marcationes e requestas de reportage.
+    pages: 
+      description: Iste widget monstra le lista de paginas wiki
+      new: Adder nove pagina
+      title: Paginas wiki
+    question_badges: 
+      description: Iste widget monstra insignias ganiate sur ille question.
+      title: Insignias de question
+    question_stats: 
+      description: Iste widget monstra statisticas super un question como le data de creation e le numero de visitas.
+    question_tags: 
+      description: Iste widget monstra etiquettas connexe al pagina actual.
+      title: Etiquettas de question
+    related_questions: 
+      description: Iste widget monstra un lista de questiones connexe al question actual.
+      title: Questiones connexe
+    settings: 
+      code: "Copiar e collar iste codice in tu sito o blog, como un widget de texto in tu Wordpress:"
+      custom_external_css: "Includer CSS personalisate in tu widget (recommendate si tu non include le CSS de Shapado):"
+      custom_html: "HTML personalisate:"
+      exclude_css_on_external: Excluder le CSS de tu sito Shapado de tu widget
+      limit: "Numero a monstrar:"
+      on_questions: Monstrar in pagina de lista principal de questiones
+      on_show_question: Monstrar quando un question es monstrate
+      on_welcome: Monstrar in pagina de benvenita
+      preview: "Previsualisation del widget:"
+    share: 
+      description: Iste widget monstra varie buttones pro divulgar le pagina presente in retes social.
+      title: Divider in
+    sharing_buttons: 
+      description: Iste widget monstrara buttones de diffusion social
+      title: Diffunder isto sur
+    suggestions: 
+      description: Suggestion de amicos e etiquettas que le usator pote sequer
+      follow_tag: + Sequer etiquetta
+      follow_user: + Sequer usator
+      followed_by: Sequite per %{user}
+      title: Personas e etiquettas a sequer
+      unfollow_tag: "- Non plus sequer iste etiquetta"
+      unfollow_user: "- Non plus sequer iste usator"
+    tag_cloud: 
+      description: Iste widget monstra un nube de etiquettas
+      title: Etiquettario
+    tag_list: 
+      description: Iste widget monstra etiquettas connexe al pagina actual.
+      title: Etiquettas
+    top_groups: 
+      description: Iste widget monstra le prime cinque gruppos
+      has_members: 
+        one: "%{count} membro"
+        other: "%{count} membros"
+      title: Prime 5 gruppos
+    top_users: 
+      description: Iste widget monstra le prime cinque usatores
+      title: Prime 5 usatores
+    update: 
+      notice: Le widget ha essite actualisate con successo.
+    users: 
+      description: Iste widget monstra le membros registrate recentemente
+      title: Usatores recente
+    widget: 
+      change_position: "Cambiar le position del widget:"

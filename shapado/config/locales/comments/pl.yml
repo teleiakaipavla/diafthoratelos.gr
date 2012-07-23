@@ -1,0 +1,18 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  comments: 
+    create: 
+      flash_notice: Dziękujemy za Twój komentarz
+    edit: 
+      title: Edytuj komentarz
+    shared: 
+      add_comment: Dodaj komentarz...
+      comment_submit: Komentarz
+      reply: Odpowiedź
+      said: powiedział
+  models: 
+    comment: Komentarz
+    comments: Komentarze

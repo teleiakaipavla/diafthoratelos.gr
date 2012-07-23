@@ -1,0 +1,9 @@
+es:
+  custom_html:
+    question_prompt:
+      "¿Cuál es tu pregunta? por favor se descriptivo."
+    question_help:
+      "¿Sobre que es tu pregunta?
+provee tantos detalles como puedas para tener más suerte
+de conseguir una respuesta y no una discusión sin fin.
+intenta ser claro y simple"

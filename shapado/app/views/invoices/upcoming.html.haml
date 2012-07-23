@@ -1,0 +1,43 @@
+.each-invoice
+  .invoice_info
+    .brand
+      =image_tag "logo.png"
+
+    .references
+      %p
+        %strong= t('invoices.show.due_date')
+        - if @invoice
+          = current_group.upcoming_invoice_date.to_s(:ymd)
+
+  .clear
+
+  %table
+    %thead
+      %tr
+        %th
+          = t('shared.description')
+        %th
+          = t('shared.date')
+        %th
+          = t('invoices.upcoming.amount')
+    %tbody
+      - @invoice["lines"]["invoiceitems"].to_a.each do |line|
+        %tr
+          %td
+            = line["description"]
+          %td
+            = Time.at(line["date"]).to_s(:ymd)
+          %td
+            = line["amount"]/100.0
+      %tr
+        %td
+        %td.total
+          = t('invoices.upcoming.invoice_total')
+        %td.total
+          = "$ #{@invoice["subtotal"]/100.0}"
+      %tr
+        %td
+        %td.due
+          = t('invoices.upcoming.amount_due')
+        %td.due
+          = "$ #{@invoice["total"]/100.0}"

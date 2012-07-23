@@ -1,0 +1,20 @@
+# Messages for Azerbaijani (Azərbaycanca)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Cekli829
+# Author: Sortilegus
+az: 
+  activerecord: 
+    attributes: 
+      answer: 
+        link: Keçid
+    models: 
+      answer: Cavab
+      answers: Cavablar
+  answers: 
+    create: 
+      flash_notice: Təşəkkürlər!
+    form: 
+      answer_label: Suala cavab
+      comment_submit: Şərh et
+      submit: Cavab ver

@@ -1,0 +1,32 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Разлог
+    models: 
+      flag: Ознака
+      flags: Ознаке
+  flags: 
+    create: 
+      flash_error: Не можете ово означити
+      flash_notice: Хвала вам на пријави
+    destroy: 
+      flash_notice: Ваша ознака је поништена.
+    edit: 
+      title: Уређивање ознаке %{model}
+    form: 
+      attention: Захтева пажњу модератора
+      label: Означавајте с опрезом
+      offensive: Увреде, малтретирање или говор мржње
+      spam: Непожељне
+    model: 
+      messages: 
+        already_requested: Већ сте означили %{model}
+    new: 
+      title: Означавање %{model}
+    update: 
+      flash_notice: Ознака питања је ажурирана.

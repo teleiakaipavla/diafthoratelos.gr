@@ -1,0 +1,35 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+# Author: Woytecr
+pl: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Arkusze stylów
+        js: JavaScript
+    models: 
+      page: Strona
+      pages: Strony
+  pages: 
+    actions: 
+      create_page: Utwórz nową stronę
+      edit_page: Edytuj stronę
+      title: Operacje
+    create: 
+      success: Strona została utworzona pomyślnie.
+    edit: 
+      title: Edytuj stronę
+    form: 
+      language_tip: Język strony
+      title_tip: "Tytuł strony. Służy do odniesienia stronie. Naprzykład: [[FAQ | sprawdź faq]]"
+    index: 
+      create_page: Utwórz nową stronę
+      title: Spis stron
+      wiki: Wiki
+      written_in: Językiem strony jest %{language}
+    new: 
+      title: Nowa strona
+    update: 
+      success: Strona została pomyślnie zaktualizowana.

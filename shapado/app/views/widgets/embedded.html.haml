@@ -1,0 +1,6 @@
+- unless @widget.settings["exclude_css_on_external"]
+  = render "shared/layout/css"
+=raw widget_css(@widget)
+= render :partial => @widget.partial_name, :locals => {:widget => @widget}
+/open links in new window
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script><script>$(document).ready(function(){$('a').click(function(){window.open($(this).attr('href'));return false;})})</script>

@@ -1,0 +1,77 @@
+en:
+  shared:
+    date: "Date"
+    filter: "Filter:"
+    view_mode: "View mode:"
+    languages: "Languages:"
+    language_filter_tooltip: "Try with another language."
+    name: Name
+    description: Description
+    by_anon: "By anonymous"
+    preferred_lang: "My preferred languages"
+    language: "Language:"
+    any_lang: Any language
+    quick_question:
+      random_question: "Answer a random question"
+    login_drop_down:
+      with_google: with Google
+      with_facebook: with Facebook
+      with_twitter: with Twitter
+      with_linked_in: with LinkedIn
+      with_identica: with Identi.ca
+      with_openid: OpenID
+      with_email_pass: 'Sign in with your email'
+      sign_up_user_pass: 'Sign up with an email/password'
+      openid_url: Openid URL
+    social_connect:
+      find_friends_facebook: Find friends on Facebook
+      find_friends_twitter: Find friends on Twitter
+      find_friends_linked_in: Find friends on LinkedIn
+      find_friends_identica: Find friends on Identi.ca
+      or_connect: 'Or connect with:'
+    topbar:
+      logged_as: "Logged in as %{login}"
+      admin: Admin
+      user_page: My page
+    current_tags:
+      title: Selected tags
+    manage_navigation:
+      title_options: Group options
+      title_content: Group content
+      title_features: Group features
+    empty:
+      default:
+        title: Sorry! There's not much to see here.
+        description:
+          text: Be the first to %{action_link}!
+      questions:
+        description:
+          text: Be the first to <a href="%{url}">ask a question<a/>!
+      filtered_by_language_questions:
+        title: Sorry, no questions are available in this language.
+        description:
+          text: "<a href='%{url}' class='lang-option', data-language='any' > %{action_link}</a>"
+          action_link: Click here to see questions in all languages.
+      filtered_questions:
+        title: Sorry, no questions are available in this filter.
+        description:
+          text: "<a href='%{url}'>%{action_link}</a>"
+          action_link: Click here show all questions
+      themes:
+        title: You haven't created any themes for now.
+        description:
+          text: create one %{action_link}
+          action_link: now
+      activities:
+        title: There are no activities so far.
+        description:
+          text:
+            This place will get filled up automatically once people start using the site.
+      answers:
+        title: No one has answered this question yet.
+        description:
+          text: Be the first!
+    layout:
+      footer:
+        cc_footer: 'All Shapado.com content and data are available under the %{cc_link} license'
+        powered_by: Powered by %{source_link} %{version} under the %{agpl_link}

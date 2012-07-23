@@ -1,0 +1,75 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  global: 
+    actions: Akcje
+    active: Aktywuj
+    alphabetically: Alfabetycznie
+    anonymous: Anonimowy
+    blog: Blog
+    by: przez
+    chat: Czat
+    current: Aktualny
+    edited: Edytowany
+    feedback: Opinie
+    follow: Śledź
+    from: z %{site}
+    group_not_found: Strona %{url} nie istnieje
+    next_button: Następny
+    or: lub
+    permission_denied: Dostęp zabroniony
+    please_login: Proszę się zalogować
+    preview: Podgląd
+    previous: Poprzedni
+    privacy: Prywatność
+    share: Udostępnij
+    size: Rozmiar
+    sort_by: "Sortuj według:"
+    tags_label: "Etykiety:"
+    unfollow: Przestań śledzić
+    unknown_place: Nieznany
+    view: Zobacz
+    view_question: Zobacz pytanie
+    what_to_do: Co chcesz zrobić?
+  models: 
+    question: Pytanie
+  number: 
+    x_time: 
+      one: "%{count} raz"
+      other: "%{count} razy"
+      zero: Nigdy
+  preferred_languages: 
+    any: Dowolny
+    user: Preferowane języki
+  roles: 
+    moderator: Moderator
+    owner: Właściciel
+    user: Zwykły użytkownik
+  scaffold: 
+    add: Dodaj
+    are_you_sure: Czy jesteś pewien?
+    back: Wstecz
+    cancel: Anuluj
+    close: Zamknij
+    create: Utwórz
+    destroy: Usuń
+    details: Szczegóły
+    edit: Edytuj
+    more: Więcej...
+    new: Dodaj nowy %{model}
+    post_as_anonymous: Napisz jako anonimowy
+    save: Zapisz
+    send: Wyślij
+    show: Pokaż
+    sure: Czy na pewno chcesz usunąć ten %{model}?
+    update: Aktualizuj
+  time: 
+    ago: "%{time} temu"
+    today: dzisiaj
+    yesterday: wczoraj
+  views: 
+    pagination: 
+      next: Następny &raquo;
+      previous: "&laquo; Poprzednie"

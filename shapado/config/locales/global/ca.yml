@@ -1,0 +1,97 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Martorell
+# Author: Papapep
+# Author: SMP
+ca: 
+  feeds: 
+    feed: Canal
+    post_new_questions: Publiqueu una nova pregunta a
+    question: Subscriviu-vos a aquesta pregunta
+    questions: Subscriure-us a totes les preguntes
+    share_on_twitter: twitter, facebook i més...
+    tag: Subscriure-us a una etiqueta
+    user: Subscriviu-vos a les preguntes d'usuaris
+  global: 
+    actions: Accions
+    active: Activa
+    alphabetically: Per ordre alfabètic
+    anonymous: Anònim
+    blog: Bloc
+    by: per
+    by_semi: "Per:"
+    chat: Xat
+    current: Actual
+    edited: Editat
+    edited_by_semi: "Editat per:"
+    feedback: Comentaris
+    follow: Seguir
+    followed_by: "Succeït per:"
+    following: Després de
+    from: des de %{site}
+    group_not_found: Aquesta pàgina %{url} no existeix
+    home: Inici
+    next_button: Següent
+    open: Obert
+    or: o
+    permission_denied: Permís denegat
+    please_login: Entreu
+    preview: Previsualització
+    previous: Anterior
+    privacy: Privacitat
+    share: compateix
+    sign_up: Registra't
+    size: Mida
+    sort_by: "Ordenar per:"
+    tags_label: "Etiquetes:"
+    tos: EL
+    unfollow: Unfollow
+    unknown_place: Desconegut
+    view: Vista
+    view_question: Pregunta de vista
+    what_to_do: Què voleu fer?
+  models: 
+    question: La pregunta
+  number: 
+    x_time: 
+      one: "%{count} time"
+      other: " vegades de %{count}"
+      zero: Never
+  preferred_languages: 
+    any: Qualsevol
+    user: El meu idioma preferit
+  roles: 
+    moderator: Moderador
+    owner: Propietari
+    user: D'usuari
+  scaffold: 
+    add: Afegeix
+    are_you_sure: És segur?
+    back: Enrera
+    cancel: Cancel·la
+    close: Tanca
+    create: Crea
+    destroy: Elimina
+    details: Detalls
+    edit: Edita
+    more: Més ...
+    new: Afegeix un nou %{model}
+    post_as_anonymous: Publica anònimament
+    save: Desa
+    send: Envia
+    show: Mostra
+    sure: Voleu eliminar aquest %{model}?
+    update: Actualitza
+  time: 
+    ago: "%{time} abans"
+    today: avui
+    yesterday: ahir
+  views: 
+    pagination: 
+      first: Primer
+      last: Últim
+      next: Següent»
+      previous: «anterior
+      truncate: ...

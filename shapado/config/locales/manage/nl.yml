@@ -1,0 +1,127 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Pinxnl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  admin: 
+    manage: 
+      access: 
+        title: Toegang
+      answers: 
+        banning: 
+          title: Antwoord verbannen
+      appearance: 
+        logo_legend: Een logo voor uw groep uploaden. Het moet kleiner zijn dan 2 MB.
+        title: Kies uw thema en past het aan
+      close_group: 
+        description: Door de groep te sluiten kan niemand behave u er nog gebruik van maken.
+        feedback: "Geef aan waarom u de groep sluit:"
+      content: 
+        description: Maak aangepaste teksten en vormgevingen voor uw groep
+        footer: Voettekst
+        head: Kop
+        question_help: Vraaghulp
+        question_prompt: Vraag
+        title: Aangepaste inhoud
+        top_bar: Balk bovenaan
+        top_bar_tip: Voer een verwijzing per regel in
+      invitations: 
+        invitations: Verzonden uitnodigingen
+        invitations_title: Lijst met alle de uitnodigingen die u hebt verzonden
+        invite: Mensen uitnodigen
+        invite_title: Mensen uitnodigen per e-mail
+        title: Uitnodigingen
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Vragen stellen op Twitter
+          question_asked_to: Vraag gesteld aan
+          question_must_include: De vraag moet het volgende label bevatten om getweet te worden.
+          question_must_include_example: "bijvoorbeeld #durftevragen"
+          twitter_account: De Twittergebruiker aan wie uw gebruikers vragen stellen.
+        constrains: 
+          reputation_constrains_description: Via dit formulier kunt u instellen hoeveel reputatiepunten gebruikers nodig hebben om een bepaalde handeling uit te voeren.
+          reputation_constrains_subtitle: Lijst van reputatiebeperkingen voor iedere handeling
+          title: Beperkingen
+        domain: 
+          description: "U kunt een ander domein aan uw Shapadosite toewijzen zodat het toegankelijk zijn via uw eigen aangepaste domein. Dat werkt zo:"
+          instruction1: Meld u eerst aan bij uw domeinprovider - dat is de site waar u uw domein zoals bijvoorbeeld %{subdomain}.com hebt gekocht
+          instruction2: Ga daar naar de DNS-instellingen en maak aan wat een CNAME heet.
+          instruction3: Kies "www" of wat u wilt als de naam van uw CNAME.
+          instruction4: "Voer dan in het veld bestemming uw huidige Shapado-domein in: %{domain}."
+          instruction5: Als dit is gedaan, dat duurt een uurtje of zo, wijst uw domein www.%{subdomain} naar %{appdomain}.
+          instruction6: Als dit het geval is, kom hier dan terug en voer uw domeinnaan www.%{subdomain} in het veld hieronder in en klik op de knop "Bijwerken". Als u vragen hebt, stel die dan aan ons in de %{chat_url} of in het ondersteunigsforum.
+          title: Uw aangepaste domein instellen
+          warning: Weet u zeker dat u uw domein wilt wijzigen?
+        facebook_app: 
+          application_id: Applicatie-ID
+          facebook_app: Applicatieinstellingen Facebook
+          legend: U kunt uw Facebookapp instellen. Deze app wordt gebruikt om uw gebruikers aan te laten melden via Facebook. Dit is alleen nodig als u een aangepast domein gebruikt.
+          secret_key: Geheime sleutel
+        general: 
+          title: Groepseigenschappen
+        invitations: 
+          resend_button: Opnieuw verzenden
+          revoke_button: Intrekken
+        invite: 
+          body_instructions: Schrijf een bericht aan de mensen die u uitnodigt (optioneel)
+          body_length_warning: Het bericht kan niet meer dan 400 tekens bevatten
+          emails_instructions: E-mails opgeven gescheiden door komma's
+          invitations: Verzonden uitnodigingen
+          invite: Mensen uitnodigen
+          title: Mensen uitnodigen per e-mail
+          user_role: Gebruikers uitnodigen als
+        post_to_twitter: 
+          legend: Op deze pagina kunt u instellen wat er naar Twitter wordt verzonden. De gebruiker die wordt gebruikt is <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>. U kunt ook <a href="%{link}">een andere gebruiker instellen</a>.
+          legend_connect: Op deze pagina kunt u instellen wat er naar Twitter wordt verzonden. U moet eerst <a href="%{link}">een te gebruiken Twittergebruiker instellen</a>.
+          post_to_twitter: Activiteiten op Twitter posten
+          send_answers_to_twitter: Alle antwoorden naar Twitter verzenden
+          send_badges_to_twitter: Stuur nieuw verkregen speldjes naar Twitter
+          send_comments_to_twitter: Alle opmerkingen naar Twitter verzenden
+          send_favorites_to_twitter: Alle favoriete antwoorden naar Twitter verzenden
+          send_questions_to_twitter: Alle vragen naar Twitter verzenden
+        rewards: 
+          reputation_rewards_description: Via dit formulier kunt u instellen hoe gebruikers reputatiepunten kunnen verdienen en verliezen voor bepaalde handelingen
+          reputation_rewards_subtitle: Lijst met reputatiebeloningen
+          title: Beloningen
+        share: 
+          title: Delen
+        tag_your_tweets: 
+          add_tags: Labels aan uw tweets koppelen
+          ends_with_example: "bv. #shapado"
+          starts_with_example: "bv. #qa"
+          title: Uw tweets labelen
+          tweet_ends_with: Een label achter uw tweets toevoegen
+          tweet_starts_with: Een label voor uw tweets toevoegen
+        title: Groepseigenschappen
+        twitter_account: 
+          connect_to_other_twitter: Klik hier om verbinding maken met een andere Twittergebruiker voor uw groep
+          connect_to_twitter: Klik hier om verbinding maken met een Twittergebruiker voor uw groep
+          disconnect_twitter_group: Deze groep ontkoppelen van Twitter
+          legend: Deze gebruiker wordt gebruikt om nieuwe vragen en antwoorden naar Twitter te sturen.
+          legend_with_account: Uw Twittergebruiker <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> wordt gebruikt om nieuwe vragen en antwoorden naar Twitter te sturen. U kunt instellen wat <a href="%{link}">naar Twitter verstuurd wordt</a>.
+          twitter_account: Twitter-gebruiker
+        twitter_app: 
+          key: Toepassingssleutel
+          secret: Applicatiegeheim
+          twitter_app: Twitter app
+      questions: 
+        banning: 
+          title: Vraag verbannen
+      social: 
+        ask_from_twitter: Vanaf Twitter vragen
+        ask_from_twitter_title: Uw gebruikers toestaan om vragen te stellen vanaf Twitter
+        description: Uw groep verbinden met uw sociale netwerken
+        facebook_app: Facebook App
+        facebook_app_title: Stel uw Facebookapp in die wordt gebruikt om gebruikers te laten aanmelden met hun Facebookgebruiker
+        post_to_twitter: Naar Twitter posten
+        post_to_twitter_title: Alle vragen en antwoorden automatisch op Twitter posten
+        tag_your_tweets: Label uw tweets
+        tag_your_tweets_title: Labels aan uw tweets koppelen
+        title: Social media-interactie
+        twitter_account: Twitter-gebruiker
+        twitter_account_title: Stel uw Twittergebruiker in die wordt gebruikt om berichten te plaatsen op Twitter
+      top_admin: 
+        site: Website
+        title: Beheer

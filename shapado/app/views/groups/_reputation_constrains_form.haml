@@ -1,0 +1,7 @@
+
+-ConstrainsConfig::CONSTRAINS.each do |key, value|
+  - value = @group.reputation_constrains[key]
+  .field
+    - name = "group[reputation_constrains[#{key}]]"
+    = label_tag name, Group.humanize_reputation_constrain(key), :class => "label"
+    = number_field_tag name, value, :class => "text_field"

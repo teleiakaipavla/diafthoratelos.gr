@@ -1,0 +1,8 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Pedroca cerebral
+pt-BR: 
+  activemodel: 
+    models: 
+      constrains_config: Configuração da restrição de reputação

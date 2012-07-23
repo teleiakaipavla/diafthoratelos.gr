@@ -1,0 +1,182 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Crt
+# Author: Nike
+# Author: Raspi
+fi: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Vastaukset
+        asked_by: "Kysytty:"
+        banned: Kielletty
+        body: Runko
+        closed: Suljettu
+        created_at: Kysytty
+        language: Kieli
+        tags: Tunnisteet
+        title: Otsikko
+        updated_at: päivitetty
+        updated_by: "päivitetty:"
+        views: Luettu
+        votes: Äänet
+    models: 
+      question: Kysymys
+      questions: Kysymykset
+  questions: 
+    answer: 
+      add_comment: Lisää kommentti...
+      favorite: Tallenna
+      favorite_tooltip: Lisää tämä kysymys suosikkeihini
+      flag: Merkintä
+      pick_answer: Valitse ratkaisuna
+      unfavorite: Peru tallennus
+      unfavorite_tooltip: Poista tämä kysymys suosikeistani
+      unset_answer: Asettamaton ratkaisu?
+    answer_toolbar: 
+      flagged_by_you: Merkitsemäsi
+    close: 
+      failure: Tällä kysymyksellä on voimassa oleva palkinto ja kysymystä ei voida sulkea.
+    create: 
+      already_registered: Käyttäjä sähköpostiosoiteella %{email} on jo rekisteröitynyt, kirjaudu sisään käyttäen tätä sähköpostiosoitetta.
+      flash_notice: Kysymyksen luonti onnistui.
+    disallow_spam: 
+      error: Sinun täytyy odottaa 20 sekuntia ennen toisen kysymyksen lähettämistä.
+    edit: 
+      title: Muokataan kysymystä
+    flag: 
+      title: Merkitse kysymys
+    form: 
+      add_attachment: Liitetiedoston lisäys
+      adult_content: Tämä kysymys sisältää aikuisille tarkoitettua aineistoa.
+      body_tip: Mikä on kysymys? Ole kuvaileva.
+      language_tip: Valitse kieli, jolla kysymys esitetään.
+      related_questions_desc: Tähän tulee näkyviin samankaltaisia kysymyksiä.
+      remove_attachment: Poista
+      tags_tip: Tarkenna kysymyksesi alaa lisäämällä siihen tunnisteita.
+    history: 
+      back: ← takaisin kysymykseen
+    index: 
+      active: Käytössä
+      active_tooltip: Kysymykset, jotka on päivitetty äskettäin
+      ask_question: Kysy kysymys
+      empty: Kukaan ei ole vielä kysynyt yhtään kysymystä. Ole ensimmäinen!
+      followers_tooltip: Eniten seuratut kysymykset
+      has_followers: 
+        one: "%{count} seuraaja"
+        other: "%{count} seuraajaa"
+      help_to_answer: Auta vastaamalla kysymyksiin
+      hot: Suosittu
+      hot_tooltip: Kysymykset, joissa on ollut eniten toimintaa viimeisen viiden päivän aikana
+      newest: Uusin
+      newest_tooltip: Viimeksi kysytyt kysymykset
+      oldest: Vanhin
+      title: Kaikki kysymykset
+      unanswered_questions: Vastaamattomat kysymykset
+      votes: Äänet
+    model: 
+      messages: 
+        empty_tags: Anteeksi, sinun täytyy käyttää vähintään yhtä tunnistetta.
+        tags_not_added: Tunnisteita '%{tags}' ei voitu lisätä. Tarvitset %{reputation_required} mainetta uusien tunnisteiden luomiseksi
+        title_too_long: Otsikko ei voi sisältää yli 100 merkkiä.
+        too_many_tags: Voit kirjoittaa enintään 20 tunnistetta.
+        too_short: 
+          one: Otsikossasi on oltava enemmän kuin %{count} sana.
+          other: Otsikossasi on oltava enemmän kuin %{count} sanaa.
+    move: 
+      group_label: Siirrä luettelomerkillä varustettuun ryhmään
+      submit: Siirrä!
+      title: "Siirrä kysymys: %{title}"
+    move_to: 
+      group_dont_exists: Ryhmä %{group} ei ole olemassa
+      success: Kysymys siirretty ryhmään %{group}
+    new: 
+      description: Ole mahdollisemman kuvaileva ja lisää asiaan liittyviä tunnisteita, jotta muut löytävät kysymyksesi helposti.
+      how_to_ask: Kuinka kysyä
+      title: Kysy kysymys
+    question: 
+      accepted_tooltip: Tällä kysymyksellä on  vastaus, joka on hyväksytty
+      answer_verb: Vastaa
+      has_answers: 
+        one: "%{count} vastaus"
+        other: "%{count} vastausta"
+      wiki_title: "Wiki: %{title}"
+    retag: 
+      title: Uudelleenmerkintä
+    retag_form: 
+      cancel: Peruuta
+      submit: Päivitä tunnisteet!
+      title: Päivitä tunnisteet!
+    retag_to: 
+      failure: Tunnisteita ei voitu valitettavasti päivittää.
+      success: Tunnisteiden päivitys onnistui.
+    revert: 
+      title: Palauta kysymys
+    shared: 
+      flag: Merkintä
+    show: 
+      accepted_tooltip: Yksi vastauksista hyväksyttiin oikeana vastauksena.
+      another_answers: Muut vastaukset
+      answers: Vastaukset
+      asked_on: pyysivät
+      ban: Porttikielto
+      close: Sulje
+      close_reason: "Kysymys on suljettu seuraavista syistä:"
+      create_reward: Luo palkinto
+      create_reward_description: Palkitse paras vastaus jollakin, joka on omasta karmastasi.
+      edit_request: Muokkaa pyyntöä
+      flag: Merkintä
+      flagged_as: Merkitty nimellä
+      flags: Ilmoitettu nimellä
+      follow_tooltip: Seuraa tätä kysymystä
+      follow_up: Seuraa
+      follow_up_description: Luo uusi kysymys perustuen tähän viestiin.
+      follow_up_of: Tämä kysymys on jatkoa
+      history: Historia
+      last_activity: Viimeiset tapahtumat
+      more_actions: Lisää toimintoja
+      open: Avaa
+      related_questions: Liittyvät kysymykset
+      request_closing: Sulkemispyyntö
+      request_closing_details: Tämän kysymyksen sulkemispyyntö
+      request_opening: Uudelleenavauspyyntö
+      request_opening_details: Tämän kysymyksen uudelleenavauspyyntö
+      requested_close_as: Pyysit tämän kysymyksen sulkemista nimellä
+      requested_reopening: Pyysit tämän kysymyksen uudelleenavausta
+      retag: Uudelleenmerkintä
+      retract_request: Peru pyyntö
+      share: Jaa tämä kysymys
+      share_on: Jaa tämä kysymys kohteessa %{site}
+      solution: Ratkaisu
+      to_answer_question: tähän kysymykseen vastaamiseksi
+      unauthenticated_retag: Tarvitset tilin kysymysten uudelleenmerkintää varten
+      unban: Poista kielto
+      unfollow_tooltip: Lopeta tämän kysymyksen seuraaminen
+      viewed: katsottu
+    solve: 
+      flash_notice: Kysymys oli ratkaistu.
+    tags: 
+      filter: Hae tunnisteita
+      title: Tunnisteet
+      tooltip: Näytä kysymykset tunnisteella %{tag}
+    toolbar: 
+      answer_by_mail: Vastaus sähköpostitse
+      more_actions: Lisää toimintoja
+      requests: Pyynnöt
+      your_close_request: Sulkemispyyntö
+    unanswered: 
+      empty: Tässä ryhmässä ei ole vastaamattomia kysymyksiä.
+      expert: Asiantuntijat
+      my_tags: Omat tunnisteet
+      tags: Vastaamattomat tunnisteet
+      title: Vastaamattomat kysymykset
+    unsolve: 
+      flash_notice: Kysymystä ei enää ratkaista.
+    unwatch: 
+      success: Et saa enää ilmoituksia sähköpostitse jokaisesta uudesta vastauksesta tähän kysymykseen.
+    update: 
+      flash_notice: Kysymyksen päivitys onnistui.
+    watch: 
+      success: Saat nyt ilmoituksia sähköpostitse jokaisesta uudesta vastauksesta tähän kysymykseen.

@@ -1,0 +1,6 @@
+pt:
+  custom_html:
+    question_prompt:
+      "qual é a sua pergunta? seja descritivo."
+    question_help:
+      ""

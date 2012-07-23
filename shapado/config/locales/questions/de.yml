@@ -1,0 +1,179 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Antworten
+        asked_by: Gefragt von
+        banned: Gesperrt
+        body: Text
+        closed: Beendet
+        created_at: Gefragt
+        language: Sprache
+        tags: Stichwörter
+        title: Titel
+        updated_at: aktualisiert
+        updated_by: aktualisiert von
+        views: Aufrufe
+        votes: Bewert-<br />ungen
+    models: 
+      question: Frage
+      questions: Fragen
+  questions: 
+    answer: 
+      add_comment: Kommentar hinzufügen …
+      favorite: Speichern
+      favorite_tooltip: Diese Antwort zu Deiner Favoritenliste hinzufügen
+      flag: Kennzeichnen
+      pick_answer: Als Lösung auswählen
+      unfavorite: Speichern rückgängig machen
+      unfavorite_tooltip: Diese Antwort aus Deiner Favoritenliste entfernen
+      unset_answer: Antwort in Frage stellen?
+    answer_toolbar: 
+      flagged_by_you: Von Dir gekennzeichnet
+    close: 
+      failure: Zu dieser Frage ist eine aktive Auszeichnung vorhanden. Sie kann daher nicht beendet werden.
+    create: 
+      already_registered: Ein Nutzer mit der E-Mail-Adresse %{email} ist bereits registriert. Bitte melde Dich mit dieser E-Mail-Adresse an.
+      flash_notice: Die Frage wurde erfolgreich erstellt.
+    disallow_spam: 
+      error: Bevor Du eine neue Frage stellen kannst, musst Du noch 20 Sekunden warten.
+    edit: 
+      title: Frage bearbeiten
+    flag: 
+      title: Kennzeichnen der Frage
+    form: 
+      add_attachment: Anhang hinzufügen
+      adult_content: Diese Frage enthält jugendgefährdende Angaben.
+      body_tip: Wie lautet Deine Frage? Sei aussagekräftig.
+      language_tip: Wähle die Sprache der Frage.
+      related_questions_desc: Hier werden ähnliche Fragen angezeigt werden.
+      remove_attachment: Entfernen
+      tags_tip: Verwende Stichwörter, um weitere Informationen zu Deiner Frage anzugeben.
+    history: 
+      back: ← zurück zur Frage
+    index: 
+      active: Aktiv
+      active_tooltip: Fragen die vor kurzem aktualisiert wurden
+      ask_question: Frage stellen
+      empty: Bislang hat noch niemand eine Frage gestellt. Sei der Erste!
+      followers_tooltip: Fragen mit den meisten Anhängern
+      has_followers: 
+        one: Ein Folgender
+        other: "%{count} Folgende"
+      help_to_answer: Helfe uns beim Beantworten
+      hot: Populär
+      hot_tooltip: Fragen mit den meisten Aktivitäten während der letzten 5 Tage
+      newest: Neueste
+      newest_tooltip: Die zuletzt gestellten Fragen
+      oldest: Älteste
+      title: Alle Fragen
+      unanswered_questions: offener Fragen.
+      votes: Bewertungen
+    model: 
+      messages: 
+        empty_tags: Du musst mindestens ein Stichwort verwenden.
+        tags_not_added: Die Stichwörter „%{tags}“ konnten nicht hinzugefügt werden. Du benötigst die Reputation %{reputation_required}, um neue Stichwörter erstellen zu können.
+        title_too_long: Der Titel darf leider nicht mehr als 100 Zeichen enthalten.
+        too_many_tags: Du kannst leider nur maximal 20 Stichwörter verwenden.
+        too_short: 
+          one: Der Titel ist leider zu kurz. Er muss aus mehr als einem Wort bestehen.
+          other: Der Titel ist leider zu kurz. Er muss aus mehr als %{count} Wörtern bestehen.
+    move: 
+      group_label: "Verschiebe zur Gruppe:"
+      submit: Verschieben!
+      title: "Verschiebe Frage: %{title}"
+    move_to: 
+      group_dont_exists: Die Gruppe %{group} existiert nicht
+      success: Frage wurde nach %{group} verschoben
+    new: 
+      description: Bitte gebe eine ausführliche Beschreibung an und füge relevante Stichwörter hinzu, damit Deine Frage auch leicht gefunden werden kann.
+      how_to_ask: Wie fragen
+      title: Frage stellen
+    question: 
+      accepted_tooltip: Zu dieser Frage gibt es eine Antwort, die akzeptiert wurde
+      answer_verb: Antwort
+      has_answers: 
+        one: Eine Antwort
+        other: "%{count} Antworten"
+      wiki_title: "Wiki: %{title}"
+    retag: 
+      title: Stichwörter ändern
+    retag_form: 
+      cancel: Abbrechen
+      submit: Stichwörter aktualisieren
+      title: Stichwörter aktualisieren
+    retag_to: 
+      failure: Leider konnten die Stichwörter nicht aktualisiert werden.
+      success: Die Stichwörter wurden erfolgreich aktualisiert.
+    revert: 
+      title: Frage zurücksetzen
+    shared: 
+      flag: Kennzeichnen
+    show: 
+      accepted_tooltip: Eine der Antworten wurde als richtig akzeptiert.
+      another_answers: Andere Antworten
+      answers: Antworten
+      asked_on: gefragt bei
+      ban: Verbieten
+      close: Schließen
+      close_reason: "Die Frage wurde aus folgenden Gründen beendet:"
+      create_reward: Belohnung erstellen
+      create_reward_description: Belohne die beste Antwort mit etwas von Deinem eigenen Karma.
+      edit_request: Bitte bearbeiten
+      flag: Kennzeichen
+      flagged_as: "Gekennzeichnet als:"
+      flags: Gemeldet als
+      follow_tooltip: Diese Frage beobachten
+      follow_up: Zur Nachverfolgung
+      follow_up_description: Eine auf diesem Beitrag basierende neue Frage erstellen.
+      follow_up_of: Diese Frage ist eine Folgefrage zu
+      history: Verlauf
+      last_activity: Letzte Aktivität
+      more_actions: Weitere Aktionen
+      open: Öffnen
+      related_questions: Ähnliche Frage
+      request_closing: Um Beendigung der Frage bitten
+      request_closing_details: Um Beendigung dieser Frage bitten
+      request_opening: Bitte um Aktivierung
+      request_opening_details: Um die erneute Aktivierung dieser Frage bitten
+      requested_close_as: Du batest um Beendigung dieser Frage als
+      requested_reopening: Du hast um die erneute Aktivierung dieser Frage gebeten
+      retag: Stichwörter ändern
+      retract_request: Bitte zurückziehen
+      share: Auf diese Frage aufmerksam machen bei
+      share_on: Auf diese Frage bei %{site} aufmerksam machen
+      solution: Lösung
+      to_answer_question: Frage beantworten
+      unauthenticated_retag: Du brauchst ein Nutzerkonto, um die Stichwörter ändern zu können
+      unban: Entsperren
+      unfollow_tooltip: Diese Frage nicht mehr beobachten
+      viewed: Gesehen
+    solve: 
+      flash_notice: Die Frage wurde beantwortet.
+    tags: 
+      filter: Suche nach Stichwörtern
+      title: Stichwörter
+      tooltip: Alle Fragen mit dem Stichwort %{tag} anzeigen
+    toolbar: 
+      answer_by_mail: Antwort per E-Mail
+      more_actions: Weitere Aktionen
+      requests: Anfragen
+      your_close_request: Anfragen zur Beendigung
+    unanswered: 
+      empty: Diese Gruppe beinhaltet keine offenen Fragen.
+      expert: Experten
+      my_tags: Meine Stichwörter
+      tags: Stichwörter zu offenen Fragen
+      title: Offene Fragen
+    unsolve: 
+      flash_notice: Die Frage wird nicht mehr beantwortet.
+    unwatch: 
+      success: Du erhältst nun keine E-Mail-Benachrichtigungen mehr zu jeder neuen Antwort auf diese Frage.
+    update: 
+      flash_notice: Die Frage wurde erfolgreich aktualisiert.
+    watch: 
+      success: Du erhältst nun E-Mail-Benachrichtigungen zu jeder neuen Antwort auf diese Frage.

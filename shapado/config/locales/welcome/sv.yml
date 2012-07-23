@@ -1,0 +1,25 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lokal Profil
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  welcome: 
+    confirm_age: 
+      over_18: Jag är över 18
+      under_18: Jag är under 18
+      warning: "VARNING: Denna sida kan innehålla stötande vuxenmaterial."
+    feedback: 
+      captcha_error: Var god se till att fylla i captcha korrekt och ange en giltig e-postadress.
+      email_description: Var god ange din e-postadress så vi kan besvara ditt meddelande
+      feedback_description: Beskrivning
+      feedback_title: Titel
+    index: 
+      active: Aktiv
+      browse_all_or_by_tags: Se %{full_list_of_questions} eller %{browse_by_tags}
+      browse_by_tags: bläddra efter taggar
+      create_own_site: Skapa din egen Frågor &amp; Svar-sida på 8 sekunder gratis
+      full_list_of_questions: fullständig lista över frågor
+      quick_question: Ställ en fråga, vi kommer att hitta någon som kan svara
+      recent_questions: Senaste frågor

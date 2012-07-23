@@ -1,0 +1,59 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  notifier: 
+    admin_login: 
+      message1: O usuario %{user} conectouse como administrador o %{time} co enderezo IP %{ip}.
+      subject: "Alerta: Conexión de administrador"
+    created_flag: 
+      message1: Recibiu esta mensaxe porque é moderador de %{group}.
+      message2: "Informouse dunha mensaxe polo seguinte motivo:"
+      message2bis: Pode ler aquí a mensaxe da que se informou.
+      message2bistext: "Pode ler a mensaxe marcada premendo na seguinte ligazón:"
+      message3: "Ir á páxina de moderación para ver a lista de elementos marcados:"
+      message4: Visitar a páxina de moderación para ver a lista de elementos marcados.
+    earned_badge: 
+      message1: Conseguiu unha insignia %{badge} en %{app}
+      message2: "Descrición da insignia:"
+      message3: Pode ollar todas as insignias que ten na súa %{user_page}
+    favorited: 
+      message1: "%{user} gardou a pregunta que fixo en %{group} nos favoritos"
+      message2: "A pregunta era:"
+      message3: "Pode vela aquí:"
+    follow: 
+      message1: "%{user} está a seguir as súas preguntas e respostas en %{app}"
+      message2: Pode seguilo premendo no botón "Seguir" na súa %{user_page}
+    give_advice: 
+      message1: "%{user} acaba de facer unha pregunta que quizais vostede poida responder:"
+      message2: "Para contestar, simplemente responda á mensaxe aquí:"
+      message3: "Ou, se sabe de alguén que podería ser capaz de responder, envíelle esta ligazón de referencia:"
+      message4: Se non recibimos axiña unha resposta pola súa parte, preguntarémoslle a outra persoa. Aínda pode responder a ela cando queira.
+    global: 
+      hi: "Ola %{user}:"
+      hi_no_user: "Ola:"
+      user_page: páxina de usuario
+    new_answer: 
+      message: "%{user} respondeu %{new_answer} á pregunta %{question}"
+    new_comment: 
+      message: "%{user} comentou %{new_comment} na pregunta %{link}"
+    new_feedback: 
+      message1: O usuario %{user} <%{email}> enviou comentarios
+      message2: Un usuario anónimo mandou comentarios desde o enderezo IP %{ip}
+      message3: "Enderezo de correo electrónico: %{email}"
+      message4: "Asunto: %{subject}"
+    new_invitation: 
+      message1: Prema aquí para aceptar a invitación %{link}
+      message2: O equipo %{group}.
+      message3: "Unha mensaxe da persoa que o convidou:"
+      subject: "%{user} convidouno a unirse a %{group}"
+    report: 
+      message1: Informe sobre o grupo %{group}
+      message2: Desde %{date}
+      message3: Creáronse %{questions} preguntas
+      message4: Creáronse %{answers} respostas
+      message5: Efectuáronse %{votes} votos
+      message6: Outorgáronse %{badges} insignias
+      message7: A conta ten %{users} usuarios.
+      message8: Visite o seu grupo en %{link}

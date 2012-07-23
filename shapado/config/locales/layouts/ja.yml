@@ -1,0 +1,54 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+# Author: 青子守歌
+ja: 
+  layouts: 
+    application: 
+      all: すべて
+      ask_question: 質問する
+      badges: バッジ
+      forgot: 忘れた？
+      home: ホーム
+      languages: 言語
+      log_in: ログイン
+      logged: "%{login}としてログイン"
+      logout: ログアウト
+      manage_ads: 広告の管理
+      moderate: モデレート
+      now: 今すぐ！
+      openid: 
+        explaination: 外部サービスを使ってログインする場合は下のサービス一覧から選択してください
+      pages: ページ
+      questions: 質問
+      questions_in: questions in
+      questions_tagged: tagged with
+      search: 検索
+      settings: 設定
+      signup: ユーザ登録する
+      subscribe: 購読する
+      tags: タグ
+      title: Q&Aコミュニティ
+      unanswered: 未回答な質問
+      users: ユーザ
+      welcome_from: ようこそ！あなたは次のことをすることができます
+    manage: 
+      actions: アクション
+      announcements: アナウンス
+      constrains: 制約
+      content: コンテンツ
+      dashboard: ダッシュボード
+      domain: ドメイン
+      general: 一般
+      members: メンバー
+      pages: ページ
+      properties: プロパティ
+      reputation: 評価
+      rewards: 報酬
+      stats: ステータス
+      theme: テーマ
+      themes: テーマ
+      widgets: ウィジェット
+    notifications: 
+      message: これ以上%{group}からの自動通知を受け取りたくない場合、通知画面の設定を変更してください。

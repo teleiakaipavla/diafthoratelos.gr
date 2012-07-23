@@ -1,0 +1,8 @@
+en:
+  custom_html:
+    question_prompt:
+      "what's your question? be descriptive."
+    question_help:
+      "Provide as much detail as possible so that it will have more
+chance to be answered instead of being endlessly discussed.
+ Try to be clear and simple."

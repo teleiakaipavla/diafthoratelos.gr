@@ -1,0 +1,138 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+# Author: Tomi Toivio
+fi: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: aktivoitu
+        activation_code: Aktivointikoodi
+        age: Ikä
+        asked_by: "kysytty:"
+        avatar: Profiilikuva
+        birthday: Syntymäpäivä
+        created_at: liittynyt
+        current_password: Nykyinen salasana
+        email: Sähköposti
+        fullname: Koko nimi
+        hide_country: Älä näytä maatani
+        language: Kieli
+        language_filter: Suodata kieli
+        last_logged_at: nähty
+        login: Käyttäjätunnus
+        name: Oikea nimi
+        password: Salasana
+        password_confirmation: Salasanan vahvistus
+        preferred_languages: "Haluat lukea kysymyksiä seuraavilla kielillä:"
+        preferred_tags: Ensisijaiset tunnisteet
+        reputation: Maine
+        timezone: Aikavyöhyke
+        updated_at: päivitetty
+        website: Verkkosivu
+    models: 
+      user: Käyttäjä
+      users: Käyttäjät
+  users: 
+    actions: 
+      edit_others_posts: muokata toisten kirjoituksia
+      edit_wiki_post: muokata wiki-kirjoituksia
+      flag: Merkintä
+      retag_others_questions: uudelleenmerkitä toisten kysymyksiä
+      vote_down: antaa vastustusäänen
+      vote_to_close_any_question: pyytää minkä tahansa kysymyksen sulkemista
+      vote_to_close_own_question: pyytää oman kysymyksen sulkemista
+      vote_up: antaa kannatusäänen
+    anonymous_form: 
+      never_shown: ei koskaan näytetty
+    change_password: 
+      submit: Vaihda salasanani
+      title: Vaihda salasana
+    check_custom_domain: 
+      reset_domain_button: Ei, ole hyvä ja palauta mukautetuksi toimialueeksi %{domain}
+      title: Toimiiko uusi mukautettu toimialueesi?
+      working_domain_link: Kyllä, näen uuden toimialueeni toimivan alla.
+    create: 
+      flash_error: Emme valitettavasti voineet perustaa kyseistä tiliä. Yritä uudelleen tai ota yhteyttä järjestelmänvalvojaan (linkki yllä).
+      flash_notice: Kiitos rekisteröitymisestä!
+    edit: 
+      enable_twitter: Ota käyttöön Facebook- tai Twitter- tilit
+      submit: Tallenna
+      title: Asetukset
+    follow: 
+      flash_error: Et voi seurata itseäsi.
+      flash_notice: Seuraat nyt käyttäjää %{user}.
+    form: 
+      activities_notification: Lähetä sähköposti-ilmoituksia järjestelmän toiminnasta, kuten ansaituista rintanapeista, uusista seuraajista, jne.
+      avatar_tip: Muuta profiilikuvaasi käyttäen Gravatar-ohjelmaa
+      check_domain: Tarkasta %{domain}
+      check_domain_title: Tarkasta ryhmäsi mukautetut toimialueet
+      desktop_notification: Työpöytäilmoitukset
+      give_advice_notification: Lähetä sähköposti-ilmoitukset kysymyksistä omalta erikoisalaltani
+      information: Tiedot
+      language: Sivuston käyttöliittymän kieli
+      new_answer_notification: Lähetä sähköposti-ilmoitukset uusille vastauksille
+      notifications: Ilmoitukset
+      reports_notification: Lähetä ilmoitus viimeisimmistä tapahtumista ryhmässä (vain ryhmän ylläpitäjille)
+      send_answers_to_twitter: Lähetä vastaukseni Twitteriin
+      send_badges_to_twitter: Lähetä voitetut rintamerkkini Twitteriin
+      send_comments_to_twitter: Lähetä kommenttini Twitteriin
+      send_favorites_to_twitter: Lähetä suosikkivastaukseni Twitteriin
+      send_questions_to_twitter: Lähetä kysymykseni Twitteri-tililleni
+      show_more_lang: Näytä lisää kieliä
+      social_interaction: Sosiaalisen median vuorovaikutus
+    index: 
+      empty: Tässä ryhmässä ei ole jäseniä. Osallistu liittymällä tähän ryhmään.
+      filter: Etsi käyttäjiä
+      name: Nimi
+      name_tooltip: Käyttäjät aakkosjärjestyksessä
+      near: Lähellä sinua
+      near_tooltip: Sinulle läheisiä käyttäjiä
+      newest: Uusin
+      newest_tooltip: Käyttäjät, jotka juuri liittyivät
+      oldest: Vanhin
+      oldest_tooltip: Käyttäjät, jotka liittyivät ensimmäisenä
+      reputation: Maine
+      reputation_tooltip: Käyttäjät lajiteltu mainejärjestyksessä
+      title: Kaikki käyttäjät
+    messages: 
+      errors: 
+        reputation_needed: Tarvitset %{min_reputation} mainepistettä, jotta voisit %{action}.
+    new: 
+      description: Tule osaksi yhteisöä kysymään, vastaamaan ja oppimaan!
+      join_group: Liity ryhmään %{group}
+      submit: Rekisteröidy
+      title: Rekisteröidy uutena käyttäjänä
+    show: 
+      edit_profile: Muokkaa profiilia
+      follow: Seuraa
+      followers: Seuraajat
+      following: Seurattavat
+      title: Käyttäjä %{user}
+      unfollow: Älä seuraa
+      views: näyttökertaa
+    show_json: 
+      edit_it: Muokkaa profiiliasi tästä.
+      no_description: Tämä käyttäjä ei ole vielä kirjoittanut profiiliaan.
+    top_user: 
+      connect: Yhdistä
+      my_karma: "Karmani: %{karma}"
+      profile: Profiili
+    unfollow: 
+      flash_notice: Et enää seuraa käyttäjää %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Seuraat nyt tunnistetta %{tag}
+      unfollowed: 
+        flash_notice: Et enää seuraa tunnistetta %{tag}
+    user_bar: 
+      create_account: Luo käyttäjätunnus
+      not_logged_in: Et ole kirjautunut sisään
+      signed_as: Olet sisäänkirjautuneena käyttäjätunnuksella
+    user_mini: 
+      admin: "[ Pääkäyttäjä ]"
+      editor: "[ Toimittaja ]"
+      mod: "[ Moderaattori ]"

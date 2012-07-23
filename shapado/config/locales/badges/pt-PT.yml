@@ -1,0 +1,154 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: GTNS
+# Author: Hamilton Abreu
+# Author: Waldir
+pt-PT: 
+  activerecord: 
+    models: 
+      badge: Condecoração
+      badges: Condecorações
+  badges: 
+    index: 
+      description: Todos as condecorações que pode ganhar. Partilhe o seu conhecimento, ganhe condecorações.
+      title: condecorações
+    shared: 
+      addict: 
+        description: Visitou o site em 20 dias consecutivos
+        name: Viciado
+      autobiographer: 
+        description: Preencheu todos os campos do perfil de utilizador
+        name: Autobiógrafo
+      celebrity: 
+        description: Obteve mais de 100 seguidores
+        name: Celebridade
+      citizen_patrol: 
+        description: Primeira publicação reportada
+        name: Patrulha do cidadão
+      civic_duty: 
+        description: Votou 300 vezes
+        name: Dever cívico
+      cleanup: 
+        description: Fez a primeira reversão
+        name: Limpeza
+      commentator: 
+        description: Fez 10 comentários
+        name: Comentador
+      critic: 
+        description: Votou negativamente pela primeira vez
+        name: Crítico
+      disciplined: 
+        description: Eliminou publicação própria com pontuação de 3 ou superior
+        name: Disciplinado
+      editor: 
+        description: Primeira publicação editada
+        name: Editor
+      effort_medal: 
+        description: Obteve 100 votos positivos
+        name: Medalha de esforço
+      enlightened: 
+        description: Tem uma resposta que foi aceite com pelo menos 10 votos positivos
+        name: Esclarecido
+      famous_question: 
+        description: Fez uma pergunta com 10 000 visitas
+        name: Pergunta famosa
+      fanatic: 
+        description: Visitou o site em 100 dias consecutivos
+        name: Fanático
+      favorite_question: 
+        description: Fez uma pergunta adicionada aos favoritos por 25 utilizadores
+        name: Pergunta favorita
+      friendly: 
+        description: Seguir alguém pela primeira vez
+        name: Amistoso
+      good_answer: 
+        description: Deu uma resposta que atingiu uma média de mais de 25 votos
+        name: Boa resposta
+      good_question: 
+        description: Fez uma pergunta que atingiu uma média de mais de 25 votos
+        name: Boa pergunta
+      great_answer: 
+        description: Tem uma resposta com 100 votos positivos
+        name: Óptima resposta
+      great_question: 
+        description: Pergunta com 100 votos positivos
+        name: Óptima pergunta
+      guru: 
+        description: Deu uma solução a uma pergunta com uma média de mais de 40 votos
+        name: Guru
+      inquirer: 
+        description: Fez a sua primeira pergunta
+        name: Questionador
+      interesting_person: 
+        description: Obteve mais de 10 seguidores
+        name: Pessoa interessante
+      merit_medal: 
+        description: Obter 200 votos positivos
+        name: Medalha de mérito
+      necromancer: 
+        description: Respondeu a uma pergunta mais de 60 dias depois, com pelo menos 5 votos
+        name: Necromante
+      nice_answer: 
+        description: Tem uma resposta com 10 votos positivos
+        name: Boa resposta
+      nice_question: 
+        description: Fez uma pergunta votada positivamente 10 vezes
+        name: Boa pergunta
+      notable_question: 
+        description: Fez uma pergunta com 2500 visitas
+        name: Pergunta notável
+      organizer: 
+        description: Fez a primeira recategorização
+        name: Organizador
+      peer_pressure: 
+        description: Eliminou publicação própria com pontuação de -3 ou inferior
+        name: Pressão dos pares
+      pioneer: 
+        description: Ser um dos primeiros utilizadores a registar-se
+        name: Pioneiro
+      popstar: 
+        description: Tem 500 votos positivos, máximo de 10 votos negativos
+        name: Estrela pop
+      popular_person: 
+        description: Teve mais de 50 seguidores
+        name: Pessoa popular
+      popular_question: 
+        description: Fez uma pergunta com 1000 visitas
+        name: Pergunta popular
+      rockstar: 
+        description: Tem 1000 votos positivos, máximo de 10 votos negativos
+        name: Estrela de rock
+      scholar: 
+        description: Respondeu à primeira pergunta própria com uma resposta aceite
+        name: Académico
+      self-learner: 
+        description: Respondeu à sua própria pergunta, com pelo menos 3 votos positivos
+        name: Autodidata
+      service_medal: 
+        description: Tem 300 votos positivos
+        name: Medalha de serviço
+      shapado: 
+        description: Visitou o site em 8 dias consecutivos
+      stellar_question: 
+        description: Fez uma pergunta adicionada aos favoritos por 100 utilizadores
+        name: Pergunta extraordinária
+      student: 
+        description: Fez a primeira pergunta com pelo menos um voto positivo
+        name: Estudante
+      supporter: 
+        description: Votou positivamente pela primeira vez
+        name: Apoiante
+      troubleshooter: 
+        description: Deu a sua primeira resposta
+        name: Solucionador de problemas
+      tutor: 
+        description: Deu uma solução a uma pergunta com uma média de mais de 2 votos
+        name: Tutor
+    show: 
+      description: "Utilizadores que receberam esta condecoração. Recentemente atribuída a:"
+      earned: recebeu
+      for_tag_bronze: 200 votos na categoria %{tag}
+      for_tag_gold: 1000 votos na categoria %{tag}
+      for_tag_silver: 400 votos na categoria %{tag}
+      title: Condecoração %{type}

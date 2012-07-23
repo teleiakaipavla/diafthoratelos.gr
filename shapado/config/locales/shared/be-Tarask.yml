@@ -1,0 +1,61 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  shared: 
+    any_lang: Любая мова
+    by_anon: Ад ананіма
+    current_tags: 
+      title: Выбраныя тэгі
+    description: Апісаньне
+    empty: 
+      activities: 
+        description: 
+          text: Гэтае месца будзе запаўняцца аўтаматычна, калі людзі пачнуць карыстацца сайтам.
+        title: Пакуль нічога не зьмянілася.
+      answers: 
+        description: 
+          text: Будзьце першым!
+        title: Ніхто яшчэ не адказаў на гэтае пытаньне.
+      default: 
+        description: 
+          text: Будзь першым, хто %{action_link}!
+        title: Прабачце! Тут няма чаго болей глядзець.
+      questions: 
+        description: 
+          action_link: задаць пытаньне
+      themes: 
+        description: 
+          action_link: зараз
+          text: стварыць новую %{action_link}
+        title: Вы яшчэ не стварылі ніводнай тэмы.
+    layout: 
+      footer: 
+        cc_footer: Увесь зьмест і усе зьвесткі Shapado.com даступныя на ўмовах ліцэнзіі %{cc_link}
+        powered_by: Рухавік %{source_link} %{version} на %{agpl_link}
+    login_drop_down: 
+      with_facebook: з Facebook
+      with_google: з Google
+      with_identica: з Identi.ca
+      with_linked_in: з LinkedIn
+      with_openid: OpenID
+      with_twitter: з Twitter
+    manage_navigation: 
+      title_content: Склад групы
+      title_features: Магчымасьці групы
+      title_options: Налады групы
+    name: Назва
+    preferred_lang: Мовы, якім я аддаю перавагу
+    quick_question: 
+      random_question: Адказаць на выпадковае пытаньне
+    social_connect: 
+      find_friends_facebook: Знайсьці сяброў на Facebook
+      find_friends_identica: Знайсьці сяброў на Identi.ca
+      find_friends_linked_in: Знайсьці сяброў на LinkedIn
+      find_friends_twitter: Знайсьці сяброў на Twitter
+    topbar: 
+      admin: Адміністратар
+      logged_as: Увайшлі як %{login}
+      user_page: Мая старонка

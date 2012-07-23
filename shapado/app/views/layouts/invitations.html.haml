@@ -1,0 +1,16 @@
+!!! 5
+%html{"xml:lang" => I18n.locale, :lang => I18n.locale, :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    = render "shared/layout/head"
+
+  %body{:class => bodys_class(params) }
+    = render :partial => "shared/topbar"
+    #container{:class => @current_class}
+      %section.invitations-panel
+        = yield
+        .clear
+      = render "shared/layout/footer"
+      #login_dialog.top-bar{'data-title' => t('devise.sessions.link')}
+        %ul.auth-list
+          %li
+            = render "shared/login_drop_down"

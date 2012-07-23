@@ -1,0 +1,10 @@
+# Messages for Norwegian Bokmål (‪norsk (bokmål)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Nghtwlkr
+nb: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Krever bekreftelse
+        title: Send bekreftelses-e-poster

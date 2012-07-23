@@ -1,0 +1,11 @@
+
+.module.clearfix.widget.block{:class => 'widget-about'}
+  %h3= I18n.t(:"devise.mailer.confirm_account.welcome")
+
+  %aside
+    .markdown
+      = find_and_preserve(shapado_auto_link(markdown(widget.content)))
+
+  %footer
+    =link_to t('layouts.application.faq'), page_path('faq')
+    =link_to t("scaffold.more"), group_path(current_group)

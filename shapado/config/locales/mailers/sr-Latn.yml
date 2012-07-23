@@ -1,0 +1,28 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  mailers: 
+    notifications: 
+      created_flag: 
+        subject: Nova poruka označena na %{group}
+      earned_badge: 
+        subject: U grupi %{group} ste osvojili značku!
+      favorited: 
+        subject: "%{login} dodade vaše pitanje kao omiljeno"
+      follow: 
+        subject: "%{login} vas sada prati na %{app}"
+      give_advice: 
+        friend_subject: "Vašem prijatelju treba pomoć: %{question_title}"
+        subject: "Treba nam vaš savet: %{question_title}"
+      new_answer: 
+        subject_friend: Vaš prijatelj %{login} odgovori na pitanje %{title}
+        subject_other: "%{login} odgovori na pitanje %{title}"
+        subject_owner: "%{login} odgovori na pitanje %{title}"
+      new_comment: 
+        subject: "%{login} prokomentarisa na %{group}"
+      new_invitation: 
+        subject: "%{user} vas poziva da se učlanite u %{group}"
+      report: 
+        subject: Izveštaj grupe %{group} od %{app}

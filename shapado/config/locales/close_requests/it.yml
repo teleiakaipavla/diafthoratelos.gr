@@ -1,0 +1,36 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Deneb
+# Author: Giallu
+it: 
+  close_requests: 
+    create: 
+      flash_notice: Richiesta di chiusura creata
+    destroy: 
+      flash_notice: Richiesta di chiusura eliminata
+    edit: 
+      title: Modifica richiesta di chiusura
+    form: 
+      close_with_reason: La domanda viene chiusa con questa motivazione
+      dupe: Duplica
+      no_question: Non è una domanda
+      not_relevant: Non pertinente
+      ot: Fuori tema
+      request_closing_details: Richiesta di chiusura per la domanda
+      retract: Ritrattare
+      spam: spam
+    index: 
+      title: Elenco delle richieste chiuse
+    model: 
+      attributes: 
+        comment: Commenta
+        reason: Motivo
+        user: Utente
+      messages: 
+        already_requested: C'è già una richiesta di chiusura per questa domanda
+      name: Richiesta di chiusura
+      prural_name: Richieste di chiusura
+    update: 
+      flash_notice: Richiesta di chiusura modificata

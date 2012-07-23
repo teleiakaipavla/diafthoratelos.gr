@@ -1,0 +1,31 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  invitations: 
+    accept: 
+      create_account: Buka akaun (1/2)
+      create_account_step2: Buka Akaun
+      description: "%{group} ialah sebuah himpunan soal jawab yang sentiasa meningkat tentang sebarang topik."
+      done: Siap!
+      facebook_connect: Bersambung dengan Akaun Facebook anda
+      final_step: Langkah terakhir (2/2)
+      find_friends: "Cari rakan dan berhubung:"
+      follow_things: Ikuti Tag dan Orang
+      follow_things_description: Soalan yang berkaitan dengan ini akan muncul pada suapan anda.
+      other_connect: atau gunakan salah satu daripada ini.
+      other_social_options: Anda juga boleh menggunakan %{linkedin} dan %{identica}.
+      point1: Tanya pakar yang tahu akan topik yang diberikan.
+      point2: Ikuti topik dan jawab soalan yang menarik minat anda.
+      point3: Undi dan sunting untuk memperbaiki jawapan dan laman wiki. Raih lencana
+      point4: Jawab dari klien e-mel anda dengan senang-lenang.
+      twitter_connect: Bersambung dengan Akaun Twitter anda
+      welcome: Selamat Datang
+    create: 
+      flash_notice: Jemputan anda berjaya dihantar.
+      limit_notice: Maaf, anda tidak boleh menghantar lebih daripada %{limit} jemputan sekali.
+    resend: 
+      flash_notice: Jemputan anda berjaya dihantar semula.
+    revoke: 
+      flash_notice: Jemputan anda berjaya ditarik balik.

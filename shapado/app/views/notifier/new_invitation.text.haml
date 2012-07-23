@@ -1,0 +1,13 @@
+= t("notifier.global.hi_no_user")
+
+= t("notifier.new_invitation.subject", :user => h(@user.login), :group => @group.name)
+
+= t("notifier.new_invitation.message1", :link => url_for(:host => @group.domain, :controller => "invitations", :action => "accept", :id => @invitation.id))
+
+- unless @invitation.body.blank?
+  = t("notifier.new_invitation.message3")
+
+  = @invitation.body
+
+= t("notifier.new_invitation.message2", :group => @group.name)
+

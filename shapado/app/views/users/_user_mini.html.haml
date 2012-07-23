@@ -1,0 +1,18 @@
+-bronze, silver, gold = user.badges_count_on(current_group)
+-unless user.nil?
+  - link_options = {:class => "user-link ajax-tooltip pjax", :"data-layout" => "user"}
+  -if local_assigns[:author]
+    - link_options[:rel] = "author"
+  = link_to h(user.display_name), user_path(user), link_options
+
+-if user.owner_of?(current_group)
+  %i.admin{:title => "admin"}
+    = t('users.user_mini.admin')
+
+-elsif user.mod_of?(current_group)
+  %i.mod{:title => "moderator"}
+    = t('users.user_mini.mod')
+
+-elsif user.editor_of?(current_group)
+  %i.editor{:title => "editor"}
+    = t('users.user_mini.editor')

@@ -1,0 +1,95 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  feeds: 
+    feed: Довод
+    post_new_questions: Поставите нова питања на
+    question: Пријави ме на ово питање
+    questions: Пријави ме на сва питања
+    share_on_twitter: Твитер, Фејсбук и више…
+    tag: Пријави ме на ознаку
+    user: Пријави ме на корисничка питања
+  global: 
+    actions: Радње
+    active: Активирај
+    alphabetically: Азбучно
+    anonymous: Анонимно
+    blog: Блог
+    by: од
+    by_semi: "Од:"
+    chat: Ћаскање
+    current: Текуће
+    edited: Уређено
+    edited_by: "Уредио:"
+    edited_by_semi: "Уредио:"
+    feedback: Повратне информације
+    follow: Прати
+    followed_by: "Пратиоци:"
+    following: Пратим
+    from: из %{site}
+    group_not_found: Страница %{url} не постоји
+    home: Почетна
+    next_button: Следеће
+    open: Отвори
+    or: или
+    permission_denied: Дозвола је одбијена
+    please_login: Пријавите се
+    preview: Прегледај
+    previous: Претходно
+    privacy: Приватност
+    share: Дели
+    sign_up: Упис
+    size: Величина
+    sort_by: "Поређај по:"
+    tags_label: "Ознаке:"
+    tos: Услови
+    unfollow: Престани с праћењем
+    unknown_place: Непознато
+    view: Погледај
+    view_question: Погледај питање
+    what_to_do: Шта желите да урадите?
+  models: 
+    question: Питање
+  number: 
+    x_time: 
+      one: "%{count} пут"
+      other: "%{count} пута"
+      zero: Never
+  preferred_languages: 
+    any: било који
+    user: Жељени језици
+  roles: 
+    moderator: Модератор
+    owner: Власник
+    user: Обичан корисник
+  scaffold: 
+    add: Додај
+    are_you_sure: Јесте ли сигурни?
+    back: Назад
+    cancel: Откажи
+    close: Затвори
+    create: Направи
+    destroy: Обриши
+    details: Детаљи
+    edit: Уреди
+    more: Више…
+    new: Додај %{model}
+    post_as_anonymous: Објави анонимно
+    save: Сачувај
+    send: Пошаљи
+    show: Прикажи
+    sure: Желите ли да обришете %{model}?
+    update: Ажурирај
+  time: 
+    ago: пре %{time}
+    today: данас
+    yesterday: јуче
+  views: 
+    pagination: 
+      first: Прво
+      last: Последње
+      next: Следеће &raquo;
+      previous: "&laquo; Претходно"
+      truncate: …

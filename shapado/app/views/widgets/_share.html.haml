@@ -1,0 +1,8 @@
+.module.clearfix.widget.block{:class => 'widget-share'}
+  = render "widgets/header", :widget => widget
+  %aside
+    %ul
+      - widget.settings["share_links"].keys.each do |key|
+        %li
+          = raw AppConfig.share_links[key]
+

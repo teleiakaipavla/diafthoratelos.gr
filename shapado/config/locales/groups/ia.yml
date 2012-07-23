@@ -1,0 +1,96 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Limite quotidian
+        default_tags: Etiquettas predefinite
+        description: Description
+        domain: Dominio
+        enable_latex: Activar LaTeX con jqmath (rapide, ma con functionalitate incomplete)
+        enable_mathjax: Activar LaTeX con mathjax (lente, ma con functionalitate complete)
+        fb_button: Activar le button Like de Facebook (non protege le vita private)
+        forum: Permitter plus de un responsa per usator
+        group_created_by: create per
+        language: Lingua predefinite
+        languages: Linguas additional
+        legend: Legenda
+        logo: Logotypo
+        may_contain_adult_content: Iste sito pote continer contento adulte
+        name: Nomine
+        owner: Iste gruppo esseva create per %{login}
+        registered_only: Solo le personas registrate pote acceder al sito
+        signup_type: "Le methodos que tu usatores pote usar pro crear un conto:"
+        state: Stato
+        subdomain: URL
+        track_users: Demandar al usatores lor ubication physic
+        wysiwyg_editor: Activar le editor facile a usar
+    models: 
+      default_tags_message: Tu non pote haber plus de 10 etiquettas predefinite
+      duplicate_domain_message: Iste dominio es jam in uso.
+      group: Gruppo
+      groups: Gruppos
+      reputation_rewards_answer_constrain: Le restriction pro premios de responsa debe esser negative
+      reputation_rewards_ask_constrain: Le restriction pro poner questiones debe esser negative
+      reputation_rewards_key: Clave invalide
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Un problema ha occurrite. Per favor reproba.
+      success_twitter_connection: Felicitationes, tu ha connectite tu conto de Twitter con successo!
+    create: 
+      flash_notice: Tu gruppo ha essite create con successo. Tu pote ora comenciar a configurar lo.
+    edit: 
+      title: Modificar tu gruppo
+    form: 
+      access: Configurationes de accesso
+      analytics_engine: Motor de analyse
+      analytics_legend: Le gruppo potera usar su proprie codice de sequimento
+      any_language: Qualcunque
+      custom_analytics: Permitter analyse personalisate
+      custom_html: Permitter HTML personalisate
+      custom_js: Permitter JavaScript personalisate
+      default_tags_legend: Separa etiquettas per commas. Solmente 10 etiquettas predefinite es permittite.
+      description_legend: Tu ha 400 characteres pro describer le gruppo.
+      isolate_group: Isolar le gruppo de altere gruppos
+      legend_legend: Isto essera usate in le titulo. Tu ha 40 characteres.
+      logo_legend: Tu pote incargar le logotypo del gruppo. Le grandor maxime del file es 2MB.
+      members_only: Solmente le membros del gruppo potera acceder a iste gruppo
+      signup_all: Tote le fornitores seligite plus nomine de usator e contrasigno
+      signup_email: Nomine de usator e contrasigno solmente
+      signup_noemail: Tote le fornitores seligite minus nomine de usator e contrasigno
+      signup_social: Le usatores pote solmente usar Facebook, Twitter, LinkedIn o Identica
+      website_analytics_id: ID de analyse de sito web
+    group: 
+      about: A proposito
+      accept_group: Acceptar iste gruppo
+      allow_ads: Permitter publicitate
+      close: Clauder
+      close_group: Clauder iste gruppo
+      disallow_ads: Non permitter publicitate
+    index: 
+      actives: Active
+      create_your_own: crear tu proprie gruppo
+      description: Isto es le lista de gruppos public que ha essite create. Usa le campo de recerca sequente pro filtrar le gruppos. Tu pote etiam %{link}.
+      filter: Cercar gruppos
+      most_active: Le plus active
+      name: Nomine
+      pendings: Pendente
+      request_group: Requestar un nove gruppo
+      title: Gruppos
+    new: 
+      title: Crear tu gruppo
+    show: 
+      accept_group: Acceptar iste gruppo
+      accept_group_with_custom_ads: Acceptar gruppo e permitter annuncios personalisate
+      close_group: Clauder iste gruppo
+      group_awaiting_acceptance: Iste gruppo attende le acceptation de un moderator.
+      group_closed: Iste gruppo ha essite claudite.
+      title: A proposito de %{name}
+      visit_group: Visitar iste gruppo
+    top_grouplist: 
+      active_site: "Sito active:"
+    update: 
+      notice: Le gruppo ha essite actualisate con successo.

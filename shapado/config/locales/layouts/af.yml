@@ -1,0 +1,51 @@
+# Messages for Afrikaans (Afrikaans)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Naudefj
+af: 
+  layouts: 
+    application: 
+      ask_question: Vra 'n vraag
+      badges: Balkies
+      forgot: Vergeet?
+      home: Tuisblad
+      languages: Tale
+      log_in: Meld aan
+      logged: Aangeteken as %{login}
+      logout: Meld af
+      manage_ads: Bestuur advertensies
+      moderate: Modereer
+      now: nou!
+      openid: 
+        explaination: "Kies asseblief u OpenID-verskaffer as u wil registreer of net wil aanmeld:"
+      pages: Bladsye
+      questions: Vrae
+      questions_in: Vrae in
+      questions_tagged: Met etiket
+      search: Soek
+      settings: Voorkeure
+      signup: Registreer
+      subscribe: Inskryf op
+      tags: Etikette
+      title: Vrae & Antwoorde
+      unanswered: Onbeantwoord
+      users: Gebruikers
+      welcome_from: Welkom! U kan
+    manage: 
+      actions: Aksies
+      announcements: Aankondigings
+      constrains: Vereistes
+      content: Inhoud
+      dashboard: Dashboard
+      domain: Domein
+      general: Algemeen
+      members: Lede
+      pages: Bladsye
+      properties: Eienskappe
+      reputation: Reputasie
+      rewards: Belonings
+      stats: Statistieke
+      theme: Tema
+      widgets: Widgets
+    notifications: 
+      message: As u nie outomatiese kennisgewings vanaf %{domein} wil ontvang nie, verander u voorkeure in die kennisgewings-skerm.

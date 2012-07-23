@@ -1,0 +1,22 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  wiki: 
+    actions: 
+      all_history: Regresar al historial
+      back_to_question: Volver a la pregunta
+      revert: Revertir a esta versión
+      show_diff: Comparar versiones seleccionadas
+    diff: 
+      title: Diferencias entre las versiones %{prev} y %{curr}
+    history: 
+      current_version: Versión actual
+      previous_versions: Versiones anteriores
+      title: Historia (%{count})
+      version: Versión
+      version_summary: Resumen de esta versión
+    model: 
+      attributes: 
+        message: Resumen

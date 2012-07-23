@@ -1,0 +1,18 @@
+-content_for :header do
+  %h1
+    = t(".title")
+
+= form_for(@page, :html=>{:class => "form", :id => "new_page"}) do |f|
+  =render :partial => "form", :locals => {:f => f}
+
+  .field.form-options
+    .column
+      .checkbox
+        -if current_user.mod_of?(current_group)
+          = f.label :wiki, "Wiki", :class => "radio"
+          = f.check_box :wiki, :class => "checkbox"
+
+    .buttons
+      = f.submit t('scaffold.create'), :class => "save"
+      = t("global.or")
+      = link_to t('scaffold.cancel'), pages_path, :class => "button cancel"

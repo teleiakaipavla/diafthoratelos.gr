@@ -1,0 +1,25 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Junmin
+zh-CN: 
+  mailers: 
+    notifications: 
+      earned_badge: 
+        subject: 您在 %{group} 赢得了一枚徽章！
+      favorited: 
+        subject: "%{login} 为收藏添加您的问题 ！"
+      follow: 
+        subject: "%{login} 现在是在 %{app} 跟随你"
+      give_advice: 
+        friend_subject: 你的好友需要帮忙解答： %{question_title}
+        subject: 我们需要你的意见： %{question_title}
+      new_answer: 
+        subject_friend: 你的好友 %{login} 回答了该问题： %{title}
+        subject_other: "%{login} 回答了该问题： %{title}"
+        subject_owner: "%{login} 回答了你的问题： %{title}"
+      new_comment: 
+        subject: "%{login} 在 %{group} 的评论"
+      report: 
+        subject: "%{group} 组在 %{app} 的报告"

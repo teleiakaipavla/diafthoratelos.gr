@@ -1,0 +1,22 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  errors: 
+    forbidden: 
+      explanation: Não tem as permissões necessárias para aceder a esta página.
+      title: Acesso negado
+    go_to: Ir para a página %{link}
+    help_us_answer: Ajude-nos a responder a %{link}
+    internal_error: 
+      explanation: Fomos notificados sobre este problema e vamos averiguá-lo em breve.
+      title: Pedimos desculpa, mas ocorreu um erro.
+    not_found: 
+      explanation: Pode ter escrito mal o endereço ou a página pode ter sido movida.
+      title: A página não foi encontrada.
+    options_label: "Outras coisas que pode tentar:"
+    search: Pesquisar
+    unprocessable_entity: 
+      explanation: Talvez tenha tentado modificar algo a que não tinha acesso.
+      title: A alteração que pretendia foi rejeitada.

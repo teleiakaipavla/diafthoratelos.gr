@@ -1,0 +1,22 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giallu
+it: 
+  sessions: 
+    create: 
+      flash_error: Impossibile accedere come '%{login}'
+      flash_notice: Accesso effettuato
+    destroy: 
+      flash_notice: Sei stato disconnesso.
+    new: 
+      log_in: Accedi
+      not_registered: Non sei registrato?
+      registered: Già iscritto?
+      remember_me: Ricordami
+      sign_in: Iscriviti
+      signup: Iscriviti
+      with_authentication: Accedi con il nostro sistema di autenticazione
+      with_facebook: Accedi con Facebook
+      with_openid: Accedi con OpenID
+      with_twitter: Accedi con Twitter

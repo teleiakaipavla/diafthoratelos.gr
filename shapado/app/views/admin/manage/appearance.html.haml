@@ -1,0 +1,32 @@
+%h1
+  = t(".title")
+%p.description
+
+= form_for(@group, :html => {:class => "form", :multipart => true}) do |f|
+  = f.error_messages
+
+  .field.group-logo
+    .img-up
+      = f.label :logo, t('logo', :scope => "activerecord.attributes.group"), :class => "label"
+      -unless @group.new?
+        = image_tag(logo_path(@group))
+      = f.file_field :logo
+    .size
+
+      = text_field_tag "group[logo_info][width]", @group.logo_info["width"] || 215
+      %span x
+      = text_field_tag "group[logo_info][height]", @group.logo_info["height"] || 60
+
+    %small
+      = t('.logo_legend')
+
+  .field
+    = f.label :custom_favicon, "Favicon", :class => "label"
+    -if @group.has_custom_favicon?
+      = image_tag(favicon_group_path(@group))
+    -else
+      = image_tag("/favicon.ico")
+    = f.file_field :custom_favicon
+
+  .buttons
+    = f.submit t('scaffold.update'), :class => "save"

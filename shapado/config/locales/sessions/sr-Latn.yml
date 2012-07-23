@@ -1,0 +1,22 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  sessions: 
+    create: 
+      flash_error: Ne mogu da vas prijavim kao „%{login}“
+      flash_notice: Prijavljeni ste
+    destroy: 
+      flash_notice: Odjavljeni ste.
+    new: 
+      log_in: Prijava
+      not_registered: Nemate nalog?
+      registered: Imate nalog?
+      remember_me: Zapamti me
+      sign_in: Prijava
+      signup: Upis
+      with_authentication: Prijava s našim sistemom za potvrdu
+      with_facebook: Prijava preko Fejsbuka
+      with_openid: Prijava putem OpenID-ja
+      with_twitter: Prijava preko Tvitera

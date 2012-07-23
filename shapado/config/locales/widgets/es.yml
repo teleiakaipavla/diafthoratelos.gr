@@ -1,0 +1,123 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Armando-Martin
+# Author: McDutchie
+# Author: Patcito
+# Author: Vivaelcelta
+es: 
+  widgets: 
+    about: 
+      description: Este widget muestra una descripción corta de su grupo.
+      title: Acerca de
+    adsense: 
+      description: Este widget te permite mostrar anuncios de Google AdSense.
+      title: AdSense
+    ask_question: 
+      ask: Preguntar
+      description: Este widget permite a los usuarios hacer preguntas desde cualquier lugar.
+      footer: Ver todas las preguntas en %{group}
+      title: "Haz una pregunta:"
+      view_question: <p>También se puede ver <a href="%{question}">aquí</a> o pedir otra por abajo.</p>
+    badges: 
+      description: Este widget muestra las insignias ganadas recientemente por los usuarios.
+      see_all: Ver todas las insignias
+      title: Insignias recientes
+    contributors: 
+      description: Este widget muestra la lista de personas que han contribuido a una pregunta.
+      title: Contribuyentes de esta pregunta
+    create: 
+      notice: El widget se ha creado correctamente.
+    current_tags: 
+      description: Este widget muestra las etiquetas seguidas por el usuario actual.
+    custom_html: 
+      description: Añadir cualquier tipo de código HTML que desee aquí.
+    edit: 
+      title: Editar Widget
+    group_networks: 
+      description: Este widget muestra una lista de enlaces de red social para que sus usuarios puedan seguirle allí.
+      title: Siguenos
+    groups: 
+      description: Este widget muestra los últimos grupos registrados
+      title: Grupos recientes
+    index: 
+      add_new: Añadir nuevo widget
+      description: Usar las flechas para mover los widgets
+      external_widgets: Externo
+      external_widgets_title: Widgets que usted será capaz de integrar en su propio sitio
+      footer: Pie de página
+      header: Encabezado
+      mainlist_widgets: Lista principal
+      mainlist_widgets_title: Widgets que aparecerán en la lista principal de preguntas
+      name: Nombre del widget
+      navbar: Barra de navegación
+      question_widgets: Pregunta
+      question_widgets_title: Widgets que aparecen en cada página de pregunta
+      sidebar: Barra lateral
+      title: Administrar los widgets de la barra lateral
+      type: "Tipo:"
+      welcome_widgets: Bienvenido
+      zone: "Sección de página:"
+    mod_info: 
+      description: Este widget muestra información pertinente para los moderadores, tal como reportes y solicitudes de información.
+    pages: 
+      description: Este widget muestra las paginas wiki
+      new: Añadir una página nueva
+      title: Páginas wiki
+    question_badges: 
+      description: Este widget muestra insignias ganadas con esa pregunta.
+      title: Insignias de la pregunta
+    question_stats: 
+      description: Este widget muestra las estadísticas acerca de una pregunta como la fecha de creación y la cantidad de vistas.
+    question_tags: 
+      description: Este widget mostrar etiquetas relacionada con la pagina actual.
+      title: Etiquetas de la pregunta
+    related_questions: 
+      description: Este widget muestra una lista de preguntas relacionadas con la pregunta actual.
+      title: Preguntas relacionadas
+    settings: 
+      code: "Copie y pegue este código en tu sitio o blog, como un widget de texto en su Wordpress:"
+      custom_external_css: "Incluye CSS personalizado a su widget (se recomienda si usted no esta incluyendo el CSS Shapado):"
+      custom_html: "Html personalizado:"
+      exclude_css_on_external: Excluir su CSS de sitio shapado de su widget
+      limit: "Cantidad a mostrar:"
+      on_questions: Mostrar en la página principal de lista de preguntas
+      on_show_question: Mostrar en la pagina que muestra la pregunta y sus respuestas
+      on_welcome: Mostrar en la página de bienvenida
+      preview: "Vista previa del widget:"
+    share: 
+      description: Este widget muestra varios botones para compartir la página actual en las redes sociales.
+      title: Compartir en
+    sharing_buttons: 
+      description: Este widget mostrara botones sociales para compartir.
+      title: Comparte este artículo en
+    suggestions: 
+      description: Sugerencias de amigos y etiquetas a seguir para el usuario.
+      follow_tag: + Seguir etiqueta
+      follow_user: + Seguir usuario
+      followed_by: Seguido por %{user}
+      title: Las personas y etiquetas para seguir
+      unfollow_tag: Dejar de seguir etiqueta
+      unfollow_user: -Dejar de seguir al usuario
+    tag_cloud: 
+      description: Este widget muestra una nube de etiquetas
+      title: Nube de etiquetas
+    tag_list: 
+      description: Este widget muestra las etiquetas relacionadas con la página actual.
+      title: Etiquetas
+    top_groups: 
+      description: Este widget muestra los grupos mas activos
+      has_members: 
+        one: "%{count} miembro"
+        other: "%{count} miembros"
+      title: Top 5 grupos
+    top_users: 
+      description: Este widget muestra ranking de usuarios
+      title: Top 5 usuarios
+    update: 
+      notice: El widget se ha actualizado correctamente.
+    users: 
+      description: Este widget muestra los nuevos miembros registrados
+      title: Usuarios recientes
+    widget: 
+      change_position: "Cambie la posición del widget:"

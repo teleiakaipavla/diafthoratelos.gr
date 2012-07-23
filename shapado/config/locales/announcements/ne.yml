@@ -1,0 +1,20 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+ne: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: मा सकिन्छ
+        message: सन्देश
+        only_anonymous: अनजान प्रयोगकर्ताहरूको लागि
+        starts_at: मा सुरू हुन्छ
+  announcements: 
+    actions: 
+      delete: हटाउनुहोस
+      title: क्रियाहरू
+    create: 
+      success: तपाइका घोषणाहरू सफलतापुर्वक संग्रहित गरियो।
+    index: 
+      title: "घोषणाहरू:"

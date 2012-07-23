@@ -1,0 +1,5 @@
+
+var form = $("<%= escape_javascript(render 'comments/edit_form', {comment: @comment, source: params[:source], commentable: @comment.commentable}) %>");
+Editor.setup(form.find(".markdown_editor, .wysiwyg_editor"));
+$('#comment-<%=@comment.id-%>').find('form').remove();
+$('#comment-<%=@comment.id-%>').append(form);

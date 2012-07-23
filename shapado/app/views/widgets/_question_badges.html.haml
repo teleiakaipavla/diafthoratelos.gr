@@ -1,0 +1,8 @@
+- if @question.badges.size > 0
+  .module.clearfix.widget.block{:class => 'widget-question_badges'}
+    = render "widgets/header", :widget => widget
+    %aside.badges
+      %ul
+        -@question.badges.each do |badge|
+          %li
+            = render :partial => "badges/badge", :object => badge, :locals => {:hide_user => false}

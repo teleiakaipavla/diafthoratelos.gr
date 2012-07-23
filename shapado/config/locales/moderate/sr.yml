@@ -1,0 +1,40 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Затвори питање
+      index: 
+        all: Све
+        ban: Забрани
+        banned: Забрањена питања
+        content: Садржај
+        flagged: Означена питања
+        item_title: Наслов
+        need_tags: Преозначи
+        title: Модерисање
+      opening: 
+        title: Отвори питање
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Забрањено
+        banned_tooltip: Приказуј само забрањена питања
+        filters: "Филтери:"
+        title: Модерација питања
+        unbanned: Уклоњена забрана
+        unbanned_tooltip: Приказуј само питања с уклоњеном забраном
+      index: 
+        title: Модерација питања
+      subtabs: 
+        flagged: Означено
+        flagged_tooltip: Питања означена од стране корисника
+        retag: Треба ознаке
+        retag_tooltip: Питања без ознака
+        to_close: Захтеви за затварање
+        to_close_tooltip: Питања која су захтевана да буду затворена
+        to_open: Захтеви за преотварање
+        to_open_tooltip: Затворена питања за која је захтевано да буду поново отворена

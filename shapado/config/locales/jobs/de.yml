@@ -1,0 +1,21 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} antwortete auf %{question}"
+        send_twitter: Ich antwortete auf %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} fand die Antwort von %{author} auf %{question} gut"
+        send_twitter: Ich finde die Antwort von %{author} auf %{question} gut
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} hat gerade das Abzeichen %{token} bei %{group_name} %{link} erhalten"
+        send_twitter: Ich habe gerade das Abzeichen %{token} bei %{group_name} %{link} erhalten
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} kommentierte %{question}"
+        send_twitter: Mein Kommentar zu %{question}

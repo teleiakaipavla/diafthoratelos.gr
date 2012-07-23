@@ -1,0 +1,23 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dani
+# Author: Dj
+hu: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Szerepkörök
+  members: 
+    create: 
+      error: Sajnáljuk, de a **%{user_id}** felhasználó nem létezik.
+      notice: "%{login} sikeresen felvéve, mint %{role}."
+    form: 
+      destroy_confirm: Biztos vagy benne? A felhasználó többé nem lesz tagja a csoportnak.
+      login_tip: Keresés gépelés közben
+    index: 
+      manage_members_title: Tagok kezelése
+      title: A(z) %{name} csoport tagjai
+      title_isolate: A(z) %{name} tagjai
+    update: 
+      error: Sajnáljuk, de nincs megfelelő jogosultságod **%{login}** tagságának megváltoztatásához.

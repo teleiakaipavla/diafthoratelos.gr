@@ -1,0 +1,18 @@
+# Messages for Pashto (پښتو)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ahmed-Najib-Biabani-Ibrahimkhel
+ps: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: پای ته رسي په
+        message: پيغام
+        only_anonymous: يوازې د ورکنومه کارنانو لپاره
+        starts_at: پېلېږي په
+  announcements: 
+    actions: 
+      delete: غورځول
+      title: چارې
+    index: 
+      title: خبرتياوې

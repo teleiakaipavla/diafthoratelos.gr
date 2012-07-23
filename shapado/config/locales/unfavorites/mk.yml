@@ -1,0 +1,13 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  activerecord: 
+    models: 
+      favorite: Бендисано
+      favorites: Бендисани
+  unfavorites: 
+    create: 
+      success: прашањето е отстрането од бендисаните
+      unauthenticated: Ќе ви треба сметка за да можете да отстранувате бендисани

@@ -1,0 +1,31 @@
+-current = theme == current_group.current_theme
+%article.theme{:class => current ? "current" : ""}
+  %h2
+    = link_to "#{theme.name} #{current ? "[Current]" : ""}", theme_path(theme)
+  .content
+    .clearfix
+      .display-color{style: "background: ##{theme.bg_color}", title: I18n.t('themes.show.bg_color')}
+
+      .display-color{style: "background: ##{theme.fg_color}", title: I18n.t('themes.show.fg_color')}
+
+      .display-color{style: "background: ##{theme.view_bg_color}", title: I18n.t('themes.show.view_fg')}
+
+      .display-color{style: "background: ##{theme.brand_color}", title: I18n.t('themes.show.brand_color')}
+
+      .display-color{style: "background: ##{theme.topbar_color}", title: I18n.t('themes.show.topbar_color')}
+    .markdown
+      = theme.description
+
+  .toolbar
+    %ul.menubar
+      -if theme.ready
+        %li.action
+          = link_to t("themes.show.try"), domain_url(custom: current_group.domain, test_theme: theme.id, controller: "questions", action: "index"), :target => "_blank"
+        %li.action
+          = link_to t("themes.show.apply"), apply_theme_path(theme), :method => :put
+      - if theme.group == current_group
+        %li.action
+          = link_to t("scaffold.edit"), edit_theme_path(theme)
+        %li.action
+          = link_to t('scaffold.destroy'),  theme_path(theme), :method => :delete, :confirm => t("scaffold.sure", :model => Theme.model_name.human)
+

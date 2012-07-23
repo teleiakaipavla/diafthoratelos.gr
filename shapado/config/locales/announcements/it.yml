@@ -1,0 +1,24 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+# Author: Ric
+# Author: Tuxwet
+it: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Finisce il
+        message: Messaggio
+        only_anonymous: Solo per utenti anonimi
+        starts_at: Inizia il
+  announcements: 
+    actions: 
+      delete: Rimuovi
+      title: Azioni
+    create: 
+      success: Il tuo annuncio è stato creato con successo.
+    index: 
+      description: Gestire e creare nuovi annunci che verranno mostrati sull'intero sito ai tuoi visitatori
+      title: Annunci

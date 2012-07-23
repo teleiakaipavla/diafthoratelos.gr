@@ -1,0 +1,36 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+ja: 
+  doc: 
+    chat: 
+      title: チャットサポート
+    plans: 
+      15millions: 1,500万PV/月まで
+      1million: 100万/PV月まで
+      247_all_support: Webベース、メール、チャット、電話による24時間365日のサポート
+      5millions: 500万/PV月まで
+      all_support: Webベース、メール、チャット、電話によるサポート
+      basic_restrictions: 広告カスタム不可、UIのカスタマイズも基本的なもののみ
+      beta_info: 現在はベータ版のため、有料プランはありません（無料版のみ）
+      big_sites: 大きなサイト向け
+      custom_ads: 独自広告利用可能
+      custom_analytics: アクセス解析
+      custom_domain: カスタムドメイン
+      custom_themes: 用意済みのテーマが利用可能
+      custom_ui: 高度なUI変更
+      free_plan: 無料プラン
+      getting_popular: 基本的なプラン
+      huge_sites: 巨大なサイト向け
+      month: 月
+      page_views: 小規模/プライベート利用向け
+      plans: 有料プラン
+      private_site: プライベート/公開型の対応
+      small_private: 小規模/プライベートなサイト
+      start_monetizing: マネタイズを開始
+      support: サポート
+      title: プランと価格
+      unlimited: PV制限なし
+      we_offer: 私たちは
+      web_support: Webベースのサポート
+      with_unlimited: も用意してあります（転送料無制限、広告あり、カスタムドメイン不可）

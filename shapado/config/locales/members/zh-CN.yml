@@ -1,0 +1,16 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: 角色
+  members: 
+    form: 
+      login_tip: 搜索您键入
+    index: 
+      manage_members_title: 管理成员
+      title: "%{name} 组的成员"
+      title_isolate: "%{name} 的成员"

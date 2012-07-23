@@ -1,0 +1,67 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  devise: 
+    confirmations: 
+      confirmed: Akaun anda telah disahkan. Anda kini telah log masuk.
+      send_instructions: Anda akan menerima e-emel yang berisi cara untuk mengesahkan akaun anda dalam beberapa minit lagi.
+    failure: 
+      inactive: Akaun anda belum diaktifkan.
+      invalid: Alamat e-mel atau kata laluan tidak sah.
+      invalid_token: Token pengesahan tidak sah.
+      locked: Akaun anda dikunci.
+      timeout: Sesi anda telah luput. Sila daftar masuk lagi untuk meneruskannya.
+      unauthenticated: Anda perlu daftar masuk atau mendaftar diri sebelum meneruskannya.
+      unconfirmed: Anda perlu mengesahkan akaun anda sebelum meneruskannya.
+    mailer: 
+      confirm_account: 
+        instruction1: "Anda boleh mengesahkan akaun anda melalui pautan di bawah:"
+        link: Sahkan akaun saya
+        welcome: Selamat Datang
+      confirmation_instructions: 
+        subject: Arahan pengesahan
+      hello: Apa khabar
+      reset_password: 
+        instruction1: Seseorang telah memohon pautan untuk menukar kata laluan anda. Anda boleh berbuat demikian melalui pautan di bawah.
+        link: Tukar kata laluan saya
+        nonrequested: Jika anda tidak memohonnya, sila abaikan e-mel ini.
+        warning: Kata laluan anda tidak akan berubah sehingga anda mengakes pautan di atas dan buat kata laluan yang baru.
+      reset_password_instructions: 
+        subject: Arahan mengeset semula kata laluan
+      unlock: 
+        instruction1: Akaun anda telah dikunci kerana terlalu banyak cubaan log masuk yang tidak berjaya.
+        instruction2: "Klik pautan di bawah untuk membuka kunci akaun anda:"
+        link: Buka kunci akaun saya
+      unlock_instructions: 
+        subject: Arahan buka kunci
+    passwords: 
+      link: Lupa kata laluan?
+      send_button: Hantar arahan mengeset semula kata laluan kepada saya
+      send_instructions: Anda akan menerima e-mel yang berisi arahan untuk mengeset semula kata laluan dalam beberapa minit lagi.
+      updated: Kata laluan anda sudah ditukar. Anda sudah log masuk sekarang.
+    registrations: 
+      destroyed: Akaun anda telah dibatalkan. Semoga kita bersua lagi lain hari.
+      link: Daftar diri
+      signed_up: Pendaftaran anda berjaya. Jika dibolehkan, pengesahan telah dihantar kepada alamat e-mel anda.
+      updated: Anda telah mengemas kini akaun anda.
+    sessions: 
+      link: Log masuk
+      new: 
+        openid_url: URL OpenID anda
+        remember_me: Kekalkan log masuk saya
+      registered_only: Anda mesti log masuk untuk melihat kandungannya.
+      sign_out: Log keluar
+      signed_in: Berjaya log masuk.
+      signed_out: Berjaya log keluar.
+      signin_group: Log masuk ke dalam %{group}
+    unlocks: 
+      link: Belum terima arahan buka kunci?
+      send_instructions: Anda akan menerima e-emel yang berisi cara untuk membuka kunci akaun anda dalam beberapa minit lagi.
+      unlocked: Akaun anda telah disahkan. Anda kini telah log masuk.
+  errors: 
+    messages: 
+      already_confirmed: sudah pun disahkan
+      not_found: tidak dijumpai
+      not_locked: tidak dikunci

@@ -1,0 +1,50 @@
+en:
+  doc:
+    chat:
+      title: Chat Support
+    plans:
+      optimum: Optimum
+      maximum: Maximum
+      premium: Premium
+      plus: Plus
+      basic: Basic
+      private: Private
+      plans: Plans
+      title: Plans and pricing
+      free_plan: free plan
+      we_offer: We also offer a
+      with_unlimited: with unlimited traffic with no custom ads and no custom domain.
+      huge_sites: Huge traffic sites
+      big_sites: Big traffic sites
+      getting_popular: Getting popular
+      start_monetizing: Start monetizing
+      small_basic: Getting started
+      private_private: Restricted access
+      page_views: For Small/Private sites
+      custom_themes: Make use of our pre-made custom themes
+      private_site: Enable private/public access
+      custom_domain: Custom domain
+      custom_domain_tip: 'Use your own domain such as your-company.com instead of your-company.shapado.com'
+      custom_ui: Fully customizable UI
+      custom_ads: Use your own ads
+      custom_analytics: Traffic stats
+      support: Support
+      unlimited: Unlimited traffic each month
+      1million: 1 million page views/month
+      5millions: 5 millions page views/month
+      15millions: 15 millions page views/month
+      web_support: Web based support
+      all_support: Web based, email, chat and phone support
+      247_all_support: Web based, email, chat and phone 24/7 support
+      basic_restrictions: No custom ads and no fully customizable UI
+      month: month
+      basic_styling: Personalized look & feel
+      basic_styling_tip: Easily change the color scheme of your site, add your own logo and even change the CSS code.
+      custom_html: Custom HTML
+      custom_html_tip: Completely revamp the whole HTML code of your site and make it look like whatever you want.
+      custom_js_tip: Add your own custom Javascript code, such as multimedia widgets or jquery plugins.
+      custom_ads_tip: Use your own ads and start making money!
+      custom_analytics_tip: Use Google anaylitcs and get to know your visitors better.
+      custom_js: Add your own Javascript
+      user: user
+      private_tip: 'Only you and users you invite to your site are granted access. Perfect for the enterprise.'

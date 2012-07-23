@@ -1,0 +1,34 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    models: 
+      vote: Голас
+      votes: Галасы
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Вы і %{votes} іншых карыстальнікаў прагаласавалі за гэты камэнтар.
+        no_user_more_votes: Больш чым %{votes} людзей прагаласавалі за гэты камэнтар, націсьніце, каб таксама прагаласаваць.
+        no_user_no_vote: Націсьніце, каб прагаласаваць за гэты камэнтар.
+        no_user_one_vote: Толькі адзін карыстальнік прагаласаваў за гэты камэнтар. Націсьніце, каб таксама прагаласаваць.
+        one_vote_two_users: Вы і яшчэ 1 іншы карыстальнік прагаласавалі за гэты камэнтар.
+        one_vote_user: На гэты момант за гэты камэнтар прагаласавалі толькі Вы.
+    control: 
+      have_voted_down: Націсьніце, каб адмяніць Ваш голас «супраць»
+      have_voted_up: Націсьніце, каб адмяніць Ваш голас «за»
+      to_vote_down: Націсьніце, каб прагаласаваць супраць
+      to_vote_up: Націсьніце, каб прагаласаваць «за»
+    create: 
+      flash_error: Вы ня можаце тут галасаваць
+      flash_notice: Дзякуй за ўдзел у галасаваньні!
+      unauthenticated: Ананімныя карыстальнікі ня могуць галасаваць
+    destroy: 
+      flash_notice: Ваш голас быў пасьпяхова адкліканы.
+    model: 
+      messages: 
+        closed_question: Вы ня можаце галасаваць за любыя паведамленьні, якія належаць закрытым пытаньням
+        vote_down_comment: За камэнтар нельга галасаваць супраць

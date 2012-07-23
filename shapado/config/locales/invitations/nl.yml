@@ -1,0 +1,34 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Siebrand
+nl: 
+  invitations: 
+    accept: 
+      create_account: Maak een gebruiker aan (stap 1 van 2)
+      create_account_step2: Registreren
+      description: "%{group} is een steeds groter wordende verzameling van vragen en antwoorden over elk onderwerp."
+      done: Afgerond.
+      facebook_connect: Aanmelden met uw Facebookgebruiker
+      final_step: Laatste stap (stap 2 van 2)
+      find_friends: "Vind vrienden en maak contact met ze:"
+      follow_things: Volg labels en personen
+      follow_things_description: Vragen die hiermee te maken hebben verschijnen in uw feed.
+      other_connect: of gebruik een van deze mogelijkheden.
+      other_social_options: U kunt ook %{linkedin} en %{identica} gebruiken.
+      point1: Vraag experts die een onderwerp kennen.
+      point2: Volg onderwerpen en beantwoord vragen die uw interesse hebben.
+      point3: Stem op antwoorden en bewerk de antwoorden en wikipagina's om ze te verbeteren. Win speldjes.
+      point4: Beantwoord vanuit uw e-mailprogramma zonder gedoe.
+      twitter_connect: Aanmelden met uw Twittergebruiker
+      welcome: Welkom
+    create: 
+      flash_notice: Uw uitnodigingen zijn verzonden
+      limit_notice: 
+        one: U kunt niet meer dan %{limit} uitnodiging tegelijk verzenden.
+        other: U kunt niet meer dan %{limit} uitnodigingen tegelijk verzenden.
+    resend: 
+      flash_notice: Uw uitnodiging is opnieuw verzonden.
+    revoke: 
+      flash_notice: Uw uitnodiging is ingetrokken

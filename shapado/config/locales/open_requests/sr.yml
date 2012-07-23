@@ -1,0 +1,22 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  open_requests: 
+    create: 
+      flash_notice: Захтев за поновно отварање је направљен
+    destroy: 
+      flash_notice: Захтев за поновно отварање је обрисан
+    edit: 
+      title: Уреди захтев за поновно отварање
+    form: 
+      request_opening_details: Захтевај поновно отварање питања
+    index: 
+      title: Списак захтева за поновно отварање
+    model: 
+      prural_name: Захтеви за поновно отварање
+    new: 
+      title: Захтев за поновно отварање
+    update: 
+      flash_notice: Захтев за поновно отварање је ажуриран

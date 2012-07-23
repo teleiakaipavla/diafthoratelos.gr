@@ -1,0 +1,38 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: Od1n
+# Author: Patcito
+fr: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Feuilles de style
+        js: JavaScript
+    models: 
+      page: Page
+      pages: Pages
+  pages: 
+    actions: 
+      create_page: Créer une nouvelle page
+      edit_page: Modifier la page
+      title: Actions
+    create: 
+      success: La page a été créée avec succès.
+    edit: 
+      title: Editer la page
+    form: 
+      language_tip: Langue de la page
+      title_tip: "Titre de la page. Utilisez ceci afin de créer une référence à cette page. Par exemple : [[FAQ|lire cette faq]]"
+    index: 
+      create_page: Créer une nouvelle page
+      title: Liste de pages
+      wiki: Wiki
+      wiki_pages: Pages wiki
+      written_in: Écrite en %{language}
+    new: 
+      title: Nouvelle page
+    title: Arrangez-moi
+    update: 
+      success: La page a été actualisé avec succès.

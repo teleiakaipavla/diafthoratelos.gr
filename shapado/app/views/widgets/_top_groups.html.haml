@@ -1,0 +1,18 @@
+.module.clearfix.widget.block{:class => 'widget-top_groups'}
+  = render "widgets/header", :widget => widget
+  - widget.top_groups.each do |group|
+    %aside
+      .avatar
+        = link_to image_tag(logo_path(group, "medium")), domain_url(:custom => group.domain)
+
+      .data
+        %h3
+          %b
+            = link_to group.name, domain_url(:custom => group.domain)
+          %small
+            = I18n.t('widgets.top_groups.has_members', :count => group.memberships.count)
+        %p
+          &= truncate(strip_tags(group.description), :length => 50)
+
+  %footer
+    =link_to t("scaffold.more"), groups_path

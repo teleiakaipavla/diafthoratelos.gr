@@ -1,0 +1,94 @@
+.tag-list
+  padding-left: 10px
+  margin: 0px
+  width: 100%
+  .retag-form
+    background-color: $lightOrange
+    padding: 15px
+    display: block
+    clear: both
+    overflow: hidden
+    .field
+      margin: 0
+  li, span.tag
+    float: left
+    display: inline
+    height: 25px
+    a.tag, a.retag-link
+      background: image-url("tag-back-lt.png") left 0 no-repeat
+      font-size: 11px
+      padding: 3px 4px 4px 18px
+      &:hover
+        background: image-url("tag-back-lt-hover.png") left 0 no-repeat
+    &.title
+      font-weight: bolder
+      font-size: 12px
+      padding: 2px 0 0 0
+    &.retag a
+      background: image-url("tag-back-lt-retag.png") left 0 no-repeat
+    .count
+      margin: 0px 0px 0px -3px
+      font-size: 11px
+      padding: 2px
+      background-color: #E1E1E1
+      border-top: 1px solid #aaa
+ul.tag-list
+  li
+    margin-left: 5px
+
+table.tag-list
+  margin: 5px
+
+.main-question
+  ul.tag-list
+    margin: 0px 20px 5px 20px
+    float: left
+
+// Tags feature
+//========================================================================
+.tagwrapper
+  padding: 4px !important
+  font-size: 11px
+  margin: 0 0 10px 0 !important
+  width: 100% !important
+  min-height: 22px !important
+  +normal-radius
+  ul
+    margin: 0 2px !important
+    padding: 0 !important
+    border: 0px !important
+    background: none
+
+    li
+      a.tag, a.retag-link
+        padding: 0 7px 0 18px !important
+        margin: 0 0 5px 0 !important
+        background: image-url("tag-back-lt.png") left 1px no-repeat !important
+        border: none !important
+        cursor: pointer
+
+    li a:hover, li:hover a, li a.ui-state-hover, li span:hover
+      background: image-url("tag-back-lt-hover.png") left 1px no-repeat !important
+
+
+// Tags feature
+//========================================================================
+.tags-list
+  h1
+    margin: 30px 0 15px 30px
+  .tags
+    padding: 0 20px
+    .each
+      padding: 15px
+      margin-bottom: 2px
+      +normal-radius
+      img
+        float: left
+        margin: 0 10px 0 0
+    .tools
+      float: right
+      padding: 3px 0
+      margin: -25px 0 15px 0
+      +normal-radius
+      a
+        margin: 0 5px

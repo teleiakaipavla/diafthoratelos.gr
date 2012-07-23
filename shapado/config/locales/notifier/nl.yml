@@ -1,0 +1,60 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  notifier: 
+    admin_login: 
+      message1: Gebruiker %{user} heeft verbonden als beheerder om %{time} via het IP-adres %{ip}.
+      subject: "Alarm: beheerdersverbinding"
+    created_flag: 
+      message1: U ontvangt dit bericht omdat u moderator bent van %{group}
+      message2: "Een post is opnieuw gepost om de volgende reden:"
+      message2bis: U kunt het gemarkeerde bericht hier bekijken.
+      message2bistext: "U kunt het gemarkeerde bericht bekijken door te klikken op de volgende verwijzing:"
+      message3: "Ga naar de moderatiepagina om de lijst met gemarkeerde berichten te bekijken:"
+      message4: Ga naar de moderatiepagina om de lijst met gemarkeerde berichten te bekijken.
+    earned_badge: 
+      message1: U hebt het speldje %{badge} verdiend op %{app}
+      message2: "Beschrijving speldje:"
+      message3: U kunt al uw speldjes bekijken op uw %{user_page}
+    favorited: 
+      message1: "%{user} heeft uw antwoord op %{group} als favoriet toegevoegd"
+      message2: "De vraag was:"
+      message3: "U kunt deze hier bekijken:"
+    follow: 
+      message1: "%{user} volgt uw vragen en antwoorden op %{app}"
+      message2: U kunt deze gebruiker ook volgen door op de %{user_page} op "Volgen" te klikken
+    give_advice: 
+      message1: "%{user} heeft een vraag gesteld die u wellicht kunt beantwoorden:"
+      message2: "Antwoord op het bericht in de volgende verwijzing om de vraag te beantwoorden:"
+      message3: "Of stuur deze verwijzing naar iemand die u kent die de vraag kan beantwoorden:"
+      message4: Als we niet snel een antwoord van u krijgen, vragen we iemand anders. U kunt de vraag nog steeds beantwoorden wanneer u maar wilt.
+    global: 
+      hi: Hallo %{user},
+      hi_no_user: Hallo,
+      user_page: gebruikerspagina
+    new_answer: 
+      message: "%{user} heeft %{new_answer} geantwoord op de vraag %{question}"
+    new_comment: 
+      message: "%{user} heeft de reactie %{new_comment} op de vraag %{link} gegeven"
+    new_feedback: 
+      message1: De gebruiker %{user} <%{email}> heeft een reactie gegeven
+      message2: Een anonieme gebruiker heeft een reactie gegeven vanaf IP-adres %{ip}
+      message3: "E-mailadres: %{email}"
+      message4: "Onderwerp: %{subject}"
+    new_invitation: 
+      message1: Klik hier om de uitnodiging te aanvaarden %{link}
+      message2: Het team %{group}.
+      message3: "Een bericht van de persoon die u heeft uitgenodigd:"
+      subject: "%{user} heeft u uitgenodigd voor %{group}"
+    report: 
+      message1: Rapportage voor groep %{group}
+      message2: Sinds %{date}
+      message3: Er zijn %{questions} vragen gesteld
+      message4: Er zijn %{answers} antwoorden gegeven
+      message5: Er is %{votes} keer gestemd
+      message6: Er zijn %{badges} speldjes uitgereikt
+      message7: Er zijn %{users} gebruikers.
+      message8: Bezoek uw groep op %{link}

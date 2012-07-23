@@ -1,0 +1,79 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Beta16
+# Author: Danmaz74
+# Author: Giallu
+# Author: HalphaZ
+it: 
+  shared: 
+    any_lang: Qualsiasi lingua
+    by_anon: Da anonimo
+    current_tags: 
+      title: Tag selezionati
+    description: Descrizione
+    empty: 
+      activities: 
+        description: 
+          text: Questo posto sarà riempito automaticamente una volta che la gente comincerà ad usare il sito.
+        title: Non ci sono attività finora.
+      answers: 
+        description: 
+          text: Sii il primo!
+        title: Nessuno ha ancora risposto a questa domanda.
+      default: 
+        description: 
+          text: Sii il primo a %{action_link}!
+        title: Ci dispiace! Non c'è molto da vedere qui.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Clicca qui per vedere le domande in tutte le lingue.
+        title: Siamo spiacenti, nessuna domanda è disponibile in questa lingua.
+      filtered_questions: 
+        description: 
+          action_link: Clicca qui per visualizzare tutte le domande
+        title: Siamo spiacenti, nessuna domanda corrisponde a questo filtro.
+      questions: 
+        description: 
+          action_link: fai una domanda
+          text: Diventa il primo a <a href="%{url}"> %{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: ora
+          text: crea un %{action_link}
+        title: Non hai creato alcun tema per ora.
+    filter: "Filtro:"
+    language: "Lingua:"
+    language_filter_tooltip: Prova con un'altra lingua.
+    languages: "Lingue:"
+    layout: 
+      footer: 
+        cc_footer: Tutti i contenuti di Shapado.com e i dati sono disponibili sotto licenza %{cc_link}
+        powered_by: Powered by %{source_link} %{version} sotto il %{agpl_link}
+    login_drop_down: 
+      sign_up_user_pass: Iscriviti con un'e-mail/password
+      with_email_pass: Accedi con il tuo indirizzo email
+      with_facebook: con Facebook
+      with_google: con Google
+      with_identica: con Identi. ca
+      with_linked_in: con LinkedIn
+      with_openid: OpenID
+      with_twitter: con Twitter
+    manage_navigation: 
+      title_content: Contenuti del gruppo
+      title_features: Caratteristiche del gruppo
+      title_options: Opzioni di gruppo
+    name: Nome
+    preferred_lang: Le mie lingue preferite
+    quick_question: 
+      random_question: Rispondi a una domanda a caso
+    social_connect: 
+      find_friends_facebook: Trova amici su Facebook
+      find_friends_identica: Trova amici su Identi.ca
+      find_friends_linked_in: Trova amici su LinkedIn
+      find_friends_twitter: Trova amici su Twitter
+    topbar: 
+      admin: Amministrazione
+      logged_as: Collegato come %{login}
+      user_page: La mia pagina
+    view_mode: "Modalità di visualizzazione:"

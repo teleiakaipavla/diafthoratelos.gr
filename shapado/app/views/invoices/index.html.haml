@@ -1,0 +1,57 @@
+%h1
+  = t('invoices.index.title')
+%p.description
+  = t('invoices.index.description')
+
+%p.upgrade
+  - if current_group.has_custom_domain?
+    = raw t('invoices.index.upgrade_custom_domain', :group_id => current_group.id, :current_plan => current_group.shapado_version.name)
+  -else
+    = raw t('invoices.index.upgrade', :current_plan => current_group.shapado_version.name)
+- if current_group.is_stripe_customer?
+  %p.update_card
+    - if AppConfig.force_ssl_on_plans
+      - if current_group.has_late_payment
+        %h2
+          %u= link_to t('invoices.index.late_update_cc_link'), "https://#{@domain}#{manage_edit_card_path(:group_id => @group_id)}"
+      - else
+        %u
+          = link_to t('invoices.index.update_cc_link'), "https://#{@domain}#{manage_edit_card_path(:group_id => @group_id)}"
+    - else
+      - if current_group.has_late_payment
+        %h2
+          %u= link_to t('invoices.index.late_update_cc_link'), "http://#{@domain}#{manage_edit_card_path(:group_id => @group_id)}"
+      - else
+        %u
+          = link_to t('invoices.index.update_cc_link'), "http://#{@domain}#{manage_edit_card_path(:group_id => @group_id)}"
+- if current_group.upcoming_invoice
+  %p
+    = link_to t('invoices.index.upcoming_invoice'), upcoming_invoices_path
+- elsif current_group.is_stripe_customer? && current_group.stripe_balance.to_f != 0.0
+  %p
+    = t("invoices.index.credit", :amount => -current_group.stripe_balance.to_f/100)
+%table
+  %thead
+    %tr
+      %td= t('invoices.index.id')
+      %td= t('invoices.index.date')
+      %td= t('invoices.index.payed_at')
+      %td= t('invoices.index.group_domain')
+      %td= t('invoices.index.details')
+      %td= t('invoices.index.amount')
+  %tbody
+    -@invoices.each do |invoice|
+      %tr
+        %td=link_to invoice.order_number, invoice_path(invoice)
+        %td
+          =invoice.created_at.to_s
+        %td
+          =invoice.payed_at.to_s
+        %td
+          =current_group.name
+        %td
+          =invoice.items.map{|i| i["name"]}.join(", ")
+        %td
+          ==US$#{invoice.total_in_dollars}
+
+= paginate @invoices

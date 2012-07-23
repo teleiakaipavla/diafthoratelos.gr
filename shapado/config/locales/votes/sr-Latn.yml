@@ -1,0 +1,36 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    models: 
+      vote: Glas
+      votes: Glasovi
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Vi i još %{votes} drugih korisnika je podržalo komentar.
+        no_user_more_votes: Više od %{votes} korisnika je podržalo komentar. Kliknite na dugme da ga podržite i vi.
+        no_user_no_vote: Kliknite da podržite komentar.
+        no_user_one_vote: Samo jedan korisnik je podržao komentar. Kliknite na dugme da ga podržite i vi.
+        one_vote_two_users: Vi i još jedan korisnik ste podržali komentar.
+        one_vote_user: Samo ste vi podržali komentar.
+    control: 
+      have_voted_down: Kliknite da poništite glas „protiv“
+      have_voted_up: Kliknite da poništite glas „za“
+      to_vote_down: Kliknite da glasate „protiv“
+      to_vote_up: Kliknite da glasate „za“
+    create: 
+      average: 
+        one: "%{count} glas"
+        other: "%{count} glasa"
+      flash_error: Ne možete da glasate za ovo
+      flash_notice: Hvala vam na glasanju!
+      unauthenticated: Anonimni korisnici ne mogu da glasaju
+    destroy: 
+      flash_notice: Vaš glas je poništen.
+    model: 
+      messages: 
+        closed_question: Ne možete glasati na poruke koje pripadaju zatvorenom pitanju
+        vote_down_comment: Za komentare ne možete glasati „protiv“

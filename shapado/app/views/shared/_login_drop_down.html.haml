@@ -1,0 +1,62 @@
+%ul.drop-menu.providers-list
+  - current_group.auth_providers.each do |provider|
+    - next if params[:controller] == 'invitations' && ['Twitter','Facebook'].include?(provider)
+    - dprovider = provider.downcase
+    - if provider == 'Facebook' && current_group.has_facebook_login?
+      %li
+        = link_to provider.titleize, '/users/auth/facebook', :class => 'auth-provider Facebook', :id => 'facebook'
+    - else
+      %li
+        = link_to provider.titleize, multiauth_url(provider), :class => "auth-provider #{provider}", :id => dprovider
+
+  -if current_group.allow_any_openid
+    %li
+      = link_to t('.with_openid'), '/users/login?open_id=1', :class => 'auth-provider OpenID', :id => 'openid', 'data-toggle-dropdown' => 'dropdown-signin-openid'
+    %li.hidden.dropdown-signin-openid.dropdown-form
+      = form_for :user, :url => '/users/auth/open_id', :html => {:class => "form"}, :method => :get do |f|
+        .drop-down-field
+          = label_tag "OpenID", t(".openid_url")
+        .drop-down-field
+          = text_field_tag :openid_url, params[:url], :class => "text_field drop-down-input"
+          - if params[:pp] && params[:format] != 'mobile'
+            = hidden_field_tag :pp, 1
+        .buttons
+          = f.submit t('devise.sessions.link'), :class => "save save-login-dropdown"
+  - if !(['noemail','social'].include? current_group.signup_type) && params[:controller] != 'invitations'
+    %li
+      = link_to t('.with_email_pass'), '/users/login', :class => 'login', :id => 'login', 'data-href' => '/users/new', 'data-toggle-dropdown' => 'dropdown-signin'
+    %li.hidden.dropdown-signin.dropdown-form
+      = form_for :user, :url => session_path(:user), :html => {:class => "form"} do |f|
+        .drop-down-field
+          = f.text_field :email, :class => "text_field drop-down-input", :placeholder => t("email", :scope => "activerecord.attributes.user")
+        .drop-down-field
+          = f.password_field :password, :class => "password drop-down-input", :placeholder => t("password", :scope => "activerecord.attributes.user")
+          - if params[:pp] && params[:format] != 'mobile'
+            = hidden_field_tag :pp, 1
+        .checkbox.checkbox-dropdown
+          = f.check_box :remember_me
+          = f.label :remember_me, t("devise.sessions.new.remember_me"), :class => 'drop-down-checkbox-label'
+        .buttons
+          = f.submit t('devise.sessions.link'), :class => "save save-login-dropdown"
+    %li.hidden.dropdown-signup.dropdown-form
+      = form_for :user, :url => users_path, :html => {:class => "form"} do |f|
+        .drop-down-field
+          = f.text_field :login, :class => "text_field drop-down-input", :placeholder => t(:login, :scope => "activerecord.attributes.user")
+        .drop-down-field
+          = f.text_field :name, :class => "text_field drop-down-input", :placeholder => t(:name, :scope => "activerecord.attributes.user")
+        .drop-down-field
+          = f.text_field :email, :class => "text_field drop-down-input", :placeholder => t("email", :scope => "activerecord.attributes.user")
+        .drop-down-field
+          = f.password_field :password, :class => "password drop-down-input", :placeholder => t("password", :scope => "activerecord.attributes.user")
+        .drop-down-field
+          = f.password_field :password_confirmation, :class => "password drop-down-input", :placeholder => t(:password_confirmation, :scope => "activerecord.attributes.user")
+        .buttons
+          = f.submit t('users.new.submit'), :class => "save save-login-dropdown"
+
+    %li.dropdown-signin.dropdown-form.hidden
+      = link_to t('devise.passwords.link'), new_password_path(:user)
+    %li
+      = link_to t('shared.login_drop_down.sign_up_user_pass'), new_user_path, :class => 'auth-provider login', :id => 'login', 'data-href' => '/users/new', 'data-toggle-dropdown' => 'dropdown-signup'
+  - elsif params[:controller] == 'invitations'
+    %li
+      = link_to t('.with_email_pass'), "/users/new?invitation_id=#{params[:id]}", :class => 'login', :id => 'login'

@@ -1,0 +1,13 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  activerecord: 
+    models: 
+      favorite: お気に入り
+      favorites: お気に入り
+  unfavorites: 
+    create: 
+      success: この質問はあなたのお気に入りから除外されました
+      unauthenticated: お気に入りから取り除くにはログインが必要です

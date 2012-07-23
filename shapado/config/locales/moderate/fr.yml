@@ -1,0 +1,43 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: Gomoko
+# Author: Od1n
+# Author: Patcito
+fr: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Fermer la question
+      index: 
+        all: Tous
+        ban: Bannir
+        banned: questions banée
+        content: Contenu
+        flagged: questions reportées
+        item_title: Titre
+        need_tags: a besoin de tags
+        title: Modérer
+      opening: 
+        title: Question ouverte
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Interdit
+        banned_tooltip: Afficher uniquement les questions interdites
+        filters: "Filtres :"
+        title: Questions modérées
+        unbanned: Autorisé
+        unbanned_tooltip: Afficher uniquement les questions autorisées
+      index: 
+        title: Questions modérées
+      subtabs: 
+        flagged: Marqué
+        flagged_tooltip: Questions marquées par les utilisateurs.
+        retag: Balises de besoin
+        retag_tooltip: Questions sans balises
+        to_close: Demandes de fermeture
+        to_close_tooltip: Questions que les utilisateurs ont demandé de fermer
+        to_open: Requêtes réouvertes
+        to_open_tooltip: Questions clôturées que les utilisateurs ont demandé à réouvrir

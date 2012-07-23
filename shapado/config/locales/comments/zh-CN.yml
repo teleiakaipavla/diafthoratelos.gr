@@ -1,0 +1,20 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  comments: 
+    create: 
+      flash_notice: 感谢您的评论
+    edit: 
+      title: 编辑注释
+    shared: 
+      add_comment: 添加注释...
+      comment_submit: 评论
+      reply: 答复
+      said: 说
+    update: 
+      flash_notice: 已成功更新评论。
+  models: 
+    comment: 评论
+    comments: 评论

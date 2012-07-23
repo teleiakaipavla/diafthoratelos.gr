@@ -1,0 +1,12 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  rewards: 
+    close: 
+      error: Tiene que esperar el %{time} antes de conceder este premio.
+    start: 
+      active_notice: Esta pregunta ya tiene una recompensa activa.
+      reputation_notice: No tiene suficiente reputación como para crear una recompensa para esta cuestión.
+      wait_notice: Tiene que esperar 2 días antes de ofrecer una recompensa sobre esta cuestión.

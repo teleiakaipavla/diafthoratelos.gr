@@ -1,0 +1,35 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+fi: 
+  invitations: 
+    accept: 
+      create_account: Luo tili (1 2)
+      create_account_step2: Luo tili
+      description: "%{group} on yhä paraneva kysymys- ja vastauskokoelma kaikista aiheista."
+      done: Valmis.
+      facebook_connect: Yhdistä Facebook-tilisi
+      final_step: Viimeinen vaihe (2 2)
+      find_friends: "Etsi ystäviä ja verkotu:"
+      follow_things: Seuraa tunnisteita ja ihmisiä
+      follow_things_description: Näihin liittyvät kysymykset ilmaantuvat syötteeseesi.
+      other_connect: tai käytä yhtä näistä.
+      other_social_options: Voit käyttää myös %{linkedin} ja %{identica}.
+      point1: Kysy asiantuntijoilta, jotka tuntevat tietyn aiheen.
+      point2: Seuraa aiheita ja vastaa kysymyksiin, jotka kiinnostavat.
+      point3: Äänestä ja muokkaa vastauksia sekä wiki-sivuja niiden parantamiseksi. Voita rintamerkkejä.
+      point4: Vastaa sähköpostiohjelmastasi ilman kiirettä.
+      twitter_connect: Yhdistä Twitter-tilisi
+      welcome: Tervetuloa
+    create: 
+      flash_notice: Kutsusi on lähetetty onnistuneesti.
+      limit_notice: 
+        one: Et voi lähettää useampia kuin %{limit} kutsun kerrallaan.
+        other: Et voi lähettää useampia kuin %{limit} kutsua kerrallaan.
+    resend: 
+      flash_notice: Kutsu on lähetetty uudelleen onnistuneesti.
+    revoke: 
+      flash_notice: Kutsu on peruutettu onnistuneesti.

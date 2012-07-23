@@ -1,0 +1,8 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dj
+hu: 
+  activemodel: 
+    models: 
+      constrains_config: Megbízhatósági megszorítások konfigurálása

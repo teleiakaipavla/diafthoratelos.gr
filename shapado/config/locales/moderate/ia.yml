@@ -1,0 +1,40 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Clauder question
+      index: 
+        all: Totes
+        ban: Bannir
+        banned: Questiones bannite
+        content: Contento
+        flagged: Questiones marcate
+        item_title: Titulo
+        need_tags: Re-etiquettar
+        title: Moderate
+      opening: 
+        title: Aperir question
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Bannite
+        banned_tooltip: Monstrar solmente questiones bannite
+        filters: "Filtros:"
+        title: Moderar questiones
+        unbanned: Non bannite
+        unbanned_tooltip: Monstrar solmente questiones non bannite
+      index: 
+        title: Moderar questiones
+      subtabs: 
+        flagged: Marcate
+        flagged_tooltip: Questiones marcate per le usatores
+        retag: Require etiquettas
+        retag_tooltip: Questiones sin etiquetta
+        to_close: Requestas de clausura
+        to_close_tooltip: Questiones de que usatores ha requestate le clausura
+        to_open: Requestas de reapertura
+        to_open_tooltip: Questiones claudite de que usatores ha requestate le reapertura

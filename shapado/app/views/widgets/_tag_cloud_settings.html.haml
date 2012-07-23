@@ -1,0 +1,9 @@
+.field
+  = label :limit, t('widgets.settings.limit'), :class => "label"
+  = text_field_tag "settings[limit]", widget.settings["limit"],:class => "text_field"
+
+.field
+  = label :style, "Style", :class => "label"
+  = select "settings", "style", [["Tag Cloud","tag_cloud"], ["Tag List","list_cloud"]], {:selected => widget.settings["style"]}
+
+= render :partial => "shared/external_widget_settings", :locals => {:widget => widget}

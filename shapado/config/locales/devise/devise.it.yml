@@ -1,0 +1,68 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Rippitippi
+it: 
+  devise: 
+    confirmations: 
+      confirmed: la tua registrazione è stata confermata. Ora sei registrato
+      send_instructions: Riceverai una email con le istruzioni su come confermare la tua registrazione in pochi minuti.
+    failure: 
+      inactive: Il tuo account non è stato ancora attivato.
+      invalid: Indirizzo email o password non validi.
+      invalid_token: Token di autenticazione non valido.
+      locked: Il tuo account è bloccato.
+      timeout: La sessione è scaduta, accedi di nuovo per continuare.
+      unauthenticated: È necessario accedere o registrarsi prima di continuare.
+      unconfirmed: Devi confermare il tuo account prima di continuare.
+    mailer: 
+      confirm_account: 
+        instruction1: "Puoi confermare il tuo account tramite il link sottostante:"
+        link: Conferma il mio account
+        welcome: Benvenuto
+      confirmation_instructions: 
+        subject: Istruzioni di conferma
+      hello: Ciao
+      reset_password: 
+        instruction1: Qualcuno ha richiesto un link per cambiare la tua password, e puoi farlo tramite il link sottostante.
+        link: Cambia la password
+        nonrequested: Se non l'hai richiesto tu, ignora questa email.
+        warning: La password non cambierà prima di aver seguito il link qui sopra e averne creata una nuova.
+      reset_password_instructions: 
+        subject: Istruzioni di reimpostazione password
+      unlock: 
+        instruction1: Il tuo account è stato bloccato a causa di una quantità eccessiva di login falliti.
+        instruction2: "Clicca sul link qui sotto per sbloccare il tuo account:"
+        link: Sblocca il mio account
+      unlock_instructions: 
+        subject: Istruzioni di sblocco
+    passwords: 
+      link: Hai dimenticato la password?
+      send_button: Mandami le istruzioni di reimpostazione password
+      send_instructions: Riceverai una email con le istruzioni su come reimpostare la password in pochi minuti.
+      updated: La password è stata modificata. Ora sei connesso.
+    registrations: 
+      destroyed: Ciao! Il tuo profilo è stato cancellato. Speriamo di rivederti presto.
+      link: Registrati
+      signed_up: Ti sei registrato con successo. Se abilitata, una conferma è stata inviata al tuo indirizzo e-mail.
+      updated: Hai aggiornato il tuo profilo.
+    sessions: 
+      link: Entra
+      new: 
+        openid_url: Il tuo URL OpenID
+        remember_me: Ricorda il mio login
+      registered_only: Devi fare accesso per vedere il contenuto.
+      sign_out: Esci
+      signed_in: Accesso effettuato
+      signed_out: Logout effettuato
+      signin_group: Accedi a %{group}
+    unlocks: 
+      link: Non hai ricevuto le istruzioni di sblocco?
+      send_instructions: Riceverai una email con le istruzioni per sbloccare il tuo profilo in pochi minuti.
+      unlocked: Il tuo profilo è stato sbloccato. Ora sei registrato
+  errors: 
+    messages: 
+      already_confirmed: è stato già confermato
+      not_found: non trovato
+      not_locked: non è stato bloccato

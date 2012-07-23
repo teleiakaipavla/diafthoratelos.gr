@@ -1,0 +1,20 @@
+!!! 5
+-ie_html :class => 'no-js', :lang => I18n.locale do
+  %head
+    = render 'shared/layout/head'
+
+  %body{:class => bodys_class(params)}
+    #feedback-btn
+      %p=link_to "Feedback", "/feedback"
+    = render_app_config
+    = render :partial => "shared/topbar"
+    #container{:class => @current_class}
+      = show_flash_messages(:class => "flash", :markdown => true)
+      #columns{:class => !@show_sidebar && "nosidebar" }
+        = render "shared/layout/header"
+        -["column3", "column2"].each do |c|
+          =render "shared/layout/#{c}"
+      = render "shared/widgets", :context => 'mainlist', :position => 'footer'
+
+      = render "shared/layout/footer"
+

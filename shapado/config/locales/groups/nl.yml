@@ -1,0 +1,99 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Pinxnl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Dagelijkse beperking
+        default_tags: Standaardlabels
+        description: Beschrijving
+        domain: Domein
+        enable_latex: LaTeX inschakelen (snel, maar niet met alle mogelijkheden)
+        enable_mathjax: LaTeX inschakelen met mathjax (langzaam, maar met alle mogelijkheden)
+        fb_button: Knop "Facebook like" inschakelen (niet privacyvriendelijk)
+        forum: Meer dan één antwoord per gebruiker toestaan
+        group_created_by: Aangemaakt door
+        language: Standaard taal
+        languages: Extra talen
+        legend: Legenda
+        logo: Logo
+        may_contain_adult_content: Deze site kan inhoud voor volwassenen bevatten
+        name: Naam
+        owner: Deze groep is aangemaakt door %{login}
+        registered_only: Alleen geregistreerde gebruikers kunnen de site lezen
+        signup_type: "Via welke methoden kunnen uw gebruikers registreren:"
+        state: Status
+        subdomain: URL
+        track_users: Gebruikers vragen naar hun locatie
+        wysiwyg_editor: Gebruiksvriendelijke tekstverwerker inschakelen
+    models: 
+      default_tags_message: U kunt maximaal 10 standaardlabels hebben
+      duplicate_domain_message: Dit domein is wordt al gebruikt.
+      group: Groep
+      groups: Groepen
+      reputation_rewards_answer_constrain: De beperking voor antwoordonderscheidingen moet negatief zijn
+      reputation_rewards_ask_constrain: De beperking voor vragen moet negatief zijn
+      reputation_rewards_key: Ongeldige sleutel
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Er is iets fout gegaan. Probeer het opnieuw.
+      success_twitter_connection: Proficiat, u hebt nu uw Twitter-account verbonden!
+    create: 
+      flash_notice: Uw groep is aangemaakt. U kunt nu de instellingen maken.
+    edit: 
+      title: Uw groep bewerken
+    form: 
+      access: Toegangsinstellingen
+      analytics_engine: Analytics Engine
+      analytics_legend: De groep kan zijn eigen trackingcode gebruiken
+      any_language: Alle
+      custom_analytics: Aangepaste gebruiksanalyse toestaan
+      custom_html: Aangepaste HTML toestaan
+      custom_js: Aangepaste JavaScript toestaan
+      default_tags_legend: Scheid labels met komma's. Er zijn maximaal 10 labels toegestaan.
+      description_legend: Beschrijf de groep in vierhonderd tekens of minder.
+      isolate_group: De groep van andere groepen isoleren
+      legend_legend: Dit wordt gebruikt als kop. Gebruik maximaal 40 tekens
+      logo_legend: U kunt het groepslogo uploaden. De maximale grootte is 2MB.
+      members_only: Alleen leden van de groep hebben toegang tot deze groep
+      signup_all: Alle geselecteerde aanbieders en gebruikersnaam en wachtwoord
+      signup_email: Alleen gebruikersnaam en wachtwoord
+      signup_noemail: Alle geselecteerde aanbieders zonder gebruikersnaam en wachtwoord
+      signup_social: Gebruikers moeten Facebook, Twitter, LinkedIn of Identi.ca gebruiken
+      website_analytics_id: Website Analytics ID
+    group: 
+      about: Over
+      accept_group: Groep accepteren
+      allow_ads: Advertenties toestaan
+      close: Sluiten
+      close_group: Deze groep sluiten
+      disallow_ads: Advertenties niet toestaan
+    index: 
+      actives: Actief
+      create_your_own: uw eigen groep aanmaken
+      description: Dit is de lijst met publieke groepen. U kunt groepen filteren met behulp van het onderstaande veld. U kunt ook %{link}.
+      filter: Groepen doorzoeken
+      most_active: Meest actief
+      name: Naam
+      pendings: In behandeling
+      request_group: Nieuwe groep aanvragen
+      title: Groepen
+    new: 
+      title: Uw groep aanmaken
+    show: 
+      accept_group: Groep accepteren
+      accept_group_with_custom_ads: Groep accepteren en aangepaste advertenties toestaan
+      close_group: Groep sluiten
+      group_awaiting_acceptance: Deze groep wacht op acceptatie door een moderator.
+      group_closed: Deze groep is gesloten.
+      title: Over %{name}
+      visit_group: Deze groep bezoeken
+    top_grouplist: 
+      active_site: "Actieve site:"
+    update: 
+      notice: Uw groep is aangepast.

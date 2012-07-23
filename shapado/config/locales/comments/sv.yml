@@ -1,0 +1,20 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  comments: 
+    create: 
+      flash_notice: Tack för din kommentar
+    edit: 
+      title: Redigera kommentar
+    shared: 
+      add_comment: Lägg till kommentar...
+      comment_submit: Kommentar
+      reply: Svara
+      said: sade
+    update: 
+      flash_notice: Kommentaren har uppdaterats.
+  models: 
+    comment: Kommentera
+    comments: Kommentarer

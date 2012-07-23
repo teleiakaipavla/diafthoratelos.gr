@@ -1,0 +1,17 @@
+# Messages for Silesian (ślůnski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Byulent
+szl: 
+  sessions: 
+    create: 
+      flash_notice: Terozki ježeś zalůgowany
+    destroy: 
+      flash_notice: Terozki ježeś wylůgowany.
+    new: 
+      log_in: Zalůguj śe
+      not_registered: Ńy moš kůnta?
+      registered: Moš juž kůnta?
+      remember_me: Zapamjyntej moje hasuo
+      sign_in: Lůgowańy
+      signup: Twůř kůnta

@@ -1,0 +1,23 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Pinxnl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Eindigt om
+        message: Bericht
+        only_anonymous: Alleen voor anonieme gebruikers
+        starts_at: Begint om
+  announcements: 
+    actions: 
+      delete: Verwijderen
+      title: Handelingen
+    create: 
+      success: Uw aankondiging is aangemaakt.
+    index: 
+      description: Nieuwe aankondigingen maken en beheren, die sitebreed worden weergegeven aan bezoekers
+      title: Aankondigingen

@@ -1,0 +1,9 @@
+en:
+  tags:
+    show:
+      title: 'Questions tagged: %{tags}'
+    index:
+      filter: Search for tags
+    show_json:
+      no_description: No description is available for this tag yet.
+      edit_it: Add a description to this tag.

@@ -1,0 +1,69 @@
+en:
+  invoices:
+    webhook:
+      has_users_fees:
+        one: "fee for %{count} user"
+        other: "fee for %{count} users"
+    auto_update:
+      notice: "Your plan has been upgraded to %{plan_name}, you will be charged on your upcoming invoice due in %{amount_of_time}."
+    success:
+      welcome: "Thank you for signing up and welcome to Shapado!"
+      show_invoice: "Show invoice."
+    invoice:
+      total: TOTAL
+      free: free
+    index:
+      late_update_cc_link: 'Your are late on your latest payment, please update your credit card information.'
+      update_cc_link: 'Update your credit card information'
+      credit: "Credit: $%{amount}"
+      upgrade: "You are currently using the %{current_plan} plan, <u><a href='/plans'>click here to upgrade</a></u>."
+      upgrade_custom_domain: "You are currently using the %{current_plan} plan, <u><a href='/plans?group_id=%{group_id}'>click here to upgrade</a></u>."
+      upcoming_invoice: "Click here to see your upcoming invoice."
+      id: "Invoice's ID"
+      date: "Creation date"
+      payed_at: 'Payed on'
+      group_domain: "Group's domain"
+      details: "Details"
+      amount: "Amount"
+      title: "Invoices"
+      description: "List of all your invoices"
+    form:
+      upgrade_group: "Upgrade %{group}"
+      credentials: "Your credentials:"
+      about_you: "A little about you:"
+      about_site: "How do you want to call your site?"
+      invoice_reference: 'Invoice reference:'
+      creation_date: 'Creation date:'
+      valid_until: 'Valid until:'
+      upgrading_group: "You are upgrading your <em>%{group}</em> Shapado account located <br>at <em>%{group_domain}</em>."
+      charging_explanation: "Once you click the checkout button below you'll be upgraded to the %{version_name} plan. You'll be charged the new rate of $%{version_price}/month starting on your next bill as shows."
+      want_to_change_plan: 'I want to change this plan'
+      cc_details: 'Credit card details:'
+      cc_number: 'Credit card number:'
+      as_it_appears: 'Exactly as it appears on the card'
+      ccv_code: 'Verification Code:'
+      ccv_explanation: 'The CVV code is a 3 or 4 digit number on the front or back of the card.'
+      expiration_date: 'Expiration Date'
+      checkout: Checkout
+    upcoming:
+      due_date: "Due date"
+      amount: Amount
+      invoice_total: Invoice total
+      amount_due: Amount due
+    show:
+      pdf_download: "Download as pdf"
+      order_number: "Order number"
+      order_placed: "Order placed"
+      contact_details: "Contact details"
+      payment_details: "Payment details"
+      payment_method: "Payment method"
+      cc_type: "Credit card type:"
+      billing_address: "Billing address"
+      product_details: "Product details"
+      order_total: "Order total"
+      contact_name: "Name:"
+      contact_email: "Email:"
+      credit_card: Credit card
+      country: "Country:"
+      exp_year: "Expiration year:"
+      exp_month: "Expiration month:"

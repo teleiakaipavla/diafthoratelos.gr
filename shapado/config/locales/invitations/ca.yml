@@ -1,0 +1,33 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  invitations: 
+    accept: 
+      create_account: Crear un compte (1 de 2)
+      create_account_step2: Crear compte
+      description: "%{group} és un cada vegada millors col. lecció de preguntes i respostes sobre qualsevol tema."
+      done: Fet!
+      facebook_connect: Contactar amb el seu compte de Facebook
+      final_step: Pas final (2 de 2)
+      find_friends: "Trobar amics i connectar-se:"
+      follow_things: Etiquetes de seguiment i les persones
+      follow_things_description: Preguntes relacionades amb aquestes apareixerà al seu menjar.
+      other_connect: o utilitzar-ne un d'aquests.
+      other_social_options: També podeu utilitzar %{linkedin} i %{identica}.
+      point1: Demanar experts que saben sobre un tema determinat.
+      point2: Segueixi temes i respondre a les preguntes que li interessin.
+      point3: Votar i editar les respostes i pàgines wiki per millorar-los. Distintius de victòria
+      point4: Resposta del seu client d'e-mail amb gens de daltabaix.
+      twitter_connect: Contactar amb el seu compte de Twitter
+      welcome: Benvingut
+    create: 
+      flash_notice: Les teves invitacions van ser enviats amb èxit.
+      limit_notice: 
+        one: "ho sentim, no es pot enviar més llavors %{limit} invitació a la vegada. "
+        other: Ho sentim, vostè no pot enviar més llavors % {límit} invitacions a la vegada.
+    resend: 
+      flash_notice: La invitació ha estat molesta amb èxit.
+    revoke: 
+      flash_notice: La invitació s'ha revocat amb èxit.

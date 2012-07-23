@@ -1,0 +1,43 @@
+//= require bootstrap/bootstrap.min.css
+//= require bootstrap/bootstrap-responsive.min.css
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#pricing button {
+  font-size: 18px ;
+  font-weight: 500;
+}
+
+#pricing{
+  clear: all;
+  margin-top: 25px;
+}
+
+#pricing button {
+ font-size: 18px ;
+ font-weight: 500;
+}
+#pricing-link {
+  color: #62C362;
+}
+#pricing-link:hover{
+  color: #62C362;
+  font-weight: bold;
+}
+
+#pricingli {
+  background: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#pitch {margin-top: 15px; font-size: 20px; font-weight: 500;}
+#pitchy {margin-top: 15px; font-size: 20px; font-weight: 500;}
+.pitches {font-size: 15px}
+
+.features{
+  margin-top: 20px;
+}

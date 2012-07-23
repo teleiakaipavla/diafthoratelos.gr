@@ -1,0 +1,95 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  feeds: 
+    feed: Fonte de novas
+    post_new_questions: Publicar novas preguntas en
+    question: Subscribirse a esta pregunta
+    questions: Subscribirse a todas as preguntas
+    share_on_twitter: Twitter, Facebook e outros...
+    tag: Subscribirse á etiqueta
+    user: Subscribirse ás preguntas do usuario
+  global: 
+    actions: Accións
+    active: Activar
+    alphabetically: Alfabeticamente
+    anonymous: Anónimo
+    blog: Blogue
+    by: por
+    by_semi: "Por:"
+    chat: Chat
+    current: Actual
+    edited: Editado
+    edited_by: Editado por
+    edited_by_semi: "Editado por:"
+    feedback: Comentarios
+    follow: Seguir
+    followed_by: "Seguido por:"
+    following: Seguindo
+    from: desde %{site}
+    group_not_found: A páxina %{url} non existe
+    home: Inicio
+    next_button: Seguinte
+    open: Abrir
+    or: ou
+    permission_denied: Permisos rexeitados
+    please_login: Acceda ao sistema
+    preview: Vista previa
+    previous: Anteriores
+    privacy: Protección de datos
+    share: Compartir
+    sign_up: Crear unha conta
+    size: Tamaño
+    sort_by: "Ordenar por:"
+    tags_label: "Etiquetas:"
+    tos: Condicións do servizo
+    unfollow: Deixar de seguir
+    unknown_place: Descoñecido
+    view: Ver
+    view_question: Ver a pregunta
+    what_to_do: Que quere facer?
+  models: 
+    question: A pregunta
+  number: 
+    x_time: 
+      one: "%{count} vez"
+      other: "%{count} veces"
+      zero: Nunca
+  preferred_languages: 
+    any: Calquera
+    user: As linguas que coñezo
+  roles: 
+    moderator: Moderador
+    owner: Propietario
+    user: Usuario regular
+  scaffold: 
+    add: Engadir
+    are_you_sure: Está seguro?
+    back: Volver
+    cancel: Cancelar
+    close: Pechar
+    create: Crear
+    destroy: Borrar
+    details: Detalles
+    edit: Editar
+    more: Máis...
+    new: Engadir un novo %{model}
+    post_as_anonymous: Publicar como anónimo
+    save: Gardar
+    send: Enviar
+    show: Mostrar
+    sure: Está seguro de querer borrar este %{model}?
+    update: Actualizar
+  time: 
+    ago: hai %{time}
+    today: hoxe
+    yesterday: onte
+  views: 
+    pagination: 
+      first: Primeiro
+      last: Último
+      next: Seguinte &raquo;
+      previous: "&laquo; Anterior"
+      truncate: ...

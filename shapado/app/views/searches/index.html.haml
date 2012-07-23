@@ -1,0 +1,34 @@
+.top
+  %h1
+    -unless @questions.blank?
+      = t('.found_results', :quantity => @questions.total_count)
+    -else
+      = t('.advanced_search')
+  %p.description
+    - link = link_to t('.advanced_search'), '#', :class => "advanced-search"
+    =raw t('.description', :link => link)
+
+.advanced-form.clearfix
+  = render :partial => "form"
+
+%ul
+  -if @questions.blank? && params[:q]
+    %li.box.highlight
+      = t(".empty")
+  -else
+    -@questions.each do |question|
+      = render :partial => "searches/question", :object => question, :locals => {:query_regexp => @query_regexp}
+
+  = paginate @questions unless @questions.blank?
+
+  -if !params[:q].blank?
+    .save-search
+      =form_for @search, :url => search_index_path, :html => {:class => "form"} do |f|
+        =f.hidden_field :query
+        .field
+          =f.label :name, t('searches.index.input_title')
+          =f.text_field :name, :value => params[:q]
+          %small
+            = t('searches.index.input_legend')
+        .buttons
+          =f.submit t('scaffold.save'), :class => "save"

@@ -1,0 +1,22 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Peranan
+  members: 
+    create: 
+      error: Maaf, pengguna **%{user_id}** tidak wujud
+      notice: "%{login} berjaya ditambahkan sebagai %{role}."
+    form: 
+      destroy_confirm: Adakah anda pasti? Pengguna ini tidak akan menjadi ahli kumpulan ini lagi.
+      login_tip: Cari sambil taip
+    index: 
+      manage_members_title: Uruskan ahli
+      title: Ahli-ahli kumpulan %{name}
+      title_isolate: Ahli-ahli %{name}
+    update: 
+      error: Maaf, anda tidak boleh mengubah keahlian **%{login}**

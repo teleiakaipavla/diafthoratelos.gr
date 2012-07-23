@@ -1,0 +1,93 @@
+en:
+  roles:
+    user: Regular user
+    moderator: Moderator
+    owner: Owner
+  views:
+    pagination:
+      first: 'First'
+      last: 'Last'
+      next: "Next &raquo;"
+      previous: "&laquo; Previous"
+      truncate: '...'
+  scaffold:
+    are_you_sure: "Are you sure?"
+    sure: Are you sure you want to delete this %{model} ?
+    show: Show
+    edit: Edit
+    destroy: Delete
+    back: Back
+    update: Update
+    cancel: Cancel
+    close: Close
+    create: Create
+    new: Add new %{model}
+    more: "More ..."
+    add: Add
+    send: Send
+    save: Save
+    details: Details
+    post_as_anonymous: Post as anonymous
+  time:
+    today: today
+    yesterday: yesterday
+    ago: "%{time} ago"
+  models:
+    question: The question
+  global:
+    downgrade_to_free: Downgrade to free
+    upgrade: Upgrade
+    open: Open
+    size: Size
+    alphabetically: Alphabetically
+    from: "from %{site}"
+    permission_denied: Permission denied
+    please_login: Please log in
+    group_not_found: "The page %{url} does not exist"
+    preview: Preview
+    or: or
+    by: by
+    by_semi: "By:"
+    edited_by_semi: "Edited by:"
+    edited_by: "Edited by"
+    current: Current
+    previous: Previous
+    share: Share
+    active: Activate
+    anonymous: Anonymous
+    unknown_place: Unknown
+    follow: Follow
+    following: Following
+    unfollow: Unfollow
+    next_button: Next
+    view: View
+    view_question: View question
+    what_to_do: What do you want to do?
+    actions: Actions
+    sign_up: Sign up
+    feedback: Feedback
+    chat: Chat
+    tos: TOS
+    privacy: Privacy
+    blog: Blog
+    home: Home
+    sort_by: 'Sort by:'
+    tags_label: 'Tags:'
+    followed_by: 'Followed by:'
+    edited: Edited
+  feeds:
+    question: Subscribe to this question
+    questions: Subscribe to all questions
+    tag: Subscribe to tag
+    user: Subscribe to user questions
+    feed: Feed
+    post_new_questions: Post new questions to
+    share_on_twitter: "Twitter, Facebook and more..."
+  preferred_languages:
+    any:     Any
+    user:    My preferred languages
+  number:
+    x_time:
+      zero: "Never"
+      one: "%{count} time"
+      other: "%{count} times"

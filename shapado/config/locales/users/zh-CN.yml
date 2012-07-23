@@ -1,0 +1,93 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: 在激活
+        activation_code: 激活代码
+        age: 年龄
+        asked_by: 要求
+        avatar: 配置文件映像
+        birthday: 生日
+        created_at: 加入
+        current_password: 当前密码
+        email: 电子邮件
+        fullname: 全名
+        hide_country: 不显示我的国家
+        language: 语言
+        language_filter: 按语言筛选
+        last_logged_at: 看到
+        login: 用户名
+        name: 真实姓名
+        password: 密码
+        password_confirmation: 确认密码
+        preferred_languages: 要阅读下列语言的问题：
+        preferred_tags: 首选的标记
+        reputation: 声誉
+        timezone: 时区
+        updated_at: 在更新
+        website: 网站
+    models: 
+      user: 用户
+      users: 用户
+  users: 
+    actions: 
+      edit_others_posts: 编辑别人的帖子
+      edit_wiki_post: 编辑维基帖子
+      flag: 标志
+      retag_others_questions: 重新添加其他问题
+      vote_down: 否决
+      vote_to_close_any_question: 请求关闭的问题
+      vote_to_close_own_question: 请求关闭的问题
+      vote_up: 投票
+    anonymous_form: 
+      never_shown: 不会显示
+    create: 
+      flash_error: 很抱歉，我们无法设置该帐户。请重试，或与管理员联系（是上面的链接）。
+      flash_notice: 谢谢你注册！
+    edit: 
+      enable_twitter: 使您的 Facebook 或 Twitter 帐户
+      submit: 保存
+      title: 设置
+    follow: 
+      flash_notice: 用户 %{user} 已添加到您的朋友
+    form: 
+      activities_notification: 接收电子邮件通知的系统活动如赚取徽章、 新的追随者等。
+      avatar_tip: 使用 Gravatar更改您的配置文件图像
+      give_advice_notification: 在你的专业知识领域中接收电子邮件通知有关的问题
+      information: 信息
+      language: 用于网站的界面语言
+      new_answer_notification: 获取新的答案的电子邮件通知
+      notifications: 通知
+      reports_notification: 收到一份报告的最新小组活动（只适用于管理员组）
+      show_more_lang: 显示更多的语言
+    index: 
+      empty: 这一组没有任何成员。通过加入本集团参与。
+      filter: 搜索用户
+      name: 名称
+      name_tooltip: 按字母顺序排序的用户
+      newest: 最新
+      newest_tooltip: 刚刚加入的用户
+      oldest: 最早
+      oldest_tooltip: 是第一个加入的用户
+      reputation: 声誉
+      reputation_tooltip: 用户按较高的声誉
+      title: 所有用户
+    messages: 
+      errors: 
+        reputation_needed: 您需要自少 %{min_reputation} 的声誉才能够经行 %{action}
+    new: 
+      submit: 登记
+      title: 作为一个新的用户注册
+    show: 
+      follow: 关注
+      followers: 追随者
+      following: 跟中
+      title: 用户 %{user}
+      unfollow: 停止追随
+      views: 视图
+    unfollow: 
+      flash_notice: 用户 %{user} 从你的朋友中已被删除

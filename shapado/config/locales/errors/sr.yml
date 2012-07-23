@@ -1,0 +1,22 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  errors: 
+    forbidden: 
+      explanation: Немате потребна права да приступите овој страници.
+      title: Приступ је одбијен
+    go_to: Иди на страницу %{link}
+    help_us_answer: Помозите нам да одговоримо на %{link}
+    internal_error: 
+      explanation: Обавештени смо о овом проблему и убрзо ћемо га погледати.
+      title: Нажалост, дошло је до грешке.
+    not_found: 
+      explanation: Можда сте погрешно написали адресу или је страница премештена.
+      title: Страница није пронађена.
+    options_label: "Нешто друго да пробате:"
+    search: Претрага
+    unprocessable_entity: 
+      explanation: Можда сте покушали да промените нешто чему немате приступ.
+      title: Промена коју сте желели је одбијена.

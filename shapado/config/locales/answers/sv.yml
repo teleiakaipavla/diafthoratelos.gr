@@ -1,0 +1,30 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Innehåll
+        created_at: Skapades den
+        link: Länk
+    models: 
+      answer: Svar
+      answers: Svar
+  answers: 
+    create: 
+      flash_error: "Något gick fel när du försökte lägga till ditt svar. \n  Kom ihåg att: \n - Tomma och upprepade svar är inte tillåtna.\n - Du måste vänta 20 sekunder före du skickar in ett annat svar. \n - Du kan endast skicka in ett svar per fråga."
+      flash_notice: Tack!
+    edit: 
+      title: Redigera svar
+    form: 
+      answer_label: Svara på frågan
+      comment_label: Kommentera detta svar
+      comment_submit: Kommentera
+      submit: Svar
+    revert: 
+      title: Återgående svar
+    update: 
+      flash_notice: Svaren har uppdaterats.

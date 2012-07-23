@@ -1,0 +1,18 @@
+# Messages for Lithuanian (lietuvių)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Eitvys200
+lt: 
+  activerecord: 
+    models: 
+      activities: Veiklos
+      activity: Veikla
+  activity: 
+    asked: paklausė
+    changed: pakeistas
+    created: sukurtas
+    deleted: ištrintas
+    flagged: pažymėtas
+    requested_to_close: paprašyta uždaryti
+    requested_to_open: paprašyta atidaryti
+    updated: atnaujintas

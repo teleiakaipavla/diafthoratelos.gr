@@ -1,0 +1,14 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  searches: 
+    form: 
+      clear: Καθαρισμός
+      search_box_title: Ελέγξτε αν η ερώτησή σας έχει ερωτηθεί ήδη
+      tags_tip: Χρησιμοποιήστε [ετικέτα] για να ορίσετε ετικέτες.
+    index: 
+      empty: Η αναζήτησή σας δεν επέστρεψε ερωτήσεις.
+      search_text: Ερωτήσεις που περιέχουν
+      tags: Εντός αυτών των ετικετών

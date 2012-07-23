@@ -1,0 +1,244 @@
+@import 'setup'
+
+//Index
+article.Question.accepted
+  border-left: 5px solid #A2C538
+
+// Main Question
+.main-question
+  width: 100%
+  h1
+    font-size: 25px
+    margin: 0px 15px 0px 15px
+    &:first-letter
+      text-transform: uppercase
+
+  .author
+    margin: 0px 15px 5px 15px
+    p
+      margin: 0px
+
+  .description
+    margin: 0px 15px 5px 15px
+
+  .toolbar
+    margin: 0 15px 10px 15px
+
+    .menubar
+      a
+        padding-left: 22px
+        background: image-url("question-toolbar-icons-small.png") 5px 7px  no-repeat
+
+      .answer a
+        background-position: 5px 7px
+        &:hover, .answer:hover a
+          background-position: 5px -23px
+
+      .follow
+        .follow-q
+          background-position: 5px -261px
+        .follow-q:hover, &:hover .follow-q
+          background-position: 5px -241px
+        .unfollow-q
+          background-position: 5px -218px
+        .unfollow-q:hover, &:hover .unfollow-q
+          background-position: 5px -194px
+
+      .share_on a
+        background-position: 5px -121px
+        &:hover, &.active, .share_on:hover .share_on a
+          background-position: 5px -97px
+
+      .more a
+        background-position: 5px -380px
+
+      .activity
+        a
+          background-position: 5px -73px
+          &:hover, &.active
+            background-position: 5px -49px
+        &:hover a
+          background-position: 5px -49px
+
+      .followUp
+        a
+          background-position: 6px -606px
+          &:hover, &:active
+            background-position: 6px -580px
+        &:hover a
+          background-position: 6px -580px
+
+      .close
+        a
+          background-position: 5px -357px !important
+          &:hover, &.active, .close:hover a
+            background-position: 5px -329px !important
+        &:hover a
+          background-position: 5px -329px !important
+
+      #request-close-link
+        background-position: 5px -657px
+        &:hover
+          background-position: 5px -634px
+
+      .delete, .delete-q
+        a
+          background-position: 5px -546px
+          &:hover, &.active
+            background-position: 5px -518px
+        &:hover a
+          background-position: 5px -518px
+
+      .edit-q
+        a
+          background-position: 5px -305px
+          &:hover, &.active
+            background-position: 5px -282px
+        &:hover a
+          background-position: 5px -282px
+
+      .ban a
+        background-position: 5px -170px
+        &:hover, &.active, .ban:hover a
+          background-position: 5px -146px
+
+      #flag_question
+        background-position: 5px -722px
+        &:hover
+          background-position: 5px -744px
+
+      .add_reward a
+        background-position: 5px -767px !important
+        &:hover, .add_reward:hover a
+          background-position: 5px -787px !important
+
+// Main Question - Answers
+#answers-content-wrap
+  clear: both
+  h2
+    padding: 10px 15px 10px 15px
+
+  .filters
+    padding-left: 1%
+    width: 99%
+
+  .answers-list
+    clear: both
+    .empty
+      display: block
+      clear: both
+      padding: 20px 30px
+      overflow: hidden
+      img
+        float: left
+        margin: 0 10px 0 0
+      h2
+        background: none
+        border: 0px
+        padding: 0
+
+    article.solution
+      background: image-url("answer-winner.png") 490px 20px no-repeat
+      h4.author
+        width: 460px
+
+    .answer_vote_box
+      float: left
+      width: 24px
+      margin-right: 5px
+
+    .answer
+      .author
+        margin: 0 0 5px 0
+        *
+          font-size: 11px
+          font-weight: normal
+          font-style: italic
+        .user-data a
+          font-size: 12px
+          font-weight: bold
+          font-style: normal
+        img
+          float: left
+          margin: 0 10px 0 0
+
+// Main Question - Answers messages
+.followUp-content
+  display: block
+  clear: both
+  padding: 20px 30px
+  overflow: hidden
+
+#close_reason
+  padding: 10px
+  clear: both
+  float: none
+  display: block
+  text-align: center
+  font-size: 14px
+
+//forms
+.questions-controller
+  form.question_comment_form,
+  form.answer_comment_form
+    padding: 5px 20px 1px 20px
+    margin: 0 0 10px 35px
+    fieldset
+      margin-bottom: 10px
+      padding-top: 10px
+    textarea
+      height: 1.4em
+      width: 100%
+      margin: 0 0 10px 0
+      &.markdown_editor
+        height: 7em
+
+  .edit_comment_form
+    padding: 0 20px 1px 20px
+    margin: 10px -10px 10px 0 !important
+    textarea
+      width: 395px
+
+  .edit_answer
+    padding: 20px
+    width: auto !important
+    overflow: hidden
+    margin-top: 10px
+    .field
+      margin: 0
+      input
+        margin-bottom: 10px
+
+  .related_questions
+    #related_questions
+      *
+        border: 0px
+      .toolbar
+        display: none
+      article
+        padding: 0
+        margin: 0
+        h3
+          font-size: 12px
+          font-weight: normal
+          a
+            background-color: $lightOrange
+            padding: 5px 10px
+            border: 0px !important
+            display: block
+            &:first-letter
+              text-transform: uppercase
+
+// Main Question - Action Panels
+#panel-forms
+  height: 100%
+  clear: both
+  padding: 0
+
+  form
+    display: none
+    margin: 0 auto
+    padding: 20px
+    width: 90%
+    overflow: hidden
+    padding: 2%

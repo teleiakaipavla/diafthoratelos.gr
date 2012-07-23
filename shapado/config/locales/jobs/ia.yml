@@ -1,0 +1,21 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} respondeva a: %{question}"
+        send_twitter: Mi responsa a %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} amava un responsa per %{author} a: %{question}"
+        send_twitter: "Me placeva un responsa per %{author} a: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} justo ganiava le insignia %{token} in %{group_name} %{link}"
+        send_twitter: Io justo ganiava le insignia %{token} in %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} commentava super: %{question}"
+        send_twitter: Mi commento super %{question}

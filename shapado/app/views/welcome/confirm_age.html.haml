@@ -1,0 +1,12 @@
+%h1
+  =t(".warning")
+
+=t(".notice")
+
+%br
+%br
+
+
+.confirm_box{:style => "text-align: center; width: 100%"}
+  =link_to t(".under_18"), root_path, :class => "big_cancel_button"
+  =link_to t(".over_18"), confirm_age_welcome_path(:source => url_for), :method => "post", :class => "big_confirm_button", :rel => "nofollow", :style => "margin-left: 20%"

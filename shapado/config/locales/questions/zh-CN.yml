@@ -1,0 +1,136 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Hzy980512
+zh-CN: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: 答案
+        asked_by: 要求
+        body: 正文
+        closed: 关闭
+        created_at: 问过
+        language: 语言
+        tags: 标签
+        title: 标题
+        updated_at: 更新
+        updated_by: 通过更新
+        views: 视图
+        votes: 投票
+    models: 
+      question: 问题
+      questions: 问题
+  questions: 
+    answer: 
+      add_comment: 添加注释...
+      flag: 标志
+      pick_answer: 为解决方案选择
+      unset_answer: 取消设置的解决方案？
+    create: 
+      flash_notice: 这个问题已成功创建。
+    edit: 
+      title: 编辑问题
+    flag: 
+      title: 旗帜问题
+    form: 
+      adult_content: 这一问题包含成人内容。
+      body_tip: 你的问题是什么？是说明性的。
+      language_tip: 选择在问这个问题是的语言。
+      tags_tip: 使用标记来添加有关您的问题的详细信息。
+    index: 
+      active: 活动
+      active_tooltip: 最近已更新的问题
+      ask_question: 问的问题
+      empty: 但没人问过任何问题。是第一次 ！
+      help_to_answer: 帮助我们回答
+      hot: 热
+      hot_tooltip: 在过去的 5 天最活动问题
+      newest: 最新
+      newest_tooltip: 最大最近问的问题
+      oldest: 最早
+      title: 所有的问题
+      unanswered_questions: 悬而未决的问题
+      votes: 投票
+    model: 
+      messages: 
+        empty_tags: 对不起，您需要使用至少一个标签。
+        title_too_long: 标题是太长。它不应包含超过 100 个字符。
+        too_many_tags: 对不起，您可以只输入 9 标记的最大值。
+        too_short: 似乎太短。请使用比 %{count} 更多的单词已是问题更具体。
+    move: 
+      group_label: 移动到与塞组：
+      submit: 移动 ！
+      title: 移动问题： %{title}
+    move_to: 
+      group_dont_exists: 组 %{group} 不存在
+      success: 问题已移动到 %{group}
+    new: 
+      how_to_ask: 如何询问
+      title: 问的问题
+    question: 
+      accepted_tooltip: 这个问题有个已被接受的答案，
+    retag: 
+      title: 重新添加标签
+    retag_form: 
+      cancel: 取消
+      submit: 更新标签 ！
+      title: 更新标记
+    retag_to: 
+      failure: 很抱歉，无法更新标签。
+      success: 已成功更新标签。
+    revert: 
+      title: 恢复问题
+    shared: 
+      flag: 标志
+    show: 
+      accepted_tooltip: 其中一个答案被接纳为正确答案。
+      another_answers: 其他答案
+      answers: 答案
+      asked_on: 要求
+      ban: 禁止
+      close: 关闭
+      close_reason: 这个问题已被关闭，原因如下：
+      edit_request: 编辑请求
+      flag: 标志
+      flagged_as: 标记为
+      flags: 据报
+      last_activity: 最新活动
+      open: 开放
+      related_questions: 有关的问题
+      request_closing: 请求关闭
+      request_closing_details: 对关闭这一问题的请求
+      request_opening: 请求重新开放
+      request_opening_details: 请求重新打开此问题
+      requested_close_as: 您请求关闭这一问题作为
+      requested_reopening: 您请求重开这个问题
+      retag: 重新添加标签
+      retract_request: 退刀的请求
+      share: 这一问题上的共享
+      share_on: 在 %{site} 共享这个问题
+      solution: 解决方案
+      to_answer_question: 要回答这个问题
+      unauthenticated_retag: 您需要一个帐户重新添加问题
+      unban: 解封
+      viewed: 查看
+    solve: 
+      flash_notice: 解决了这个问题。
+    tags: 
+      filter: 搜索标签
+      title: 标签
+      tooltip: 显示问题标记 %{tag}
+    unanswered: 
+      empty: 这一组没有任何悬而未决的问题。
+      expert: 专家
+      my_tags: 我的标记
+      tags: 未获答复的标记
+      title: 悬而未决的问题
+    unsolve: 
+      flash_notice: 问题不能得到解决。
+    unwatch: 
+      success: 通过电子邮件发送的每个新回答了这个问题将不会收到通知。
+    update: 
+      flash_notice: 已成功更新问题。
+    watch: 
+      success: 现在，您将收到通知的电子邮件的每个新回答这个问题。

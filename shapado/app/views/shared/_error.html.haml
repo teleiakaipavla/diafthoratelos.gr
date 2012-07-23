@@ -1,0 +1,29 @@
+
+
+%h1= raw(title)
+
+.error-dialog
+  #dialog-content
+    %span.left
+      = image_tag(error_image)
+    %span.left
+      %p= raw(explanation)
+      .error-options
+        %b= t("errors.options_label")
+        %ul.list
+          %li
+            = raw(t("errors.go_to", :link =>link_to(t("layouts.application.home"), domain_url(:custom => current_group.domain))))
+          %li
+            = raw(t("errors.help_us_answer", :link => link_to(t("layouts.application.questions"), questions_path)))
+          %li
+            - query = request.path.split("/").last
+            - query = query.nil? ? '' : query.split("-").join(" ")
+
+            = form_tag search_index_path, :method => :get, :id => "search" do
+              =t("errors.search")
+              .field
+                -# query is nil when path is only '/'
+                = text_field_tag 'q', query, :class => "text_field", :style => "width: 50%"
+                %button{:type => "submit"}
+                  = t('layouts.applications.search', :default => "Go")
+    .clear

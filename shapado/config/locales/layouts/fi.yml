@@ -1,0 +1,78 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Raspi
+# Author: Tomi Toivio
+fi: 
+  layouts: 
+    application: 
+      all: Kaikki
+      ask_question: Kysy kysymys
+      badges: Ansiomitalit
+      by_me: Omat
+      collaborate: Tee yhteistyötä
+      contributed: Muokkaajat
+      faq: UKK
+      feed: Seuraajat
+      follow_us_and_share: Seuraa meitä ja jaa
+      followed: Seuraajat
+      forgot: Unohditko?
+      home: Etusivu
+      join_group: Liity ryhmään %{group}
+      languages: Kielet
+      log_in: Kirjaudu sisään
+      logged: Kirjautunut nimellä %{login}
+      logout: Kirjaudu ulos
+      manage_ads: Hallitse mainoksia
+      moderate: Valvo
+      need_to_signin: Sinun täytyy kirjautua ensin sisään.
+      not_member_join_dialog: Sinun täytyy liittyä ryhmään %{group} tehdäksesi tämän toiminnon, napsauta tästä tehdäksesi niin.
+      now: nyt!
+      openid: 
+        explaination: "Jos haluat rekisteröityä tai vain kirjautua sisään, valitse OpenID-palveluntarjoaja:"
+      pages: Sivut
+      preferred: Suositut
+      questions: Kysymykset
+      questions_in: Kysymyksiin
+      questions_tagged: varustettu tunnisteella
+      random_question: Satunnainen kysymys
+      search: Etsi
+      settings: Asetukset
+      signup: Rekisteröidy
+      subscribe: Tilaa
+      success_joining_group: Olet nyt ryhmän %{group} jäsen, kiitos liittymisestä!
+      tags: Tunnisteet
+      title: Kysymykset ja vastaukset
+      unanswered: Vastaamaton
+      users: Käyttäjät
+      welcome_from: Tervetuloa! Voit
+    manage: 
+      access: Käyttöoikeus
+      actions: Toimet
+      announcements: Ilmoitukset
+      appearance: Ulkoasu
+      close_group: Sulje ryhmä
+      constrains: Vaatimukset
+      content: Sisältö
+      dashboard: Kojelauta
+      domain: Toimialue
+      edit_layout: Muokkaa ulkoasua
+      general: Yleinen
+      group_features: Ominaisuudet
+      group_look_and_feel: Näkymä ja tuntuma
+      group_user_management: Käyttäjien hallinta
+      invitations: Kutsut
+      invoices: Laskut
+      members: Jäsenet
+      pages: Sivut
+      properties: Ominaisuudet
+      reputation: Maine
+      rewards: Palkkiot
+      social: Sosiaalinen
+      stats: Tilastot
+      theme: Teema
+      themes: Teemat
+      widgets: Ikkunaoliot
+    notifications: 
+      message: Jos et halua enää vastaanottaa automaattisia ilmoituksia kohteesta %{group}, muuta asetuksiasi ilmoitusnäytöllä.

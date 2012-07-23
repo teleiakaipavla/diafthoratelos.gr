@@ -1,0 +1,264 @@
+@import "setup"
+@import "compass/utilities/sprites"
+
+@import "helper/items/menubar"
+@import "helper/items/widgets"
+@import "helper/items/tags"
+@import "helper/items/editors"
+@import "helper/items/comments"
+
+// TobBar
+.top-bar
+  height: 40px
+  width: 100%
+  min-width: 960px
+  top: 0px
+  position: fixed
+  z-index: 1000
+  +outer-shadow
+  .warp
+    max-width: 1020px
+    margin: 0 auto
+
+  .group_logo
+    height: 35px
+    margin: 4px 10px 0px 10px
+  li.group
+    a
+      border: 0px
+  .searcher
+    float: left
+    height: 40px
+
+    form#search
+      padding: 0
+      margin: 0 10px
+      overflow: hidden
+      width: auto
+
+      .field
+        float: left
+        margin: 6px 0 0 0
+
+        input
+          margin: 0
+          float: left
+          width: 150px
+          padding: 2px 5px 2px 25px
+
+      input
+        background: white image-url('search-icon.png') 5px 50% no-repeat
+
+  .languages_filter
+    float: left
+    padding: 6px 6px 6px 10px
+    height: 28px
+    .field
+      margin: 0
+    input
+      display: none
+    select
+      width: auto
+      padding: 2px !important
+      height: 22px !important
+
+.editor
+  textarea
+    width: 100%
+
+.toolbar
+  display: block
+  clear: both
+  ul
+    +small-radius
+    zoom: 1
+    width: 100%
+    &:before, &:after
+      display: table
+      content: ""
+    &:after
+      clear: both
+    li
+      line-height: 26px
+      span, a
+        padding: 0 10px
+      &.action
+        a
+          display: block
+
+.pagination
+  text-align: center
+  overflow: hidden
+  padding: 20px
+  span a
+    padding: 7px 10px 7px 10px
+    +small-radius
+  span.current
+    padding: 7px 7px 7px 10px
+    margin: 0 3px
+    +small-radius
+
+.badges
+  .badge
+    line-height: 30px
+    padding: 0px 5px 0px 32px
+    background-repeat: no-repeat
+    background-image: image-url("ribbons.png")
+    &.silver
+      background-position: 0px 0px
+    &.gold
+      background-position: 0px -32px
+    &.bronze
+      background-position: 0px -64px
+
+  table
+    margin: 10px
+    width: 100%
+    border-collapse: collapse
+    border-spacing: 0
+
+  ul li, tr td
+    margin-bottom: 5px
+    overflow: hidden
+
+    .badge_description
+      width: 55%
+      float: left
+
+    .badge
+      float: left
+      display: block
+
+    .user
+      float: left
+      line-height: 30px
+      margin-left: 5px
+
+    .counter
+      line-height: 30px
+      float: left
+      font-size: 12px
+      font-style: italic
+
+.vote_box
+  button
+    height: 25px
+    width: 24px
+    border: 0px
+    +small-radius
+    &.negative
+      background-image: image-url("question-toolbar-icons-small.png")
+      background-position:  5px -402px
+      background-repeat: no-repeat
+      &:hover, &.checked
+        background-position: 5px -417px
+    &.positive
+      background-image: image-url("question-toolbar-icons-small.png")
+      background-position: 5px -449px
+      background-repeat: no-repeat
+      &:hover, &.checked
+        background-position: 5px -434px
+  .votes_average
+    padding: 5px 0
+    text-align: center
+    width: 24px
+    margin: 0px auto
+
+
+.top
+  overflow: hidden
+  padding: 0px 10px
+  h1
+    display: inline
+    float: left
+
+  p.description
+    margin: 0 30px 30px 30px
+    clear: both
+  .filter
+    margin-top: 15px
+    form
+      float: left
+      margin-left: 10px
+      .field
+        width: 100%
+        margin: 0
+        label
+          font-weight: normal
+          margin: 0 0 5px 0
+        input
+          float: left
+          width: 300px
+          margin: 0 10px 0 0
+        .filter_input
+          display: block !important
+          width: auto
+          float: left
+          border: 0px
+
+.form_dialog
+  display: none
+
+// Ajax tooltip
+.tooltip-avatar, .tooltip-name
+  float: left
+  text-align: left !important
+.tooltip-avatar img
+  width: 32px
+  height: 32px
+  margin-right: 15px
+.tooltip-name
+  height: 32px
+  p, a
+    margin: 0
+    line-height: 15px
+.tooltip
+  a
+    color: white
+    font-weight: bold
+  a:hover
+    font-weight: bold
+    background-color: #FFF
+
+.tooltip-description
+  clear: both
+  line-height: 15px
+  a
+    font-weight: normal
+    color: #FFF !important
+  a:hover
+    background-color: #FFF !important
+    color: black !important
+    font-weight: normal !important
+.tooltip-header
+  margin-bottom: 0px
+  height: 35px
+.tooltip
+  display: none
+  background: transparent image-url('jquerytools/black_arrow.png')
+  font-size: 12px
+  height: 70px
+  width: 160px
+  padding: 25px
+  color: #fff
+  position: absolute
+
+// drop down login form
+.drop-down-input
+  width: 250px !important
+
+.drop-down-field
+  padding: 10px
+
+.drop-down-checkbox-label
+  float: left !important
+  width: auto !important
+
+.checkbox-dropdown
+  float: left !important
+  width: auto !important
+  margin-left: 7px !important
+
+.save-login-dropdown
+  margin-right: 9px !important
+  margin-bottom: 9px !important

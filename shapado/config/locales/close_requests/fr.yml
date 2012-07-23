@@ -1,0 +1,35 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+# Author: Peter17
+fr: 
+  close_requests: 
+    create: 
+      flash_notice: Demande de fermeture créée avec succès
+    destroy: 
+      flash_notice: Demande de fermeture retirée avec succès
+    edit: 
+      title: Modifier la demande de clôture
+    form: 
+      close_with_reason: Fermer cette question en utilisant cette raison
+      dupe: doublon
+      no_question: N'est pas une question
+      not_relevant: N'est pas pertinente
+      ot: Hors sujet
+      request_closing_details: Demander la fermeture de cette question
+      retract: Rétractez-vous
+      spam: spam
+    index: 
+      title: Liste des demandes de fermeture
+    model: 
+      attributes: 
+        comment: Commentaire
+        reason: motif
+        user: Utilisateur
+      messages: 
+        already_requested: Vous avez déjà fait une demande de fermeture sur cette question
+      name: Demande de fermeture
+      prural_name: Demandes de fermeture
+    update: 
+      flash_notice: Demande de fermeture actualisée avec succès

@@ -1,0 +1,10 @@
+%div.list_cloud
+  %ul
+    -tags.each do |tag|
+      -unless current_tags.include? tag["name"]
+        -url = tag_url(:id => (current_tags + [tag["name"]]).join("+"))
+        %li{:class => tag_class,}
+          %a{ :href => url, :rel => "tag",:title => t("questions.tags.tooltip")}
+            = tag["name"]
+            %span.count
+              = tag["count"].to_i

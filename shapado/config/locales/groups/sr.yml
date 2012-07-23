@@ -1,0 +1,96 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Дневно ограничење
+        default_tags: Подразумеване ознаке
+        description: Опис
+        domain: Домен
+        enable_latex: Омогући LaTeX са jqmath-ом (брзо, али нема све могућности)
+        enable_mathjax: Омогући LaTeX са mathjax-ом (споро, али има све могућности)
+        fb_button: Омогући дугме „Свиђа ми се“ на Фејсбуку (није погодно за приватност)
+        forum: Дозволи више од једног одговора по кориснику
+        group_created_by: "направио:"
+        language: Подразумевани језик
+        languages: Додатни језици
+        legend: Легенда
+        logo: Логотип
+        may_contain_adult_content: Овај сајт може да има садржај за одрасле
+        name: Назив
+        owner: Ову групу је направио %{login}
+        registered_only: Само уписани корисници могу да приступе мрежном месту
+        signup_type: "На који начин се ваши корисници могу уписати:"
+        state: Држава
+        subdomain: Адреса
+        track_users: Захтевај физичко место корисника
+        wysiwyg_editor: Омогући згодан кориснички уређивач
+    models: 
+      default_tags_message: Не можете имати више од десет подразумеваних ознака
+      duplicate_domain_message: Нажалост, домен је заузет.
+      group: Група
+      groups: Групе
+      reputation_rewards_answer_constrain: Ограничење за награђивање одговора треба да буде негативно
+      reputation_rewards_ask_constrain: Ограничење за постављање питања треба да буде негативно
+      reputation_rewards_key: Неисправан кључ
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Нажалост, дошло је до грешке. Покушајте поново.
+      success_twitter_connection: Честитамо! Повезали сте свој налог на Твитеру.
+    create: 
+      flash_notice: Ваша група је направљена. Сада можете почети да је подешавате.
+    edit: 
+      title: Уредите своју групу
+    form: 
+      access: Поставке приступа
+      analytics_engine: Аналитички погон
+      analytics_legend: Група ће моћи да користи сопствени код за праћење
+      any_language: било који
+      custom_analytics: Дозволи прилагођену аналитику
+      custom_html: Дозволи прилагођени HTML
+      custom_js: Дозволи прилагођени јаваскрипт
+      default_tags_legend: Одвојите ознаке запетама. Дозвољено је само десет подразумеваних ознака.
+      description_legend: Имате 400 знакова за опис групе.
+      isolate_group: Одвоји групу од осталих група
+      legend_legend: Користиће се у заглављу. Имате 40 знакова.
+      logo_legend: Можете отпремити логотип групе. Највећа величина датотеке је 2 MB.
+      members_only: Само чланови групе ће имати приступ до ње
+      signup_all: Сви изабрани добављачи, плус корисник и лозинка
+      signup_email: Само корисник/лозинка
+      signup_noemail: Сви изабрани добављачи, минус корисник и лозинка
+      signup_social: Корисници су приморани да користе Фејсбук, Твитер, Линкедин или Идентику
+      website_analytics_id: Назнака аналитике мрежног места
+    group: 
+      about: О групи
+      accept_group: Прихвати групу
+      allow_ads: Дозволи огласе
+      close: Затвори
+      close_group: Затвори групу
+      disallow_ads: Забрани огласе
+    index: 
+      actives: Активне
+      create_your_own: направити сопствену групу
+      description: Ово је списак направљених јавних група. Сврстајте их испод у пољу за претрагу. Можете и %{link}.
+      filter: Претрага група
+      most_active: Најактивније
+      name: Назив
+      pendings: На чекању
+      request_group: Захтевај нову групу
+      title: Групе
+    new: 
+      title: Направите сопствену групу
+    show: 
+      accept_group: Прихвати групу
+      accept_group_with_custom_ads: Прихвати групу и дозволи прилагођене огласе
+      close_group: Затвори групу
+      group_awaiting_acceptance: Ова група чека на одобрење модератора.
+      group_closed: Ова група је затворена.
+      title: О групи %{name}
+      visit_group: Посети групу
+    top_grouplist: 
+      active_site: "Активно мр. место:"
+    update: 
+      notice: Ваша група је ажурирана.

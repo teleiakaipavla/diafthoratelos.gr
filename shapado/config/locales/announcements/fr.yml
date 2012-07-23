@@ -1,0 +1,24 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Od1n
+# Author: Patcito
+# Author: Sherbrooke
+# Author: Verdy p
+fr: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Termine le
+        message: Message
+        only_anonymous: Juste pour les utilisateurs anonymes
+        starts_at: Débute le
+  announcements: 
+    actions: 
+      delete: Enlever
+      title: Actions
+    create: 
+      success: Votre annonce a été créée avec succès.
+    index: 
+      description: Gère et crée de nouvelles annonces qui seront affichées sur tout le site.
+      title: Annonces

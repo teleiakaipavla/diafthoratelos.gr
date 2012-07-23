@@ -1,0 +1,56 @@
+- @aflag = current_user.has_flagged?(answer) if logged_in?
+- @aflag ||= Flag.new
+
+
+.toolbar
+  %ul.menubar
+    - if logged_in?
+      - if (answer.wiki || current_user.can_edit_others_posts_on?(answer.group) || current_user.can_modify?(answer))
+        %li.action
+          = link_to t("scaffold.edit"), edit_question_answer_path(question, answer), "data-lazy" => "1", :class => "show_form", "data-lazy-form" => "edit_answer"
+      - if current_user.mod_of?(question.group) || current_user.can_modify?(question)
+        %li.action
+          - unless question.accepted && !question.subjetive
+            = link_to t("questions.answer.pick_answer"), solve_question_path(question, :answer_id => answer)
+          - else
+            - if question.answer == answer
+              = link_to t("questions.answer.unset_answer"), unsolve_question_path(question, :answer_id => answer)
+
+
+
+      - if answer.favorite_for?(current_user)
+        %li.action
+          = link_to t('questions.answer.unfavorite'), unfavorite_question_answer_path(question, answer), title: t('questions.answer.unfavorite_tooltip'), class: 'answer-action unfavorite-link toggle-action', data: {undo: favorite_question_answer_path(question, answer), title: t('questions.answer.favorite_tooltip'), counter: '.favorites_count', text: t('questions.answer.favorite'), 'login-require' => true}, remote: true
+      - else
+        %li.action
+          = link_to t('questions.answer.favorite'), favorite_question_answer_path(question, answer), :title => t('questions.answer.favorite_tooltip'), :class => 'answer-action favorite-link toggle-action', data: {undo: unfavorite_question_answer_path(question, answer), title: t('questions.answer.unfavorite_tooltip'), counter: '.favorites_count', text: t('questions.answer.unfavorite'), 'login-require' => true}, remote: true
+
+    - if !logged_in? || !current_user.mod_of?(current_group)
+      - if @aflag.new_record? && current_user != answer.user
+        %li.action
+          = link_to t('questions.answer.flag'), new_question_answer_flag_path(question,answer), :class => 'flag-link show_form', :rel => 'nofollow', :rel => 'nofollow', "data-lazy" => "1", "data-lazy-form" => "flag_answer"
+      - elsif !@aflag.new_record?
+        %li.flagged
+          %span.flag-link
+            = t('questions.answer_toolbar.flagged_by_you')
+          %ul.drop-menu
+            %li
+              %p
+                = "#{t('questions.show.flagged_as')} #{t(@aflag.reason, :scope=>'flags.form')}"
+                = link_to t("scaffold.edit"), edit_question_answer_flag_path(question,answer,@aflag), :class => "flag-link", :id => "edit_answer_flag_link", :rel => 'nofollow'
+                = link_to t("scaffold.destroy"), question_answer_flag_path(question,answer,@aflag), :id => "destroy_answer_flag_link", :rel => 'nofollow', :confirm => t('scaffold.are_you_sure'), :method => :delete
+    - else
+      %li.action
+        = link_to answer.banned ? t("questions.show.unban", :default => "Unban") : t("questions.show.ban"), banning_moderate_answer_path(answer), :class => "ban-link", "data-lazy" => "1", :rel => 'nofollow', :class => "show_form"
+
+    - if logged_in?
+      %li.more.current.action
+        = link_to t('layouts.manage.actions'), "#"
+        %ul.drop-menu
+          %li.action
+            = link_to t("questions.show.follow_up"), new_question_path(:original_question_id => question.id, :original_answer_id => @answer.id), :class => "pjax", :"data-layout" => "new-question"
+          - if (current_user.can_modify?(answer) || current_user.mod_of?(question.group))
+            %li
+              = link_to t("scaffold.destroy"), question_answer_path(question.id, answer.id), :confirm => t('scaffold.are_you_sure'), :method => :delete
+  .article-forms.clear
+.clear

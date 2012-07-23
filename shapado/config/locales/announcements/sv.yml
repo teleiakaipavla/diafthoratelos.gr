@@ -1,0 +1,21 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Slutar på
+        message: Meddelande
+        only_anonymous: Endast för anonyma användare
+        starts_at: Börjar på
+  announcements: 
+    actions: 
+      delete: Ta bort
+      title: Åtgärder
+    create: 
+      success: Ditt meddelandet har skapats.
+    index: 
+      title: Meddelanden

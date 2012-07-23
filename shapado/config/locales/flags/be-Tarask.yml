@@ -1,0 +1,33 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Прычына
+    models: 
+      flag: Сьцяг
+      flags: Сьцягі
+  flags: 
+    create: 
+      flash_error: Вы ня можаце пазначыць гэта
+      flash_notice: Дзякуй за Вашае паведамленьне
+    destroy: 
+      flash_notice: Ваш сьцяг быў пасьпяхова адкліканы.
+    edit: 
+      title: Рэдагаваць сьцяг %{model}
+    form: 
+      attention: Патрабуе ўвагу мадэратара
+      label: Калі ласка, будзьце ўважлівымі падчас пазначэньня
+      offensive: Агрэсія, зьнявага ці праява нянавісьці
+      spam: Спам
+    model: 
+      messages: 
+        already_requested: Вы ўжо пазначылі гэтую %{model}
+    new: 
+      title: Метка %{model}
+    update: 
+      flash_notice: Сьцяг пытаньня быў пасьпяхова абноўлены.

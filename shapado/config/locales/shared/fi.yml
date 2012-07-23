@@ -1,0 +1,79 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+# Author: Tomi Toivio
+fi: 
+  shared: 
+    any_lang: Mikä tahansa kieli
+    by_anon: Nimettömän tekemä
+    current_tags: 
+      title: Valitut tunnisteet
+    description: Kuvaus
+    empty: 
+      activities: 
+        description: 
+          text: Tämä paikka saa täytettä automaattisesti kun ihmiset alkavat käyttää sivustoa.
+        title: Ei toimintaa toistaiseksi.
+      answers: 
+        description: 
+          text: Ole ensimmäinen!
+        title: Kukaan ei ole vastannut tähän kysymykseen vielä.
+      default: 
+        description: 
+          text: Ole ensimmäinen, joka %{action_link}!
+        title: Anteeksi! Ei ole paljon nähtävää.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Napsauta tästä nähdäksesi kysymykset kaikilla kielillä.
+        title: Kysymyksiä ei ole saatavilla tällä kielellä.
+      filtered_questions: 
+        description: 
+          action_link: Napsauta tästä nähdäksesi kaikki kysymykset.
+        title: Valitettavasti tälle suodattimelle ei ole kysymyksiä saatavilla.
+      questions: 
+        description: 
+          action_link: kysyy kysymyksen
+          text: Ole ensimmäinen, joka <a href="%{url}"> %{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: nyt
+          text: luo %{action_link}
+        title: Et ole vielä luonut teemoja.
+    filter: "Suodatin:"
+    language: "Kieli:"
+    language_filter_tooltip: Kokeile toista kieltä.
+    languages: "Kielet:"
+    layout: 
+      footer: 
+        cc_footer: Kaikki Shapado.comin sisältö ja tiedot ovat käytettävissä %{cc_link} -lisenssin alaisuudessa
+        powered_by: Käyttövoimana %{source_link} %{version} sovelluksen %{agpl_link} alaisena
+    login_drop_down: 
+      sign_up_user_pass: Kirjaudu sisään sähköpostilla/salasanalla
+      with_email_pass: Kirjaudu sisään sähköpostillasi
+      with_facebook: Facebookilla
+      with_google: Googlella
+      with_identica: Identi.calla
+      with_linked_in: LinkedInillä
+      with_openid: OpenID
+      with_twitter: Twitterillä
+    manage_navigation: 
+      title_content: Ryhmän sisältöä
+      title_features: Ryhmän ominaisuudet
+      title_options: Ryhmän toiminnot
+    name: Nimi
+    preferred_lang: Ensisijaiset kieleni
+    quick_question: 
+      random_question: Vastaa satunnaiseen kysymykseen
+    social_connect: 
+      find_friends_facebook: Etsi ystäviä Facebookista
+      find_friends_identica: Etsi ystäviä Identi.casta
+      find_friends_linked_in: Etsi ystäviä LinkedInistä
+      find_friends_twitter: Etsi ystäviä Twitteristä
+    topbar: 
+      admin: Ylläpitäjä
+      logged_as: Kirjautunut nimellä %{login}
+      user_page: Oma sivu
+    view_mode: "Näyttötila:"

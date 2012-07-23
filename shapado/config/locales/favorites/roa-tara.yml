@@ -1,0 +1,9 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  activerecord: 
+    models: 
+      favorite: Favorite
+      favorites: Favorite

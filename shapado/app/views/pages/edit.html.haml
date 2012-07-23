@@ -1,0 +1,17 @@
+-content_for :header do
+  %h1
+    = t(".title", title: @page.title)
+
+= form_for(@page, :url => page_path(@page), :html => {:class => "form"}) do |f|
+  =render :partial => "form", :locals => {:f => f}
+  .field.form-options
+    .column
+      .checkbox
+        -if current_user.mod_of?(current_group)
+          = f.label :wiki, "Wiki", :class => "radio"
+          = f.check_box :wiki, :class => "checkbox"
+
+    .buttons
+      = f.submit t('scaffold.update')
+      = t("global.or")
+      = pjax_link_to t('scaffold.cancel'), "pages", page_path(@page), :class => "button cancel"

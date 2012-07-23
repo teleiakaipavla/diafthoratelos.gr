@@ -1,0 +1,46 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Pinxnl
+# Author: Siebrand
+nl: 
+  themes: 
+    edit: 
+      title: Vormgeving bewerken
+    form: 
+      bg_color_legend: U kunt een enkele kleur als achtergrond instellen. Zorg dat deze goed contrasteert met de rest van uw vormgeving.
+      bg_image_legend: Deze afbeelding wordt in de achtergrond van iedere pagina weergegeven. De afbeelding mag niet groter zijn dan 800 kilobyte en moet in het formaat GIF, JPEG of PNG zijn.
+      colors_and_bg: Kleuren en achtergronden
+      custom_css_legend: Als u overweg kunt met CSS, dan kunt u hier de vormgeving van uw site aanpassen. U kunt gewone CSS gebruiken of SCSS.
+      fluid_layout: Vloeibare vormgeving
+      fluid_layout_legend: Een vloeiende vormgeving maakt de breedte van iedere element op de pagina afhankelijk van de breedte van het scherm van de gebruiker. Als een venster van grootte verandert, of als een mobiel apparaat wordt gebruikt, wordt de vormgeving uitgerekt of kleiner gemaakt.
+      main_color_legend: Dit is één van de meest gebruikte kleuren op iedere pagina. Zorg dat u een goede kleur selecteer voor uw merk of gemeenschap.
+      modules_color_legend: Zorg ervoor dat deze kleur en de hoofdkleur bij elkaar passen.
+      submit_update: Vormgeving bijwerken
+      text_color_legend: Zorg ervoor dat uw tekst leesbaar is en past bij de achtergrondkleur.
+      update: Vormgeving bijwerken
+    index: 
+      description: Hier vindt u uw vormgevingen en kunt u het uiterlijk van uw app wijzigen.
+      new_theme: Hier kunt u uw eigen vormgeving maken.
+    ready: 
+      success: Uw vormgeving is klaar!
+    show: 
+      apply: Toepassen
+      bg_color: Achtergrondkleur
+      bg_image: Achtergrondafbeelding
+      brand_color: Merkkleur
+      button_bg: Achtergrondkleur voor knoppen
+      button_fg: Voorgrondkleur voor knoppen
+      fg_color: Voorgrondkleur
+      fluid: Vloeiend (hiermee wordt de achtergrond elastisch en vervormt mee met de afmetingen van het browservenster)
+      link_bg: Achtergrondkleur voor verwijzingen
+      link_fg: Voorgrondkleur voor verwijzingen
+      main_color: Hoofdkleur
+      modules_color: Kleur voor modules
+      not_ready: Dit thema kan nog niet gebruikt worden. Kom binnenkort terug.
+      text_color: Tekstkleur
+      try: Proberen
+      use_link_bg: Achtergrond gebruiken voor verwijzingen
+      view_bg: Achtergrondkleur van de weergave
+      view_fg: Voorgrondkleur van de weergave

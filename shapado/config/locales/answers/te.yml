@@ -1,0 +1,31 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Ravichandra
+# Author: Veeven
+# Author: రహ్మానుద్దీన్
+te: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: వివరణ
+        created_at: పరిష్కరించబడినది
+        link: లంకె
+    models: 
+      answer: జవాబు
+      answers: జవాబులు
+  answers: 
+    create: 
+      flash_error: "మీ జవాబుని చేర్చడంలో ఏదో పొరపాటు జరిగింది. \n  వీటిని మర్చిపోకండి: \n - ఖాళీ మరియు పునరావృత జవాబులను అనుమతించము.\n - మరొక జవాబుని రాసే ముందు మీరు 20 క్షణాలు వేచివుండాలి. \n - మీరు ఒక ప్రశ్నకి ఒక జవాబుని మాత్రమే ఇవ్వగలరు."
+      flash_notice: ధన్యవాదాలు!
+    edit: 
+      title: జవాబును సరిచేస్తున్నారు
+    form: 
+      answer_label: ప్రశ్నకు జవాబివ్వండి
+      comment_label: ఈ జవాబుపై వ్యాఖ్యానించండి
+      comment_submit: వ్యాఖ్యానించండి
+      submit: జవాబు
+    revert: 
+      title: సమాధానాన్ని వెనక్కు తీస్కోండి
+    update: 
+      flash_notice: జవాబు విజయవంతంగా సమర్పించబడింది.

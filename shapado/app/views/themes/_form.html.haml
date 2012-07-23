@@ -1,0 +1,147 @@
+-content_for :js do
+  = javascript_include_tag(:codemirror)
+
+-content_for :css do
+  = stylesheet_link_tag(:codemirror)
+
+.field
+  = form.label t('shared.name')
+  = form.text_field :name
+
+.field
+  = form.label t('shared.description')
+  = form.text_area :description
+
+.field
+  .checkbox
+    = form.label I18n.t('themes.form.fluid_layout')
+    = form.check_box :fluid
+    %small
+      = I18n.t('themes.form.fluid_layout_legend')
+  .clear
+
+%h2
+  = I18n.t('themes.form.colors_and_bg')
+
+%fieldset.theme_colors
+  .field
+    = form.label I18n.t('themes.show.bg_color')
+    = form.text_field :bg_color, :type => "color"
+    %small
+      = I18n.t('themes.form.bg_color_legend')
+
+  .field
+    -if !@theme.new? && @theme.has_bg_image?
+      = image_tag(bg_image_path(@theme.group,@theme.id,@theme.version))
+      =link_to t("scaffold.destroy"), remove_bg_image_theme_path(@theme)
+    = form.label I18n.t('themes.show.bg_image')
+    = form.file_field :bg_image
+    %small
+      = I18n.t('themes.form.bg_image_legend')
+
+  .field
+    = form.label  I18n.t('themes.show.main_color')
+    = form.text_field :brand_color, :type => "color"
+    %small
+      = I18n.t('themes.form.main_color_legend')
+  .field
+    = form.label  I18n.t('themes.show.modules_color')
+    = form.text_field :view_bg_color, :type => "color"
+    %small
+      = I18n.t('themes.form.modules_color_legend')
+
+  .field
+    = form.label I18n.t('themes.show.text_color')
+    = form.text_field :fg_color, :type => "color"
+    %small
+      = I18n.t('themes.form.text_color_legend')
+
+  .field
+    = form.label I18n.t('themes.show.topbar_color')
+    = form.text_field :topbar_color, :type => "color"
+    %small
+      = I18n.t('themes.form.topbar_color_legend')
+
+.field
+  = form.label :custom_css
+  = form.text_area :custom_css, :class => "code", :data => {:lang => "css"}
+  %small
+    = I18n.t('themes.form.custom_css_legend')
+  -if !@theme.last_error.blank?
+    =@theme.last_error
+
+- if current_group.shapado_version.has_custom_themes?
+  - if current_group.shapado_version.has_custom_js?
+    .field
+      = form.label :javascript
+      = form.file_field :javascript
+
+      = link_to "edit", "#", class: "show_dialog", data: { target: "javascript" }
+
+
+  .field
+    = form.label :layout_html
+    = form.file_field :layout_html
+    = link_to "edit", "#", class: "show_dialog", data: { target: "layout_html" }
+    %small
+      = I18n.t('themes.form.layout_html')
+
+  .field
+    = form.label :questions_index_html
+    = form.file_field :questions_index_html
+    = link_to "edit", "#", class: "show_dialog", data: { target: "questions_index_html" }
+    %small
+      = I18n.t('themes.form.questions_index_html')
+
+  .field
+    = form.label :questions_show_html
+    = form.file_field :questions_show_html
+    = link_to "edit", "#", class: "show_dialog", data: { target: "questions_show_html" }
+
+    %small
+      = I18n.t('themes.form.questions_show_html')
+
+.form-options
+  .buttons
+    = form.submit :value => I18n.t('themes.form.submit_update') , :class => "save"
+
+
+.javascript-code-editor{style: "display: none"}
+  = form_for @theme do |form|
+    - if @theme.has_js
+      = form.text_area :javascript, :value => @theme.javascript.get.read, :class => "code", :data => {:lang => "htmlmixed"}
+    - else
+      = form.text_area :javascript, :value => '', :class => "code", :data => {:lang => "htmlmixed"}
+    .form-options
+      .buttons
+        = form.submit
+
+.questions_index_html-code-editor{style: "display: none"}
+  = form_for @theme do |form|
+    - if @theme.has_questions_index_html?
+      = form.text_area :questions_index_html, :value => @theme.questions_index_html.get.read, :class => "code", :data => {:lang => "htmlmixed"}
+    - else
+      = form.text_area :questions_index_html, :value => '', :class => "code", :data => {:lang => "htmlmixed"}
+    .form-options
+      .buttons
+        = form.submit
+
+.questions_show_html-code-editor{style: "display: none"}
+  = form_for @theme do |form|
+    - if @theme.has_questions_show_html?
+      = form.text_area :questions_show_html, :value => @theme.questions_show_html.get.read, :class => "code", :data => {:lang => "htmlmixed"}
+    - else
+      = form.text_area :questions_show_html, :value => '', :class => "code", :data => {:lang => "htmlmixed"}
+    .form-options
+      .buttons
+        = form.submit
+
+.layout_html-code-editor{style: "display: none"}
+  = form_for @theme do |form|
+    - if @theme.has_layout_html?
+      = form.text_area :layout_html, :value => @theme.layout_html.get.read, :class => "code", :data => {:lang => "htmlmixed"}
+    - else
+      = form.text_area :layout_html, :value => '', :class => "code", :data => {:lang => "htmlmixed"}
+    .form-options
+      .buttons
+        = form.submit

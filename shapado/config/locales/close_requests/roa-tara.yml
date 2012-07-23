@@ -1,0 +1,19 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  close_requests: 
+    form: 
+      dupe: A doppie
+      no_question: None 'na domande
+      not_relevant: None rilevande
+      ot: Fore argomende
+      spam: rummàte
+    model: 
+      attributes: 
+        comment: Commende
+        reason: Mutive
+        user: Utende
+      name: Richieste de chiusure
+      prural_name: Richieste de chiusure

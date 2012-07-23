@@ -1,0 +1,171 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dani
+# Author: Dj
+hu: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: válasz
+        asked_by: "Kérdezte:"
+        banned: Letiltva
+        body: Szöveg
+        closed: Lezárva
+        created_at: Létrehozás ideje
+        language: Nyelv
+        tags: Címkék
+        title: Cím
+        updated_at: Frissítés ideje
+        updated_by: "Frissítette:"
+        views: megtekintés
+        votes: szavazat
+    models: 
+      question: kérdés
+      questions: kérdések
+  questions: 
+    answer: 
+      add_comment: Hozzászólás...
+      favorite: Mentés
+      favorite_tooltip: Válasz hozzáadása kedvenceidhez
+      flag: Megjelölés
+      pick_answer: Megoldásnak választás
+      unfavorite: Mentés törlése
+      unfavorite_tooltip: Kérdés eltávolítása a kedvenceid közül
+      unset_answer: Megoldás visszavonása?
+    answer_toolbar: 
+      flagged_by_you: Általad cimkézett
+    create: 
+      flash_notice: Kérdés sikeresen létrejött.
+    disallow_spam: 
+      error: Legalább 20 másodpercet kell várnod, mielőtt újabb kérdést teszel fel.
+    edit: 
+      title: Kérdés szerkesztése
+    flag: 
+      title: Kérdés megjelölése
+    form: 
+      add_attachment: Csatolmány hozzáadása
+      adult_content: A kérdés felnőtt tartalommal rendelkezik.
+      body_tip: Mi a kérdés? Írd le megfelelően.
+      language_tip: Válaszd ki a kérdés nyelvét!
+      related_questions_desc: Itt jelennek meg a hasonló kérdések.
+      remove_attachment: Eltávolítás
+      tags_tip: Címkék segítségével adj meg további információkat a kérdésről!
+    history: 
+      back: ← vissza a kérdéshez
+    index: 
+      active: Aktív
+      active_tooltip: A legutóbb frissített kérdések
+      ask_question: Kérdezz
+      empty: Még senki sem kérdezett. Légy te az első!
+      followers_tooltip: A legtöbb követővel rendelkező kérdések
+      has_followers: 
+        one: egy követő
+        other: "%{count} követő"
+      help_to_answer: Segíts a válaszadásban
+      hot: Legaktívabbak
+      hot_tooltip: Azon kérdések, melyek a legtöbb aktivitással rendelkeztek az elmúlt öt napban
+      newest: Legújabb
+      newest_tooltip: A legutóbb kérdezett kérdések
+      oldest: Legrégebbi
+      title: Az összes kérdés
+      unanswered_questions: Megválaszolatlan kérdések
+      votes: szavazat
+    model: 
+      messages: 
+        empty_tags: Sajnáljuk, legalább egy címkét használnod kell.
+        title_too_long: Sajnáljuk, a cím nem tartalmazhat 100-nál több karaktert.
+        too_many_tags: Sajnáljuk, maximum csak 20 címkét írhatsz be.
+        too_short: 
+          one: Sajnálom, de a címednek legalább  egy szóból kell állnia.
+          other: Sajnálom, de a címednek legalább  %{count}  szóból kell állnia.
+    move: 
+      group_label: "Áthelyezés a következő csoportba:"
+      submit: Áthelyezés!
+      title: "Kérdés áthelyezése: %{title}"
+    move_to: 
+      group_dont_exists: "A következő csoport nem létezik: %{group}"
+      success: "Kérdés áthelyezve a következő csoportba: %{group}"
+    new: 
+      how_to_ask: Hogyan kérdezz
+      title: Kérdés feltevése
+    question: 
+      accepted_tooltip: A kérdésre érkezett olyan válasz, amit elfogadtak
+      answer_verb: Válasz
+      has_answers: 
+        one: egy válasz
+        other: "%{count} válasz"
+      wiki_title: "Wiki: %{title}"
+    retag: 
+      title: Újracímkézés
+    retag_form: 
+      cancel: Mégse
+      submit: Címkék frissítése!
+      title: Címkék frissítése
+    retag_to: 
+      failure: Sajnáljük, a címkéket nem sikerült frissíteni.
+      success: A címkék sikeresen frissültek.
+    revert: 
+      title: Kérdés visszaállítása
+    shared: 
+      flag: Megjelölés
+    show: 
+      accepted_tooltip: A válaszok egyike helyes válasznak lett elfogadva.
+      another_answers: További válaszok
+      answers: Válaszok
+      asked_on: Létrehozás ideje
+      ban: Letiltás
+      close: Lezárás
+      close_reason: "A kérdés a következő ok miatt lett lezárva:"
+      edit_request: Kérés szerkesztése
+      flag: Megjelölés
+      flagged_as: "Megjelölve:"
+      flags: Jeletve, mint
+      follow_tooltip: Kérdés követése
+      follow_up_of: "Ez a kérdés a következő folyománya:"
+      history: Előzmények
+      last_activity: Utolsó aktivitás
+      more_actions: További lehetőségek
+      open: Megnyitás
+      related_questions: Kapcsolódó kérdések
+      request_closing: Lezárás kérelmezése
+      request_closing_details: A kérés lezárásának kérelmezése
+      request_opening: Újbóli megnyitás kérelmezése
+      request_opening_details: A kérdés újbóli megnyitásának kérelmezése
+      requested_close_as: Kérelmezted a kérés lezárását, mivel
+      requested_reopening: Kérelmezted a kérdés újbóli megnyitását
+      retag: Újracímkézés
+      retract_request: Kérés visszavonása
+      share: Kérdés megosztása
+      share_on: "Kérés megosztása a következő oldalon: %{site}"
+      solution: Megoldás
+      to_answer_question: a kérdés megválaszolásához
+      unauthenticated_retag: Fiók szükséges a kérdések újracímkézéséhez
+      unban: Tiltás feloldása
+      unfollow_tooltip: Kérdés követésének befejezése
+      viewed: "Megtekintések:"
+    solve: 
+      flash_notice: A kérdés megoldva.
+    tags: 
+      filter: Címkék keresése
+      title: Címkék
+      tooltip: "%{tag} címkéjű kérdések megjelenítése"
+    toolbar: 
+      answer_by_mail: Válasz emailben
+      more_actions: További lehetőségek
+      requests: Kérések
+      your_close_request: Lezárt kéréseid
+    unanswered: 
+      empty: A csoportban nincs egyetlen megválaszolatlan kérdés sem.
+      expert: Szakértők
+      my_tags: Saját címkék
+      tags: Megválaszolatlan címkék
+      title: Megválaszolatlan kérdések
+    unsolve: 
+      flash_notice: A kérdés már nincs megoldva.
+    unwatch: 
+      success: Most már nem értesülsz e-mailben a kérdésre érkező minden új válasz esetén
+    update: 
+      flash_notice: Kérdés sikeresen frissítve.
+    watch: 
+      success: Most már e-mailben értesülsz a kérdésre érkező minden új válasz esetén

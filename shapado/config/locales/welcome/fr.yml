@@ -1,0 +1,31 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: Gomoko
+# Author: Od1n
+# Author: Patcito
+# Author: Verdy p
+fr: 
+  welcome: 
+    confirm_age: 
+      notice: Vous ne pouvez entrer sur ce site internet seulement si vous avez au moins 18 ans, ou au moins l'age de la majorité de la juridiction dans laquelle vous résidez ou de laquelle vous accedez cette page internet
+      over_18: J'ai plus de 18 ans
+      under_18: J'ai moins de 18 ans
+      warning: "ATTENTION : Cette page peut contenir du contenu explicite pour adultes."
+    feedback: 
+      captcha_error: S’il vous plaît, assurez-vous de remplir le captcha correctement et fournir une adresse électronique valide.
+      captcha_notice: Merci pour votre commentaire, nous reviendrons vers vous dès que possible.
+      email_description: S'il vous plait, donnez-nous votre email afin que nous puissions répondre à votre message.
+      feedback_description: Description
+      feedback_title: Titre
+      title: Envoyez votre avis
+    index: 
+      active: Actives
+      browse_all_or_by_tags: Découvrez la %{full_list_of_questions} ou %{browse_by_tags}
+      browse_by_tags: Naviguez par tag
+      create_own_site: Créez votre propre site de QR en 8 secondes gratuitement
+      full_list_of_questions: Liste complète de questions
+      hot: Chaudes
+      quick_question: Posez une question, nous trouverons quelqu'un pour y répondre
+      recent_questions: Questions récentes

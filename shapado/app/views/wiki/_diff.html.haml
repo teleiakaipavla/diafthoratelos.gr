@@ -1,0 +1,3 @@
+-versioned_keys.each do |key|
+  %h2=t(key, :scope => scope)
+  %p=post.diff(key, curr, prev)

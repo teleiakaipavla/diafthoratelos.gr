@@ -1,0 +1,12 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  rewards: 
+    close: 
+      error: Du musst %{time} warten, bis Du diese Auszeichnung vergeben kannst.
+    start: 
+      active_notice: Diese Frage wurde bereits ausgezeichnet.
+      reputation_notice: Du verfügst über keine ausreichende Reputation, um eine Auszeichnung für diese Frage vergeben zu können.
+      wait_notice: Du musst zwei Tage warten, bis Du für diese Frage eine Auszeichnung anbieten kannst.

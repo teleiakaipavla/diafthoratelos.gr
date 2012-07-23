@@ -1,0 +1,22 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  open_requests: 
+    create: 
+      flash_notice: Petició per reobrir-se creat amb èxit
+    destroy: 
+      flash_notice: Petició per reobrir-se suprimeix reeixidament
+    edit: 
+      title: Edita la sol·licitud per reobrir-se
+    form: 
+      request_opening_details: Petició per reobrir-se aquesta pregunta
+    index: 
+      title: Llista de peticions per reobrir-se
+    model: 
+      prural_name: Peticions per reobrir-se
+    new: 
+      title: Petició per reobrir-se
+    update: 
+      flash_notice: Petició per reobrir-se actualitza amb èxit

@@ -1,0 +1,29 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Conteúdo
+        created_at: Respondida
+        link: Link
+    models: 
+      answer: Resposta
+      answers: Respostas
+  answers: 
+    create: 
+      flash_error: "Algo correu mal ao adicionar a sua resposta.\n  Lembre-se que:\n - Respostas vazias e repetidas não são permitidas.\n - Tem que esperar 20 segundos para colocar outra resposta.\n - Só pode colocar uma resposta por pergunta."
+      flash_notice: Obrigado!
+    edit: 
+      title: A editar a resposta
+    form: 
+      answer_label: Responder à pergunta
+      comment_label: Comentar esta resposta
+      comment_submit: Comentar
+      submit: Responder
+    revert: 
+      title: Reverter a resposta
+    update: 
+      flash_notice: A resposta foi actualizada.

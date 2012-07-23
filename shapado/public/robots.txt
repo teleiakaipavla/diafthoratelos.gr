@@ -1,0 +1,63 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+# User-Agent: *
+# Disallow: /
+# robots.txt
+
+User-agent: *
+Allow: /
+
+Disallow: /*/activity.atom
+Disallow: /*/answers.atom
+Disallow: /questions/*.atom
+
+Disallow: /announcements/hide
+Disallow: /announcements/hide/
+Disallow: /questions/random/
+Disallow: /questions/random
+Disallow: /questions/activities
+Disallow: /questions/activities/
+
+Disallow: /questions/*/follow
+Disallow: /questions/*/history
+Disallow: /questions/*/watch
+Disallow: /questions/*/follow
+Disallow: /questions/*/flags/new
+Disallow: /answers/*/flags/new
+
+Disallow: /users/*/follow
+Disallow: /users/auth/*
+Disallow: /users/auth/
+Disallow: /users/login
+Disallow: /users/login/
+Disallow: /users/logout
+Disallow: /users/logout/
+Disallow: /register
+Disallow: /register/
+Disallow: /signup
+Disallow: /signup/
+Disallow: /welcome
+Disallow: /welcome/
+
+Disallow: /votes
+Disallow: /votes/
+Disallow: /settings
+Disallow: /settings/
+Disallow: /feedback
+Disallow: /feedback/
+
+Disallow: /questions/new
+Disallow: /questions/new/
+Disallow: /questions/unanswered
+Disallow: /questions/unanswered/
+Disallow: /questions/tags
+Disallow: /questions/tags/
+Disallow: /badges
+Disallow: /badges/
+Disallow: /search
+Disallow: /search/
+Disallow: /*?
+
+User-agent: Mediapartners-Google
+Disallow:

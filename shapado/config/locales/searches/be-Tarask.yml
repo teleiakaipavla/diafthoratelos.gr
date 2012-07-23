@@ -1,0 +1,20 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  searches: 
+    form: 
+      clear: Ачысьціць
+      search_box_title: Праверце, ці было гэтае пытаньне зададзенае раней
+      tags_tip: Выкарыстоўвайце [tag] для пазначэньня тэгаў.
+    index: 
+      advanced_search: удасканалены пошук
+      description: Выкарыстоўвайце налады %{link}, каб атрымаць дасканалыя вынікі.
+      empty: Па Вашым запыце ня знойдзена ніводнага пытаньня.
+      found_results: "%{quantity} вынікаў было знойдзена."
+      input_legend: Гэта захаваны пошук зьявіцца ў навігацыйнай панэлі, для хуткага доступу.
+      input_title: "Захаваць гэты пошук як:"
+      search_text: Пытаньні, якія ўтрымліваюць
+      tags: у рамках гэтых тэгаў

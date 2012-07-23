@@ -1,0 +1,14 @@
+-if @question.reward.nil? && logged_in? && current_user.can_create_reward?(@question)
+  = form_tag start_reward_path(@question), :class => "add_reward" do
+    %h1
+      reward:
+    -rep = current_user.reputation_on(current_group)
+    #reward_slider{:"data-max" => rep < 500 ? rep - 25 : 500}
+    #reward_value
+    = text_field_tag "reward[reputation]", "", :id => "reward_reputation"
+    %br.clear
+    .field.form-options
+      .buttons
+        = submit_tag "create", :class => "save"
+        = t("global.or")
+        = link_to t('scaffold.cancel'), '', :class => 'cancel'

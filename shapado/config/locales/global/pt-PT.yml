@@ -1,0 +1,49 @@
+# Messages for Portuguese (Português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+# Author: Waldir
+pt-PT: 
+  feeds: 
+    feed: Feed
+    post_new_questions: Publicar perguntas novas
+    question: Subscrever esta pergunta
+    questions: Subscrever todas as perguntas
+    share_on_twitter: no twitter, facebook e outros...
+    tag: Subscrever a categoria
+    user: Subscrever as perguntas do utilizador
+  global: 
+    active: Activar
+    anonymous: Anónimo
+    by: por
+    current: Actual
+    from: de %{site}
+    group_not_found: A página %{url} não existe
+    or: ou
+    permission_denied: Permissão negada
+    please_login: Inicie uma sessão, por favor
+    preview: Antevisão
+    previous: Anterior
+    share: Partilhar
+  models: 
+    question: A pergunta
+  scaffold: 
+    add: Adicionar
+    back: Voltar
+    cancel: Cancelar
+    close: Fechar
+    create: Criar
+    destroy: Eliminar
+    details: Detalhes
+    edit: Editar
+    more: Mais ...
+    new: Adicionar %{model} novo
+    post_as_anonymous: Publicar como Anónimo
+    save: Gravar
+    send: Enviar
+    show: Mostrar
+    sure: Tem a certeza de que pretende apagar este %{model}?
+    update: Actualizar
+  time: 
+    ago: "%{time} atrás"
+    today: hoje

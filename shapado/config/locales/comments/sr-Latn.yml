@@ -1,0 +1,20 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  comments: 
+    create: 
+      flash_notice: Hvala vam na komentaru.
+    edit: 
+      title: Uređivanje komentara
+    shared: 
+      add_comment: Dodaj komentar…
+      comment_submit: Prokomentariši
+      reply: Odgovori
+      said: reče
+    update: 
+      flash_notice: Komentar je ažuriran.
+  models: 
+    comment: Komentar
+    comments: Komentari

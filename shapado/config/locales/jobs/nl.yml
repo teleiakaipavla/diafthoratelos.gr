@@ -1,0 +1,21 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Siebrand
+nl: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} heeft geantwoord op: %{question}"
+        send_twitter: "Ik heb geantwoord op: %{question}"
+      on_favorite_answer: 
+        group_send_twitter: "%{user} vond een antwoord van %{author} leuk: %{question}"
+        send_twitter: "Ik vond een antwoord van %{author} leuk: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} heeft zojuist het speldje %{token} gekregen op %{group_name} %{link}"
+        send_twitter: Ik heb zojuist het speldje %{token} gekregen op %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} heeft een opmerking geplaatst bij: %{question}"
+        send_twitter: Mijn opmerking bij %{question}

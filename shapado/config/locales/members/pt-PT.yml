@@ -1,0 +1,16 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Função
+  members: 
+    form: 
+      login_tip: Procurar enquanto escreve
+    index: 
+      manage_members_title: Administrar membros
+      title: Membros do grupo de %{name}
+      title_isolate: Membros de %{name}

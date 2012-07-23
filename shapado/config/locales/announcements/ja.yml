@@ -1,0 +1,20 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: 終了日
+        message: メッセージ
+        only_anonymous: 未ログインユーザのみ
+        starts_at: 開始日
+  announcements: 
+    actions: 
+      delete: 削除
+      title: アクション
+    create: 
+      success: あなたのお知らせを作成しました。
+    index: 
+      title: お知らせ

@@ -1,0 +1,100 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Crt
+# Author: Nike
+# Author: Raspi
+# Author: Str4nd
+# Author: Tomi Toivio
+fi: 
+  feeds: 
+    feed: Syöte
+    post_new_questions: Lähetä uusia kysymyksiä kohteeseen
+    question: Tilaa tähän kysymykseen
+    questions: Tilaa kaikkiin kysymyksiin
+    share_on_twitter: Twitter, Facebook ja lisää ...
+    tag: Tilaa merkintään
+    user: Tilaa käyttäjän kysymyksiin
+  global: 
+    actions: Toiminnot
+    active: Ota käyttöön
+    alphabetically: Aakkosjärjestyksessä
+    anonymous: Anonyymi
+    blog: Blogi
+    by: /
+    by_semi: "Tekijä:"
+    chat: Keskustelu
+    current: Nykyinen
+    edited: muokattu
+    edited_by: Muokkaaja
+    edited_by_semi: "Muokkaaja:"
+    feedback: Palaute
+    follow: Seuraa
+    followed_by: "Seuraaja:"
+    following: Seuratut
+    from: maasta %{site}
+    group_not_found: Sivua %{url} ei ole olemassa
+    home: Etusivu
+    next_button: Seuraava
+    open: Avaa
+    or: tai
+    permission_denied: Käyttö estetty
+    please_login: Kirjaudu sisään
+    preview: Esikatselu
+    previous: Edellinen
+    privacy: Yksityisyys
+    share: Jaa
+    sign_up: Rekisteröidy
+    size: Koko
+    sort_by: "Lajitteluperuste:"
+    tags_label: "Tunnisteet:"
+    tos: Palvelun säännöt
+    unfollow: Lopeta seuraaminen
+    unknown_place: Tuntematon
+    view: Näytä
+    view_question: Näytä kysymys
+    what_to_do: Mitä haluat tehdä?
+  models: 
+    question: Kysymys
+  number: 
+    x_time: 
+      one: "%{count} kerran"
+      other: "%{count} kertaa"
+      zero: Ei koskaan
+  preferred_languages: 
+    any: Mikä tahansa
+    user: Ensisijaiset kieleni
+  roles: 
+    moderator: Valvoja
+    owner: Omistaja
+    user: Tavallinen käyttäjä
+  scaffold: 
+    add: Lisää
+    are_you_sure: Oletko varma?
+    back: Takaisin
+    cancel: Peruuta
+    close: Sulje
+    create: Luo
+    destroy: Poista
+    details: Yksityiskohdat
+    edit: Muokkaa
+    more: Lisää...
+    new: Lisää uusi %{model}
+    post_as_anonymous: Lähetä nimettömänä
+    save: Tallenna
+    send: Lähetä
+    show: Näytä
+    sure: Haluatko varmasti poistaa tämän %{model}?
+    update: Päivitä
+  time: 
+    ago: "%{time} sitten"
+    today: tänään
+    yesterday: eilen
+  views: 
+    pagination: 
+      first: Ensimmäinen
+      last: Viimeinen
+      next: Seuraava &raquo;
+      previous: "&laquo; Edellinen"
+      truncate: ...

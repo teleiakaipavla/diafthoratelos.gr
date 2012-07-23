@@ -1,0 +1,22 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  errors: 
+    forbidden: 
+      explanation: Δεν έχετε δικαίωμα πρόσβασης σε αυτή τη σελίδα.
+      title: Η πρόσβαση δεν επιτρέπεται
+    go_to: Πηγαίνετε στη %{link} σελίδα
+    help_us_answer: Βοηθήστε μας να απαντήσουμε %{link}
+    internal_error: 
+      explanation: Έχουμε ενημερωθεί για το πρόβλημα και θα το κοιτάξουμε σύντομα.
+      title: Λυπούμαστε αλλά κάτι πήγε στραβά.
+    not_found: 
+      explanation: Μπορεί να γράψατε τη διεύθυνση εσφαλμένα ή μπορεί να έχει μετακινηθεί η σελίδα.
+      title: Η σελίδα δεν βρέθηκε.
+    options_label: "Δοκιμάστε επίσης:"
+    search: Αναζήτηση
+    unprocessable_entity: 
+      explanation: Ίσως προσπαθήσατε να αλλάξετε κάτι στο οποίο δεν έχετε πρόσβαση.
+      title: Η αλλαγή που θέλατε απορρίφθηκε.

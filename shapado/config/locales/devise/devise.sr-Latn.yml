@@ -1,0 +1,67 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  devise: 
+    confirmations: 
+      confirmed: Vaš nalog je potvrđen. Sada ste prijavljeni.
+      send_instructions: Za koji minut ćete primiti poruku s uputstvima o tome kako da potvrdite nalog.
+    failure: 
+      inactive: Vaš nalog još nije aktiviran.
+      invalid: Neispravna e-adresa ili lozinka.
+      invalid_token: Neispravna oznaka za potvrdu.
+      locked: Vaš nalog je zaključan.
+      timeout: Sesija je istekla. Prijavite se ponovo da nastavite.
+      unauthenticated: Prijavite se ili otvorite nalog pre nego što nastavite.
+      unconfirmed: Morate potvrditi nalog pre nego što nastavite.
+    mailer: 
+      confirm_account: 
+        instruction1: "Lozinku možete potvrditi preko veze ispod:"
+        link: Potvrdi nalog
+        welcome: Dobro došli,
+      confirmation_instructions: 
+        subject: Uputstva za potvrdu
+      hello: Zdravo,
+      reset_password: 
+        instruction1: Neko je zahtevao vezu za promenu vaše lozinke. Ovo možete uraditi preko veze ispod.
+        link: Promeni lozinku
+        nonrequested: Ako ovo niste zatražili vi, samo zanemarite poruku.
+        warning: Lozinka se neće promeniti dok ne kliknete na vezu iznad i napravite novu.
+      reset_password_instructions: 
+        subject: Uputstva za obnavljanje lozinke
+      unlock: 
+        instruction1: Vaš nalog je zaključan zbog prevelikog broja neuspelih pokušaja da se prijavite.
+        instruction2: "Kliknite na vezu ispod da otključate nalog:"
+        link: Otključaj nalog
+      unlock_instructions: 
+        subject: Uputstva za otključavanje
+    passwords: 
+      link: Zaboravili ste lozinku?
+      send_button: Pošalji mi uputstva za obnavljanje lozinke
+      send_instructions: Za koji minut ćete primiti poruku s uputstvima o tome kako da promenite lozinku.
+      updated: Lozinka je promenjena. Sada ste prijavljeni.
+    registrations: 
+      destroyed: Vaš nalog je otkazan. Nadamo se da ćemo vas videti uskoro.
+      link: Upis
+      signed_up: Otvorili ste nalog. Poruka za potvrdu preko e-pošte je poslata (ako je omogućeno).
+      updated: Ažurirali ste svoj nalog.
+    sessions: 
+      link: Prijava
+      new: 
+        openid_url: Adresa OpenID-ja
+        remember_me: Zapamti me
+      registered_only: Morate biti prijavljeni da vidite sadržaj.
+      sign_out: Odjava
+      signed_in: Prijavljeni ste.
+      signed_out: Odjavljeni ste.
+      signin_group: Prijavite se na %{group}
+    unlocks: 
+      link: Niste primili uputstva za otključavanje?
+      send_instructions: Za koji minut ćete primiti poruku s uputstvima o tome kako da otključate nalog.
+      unlocked: Vaš nalog je otključan. Sada ste prijavljeni.
+  errors: 
+    messages: 
+      already_confirmed: je već potvrđeno
+      not_found: nije pronađeno
+      not_locked: nije zaključano

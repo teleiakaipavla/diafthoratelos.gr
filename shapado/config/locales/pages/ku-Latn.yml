@@ -1,0 +1,26 @@
+# Messages for Kurdish (Latin script) (‪Kurdî (latînî)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: George Animal
+ku-Latn: 
+  activerecord: 
+    attributes: 
+      page: 
+        js: JavaScript
+    models: 
+      page: Rûpel
+      pages: Rûpel
+  pages: 
+    actions: 
+      create_page: Rûpela nû çêke
+      edit_page: Rûpelê biguherîne
+      title: Xebat
+    create: 
+      success: Rûpel bi serkeftî hate çêkirin.
+    form: 
+      language_tip: Zimanê rûpelê
+    index: 
+      create_page: Rûpela nû çêke
+      title: Lîsteya rûpelan
+    new: 
+      title: Rûpela nû

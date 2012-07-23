@@ -1,0 +1,30 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fulup
+# Author: Y-M D
+br: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Korf
+        created_at: Krouet d'an
+        link: Liamm
+    models: 
+      answer: Respont
+      answers: Respontoù
+  answers: 
+    create: 
+      flash_error: "Ur fazi 'zo bet pa oac'h oc'h ouzhpennañ ar goulenn.\nDalc'hit soñj :\n- N'eo ket aotreet ar goulennoù goullo pe e doubl.\n- Rankout a rit gortoz da nebeutañ 20 eilenn a-raok embann ur respont all.\n- Ne c'hellit embann nemet ur respont dre goulenn."
+      flash_notice: Trugarez !
+    edit: 
+      title: Kemmañ ar respont
+    form: 
+      answer_label: Respont d'ar goulenn
+      comment_label: Addisplegañ an respont-mañ
+      comment_submit: Addispleg
+      submit: Respont
+    revert: 
+      title: Disteuler ar respont
+    update: 
+      flash_notice: Krouet eo bet ar respont ervat.

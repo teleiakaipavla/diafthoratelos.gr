@@ -1,0 +1,32 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Razlog
+    models: 
+      flag: Oznaka
+      flags: Oznake
+  flags: 
+    create: 
+      flash_error: Ne možete ovo označiti
+      flash_notice: Hvala vam na prijavi
+    destroy: 
+      flash_notice: Vaša oznaka je poništena.
+    edit: 
+      title: Uređivanje oznake %{model}
+    form: 
+      attention: Zahteva pažnju moderatora
+      label: Označavajte s oprezom
+      offensive: Uvrede, maltretiranje ili govor mržnje
+      spam: Nepoželjne
+    model: 
+      messages: 
+        already_requested: Već ste označili %{model}
+    new: 
+      title: Označavanje %{model}
+    update: 
+      flash_notice: Oznaka pitanja je ažurirana.

@@ -1,0 +1,16 @@
+# Messages for Portuguese (Português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  admin: 
+    moderate: 
+      index: 
+        all: Todas
+        ban: Banir
+        banned: Perguntas banidas
+        content: Conteúdo
+        flagged: Perguntas reportadas
+        item_title: Título
+        need_tags: Recategorizar
+        title: Moderar

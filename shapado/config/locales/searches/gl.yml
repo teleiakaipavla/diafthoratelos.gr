@@ -1,0 +1,19 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  searches: 
+    form: 
+      clear: Limpar
+      search_box_title: Comprobar se a súa pregunta xa se realizou nalgunha ocasión
+      tags_tip: Empregue [etiqueta] para especificar etiquetas.
+    index: 
+      advanced_search: busca avanzada
+      description: Use as opcións %{link} para obter os mellores resultados.
+      empty: Non se atopou ningunha pregunta que coincidise coa súa procura.
+      found_results: Atopáronse %{quantity} resultados.
+      input_legend: Esta procura gardada aparecerá na barra de navegación para acceder a ela rapidamente.
+      input_title: "Gardar a procura como:"
+      search_text: Preguntas que conteñen
+      tags: con estas etiquetas

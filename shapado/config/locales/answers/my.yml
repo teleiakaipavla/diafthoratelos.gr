@@ -1,0 +1,22 @@
+# Messages for Burmese (မြန်မာဘာသာ)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erikoo
+my: 
+  activerecord: 
+    attributes: 
+      answer: 
+        created_at: ဖြေပြီးဖြစ်သည်
+        link: လင့်
+    models: 
+      answer: အဖြေ
+      answers: အဖြေများ
+  answers: 
+    create: 
+      flash_notice: ကျေးဇူးတင်ပါတယ်။
+    form: 
+      comment_label: ဤအဖြေတွင်မှတ်ချက်ပေးရန်
+      comment_submit: " မှတ်ချက်"
+      submit: အဖြေ
+    update: 
+      flash_notice: အဖြေအား ပြုလုပ်ပြီးဖြစ်သည်။

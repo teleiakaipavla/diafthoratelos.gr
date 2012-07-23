@@ -1,0 +1,34 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Stilmallar
+        js: JavaScript
+    models: 
+      page: Sida
+      pages: Sidor
+  pages: 
+    actions: 
+      create_page: Skapa ny sida
+      edit_page: Redigera sida
+      title: Åtgärder
+    create: 
+      success: Sidan har skapats.
+    edit: 
+      title: Redigera sida
+    form: 
+      language_tip: Sidans språk
+      title_tip: "Sidrubrik. Använd detta för att referera till sidan. Till exempel: [[FAQ|kolla in vår faq]]"
+    index: 
+      create_page: Skapa ny sida
+      title: Lista över sidor
+      written_in: Skriven på %{language}
+    new: 
+      title: Ny sida
+    title: Fixa-mig
+    update: 
+      success: Sidan har uppdaterats.

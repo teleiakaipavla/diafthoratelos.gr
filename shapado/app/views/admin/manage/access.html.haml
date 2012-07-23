@@ -1,0 +1,74 @@
+.access
+  %h1
+    = t(".title")
+  %p.description
+
+  = form_for(@group, :html => {:class => "form", :multipart => true}) do |f|
+    = f.error_messages
+    =hidden_field_tag :source, domain_url(:custom => @group.domain, :controller => "admin/manage", :action => "access", :tab => @active_subtab)
+
+    .settings.clearfix
+      %h2= t("groups.form.access")
+      .field
+        .checkbox
+          = f.label :forum, t('forum', :scope => "activerecord.attributes.group"), :class => "radio"
+          = f.check_box :forum, :class => "checkbox"
+
+      .field
+        .checkbox
+          = f.label :signup_type, t('signup_type', :scope => "activerecord.attributes.group"), :class => "label"
+          = f.select :signup_type, [[t('groups.form.signup_all'),'all'],[t('groups.form.signup_noemail'), 'noemail'],[t('groups.form.signup_social'), 'social'],[t('groups.form.signup_email'),'email']], :selected => @group.signup_type, :class => "select"
+      .field
+        .checkbox
+          = f.label :registered_only, t('registered_only', :scope => "activerecord.attributes.group"), :class => "radio"
+          = f.check_box :registered_only, :class => "checkbox"
+      .field
+        .checkbox
+          = f.label :enable_anonymous, t('enable_anonymous', :scope => "activerecord.attributes.group"), :class => "radio"
+          = f.check_box :enable_anonymous, :class => "checkbox"
+
+      .field
+        .checkbox
+          = f.label :has_adult_content, t('may_contain_adult_content', :scope => "activerecord.attributes.group"), :class => "radio"
+          = f.check_box :has_adult_content, :class => "checkbox"
+
+    .providers.clearfix
+      %h2=t("groups.form.auth_providers")
+      .field
+        .checkbox
+          =f.label :allow_any_openid, t('active_record.attributes.group.allow_any_openid'), :class => "radio"
+          =f.check_box :allow_any_openid, :class => "checkbox"
+
+      -Multiauth.providers.each do |provider, opts|
+        .field
+          .checkbox
+            =label_tag provider, provider.titleize, :class => "radio"
+            =check_box_tag :"group[auth_providers][]", provider, current_group.auth_providers.include?(provider), :class => "checkbox"
+
+    -if current_group.domain !~ /#{Regexp.escape(AppConfig.domain)}/
+      %br
+      %h2
+        =t("groups.form.enable_sso")
+      .field
+        =f.label :sso_url, t('active_record.attributes.group.sso_url')
+        =f.text_field :sso_url
+
+      .field
+        %p
+          = "IMPORTANT: this method is still experimental and only work on subdomains"
+        %p
+          = "Shapado will redirect to this url you should set some cookies values and then redirect it back to #{request.host}/users/auth/sso/callback"
+        %p
+          %h3
+            = "You should set the following cookies"
+          = "oa_sso_id: it is a unique string (minimium 15 characters) for user"
+          %br
+          = "oa_sso_first_name: user's first name"
+          %br
+          = "oa_sso_last_name user's last name"
+          %br
+          = "oa_sso_email: user's email (this is optional)"
+          %br
+
+    .buttons
+      =f.submit t('scaffold.update'), :class => "save"

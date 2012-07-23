@@ -1,0 +1,36 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    models: 
+      vote: Voto
+      votes: Votos
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Tu e %{votes} altere usatores ha votate positivemente iste commento.
+        no_user_more_votes: Plus de %{votes} personas ha votate positivemente iste commento, clicca pro votar lo positivemente anque tu.
+        no_user_no_vote: Clicca pro votar positivemente iste commento.
+        no_user_one_vote: Solmente un usator ha votate positivemente iste commento, clicca pro votar lo positivemente anque tu.
+        one_vote_two_users: Tu e 1 altere usator ha votate positivemente iste commento.
+        one_vote_user: Solmente tu ha votate positivemente iste commento.
+    control: 
+      have_voted_down: Clicca pro disfacer tu voto negative
+      have_voted_up: Clicca pro disfacer tu voto positive
+      to_vote_down: Clicca pro votar negativemente
+      to_vote_up: Clicca pro votar positivemente
+    create: 
+      average: 
+        one: "%{count} voto"
+        other: "%{count} votos"
+      flash_error: Tu non pote votar isto
+      flash_notice: Gratias pro votar!
+      unauthenticated: Usatores anonyme non pote votar
+    destroy: 
+      flash_notice: Tu voto ha essite revocate con successo.
+    model: 
+      messages: 
+        closed_question: Tu non pote votar in entratas que pertine a un question claudite
+        vote_down_comment: Commentos non pote esser votate negativemente

@@ -1,0 +1,94 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+# Author: Waldir
+pt-PT: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: activado em
+        activation_code: Código de activação
+        age: Idade
+        asked_by: feita por
+        avatar: Imagem do perfil
+        birthday: Data de nascimento
+        created_at: registado
+        current_password: Palavra-chave actual
+        email: Correio electrónico
+        fullname: Nome completo
+        hide_country: Não mostrar o meu país
+        language: Língua
+        language_filter: Filtrar por língua
+        last_logged_at: visto
+        login: Nome de utilizador
+        name: Nome verdadeiro
+        password: Palavra-chave
+        password_confirmation: Confirmação da palavra-chave
+        preferred_languages: "Pretende ler perguntas nas seguintes línguas:"
+        preferred_tags: Categorias preferidas
+        reputation: Reputação
+        timezone: Localização
+        updated_at: actualizado em
+        website: Site na internet
+    models: 
+      user: Utilizador
+      users: Utilizadores
+  users: 
+    actions: 
+      edit_others_posts: Editar publicações de outros
+      edit_wiki_post: Editar publicações wiki
+      flag: Reportar
+      retag_others_questions: Recategorizar perguntas de outros
+      vote_down: Voto negativo
+      vote_to_close_any_question: Pedir o encerramento de qualquer pergunta
+      vote_to_close_own_question: Pedir encerramento de uma pergunta própria
+      vote_up: Voto positivo
+    anonymous_form: 
+      never_shown: nunca mostrado
+    create: 
+      flash_error: Desculpe, não foi possível criar essa conta. Tente novamente ou contacte um administrador (link está acima), por favor.
+      flash_notice: Obrigado por se ter registado!
+    edit: 
+      enable_twitter: Activar as suas contas no Facebook ou no Twitter
+      submit: Gravar
+      title: Definições
+    follow: 
+      flash_notice: O utilizador %{user} foi adicionado aos seus amigos
+    form: 
+      activities_notification: Receber por correio electrónico notificações de actividades como atribuição de condecorações, novos seguidores, etc.
+      avatar_tip: Alterar a imagem do perfil usando o Gravatar
+      give_advice_notification: Receber por correio electrónico notificações de perguntas na sua área de especialidade
+      information: Informação
+      language: Língua usada na interface do site
+      new_answer_notification: Receber por correio electrónico notificações de respostas novas
+      notifications: Notificações
+      reports_notification: Receber um relatório das actividades mais recentes do grupo (só para administradores de grupos)
+      show_more_lang: Mostrar mais línguas
+    index: 
+      empty: Este grupo não tem membros. Participe, aderindo a este grupo.
+      filter: Pesquisar utilizadores
+      name: Nome
+      name_tooltip: Utilizadores por ordem alfabética
+      newest: Mais recentes
+      newest_tooltip: Utilizadores que acabam de aderir
+      oldest: Mais antigos
+      oldest_tooltip: Utilizadores que foram os primeiros a aderir
+      reputation: Reputação
+      reputation_tooltip: Utilizadores por ordem decrescente de reputação
+      title: Todos os utilizadores
+    messages: 
+      errors: 
+        reputation_needed: Precisa de ter uma reputação mínima de %{min_reputation} para %{action}
+    new: 
+      submit: Registar
+      title: Registar-se como novo utilizador
+    show: 
+      follow: Seguir
+      followers: Seguidores
+      following: A seguir
+      title: Utilizador %{user}
+      unfollow: Deixar de seguir
+      views: visitas
+    unfollow: 
+      flash_notice: O utilizador %{user} foi removido dos seus amigos

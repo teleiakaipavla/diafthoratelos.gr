@@ -1,0 +1,45 @@
+# Messages for Telugu (తెలుగు)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Veeven
+te: 
+  layouts: 
+    application: 
+      all: అన్నీ
+      ask_question: ప్రశ్నని అడగండి
+      badges: బాడ్జీలు
+      forgot: మర్చిపోయారా?
+      home: ముంగిలి
+      languages: భాషలు
+      log_in: ప్రవేశం
+      logged: "%{login} వలె ప్రవేశించారు"
+      logout: నిష్క్రమించండి
+      manage_ads: వ్యాపార ప్రకటనల నిర్వహణ
+      now: ఇప్పుడే!
+      pages: పుటలు
+      questions: ప్రశ్నలు
+      search: అన్వేషణ
+      settings: అమరికలు
+      signup: నమోదుకండి
+      subscribe: చందాచేరండి
+      tags: ట్యాగులు
+      title: ప్రశ్నలూ & జవాబులూ
+      users: వాడుకరులు
+      welcome_from: స్వాగతం! మీరు
+    manage: 
+      actions: చర్యలు
+      announcements: ప్రకటనలు
+      constrains: ఆవశ్యకాలు
+      content: విషయం
+      dashboard: డాష్&zwnj;బోర్డ్
+      general: సాధారణం
+      group_user_management: వాడుకరుల నిర్వహణ
+      invitations: ఆహ్వానాలు
+      members: సభ్యులు
+      pages: పుటలు
+      properties: లక్షణాలు
+      reputation: ఖ్యాతి
+      stats: గణాంకాలు
+      theme: అలంకారం
+      themes: అలంకారాలు
+      widgets: విడ్జెట్లు

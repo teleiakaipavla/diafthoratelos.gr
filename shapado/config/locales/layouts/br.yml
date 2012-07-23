@@ -1,0 +1,57 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fulup
+# Author: Y-M D
+br: 
+  layouts: 
+    application: 
+      all: Pep tra
+      ask_question: Goulenn un dra bennak
+      badges: Badjoù
+      faq: FAG
+      forgot: Disoñjet ?
+      home: Degemer
+      join_group: Mont e %{group}
+      languages: Yezhoù
+      log_in: Kevreañ
+      logged: Kevreet evel %{login}
+      logout: Digevreañ
+      manage_ads: Merañ ar bruderezh
+      moderate: Habaskaat
+      now: bremañ !
+      openid: 
+        explaination: "Mar fell deoc'h en em enskrivañ pe kevreañ traken, dibabit ur pourvezer openid :"
+      pages: Pajennoù
+      preferred: Kavet gwelloc'h
+      questions: Goulennoù
+      questions_in: Goulennoù e
+      questions_tagged: tikedennet gant
+      search: Klask
+      settings: Arventennoù
+      signup: En em enskrivañ
+      subscribe: En em enskrivañ
+      tags: Balizennoù
+      title: Goulennoù & Respontoù
+      unanswered: Direspontet
+      users: Implijerien
+      welcome_from: Degemer mat ! Gouest oc'h
+    manage: 
+      actions: Oberoù
+      announcements: Kemennoù
+      constrains: Strishadurioù
+      content: Danvez
+      dashboard: dashboard
+      domain: Domani
+      general: Dre-vras
+      members: Izili
+      pages: Pajennoù
+      properties: Perzhioù
+      reputation: Brud
+      rewards: Prizioù
+      social: Sokial
+      stats: Stadegoù
+      theme: Tem
+      widgets: Bitrakoù
+    notifications: 
+      message: Ma ne fell ket deoc'h resevout kemennoù emgefre %{group}, e c'hellit kemmañ ho kefluniadurioù kemennoù.

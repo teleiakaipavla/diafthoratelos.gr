@@ -1,0 +1,19 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: gampanin
+  members: 
+    create: 
+      notice: Ang %{login} ay matagumpay na naidagdag bilang %{role}.
+    form: 
+      destroy_confirm: Nakakatiyak ka ba? Ang tagagamit na ito ay hindi na magiging isang kasapi sa pangkat na ito.
+      login_tip: maghanap habang nagmamakinilya
+    index: 
+      manage_members_title: pamahalaan ang mga kasapi
+      title: mga kasapi sa pangkat ni %{name}
+      title_isolate: mga kasapi sa %{name}

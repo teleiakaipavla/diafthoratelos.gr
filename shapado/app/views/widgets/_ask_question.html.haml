@@ -1,0 +1,17 @@
+.module.clearfix.widget.block{:class => 'widget-ask_question'}
+  = render "widgets/header", :widget => widget
+  - @question = Question.new
+  = show_flash_messages(:class => "flash", :markdown => true)
+  .widget-ask_question.module
+    %h3
+      = t(".title")
+    %section
+      = form_for(@question, :html=>{:class => "question-form", :id => "ask_question", :multipart => true, data: {'login-required' => true}}) do |f|
+        .field
+          = f.text_field :title, :class => "text_field"
+        = f.hidden_field :language, :value => (current_group.language || AppConfig.default_language)
+        = f.hidden_field :external_widget, :value => widget.id
+        = render :partial => "users/anonymous_form"
+        = f.submit t('.ask'), :class => "save"
+    %footer
+      =link_to t('.footer', :group => current_group.name), questions_path

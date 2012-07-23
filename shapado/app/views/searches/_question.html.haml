@@ -1,0 +1,38 @@
+-klass = ""
+-if logged_in? && question.tags.detect { |tag| current_user.preferred_tags_on(current_group).include?(tag) }
+  - klass = "highlight"
+
+-title = h(question.title)
+-if question.closed
+  -title += " [#{t("closed", :scope => "activerecord.attributes.question").upcase}]"
+
+-owner = nil
+- if question.last_target_id.present?
+  - last_target_id = question.last_target_id
+  - last_target_date = question.last_target_date
+  - owner = question.last_target_user
+  - if question.last_target_type != 'Question'
+    - @updated = true
+  - else
+    - @updated = false
+- else
+  - last_target = question
+  - last_target_date = question.updated_at
+  - owner = question.user unless question.anonymous
+
+%article.cleafix{:class => class_for_question(question)}
+  %h2
+    = question.last_target_type
+    = link_to highlight(title, @highlight), question_path(question), :title => truncate(strip_tags(question.body), :length => 200)
+  .markdown
+    = highlight(markdown(question.body), @highlight)
+  .user-data
+    - if owner
+      = render :partial => "users/user_data", :locals => {:user => owner}
+    - else
+      = I18n.t('global.by_semi')
+      =t("global.anonymous")
+    = link_to t("time.ago", :time => time_ago_in_words(last_target_date)), question_path(question)+"##{last_target_id}"
+    -if question.wiki
+      = I18n.t('pages.index.wiki')
+

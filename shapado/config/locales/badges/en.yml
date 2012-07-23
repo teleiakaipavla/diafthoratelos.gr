@@ -1,0 +1,181 @@
+en:
+  badges:
+    index:
+      title: Badges
+      description: "The more you contribute by asking or answering questions, the more badges you will be rewarded. These will show up on your profile page."
+      general: Available badges
+      general: Regular badges
+      tags: Tag badges
+      gold: Gold
+      silver: Silver
+      bronze: Bronze
+      general_tooltip: "Show all pre-defined badges."
+      all_tooltip: "Show all gold, silver and bronze badges."
+      tags_tooltip: "When questions tagged with X get answers with more than 100 upvotes, a badge X is created with the name of that tag."
+      gold_tooltip: "Gold badges are the greatest kind of reward, they are also the hardest to obtain. Only the most dedicated users get these rewards."
+      silver_tooltip: "Silver badges are won by active users who have been involved for a pretty long time."
+      bronze_tooltip: "Bronze badges are easy to win and encourage users to participate."
+    show:
+      title: Badge %{type}
+      description: "Users who earned this badge. Recently awarded to:"
+      for_tag_bronze: 200 votes in tag %{tag}
+      for_tag_silver: 400 votes in tag %{tag}
+      for_tag_gold: 1000 votes in tag %{tag}
+      earned: earned
+    shared:
+      rockstar:
+        name: Rockstar
+        description: Has 1,000 positive votes, 10 negative votes maximum
+      popstar:
+        name: Popstar
+        description: Has 500 positive votes, 10 negative votes maximum
+      fanatic:
+        name: Fanatic
+        description: Visited the site each day for 100 consecutive days
+      service_medal:
+        name: Service medal
+        description: Has 300 positive votes
+      famous_question:
+        name: Famous question
+        description: Asked a question with 10,000 views
+      notable_question:
+        name: Notable question
+        description: Asked a question with 2,500 views
+      popular_question:
+        name: Popular question
+        description: Asked a question with 1,000 views
+      popular_person:
+        name: Popular person
+        description: Has a profile that was visited 10,000 times
+      guru:
+        name: Guru
+        description: Gave a solution to a question with an average of more than 40 votes
+      favorite_answer:
+        name: Favorite answer
+        description: Has an answer favorited by 25 users
+      stellar_answer:
+        name: Stellar answer
+        description: Has an answer favorited by 100 users
+      favorite_question:
+        name: Favorite question
+        description: Asked a question followed by 25 users
+      tutor:
+        name: Tutor
+        description: Gave a solution to a question with an average of more than 2 votes
+      addict:
+        name: Addict
+        description: Visited the site each day for 20 consecutive days
+      good_question:
+        name: Good question
+        description: Asked a question that reached an average of more than 25 votes
+      good_answer:
+        name: Good answer
+        description: Gave an answer that reached an average of more than 25 votes
+      pioneer:
+        name: Pioneer
+        description: Was one of the first users to register
+      supporter:
+        name: Supporter
+        description: Voted positively for the first time
+      critic:
+        name: Critic
+        description: Voted negatively for the first time
+      inquirer:
+        name: Inquirer
+        description: Asked a question for the first time
+      troubleshooter:
+        name: Troubleshooter
+        description: Answered for the first time
+      commentator:
+        name: Commentator
+        description: Left 10 comments
+      merit_medal:
+        name: Merit medal
+        description: Got 200 positive votes
+      effort_medal:
+        name: Effort medal
+        description: Got 100 positive votes
+      student:
+        name: Student
+        description: Asked a question with at least one up vote
+      shapado:
+        description: Visited the site each day for 8 consecutive days
+      editor:
+        name: Editor
+        description: Edited a post for the first time
+      friendly:
+        name: Friendly
+        description: Started following someone for the first time
+      interesting_person:
+        name: Interesting person
+        description: Got more than 10 followers
+      popular_person:
+        name: Popular person
+        description: Got more than 50 followers
+      celebrity:
+        name: Celebrity
+        description: Got more than 100 followers
+      necromancer:
+        name: Necromancer
+        description: Answered a question after more than 60 days later at least 5 votes
+      stellar_question:
+        name: Stellar question
+        description: Asked a question followed by 100 users
+      nice_question:
+        name: Nice question
+        description: Asked a question voted up 10 times
+      nice_answer:
+        name: Nice answer
+        description: Has an answer voted up 10 times
+      great_question:
+        name: Great question
+        description: Asked a question voted up 100 times
+      great_answer:
+        name: Great answer
+        description: Has an answer voted up 100 times
+      peer_pressure:
+        name: Peer pressure
+        description: Deleted own post with score of -3 or lower
+      enlightened:
+        name: Enlightened
+        description: Has an answer that was accepted with at least 10 up votes
+      disciplined:
+        name: Disciplined
+        description: Deleted own post with score of 3 or higher
+      cleanup:
+        name: Cleanup
+        description: Made first rollback
+      civic_duty:
+        name: Civic duty
+        description: Voted 300 times
+      citizen_patrol:
+        name: Citizen patrol
+        description: Flagged first post
+      self-learner:
+        name: Self learner
+        description: Answered an own question with at least 3 up votes
+      scholar:
+        name: Scholar
+        description: Answered first self asked question with an accepted answer
+      autobiographer:
+        name: Autobiographer
+        description: Completed all user profile fields
+      organizer:
+        name: Organizer
+        description: Made first retag
+      altruist:
+        name: Altruist
+        description: First reward you manually awarded on another person's question
+      benefactor:
+        name: Benefactor
+        description: First reward you manually awarded on your own question
+      investor:
+        name: Investor
+        description: First reward you offered on another person's question
+      promoter:
+        name: Promoter
+        description: First reward you offered on your own question
+  activerecord:
+    models:
+      badge: Badge
+      badges: Badges

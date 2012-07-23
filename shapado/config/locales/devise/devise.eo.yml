@@ -1,0 +1,26 @@
+# Messages for Esperanto (Esperanto)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mihxil
+eo: 
+  devise: 
+    registrations: 
+      link: Registriĝi
+    sessions: 
+      facebook_actions: 
+        sign_in: Ensaluti
+        sign_out: Elsaluti
+      facebook_authenticity_token: Io fiaskiĝis. Pro sekurecaj kialoj, bonvolu reensaluti.
+      facebook_invalid: Ne eblis ensaluti. La konto ne estas valida.
+      facebook_timeout: Sesio je Facebook eksvalidiĝis. Bonvolu reensaluti por daŭrigi.
+      inactive: Via konto ankoraŭ ne estas konfirmita.
+      invalid: Malvalida retadreso aŭ pasvorto.
+      link: Ensaluti
+      locked: Via konto estas blokita
+      signed_in: Ensalutis.
+      signed_out: Elsalutis.
+      timeout: Via seskio eksvalidĝis. Bonvolu reensaluti por daŭrigi.
+      unauthenticated: Vi devas ensaluti aŭ krei konton antaŭ ol daŭrigi.
+      unconfirmed: Vi konfirmu vian konton antaŭ ol daŭrigi.
+    unlocks: 
+      unlocked: Via konto estis malblokita. Vi estas ensalutinta nun.

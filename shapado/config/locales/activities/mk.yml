@@ -1,0 +1,19 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  activerecord: 
+    models: 
+      activities: Активности
+      activity: Активност
+  activity: 
+    asked: поставено
+    changed: сменето
+    created: создадено
+    deleted: избришано
+    destroyed: избришано
+    flagged: означено
+    requested_to_close: побарано да се затвори
+    requested_to_open: побарано да се отвори
+    updated: подновено

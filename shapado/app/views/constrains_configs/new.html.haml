@@ -1,0 +1,25 @@
+%h1
+  =t("admin.manage.properties.constrains.reputation_constrains_subtitle")
+
+=render :partial => "admin/manage/properties/subtabs"
+
+%p.description
+  =t("admin.manage.properties.constrains.reputation_constrains_description")
+
+%ul.admin-nav
+  %li
+    = link_to t(".current", default: "current"), domain_url(custom: @group.domain, controller: "constrains_configs", action: "index")
+  - ConstrainsConfig.where(:group_id => nil).all.each do |mode|
+    %li
+      = link_to mode.name, domain_url(custom: @group.domain, controller: "constrains_configs", action: "index", mode: mode.id)
+ 
+  - current_group.constrains_configs.all.each do |mode|
+    %li
+      = link_to mode.name, domain_url(custom: @group.domain, controller: "constrains_configs", action: "index", mode: mode.id)
+      = link_to t('scaffold.edit'), domain_url(custom: @group.domain, controller: "constrains_configs", action: "edit", id: mode.id)
+      = link_to t('scaffold.destroy'),  constrains_config_url(mode), :metod => :delete, :confirm => t("scaffold.sure", :model => ConstrainsConfig.model_name.human)
+
+  %li   
+    = link_to t("scaffold.new", model: ConstrainsConfig.model_name.human), domain_url(custom: @group.domain, controller: "constrains_configs", action: "new")
+
+= render "form"

@@ -1,0 +1,12 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  rewards: 
+    close: 
+      error: Cal esperar %{time} abans d'adjudicació d'aquest premi.
+    start: 
+      active_notice: Aquesta pregunta ja té una recompensa actiu.
+      reputation_notice: No teniu prou reputació per crear una recompensa sobre aquesta qüestió.
+      wait_notice: Vostè necessita esperar durant 2 dies abans d'oferir una recompensa sobre aquesta qüestió.

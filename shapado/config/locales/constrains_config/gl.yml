@@ -1,0 +1,8 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activemodel: 
+    models: 
+      constrains_config: Configuración da restrición de reputación

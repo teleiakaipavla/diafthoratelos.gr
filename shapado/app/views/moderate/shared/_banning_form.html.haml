@@ -1,0 +1,14 @@
+- action =""
+-if flaggeable.is_a? Answer
+  - action = ban_moderate_answer_url(flaggeable)
+-else
+  - action = ban_moderate_question_url(flaggeable)
+
+= form_tag action, :class => "form", :method => :put do
+  = render "flags/list", :flaggeable => flaggeable
+  -if flaggeable.banned
+    = hidden_field_tag "undo", "1"
+  .buttons
+    = submit_tag flaggeable.banned ? t("questions.show.unban", :default => "Unban") : t("questions.show.ban"), :class => "save"
+    = t("global.or")
+    = link_to t('scaffold.cancel'), flaggeable.is_a?(Answer) ?  question_path(flaggeable.question) : question_path(flaggeable), :class => "button cancel"

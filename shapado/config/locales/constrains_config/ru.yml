@@ -1,0 +1,8 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+ru: 
+  activemodel: 
+    models: 
+      constrains_config: Настройка ограничений репутации

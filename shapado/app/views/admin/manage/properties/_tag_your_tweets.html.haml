@@ -1,0 +1,16 @@
+%h2
+  = t(".add_tags")
+.field
+  %label
+    =t(".tweet_starts_with")
+  = text_field_tag 'group[share][starts_with]', @group.share.starts_with
+  %small
+    = t(".starts_with_example")
+.field
+  %label
+    =t(".tweet_ends_with")
+  = text_field_tag 'group[share][ends_with]', @group.share.ends_with
+  %small
+    = t(".ends_with_example")
+.buttons
+  = f.submit t('scaffold.update'), :class => "save"

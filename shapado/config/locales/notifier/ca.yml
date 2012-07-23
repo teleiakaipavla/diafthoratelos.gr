@@ -1,0 +1,60 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+ca: 
+  notifier: 
+    admin_login: 
+      message1: L'usuari %{user} ha connectat com a administrador en %{time} el % d'adreça d'IP %{ip}.
+      subject: "Alerta: admin connexió"
+    created_flag: 
+      message1: Vostè està rebent aquest missatge, perquè ets moderador de %{group}.
+      message2: "Un lloc ha estat informat per la raó següent:"
+      message2bis: Podeu llegir el post decaiguts aquí.
+      message2bistext: "Vostè pot llegir el post decaiguts fent clic a l'enllaç següent:"
+      message3: "Anar a la pàgina de moderació per veure la llista d'elements decaiguts:"
+      message4: Visiteu la pàgina de moderació per veure la llista d'elements decaiguts.
+    earned_badge: 
+      message1: Heu guanyat un distintiu %{badge} a %{app}
+      message2: "Descripció del distintiu:"
+      message3: Podeu veure tots els vostres distintius a la vostra %{user_page}
+    favorited: 
+      message1: "%{user} guardat la seva resposta en %{group} com a favorit"
+      message2: "La pregunta és:"
+      message3: "Podeu veure-ho aquí:"
+    follow: 
+      message1: "%{user} segueix les vostres preguntes i respostes a %{app}"
+      message2: Podeu seguir-lo fent clic damunt el botó "Seguir-lo" a la seva %{user_page}
+    give_advice: 
+      message1: "%{user} acaba de fer una pregunta de la qual potser sapigueu la resposta:"
+      message2: "Per a respondre, només us cal respondre a aquest missatge:"
+      message3: "Si sabeu d'algú que potser sàpiga la resposta, envieu-li aquest enllaç de referència:"
+      message4: Si no tenim una resposta vostra en breu, la farem a algú altre. De tota manera, podreu respondre quan us vagi bé.
+    global: 
+      hi: Hola, %{user},
+      hi_no_user: Hola,
+      user_page: pàgina d'usuari
+    new_answer: 
+      message: "%{user} ha respost %{new_answer} a la pregunta %{question}"
+    new_comment: 
+      message: "%{user} comentats %{new_comment} en la pregunta %{link}"
+    new_feedback: 
+      message1: L'usuari %{user} <%{email}> ha enviat una retroacció
+      message2: Un usuari anònim ha enviat una retroacció des de l'adreça IP %{ip}
+      message3: "Adreça de correu electrònic: %{email}"
+      message4: "Assumpte: %{subject}"
+    new_invitation: 
+      message1: Feu clic aquí per acceptar la invitació %{link}
+      message2: L'equip de %{group}.
+      message3: "Un missatge de l'autor de la seva invitació:"
+      subject: "%{user} ha convidat a %{group}"
+    report: 
+      message1: Informe pel grup %{group}
+      message2: Des de %{date}
+      message3: S'han creat %{questions} preguntes
+      message4: S'han creat %{answers} respostes
+      message5: S'han efectuat %{votes} vots
+      message6: S'han atorgat distintius %{badges}
+      message7: El compte té %{users} usuaris.
+      message8: Visiteu el vostre grup a %{link}

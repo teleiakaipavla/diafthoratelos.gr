@@ -1,0 +1,97 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+it: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Cap quotidiano
+        default_tags: tag predefiniti
+        description: Descrizione
+        domain: Dominio
+        enable_latex: Abilita LaTeX con jqmath (veloce ma non completo)
+        enable_mathjax: Abilita LaTeX con mathjax (lento ma completo)
+        fb_button: Abilita pulsante "Mi piace" di Facebook (diminuisce la privacy)
+        forum: Permetti più risposte per ogni utente
+        group_created_by: creato da
+        language: Lingua predefinita
+        languages: Lingue supplementari
+        legend: Legenda
+        logo: Logo
+        may_contain_adult_content: Il sito può avere contenuti per adulti
+        name: Nome
+        owner: Questo gruppo è stato creato da %{login}
+        registered_only: Solo gli utenti registrati possono accedere al sito
+        signup_type: "Quali metodi i tuoi utenti possono utilizzare per iscriversi:"
+        state: Stato
+        subdomain: URL
+        track_users: Chiedere agli utenti la loro località
+        wysiwyg_editor: Attiva editor semplificato
+    models: 
+      default_tags_message: Non si pososno avere più di 10 tag predefiniti
+      duplicate_domain_message: Siamo spiacenti, questo dominio è già stato preso.
+      group: Group
+      groups: Gruppi
+      reputation_rewards_answer_constrain: Il vincolo per le ricompense per le domande dovrebbe essere negativo
+      reputation_rewards_ask_constrain: Il vincolo per chiedere dovrebbe essere negativo
+      reputation_rewards_key: Chiave non valida
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Ci dispiace, qualcosa è andato storto. Prova ancora per favore.
+      success_twitter_connection: Congratulazioni, hai collegato il tuo account Twitter con successo!
+    create: 
+      flash_notice: Il gruppo è stato creato correttamente. Ora si può iniziare a configurarlo.
+    edit: 
+      title: Modifica il tuo gruppo
+    form: 
+      access: Impostazioni di accesso
+      analytics_engine: Sistema di analytics
+      analytics_legend: Il gruppo potrà usare un proprio codice di tracking
+      any_language: Qualsiasi
+      custom_analytics: Consenti Analytics personalizzati
+      custom_html: Consenti HTML personalizzato
+      custom_js: Consenti JavaScript personalizzato
+      default_tags_legend: Separa i tag con virgole. Sono consentiti 10 tag di default.
+      description_legend: Hai 400 caratteri per descrivere il gruppo.
+      isolate_group: Isolare il gruppo dagli altri gruppi
+      legend_legend: Sarà utilizzata nell'intestazione. Massimo 40 caratteri.
+      logo_legend: È possibile caricare il logo del gruppo. La dimensione massima del file è di 2MB.
+      members_only: Solo i membri del gruppo saranno in grado di accedere a questo gruppo
+      signup_all: Tutti i servizi selezionati più nome utente e password
+      signup_email: Solo utente/password
+      signup_noemail: Tutti i servizi selezionati tranne nome utente e password
+      signup_social: Gli utenti devono per forza identificarsi con Facebook, Twitter, LinkedIn o Identica
+      website_analytics_id: Analytics ID
+    group: 
+      about: Informazioni
+      accept_group: Accetta questo gruppo
+      allow_ads: Consenti annunci
+      close: Chiudi
+      close_group: Chiudi questo gruppo
+      disallow_ads: Disattiva annunci
+    index: 
+      actives: Attivo
+      create_your_own: Crea il tuo gruppo
+      description: Questa è la lista dei gruppi pubblici che sono stati creati. Utilizza la ricerca qui sotto per filtrarla. È anche possibile %{link}.
+      filter: Cerca gruppo
+      most_active: Più attivi
+      name: Nome
+      pendings: In attesa
+      request_group: Richiedi un nuovo gruppo
+      title: Gruppi
+    new: 
+      title: Crea il tuo gruppo
+    show: 
+      accept_group: Accetta questo gruppo
+      accept_group_with_custom_ads: Accetta il gruppo e consenti annunci personalizzati
+      close_group: Chiudi questo gruppo
+      group_awaiting_acceptance: Questo gruppo è in attesa di accettazione di un moderatore.
+      group_closed: Questo gruppo è stato chiuso.
+      title: Informazioni su %{name}
+      visit_group: Visita questo gruppo
+    top_grouplist: 
+      active_site: "Sito attivo:"
+    update: 
+      notice: Il tuo gruppo è stato aggiornato con successo.

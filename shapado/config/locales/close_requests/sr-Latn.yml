@@ -1,0 +1,34 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  close_requests: 
+    create: 
+      flash_notice: Zahtev za zatvaranje je napravljen
+    destroy: 
+      flash_notice: Zahtev za zatvaranje je obrisan
+    edit: 
+      title: Uređivanje zahteva za zatvaranje
+    form: 
+      close_with_reason: Zatvaranje pitanja koristeći ovaj razlog
+      dupe: Duplikat
+      no_question: Nije pitanje
+      not_relevant: Nerelevantno
+      ot: Van teme
+      request_closing_details: Zahtevaj zatvaranje ovog pitanja
+      retract: Povuci
+      spam: nepoželjno
+    index: 
+      title: Spisak zahteva za zatvaranje
+    model: 
+      attributes: 
+        comment: Komentar
+        reason: Razlog
+        user: Korisnik
+      messages: 
+        already_requested: Već ste zahtevali zatvaranje ovog pitanja
+      name: Zahtev za zatvaranje
+      prural_name: Zahtevi za zatvaranje
+    update: 
+      flash_notice: Zahtev za zatvaranje je ažuriran

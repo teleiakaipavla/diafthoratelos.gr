@@ -1,0 +1,8 @@
+%h1
+  = t("themes.edit.title")
+%p.description
+  Your are editing a theme, pls be sure you are using the correct colors and backgrounds, getting good contrast and a great look.
+
+
+= form_for @theme, :html => {:multipart => true} do |form|
+  = render "form", :form => form

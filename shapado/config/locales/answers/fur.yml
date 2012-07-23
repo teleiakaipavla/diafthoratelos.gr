@@ -1,0 +1,29 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Cuarp
+        created_at: Creât ai
+        link: Leam
+    models: 
+      answer: Rispueste
+      answers: Rispuestis
+  answers: 
+    create: 
+      flash_error: "Al è sucedût un erôr cuant che zontavin la tô rispueste.\nVisiti che:\n- No si puedin zontâ rispuestis vueidis o ripetudis\n- Tu scugnis spietâ 20 seconts prime di publicâ une altri rispueste\n- Tu puedis publicâ dome une rispueste par ogni domande"
+      flash_notice: Graziis!
+    edit: 
+      title: Daûr a modificâ la rispueste
+    form: 
+      answer_label: Rispuint ae domande
+      comment_label: Scrîf un coment par cheste rispueste
+      comment_submit: Coment
+      submit: Rispuint
+    revert: 
+      title: Ripristine la rispueste
+    update: 
+      flash_notice: La rispueste e je stade inzornade cun sucès.

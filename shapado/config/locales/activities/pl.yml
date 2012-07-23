@@ -1,0 +1,11 @@
+# Messages for Polish (Polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  activity: 
+    asked: zadano
+    changed: zmieniono
+    created: utworzono
+    deleted: usunięto
+    updated: zmodyfikowano

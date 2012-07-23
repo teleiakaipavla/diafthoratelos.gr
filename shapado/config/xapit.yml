@@ -1,0 +1,13 @@
+# See https://github.com/ryanb/xapit/wiki/Configuration
+development:
+  database_path: "db/xapit"
+  enabled: true
+  spelling: true
+
+test:
+  enabled: false
+  spelling: false
+
+production:
+  database_path: "db/xapit"
+  server: "http://localhost:9292"

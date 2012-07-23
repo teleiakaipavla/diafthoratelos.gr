@@ -1,0 +1,76 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: The real emj
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Daglig maxgräns
+        default_tags: Standard-taggar
+        description: Beskrivning
+        domain: Domän
+        enable_latex: Aktivera LaTeX med jqmath (snabb men har inte alla funktioner)
+        enable_mathjax: Aktivera LaTeX med mathjax (långsam men komplett)
+        fb_button: Aktivera Facebooks Gilla-knapp (inte i privatlivet)
+        forum: Tillåt mer än ett svar från användare
+        group_created_by: skapad av
+        language: Språk
+        legend: Teckenförklaring
+        logo: Logo
+        may_contain_adult_content: Denna webbplats kan innehålla vuxet innehåll
+        name: Namn
+        owner: Denna grupp skapades av %{login}
+        registered_only: Endast registrerade användare kan öppna sajten
+        state: Stat
+        subdomain: URL
+        wysiwyg_editor: Aktivera användarvänlig redigerare
+    models: 
+      default_tags_message: Du kan inte ha mer än 10 standard-taggar
+      group: Grupp
+      groups: Grupper
+  groups: 
+    create: 
+      flash_notice: Din grupp har skapats. Du kan nu börja konfigurera den.
+    form: 
+      access: Inställningar
+      analytics_engine: Analytics motor
+      analytics_legend: Gruppen kommer att kunna använda sin egen spårningskod
+      any_language: Vilken som helst
+      custom_analytics: Tillåt anpassade analytics
+      custom_html: Tillåt anpassad HTML
+      custom_js: Tillåt anpassad JavaScript
+      default_tags_legend: Separera taggar med kommatecken. Endast 10 standard-taggar är tillåtna.
+      description_legend: Du har 400 tecken för att beskriva gruppen.
+      isolate_group: Isolera gruppen från andra grupper
+      legend_legend: Den kommer att användas i rubriken. Du har 40 tecken.
+      logo_legend: Du kan ladda upp en grupplogo. Den maximala filstorleken är 2 MB.
+      members_only: Bara gruppens medlemmar kommer att kunna komma åt den här gruppen
+      website_analytics_id: Webbsidans Analytics-ID
+    group: 
+      about: Om
+      accept_group: Acceptera den här gruppen
+      allow_ads: Tillåt annonser
+      close: Stäng
+      close_group: Stäng den här gruppen
+      disallow_ads: Hindra annonser
+    index: 
+      actives: Aktiv
+      filter: Sök efter grupper
+      most_active: Mest aktiva
+      name: Namn
+      pendings: Oavgjord
+      request_group: Begär en ny grupp
+      title: Grupper
+    new: 
+      title: Skapa din grupp
+    show: 
+      accept_group: Acceptera den här gruppen
+      accept_group_with_custom_ads: Godkänn gruppen och tillåt anpassade annonser
+      close_group: Stäng den här gruppen
+      group_awaiting_acceptance: Denna grupp väntar på godkännande av en moderator.
+      group_closed: Denna grupp var stängd.
+      title: Om %{name}
+      visit_group: Besök den här gruppen

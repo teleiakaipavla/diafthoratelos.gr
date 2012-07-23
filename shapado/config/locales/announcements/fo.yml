@@ -1,0 +1,17 @@
+# Messages for Faroese (føroyskt)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EileenSanda
+fo: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Endar við
+        message: Boð
+        only_anonymous: Bert fyri dulnevndir brúkarar
+        starts_at: Byrjar við
+  announcements: 
+    actions: 
+      delete: Strika
+    index: 
+      title: Boð

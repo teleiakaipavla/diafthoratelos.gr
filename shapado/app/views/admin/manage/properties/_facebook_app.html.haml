@@ -1,0 +1,26 @@
+%h2
+  =t(".facebook_app")
+
+%p
+  = t(".legend")
+
+.field
+  %label
+    =t(".application_id")
+  = text_field_tag 'group[share][fb_app_id]', @group.share.fb_app_id, :class => "text_field"
+.field
+  %label
+    =t(".secret_key")
+  = text_field_tag 'group[share][fb_secret_key]',  @group.share.fb_secret_key, :class => "text_field"
+.field
+  .checkbox
+    = check_box_tag 'group[share][fb_active]', true, @group.share.fb_active, :class => "checkbox"
+    %label
+      =t("global.active")
+
+.buttons
+  = f.submit t('scaffold.update'), :class => "save"
+
+
+-if !@group.share.fb_app_id.blank?
+  =link_to "Add to Facebook", add_to_facebook_groups_path

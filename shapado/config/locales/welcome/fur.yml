@@ -1,0 +1,24 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  welcome: 
+    confirm_age: 
+      over_18: O ai plui di 18 agns
+      under_18: O ai mancul di 18 agns
+    feedback: 
+      captcha_error: Par plasê compile il captcha e inserìs une direzion di pueste eletroniche valide.
+      captcha_notice: Graziis pai tiei coments, us rispuindarìn prime pussibil.
+      email_description: Inserìs par plasê la tô direzion di pueste cussì ti podìn rispuindi
+      feedback_description: Descrizion
+      feedback_title: Titul
+      title: Mande i tiei sugjeriments
+    index: 
+      active: Atîf
+      browse_all_or_by_tags: Cjale la %{full_list_of_questions} o %{browse_by_tags}
+      browse_by_tags: sgarfe par etichetis
+      full_list_of_questions: liste complete des domandis
+      hot: Dibatût
+      quick_question: Fâs une domande, cjatarìn cualchidun che ti rispuindedi
+      recent_questions: Domandis recentis

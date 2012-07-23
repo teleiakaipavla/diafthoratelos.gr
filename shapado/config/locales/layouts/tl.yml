@@ -1,0 +1,76 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  layouts: 
+    application: 
+      all: Lahat
+      ask_question: Itanong
+      badges: Mga tsapa
+      by_me: Ko
+      collaborate: Makipagtulungan
+      contributed: Naiambag
+      faq: Mga malimit itanong
+      feed: Sinundan ang
+      follow_us_and_share: Sundan kami at mambahagi
+      followed: Sinundan
+      forgot: Nakalimutan?
+      home: Tahanan
+      join_group: Sumali sa %{group}
+      languages: Mga wika
+      log_in: Lumagda
+      logged: Nakalagda bilang %{login}
+      logout: Umalis sa pagkakalagda
+      manage_ads: Mamahala ng mga patalastas
+      moderate: Katamtaman
+      need_to_signin: Dapat kang lumagda muna.
+      not_member_join_dialog: Dapat mong sumali sa %{group} upang mabuo ang kilos na ito, lagitikin dito upang magawa ito.
+      now: ngayon na!
+      openid: 
+        explaination: "Kung nais mong magpatala o lumagdang papasok lamang, mangyaring piliin ang iyong tagapagbigay ng OpenID:"
+      pages: Mga pahina
+      preferred: Mas nais
+      questions: Mga katanungan
+      questions_in: Mga katanungan sa loob ng
+      questions_tagged: tinatakan ng
+      random_question: Kahit na anong tanong
+      search: Hanapin
+      settings: Mga pagtatakda
+      signup: Magpatala
+      subscribe: Pumayag na tumanggap ng sipi
+      success_joining_group: Isa ka na ngayong isang kasapi sa %{group}, salamat sa pagsali!
+      tags: Mga tatak
+      title: Mga Katanungan at Mga Kasagutan
+      unanswered: Hindi pa nasasagot
+      users: Mga tagagamit
+      welcome_from: Maligayang pagdating! Maaari kang
+    manage: 
+      access: Pagpunta
+      actions: Mga galaw
+      announcements: Mga pahayag
+      appearance: Kaanyuan
+      close_group: Isara ang pangkat
+      constrains: Mga kinakailangan
+      content: Nilalaman
+      dashboard: Kabitang-pisara
+      domain: Nasasakupan
+      edit_layout: Baguhin ang latag
+      general: Pangkalahatan
+      group_features: Mga tampok
+      group_look_and_feel: Tingnan at damahin
+      group_user_management: Pamamahala ng tagagamit
+      invitations: Mga paanyaya
+      invoices: Talaan ng pagbili at babayaran
+      members: Mga kasapi
+      pages: Mga pahina
+      properties: Mga pag-aari
+      reputation: Dangal
+      rewards: Mga gantimpala
+      social: Pangpakikipagkapuwa
+      stats: Estadistika
+      theme: Tema
+      themes: Mga tema
+      widgets: Mga widyet
+    notifications: 
+      message: Kung ayaw mo nang makatanggap ng kusang mga pagpapabatid mula sa %{group}, baguhin ang mga nais mo na nasa loob ng tanawan ng mga pabatid.

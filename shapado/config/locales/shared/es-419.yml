@@ -1,0 +1,12 @@
+# Messages for Latin American Spanish (espanol de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es-419: 
+  shared: 
+    current_tags: 
+      title: Etiquetas seleccionadas
+    topbar: 
+      admin: Administrar
+      logged_as: Conectado como %{login}
+      user_page: Mi página

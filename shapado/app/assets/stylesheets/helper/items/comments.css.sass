@@ -1,0 +1,57 @@
+.comments
+  margin: 20px 0
+  .toggle_comments
+    display: block
+    line-height: 16px
+    padding: 5px 20px 1px 20px
+    margin: 0 0 10px 35px
+
+  article.comment
+    background: image-url("comments-icon-small.gif") 40px 5px no-repeat !important
+    padding: 5px 10px 5px 60px !important
+    border: 0px !important
+    display: block
+    img
+      float: left
+      margin: 0 5px 5px 0
+    .comment-body
+      span
+        margin: 0
+        padding: 0
+    .comment-content
+      display: inline
+      p:first-child
+        display: inline
+    .comment-votes
+      position: relative
+      form
+        position: absolute
+        left: -51px
+        display: inline
+        width: 20px
+      .upvote-comment, .upvoted-comment
+        border: 0px
+        +normal-radius
+        background-color: #a2c538
+        color: #fff
+        padding: 3px 5px
+        font-size: 12px
+    time
+      font-size: 11px
+      font-style: italic
+      float: left
+      margin: 5px 5px 0 0
+    p
+      font-size: 12.5px
+      line-height: 14px
+    .actions
+      clear: left
+      margin: 3px 0 0 0
+      a
+        margin: 0 2px
+        font-size: 11px
+        &:hover
+          border-bottom: 1px dotted
+
+.toggle_comments
+  display: none

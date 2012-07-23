@@ -1,0 +1,316 @@
+= javascript_include_merged(:show).html_safe
+= include_latex
+
+- @current_class = 'question hentry entry post'
+
+- show_close_request_form = !@question.closed && logged_in? && @question.can_be_requested_to_close_by?(current_user)
+- show_open_request_form = @question.closed && logged_in? && @question.can_be_requested_to_open_by?(current_user)
+
+- if logged_in?
+  - if current_user.mod_of?(current_group) && @question.closed
+    - show_close_request_form = (@question.close_reason.user_id == current_user.id)
+  - @flag = current_user.has_flagged?(@question) || Flag.new
+
+- @flag ||= Flag.new
+
+- if show_open_request_form
+  - @open_request = current_user.has_requested_to_open?(@question) || OpenRequest.new
+
+- if show_close_request_form
+  - @close_request = @question.close_requests.detect{ |rq| rq.user_id == current_user.id } || CloseRequest.new(:reason => "dupe")
+
+- question_body = find_and_preserve(shapado_auto_link(markdown(@question.body.present? ? @question.body : @question.title)))
+
+- content_for :head do
+  %meta{:name => "keywords", :content => clean_seo_keywords(@question.tags.dup, @question.title)}
+  %meta{:name => "description", :content => question_body.gsub(/<\/?[^>]*>/, "")[0, 255] }
+  %link{:rel => "canonical", :href => question_url(@question) }
+
+%section.main-question
+  %h1
+    &= @question.title
+    - if @question.closed
+      =" [#{t("closed", :scope => "activerecord.attributes.question").upcase}]"
+  .edit
+    = link_to "Editar"
+          
+      
+  .description
+    = question_body
+     
+  .toolbar
+    %ul
+      %li.answer
+        = link_to "Responder"
+      %li.comment
+        = link_to "Comentar"
+      %li.follow
+        - if current_user && @question.follower?(current_user)
+          = link_to "Unfollow", unfollow_question_path(@question), :class => 'unfollow-q', "data-undo" =>  follow_question_path(@question), "data-title" => t(".watch_tooltip"), :title => t(".unwatch_tooltip"), :id => "watch-question"
+        - else
+          = link_to "Follow", follow_question_path(@question), :title => t(".watch_tooltip"), :class => 'follow-q', "data-undo" =>  unfollow_question_path(@question), "data-title" => t(".unwatch_tooltip"), :id => "watch-question"
+      %li.spam
+        = link_to "Reportar"
+      %li.share
+        = link_to "Compartir"
+      %li.activity
+        = link_to "Actividad"           
+
+%ul.tag-list
+  %li.title
+    Topics:  
+  - @question.tags.each do |tag|
+    %li
+      = link_to h(tag), tag_path(:id => tag), :rel => "tag"
+  - if logged_in? && (current_user.can_modify?(@question) || current_user.can_retag_others_questions_on?(current_group))
+    %li.retag
+    = link_to t('.retag'), retag_question_path(@question), :id => 'retag'
+
+#answers-content-wrap
+  %header
+    %h3 
+      = t(".answers_title", :count => @answers.total_entries)
+  %section.filters
+    %ul{:class => @active_subtab.to_s}
+      %header Sort By:
+      %li.newest-active
+        = link_to t("questions.index.newest"), question_path(@question, :sort=>"newest", :anchor => "answers"), :rel => "nofollow"
+      %li.votes-active
+        = link_to t("questions.index.votes"), question_path(@question, :sort=>"votes", :anchor => "answers"), :rel => "nofollow"
+      %li.oldest-active
+        = link_to t("questions.index.oldest"), question_path(@question, :sort=>"oldest", :anchor => "answers"), :rel => "nofollow"
+      %li
+        = link_to "Respuesta elegida" 
+
+  - source = question_path(@question)
+  = error_messages_for 'answer'
+
+  - content_for :subtabs do
+    %h1.navtitle.title.entry-title
+      &= @question.title
+      - if @question.closed
+        =" [#{t("closed", :scope => "activerecord.attributes.question").upcase}]"        
+        
+  
+  %article
+    %h4 
+      %b Answered 27 days ago by 
+      = link_to "rhonda:"  
+      = link_to "Permalink"
+    %ul.toolbar
+      %li.drop
+        = link_to "Actions"
+      %li.votes
+        %p 
+          %button.negative
+          %span  20 Votes
+          %button.positive
+    .clear
+    .content
+      %p You might want to take a look at the Work Needing and Prospective Packages page, especially with respect to the Requested Packages page. There you can find what people seem to be missing and are looking package maintainers for. The list might look daunting, and there might be things in there not maintained anymore, it definitely needs some cleanup, but it might be a good starting point to look what others seem to be missing.
+      %article.comment
+        %h4 
+          %b Answered 27 days ago by 
+          = link_to "rhonda:"  
+          = link_to "Permalink"    
+        %ul.toolbar
+          %li.votes
+            %p 
+              %button.negative
+              %span  20 Votes
+              %button.positive               
+        .clear
+        .content
+          %p There you can find what people seem to be missing and are looking package maintainers for. The list might look daunting, and there might be things in there not maintained anymore, it definitely needs some cleanup, but it might be a good starting point to look what others seem to be missing.
+      %article.comment
+        %h4 
+          %b Answered 27 days ago by 
+          = link_to "rhonda:"  
+          = link_to "Permalink"    
+        %ul.toolbar
+          %li.votes
+            %p 
+              %button.negative
+              %span  20 Votes
+              %button.positive               
+        .clear
+        .content
+          %p You might want to take a look at the Work Needing and Prospective Packages page, especially with respect to the Requested Packages page. There you can find what people seem to be missing and are looking package maintainers for. 
+        %ul.comment-actions
+          %li
+            = link_to "Contestar"
+          %li
+            = link_to "Editar"
+          %li
+            = link_to "Borrar"
+  .clear  
+        
+  %article
+    
+    %h4 
+      %b Answered 27 days ago by 
+      = link_to "rhonda:"  
+      = link_to "Permalink"
+    %ul.toolbar
+      %li.drop
+        = link_to "Actions"
+      %li.votes
+        %p 
+          %button.negative
+          %span  20 Votes
+          %button.positive
+    .clear
+    .content
+      %p You might want to take a look at the Work Needing and Prospective Packages page, especially with respect to the Requested Packages page. There you can find what people seem to be missing and are looking package maintainers for. The list might look daunting, and there might be things in there not maintained anymore, it definitely needs some cleanup, but it might be a good starting point to look what others seem to be missing.        
+
+  %article
+    
+    %h4 
+      %b Answered 27 days ago by 
+      = link_to "rhonda:"  
+      = link_to "Permalink"
+    %ul.toolbar
+      %li.drop
+        = link_to "Actions"
+      %li.votes
+        %p 
+          %button.negative
+          %span  20 Votes
+          %button.positive
+    .clear
+    .content
+      %p You might want to take a look at the Work Needing and Prospective Packages page, especially with respect to the Requested Packages page. There you can find what people seem to be missing and are looking package maintainers for. The list might look daunting, and there might be things in there not maintained anymore, it definitely needs some cleanup, but it might be a good starting point to look what others seem to be missing.   
+      
+  %article
+    .winner 
+      = image_tag "answer-winner.gif"
+    %h4 
+      %b Answered 27 days ago by 
+      = link_to "rhonda:"  
+      = link_to "Permalink"
+    %ul.toolbar
+      %li.drop
+        = link_to "Actions"
+      %li.votes
+        %p 
+          %button.negative
+          %span  20 Votes
+          %button.positive
+    .clear
+    .content
+      %p You might want to take a look at the Work Needing and Prospective Packages page, especially with respect to the Requested Packages page. There you can find what people seem to be missing and are looking package maintainers for. The list might look daunting, and there might be things in there not maintained anymore, it definitely needs some cleanup, but it might be a good starting point to look what others seem to be missing.         
+  .clear  
+
+
+
+
+#question-vote-col
+  = link_to "Follow Up", new_question_path(:from_question => @question.id), :rel => "nofollow"
+#question-body-col.commentable.markdown
+  %a{:name => @question.id}
+  #body
+    -if @question.follow_up
+      This Question Is a Follow Up Of
+      = link_to @question.follow_up.original_question.title, question_path(@question.follow_up.original_question)+"##{@question.follow_up.original_answer_id}"
+
+    -if @question.followed_up_by.limit(1).count > 0
+      Followed by:
+      -@question.followed_up_by.all.each do |child|
+        = link_to child.title, question_path(child)
+    - if @question.closed && @question.close_reason.present?
+      #close_reason
+        = t(".close_reason")
+        = t(@question.close_reason.reason, :scope=>"close_requests.form")
+        - if !@question.close_reason.comment.empty?
+          .comment
+            =find_and_preserve(shapado_auto_link(@question.close_reason.comment))
+    .post-text.entry-content
+      
+
+      = render "reward_form"    
+      
+      
+  .controls
+    .actions
+      
+
+      - if !@flag.new_record?
+        .flagged
+          = "#{t('.flagged_as')} #{t(@flag.reason, :scope=>'flags.form')}"
+          = link_to t("scaffold.edit"), edit_question_flag_path(@question,@flag), :class => "flag-link", :id => "edit_question_flag_link", :rel => 'nofollow'
+          = link_to t("scaffold.destroy"), question_flag_path(@question,@flag), :id => "destroy_question_flag_link", :rel => 'nofollow', :confirm => "are you sure?", :method => :delete
+      - elsif logged_in? && current_user != @question.user
+        = link_to t(".flag"), new_question_flag_path(@question), :class => "flag-link", :id => "question_flag_link", :rel => 'nofollow'
+
+      - if logged_in?
+        - if show_close_request_form
+          -if !@close_request.new_record?
+            .flagged
+              = "#{t('.requested_close_as')} #{t(@close_request.reason, :scope=>'close_requests.form')}"
+              = link_to t(".edit_request"), edit_question_close_request_path(@question,@close_request), :class => "flag-link", :id => "edit_question_close_request_link", :rel => 'nofollow'
+              = link_to t(".retract_request"), question_close_request_path(@question,@close_request), :id => "destroy_question_close_request_link", :rel => 'nofollow', :confirm => "are you sure?", :method => :delete
+          = link_to t(".request_closing"), @close_request.new_record? ? new_question_close_request_path(@question) : edit_question_close_request_path(@question, @close_request), :id => "request-close-link", :rel => 'nofollow', :title => t('.request_closing_details')
+
+        - if show_open_request_form
+          -if !@open_request.new_record?
+            .flagged
+              = "#{t('.requested_reopening')} #{@open_request.comment}"
+              = link_to t(".edit_request"), edit_question_open_request_path(@question, @open_request), :class => "flag-link", :id => "edit_question_open_request_link", :rel => 'nofollow'
+              = link_to t(".retract_request"), question_open_request_path(@question,@open_request), :id => "destroy_question_open_request_link", :rel => 'nofollow', :confirm => "are you sure?", :method => :delete
+
+          -if current_user.mod_of?(current_group)
+            = link_to t(".open"), open_question_path(@question), :rel => 'nofollow', :title => t('.request_opening_details'), :method => "put"
+          -else
+            = link_to t(".request_opening"), new_question_open_request_path(@question), :id => "request-open-link", :rel => 'nofollow', :title => t('.request_opening_details')
+
+        - if (@question.wiki && current_user.can_edit_wiki_post_on?(@question.group)) || current_user.can_edit_others_posts_on?(@question.group) || current_user.can_modify?(@question)
+          = link_to t('scaffold.edit'), edit_question_path(@question), :class => "button"
+        - if @question.versions.count > 0
+          = link_to t(".history", :default => "history"), history_question_path(@question)
+        - if (current_user.can_modify?(@question) || current_user.owner_of?(@question.group))
+          = link_to t("scaffold.destroy"), question_path(@question.id), :confirm => "are you sure?", :method => :delete
+        - if current_user.mod_of?(@question.group)
+          -if !@question.closed
+            = link_to t('.close'), question_close_requests_path(@question)
+          = link_to @question.banned ? t(".unban") : t(".ban"), manage_moderate_questions_path(:question_ids => [@question.id], :commit => @question.banned ? "unban": "ban"), :class => "button", :method => :put, :confirm => "are you sure?"
+    .forms
+      -# render :partial => "flags/form", :locals => {:flag => @flag, :flaggeable => @question, :source => source, :form_id => "question_flag_form" }
+
+      -# if !@question.closed && show_close_request_form
+        -#= render :partial => "close_requests/form", :locals => { :question => @question, :close_request => @close_request, :hide => true, :form_id => "request_close_question_form"}
+
+
+
+%a{:name=>"answers"}
+#answers
+  .secondary-navigation{:class => @active_subtab.to_s}
+
+
+
+  .block
+    - if @question.accepted
+      -solution = @question.answer
+      =render :partial=> "answer", :locals=> {:question => @question, :answer => solution} unless solution.nil?
+    .hentry
+      -@answers.each do |answer|
+        -next if answer.id == @question.answer_id
+        =render :partial=> "answer", :locals=> {:question => @question, :answer => answer}
+    =will_paginate(@answers)
+
+-unless @question.closed
+  %a{:name=>"to_answer"}
+  -form_for @answer, :url => question_answers_path(@question.id), :html => {:class => "form mainAnswerForm"} do |f|
+    = render :partial => "answers/form", :locals => {:f => f, :markdown => true}
+    .group.navform
+      .controls.right{:style => "width: 50%"}
+        .left{:style => "width: 49.5%"}
+          = f.label :wiki, "Wiki", :class => "radio"
+          = f.check_box :wiki, :class => "checkbox"
+        .left{:style => "width: 49.5%"}
+          = f.label :anonymous, t("scaffold.post_as_anonymous"), :class => "radio"
+          = f.check_box :anonymous, {:class => "checkbox"}, true, false
+      = submit_tag t('answers.form.submit'), :class => "button"
+    .clear
+
+-content_for :sidebar do
+  = render "shared/widgets", :context => 'question'

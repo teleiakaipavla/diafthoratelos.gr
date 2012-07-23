@@ -1,0 +1,137 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+# Author: Tuxwet
+it: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: attivato il
+        activation_code: Codice di attivazione
+        age: Età
+        asked_by: chiesto da
+        avatar: Immagine profilo
+        birthday: Compleanno
+        created_at: iscritto da
+        current_password: Password attuale
+        email: Email
+        fullname: Nome completo
+        hide_country: Non mostrare il mio paese
+        language: Lingua
+        language_filter: Filtro per lingua
+        last_logged_at: visto
+        login: Nome utente
+        name: Nome vero
+        password: Password
+        password_confirmation: Conferma password
+        preferred_languages: "Mostra le domande nelle seguenti lingue:"
+        preferred_tags: Tag preferiti
+        reputation: Reputazione
+        timezone: Fuso orario
+        updated_at: aggiornato il
+        website: Sito web
+    models: 
+      user: Utente
+      users: Utenti
+  users: 
+    actions: 
+      edit_others_posts: Modificare post di altri
+      edit_wiki_post: Modificare messaggi wiki
+      flag: Segnalare
+      retag_others_questions: Modificare tag delle domande
+      vote_down: Votare negativamente
+      vote_to_close_any_question: Richiedere la chiusura di una domanda
+      vote_to_close_own_question: Richiedere la chiusura di una propria domanda
+      vote_up: Votare positivamente
+    anonymous_form: 
+      never_shown: mai mostrato
+    change_password: 
+      submit: Cambia la password
+      title: Cambia la password
+    check_custom_domain: 
+      reset_domain_button: No, per favore resetta il dominio personalizzato a %{domain}
+      title: Sta funzionando il tuo nuovo dominio custom?
+      working_domain_link: Sì, posso vedere che il mio nuovo dominio sta funzionando qua sotto.
+    create: 
+      flash_error: Creazione account non riuscita. Riprovare o contattare un amministratore (link sopra).
+      flash_notice: Grazie per esserti iscritto!
+    edit: 
+      enable_twitter: Attiva il tuo account Facebook o Twitter
+      submit: Salva
+      title: Impostazioni
+    follow: 
+      flash_error: Non puoi seguire te stesso.
+      flash_notice: Ora stai seguendo %{user}.
+    form: 
+      activities_notification: "Ricevi email di notifica per eventi come: nuovi follow, bagde conquistati, etc."
+      avatar_tip: Cambia l'immagine del profilo utilizzando Gravatar
+      check_domain: Controlla %{domain}
+      check_domain_title: Controlla i domini personalizzati del vostro gruppo
+      desktop_notification: Notifiche desktop
+      give_advice_notification: Ricevi email di notifica su domande nel tuo campo di competenza
+      information: Informazione
+      language: Lingua utilizzata per l'interfaccia del sito
+      new_answer_notification: Ricevi email di notifica su nuove risposte
+      notifications: Notifiche
+      reports_notification: Ricevi un report dell'attività recente del gruppo (solo per amministratori)
+      send_answers_to_twitter: Invia le mie risposte su Twitter
+      send_badges_to_twitter: Invia i miei badge da poco conquistati a Twitter
+      send_comments_to_twitter: Invia i miei commenti suTwitter
+      send_favorites_to_twitter: Invia tutte le mie risposte preferite su Twitter
+      send_questions_to_twitter: Invia le mie domande su Twitter
+      show_more_lang: Mostra altre lingue
+      social_interaction: Interazione media sociali
+    index: 
+      empty: Il gruppo non ha nessun membro. Partecipa unendoti a questo gruppo.
+      filter: Cerca utenti
+      name: Nome
+      name_tooltip: Utenti in ordine alfabetico
+      near: Vicino a te
+      near_tooltip: Utenti che sono vicini a te
+      newest: più recente
+      newest_tooltip: Utenti iscritti da meno tempo
+      oldest: più datato
+      oldest_tooltip: Utenti iscritti da più tempo
+      reputation: Reputazione
+      reputation_tooltip: Utenti in ordine di reputazione
+      title: Tutti gli utenti
+    messages: 
+      errors: 
+        reputation_needed: E' necessaria una reputazione di %{min_reputation} per %{action}
+    new: 
+      description: Diventa parte di questa comunità per chiedere, rispondere e imparare!
+      join_group: Iscriviti a %{group}
+      submit: Iscriviti
+      title: Iscriviti come nuovo utente
+    show: 
+      edit_profile: Modifica profilo
+      follow: Follow
+      followers: Seguaci
+      following: Seguendo
+      title: Utente %{user}
+      unfollow: Annulla follow
+      views: visualizzazioni
+    show_json: 
+      edit_it: Clicca qui per compilare la tua biografia sul tuo profilo.
+      no_description: Questo utente non ha ancora inserito la sua biografia.
+    top_user: 
+      connect: Collegati
+      my_karma: "Il mio karma: %{karma}"
+      profile: Profilo
+    unfollow: 
+      flash_notice: Ora non stai seguendo più %{user}.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Ora stai seguendo la il tag %{tag}.
+      unfollowed: 
+        flash_notice: Ora non stai seguendo più il tag %{tag}.
+    user_bar: 
+      create_account: Crea un account
+      not_logged_in: Non connesso
+      signed_as: Identificato come
+    user_mini: 
+      admin: "[Admin]"
+      editor: "[Editor]"
+      mod: "[Moderatore]"

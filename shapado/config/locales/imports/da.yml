@@ -1,0 +1,10 @@
+# Messages for Danish (dansk)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Emilkris33
+da: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Behøver bekræftelse
+        title: Send bekræftelse e-mails

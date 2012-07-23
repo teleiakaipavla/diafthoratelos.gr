@@ -1,0 +1,6 @@
+.empty{:class => "empty_#{type}"}
+  = image_tag("empty.png")
+  %h2
+    = t("shared.empty.#{type}.title", :default => :"shared.empty.default.title")
+  %p
+    = simple_format t("shared.empty.#{type}.description.text", :action_link => t("shared.empty.#{type}.description.action_link"), :url => url)

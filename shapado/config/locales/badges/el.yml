@@ -1,0 +1,140 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+# Author: Evropi
+el: 
+  activerecord: 
+    models: 
+      badge: Τίτλος
+      badges: Τίτλοι
+  badges: 
+    index: 
+      description: Όλοι οι τίτλοι που μπορείτε να κερδίσετε. Μοιραστείτε τις γνώσεις σας και κερδίστε τίτλους.
+      title: Τίτλοι
+    shared: 
+      addict: 
+        description: Επισκεφθείτε το site κάθε μέρα για 20 συνεχόμενες ημέρες
+        name: Εθισμένος
+      autobiographer: 
+        description: Συμπληρώστε όλα τα πεδία στο προφίλ σας
+        name: Αυτοβιογράφος
+      celebrity: 
+        description: Αποκτήστε περισσότερους από 100 οπαδούς
+        name: Διασημότητα
+      citizen_patrol: 
+        description: Αναφέρετε ανάρτηση για πρώτη φορά
+        name: Περίπολος
+      civic_duty: 
+        description: Ψηφίστε 300 φορές
+        name: Πολιτικό καθήκον
+      cleanup: 
+        description: Πρώτο rollback
+        name: Συγύρισμα
+      commentator: 
+        description: Αφήστε 10 σχόλια
+        name: Σχολιαστής
+      critic: 
+        description: Ψηφίστε αρνητικά για πρώτη φορά
+        name: Κριτικός
+      disciplined: 
+        description: Διαγράψτε δική σας ανάρτηση με βαθμολογία 3 ή ψηλότερη
+        name: Πειθαρχημένος
+      editor: 
+        description: Επεξεργαστείτε ανάρτηση για πρώτη φορά
+      effort_medal: 
+        description: Αποκτήστε 100 θετικές ψήφους
+      enlightened: 
+        description: Δώστε την πρώτη σας απάντηση που θα γίνει αποδεκτή με τουλάχιστον 10 θετικές ψήφους
+        name: Πεφωτισμένος
+      famous_question: 
+        description: Κάντε ερώτηση που θα φτάσει τις 10000 προβολές
+        name: Περίφημη ερώτηση
+      fanatic: 
+        description: Επισκεφθείτε το site κάθε μέρα για 100 συνεχόμενες ημέρες
+        name: Φανατικός
+      favorite_question: 
+        description: Κάντε ερώτηση που θα αγαπηθεί από 25 μέλη
+      friendly: 
+        description: Ακολουθήστε κάποιον για πρώτη φορά
+        name: Φιλικός
+      good_answer: 
+        description: Δώστε απάντηση που θα φτάσει πάνω από 25 ψήφους μέσο όρο
+        name: Καλή απάντηση
+      good_question: 
+        description: Κάντε ερώτηση που θα φτάσει πάνω από 25 ψήφους μέσο όρο
+      great_answer: 
+        description: Δώστε απάντηση που θα πάρει 100 θετικές ψήφους
+        name: Σπουδαία απάντηση
+      great_question: 
+        description: Κάντε ερώτηση που θα πάρει 100 θετικές ψήφους
+        name: Σπουδαία ερώτηση
+      guru: 
+        description: Δώστε λύση σε ερώτηση με περισσότερες από 40 ψήφους μέσο όρο
+        name: Γκουρού
+      inquirer: 
+        description: Κάντε ερώτηση για πρώτη φορά
+      interesting_person: 
+        description: Αποκτήστε περισσότερους από 10 οπαδούς
+        name: Ενδιαφέρον πρόσωπο
+      merit_medal: 
+        description: Αποκτήστε 200 θετικές ψήφους
+      necromancer: 
+        description: Απαντήστε ερώτηση πάνω από 60 ημέρες μετά με τουλάχιστον 5 ψήφους
+        name: Νεκρομάντης
+      nice_answer: 
+        description: Δώστε απάντηση που θα πάρει 10 θετικές ψήφους
+        name: Ωραία απάντηση
+      nice_question: 
+        description: Κάντε ερώτηση που θα πάρει 10 θετικές ψήφους
+        name: Ωραία ερώτηση
+      notable_question: 
+        description: Κάντε ερώτηση που θα φτάσει τις 2500 προβολές
+        name: Αξιοσημείωτη ερώτηση
+      organizer: 
+        description: Αλλάξτε ετικέτες σε μια ερώτηση για πρώτη φορά
+        name: Διοργανωτής
+      peer_pressure: 
+        description: Διαγράψτε δική σας ανάρτηση με βαθμολογία -3 ή χαμηλότερη
+        name: Υπό πίεση
+      pioneer: 
+        description: Γίνετε από τα πρώτα μέλη που θα εγγραφείτε
+      popstar: 
+        description: 500 θετικές ψήφοι, 10 αρνητικές ψήφοι το πολύ
+      popular_person: 
+        description: Αποκτήστε περισσότερους από 50 οπαδούς
+        name: Δημοφιλές πρόσωπο
+      popular_question: 
+        description: Κάντε ερώτηση που θα φτάσει τις 1000 προβολές
+        name: Δημοφιλές ερώτηση
+      rockstar: 
+        description: 1000 θετικές ψήφοι, 10 αρνητικές ψήφοι το πολύ
+      scholar: 
+        description: Δώστε απάντηση και αποδεχτείτε την στη δική σας ερώτηση
+        name: Μαθητής
+      self-learner: 
+        description: Απαντήστε στη δική σας ερώτηση με τουλάχιστον 3 θετικές ψήφους
+        name: Αυτοδίδακτος
+      service_medal: 
+        description: 300 θετικές ψήφοι
+      shapado: 
+        description: Επισκεφθείτε το site κάθε μέρα για 8 συνεχόμενες ημέρες
+      stellar_question: 
+        description: Κάντε ερώτηση που θα αγαπηθεί από 100 μέλη
+        name: Ερώτηση αστέρι
+      student: 
+        description: Κάντε την πρώτη σας ερώτηση που θα πάρει τουλάχιστον μία θετική ψήφο
+        name: Φοιτητής
+      supporter: 
+        description: Ψηφίστε θετικά για πρώτη φορά
+      troubleshooter: 
+        description: Απαντήστε για πρώτη φορά
+      tutor: 
+        description: Δώστε λύση σε ερώτηση με περισσότερες από 2 ψήφους μέσο όρο
+    show: 
+      description: "Μέλη που κέρδισαν αυτό τον τίτλο. Πρόσφατα χορηγήθηκε στους:"
+      earned: Χορηγήθηκε
+      for_tag_bronze: 200 ψήφοι στην ετικέτα %{tag}
+      for_tag_gold: 1000 ψήφοι στην ετικέτα %{tag}
+      for_tag_silver: 400 ψήφοι στην ετικέτα %{tag}
+      title: Τίτλος %{type}

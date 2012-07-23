@@ -1,0 +1,97 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giro720
+# Author: Luckas Blade
+# Author: Pedroca cerebral
+# Author: Vgeorge
+pt-BR: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Limite diário
+        default_tags: Tags predefinidas
+        description: Descrição
+        domain: Domínio
+        enable_latex: Ativar LaTeX com jqmath (rápido, mas não está completo)
+        enable_mathjax: Ativar LaTeX com mathjax (lento, mas está mais completo)
+        fb_button: Ativar botão "Curtir" do Facebook (não respeita privacidade)
+        forum: Permitir mais do que uma resposta por usuário
+        group_created_by: criado por
+        language: Idioma padrão
+        languages: Idiomas adicionais
+        legend: Legenda
+        logo: Logotipo
+        may_contain_adult_content: Este site pode ter conteúdo para adultos
+        name: Nome
+        owner: Este grupo foi criado por %{login}
+        registered_only: Somente pessoas registradas podem acessar o site
+        signup_type: "Os métodos que podem usar os usuários para se registrar:"
+        state: Estado
+        subdomain: Url
+        wysiwyg_editor: Ativar editor amigável para o usuário
+    models: 
+      default_tags_message: Não pode ter mais do que 10 tags predefinidas
+      group: Grupo
+      groups: Grupos
+      reputation_rewards_answer_constrain: A restrição para responder com recompensas deve ser negativa
+      reputation_rewards_ask_constrain: A restrição para perguntar deve ser negativa
+      reputation_rewards_key: Chave inválida
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Desculpe, algo deu errado. Por favor, tente novamente.
+      success_twitter_connection: Parabéns, você conectou com êxito a sua conta do Twitter!
+    create: 
+      flash_notice: O seu grupo foi criado, pode agora começar a configurá-lo.
+    edit: 
+      title: Editar seu grupo
+    form: 
+      access: Definições de Acesso
+      analytics_engine: Motor de Análise
+      analytics_legend: O grupo poderá usar o seu próprio código de rastreamento
+      any_language: Qualquer
+      custom_analytics: Permitir Análises Personalizadas
+      custom_html: Permitir HTML personalizado
+      custom_js: Permitir javascript personalizado
+      default_tags_legend: Separe as tags por vírgulas. Só são permitidas 10 tags predefinidas.
+      description_legend: Você pode usar 400 caracteres para descrever o grupo.
+      isolate_group: Isolar o grupo de outros grupos
+      legend_legend: Será usado no cabeçalho. Você tem 40 caracteres.
+      logo_legend: Você pode fazer upload do logotipo do grupo. O tamanho máximo do arquivo é 2MB.
+      members_only: Só os membros do grupo poderão acessar a este grupo
+      signup_all: Todos os provedores selecionados, além de usuário/senha
+      signup_email: Apenas usuário/senha
+      signup_noemail: Todos os provedores selecionados, menos o de usuário/senha
+      signup_social: Os usuários são obrigados a usar o Facebook, Twitter, LinkedIn ou Identica
+      website_analytics_id: ID da Análise do Site
+    group: 
+      about: Sobre
+      accept_group: Aceitar este grupo
+      allow_ads: Permitir anúncios
+      close: Fechar
+      close_group: Fechar este grupo
+      disallow_ads: Não permitir anúncios
+    index: 
+      actives: Ativos
+      create_your_own: Crie o seu próprio grupo
+      description: Esta é a lista de grupos públicos que foram criados. Use a caixa de procura abaixo para filtrar os grupos. Você pode também %{link}.
+      filter: Pesquisar grupos
+      most_active: Mais ativos
+      name: Nome
+      pendings: Pendentes
+      request_group: Pedir um grupo novo
+      title: Grupos
+    new: 
+      title: Criar seu grupo
+    show: 
+      accept_group: Aceitar este grupo
+      accept_group_with_custom_ads: Aceitar grupo e permitir anúncios personalizados
+      close_group: Fechar este grupo
+      group_awaiting_acceptance: Este grupo está aguardando a aceitação de um moderador.
+      group_closed: Este grupo foi fechado.
+      title: Sobre %{name}
+      visit_group: Visitar este grupo
+    top_grouplist: 
+      active_site: "Site ativo:"
+    update: 
+      notice: Seu grupo foi atualizado com sucesso.

@@ -1,0 +1,23 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  close_requests: 
+    form: 
+      close_with_reason: Stäng denna fråga med detta skäl
+      dupe: Duplicera
+      no_question: Inte en fråga
+      not_relevant: Inte relevant
+      ot: Off topic
+      request_closing_details: Begäran om att avsluta denna fråga
+      spam: skräppost
+    model: 
+      attributes: 
+        comment: Kommentera
+        reason: Orsak
+        user: Användare
+      messages: 
+        already_requested: Du har redan begärt att stänga denna fråga
+      name: Begäran stängd
+      prural_name: Förfrågningar stängda

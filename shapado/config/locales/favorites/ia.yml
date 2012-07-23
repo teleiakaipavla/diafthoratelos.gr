@@ -1,0 +1,13 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    models: 
+      favorite: Favorite
+      favorites: Favorites
+  favorites: 
+    create: 
+      success: Le question ha essite addite a tu favorites
+      unauthenticated: Tu debe haber un conto pro adder favorites

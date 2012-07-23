@@ -1,0 +1,43 @@
+en:
+  themes:
+    show:
+      not_ready: This theme is not ready to be used, check back soon.
+      bg_color: Background color
+      fg_color: Foreground color
+      bg_image: Background image
+      view_bg: View's background color
+      view_fg: View's foreground color
+      button_bg: Buttons background color
+      button_fg: Buttons foreground color
+      link_bg: Links background color
+      link_fg: Links foreground color
+      use_link_bg: Use a background for links
+      main_color: Main color
+      modules_color: Modules color
+      text_color: Text color
+      apply: Apply
+      try: Try
+      fluid: 'Fluid (this will make the layout elastic as the browser window gets resized)'
+      brand_color: 'Brand color'
+    form:
+      layout_html: Add your custom template for the layout
+      questions_index_html: Add your custom template for the questions index
+      questions_show_html: Add your custom template for the question show
+      update: Update theme
+      colors_and_bg: Colors and backgrounds
+      fluid_layout: Fluid layout
+      fluid_layout_legend: "A fluid layout will make the width of each element of the page dependent on the wiewport rather than the initial containing element. In other words, when resizing your browser window or switching to a small screen device, the layout will move in and out."
+      bg_color_legend: "Define plane color as background, be sure about contrast with your app."
+      bg_image_legend: "This image will be shown as a wallpaper on every page. Size can't exceed 800K and must be either a GIF, JPG or PNG."
+      main_color_legend: "This is one of the most used color on each page, make sure to select the right one for your brand or community."
+      modules_color_legend: "Make sure this color and the main color matches together nicely."
+      text_color_legend: "Make sure your text is readable and is compatible with the background color."
+      custom_css_legend: "If you know the CSS language, use this to customize the styling of your site. You can use either regular CSS or SCSS."
+      submit_update: 'Update theme'
+    index:
+      description: "Find here your themes and change the look of your app."
+      new_theme: "You can build your own theme here."
+    edit:
+      title: Edit theme
+    ready:
+      success: "Your theme is ready!"

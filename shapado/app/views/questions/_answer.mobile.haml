@@ -1,0 +1,51 @@
+
+-solution = question.accepted && question.answer_id == answer.id
+-source = question_path(question)
+
+-cache_for(:answers, question.id, answer.id, answer.user == current_user ? "owner" : "") do
+  %article.answer{:class => " #{answer.id} #{solution && "solution"}", :item_scope => '', :itemtype => "http://schema.org/Article"}
+    %a{:name => "answer#{answer.id}"}
+
+    = vote_box(answer, question_path(@question), @question.closed)
+
+    %h4.author
+      = avatar_img(answer.user, :size => "small") unless answer.user && answer.anonymous
+      = render "questions/answered_by", local_assigns
+      %time{ :datetime => answer.created_at.iso8601,  :itemprop=>"datePublished", :title => article_date(answer)}
+        = link_to article_date(answer), question_answer_path(@question.id, answer.id), :itemprop => "url"
+        - if answer.created_at != answer.updated_at
+          = link_to edited_date(answer), history_question_answer_path(@question.id, answer.id), :title => t("questions.show.history")+" (#{answer.versions_count})"
+
+
+
+    .content.markdown
+      %div{:itemprop => "articleBody"}
+        = find_and_preserve(shapado_auto_link(markdown(answer.body), :link_users => true))
+
+      -if logged_in? && (current_user.mod_of?(current_group) || current_user.can_view_offensive_counts_on?(current_group)) && answer.flags.count > 0
+        %h3
+          = t(:flags, :scope => "activerecord.models")
+          = render :partial => "flags/list", :locals => {:flaggeable => answer}
+
+
+
+    .comments
+      =link_to "NN comments", "#", :class => "toggle_comments"
+      -answer.comments.each do |comment|
+        -read = (@last_read_at && @last_read_at > comment.created_at && comment.votes_average < 2)
+        = render :partial => "comments/comment", :object => comment, :locals => {:source => source, :mini => true, :read => read}
+
+    .panel-comments
+      = form_for [@question, answer, @comment ||= Comment.new], :html => {:class => "answer_comment_form commentForm nestedAnswerForm addNestedAnswer", "data-commentable"=>answer.id} do |f|
+        %fieldset
+          = render :partial => "comments/form", :locals => {:f => f, :source => source, :commentable => answer }
+          .buttons
+            = submit_tag t("comments.shared.comment_submit")
+            = t("global.or")
+            = link_to t('scaffold.cancel'), '', :class => 'cancel cancel_comment'
+
+
+    = render "questions/answer_toolbar.html.haml", :question => @question, :answer => answer, :solution => solution
+
+
+    .article-forms

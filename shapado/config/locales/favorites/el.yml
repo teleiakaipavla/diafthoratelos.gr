@@ -1,0 +1,13 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  activerecord: 
+    models: 
+      favorite: Αγαπημένη
+      favorites: Αγαπημένες
+  favorites: 
+    create: 
+      success: Η ερώτηση έχει προστεθεί στις αγαπημένες σας
+      unauthenticated: Χρειάζεστε λογαριασμό για να προσθέσετε αγαπημένες ερωτήσεις

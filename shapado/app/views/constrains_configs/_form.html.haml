@@ -1,0 +1,17 @@
+
+= form_for @constrains, :html => {:class => "form"} do |f|
+  = f.error_messages
+  .field
+    = f.label :name, :class => "label"
+    = f.text_field :name, :class => "text_field"
+  -ConstrainsConfig::CONSTRAINS.each do |key, value|
+    - value = @constrains.content[key] || 0
+    .field
+      -name = "constrains_config[content[#{key}]]"
+      =label_tag name, Group.humanize_reputation_constrain(key), :class => "label"
+      =text_field_tag name, value, :class => "text_field"
+
+  .buttons
+    = f.submit nil, :class => "save"
+    = t("global.or")
+    = link_to t("scaffold.cancel"), domain_url(:custom => @group.domain, :controller => "constrains_configs", :action => "index")

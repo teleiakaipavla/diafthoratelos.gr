@@ -1,0 +1,33 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  invitations: 
+    accept: 
+      create_account: Отворите налог (1 од 2)
+      create_account_step2: Отвори налог
+      description: "%{group} је збирка питања и одговора о било којој теми која се непрестано побољшава и усавршава."
+      done: Завршено!
+      facebook_connect: Повежите се са својим налогом на Фејсбуку
+      final_step: Последњи корак (2 од 2)
+      find_friends: "Пронађите пријатеље и повежите се:"
+      follow_things: Пратите ознаке и људе
+      follow_things_description: Питања везана за ова ће се појављивати у доводу.
+      other_connect: или користите једно од ових.
+      other_social_options: Можете користити и Линкедин (%{linkedin}) и Идентику (%{identica}).
+      point1: Питајте стручњака за наведену област.
+      point2: Пратите теме и одговарајте на питања која вас занимају.
+      point3: Гласајте и уређујте одговоре и вики странице да бисте их побољшали. На тај начин освајате значке
+      point4: Одговарајте на питања и преко е-поште.
+      twitter_connect: Повежите се са својим налогом на Твитеру
+      welcome: Добро дошли
+    create: 
+      flash_notice: Ваше позивнице су послате.
+      limit_notice: 
+        one: Нажалост, у овом тренутку не можете послати више од %{limit} позивнице.
+        other: Нажалост, у овом тренутку не можете послати више од %{limit} позивнице.
+    resend: 
+      flash_notice: Ваша позивница је поновно послата.
+    revoke: 
+      flash_notice: Ваша позивница је повучена.

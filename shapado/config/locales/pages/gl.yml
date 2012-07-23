@@ -1,0 +1,36 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Follas de estilo
+        js: JavaScript
+    models: 
+      page: Páxina
+      pages: Páxinas
+  pages: 
+    actions: 
+      create_page: Crear unha nova páxina
+      edit_page: Editar a páxina
+      title: Accións
+    create: 
+      success: A páxina creouse correctamente.
+    edit: 
+      title: Editando a páxina
+    form: 
+      language_tip: Lingua da páxina
+      title_tip: "Título da páxina, use isto para facer referencia á páxina. Por exemplo: [[FAQ|olle as preguntas máis frecuentes]]"
+    index: 
+      create_page: Crear unha nova páxina
+      title: Lista de páxinas
+      wiki: Wiki
+      wiki_pages: Páxinas wiki
+      written_in: Escrito en %{language}
+    new: 
+      title: Páxina nova
+    title: Arránxeme
+    update: 
+      success: A páxina actualizouse correctamente.

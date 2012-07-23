@@ -1,0 +1,12 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  rewards: 
+    close: 
+      error: Debe agardar %{time} antes de recompensar esta recompensa.
+    start: 
+      active_notice: Esta pregunta xa ten unha recompensa activa.
+      reputation_notice: Non ten suficiente reputación para crear unha recompensa por esta pregunta.
+      wait_notice: Debe agardar dous días antes de ofrecer unha recompensa por esta pregunta.

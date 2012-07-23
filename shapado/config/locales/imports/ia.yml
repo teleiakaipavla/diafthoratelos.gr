@@ -1,0 +1,10 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Necessita confirmation
+        title: Inviar e-mails de confirmation

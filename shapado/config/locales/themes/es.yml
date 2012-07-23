@@ -1,0 +1,44 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  themes: 
+    edit: 
+      title: Editar tema
+    form: 
+      bg_color_legend: Definir el color de fondo, asegurase que el cambio combine bien con el resto de su aplicación.
+      bg_image_legend: Esta imagen aparecerá como fondo de pantalla en cada página. El tamaño no puede exceder los 800K y debe ser un GIF, JPG o PNG.
+      colors_and_bg: Colores y fondos
+      custom_css_legend: Si conoce el lenguaje CSS, use esto para personalizar el diseño de su sitio. Usted puede utilizar ya sea cualquiera del CSS o del SCSS.
+      fluid_layout: Diseño fluido
+      fluid_layout_legend: Un diseño líquido hará que el ancho de cada elemento de la página depende del wiewport más que del elemento de contenedor inicial. En otras palabras, al cambiar el tamaño de su ventana del navegador o al cambiarse a un dispositivo de pantalla pequeña, el diseño se mueve de acuerdo con el tamaño de la pantalla.
+      main_color_legend: Este es uno de los colores más utilizados en cada página, asegúrese de seleccionar el color más adecuado para su marca comercial o su comunidad.
+      modules_color_legend: Asegúrese de que este color y el color principal combinen bien.
+      submit_update: Actualizar el tema
+      text_color_legend: Asegúrese de que su texto es legible y es compatible con el color de fondo.
+      update: Actualizar el tema
+    index: 
+      description: Encuentre aquí sus temas y cambiar el aspecto de su sitio.
+      new_theme: Usted puede construir su propio tema aquí.
+    ready: 
+      success: Su tema está listo!
+    show: 
+      apply: Aplicar
+      bg_color: Color de fondo
+      bg_image: Imagen de fondo
+      brand_color: Color de marca
+      button_bg: Color de fondo de los botones
+      button_fg: Color de primer plano de los botones
+      fg_color: Color de primer plano
+      fluid: Líquido (esto hará que el diseño sea elástico cuando se cambia el tamaño del navegador)
+      link_bg: Color de fondo de los enlaces
+      link_fg: Color de primer plano de los enlaces
+      main_color: Color principal
+      modules_color: Color de los módulos
+      not_ready: Este tema no está listo para ser utilizado, vuelva pronto.
+      text_color: Color del texto
+      try: Probar
+      use_link_bg: Utilizar un color de fondo para los enlaces
+      view_bg: Color de fondo de las vistas
+      view_fg: Color de primer plano de las vistas

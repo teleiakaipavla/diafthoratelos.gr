@@ -1,0 +1,20 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  comments: 
+    create: 
+      flash_notice: Хвала вам на коментару.
+    edit: 
+      title: Уређивање коментара
+    shared: 
+      add_comment: Додај коментар…
+      comment_submit: Прокоментариши
+      reply: Одговори
+      said: рече
+    update: 
+      flash_notice: Коментар је ажуриран.
+  models: 
+    comment: Коментар
+    comments: Коментари

@@ -1,0 +1,19 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+it: 
+  activerecord: 
+    models: 
+      activities: Attività
+      activity: Attività
+  activity: 
+    asked: chiesto
+    changed: modificato
+    created: creato
+    deleted: eliminato
+    destroyed: eliminato
+    flagged: contrassegnato
+    requested_to_close: richiesta di chiusura
+    requested_to_open: richiesta di aprire
+    updated: aggiornato

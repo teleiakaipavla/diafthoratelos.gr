@@ -1,0 +1,46 @@
+# Messages for Breton (Brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fohanno
+# Author: Fulup
+# Author: Y-M D
+br: 
+  devise: 
+    confirmations: 
+      confirmed: Kadarnaet eo bet ho kont. Kevreet oc'h bremañ.
+      link: N'hoc'h eus ket resevet an displegadennoù kadarnaat ?
+      send_instructions: A-benn un nebeud munutennoù e resevot ur postel gant displegadennoù evit kadarnaat ho kont.
+    mailer: 
+      confirmation_instructions: Titouroù kadarnaat
+      reset_password_instructions: Titouroù evit adsevel ho ker-tremen
+      unlock_instructions: Titouroù distankañ
+    passwords: 
+      link: Ankouaet ho ker-tremen ganeoc'h ?
+      send_instructions: A-benn un nebeud munutennoù e resevot ur postel gant displegadennoù evit adderaouekaat ho ker-tremen.
+      updated: Cheñchet eo bet ho ker-termen. Anavezet oc'h bremañ.
+    registrations: 
+      destroyed: Kenavo ! Nullet eo bet ho kont. Spi hon eus ouzh ho kwelet adarre a-benn nebeut.
+      link: En em enskrivañ
+      signed_up: Enskrivet oc'h.
+      updated: Hizivaet ho peus ho kont.
+    sessions: 
+      facebook_actions: 
+        sign_in: Kevreañ
+        sign_out: Digevreañ
+      facebook_authenticity_token: Un dra bennak a-dreuz zo bet. Kevreit en-dro, mar plij, evit abegoù surentez.
+      facebook_invalid: Dibosupl eo kevreañ. Kont direizh.
+      facebook_timeout: Echu eo ho talc'h Facebook. Kevreit adarre evit kenderc'hel.
+      inactive: N'eo ket bet kadarnaet ho kont c'hoazh
+      invalid: Chomlec'h postel pe gêr-tremen direizh.
+      invalid_token: Jedouer dilesadur direizh.
+      link: Kevreañ
+      locked: Stanket eo ho kont.
+      signed_in: Kevreet.
+      signed_out: Digevreet.
+      timeout: Echu eo ho talc'h. Kevreit en-dro, mar plij, evit kenderc'hel.
+      unauthenticated: Ret eo deoc'h kevreañ pe en em enskrivañ a-raok mont pelloc'h
+      unconfirmed: Ret eo deoc'h kadarnaat ho kont a-raok mont pelloc'h.
+    unlocks: 
+      link: n'hoc'h eus ket resevet an displegadennoù dibrennañ ?
+      send_instructions: A-benn un nebeud munutennoù e resevot ur postel gant displegadennoù evit dibrennañ ho kont.
+      unlocked: Distanket eo bet ho kont. Kevreet oc'h bremañ.

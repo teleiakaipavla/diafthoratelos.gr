@@ -1,0 +1,18 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+ca: 
+  activerecord: 
+    models: 
+      activities: Activitats
+      activity: L'activitat
+  activity: 
+    asked: va demanar
+    changed: canviat
+    created: creada
+    deleted: suprimit
+    flagged: s'ha marcat
+    requested_to_close: demana tancar
+    requested_to_open: va demanar obrir
+    updated: Updated

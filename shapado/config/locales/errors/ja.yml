@@ -1,0 +1,22 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  errors: 
+    forbidden: 
+      explanation: このページにアクセスルための権限がありません
+      title: アクセスできません
+    go_to: "%{link}ページに移動する"
+    help_us_answer: 質問に答えてみてください！%{link}
+    internal_error: 
+      explanation: このエラーは管理者に通知されます。対応をお待ちください。
+      title: 申し訳ありません。何かのエラーが発生しました。
+    not_found: 
+      explanation: アドレスを確認してください。またはページは別な場所に移動した可能性があります。
+      title: ページがありません。
+    options_label: "他の方法を試してください:"
+    search: 検索
+    unprocessable_entity: 
+      explanation: 恐らく変更するための権限が不足していると考えられます。
+      title: あなたの変更が拒否されました

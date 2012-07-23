@@ -1,0 +1,60 @@
+.each-invoice
+  .invoice_info
+    .brand
+      =image_tag "logo.png"
+
+    .references
+      %p
+        -if params[:print] != "1"
+          = link_to t('invoices.show.pdf_download'), invoice_path(@invoice, :print => "1", :format => "pdf")
+      %p.reference
+        %strong= t('invoices.show.order_number')
+        = @invoice.order_number
+      %p
+        %strong= t('invoices.show.order_placed')
+        - if @invoice.payed_at
+          = @invoice.payed_at.to_s(:ymd)
+
+      .clear
+
+    %h2= t('invoices.show.contact_details')
+    %p
+      %strong= t('invoices.show.contact_name')
+      = @invoice.display_name
+    %p
+      %strong= t('invoices.show.contact_email')
+      = @invoice.email
+
+    %h2= t('invoices.show.payment_details')
+    %p
+      %strong= t('invoices.show.payment')
+      = I18n.t("invoices.show.credit_card")
+    %p
+      %strong= t('invoices.show.cc_type')
+      = @invoice.stripe_customer["active_card"]["type"]
+    %p
+      %strong= t('invoices.form.cc_number')
+      XXXXXXXXXXX -
+      = @invoice.stripe_customer["active_card"]["last4"]
+    %p
+      %strong= t('invoices.show.exp_month')
+      = @invoice.stripe_customer["active_card"]["exp_month"]
+    %p
+      %strong= t('invoices.show.exp_year')
+      = @invoice.stripe_customer["active_card"]["exp_year"]
+
+    %p
+      %strong= t('invoices.show.country')
+      = @invoice.stripe_customer["active_card"]["country"]
+
+    %h2
+      = t('invoices.show.product_details')
+    %p
+      %strong
+        = t('invoices.show.order_total')
+      == $#{@invoice.total_in_dollars}
+
+    =render "invoices/invoice", :invoice => @invoice
+
+
+

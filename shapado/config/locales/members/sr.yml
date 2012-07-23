@@ -1,0 +1,22 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Улога
+  members: 
+    create: 
+      error: Нажалост, корисник **%{user_id}** не постоји.
+      notice: Корисник %{login} је додат као %{role}.
+    form: 
+      destroy_confirm: Јесте ли сигурни? Овај корисник више неће бити члан групе.
+      login_tip: Тражите док куцате
+    index: 
+      manage_members_title: Управљање члановима
+      title: Чланови групе од %{name}
+      title_isolate: Чланови групе %{name}
+    update: 
+      error: Нажалост, не можете изменити чланство корисника **%{login}**.

@@ -1,0 +1,9 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dj
+hu: 
+  rewards: 
+    start: 
+      active_notice: Ennek a kérdésnek már van aktív díja.
+      wait_notice: 2 napot kell várnod, mielőtt díjat ajánlanál ennek a kérdésnek.

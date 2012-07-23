@@ -1,0 +1,16 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Emperyan
+tr: 
+  activerecord: 
+    models: 
+      activities: Etkinlikler
+      activity: Etkinlik
+  activity: 
+    asked: sordu
+    changed: değiştirildi
+    created: oluşturuldu
+    deleted: silindi
+    flagged: işaretlendi
+    updated: güncellendi

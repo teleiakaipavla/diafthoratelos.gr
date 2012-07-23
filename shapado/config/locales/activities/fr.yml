@@ -1,0 +1,21 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gomoko
+# Author: Od1n
+# Author: Sherbrooke
+fr: 
+  activerecord: 
+    models: 
+      activities: Activités
+      activity: Activité
+  activity: 
+    asked: demandé
+    changed: modifié
+    created: créé
+    deleted: supprimé
+    destroyed: supprimé
+    flagged: marqué
+    requested_to_close: demandé de fermer
+    requested_to_open: demandé d'ouvrir
+    updated: mis à jour

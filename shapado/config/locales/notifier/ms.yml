@@ -1,0 +1,59 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  notifier: 
+    admin_login: 
+      message1: Pengguna %{user} telah bersambung sebagai pentadbir pada %{time} dengan alamat ip %{ip}.
+      subject: "Perhatian: sambungan pentadbir"
+    created_flag: 
+      message1: Anda menerima pesanan ini kerana anda seorang pengawal selia %{group}.
+      message2: "Satu kiriman telah dilaporkan atas sebab berikut:"
+      message2bis: Anda boleh membaca kiriman yang dibenderakan di sini.
+      message2bistext: "Anda boleh membaca kiriman yang dibenderakan dengan mengklik pautan berikut:"
+      message3: "Pergi ke laman kawal selia untuk melihat senarai butiran-butiran yang dibenderakan:"
+      message4: Lawati laman kawal selia untuk melihat senarai butiran-butiran yang dibenderakan.
+    earned_badge: 
+      message1: Anda telah meraih lencana %{badge} di %{app}
+      message2: "Keterangan lencana:"
+      message3: Anda boleh melihat semua lencana anda di %{user_page} anda
+    favorited: 
+      message1: "%{user} menyimpan jawapan anda sebagai kegemaran di %{group}"
+      message2: "Soalannya:"
+      message3: Anda boleh lihat di sini;
+    follow: 
+      message1: "%{user} kini mengikuti soal jawab anda di %{app}"
+      message2: Anda boleh mengikutinya juga dengan mengklik butang "Ikut" di  %{user_page}nya
+    give_advice: 
+      message1: "%{user} baru menanyakan soalan yang mungkin anda boleh jawab:"
+      message2: "Untuk menjawab, sila balas pesanan ini di sini:"
+      message3: "Ataupun, jika anda kenal sesiapa yang mungkin boleh menjawabnya, sila hantar pautan rujukan ini kepada mereka:"
+      message4: Jika kami tidak menerima jawapan anda secepat mungkin, kami akan menanya orang lain. Anda masih boleh menjawabnya pada bila-bila masa.
+    global: 
+      hi: Apa khabar %{user},
+      hi_no_user: Salam sejahtera,
+      user_page: laman pengguna
+    new_answer: 
+      message: "%{user} menjawab %{new_answer} pada soalan %{question}"
+    new_comment: 
+      message: "%{user} mengulas %{new_comment} pada soalan %{link}"
+    new_feedback: 
+      message1: Pengguna %{user} <%{email}> menghantar maklumbalas
+      message2: Seorang pengguna tanpa nama menghantar maklumbalas dari alamat IP %{ip}
+      message3: "Alamat e-mel: %{email}"
+      message4: "Subjek: %{subject}"
+    new_invitation: 
+      message1: Klik di sini untuk menerima jemputan %{link}
+      message2: Pasukan %{group}.
+      message3: "Pesanan daripada penjemput anda:"
+      subject: "%{user} menjemput anda untuk menyertai %{group}"
+    report: 
+      message1: Laporan untuk kumpulan %{group}
+      message2: Sejak %{date}
+      message3: "%{questions} soalan dibuka"
+      message4: "%{answers} jawapan dituliskan"
+      message5: "%{votes} undian dibuat"
+      message6: "%{badges} lencana dianugerahkan"
+      message7: Akaun ini mempunyai %{users} pengguna.
+      message8: Kunjungi kumpulan anda di %{link}

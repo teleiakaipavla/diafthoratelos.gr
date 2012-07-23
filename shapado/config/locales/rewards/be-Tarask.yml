@@ -1,0 +1,13 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  rewards: 
+    close: 
+      error: Вам неабходна пачакаць %{time} перад тым, як узнагароджваць гэтай узнагародай.
+    start: 
+      active_notice: Гэтае пытаньне ўжо мае актыўную ўзнагароду.
+      reputation_notice: Вы ня маеце дастатковай рэпутацыі, каб стварыць узнагароду для гэтага пытаньня.
+      wait_notice: Вам неабходна пачакаць 2 дні, перад тым, як прызначаць ўзнагароду за гэтае пытаньне.

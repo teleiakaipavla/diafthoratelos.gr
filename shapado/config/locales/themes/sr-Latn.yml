@@ -1,0 +1,44 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  themes: 
+    edit: 
+      title: Uređivanje teme
+    form: 
+      bg_color_legend: Zadajte boju pozadine. Budite sigurni za kontrast vašeg programa.
+      bg_image_legend: "Ova slika će biti prikazana kao pozadina svake stranice. Veličina može biti najviše 800 kB. Dozvoljeni formati su: GIF, JPG i PNG."
+      colors_and_bg: Boje i pozadine
+      custom_css_legend: Ako vam je poznat jezik CSS, koristite ga da prilagodite izgled svog mrežnog mesta. Možete koristiti običan CSS ili SCSS.
+      fluid_layout: Prilagodljivi raspored
+      fluid_layout_legend: Prilagodljiv raspored menja širinu svakog elementa zavisno od toga kako vidite izvornu stranicu umesto sadržajnog elementa. Drugim rečima, kada menjate veličinu prozora ili se prebacite na uređaj s malim ekranom, veličina rasporeda će se prilagoditi situaciji.
+      main_color_legend: Ovo je najprisutnija boja na svim stranicama. Izaberite onu koja će odgovarati vašoj marki ili zajednici.
+      modules_color_legend: Postarajte se da ova i glavna boja lepo stoje jedna uz drugu.
+      submit_update: Ažuriraj temu
+      text_color_legend: Tekst treba da bude čitljiv. Boja pozadine ne sme uticati na njegovu čitljivost.
+      update: Ažuriraj temu
+    index: 
+      description: Ovde pronađite teme i promenite izgled vašeg programa.
+      new_theme: Ovde možete napraviti sopstvenu temu.
+    ready: 
+      success: Vaša tema je spremna.
+    show: 
+      apply: Primeni
+      bg_color: Boja pozadine
+      bg_image: Slika pozadine
+      brand_color: Karakteristična boja
+      button_bg: Pozadinska boja dugmadi
+      button_fg: Boja prednjeg plana za dugmadi
+      fg_color: Boja prednjeg plana
+      fluid: Prilagodljivo (ovo će napraviti da raspored bude elastičan pri menjanju veličine pregledača, tj. njegovog prozora)
+      link_bg: Pozadinska boja veza
+      link_fg: Boja prednjeg plana za veze
+      main_color: Glavna boja
+      modules_color: Boja modula
+      not_ready: Ova tema nije spremna za upotrebu. Vratite se uskoro.
+      text_color: Boja teksta
+      try: Probaj
+      use_link_bg: Koristi pozadinu za veze
+      view_bg: Boja pozadine za pregled
+      view_fg: Boja prednjeg plana za pregled

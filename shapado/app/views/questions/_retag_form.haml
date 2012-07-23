@@ -1,0 +1,7 @@
+= form_for @question, :url => retag_to_question_path(@question.id), :html => {:class => "form retag-form clearfix"} do |f|
+  .field
+    = f.select :tags, current_group.default_tags && @question.tags, {},{:multiple => true, :selected => @question.tags, :class => 'chosen-retag'}
+  .buttons
+    = submit_tag t(".submit"), :class => 'save'
+    = t("global.or")
+    = link_to t('.cancel'), question_path(@question), :class => 'cancel-retag'

@@ -1,0 +1,145 @@
+// ========================================================================
+//    Document     	:   _setup.sass
+//    Created on   	:   Nov14 - 2010, 20:29 pm
+//    Author       		:   @dgfrancisco
+//    Client       		:   Shapado
+//    Description	 	:   Variables y set up basico del portal, estas variables podran ser
+//                     			cambiadas en pro de modificar colores, fuentes etc
+//========================================================================
+
+//  FONTS
+//========================================================================
+// Sans Serif - Basic across the site
+$arial: Helvetica, Arial, sans-serif
+
+// Monospace - for code texts
+$courier: courier, freemono, "nimbus mono l", "liberation mono", monospace
+$monaco: monaco, "lucida console", "dejavu sans mono", "bitstream vera sans mono", "liberation mono", monospace
+
+// Font sizes
+$xs: 11px
+$s: 13px
+$m: 16px
+$l: 18px
+$xl: 24px
+$xxl: 30px
+
+=text-shadow()
+  text-shadow: 0 1px 3px #ccc
+
+//  COLORS
+//========================================================================
+$lightGray: #f2f2f2
+$gray: #aaaaaa
+$darkGray: #3e4953
+$dark: #404040
+
+$lightyellow: #fffae1
+$yellow: #fff3bd
+
+$lightOrange: #fffbeb
+$orange: #ee681f
+$darkOrange: #d05800
+
+$lightBlue: #eef7f8
+$blue: #00a9b2
+$darkBlue: #019199
+
+$lightRed: #ffe5e5
+$red: #ff0000
+$darkRed: #cc0000
+
+
+//  ROUNDED CORNERS
+//========================================================================
+$noneRadius: 0
+$smallRadius: 3px
+$normalRadius: 5px
+$bigRadius: 20px
+$hugeRadius: 50px
+
+=none-radius($noneRadius)
+  -moz-border-radius: $noneRadius
+  -webkit-border-radius: $noneRadius
+  -o-border-radius: $noneRadius
+  -khtml-border-radius: $noneRadius
+  border-radius: $noneRadius
+
+=small-radius($smallRadius)
+  -moz-border-radius: $smallRadius
+  -webkit-border-radius: $smallRadius
+  -o-border-radius: $smallRadius
+  -khtml-border-radius: $smallRadius
+  border-radius: $smallRadius
+
+=normal-radius($normalRadius)
+  -moz-border-radius: $normalRadius
+  -webkit-border-radius: $normalRadius
+  -o-border-radius: $normalRadius
+  -khtml-border-radius: $normalRadius
+  border-radius: $normalRadius
+
+=big-radius($bigRadius)
+  -moz-border-radius: $bigRadius
+  -webkit-border-radius: $bigRadius
+  -o-border-radius: $bigRadius
+  -khtml-border-radius: $bigRadius
+  border-radius: $bigRadius
+
+=huge-radius($hugeRadius)
+  -moz-border-radius: $hugeRadius
+  -webkit-border-radius: $hugeRadius
+  -o-border-radius: $hugeRadius
+  -khtml-border-radius: $hugeRadius
+  border-radius: $hugeRadius
+
+
+//  BOX SHADOWS
+//========================================================================
+$outer: 0 2px 3px #999
+$inner: inset 0 0 3px #999
+$none: 0 0 0 transparent
+
+=outer-shadow($outer)
+  -moz-box-shadow: $outer
+  -webkit-box-shadow: $outer
+  -o-box-shadow: $outer
+  -khtml-box-shadow: $outer
+  box-shadow: $outer
+
+=inner-shadow($shadow)
+  -moz-box-shadow: $inner
+  -webkit-box-shadow: $inner
+  -o-box-shadow: $inner
+  -khtml-box-shadow: $inner
+  box-shadow: $inner
+
+=none-shadow($none)
+  -moz-box-shadow: $none
+  -webkit-box-shadow: $none
+  -o-box-shadow: $none
+  -khtml-box-shadow: $none
+  box-shadow: $none
+
+
+$shadow: 0 0 10px #000
+$menu: 0 2px 3px #999
+
+=box-shadow($shadow)
+  $shadow: unquote($shadow)
+  -moz-box-shadow: $shadow
+  -webkit-box-shadow: $shadow
+  -o-box-shadow: $shadow
+  -khtml-box-shadow: $shadow
+  box-shadow: $shadow
+
+=menu-shadow($shadow)
+  $shadow: unquote($menu)
+  -moz-box-shadow: $menu
+  -webkit-box-shadow: $menu
+  -o-box-shadow: $menu
+  -khtml-box-shadow: $menu
+  box-shadow: $menu
+
+//  GRADIANTS
+//========================================================================

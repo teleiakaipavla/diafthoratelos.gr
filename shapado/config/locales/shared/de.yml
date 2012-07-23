@@ -1,0 +1,78 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  shared: 
+    any_lang: Alle Sprachen
+    by_anon: Von einem Anonymen
+    current_tags: 
+      title: Ausgewählte Stichworte
+    description: Beschreibung
+    empty: 
+      activities: 
+        description: 
+          text: Sobald Personen damit anfangen die Website zu nutzen, wird sich diese Seite mit Inhalten füllen.
+        title: Es gibt bislang noch keine Aktivitäten.
+      answers: 
+        description: 
+          text: Sei der Erste!
+        title: Bislang hat noch niemand die Frage beantwortet.
+      default: 
+        description: 
+          text: Sei der erste, der %{action_link}!
+        title: Leider ist hier noch nicht viel passiert.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Hier klicken, um die Fragen in allen Sprachen anzusehen.
+          text: <a href='%{url}' class='lang-option', data-language='any' >%{action_link}</a>
+        title: Es sind leider keine Fragen in dieser Sprache vorhanden.
+      filtered_questions: 
+        description: 
+          action_link: Klicke hier, um alle Fragen anzusehen
+          text: <a href='%{url}'>%{action_link}</a>
+        title: Es sind leider keine Fragen zu dieser Filterung vorhanden.
+      questions: 
+        description: 
+          action_link: eine Frage stellt
+          text: Sei der Erste der <a href="%{url}">%{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: jetzt
+          text: erstelle ein %{action_link}
+        title: Bislang hast Du noch keine Themen erstellt.
+    filter: "Filter:"
+    language: "Sprache:"
+    language_filter_tooltip: Probiere eine andere Sprache aus.
+    languages: "Sprachen:"
+    layout: 
+      footer: 
+        cc_footer: Alle Inhalte und Daten auf Shapado.com stehen unter der Lizenz %{cc_link}
+        powered_by: Nutzt %{source_link} in Version %{version}, das gemäß %{agpl_link} lizenziert ist.
+    login_drop_down: 
+      sign_up_user_pass: Mit einer E-Mail-Adresse / einem Passwort anmelden
+      with_email_pass: Mit Deiner E-Mail-Adresse anmelden
+      with_facebook: mit Facebook
+      with_google: mit Google
+      with_identica: mit Identi.ca
+      with_linked_in: mit LinkedIn
+      with_openid: mit OpenID
+      with_twitter: mit Twitter
+    manage_navigation: 
+      title_content: Thema der Gruppe
+      title_features: Funktionen der Gruppe
+      title_options: Optionen zur Gruppe
+    name: Name
+    preferred_lang: Meine bevorzugten Sprachen
+    quick_question: 
+      random_question: Beantworte eine zufällige Frage
+    social_connect: 
+      find_friends_facebook: Freunde bei Facebook finden
+      find_friends_identica: Freunde bei Ideni.ca finden
+      find_friends_linked_in: Freunde bei LinkedIn finden
+      find_friends_twitter: Freunde bei Twitter finden
+    topbar: 
+      admin: administrieren
+      logged_as: Als %{login} angemeldet
+      user_page: Meine Seite
+    view_mode: "Anzeigemodus:"

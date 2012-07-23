@@ -1,0 +1,67 @@
+== SERVER SIDE
+
+1. add a user with sudo permissions
+    sudo adduser deploy
+
+2. edit sudo settings
+    $ sudo visudo
+    and add:
+
+3. configure and upload config/shapado.yml to /etc/shapado.yml
+
+---------------- copy from here -------------
+Defaults    env_keep += "RAILS_ROOT"
+Defaults    secure_path = "/usr/local/rvm/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+
+app     ALL=(ALL) NOPASSWD: ALL
+---------------------------------------------
+
+    NOTE: you can revoke sudo permissions after installing the application
+
+
+== CLIENT SIDE
+
+1. Download the sources:
+
+    $ git clone git://gitorious.org/shapado/shapado.git
+    $ cd shapado/
+
+2. Configure the application
+
+    $ cp config/shapado.sample.yml config/shapado.yml
+    $ cp config/mongoid.sample.yml config/mongoid.yml
+
+    edit shapado.yml
+
+3. Install dependencies
+
+    $ bundle install
+
+4. Install required Gems
+
+    $ sudo gem install capistrano ricodigo-capistrano-recipes
+    $ cp config/deploy.rb.sample config/deploy.rb
+
+    edit and configure config/deploy.rb (usually you just need to change the roles)
+
+5. Install server dependencies
+
+    $ ricodigo-install-server <server ip> <deploy user>
+
+    NOTE: if you entered user/password for mongodb you have to add it on server:
+    $ mongo --eval 'db.addUser("<THE USER>","<THE PASSWORD>", false)' shapado-production
+
+6. Setup your deployment server
+
+    $ cap production deploy:setup
+
+7.  Deploy
+    $ cap production bootstrap
+    $ cap production bluepill:init
+    $ cap production magent:setup
+    $ cap production magent:init
+
+    $ cap production websocket:setup
+    $ cap production websocket:init
+
+    $ cap production deploy

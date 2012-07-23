@@ -1,0 +1,20 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  comments: 
+    create: 
+      flash_notice: Grazas polo seu comentario
+    edit: 
+      title: Editar o comentario
+    shared: 
+      add_comment: Engadir un comentario...
+      comment_submit: Comentar
+      reply: Responder
+      said: dixo
+    update: 
+      flash_notice: O comentario actualizouse correctamente.
+  models: 
+    comment: Comentario
+    comments: Comentarios

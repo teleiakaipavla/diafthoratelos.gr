@@ -1,0 +1,22 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  sessions: 
+    create: 
+      flash_error: Anmeldung als „%{login}“ erfolglos
+      flash_notice: erfolgreich angemeldet
+    destroy: 
+      flash_notice: Du bist nun abgemeldet.
+    new: 
+      log_in: Anmeldung
+      not_registered: noch nicht registriert?
+      registered: bereits registriert?
+      remember_me: Anmeldedaten merken
+      sign_in: Anmelden
+      signup: Registrierung
+      with_authentication: Melde Dich mich unserem Authentifizierungssystem an
+      with_facebook: Mit „Facebook“<br />anmelden
+      with_openid: Mit OpenID anmelden
+      with_twitter: Mit „Twitter“<br />anmelden

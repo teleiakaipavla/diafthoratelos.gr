@@ -1,0 +1,20 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+ca: 
+  searches: 
+    form: 
+      clear: Neteja
+      search_box_title: Verifiqueu que la vostra pregunta no s'hagi fet abans
+      tags_tip: Empreu [tag] per a especificar les etiquetes.
+    index: 
+      advanced_search: Cerca avançada
+      description: Utilitzar les opcions de %{link} per obtenir resultats més acurat sobre.
+      empty: No s'han trobat preguntes que coincideixin amb la vostra cerca
+      found_results: s'han trobat resultats %{quantity}.
+      input_legend: Aquesta cerca desada apareixerà en la barra de navegació per a accés ràpid.
+      input_title: "Anomena i Desa aquesta cerca com:"
+      search_text: Preguntes que contenen
+      tags: amb aquestes etiquetes

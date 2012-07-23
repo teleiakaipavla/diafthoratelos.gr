@@ -1,0 +1,36 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  activerecord: 
+    models: 
+      vote: Voto
+      votes: Votos
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Usted y %{votes} otros usuarios han votado para este comentario.
+        no_user_more_votes: Más de %{votes} personas han votado para este comentario. haga clic para votar también.
+        no_user_no_vote: Haga clic aquí para votar para este comentario.
+        no_user_one_vote: Sólo un usuario ha votado para este comentario, haga clic para votar también.
+        one_vote_two_users: Usted y un otro usuario han votado para este comentario.
+        one_vote_user: Sólo usted a votado para este comentario.
+    control: 
+      have_voted_down: Clic para deshacer tu desaprobación
+      have_voted_up: Clic para deshacer tu aprobación
+      to_vote_down: Clic para desaprobar
+      to_vote_up: Clic para aprobar
+    create: 
+      average: 
+        one: "%{count} votos"
+        other: "%{count} votos"
+      flash_error: No puedes votar esta
+      flash_notice: ¡Gracias por tu voto!
+      unauthenticated: Los usuarios anónimos no pueden votar
+    destroy: 
+      flash_notice: Tu voto ha sido revocado exitosamente.
+    model: 
+      messages: 
+        closed_question: No puedes votar en cualquier entrada que pertenezcan a una pregunta cerrada
+        vote_down_comment: Los comentarios no pueden ser votados negativamente

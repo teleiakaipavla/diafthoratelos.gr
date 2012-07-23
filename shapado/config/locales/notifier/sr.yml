@@ -1,0 +1,59 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  notifier: 
+    admin_login: 
+      message1: "%{user} у %{time} се повеза као администратор с ИП адресом %{ip}."
+      subject: "Пажња: администраторска веза"
+    created_flag: 
+      message1: Примили сте ову поруку јер сте модератор групе %{group}.
+      message2: "Порука је пријављена због следећег разлога:"
+      message2bis: Овде можете прочитати означену поруку.
+      message2bistext: "Означену поруку можете прочитати кликом на следећу везу:"
+      message3: "Идите на страницу за модерацију да видите списак означених ставки:"
+      message4: Посетите страницу за модерацију да видите списак означених ставки.
+    earned_badge: 
+      message1: Освојили сте значку %{badge} на %{app}
+      message2: "Опис значке:"
+      message3: Можете погледати освојене значке на својој %{user_page}
+    favorited: 
+      message1: "%{user} сачува ваш одговор у групи %{group} као омиљени"
+      message2: "Питање је гласило:"
+      message3: "Можете је видети овде:"
+    follow: 
+      message1: "%{user} сада прати ваша питања и одговоре на %{app}"
+      message2: Можете и ви њега да пратите кликом на дугме „Прати“ на његовој %{user_page}
+    give_advice: 
+      message1: "%{user} постави питање на које можда знате одговор:"
+      message2: "Просто одговорите на ову поруку ако желите да дате одговор:"
+      message3: "Или пак, ако познајете некога ко би могао одговорити, пошаљите му ову упутну везу:"
+      message4: Ако ускоро не добијемо одговор од вас, питаћемо неког другог. Међутим, можете одговорити када год желите.
+    global: 
+      hi: Здраво, %{user},
+      hi_no_user: Здраво,
+      user_page: корисничкој страници
+    new_answer: 
+      message: "%{user} одговори %{new_answer} на питање %{question}"
+    new_comment: 
+      message: "%{user} прокоментариса %{new_comment} на питање %{link}"
+    new_feedback: 
+      message1: "%{user} <%{email}> посла повратну информацију"
+      message2: Анонимни корисник је послао повратну информацију с ИП адресе %{ip}
+      message3: "Е-адреса: %{email}"
+      message4: "Наслов: %{subject}"
+    new_invitation: 
+      message1: Кликните овде да прихватите позивницу %{link}
+      message2: Екипа групе %{group}.
+      message3: "Порука од позиваоца:"
+      subject: "%{user} вас позва на %{group}"
+    report: 
+      message1: Извештај групе %{group}
+      message2: Од %{date}
+      message3: Постављено је %{questions} питања
+      message4: Одговорено је %{answers} пута
+      message5: Гласано је %{votes} пута
+      message6: Додељено је %{badges} значки
+      message7: Налог има %{users} корисника.
+      message8: Посетите своју групу на %{link}

@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+ENV['RAILS_ENV'] ||= (ARGV.first || 'development')
+require File.expand_path("../../config/environment", __FILE__)
+
+$stderr.puts "Processing #{Group.count} groups.."
+
+Group.find_each(:state => "active") do |group|
+  owners = group.users("membership_list.#{group.id}.role" => 'owner').map { |m| m.id }
+  owners << group.owner_id if group.owner_id && !owners.include?(group.owner_id)
+
+  @report = Report.new(group, Time.now.utc.at_beginning_of_week)
+
+  User.find_each(:_id => {:$in => owners}, "notification_opts.reports" => true) do |user|
+    next if user.email.blank?
+
+    Notifier.deliver_report(user, @report, group)
+  end
+end

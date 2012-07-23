@@ -1,0 +1,21 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} contesto a : %{question}"
+        send_twitter: Mi respuesta a %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} gusto una respuesta de %{author} a %{question}"
+        send_twitter: "Me gustó una respuesta de %{author} a: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} acaba de ganar la insignia %{token} en %{group_name} %{link}"
+        send_twitter: Acabo de ganar la insignia %{token} en %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} comentó en: %{question}"
+        send_twitter: Mi comentario sobre %{question}

@@ -1,0 +1,21 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} odgovori na: %{question}"
+        send_twitter: Odgovor na pitanje %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} se svide odgovor od %{author} na pitanje: %{question}"
+        send_twitter: "Svideo mi se odgovor od %{author} na pitanje: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} osvoji značku %{token} u grupi %{group_name} %{link}"
+        send_twitter: Upravo sam osvojio značku %{token} u grupi %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} prokomentarisa na: %{question}"
+        send_twitter: Moj komentar na pitanje %{question}

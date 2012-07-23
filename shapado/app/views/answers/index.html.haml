@@ -1,0 +1,9 @@
+
+
+-@answers.each do |answer|
+  -@question = answer.question
+  -next if @question.nil?
+  =render 'answers/answer', :answer => answer, :question => @question
+
+
+= paginate @answers

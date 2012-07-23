@@ -1,0 +1,55 @@
+en:
+  notifier:
+    global:
+      hi: "Hi %{user},"
+      hi_no_user: "Hi,"
+      user_page: "user page"
+    favorited:
+      message1: "%{user} saved your answer on %{group} as a favorite"
+      message2: "The question was:"
+      message3: "You can see it here:"
+    earned_badge:
+      message1: "You have earned a %{badge} badge on %{app}"
+      message2: "Badge description:"
+      message3: "You can see all your badges on your %{user_page}"
+    created_flag:
+      message1: "You are receiving this message because you are a moderator of %{group}."
+      message2: "A post has been reported for the following reason:"
+      message2bis: "You can read the flagged post here."
+      message2bistext: "You can read the flagged post by clicking on the following link:"
+      message3: "Go to the moderation page to see the list of flagged items:"
+      message4: "Visit the moderation page to see the list of flagged items."
+    follow:
+      message1: "%{user} is now following your questions and answers on %{app}"
+      message2: 'You may follow him back by clicking on the button "Follow" on his %{user_page}'
+    give_advice:
+      message1: "%{user} just asked a question you might be able to answer:"
+      message2: "To answer, just reply to this message here:"
+      message3: "Or, if you know someone who might be able to answer, send them this referral link:"
+      message4: "If we do not get an answer from you soon, we will ask someone else. You can still answer it whenever you want."
+    new_answer:
+      message: "%{user} answered %{new_answer} to the question %{question}"
+    new_comment:
+      message: "%{user} commented %{new_comment} on the question %{link}"
+    new_feedback:
+      message1: "The user %{user} <%{email}> sent a feedback"
+      message2: "Anonymous user sent a feedback from IP address %{ip}"
+      message3: "Email address: %{email}"
+      message4: "Subject: %{subject}"
+    report:
+      message1: "Report for group %{group}"
+      message2: "Since %{date}"
+      message3: "%{questions} questions were created"
+      message4: "%{answers} answers were created"
+      message5: "%{votes} votes were made"
+      message6: "%{badges} badges were awarded"
+      message7: "The account has %{users} users."
+      message8: "Visit your group at %{link}"
+    admin_login:
+      subject: "Alert: admin connection"
+      message1: "User %{user} has connected as admin at %{time} with the IP address %{ip}."
+    new_invitation:
+      subject: "%{user} has invited you to %{group}"
+      message1: "Click here to accept the invitation %{link}"
+      message2: "The %{group} team."
+      message3: "A message from your inviter:"

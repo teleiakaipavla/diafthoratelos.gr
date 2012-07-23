@@ -1,0 +1,14 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fulup
+# Author: Y-M D
+br: 
+  activerecord: 
+    models: 
+      favorite: Sined
+      favorites: Sinedoù
+  unfavorites: 
+    create: 
+      success: Tennet eo bet ar goulenn d'ho sinedoù
+      unauthenticated: Rankout a rit krouiñ ur gont evit gellout lemel sinedoù

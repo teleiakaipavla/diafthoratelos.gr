@@ -1,0 +1,7 @@
+-if @question.reward.present? && @question.reward.active
+  This question has an open reward worth
+  = "+#{@question.reward.reputation}"
+  reputation from
+  = link_to @question.reward.created_by.display_name, user_path(@question.reward.created_by), :class => "pjax", :"data-layout" => "user"
+  ending in
+  = distance_of_time_in_words(Time.now, @question.reward.ends_at)

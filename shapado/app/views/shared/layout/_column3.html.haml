@@ -1,0 +1,6 @@
+
+-if @show_sidebar
+  %section.right-panel#column3
+    = render "shared/widgets", :context => @widget_context, :position => 'sidebar'
+
+    = yield :sidebar

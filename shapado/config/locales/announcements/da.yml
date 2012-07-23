@@ -1,0 +1,21 @@
+# Messages for Danish (dansk)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Emilkris33
+da: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Ender på
+        message: Besked
+        only_anonymous: Kun for anonyme brugere
+        starts_at: Starter på
+  announcements: 
+    actions: 
+      delete: Fjern
+      title: Handlinger
+    create: 
+      success: Din bekendtgørelse blev oprettet.
+    index: 
+      description: Administrere og opret nye bekendtgørelser, som vil blive vist på hele webstedet til dine besøgende.
+      title: Bekendtgørelser

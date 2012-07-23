@@ -1,0 +1,39 @@
+%h1
+  = t('devise.sessions.signin_group', :group => current_group.name)
+%p.description
+
+-session["return_to"] = request.referrer unless request.referrer.blank?
+
+-if current_group.registered_only
+  .error
+    = t('devise.sessions.registered_only')
+
+- unless params[:open_id]
+  -unless current_group.is_noemail_signup?
+
+    = form_for resource, :url => session_path(resource_name), :html => {:class => "form"} do |f|
+      .field
+        =f.label :email, t("email", :scope => "activerecord.attributes.user")
+        =f.text_field :email, :class => "text_field"
+      .field
+        =f.label :password, t("password", :scope => "activerecord.attributes.user")
+        =f.password_field :password, :class => "password"
+        - if params[:pp] && params[:format] != 'mobile'
+          = hidden_field_tag :pp, 1
+      -if devise_mapping.rememberable?
+        .checkbox
+          =f.check_box :remember_me
+          =f.label :remember_me, t(".remember_me")
+
+      .buttons
+        =f.submit t('devise.sessions.link'), :class => "save"
+- else
+  %form{"accept-charset"=>"UTF-8", :action=>"/users/auth/open_id", :class=>"form", :method=>"get"}
+    .field
+      = label_tag "OpenID", t(".openid_url")
+      = text_field_tag :openid_url, params[:url], :class => "text_field"
+      - if params[:pp] && params[:format] != 'mobile'
+        = hidden_field_tag :pp, 1
+      .buttons
+        = submit_tag t('devise.sessions.link'), :class => "save"
+= render :partial => "shared/devise_links"

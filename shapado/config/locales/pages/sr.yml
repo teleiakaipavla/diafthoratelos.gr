@@ -1,0 +1,36 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Стилски обрасци
+        js: Јаваскрипт
+    models: 
+      page: Страница
+      pages: Странице
+  pages: 
+    actions: 
+      create_page: Направи нову страницу
+      edit_page: Уреди страницу
+      title: Радње
+    create: 
+      success: Страница је направљена.
+    edit: 
+      title: Уређивање странице
+    form: 
+      language_tip: Језик странице
+      title_tip: Користите наслов странице за навођење. На пример, погледајте [[FAQ|често постављена питања]]
+    index: 
+      create_page: Направи нову страницу
+      title: Списак страница
+      wiki: Вики
+      wiki_pages: Вики странице
+      written_in: Написано на %{language}
+    new: 
+      title: Нова страница
+    title: Поправљање
+    update: 
+      success: Страница је ажурирана.

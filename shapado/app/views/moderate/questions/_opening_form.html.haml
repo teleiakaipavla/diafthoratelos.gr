@@ -1,0 +1,12 @@
+= form_for [:moderate, question], :url => open_moderate_question_url(question), :html => {:class => "form", :method => :put} do |form|
+  = render "open_requests/list", :question => question
+
+  = fields_for(@open_request ||= OpenRequest.new) do |fields|
+    .field
+      = fields.label :comment, t(:comment, :scope=>"models"), :class => "label"
+      = fields.text_field :comment, :class => "text_field"
+
+  .buttons
+    = submit_tag t("global.open"), :class => "save"
+    = t("global.or")
+    = link_to t('scaffold.cancel'), question_path(question), :class => "button cancel"

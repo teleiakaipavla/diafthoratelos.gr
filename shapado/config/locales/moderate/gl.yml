@@ -1,0 +1,40 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Pechar unha pregunta
+      index: 
+        all: Todas
+        ban: Vetar
+        banned: Preguntas vetadas
+        content: Contido
+        flagged: Preguntas marcadas
+        item_title: Título
+        need_tags: Necesita etiquetas
+        title: Moderar
+      opening: 
+        title: Abrir unha pregunta
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Prohibida
+        banned_tooltip: Mostrar só as preguntas prohibidas
+        filters: "Filtros:"
+        title: Moderar preguntas
+        unbanned: Desprovista da prohibición
+        unbanned_tooltip: Mostrar só as preguntas ás que se lles retirou a prohibición
+      index: 
+        title: Moderar preguntas
+      subtabs: 
+        flagged: Marcada
+        flagged_tooltip: Preguntas marcadas polos usuarios
+        retag: Necesita etiquetas
+        retag_tooltip: Preguntas sen etiquetas
+        to_close: Solicitudes de peche
+        to_close_tooltip: Preguntas con solicitudes de peche por parte dos usuarios
+        to_open: Solicitudes de reapertura
+        to_open_tooltip: Preguntas pechadas con solicitudes de reapertura por parte dos usuarios

@@ -1,0 +1,22 @@
+!!! 5
+%html{"xml:lang" => I18n.locale, :lang => I18n.locale, :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    = render "shared/layout/head"
+
+  %body{:class => bodys_class(params) }
+    #feedback-btn
+      %p=link_to "Feedback", "/feedback"
+    = render_app_config
+    = render :partial => "shared/topbar"
+    #columns
+      #main-content-wrap
+        = show_flash_messages(:class => "flash", :markdown => true)
+        = yield
+        
+      
+
+      = render "shared/layout/footer"
+      #login_dialog.top-bar{'data-title' => t('devise.sessions.link')}
+        %ul.auth-list
+          %li
+            = render "shared/login_drop_down"

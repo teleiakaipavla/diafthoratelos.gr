@@ -1,0 +1,98 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Armando-Martin
+# Author: Mor
+# Author: Patcito
+# Author: Translationista
+es: 
+  feeds: 
+    feed: Flujo
+    post_new_questions: Publicar nuevas preguntas en
+    question: Subscribirse a esta pregunta
+    questions: Subscribirse a todas las preguntas
+    share_on_twitter: twitter, facebook y mas...
+    tag: Subscribirse al tag
+    user: Subscribirse a las preguntas del usuario
+  global: 
+    actions: Acciones
+    active: Activar
+    alphabetically: Alfabéticamente
+    anonymous: Anónimo
+    blog: Blog
+    by: por
+    by_semi: "Por:"
+    chat: Chat
+    current: Actual
+    edited: Editado
+    edited_by: Editado por
+    edited_by_semi: "Editado por:"
+    feedback: Feedback
+    follow: Seguir
+    followed_by: "Seguido por:"
+    following: Siguiendo
+    from: desde %{site}
+    group_not_found: La página %{url} no existe
+    home: Inicio
+    next_button: Siguiente
+    open: Abrir
+    or: o
+    permission_denied: Permiso denegado
+    please_login: Por favor inicia sesión
+    preview: Vista previa
+    previous: Anterior
+    privacy: Privacidad
+    share: Compartir
+    sign_up: Registrarse
+    size: Tamaño
+    sort_by: "Ordenar por:"
+    tags_label: "Etiquetas:"
+    tos: TDS
+    unfollow: Dejar de seguir
+    unknown_place: Desconocido
+    view: Ver
+    view_question: Ver pregunta
+    what_to_do: ¿Qué quieres hacer?
+  models: 
+    question: La pregunta
+  number: 
+    x_time: 
+      one: "%{count} vez"
+      other: "%{count} veces"
+      zero: Nunca
+  preferred_languages: 
+    any: Cualquiera
+    user: Mis idiomas preferidos
+  roles: 
+    moderator: Moderador
+    owner: Propietario
+    user: Usuario normal
+  scaffold: 
+    add: Añadir
+    are_you_sure: ¿Está seguro?
+    back: Volver
+    cancel: Cancelar
+    close: Cerrar
+    create: Crear
+    destroy: Borrar
+    details: Detalles
+    edit: Editar
+    more: Más...
+    new: Agregar un(a) nuevo(a) %{model}
+    post_as_anonymous: Publicar cómo anónimo
+    save: Guardar
+    send: Enviar
+    show: Ver
+    sure: ¿Esta seguro que quiere borrar esta %{model}?
+    update: Actualizar
+  time: 
+    ago: hace %{time}
+    today: hoy
+    yesterday: ayer
+  views: 
+    pagination: 
+      first: Inicio
+      last: Fin
+      next: Siguiente &raquo;
+      previous: "&laquo; Anterior"
+      truncate: ...

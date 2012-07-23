@@ -1,0 +1,32 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  doc: 
+    chat: 
+      title: Chatt-support
+    plans: 
+      15millions: 15 miljoner sidvisningar/månad
+      1million: 1 miljon sidvisningar/månad
+      247_all_support: Nätbaserad, e-post, chatt och telefon (24/7) support
+      5millions: 5 miljoner sidvisningar/månad
+      all_support: Nätbaserad, e-post, chatt och telefon support
+      basic_restrictions: Inga anpassade annonser och inga helt anpassningsbara UI
+      big_sites: Stora trafikplatser
+      custom_ads: Använd dina egna annonser
+      custom_domain: Egen domän
+      custom_themes: Utnyttja våra färdigt anpassade teman
+      custom_ui: Helt anpassningsbara UI
+      getting_popular: Börjar bli populär
+      huge_sites: Stora trafik-webbplatser
+      month: månad
+      page_views: För små/privata webbplatser
+      private_site: Aktivera privat/offentlig tillgång
+      small_private: Små/Privata webbplatser
+      start_monetizing: börja tjäna pengar
+      support: Support
+      unlimited: Obegränsad trafik varje månad
+      we_offer: Vi erbjuder också ett
+      web_support: Webbaserad support
+      with_unlimited: med obegränsad trafik utan egna annonser och ingen egen domän.

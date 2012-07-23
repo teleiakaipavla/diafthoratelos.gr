@@ -1,0 +1,126 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  admin: 
+    manage: 
+      access: 
+        title: Доступ
+      answers: 
+        banning: 
+          title: Забараніць адказ
+      appearance: 
+        logo_legend: Загрузка лягатыпу для Вашай групы. Яго памер павінен быць меней чым 2 Мб.
+        title: Выберыце і наладзьце Вашую тэму
+      close_group: 
+        description: Закрыцьцё групы зробіць яе недаступнай ні для нікога, акрамя Вас.
+        feedback: "Калі ласка, скажыце нам чаму закрываеце Вашую групу:"
+      content: 
+        description: Наладзіць тэкст і стылі Вашай групы
+        footer: Ніжні калёнтытул
+        head: загаловак
+        question_help: Дапамога па пытаньню
+        question_prompt: Радок запыту пытаньня
+        title: Нестандартны зьмест
+        top_bar: Верхняя панэль
+        top_bar_tip: Уводзьце па адной спасылцы ў радку
+      invitations: 
+        invitations: Дасланыя запрашэньні
+        invitations_title: Сьпіс усіх Вашых дасланых запрашэньняў
+        invite: Запрасіць людзей
+        invite_title: Запрасіць людзей праз электронную пошту
+        title: Запрашэньні
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Задаваньне пытаньняў з Twitter
+          question_asked_to: Пытаньне зададзенае
+          question_must_include: Пытаньне павінна ўтрымліваць наступны тэг, каб трапіць у Twitter.
+          question_must_include_example: "напрыклад, #iAsk"
+          twitter_account: Рахунак Twitter, дзе карыстальнікі будуць задаваць пытаньні.
+        constrains: 
+          reputation_constrains_description: Гэтая форма дазваляе Вам канфігураваць колькасьць пунктаў рэпутацыі, якія неабходныя карыстальніку для выкананьня дзеяньня
+          reputation_constrains_subtitle: Сьпіс патрабаваньняў рэпутацыі для кожнага дзеяньня
+          title: Патрабаваньні
+        domain: 
+          description: "Вы можаце наладзіць розныя дамэны для Вашага Shapado так, каб да яго можна было зьвяртацца праз уласны нестандартны дамэн. Вось як гэта зрабіць:"
+          instruction1: Для гэтага, спачатку трэба ўвайсьці ў сыстэму правайдэра Вашага дамэну. Гэта сайт, дзе Вы набылі Ваш дамэн, напрыклад %{subdomain}.com.
+          instruction2: Там Вам неабходна перайсьці ў сэкцыю DNS і стварыць што-небудзь з назвай CNAME.
+          instruction3: Выберыце 'www' ці што-небудзь іншае як назву Вашага CNAME.
+          instruction4: "Потым у полі хоста ці мэты устаўце Ваш цяперашні дамэн Shapado: %{domain}."
+          instruction5: Пасьля таго, як гэта будзе зроблена, прыкладна праз гадзіну, Ваш дамэн www.%{subdomain} павінен спасылацца на %{appdomain}.
+          instruction6: Калі справа ў гэтым, вярніцеся сюды і ўстаўце назву Вашага дамэну www.%{subdomain} у полі ніжэй і націсьніце кнопку «Абнавіць». Калі Вы маеце пытаньні, задайце іх нам на %{chat_url} ці ў форуме падтрымкі.
+          title: Наладзіць Ваш нестандартны дамэн
+          warning: Вы ўпэўнены, што жадаеце зьмяніць Ваш дамэн?
+        facebook_app: 
+          application_id: Ідэнтыфікатар дастасаваньня
+          facebook_app: Налады дастасаваньня Facebook
+          legend: Вы можаце наладзіць Вашае дастасаваньне Facebook. Яно будзе выкарыстоўвацца для ўваходу Вашых карыстальнікаў зь іх рахунку на Facebook. Заўважце, гэта неабходна толькі калі Вы выкарыстоўваеце нестандартны дамэн.
+          secret_key: Сакрэтны ключ
+        general: 
+          title: Уласьцівасьці групы
+        invitations: 
+          resend_button: Даслаць яшчэ раз
+          revoke_button: Адклікаць
+        invite: 
+          body_instructions: Напісаць паведамленьне людзям, якіх Вы запрашаеце (неабавязкова)
+          body_length_warning: Тэкст ня можа ўтрымліваць болей 400 сымбаляў
+          emails_instructions: Увядзіце адрасы электроннай пошты падзеленыя коскамі
+          invitations: Дасланыя запрашэньні
+          invite: Запрасіць людзей
+          title: Запрасіць людзей праз электронную пошту
+          user_role: Запрасіць карыстальнікаў як
+        post_to_twitter: 
+          legend: Гэтая старонка дазваляе Вам наладжваць тое, што дасылаецца на Twitter. Выкарыстоўваецца рахунак <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>, калі Вы жадаеце выкарыстоўваць іншы рахунак, калі ласка, націсьніце <a href="%{link}">тут</a>.
+          legend_connect: Гэтая старонка дазваляе Вам наладжваць тое, што дасылаецца на Twitter. Спачатку Вам неабходна пазначыць рахунак на Twitter, калі ласка, націсьніце <a href="%{link}">тут</a> каб гэта зрабіць.
+          post_to_twitter: Дасылаць актыўнасьць у Twitter
+          send_answers_to_twitter: Дасылаць усе адказы на Twitter
+          send_badges_to_twitter: Даслаць усе апошнія выйграныя ўзнагароды на Twitter
+          send_comments_to_twitter: Дасылаць усе камэнтары на Twitter
+          send_favorites_to_twitter: Даслаць усе ўлюблёныя пытаньні на Twitter
+          send_questions_to_twitter: Даслаць усе пытаньні на Twitter
+        rewards: 
+          reputation_rewards_description: Гэтая форма дазваляе Вам наладжваць як карыстальнікі могуць атрымліваць ці страчваць пункты рэпутацыі для пададзеных дзеяньняў
+          reputation_rewards_subtitle: Сьпіс узнагародаў
+          title: Узнагароды
+        share: 
+          title: Доступ
+        tag_your_tweets: 
+          add_tags: Дадаваць тэгі да Вашых запісаў у Twitter
+          ends_with_example: "напрыклад, #shapado"
+          starts_with_example: "напрыклад, #qa"
+          title: Пазначаць Вашыя запісы ў Twitter
+          tweet_ends_with: Далучаць тэг у канец Вашых паведамленьняў на Twitter
+          tweet_starts_with: Далучыць тэг у пачатак Вашых паведамленьняў у Twitter
+        title: Уласьцівасьці групы
+        twitter_account: 
+          connect_to_other_twitter: Націсьніце тут, каб далучыць розныя рахункі на Twitter з Вашай групай
+          connect_to_twitter: Націсьніце тут, каб злучыць рахунак на Twitter з Вашай групай
+          disconnect_twitter_group: Разлучыць гэтую групу з Twitter
+          legend: Гэты рахунак будзе выкарыстоўвацца для адпраўкі новых пытаньняў і адказаў на Twitter.
+          legend_with_account: Ваш рахунак на Twitter <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> будзе выкарыстоўвацца для адпраўкі новых пытаньняў і адказаў на Twitter. <a href="%{link}">Тут</a> Вы можаце наладзіць што дасылаць на Twitter.
+          twitter_account: Рахунак на Twitter
+        twitter_app: 
+          key: Ключ дастасаваньня
+          secret: Сакрэт дастасаваньня
+          twitter_app: Дастасаваньне Twitter
+      questions: 
+        banning: 
+          title: Забараніць пытаньне
+      social: 
+        ask_from_twitter: Спытаць у Twitter
+        ask_from_twitter_title: Дазволіць карыстальнікам задаваць пытаньні з Twitter
+        description: Далучыць Вашую групу да Вашых сацыяльных сетак
+        facebook_app: Дастасаваньне Facebook
+        facebook_app_title: Наладзіць Вашае дастасаваньне Facebook так, каб дазволіць Вашым карыстальнікам уваходзіць у сыстэму з іх рахункам на Facebook
+        post_to_twitter: Зрабіць запіс у Twitter
+        post_to_twitter_title: Публікаваць усе пытаньні і адказы ў Twitter аўтаматычна
+        tag_your_tweets: Пазначце Вашыя запісы ў Twitter
+        tag_your_tweets_title: Дадаваць тэгі да Вашых запісаў у Twitter
+        title: Узаемадзеяньне праз сацыяльныя мэдыя
+        twitter_account: Рахунак на Twitter
+        twitter_account_title: Наладзіць Ваш рахунак на Twitter так, каб была магчымасьць публікаваць у Twitter
+      top_admin: 
+        site: Сайт
+        title: Адміністратар

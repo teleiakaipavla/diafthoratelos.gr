@@ -1,0 +1,181 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    models: 
+      badge: Insignia
+      badges: Insignias
+  badges: 
+    index: 
+      all_tooltip: Mostrar todas as insignias de ouro, prata e bronce.
+      bronze: Bronce
+      bronze_tooltip: As insignias de bronce son fáciles de gañar e animan aos usuarios a participar.
+      description: Canto máis contribúa formulando preguntas ou respondéndoas, máis insignias gañará. Todas elas aparecerán na páxina do seu perfil.
+      general: Insignias ordinarias
+      general_tooltip: Mostrar todas as insignias predefinidas.
+      gold: Ouro
+      gold_tooltip: As insignias de ouro son a mellor recompensa, pero tamén as máis difíciles de obter. Unicamente os usuarios máis dedicados consiguen esta recompensa.
+      silver: Prata
+      silver_tooltip: As insignias de prata gáñanas os usuarios activos que se implican durante un longo período de tempo.
+      tags: Insignias de etiquetas
+      tags_tooltip: Cando unha pregunta etiquetada con X recibe respostas con máis de 100 votos positivos, créase unha insignia X co nome desa etiqueta.
+      title: Insignias
+    shared: 
+      addict: 
+        description: Visitou o sitio cada día durante 20 días consecutivos
+        name: Adicto
+      altruist: 
+        description: Primeira recompensa que concedeu manualmente pola pregunta doutra persoa
+        name: Altruísta
+      autobiographer: 
+        description: Completou todos os campos do perfil de usuario
+        name: Autobiógrafo
+      benefactor: 
+        description: Primeira recompensa que concedeu manualmente pola súa propia pregunta
+        name: Benfeitor
+      celebrity: 
+        description: Ten máis de 100 seguidores
+        name: Celebridade
+      citizen_patrol: 
+        description: Primeira mensaxe da que informou
+        name: Patrulla do cidadán
+      civic_duty: 
+        description: Votou 300 veces
+        name: Obriga cívica
+      cleanup: 
+        description: Fixo a súa primeira reversión
+        name: Limpeza
+      commentator: 
+        description: Deixou 10 comentarios
+        name: Comentador
+      critic: 
+        description: Votou negativamente por vez primeira
+        name: Crítico
+      disciplined: 
+        description: Borrou a súa propia mensaxe cunha puntuación de 3 ou maior
+        name: Disciplinado
+      editor: 
+        description: Primeira mensaxe editada
+        name: Editor
+      effort_medal: 
+        description: Recibiu 100 votos positivos
+        name: Medalla do esforzo
+      enlightened: 
+        description: Ten unha resposta aceptada con, polo menos, 10 votos positivos
+        name: Esclarecido
+      famous_question: 
+        description: Realizou unha pregunta con 10.000 visitas
+        name: Pregunta famosa
+      fanatic: 
+        description: Visitou o sitio cada día durante 100 días consecutivos
+        name: Fanático
+      favorite_answer: 
+        description: Ten unha resposta que 25 usuarios marcaron como favorita
+        name: Resposta favorita
+      favorite_question: 
+        description: Fixo unha pregunta seguida por 25 usuarios
+        name: Pregunta favorita
+      friendly: 
+        description: Segue a alguén por vez primeira
+        name: Agradable
+      good_answer: 
+        description: Deu unha resposta que atinxe unha media de máis de 25 votos
+        name: Boa resposta
+      good_question: 
+        description: Fixo unha pregunta que atinxe unha media de máis de 25 votos
+        name: Boa pregunta
+      great_answer: 
+        description: Ten unha resposta votada positivamente 100 veces
+        name: Resposta formidable
+      great_question: 
+        description: Pregunta votada positivamente 100 veces
+        name: Pregunta formidable
+      guru: 
+        description: Deu unha solución a unha pregunta, cunha media de máis de 40 votos
+        name: Gurú
+      inquirer: 
+        description: Fixo unha pregunta por vez primeira
+        name: Indagador
+      interesting_person: 
+        description: Ten máis de 10 seguidores
+        name: Persoa interesante
+      investor: 
+        description: Primeira recompensa que ofreceu pola pregunta doutra persoa
+        name: Investidor
+      merit_medal: 
+        description: Recibiu 200 votos positivos
+        name: Medalla do mérito
+      necromancer: 
+        description: Respondeu a unha pregunta máis de 60 días despois con, polo menos, 5 votos
+        name: Nigromante
+      nice_answer: 
+        description: Ten unha resposta votada positivamente 10 veces
+        name: Boa resposta
+      nice_question: 
+        description: Fixo unha pregunta votada positivamente 10 veces
+        name: Boa pregunta
+      notable_question: 
+        description: Realizou unha pregunta con 2.500 visitas
+        name: Pregunta memorable
+      organizer: 
+        description: Fixo o seu primeiro cambio de etiqueta
+        name: Organizador
+      peer_pressure: 
+        description: Borrou a súa propia mensaxe cunha puntuación de -3 ou menor
+        name: Presión dos pares
+      pioneer: 
+        description: Sexa un dos primeiros usuarios en se rexistrar
+        name: Pioneiro
+      popstar: 
+        description: Ten 500 votos positivos, máximo de 10 votos negativos
+        name: Estrela do pop
+      popular_person: 
+        description: Ten máis de 50 seguidores
+        name: Persoa popular
+      popular_question: 
+        description: Realizou unha pregunta con 1.000 visitas
+        name: Pregunta popular
+      promoter: 
+        description: Primeira recompensa que ofreceu pola súa propia pregunta
+        name: Promotor
+      rockstar: 
+        description: Ten 1.000 votos positivos, máximo de 10 votos negativos
+        name: Estrela do rock
+      scholar: 
+        description: Respondeu á súa primeira pregunta cunha resposta aceptada
+        name: Alumno
+      self-learner: 
+        description: Respondeu á súa propia pregunta con, polo menos, 3 votos positivos
+        name: Autodidacta
+      service_medal: 
+        description: Ten 300 votos positivos
+        name: Medalla do servizo
+      shapado: 
+        description: Visitou o sitio cada día durante 8 días consecutivos
+      stellar_answer: 
+        description: Ten unha resposta que 100 usuarios marcaron como favorita
+        name: Resposta estelar
+      stellar_question: 
+        description: Fixo unha pregunta seguida por 100 usuarios
+        name: Pregunta estelar
+      student: 
+        description: Preguntou por vez primeira con, polo menos, un voto positivo
+        name: Estudante
+      supporter: 
+        description: Votou positivamente por vez primeira
+        name: Seguidor
+      troubleshooter: 
+        description: Respondeu por vez primeira
+        name: Amañador de problemas
+      tutor: 
+        description: Deu unha solución a unha pregunta, cunha media de máis de 2 votos
+        name: Titor
+    show: 
+      description: "Usuarios que gañaron esta insignia. Recentemente outorgada a:"
+      earned: gañou
+      for_tag_bronze: 200 votos na etiqueta "%{tag}"
+      for_tag_gold: 1.000 votos na etiqueta "%{tag}"
+      for_tag_silver: 400 votos na etiqueta "%{tag}"
+      title: Insignia %{type}

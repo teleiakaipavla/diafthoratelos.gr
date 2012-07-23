@@ -1,0 +1,18 @@
+.module.clearfix.widget.block{:class => 'widget-tag_cloud'}
+  = render "widgets/header", :widget => widget
+  %aside
+    .active-tags
+      - self.current_tags.each do |tag|
+
+        %span.tag{:class => "tag_#{h(tag)}"}
+          = tag_link(tag)
+          - tags = (self.current_tags - [tag])
+
+          - if tags.empty?
+            = link_to "-", tag_path(:id => self.current_tags.map{|t| CGI.escape(t)}.join("+")), :class => "remove_tag"
+          - else
+            = link_to "-", tag_path(:id => tags.map{|t| CGI.escape(t)}.join("+")), :class => "remove_tag"
+
+    %div{:style => widget.settings["style"]}
+      = tag_cloud([], {}, widget.settings["limit"], widget.settings["style"])
+

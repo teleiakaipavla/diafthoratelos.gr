@@ -1,0 +1,14 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  activerecord: 
+    models: 
+      favorite: Избранное
+      favorites: Избранные
+  unfavorites: 
+    create: 
+      success: Вопрос был удалён из вашего списка избранного
+      unauthenticated: Вам нужно зарегистрироваться, чтобы удалять из избранного

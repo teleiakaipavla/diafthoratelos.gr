@@ -1,0 +1,52 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+# Author: Evropi
+el: 
+  layouts: 
+    application: 
+      ask_question: Κάντε ερώτηση
+      badges: Τίτλοι
+      forgot: Ξεχάσατε;
+      home: Κεντρική
+      languages: Γλώσσες
+      log_in: Είσοδος
+      logged: Συνδεδεμένοι ως %{login}
+      logout: Έξοδος
+      manage_ads: Διαχείριση διαφημίσεων
+      moderate: Συντονισμός
+      now: τώρα!
+      openid: 
+        explaination: "Αν θέλετε να εγγραφείτε ή απλώς να συνδεθείτε, επιλέξτε παρακαλώ τον OpenID πάροχο σας:"
+      pages: Σελίδες
+      questions: Ερωτήσεις
+      questions_in: Ερωτήσεις στα
+      questions_tagged: με τις ετικέτες
+      search: Αναζήτηση
+      settings: Ρυθμίσεις
+      signup: Εγγραφή
+      subscribe: Εγγραφή
+      tags: Ετικέτες
+      title: Ερωτήσεις & Απαντήσεις
+      unanswered: Αναπάντητες
+      users: Μέλη
+      welcome_from: Καλώς ορίσατε! Μπορείτε
+    manage: 
+      actions: Ενέργειες
+      announcements: Ανακοινώσεις
+      constrains: Περιορισμοί
+      content: Περιεχόμενο
+      dashboard: Ταμπλό
+      domain: Domain
+      general: Γενικά
+      members: Μέλη
+      pages: Σελίδες
+      properties: Ιδιότητες
+      reputation: Υπόληψη
+      rewards: Ανταμοιβές
+      stats: Στατιστικά
+      theme: Θέμα
+      widgets: Widgets
+    notifications: 
+      message: Εάν δεν θέλετε να λαμβάνετε αυτόματες ειδοποιήσεις από το %{group} πια, αλλάξτε τις προτιμήσεις σας στην σελίδα ειδοποιήσεων.

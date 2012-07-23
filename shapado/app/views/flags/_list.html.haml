@@ -1,0 +1,8 @@
+-if !flaggeable.flags.empty?
+  %ul.flags.list
+    -flaggeable.flags.group_by{|f| f.reason}.each do |reason, flags|
+      %li
+        = flags.size
+        x
+        %strong
+          = t(reason, :scope=>"flags.form")

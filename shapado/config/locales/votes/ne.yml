@@ -1,0 +1,36 @@
+# Messages for Nepali (नेपाली)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: RajeshPandey
+ne: 
+  activerecord: 
+    models: 
+      vote: मतहरू
+      votes: मतहरू
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: तपाइ र %{votes} जना अर्का प्रयोगकर्ताले यस टिप्पणीमा भोट दिएका छन्।
+        no_user_more_votes: "%{votes} भन्दा धेरै प्रयोगकर्ताले यस टिप्पणीलाइ भोट दिएका छन्, तपाइँले पनि यसलाइ भोट दिन क्लिक गर्नुहोस।"
+        no_user_no_vote: यस टिप्पणीमा भोट दिन क्लिक गर्नुहोस।
+        no_user_one_vote: एकजना प्रयोगकर्ताले मात्र यस टिप्पणीलाइ भोट दिएका छन्, तपाइँले पनि यसलाइ भोट दिन क्लिक गर्नुहोस।
+        one_vote_two_users: तपाइ र एकजना अर्को प्रयोगकर्ताले यस टिप्पणीमा भोट दिएका छन्।
+        one_vote_user: तपाइले मात्रै यस टिप्पणीमा भोट दिनुभएको छ।
+    control: 
+      have_voted_down: विपक्षमा दिइएको भोट हटाउन क्लिक गर्नुहोस
+      have_voted_up: पक्षमा दिइएको भोट हटाउन क्लिक गर्नुहोस
+      to_vote_down: विपक्षमा भोट दिन क्लिक गर्नुहोस
+      to_vote_up: पक्षमा भोट दिन क्लिक गर्नुहोस
+    create: 
+      average: 
+        one: "%{count} मत"
+        other: "%{count} मतहरू"
+      flash_error: तपाइले यसलाइ मत दिन मिल्दैन
+      flash_notice: मतदानको लागि धन्यवाद!
+      unauthenticated: बेनामी प्रयोगकर्ताहरूले भोट दिन सक्दैनन
+    destroy: 
+      flash_notice: तपाइको मत सफलतापुर्वक फिर्ता गरियो।
+    model: 
+      messages: 
+        closed_question: तपाइले कुनैपनि बन्द भएको प्रश्न संग सम्बन्धित प्रविष्टिमा भोट गर्न सक्नुहुँदैन
+        vote_down_comment: टिप्पणीहरूको बिरूद्दमा भोट दिन मिल्दैन

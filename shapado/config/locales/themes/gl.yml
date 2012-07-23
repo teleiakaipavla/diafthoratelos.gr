@@ -1,0 +1,45 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Toliño
+gl: 
+  themes: 
+    edit: 
+      title: Editar o tema visual
+    form: 
+      bg_color_legend: Establecer a cor de fondo; asegúrese de utilizar o contraste adecuado para a súa aplicación.
+      bg_image_legend: Esta imaxe aparecerá como fondo de cada páxina. O tamaño non pode superar os 800k e debe estar en formato GIF, JPG ou PNG.
+      colors_and_bg: Cores e fondos
+      custom_css_legend: Se coñece a linguaxe CSS, use isto para personalizar o estilo do seu sitio. Pode empregar CSS regular ou SCSS.
+      fluid_layout: Esquema fluído
+      fluid_layout_legend: Un esquema fluído fará que o largo de cada elemento da páxina dependa do tamaño da páxina e non do elemento inicial. Noutras palabras, ao cambiar o tamaño da ventá do navegador ou utilizar un dispositivo de pantalla pequena, o esquema adáptase ás novas dimensións.
+      main_color_legend: Esta é unha das cores máis usadas nas páxinas; asegúrese de seleccionar a adecuada para a súa comunidade.
+      modules_color_legend: Asegúrese de que esta cor e a cor principal quedan ben xuntas.
+      submit_update: Actualizar o tema visual
+      text_color_legend: Asegúrese de que o seu texto se poida ler e que sexa compatible coa cor de fondo.
+      update: Actualizar o tema visual
+    index: 
+      description: Atope aquí os seus temas visuais e cambie a aparencia da súa aplicación.
+      new_theme: Pode construír o seu propio tema visual aquí.
+    ready: 
+      success: O seu tema visual está listo!
+    show: 
+      apply: Aplicar
+      bg_color: Cor de fondo
+      bg_image: Imaxe de fondo
+      brand_color: Cor da marca
+      button_bg: Cor de fondo dos botóns
+      button_fg: Cor de primeiro plano dos botóns
+      fg_color: Cor de primeiro plano
+      fluid: Fluído (isto fará que o esquema sexa elástico se a ventá do navegador cambia de tamaño)
+      link_bg: Cor de fondo das ligazóns
+      link_fg: Cor de primeiro plano das ligazóns
+      main_color: Cor principal
+      modules_color: Cor dos módulos
+      not_ready: Este tema visual non está listo para o seu uso; volva noutro momento.
+      text_color: Cor do texto
+      try: Intentar
+      use_link_bg: Utilizar un fondo para as ligazóns
+      view_bg: Cor de fondo da vista
+      view_fg: Cor de primeiro plano da vista

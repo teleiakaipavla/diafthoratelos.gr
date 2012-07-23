@@ -1,0 +1,75 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Hzy980512
+zh-CN: 
+  activerecord: 
+    attributes: 
+      group: 
+        default_tags: 默认标签
+        description: 说明
+        domain: 域
+        enable_latex: 启用 LaTeX
+        fb_button: 启用 Facebook 类似按钮（不隐私友好）
+        forum: 允许用户通过多个答案
+        group_created_by: 通过创建
+        language: 默认语言
+        legend: 图例
+        logo: 徽标
+        may_contain_adult_content: 此网站可能包含成人内容
+        name: 名称
+        owner: 这一组是由 %{login} 创建
+        registered_only: 只有已登记的人可以访问网站
+        state: 状态
+        subdomain: URL
+        wysiwyg_editor: 启用用户友好的编辑器
+    models: 
+      default_tags_message: 你不能拥有 10 多个默认标签
+      group: 集团
+      groups: 组
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: 抱歉，出了点问题。请再试试。
+    create: 
+      flash_notice: 已成功创建您的组。您现在可以开始配置它。
+    form: 
+      access: 访问设置
+      analytics_engine: 分析引擎
+      analytics_legend: 该小组将能够使用其自己的跟踪代码
+      any_language: 任何
+      custom_analytics: 允许自定义分析
+      custom_html: 允许使用自定义 HTML
+      custom_js: 允许自定义的 JavaScript
+      default_tags_legend: 用逗号的单独标记。只有 10 允许的默认标签。
+      description_legend: 你有 400 个字符描述组。
+      isolate_group: 隔离其他组的组
+      legend_legend: 它将在标题中使用。你有 40 个字符。
+      logo_legend: 你可以上传集团标志。最大文件大小为 2MB。
+      members_only: 只有小组的成员将能够访问此组
+      website_analytics_id: 网站分析 ID
+    group: 
+      about: 关于
+      accept_group: 接受此组
+      allow_ads: 允许广告
+      close: 关闭
+      close_group: 关闭此组
+      disallow_ads: 禁止广告
+    index: 
+      actives: 活动
+      filter: 搜索组
+      most_active: 最活跃
+      name: 名称
+      pendings: 挂起
+      request_group: 请求一个新的组
+      title: 组
+    new: 
+      title: 创建您的组
+    show: 
+      accept_group: 接受此组
+      accept_group_with_custom_ads: 接受组，并允许自定义广告
+      close_group: 关闭此组
+      group_awaiting_acceptance: 这一组正在等待接受的一名主持人。
+      group_closed: 此组被关闭。
+      title: 关于 %{name}
+      visit_group: 访问此组

@@ -1,0 +1,20 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Termina a
+        message: Mensagem
+        only_anonymous: Só para utilizadores anónimos
+        starts_at: Inicia a
+  announcements: 
+    actions: 
+      delete: Remover
+      title: Acções
+    create: 
+      success: A notificação do site foi criada.
+    index: 
+      title: Notificações do site

@@ -1,0 +1,37 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dani
+# Author: Dj
+hu: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Stíluslapok
+        js: JavaScript
+    models: 
+      page: lap
+      pages: lapok
+  pages: 
+    actions: 
+      create_page: Új lap létrehozása
+      edit_page: Lap szerkesztése
+      title: Műveletek
+    create: 
+      success: A lap sikeresen létrejött.
+    edit: 
+      title: Lap szerkesztése
+    form: 
+      language_tip: Lap nyelve
+      title_tip: "A lap címe. Ezzel hivatkozhatsz a lapra, például így: [[GyIK|nézd meg a GyIK-ot]]"
+    index: 
+      create_page: Új lap létrehozása
+      title: Lapok listája
+      wiki: Wiki
+      wiki_pages: Wiki lapok
+      written_in: "%{language} nyelven íródott"
+    new: 
+      title: Új lap
+    title: Javítandó
+    update: 
+      success: A lap sikeresen frissítve lett.

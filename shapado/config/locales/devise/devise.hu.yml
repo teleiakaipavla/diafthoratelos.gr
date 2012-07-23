@@ -1,0 +1,60 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dani
+# Author: Dj
+hu: 
+  devise: 
+    confirmations: 
+      confirmed: A fiókod meg van erősítve. Most már bejelentkezhetsz.
+      send_instructions: Néhány percen belül kapsz egy e-mailt a fiókod megerősítéséhez szükséges utasításokkal
+    failure: 
+      inactive: A fiókod még nincs aktiválva.
+      invalid: Érvénytelen e-mail cím vagy jelszó.
+      invalid_token: Érvénytelen hitelesítési token.
+      locked: A fiókod zárolva van.
+      timeout: A munkameneted lejárt, jelentkezz be újra a folytatáshoz.
+    mailer: 
+      confirm_account: 
+        link: Fiókom megerősítése
+        welcome: Üdvözlet
+      confirmation_instructions: 
+        subject: Megerősítési utasítások
+      hello: Szia
+      reset_password: 
+        instruction1: Valaki egy jelszó lecserélő hivatkozást kért, és most ezen a hivatkozáson keresztül meg is teheted.
+        link: Jelszó megváltoztatása
+        nonrequested: Ha nem Te kérted ezt, akkor hagyd figyelmen kívül ezt a levelet.
+        warning: A jelszavad nem fog változni, amíg nem kattintasz a hivatkozásra, és létre nem hozol egy újat.
+      reset_password_instructions: 
+        subject: Utasítások új jelszó kéréséhez
+      unlock: 
+        instruction1: A fiókod zárolva lett, mivel jelentős számú sikertelen bejelentkezési próbálkozást észleltünk.
+        instruction2: "Kattintson a hivatkozásra, a fiók zárolásának feloldásához:"
+        link: A fiókom zárolásának feloldása
+      unlock_instructions: 
+        subject: Feloldási utasítások
+    passwords: 
+      link: Elfelejtetted a jelszavadat?
+      send_button: Küldd el a jelszó visszaállító utasításokat
+      send_instructions: Néhány percen belül kapsz egy e-mailt az új jelszó kéréséhez szükséges utasításokkal
+      updated: A jelszavad megváltozott. Most már bejelentkezhetsz.
+    registrations: 
+      destroyed: Viszlát! A fiókodat töröltük. Reméljük, hamarosan újra láthatunk.
+      link: Regisztráció
+      signed_up: Sikeresen regisztráltál. Ha engedélyezve van, megerősítő e-mail-t küldtünk a címedre.
+      updated: Frissítetted a fiókodat.
+    sessions: 
+      link: Bejelentkezés
+      new: 
+        openid_url: OpenID URL
+        remember_me: Maradjak bejelentkezve
+      registered_only: A tartalom megjelenítéséhez be kell jelentkezned.
+      sign_out: Kijelentkezés
+      signed_in: Bejelentkezve.
+      signed_out: Kijelentkezve.
+      signin_group: Bejelentkezés a %{group} csoportba
+    unlocks: 
+      link: Nem kaptad meg a feloldáshoz szükséges utasításokat?
+      send_instructions: Néhány perc múlva kapsz egy e-mailt a fiók feloldásához szükséges utasításokkal.
+      unlocked: A fiókod feloldva, most már bejelentkezhetsz.

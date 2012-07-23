@@ -1,0 +1,30 @@
+.tooltip
+  .tooltip-header
+    .tooltip-avatar
+      = avatar_img @user, :size => "small"
+
+    .tooltip-name
+      %p= t('questions.index.has_followers', :count => @user.followers_count.to_i)
+      = follow_user_link(@user)
+  .tooltip-description
+    -if @user.owner_of?(current_group)
+      %span.owner{:title => "admin"}
+        = t('users.user_mini.admin')
+
+    -elsif @user.mod_of?(current_group)
+      %span.mod{:title => "moderator"}
+        = t('users.user_mini.mod')
+
+    -elsif @user.editor_of?(current_group)
+      %span.editor{:title => "editor"}
+        = t('users.user_mini.editor')
+    - if !@user.bio.blank?
+      = link_to truncate(@user.bio, :length => 50), @user
+    - else
+      - if logged_in? && current_user == @user
+        = link_to t('users.show_json.edit_it'), settings_path
+      - else
+        = t('users.show_json.no_description')
+
+
+

@@ -1,0 +1,16 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Ρόλος
+  members: 
+    form: 
+      login_tip: Αναζήτηση κατά την πληκτρολόγηση
+    index: 
+      manage_members_title: Διαχείριση μελών
+      title: Μέλη της ομάδας %{name}
+      title_isolate: Μέλη της ομάδας %{name}

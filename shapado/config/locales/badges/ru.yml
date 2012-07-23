@@ -1,0 +1,169 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Eleferen
+# Author: Express2000
+# Author: Lockal
+ru: 
+  activerecord: 
+    models: 
+      badge: Бедж
+      badges: Беджи
+  badges: 
+    index: 
+      bronze: Бронза
+      description: Чем больше твой вклад в задавании и ответах на вопросы, тем больше у тебя значков. Значки будут отображаться на странице твоего профиля.
+      gold: Золото
+      silver: Серебро
+      title: беджи
+    shared: 
+      addict: 
+        description: Посещал сайт каждый день 20 дней подряд
+        name: Увлечённый
+      altruist: 
+        description: За первую награду, вручённую специально для вопроса другого участника
+        name: Альтруист
+      autobiographer: 
+        description: Заполнил все поля пользовательского профиля
+        name: Автобиограф
+      benefactor: 
+        description: За первую награду, вручённую специально на собственном вопросе
+        name: Покровитель
+      celebrity: 
+        description: Число подписчиков составило более 100
+        name: Знаменитость
+      citizen_patrol: 
+        description: Первый раз отметил пост
+        name: Патрулирующий
+      civic_duty: 
+        description: Проголосовал 300 раз
+        name: Гражданский долг
+      cleanup: 
+        description: Сделал первый откат
+        name: Очистка
+      commentator: 
+        description: Оставил 10 комментариев
+        name: Комментатор
+      critic: 
+        description: Первый раз проголосовал «против»
+        name: Критик
+      disciplined: 
+        description: Удалил собственный пост с оценкой 3 или выше
+        name: Дисциплинированный
+      editor: 
+        description: Первый раз отредактировал пост
+        name: Редактор
+      effort_medal: 
+        description: Получил 100 положительных голосов
+        name: Медаль за стремление
+      enlightened: 
+        description: Дал ответ, который приняли хотя бы с 10 голосами «за»
+        name: Просвещённый
+      famous_question: 
+        description: Задал вопрос с 10000 просмотров
+        name: Отличный вопрос
+      fanatic: 
+        description: Посещал сайт каждый день 100 дней подряд
+        name: Фанатик
+      favorite_question: 
+        description: Задал вопрос, который добавили в избранное 25 пользователей
+        name: Любимый вопрос
+      friendly: 
+        description: Впервые подписался на кого-то
+        name: Дружественный
+      good_answer: 
+        description: Написал ответ, получивший в среднем больше 25 голосов
+        name: Хороший ответ
+      good_question: 
+        description: Задал вопрос, получивший в среднем более 25 голосов
+        name: Хороший вопрос
+      great_answer: 
+        description: Дал ответ, в пользу которого проголосовали 100 раз
+        name: Отличный ответ
+      great_question: 
+        description: Задал вопрос со 100 голосами «за»
+        name: Отличный вопрос
+      guru: 
+        description: Дал решение вопроса со средним числом голосов более 40
+        name: Гуру
+      inquirer: 
+        description: Задал первый вопрос
+        name: Опрашивающий
+      interesting_person: 
+        description: Число подписчиков составило более 10
+        name: Интересная личность
+      investor: 
+        description: За первую награду, предложенную другому пользователю за вопрос
+        name: Инвестор
+      merit_medal: 
+        description: Получил 200 голосов «за»
+        name: Медаль за заслуги
+      necromancer: 
+        description: Ответил более чем 60 дней спустя  на вопрос  по крайней мере с 5 голосами
+        name: Некромант
+      nice_answer: 
+        description: Отправил ответ с 10 голосами «за»
+        name: Хороший ответ
+      nice_question: 
+        description: Задал вопрос, в пользу которого проголосовали 10 раз
+        name: Хороший вопрос
+      notable_question: 
+        description: Задал вопрос с 2500 просмотров
+        name: Примечательный вопрос
+      organizer: 
+        description: Первый раз изменил теги
+        name: Организатор
+      peer_pressure: 
+        description: Удалил собственный пост с оценкой -3 или ниже
+        name: Под давлением со стороны
+      pioneer: 
+        description: Зарегистрировался одним из первых
+        name: Пионер
+      popstar: 
+        description: Имеет 500 голосов «за» и до 10 голосов «против»
+        name: Звезда эстрады
+      popular_person: 
+        description: Число подписчиков составило более 50
+        name: Популярная личность
+      popular_question: 
+        description: Задал вопрос с 1000 просмотров
+        name: Популярные вопросы
+      promoter: 
+        description: За первую награду, предложенную за собственный вопрос
+        name: Промоутер
+      rockstar: 
+        description: 1000 голосов «за» и до 10 голосов «против»
+        name: Рок-звезда
+      scholar: 
+        description: Впервые ответил на свой вопрос принятым ответом
+        name: Эрудит
+      self-learner: 
+        description: Ответил на собственный вопрос хотя бы с тремя голосами «за»
+        name: Самообучающийся
+      service_medal: 
+        description: Получил 300 голосов «за»
+        name: Памятная медаль
+      shapado: 
+        description: Посещал сайт каждый день 8 дней подряд
+      stellar_question: 
+        description: Задал вопрос, который добавили в избранное 100 пользователей
+        name: Звёздный вопрос
+      student: 
+        description: Задал первый вопрос хотя бы с одним голосом «за»
+        name: Студент
+      supporter: 
+        description: Первый раз проголосовал «за»
+        name: Помощник
+      troubleshooter: 
+        description: Ответил первый раз
+        name: Устраняющий проблемы
+      tutor: 
+        description: Дал решение вопроса со средним числом голосов более 2
+        name: Репетитор
+    show: 
+      description: "раз(а) бедж вручён пользователям. Недавно награждены:"
+      earned: заработано
+      for_tag_bronze: 200 голосов в теге %{tag}
+      for_tag_gold: 1000 голосов в теге %{tag}
+      for_tag_silver: 400 голосов в теге %{tag}
+      title: Бедж %{type}

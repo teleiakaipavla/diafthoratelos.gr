@@ -1,0 +1,37 @@
+.search-form
+  = form_tag search_index_path, :method => :get do
+        
+    .field
+      = text_field_tag :q, params[:q], :class => "text_field title"
+      %small
+        = t("searches.form.tags_tip")
+
+
+    -if current_group.languages.size>1 && AppConfig.enable_i18n
+      .field
+        = label_tag :language, t(:language, :scope => "activerecord.attributes.question"), :class => "label"
+        = language_select_tag(:language)
+
+    .field
+      = label_tag :by, t(:"global.asked_by"), :class => "label"
+      = text_field_tag :user_id
+
+
+    .field
+      .checkbox
+        = check_box_tag "answered"
+        = label_tag :answered, t("answered", :scope => "activerecord.attributes.question")
+
+    .field
+      .checkbox
+        = check_box_tag "accepted"
+        = label_tag :accepted, t("accepted", :scope => "activerecord.attributes.question")
+          
+    .buttons
+      = submit_tag t("layouts.application.search"), :class => "save"
+      = t("global.or")
+      = link_to t(".clear"), search_index_path
+      
+
+
+

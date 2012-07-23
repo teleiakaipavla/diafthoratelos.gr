@@ -1,0 +1,12 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  rewards: 
+    close: 
+      error: Treba da sačekate %{time} pre nego što dodelite nagradu.
+    start: 
+      active_notice: Ovo pitanje već ima aktivnu nagradu.
+      reputation_notice: Nemate dovoljno ugleda da napravite nagradu za ovo pitanje.
+      wait_notice: Treba da sačekate dva dana pre nego što ponudite nagradu za ovo pitanje.

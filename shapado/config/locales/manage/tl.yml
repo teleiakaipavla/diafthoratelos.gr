@@ -1,0 +1,125 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  admin: 
+    manage: 
+      access: 
+        title: Pagpunta
+      answers: 
+        banning: 
+          title: Ipagbawal ang sagot
+      appearance: 
+        logo_legend: Magkarga ng isang logo para sa pangkat mo. Kailangang mas maliit ito kaysa sa 2MB.
+        title: Piliin at sadyain ang tema mo
+      close_group: 
+        description: Ang pagsasara ng pangkat ay makapagdurulot ng hindi napupuntahan ninunman maliban sa iyo.
+        feedback: "Paki, sabihin sa amin kung bakit isinasara mo ang pangkat mo:"
+      content: 
+        description: Iayos ang pangkat mo na may pinasadyang teksto at estilo
+        footer: Talababa
+        head: paulo
+        question_help: Tulong sa tanong
+        question_prompt: Udyok ng tanong
+        title: Pasadyang nilalaman
+        top_bar: Pang-itaas na halang
+        top_bar_tip: Magpasok ng isang kawing bawat guhit
+      invitations: 
+        invitations: Naipadalang mga paanyaya
+        invitations_title: Listahan ng lahat ng mga paanyayang ipinadala mo
+        invite: Umanyaya ng mga tao
+        invite_title: Anyayahan ang mga tao sa pamamagitan ng e-liham
+        title: Mga paanyaya
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Pagtatanong ng mga katanungan mula sa Twitter
+          question_asked_to: Katanungang Itinanong Kay
+          question_must_include: Ang tanong ay dapat na magsama ng sumusunod na tatak upang maitiririt.
+          question_must_include_example: "halimbawa na ang #iAsk"
+          twitter_account: Ang akawnt ng Twitter na pagtatanungan ng mga tanong ng mga tagagamit mo.
+        constrains: 
+          reputation_constrains_description: Nagpapahintulot ang pormularyong ito na maisaayos kung ilang mga puntos ng dangal ang kakailanganin ng mga tagagamit upang makagawa ng isang ibinigay na kilos
+          reputation_constrains_subtitle: Tala ng mga pangangailangan ng dangal para sa bawat isang kilos
+          title: Mga kinakailangan
+        domain: 
+          description: "Makapagmamapa ka ng isang ibang nasasakupan papunta sa iyong pook sa Shapado upang maaari itong mapuntahan sa pamamagitan ng sarili mong pasadyang nasasakupan.  Ganito ang paraan kung mo ito magagawa:"
+          instruction1: Upang maisagawa kailangan mo munang lumagda sa iyong tagapagbigay ng nasasakupan.  Iyan ang sityo kung saan mo binili ang nasasakupan mo katulad ng %{subdomain}.com.
+          instruction2: Doon ay kailangan mong pumunta sa bahagi ng DNS at lumikha ng bagay na tinatawag na isang CNAME.
+          instruction3: Piliin ang 'www' o ibang anumang bagay bilang pangalan ng iyong CNAME.
+          instruction4: "Pagkaraan ay ilagay ang pangkasalukuyan mong nasasakupan sa Shapado sa loob ng kahanayan ng tagapagpasinaya o kapupuntahan: %{domain}."
+          instruction5: Kapag nagawa na ito, pagkalipas ng isang oras o mahigit pa, ang nasasakupan mong www.%{subdomain} ay dapat na tumuro sa %{appdomain}.
+          instruction6: Kung ganito ang pangyayari, bumalik rito at ilagay ang iyong pangalan ng nasasakupan na www.%{subdomain} sa loob ng kahanayang nasa ibaba at pindutin ang pindutang 'isapanahon'.  Kung may mga katanungan ka, tanungin kami sa loob ng %{chat_url} o sa aming poro ng pagtangkilik.
+          title: Isaayos ang nasasakupan mong ipinasadya
+          warning: Nakatitiyak ka bang nais mong baguhin ang nasasakupan mo?
+        facebook_app: 
+          application_id: ID ng Aplikasyon
+          facebook_app: Mga katakdaan ng aplikasyon ng Facebook
+          legend: Maaari mong iayos ang iyong App ng Facebook. Gagamitin ito upang ilagdang papasok ang mga tagagamit na ginagamit ang kanilang mga akawnt sa Facebook. Tandaan na kailangan lamang ito kung ikaw ay gumagamit ng isang pasadyang dominyo.
+          secret_key: Lihim na Susi
+        general: 
+          title: Mga pag-aari ng pangkat
+        invitations: 
+          resend_button: Muling ipadala
+          revoke_button: Bawiin
+        invite: 
+          body_instructions: Sumulat ng isang mensahe sa iniimbitahan mong mga tao (maaaring hindi gawin)
+          body_length_warning: Ang katawan ay hindi makapaglalaman ng mahigit kaysa sa 400 mga panitik
+          emails_instructions: Ipasok ang mga tirahan ng e-liham na pinaghihiwalay-hiwalay ng isang kuwit
+          invitations: Naipadalang mga paanyaya
+          invite: Mag-anyaya ng mga tao
+          title: Anyayahan ang mga tao sa pamamagitan ng e-liham
+          user_role: Anyayahan ang mga tagagamit bilang
+        post_to_twitter: 
+          legend: Ang pahinang ito ay nagpapahintulot sa iyo na maikumpigura kung ano ang naipadala sa Twitter. Ang akawnt na ginagamit ay ang <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>, kung nais mong gumamit ng ibang akawnt, paki pindutin <a href="%{link}">dito</a>.
+          legend_connect: Ang pahinang ito ay nagpapahintulot sa iyong maikumpigura kung ano ang naipadala sa Twitter. Kailangan mong tukuyin muna ang isang akawnt ng Twitter, paki pindutin <a href="%{link}">here</a> upang maisagawa iyan.
+          post_to_twitter: Ipaskil ang mga gawain sa Twitter
+          send_answers_to_twitter: Ipadala ang lahat ng mga sagot sa Twitter
+          send_badges_to_twitter: Ipadala ang lahat ng bagong napanalunang mga tsapa sa Twitter
+          send_comments_to_twitter: Ipadala ang lahat ng mga kumento sa Twitter
+          send_favorites_to_twitter: Ipadala ang lahat ng paboritong mga sagot sa Twitter
+          send_questions_to_twitter: Ipadala ang lahat ng mga tanong sa Twitter
+        rewards: 
+          reputation_rewards_description: Nagpapahintulot ang pormularyong ito na maisaayos kung paano makapagwawagi at mawawalan ng mga puntos ng dangal ang mga tagagamit para sa isang ibinigay na kilos
+          reputation_rewards_subtitle: Tala ng mga gantimpala sa dangal
+          title: Mga gantimpala
+        share: 
+          title: Ibahagi
+        tag_your_tweets: 
+          add_tags: Magdagdag ng mga tatak sa mga pagtiririt mo
+          ends_with_example: "halimbawa na ang #shapado"
+          starts_with_example: "halimbawa na ang #qa"
+          title: Tatakan ang mga pagtiririt mo
+          tweet_ends_with: Idagdag sa hulihan ng mga tiririt mo ang isang taktak
+          tweet_starts_with: Idagdag sa harapan ng mga tiririt mo ang isang tatak
+        title: Mga katangiang-ari ng pangkat
+        twitter_account: 
+          connect_to_other_twitter: Pindutin dito upang iugnay ang isang ibang akawnt ng Twitter sa pangkat mo
+          connect_to_twitter: Pindutin dito upang iugnay ang isang akawnt ng Twitter sa pangkat mo
+          disconnect_twitter_group: Huwag nang ikunekta ang pangkat na ito mula sa Twitter
+          legend: Ang akawnt na ito ay gagamitin upang magpaskil ng bagong mga tanong at sagot sa Twitter.
+          legend_with_account: Ang akawnt mo sa Twitter na <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> ay gagamitin upang magpaskil ng bagong mga tanong at mga sagot  sa Twitter. Maikukumpigura mo <a href="%{link}">dito</a> ang kung ano ang naipadala na sa Twitter.
+          twitter_account: Akawnt sa Twitter
+        twitter_app: 
+          key: Susi ng aplikasyon
+          secret: Lihim ng aplikasyon
+          twitter_app: Aplikasyong Twitter
+      questions: 
+        banning: 
+          title: Ipagbawal ang tanong
+      social: 
+        ask_from_twitter: Magtanong mula sa Twitter
+        ask_from_twitter_title: Payagan ang mga tagagamit na makapagtanong mula sa Twitter
+        description: Iugnay ang pangkat mo sa iyong mga kalambatang panlipunan
+        facebook_app: Aplikasyon ng Facebook
+        facebook_app_title: Iayos ang aplikasyon mo ng Facebook na gagamit upang payagan ang mga tagagamit na lumagda sa pamamagitan ng kanilang akawnt sa Facebook
+        post_to_twitter: Ipaskil sa Twitter
+        post_to_twitter_title: Kusang ipaskil ang lahat ng mga tanong at mga sagot sa Twitter
+        tag_your_tweets: Tatakan ang mga pagtiririt mo
+        tag_your_tweets_title: Magdagdag ng mga tatak sa mga pagtiririt mo
+        title: Interaksiiyon ng midyang pangpakikipagkapuwa
+        twitter_account: Akawnt sa Twitter
+        twitter_account_title: Iayos ang akawnt mo sa Twitter na gagamitin upang makapagpaskil sa Twitter
+      top_admin: 
+        site: Pook
+        title: Tagapangasiwa

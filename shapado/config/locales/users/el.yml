@@ -1,0 +1,88 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: Ενεργοποιήθηκε στις
+        activation_code: Κωδικός ενεργοποίησης
+        age: Ηλικία
+        asked_by: Ερωτήθηκε από
+        avatar: Εικόνα προφίλ
+        birthday: Ημερομηνία γέννησης
+        created_at: Γράφτηκε
+        current_password: Τωρινός κωδικός πρόσβασης
+        email: Ηλεκτρονικό ταχυδρομείο
+        fullname: Πλήρες όνομα
+        hide_country: Να μην εμφανίζεται η χώρα μου
+        language: Γλώσσα
+        language_filter: Γλωσσικό φίλτρο
+        last_logged_at: Ειδώθηκε
+        login: Όνομα χρήστη
+        name: Πραγματικό όνομα
+        password: Νέος κωδικός πρόσβασης
+        password_confirmation: Επιβεβαίωση νέου κωδικού πρόσβασης
+        preferred_languages: Επιλέξτε τις γλώσσες που ξέρετε
+        preferred_tags: Προτιμώμενες ετικέτες
+        reputation: Υπόληψη
+        timezone: Ζώνη ώρας
+        updated_at: Ενημερώθηκε στις
+        website: Ιστότοπος
+    models: 
+      user: Μέλος
+      users: Μέλη
+  users: 
+    actions: 
+      edit_others_posts: επεξεργαστείτε αναρτήσεις άλλων
+      edit_wiki_post: επεξεργαστείτε αναρτήσεις wiki
+      flag: αναφέρετε
+      retag_others_questions: αλλάξετε ετικέτες στις ερωτήσεις άλλων
+      vote_down: καταψηφίσετε
+      vote_to_close_any_question: αιτηθείτε να κλειδώσει ερώτηση άλλων
+      vote_to_close_own_question: αιτηθείτε να κλειδώσει δική σας ερώτηση
+      vote_up: υπερψηφίσετε
+    create: 
+      flash_error: Δεν μπορέσαμε να δημιουργήσουμε αυτό το λογαριασμό. Παρακαλώ δοκιμάστε ξανά ή επικοινωνήστε με τον διαχειριστή (ο σύνδεσμος βρίσκεται άνωθεν).
+      flash_notice: Ευχαριστούμε για την εγγραφή σας!
+    edit: 
+      enable_twitter: Ενεργοποιήστε τους λογαριασμούς σας στο Facebook ή στο twitter
+      submit: Αποθήκευση
+      title: Ρυθμίσεις
+    follow: 
+      flash_notice: Το μέλος %{user} προστέθηκε στους φίλους σας
+    form: 
+      activities_notification: Ειδοποίηση μέσω email για δραστηριότητες συστήματος όπως απόκτηση τίτλων, νέους οπαδούς, κ.τ.λ.
+      avatar_tip: Αλλάξτε την εικόνα του προφίλ σας χρησιμοποιώντας το gravatar
+      give_advice_notification: Ειδοποίηση μέσω email για ερωτήσεις στους τομείς που έχετε εμπειρία
+      information: Πληροφορίες
+      new_answer_notification: Ειδοποίηση μέσω email για νέες απαντήσεις
+      notifications: Ειδοποιήσεις
+      reports_notification: Να λαμβάνετε αναφορά για τις πιο πρόσφατες δραστηριότητες μιας ομάδας (μόνο για διαχειριστές ομάδων)
+      show_more_lang: Εμφάνιση περισσότερων γλωσσών
+    index: 
+      empty: Αυτή η ομάδα δεν έχει μέλη, συμμετάσχετε σ' αυτήν.
+      filter: Αναζήτηση μελών
+      name: Όνομα
+      name_tooltip: Μέλη ταξινομημένα αλφαβητικά
+      newest: Νεότερα
+      newest_tooltip: Μέλη που μόλις γράφτηκαν
+      oldest: Παλαιότερα
+      oldest_tooltip: Μέλη που γράφτηκαν πρώτα
+      reputation: Υπόληψη
+      reputation_tooltip: Μέλη ταξινομημένα ανά υψηλότερη υπόληψη
+      title: Όλα τα μέλη
+    messages: 
+      errors: 
+        reputation_needed: Χρειάζεστε τουλάχιστον %{min_reputation} υπόληψη για να %{action}.
+    new: 
+      submit: Εγγραφή
+      title: Εγγραφείτε ως νέο μέλος
+    show: 
+      follow: Ακολουθήστε
+      title: Μέλος %{user}
+      unfollow: Μην ακολουθείτε
+      views: προβολές
+    unfollow: 
+      flash_notice: Το μέλος %{user} αφαιρέθηκε από τους φίλους σας

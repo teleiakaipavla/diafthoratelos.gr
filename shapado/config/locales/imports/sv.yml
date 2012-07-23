@@ -1,0 +1,10 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Behöver bekräftelse
+        title: Skicka e-postbekräftelse

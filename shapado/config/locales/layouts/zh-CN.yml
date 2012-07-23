@@ -1,0 +1,52 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+# Author: Yfdyh000
+zh-CN: 
+  layouts: 
+    application: 
+      ask_question: 问的问题
+      badges: 徽章
+      forgot: 忘了吗？
+      home: 首页
+      languages: 语言
+      log_in: 登录
+      logged: "%{login} 作为登录"
+      logout: 退出
+      manage_ads: 管理广告
+      moderate: 中度
+      now: 现在！
+      openid: 
+        explaination: 如果您希望注册或只需登录，请选择您的 OpenID 提供商：
+      pages: 页
+      questions: 问题
+      questions_in: 中的问题
+      questions_tagged: 使用标记
+      search: 搜索
+      settings: 设置
+      signup: 登记
+      subscribe: 订阅
+      tags: 标签
+      title: 科技解答
+      unanswered: 无人应答
+      users: 用户
+      welcome_from: 欢迎！您可以
+    manage: 
+      actions: 行动
+      announcements: 公告
+      constrains: 要求
+      content: 内容
+      dashboard: 仪表板
+      domain: 域
+      general: 常规
+      members: 成员
+      pages: 页
+      properties: 属性
+      reputation: 声誉
+      rewards: 奖励
+      stats: 统计信息
+      theme: 主题
+      widgets: 窗口小部件
+    notifications: 
+      message: 如果您不希望再收到来自 %{group} 的自动通知，更改您的首选项，在通知屏幕。

@@ -1,0 +1,9 @@
+= form_tag session_path, :class => "form" do
+  .field
+    = label_tag 'login', t(:login, :scope => "activerecord.attributes.user"), :class => "label"
+    = text_field_tag 'login', @login, :class => "text_field"
+  .field
+    = label_tag 'password', t(:password, :scope => "activerecord.attributes.user"), :class => "label"
+    = password_field_tag 'password', nil, :class => "text_field"
+  .buttons
+    = submit_tag t("sessions.new.log_in"), :class => "button"

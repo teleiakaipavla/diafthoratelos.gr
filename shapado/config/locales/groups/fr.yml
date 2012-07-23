@@ -1,0 +1,101 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: DavidL
+# Author: Gomoko
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+fr: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Limite quotidienne
+        default_tags: Tags par défaut
+        description: Description
+        domain: Domaine
+        enable_latex: Activer le LaTeX avec jqmath (rapide mais pas complet)
+        enable_mathjax: Activer le LaTeX avec mathjax (lent mais complet)
+        fb_button: Activer le boutton Like de Facebook (ne protège pas la vie privée)
+        forum: Permettre plus d'une réponse par utilisateur
+        group_created_by: crée par
+        language: Langue par défaut
+        languages: Langues supplémentaires
+        legend: Légende
+        logo: Logo
+        may_contain_adult_content: Ce site peut inclure du contenu pour adultes
+        name: Name
+        owner: ce groupe a été crée par %{login}
+        registered_only: Seules les personnes autorisées ont accès au site
+        signup_type: "Quelles méthodes vos utilisateurs peuvent-ils utiliser pour s'inscrire :"
+        state: État
+        subdomain: URL
+        track_users: Demander aux utilisateurs leur emplacement physique
+        wysiwyg_editor: Activer l'éditeur de texte convivial (présente à l'écran tel qu'à l'écrit)
+    models: 
+      default_tags_message: Vous ne pouvez pas utiliser plus de 10 tags par défaut.
+      duplicate_domain_message: Désolé, ce domaine a déjà été pris.
+      group: Groupe
+      groups: Groupes
+      reputation_rewards_answer_constrain: La contrainte pour répondre à une récompense doit être négative
+      reputation_rewards_ask_constrain: La contrainte pour poser une question devrait être négative.
+      reputation_rewards_key: Clé invalide
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Désolé, quelque chose s'est mal passé. Essayez à nouveau s'il vous plaît.
+      success_twitter_connection: Félicitations, vous avez connecté votre compte Twitter avec succès !
+    create: 
+      flash_notice: Votre groupe a été créé avec succès, vous pouvez maintenant commencer à le configurer.
+    edit: 
+      title: Modifier votre groupe
+    form: 
+      access: Configuration de l'accès
+      analytics_engine: Moteur d’analyse
+      analytics_legend: Le groupe pourra utiliser son propre code de suivi
+      any_language: Toutes
+      custom_analytics: Autoriser l’analyse personnalisée
+      custom_html: Autoriser le HTML personnalisé
+      custom_js: Autoriser le JavaScript personnalisé
+      default_tags_legend: séparez les tags avec des virgules. seuls 10 tags par défaut sont autorisés.
+      description_legend: vous avez 400 caractères pour décrire le groupe.
+      isolate_group: Isoler le groupe des autres groupes
+      legend_legend: Ceci sera utilisé dans l'entête, vous disposez de 40 caractères
+      logo_legend: Vous pouvez télécharger le logo du groupe. la taille maximum est de 2mb.
+      members_only: Seuls les membres du groupe pourront accéder à ce groupe
+      signup_all: Tous les fournisseurs sélectionnés et utilisateur/mot de passe
+      signup_email: Utilisateur/mot de passe seulement
+      signup_noemail: Tous les fournisseurs sélectionnés sans utilisateur/mot de passe
+      signup_social: Les utilisateurs sont obligés d'utiliser Facebook, Twitter, LinkedIn ou Identica
+      website_analytics_id: Identifiant d’analyse du site web
+    group: 
+      about: À propos
+      accept_group: Accepter ce groupe
+      allow_ads: Permettre la publicité
+      close: Fermer
+      close_group: Fermer ce groupe
+      disallow_ads: Interdire la publicité
+    index: 
+      actives: Actifs
+      create_your_own: créer votre propre groupe
+      description: Ceci est la liste des groupes publics qui ont été créés. Utilisez l'entrée de recherche ci-dessous pour filtrer les groupes. Vous pouvez aussi %{link}.
+      filter: Chercher les groupes
+      most_active: Plus actifs
+      name: Nom
+      pendings: En attente
+      request_group: Solliciter un nouveau groupe
+      title: Groupes
+    new: 
+      title: Créez votre groupe
+    show: 
+      accept_group: Accepter ce groupe
+      accept_group_with_custom_ads: Accepter les groupes et autoriser les annonces personnalisées
+      close_group: Fermer ce groupe
+      group_awaiting_acceptance: Ce groupe est dans l'attente de l'acceptation d'un modérateur.
+      group_closed: Ce groupe a été fermé.
+      title: À propos de %{name}
+      visit_group: Visiter ce groupe
+    top_grouplist: 
+      active_site: "Site actif :"
+    update: 
+      notice: Votre groupe a été actualisé avec succès.

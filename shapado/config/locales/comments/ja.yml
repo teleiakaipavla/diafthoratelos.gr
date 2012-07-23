@@ -1,0 +1,20 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  comments: 
+    create: 
+      flash_notice: コメントありがとうございます
+    edit: 
+      title: コメントの編集
+    shared: 
+      add_comment: コメントを追加...
+      comment_submit: コメントする
+      reply: 返信
+      said: のコメント
+    update: 
+      flash_notice: コメントを更新しました。
+  models: 
+    comment: コメント
+    comments: コメント

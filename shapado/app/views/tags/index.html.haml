@@ -1,0 +1,16 @@
+
+.top
+  %h1
+    = t('activerecord.models.tags')
+  .filter
+    = form_tag "/questions/tags", :class => "form", :id => "filter_tags", :method => "get" do
+      .field
+        = text_field_tag "q", params[:q], :class => "text_field filter_field", placeholder: t(".filter")
+        = submit_tag("filter")
+
+  -if logged_in? && current_user.mod_of?(current_group)
+    = link_to t("scaffold.new", :model =>"tag"), new_tag_url
+
+#tag_table
+  = render(:partial => "tag_table", :locals => {:tag_table => @tags})
+

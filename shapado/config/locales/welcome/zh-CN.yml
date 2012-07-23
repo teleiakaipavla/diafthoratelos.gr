@@ -1,0 +1,26 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  welcome: 
+    confirm_age: 
+      notice: 你只可能会进入此页面，如果您是年满 18 岁的年龄，或在大多数在司法管辖区在您所在或从中您访问此页面的最小年龄。
+      over_18: 我是年满 18 岁
+      under_18: 我 18 岁以下
+      warning: 警告：此页可能包含成人内容明显。
+    feedback: 
+      captcha_error: 请解决简单的数学操作
+      email_description: 请提供您的电子邮件地址，以便我们可以回答您的消息
+      feedback_description: 说明
+      feedback_title: 标题
+      title: 发送您的反馈意见
+    index: 
+      active: 活动
+      browse_all_or_by_tags: 请参阅 %{full_list_of_questions} 或 %{browse_by_tags}
+      browse_by_tags: 按标签浏览
+      create_own_site: 在 8 秒内免费创建您自己问答网站
+      full_list_of_questions: 问题的完整列表
+      hot: 热
+      quick_question: 问一个的问题，我们会发现有人回答
+      recent_questions: 最新问题

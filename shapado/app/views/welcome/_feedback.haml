@@ -1,0 +1,20 @@
+-feedback = params[:feedback] || {}
+= form_tag send_feedback_path, :class => "form", :method => "post" do
+  .field
+    = label_tag "feedback[title]", t(".feedback_title"), :class => "label"
+    = text_field_tag "feedback[title]", feedback[:title], :class=> "text_field"
+  .field
+    = label_tag "feedback[description]", t(".feedback_description"), :class => "label"
+    = text_area_tag "feedback[description]", feedback[:description], :class=> "text_area", :cols => 55, :rows => 15
+  .field
+    = label_tag "feedback[email]", t(".feedback_email", :default => :"activerecord.attributes.user.email"), :class => "label"
+    = text_field_tag "feedback[email]", feedback[:email], :class=> "text_field"
+    %small
+      = t(".email_description")
+  .field.capcha
+    -if AppConfig.recaptcha["activate"] && !logged_in?
+      = recaptcha_tag(:challenge, :width => 600, :rows => 5, :display => {:lang => I18n.locale}).html_safe
+  .buttons
+    = submit_tag(t("scaffold.send"), :class => "save")
+    = t("global.or")
+    = link_to t("scaffold.cancel"), root_path, :class => 'cancel-feedback'

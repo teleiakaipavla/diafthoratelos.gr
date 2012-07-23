@@ -1,0 +1,249 @@
+#openid {
+  background: url(/images/indicator.gif) center center no-repeat;
+  margin: 0 auto;
+}
+
+#openid_btns {
+  height: 200px;
+}
+
+#openid_btns #title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+#openid_inputarea {
+  display: none;
+  background: url(/images/balloon.png) no-repeat;
+  width: 410px;
+  height: 48px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 17px;
+  z-index: 5000;
+  position: absolute;
+}
+
+#openid_inputarea #openid_username {
+  margin: 0 4px 0 8px;
+  width: 120px;
+}
+
+#openid_highlight {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  o-border-radius: 5px;
+  khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #FFFCC9;
+  float: left;
+}
+.openid_btn {
+  background: url(/images/openid-icons.png) no-repeat;
+  margin: 3px;
+  display: block;
+  height: 35px;
+  width: 105px;
+}
+
+.OpenID { background-position: 0 0; }
+.Verisign { background-position: 0 -48px; }
+.Facebook { background-position: 0 -96px; }
+.Flickr { background-position: 0 -144px; }
+.Github { background-position: 0 -192px; }
+.Twitter { background-position: 0 -240px; }
+.Google { background-position: 0 -288px; }
+.AOL { background-position: 0 -336px; }
+.Blogger { background-position: 0 -384px; }
+.LinkedIn { background-position: 0  -432px; }
+.WindowsLive { background-position: 0 -480px; }
+.Yahoo { background-position: 0  -528px; }
+.MyOpenID { background-position: 0  -576px; }
+.MySpace { background-position: 0 -624px; }
+.Wordpress { background-position: 0  -672px; }
+.Technorati { background-position: 0  -720px; }
+.ClaimID { background-position: 0  -767px; }
+.Launchpad { background-position: 0px  -814px; }
+.LiveJournal { background-position: 0px  -861px; }
+.Vidoop { background-position: 0px  -908px; }
+.Gowalla { background-position: 0px  -951px; }
+.Ldap { background-position: 0px  -999px; }
+.ThirtySevenSignals { background-position: 0px  -1047px; }
+.Foursquare { background-position: 0px  -1195px; }
+.Identica { background-position: 0px -1143px; }
+
+
+.OpenID.oselected { background-position: -300px 0; }
+.Verisign.oselected { background-position: -300px -48px; }
+.Facebook.oselected { background-position: -300px -96px; }
+.Flickr.oselected { background-position: -300px -144px; }
+.Github.oselected { background-position: -300px -192px; }
+.Twitter.oselected { background-position: -300px -240px; }
+.Google.oselected { background-position: -300px -288px; }
+.AOL.oselected { background-position: -300px -336px; }
+.Blogger.oselected { background-position: -300px -384px; }
+.LinkedIn.oselected { background-position: -300px  -432px; }
+.WindowsLive.oselected { background-position: -300px -480px; }
+.Yahoo.oselected { background-position: -300px  -528px; }
+.MyOpenID.oselected { background-position: -300px  -576px; }
+.MySpace.oselected { background-position: -300px -624px; }
+.Wordpress.oselected { background-position: -300px  -672px; }
+.Technorati.oselected { background-position: -300px  -720px; }
+.ClaimID.oselected { background-position: -300px  -767px; }
+.Launchpad.oselected { background-position: -300px  -814px; }
+.LiveJournal.oselected { background-position: -300px  -861px; }
+.Vidoop.oselected { background-position: -300px  -908px; }
+.Gowalla.oselected { background-position:-300px  -951px; }
+.Ldap.oselected { background-position: -300px  -999px; }
+.ThirtySevenSignals.oselected { background-position: -300px  -1047px; }
+.Foursquare.oselected { background-position: -300px  -1195px; }
+.Identica.oselected { background-position: -300px -1143px; }
+
+
+.OpenID:hover { background-position: -150px 0; }
+.Verisign:hover { background-position: -150px -48px; }
+.Facebook:hover { background-position: -150px -96px; }
+.Flickr:hover { background-position: -150px -144px; }
+.Github:hover { background-position: -150px -192px; }
+.Twitter:hover { background-position: -150px -240px; }
+.Google:hover { background-position: -150px -288px; }
+.AOL:hover { background-position: -150px -336px; }
+.Blogger:hover { background-position: -150px -384px; }
+.LinkedIn:hover { background-position: -150px  -432px; }
+.WindowsLive:hover { background-position: -150px -480px; }
+.Yahoo:hover { background-position: -150px  -528px; }
+.MyOpenID:hover { background-position: -150px  -576px; }
+.MySpace:hover { background-position: -150px -624px; }
+.Wordpress:hover { background-position: -150px  -672px; }
+.Technorati:hover { background-position: -150px  -720px; }
+.ClaimID:hover { background-position: -150px  -767px; }
+.Launchpad:hover { background-position: -150px  -814px; }
+.LiveJournal:hover { background-position: -150px  -861px; }
+.Vidoop:hover { background-position: -150px  -908px; }
+.Gowalla:hover { background-position: -150px  -951px; }
+.Ldap:hover { background-position: -150px  -999px; }
+.ThirtySevenSignals:hover { background-position: -150px  -1047px; }
+.Foursquare:hover { background-position: -150px  -1195px; }
+.Identica:hover { background-position: -150px -1143px; }
+
+a.openid_large_btn:focus {
+  outline: none;
+  -moz-outline-style: none;
+}
+
+
+
+#multiauth-menu #carousel {
+  margin:0 auto;
+  overflow:hidden;
+  width: 337px;
+
+}
+#multiauth-menu {
+  display: inline;
+  position: relative;
+}
+#multiauth-menu div.menu-container {
+  display: none;
+  background-color:#f90;
+  padding:10px;
+  -moz-border-radius:10px;
+}
+#multiauth-menu ul {
+  list-style-type: none;
+}
+#multiauth-menu div.menu-container {
+  width: 650px;
+  position:absolute;
+  top: -125px;
+  left: 155px;
+  z-index: 1000;
+  -moz-border-radius:10px;
+  -webkit-border-radius: 10px;
+  o-border-radius: 10px;
+  khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+#multiauth-menu.hovering div.menu-container {
+  display: block;
+}
+
+#carousel {
+  margin:0 auto;
+  overflow:hidden;
+  width: 375px;
+  height: 240px
+}
+#carousel .openid_btn {
+  margin: 10px;
+  display: block;
+  height: 46px;
+  width: 150px;
+}
+#slides {
+  overflow:hidden;
+  /* fix ie overflow issue */
+  position:relative;
+  border-top:1px solid #ccc !important;
+}
+
+#slides .list {
+  position: relative;
+  left: 0px;
+  top: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 1100px;
+}
+
+#slides .page {
+  float: left;
+  display: inline;
+  position: relative;
+  width: 33%;
+}
+
+#slides .list .page .column {
+  float: left;
+  margin: 0 5px 5px 5px;
+  list-style-type: none;
+  padding: 0px;
+  width: 41%;
+}
+
+#buttons {
+        padding:0 0 5px 0;
+        float:right;
+}
+
+#buttons a {
+        display:block;
+        width:31px;
+        height:32px;
+        text-indent:-999em;
+        float:left;
+        outline:0;
+}
+
+a#prev {
+        background:url(/images/arrow.gif) 0 -31px no-repeat;
+}
+
+a#prev:hover {
+        background:url(/images/arrow.gif) 0 0 no-repeat;
+}
+
+a#next {
+        background:url(/images/arrow.gif) -32px -31px no-repeat;
+}
+
+a#next:hover {
+        background:url(/images/arrow.gif) -32px 0 no-repeat;
+}
+
+.clear {clear:both}
+

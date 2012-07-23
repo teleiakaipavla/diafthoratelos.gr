@@ -1,0 +1,36 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  activerecord: 
+    models: 
+      vote: Bewertung
+      votes: Bewertungen
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Du und %{votes} weiterere Nutzer haben eine positive Bewertung für diesen Kommentar abgegeben.
+        no_user_more_votes: Mehr als %{votes} Nutzer haben für diesen Kommentar eine positive Bewertung abgegeben. Klicke hier, um dies ebenfalls zu tun.
+        no_user_no_vote: Hier klicken, um eine positive Bewertung für diesen Kommentar abzugeben.
+        no_user_one_vote: Lediglich ein Nutzer hat für diesen Kommentar eine positive Bewertung abgegeben. Klicke hier, um dies ebenfalls zu tun.
+        one_vote_two_users: Du und ein weiterer Nutzer haben eine positive Bewertung für diesen Kommentar abgegeben.
+        one_vote_user: Lediglich Du hast eine positive Bewertung für diesen Kommentar abgegeben.
+    control: 
+      have_voted_down: Klicke hier, um Deine negative Bewertung zurückzunehmen
+      have_voted_up: Klicke hier, um Deine positive Bewertung zurückzunehmen
+      to_vote_down: Hier für eine negative Bewertung klicken
+      to_vote_up: Hier für eine positive Bewertung klicken
+    create: 
+      average: 
+        one: Eine Stimme
+        other: "%{count} Stimmen"
+      flash_error: Du kannst dies nicht bewerten
+      flash_notice: Vielen Dank für Deine Bewertung!
+      unauthenticated: Anonyme Nutzer können nicht bewerten
+    destroy: 
+      flash_notice: Deine Bewertung wurde erfolgreich zurückgenommen.
+    model: 
+      messages: 
+        closed_question: Du kannst keine Beiträge bewerten, die zu einer erledigten Frage gehören.
+        vote_down_comment: Kommentaren können nicht negativ bewertet werden

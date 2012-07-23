@@ -1,0 +1,127 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crazymadlover
+# Author: Mor
+# Author: Patcito
+es: 
+  admin: 
+    manage: 
+      access: 
+        title: Acceso
+      answers: 
+        banning: 
+          title: Prohibir respuesta
+      appearance: 
+        logo_legend: Subir un logotipo para su grupo. Debe ser inferior a 2 MB.
+        title: Elegir y personalizar su tema
+      close_group: 
+        description: Cerrando el grupo lo hará inaccesible para todos menos usted.
+        feedback: "Por favor, díganos por qué desea cerrar su grupo:"
+      content: 
+        description: Configure su grupo con un texto y un estilo personalizado
+        footer: Pie de página
+        head: Cabecera
+        question_help: Ayuda de preguntas
+        question_prompt: Título del formulario de preguntas
+        title: Contenido personalizado
+        top_bar: Barra superior
+        top_bar_tip: Introduzca un enlace por línea
+      invitations: 
+        invitations: Invitaciones enviadas
+        invitations_title: Lista de todas las invitaciones que ha enviado usted
+        invite: Invitar a gente
+        invite_title: Invitar a gente por correo electrónico
+        title: Invitaciones
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Preguntar desde Twitter
+          question_asked_to: Preguntas hechas a
+          question_must_include: La pregunta debe incluir a la etiqueta siguiente para ser publicada en Twitter.
+          question_must_include_example: "por ejemplo, #iAsk"
+          twitter_account: La cuenta Twitter que usara sus usuarios para hacer preguntas.
+        constrains: 
+          reputation_constrains_description: Este formulario te permite configurar cuantos puntos de reputación necesitan los usuarios para efectuar una acción determinada
+          reputation_constrains_subtitle: Lista de las restricciónes de reputación por acción
+          title: Restricciónes
+        domain: 
+          description: "Puede asignar un dominio diferente a su sitio Shapado para que se pueda acceder a través de su dominio personalizado. Esta es la forma de hacerlo:"
+          instruction1: Primero tienes que conectarte en tu provedor de dominio (la pagina donde has comprado tu dominio como %{subdomain}.com).
+          instruction2: Ahi, tienes que ir a la seccion DNS y crear un CNAME.
+          instruction3: Dale un nombre como 'www' a tu CNAME, puede ser cualquier cosa.
+          instruction4: "Ahora en el campo 'host' o 'destinacion', ingresa tu dominio shapado actual: %{domain}."
+          instruction5: Despues de un par de horas, tu dominio www.%{subdomain} deberia apuntar a %{appdomain}.
+          instruction6: Si es que apunta bien, ahora regresa aqui y entra tu nombre de dominio www.%{subdomain} en el campo de texto aqui a bajo y presiona el boton para actualizar. Si tienes preguntas, puedes hablarnos en el %{chat_url} o en el foro de soporte
+          title: Configure su dominio personalizado
+          warning: Estas seguro de querer cambiar tu dominio?
+        facebook_app: 
+          application_id: ID de aplicación
+          facebook_app: Propiedades de su aplicación Facebook
+          legend: Usted puede configurar su aplicación Facebook. Esto será utilizado para iniciar sesión de sus usuarios utilizando su cuenta de Facebook. Tenga en cuenta que esto sólo es necesario si usted está usando un dominio personalizado.
+          secret_key: Clave secreta
+        general: 
+          title: Propiedades del grupo
+        invitations: 
+          resend_button: Reenviar
+          revoke_button: Revocar
+        invite: 
+          body_instructions: Escribir un mensaje a la gente que va a invitar (opcional)
+          body_length_warning: El cuerpo no puede contener más de 400 caracteres
+          emails_instructions: Introduce las direcciones de correo electrónico separadas por una coma
+          invitations: Invitaciones enviadas
+          invite: Invitar a gente
+          title: Invitar a por correo electrónico
+          user_role: Invitar a los usuarios como
+        post_to_twitter: 
+          legend: Esta página le permite configurar lo que se publica en Twitter. La cuenta que se utiliza es  <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>, si quiere utilizar otra cuenta, por favor haga clic <a href="%{link}">aquí</a> .
+          legend_connect: Esta página le permite configurar lo que se publica en Twitter. Es necesario especificar una cuenta de Twitter en primer lugar, por favor haga clic <a href="%{link}">aquí</a> para hacerlo.
+          post_to_twitter: Publicar actividades en Twitter
+          send_answers_to_twitter: Publicar todas las respuestas en Twitter
+          send_badges_to_twitter: Publicar todas las insignias recién ganadas a Twitter
+          send_comments_to_twitter: Publicar sus comentarios en Twitter
+          send_favorites_to_twitter: Publicar todas las respuestas favoritas en Twitter
+          send_questions_to_twitter: Publicar todas las preguntas en Twitter
+        rewards: 
+          reputation_rewards_description: Este formulario permite configurar como los usuarios pueden ganar o perder puntos de reputación para cada acción
+          reputation_rewards_subtitle: Lista de los premios de reputación
+          title: Premios
+        share: 
+          title: Compartir
+        tag_your_tweets: 
+          add_tags: Añadir etiquetas a sus tweets
+          ends_with_example: "por ejemplo, #shapado"
+          starts_with_example: "por ejemplo, #qa"
+          title: Etiqueta sus tweets
+          tweet_ends_with: Añadir una etiqueta a sus tweets
+          tweet_starts_with: Anteponer una etiqueta a sus tweets
+        title: Propiedades de grupo
+        twitter_account: 
+          connect_to_other_twitter: Haga clic aquí para conecta una cuenta de Twitter diferente a su grupo
+          connect_to_twitter: Haga clic aquí para conectar una cuenta de Twitter a su grupo
+          disconnect_twitter_group: Desconecte este grupo de Twitter
+          legend: Esta cuenta se utilizará para publicar preguntas y respuestas nuevas en Twitter.
+          legend_with_account: Su cuenta de Twitter <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> se utiliza para publicar nuevas preguntas y respuestas de Twitter. Puede configurar lo que se envía a Twitter <a href="%{link}">aquí</a>.
+          twitter_account: Cuenta de Twitter
+        twitter_app: 
+          key: Application key
+          secret: Secreto de aplicación
+          twitter_app: Aplicación Twitter
+      questions: 
+        banning: 
+          title: Prohibir pregunta
+      social: 
+        ask_from_twitter: Preguntar desde Twitter
+        ask_from_twitter_title: Permitir a los usuarios hacer preguntas desde Twitter
+        description: Conectar su grupo a sus redes sociales
+        facebook_app: Aplicación Facebook
+        facebook_app_title: Configure su aplicación de Facebook que se utiliza para permitir a los usuarios iniciar sesión con su cuenta de Facebook
+        post_to_twitter: Publicar en Twitter
+        post_to_twitter_title: Publicar todas las preguntas y respuestas de forma automática a Twitter
+        tag_your_tweets: Etiqueta sus tweets
+        tag_your_tweets_title: Añadir etiquetas a sus tweets
+        title: Interacción por los medios sociales
+        twitter_account: Cuenta Twitter
+        twitter_account_title: Configure su cuenta de Twitter que se utilizará para publicar en Twitter
+      top_admin: 
+        site: Sitio
+        title: Administración

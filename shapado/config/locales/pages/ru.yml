@@ -1,0 +1,37 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: Eleferen
+# Author: Lockal
+ru: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Стилевые таблицы
+        js: JavaScript
+    models: 
+      page: Страница
+      pages: Страницы
+  pages: 
+    actions: 
+      create_page: Создать новую страницу
+      edit_page: Редактировать страницу
+      title: Действия
+    create: 
+      success: Страница была успешно создана.
+    edit: 
+      title: Редактирование страницы
+    form: 
+      language_tip: Язык страницы
+      title_tip: Заголовок страницы; используйте его для ссылки на страницу, например, [[ЧаВо|смотрите часто задаваемые вопросы]]
+    index: 
+      create_page: Создать новую страницу
+      title: Список страниц
+      wiki: Вики
+      written_in: "Язык страницы: %{language}"
+    new: 
+      title: Новая страница
+    title: FIXME
+    update: 
+      success: Страница была успешно обновлена.

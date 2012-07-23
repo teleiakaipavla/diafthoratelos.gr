@@ -1,0 +1,20 @@
+%table
+  - invoice.items.each do |item|
+    %tbody
+      %tr
+        %td= item["name"]
+        %td
+          - if item["value"] == 0.0
+            = t('invoices.invoice.free')
+          - else
+            = item["value"].to_f / 100.0
+        %td= item["description"]
+
+  %tfoot
+    %tr
+      %td
+        = t('invoices.invoice.total')
+      %td
+        $
+        = @invoice.total_in_dollars
+      %td

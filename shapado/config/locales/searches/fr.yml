@@ -1,0 +1,23 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: DavidL
+# Author: Gomoko
+# Author: Od1n
+# Author: Patcito
+fr: 
+  searches: 
+    form: 
+      clear: Effacer
+      search_box_title: Vérifiez que votre question n'ait pas déjà été posée
+      tags_tip: Utiliser [tag] pour décrire vos tags.
+    index: 
+      advanced_search: recherche avancée
+      description: Utilisez les options %{link} pour obtenir des résultats plus précis.
+      empty: Aucune question ne correspond aux termes de recherche spécifiés.
+      found_results: "%{quantity} résultats ont été trouvés."
+      input_legend: Cette recherche enregistrée apparaîtra dans la barre de navigation pour un accès rapide.
+      input_title: "Enregistrez cette recherche comme :"
+      search_text: Questions contenant
+      tags: parmi ces tags

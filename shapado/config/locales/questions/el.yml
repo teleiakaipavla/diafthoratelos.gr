@@ -1,0 +1,130 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+# Author: Evropi
+el: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Απαντήσεις
+        asked_by: Ερωτήθηκε από
+        body: Κείμενο
+        closed: Κλειδώθηκε
+        created_at: Ερωτήθηκε
+        language: Γλώσσα
+        tags: Ετικέτες
+        title: Τίτλος
+        updated_at: Ενημερώθηκε
+        updated_by: Ενημερώθηκε από
+        views: Προβολές
+        votes: Ψήφοι
+    models: 
+      question: Ερώτηση
+      questions: Ερωτήσεις
+  questions: 
+    answer: 
+      add_comment: Προσθήκη σχόλιου...
+      flag: Αναφορά
+      pick_answer: Επιλογή ως λύση
+      unset_answer: Κατάργηση ως λύση;
+    create: 
+      flash_notice: Η ερώτηση υποβλήθηκε επιτυχώς.
+    edit: 
+      title: Επεξεργασία ερώτησης
+    flag: 
+      title: Αναφορά ερώτησης
+    form: 
+      adult_content: Η ερώτηση είναι μόνο για ενηλίκους.
+      body_tip: Ποια είναι η απορία σας; Περιγράψτε την.
+      language_tip: Επιλέξτε τη γλώσσα της ερώτησης.
+      tags_tip: Χρησιμοποιήστε ετικέτες για να διευκολύνετε την απάντηση της ερώτησή σας.
+    index: 
+      active: Ενεργές
+      active_tooltip: Ερωτήσεις που έχουν ενημερωθεί πρόσφατα
+      ask_question: Κάντε ερώτηση
+      empty: Κανείς δεν έχει κάνει οποιαδήποτε ερώτηση ακόμα, κάντε την πρώτη!
+      help_to_answer: Βοηθήστε μας να απαντήσουμε
+      hot: Δημοφιλείς
+      hot_tooltip: Ερωτήσεις με τη μεγαλύτερη δραστηριότητα στις τελευταίες 5 ημέρες
+      newest: Νεότερες
+      newest_tooltip: Οι πιο πρόσφατες ερωτήσεις
+      oldest: Παλαιότερες
+      title: Όλες οι ερωτήσεις
+      unanswered_questions: αναπάντητες ερωτήσεις
+      votes: Ψήφοι
+    model: 
+      messages: 
+        empty_tags: Λυπούμαστε αλλά πρέπει να βάλετε τουλάχιστον μία ετικέτα.
+        title_too_long: Ο τίτλος είναι υπερβολικά μεγάλος. Δεν πρέπει να έχει πάνω από 100 χαρακτήρες.
+        too_many_tags: Λυπούμαστε αλλά μπορείτε να βάλετε το πολύ 9 ετικέτες.
+        too_short: Μοιάζει πολύ σύντομη. Παρακαλώ χρησιμοποιήστε περισσότερες από %{count} λέξεις για να γίνεται πιο συγκεκριμένοι.
+    move: 
+      group_label: "Μετακίνηση στην ομάδα με το slug:"
+      submit: Μετακίνηση!
+      title: "Μετακίνηση ερώτησης: %{title}"
+    move_to: 
+      group_dont_exists: Η ομάδα %{group} δεν υπάρχει
+      success: Η ερώτηση μετακινήθηκε στο %{group}
+    new: 
+      how_to_ask: Πώς να ρωτήσετε
+      title: Υποβολή ερώτησης
+    question: 
+      accepted_tooltip: Αυτή η ερώτηση έχει μια απάντηση που έχει γίνει αποδεκτή
+    retag: 
+      title: Αλλαγή ετικετών
+    retag_form: 
+      cancel: Ακύρωση
+      submit: Ενημέρωση ετικετών!
+      title: Ενημέρωση ετικετών
+    retag_to: 
+      failure: Λυπούμαστε αλλά οι ετικέτες δεν ενημερώθηκαν.
+      success: Οι ετικέτες ενημερώθηκαν επιτυχώς.
+    revert: 
+      title: Επαναφορά ερώτησης
+    shared: 
+      flag: Αναφορά
+    show: 
+      accepted_tooltip: Μια από τις απαντήσεις επιλέχθηκε ως λύση
+      another_answers: Άλλες απαντήσεις
+      answers: Απαντήσεις
+      asked_on: Ερωτήθηκε στις
+      ban: Απαγόρευση
+      close: Κλείδωμα
+      close_reason: "Η ερώτηση έχει κλειδωθεί για τον εξής λόγο:"
+      flag: Αναφορά
+      flagged_as: Αναφέρθηκε ως
+      flags: Αναφέρθηκε ως
+      last_activity: Τελευταία δραστηριότητα
+      open: Ανοιχτή
+      related_questions: Σχετικές ερωτήσεις
+      request_closing: Αίτηση κλειδώματος
+      request_closing_details: Αίτηση για να κλειδωθεί η ερώτηση
+      retag: Αλλαγή ετικετών
+      retract_request: Έχετε ήδη υποβάλει μια αίτηση, θέλετε να την αποσύρετε;
+      share: Διαμοιράστε αυτή την ερώτηση
+      share_on: Διαμοιράστε αυτή την ερώτηση στο %{site}
+      solution: Λύση
+      to_answer_question: για να απαντήσετε αυτή την ερώτηση
+      unauthenticated_retag: Χρειάζεστε λογαριασμό για να αλλάξετε ετικέτες στις ερωτήσεις
+      viewed: Προβλήθηκε
+    solve: 
+      flash_notice: Η απάντηση στην ερώτηση έγινε αποδεκτή.
+    tags: 
+      filter: Αναζήτηση ετικετών
+      title: Ετικέτες
+      tooltip: Εμφάνιση ερωτήσεων με την ετικέτα '%{tag}'
+    unanswered: 
+      empty: Δεν υπάρχουν αναπάντητες ερωτήσεις.
+      expert: Εμπειρογνώμονες
+      my_tags: Οι ετικέτες μου
+      tags: Αναπάντητες ετικέτες
+      title: Αναπάντητες ερωτήσεις
+    unsolve: 
+      flash_notice: Η ερώτηση δεν έχει αποδεκτή απάντηση.
+    unwatch: 
+      success: Δε θα λαμβάνετε πια ειδοποιήσεις μέσω email για νέες απαντήσεις σ' αυτή την ερώτηση
+    update: 
+      flash_notice: Η ερώτηση ενημερώθηκε επιτυχώς.
+    watch: 
+      success: Τώρα θα λαμβάνετε ειδοποιήσεις μέσω email για κάθε νέα απάντηση σ' αυτή την ερώτηση

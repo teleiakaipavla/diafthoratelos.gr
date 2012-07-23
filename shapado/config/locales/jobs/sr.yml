@@ -1,0 +1,21 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} одговори на: %{question}"
+        send_twitter: Одговор на питање %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} се свиде одговор од %{author} на питање: %{question}"
+        send_twitter: "Свидео ми се одговор од %{author} на питање: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} освоји значку %{token} у групи %{group_name} %{link}"
+        send_twitter: Управо сам освојио значку %{token} у групи %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} прокоментариса на: %{question}"
+        send_twitter: Мој коментар на питање %{question}

@@ -1,0 +1,90 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Eleferen
+# Author: G0rn
+# Author: Lockal
+# Author: Shemerey
+# Author: Александр Сигачёв
+ru: 
+  feeds: 
+    feed: Канал
+    post_new_questions: Отправить новые вопросы в
+    question: Подписаться на этот вопрос
+    questions: Подписаться на все вопросы
+    share_on_twitter: Твиттер, Facebook и другое...
+    tag: Подписаться на тег
+    user: Подписаться на вопросы пользователя
+  global: 
+    actions: Действия
+    active: Активировать
+    alphabetically: В алфавитном порядке
+    anonymous: Аноним
+    blog: Блог
+    by_semi: "От:"
+    chat: Чат
+    current: Текущий
+    edited: Отредактировано
+    feedback: Обратная связь
+    follow: Подписаться
+    followed_by: "Подписчики:"
+    following: Подписан на
+    from: с сайта %{site}
+    group_not_found: Страница %{url} не существует
+    home: Главная
+    next_button: Далее
+    open: Открыть
+    or: или
+    permission_denied: Доступ запрещён
+    please_login: Представьтесь, пожалуйста
+    preview: Предпросмотр
+    previous: Предыдущий
+    privacy: Пользовательское соглашение
+    share: распространить
+    sign_up: Регистрация
+    size: Размер
+    sort_by: "Сортировать по:"
+    tags_label: "Теги:"
+    tos: TOS
+    unfollow: Отменить подписку
+    unknown_place: Неизвестно
+    view: Просмотр
+    view_question: Посмотреть вопрос
+    what_to_do: Что вы хотите сделать?
+  models: 
+    question: Вопрос
+  preferred_languages: 
+    any: Любой
+    user: Предпочитаемые языки
+  roles: 
+    moderator: Модератор
+    owner: Владелец
+    user: Обычный пользователь
+  scaffold: 
+    add: Добавить
+    are_you_sure: Вы уверены?
+    back: Назад
+    cancel: Отменить
+    close: Закрыть
+    create: Создать
+    destroy: Удалить
+    details: Подробности
+    edit: Редактировать
+    more: Далее…
+    new: Добавить %{model}
+    post_as_anonymous: Отправить анонимно
+    save: Сохранить
+    send: Отправить
+    show: Показать
+    sure: Вы уверены, что хотите удалить %{model}?
+    update: Обновить
+  time: 
+    ago: "%{time} назад"
+    today: сегодня
+    yesterday: вчера
+  views: 
+    pagination: 
+      first: Первая
+      last: Последняя
+      next: Вперёд &raquo;
+      previous: "&laquo; Назад"

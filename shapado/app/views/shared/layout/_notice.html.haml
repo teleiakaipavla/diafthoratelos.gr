@@ -1,0 +1,5 @@
+%h4
+  = link_to h(current_group.name), about_path
+
+.markdown
+  = auto_link(markdown(current_group.description))

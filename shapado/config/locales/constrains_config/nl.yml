@@ -1,0 +1,8 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Siebrand
+nl: 
+  activemodel: 
+    models: 
+      constrains_config: Reputatiebeperkingsinstellingen

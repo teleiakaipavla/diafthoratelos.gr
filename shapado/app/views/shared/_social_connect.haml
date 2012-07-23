@@ -1,0 +1,18 @@
+%h1
+  = t('invitations.accept.find_friends')
+.connect-options
+  %ul.social-provider-list
+    %li= link_to t('.find_friends_facebook'), '/users/auth/facebook', :class => 'facebook', :id => 'facebook_auth' unless current_user.facebook_login?
+    %li= link_to t('.find_friends_twitter'), '/users/auth/twitter', :class => 'twitter', :id => 'twitter_auth' unless current_user.twitter_id?
+    %li= link_to t('.find_friends_linked_in'),'/users/auth/linked_in', :class => 'linkedin', :id => 'linked_in_auth' unless current_user.linked_in_login?
+    %li= link_to t('.find_friends_identica'),'/users/auth/identica', :class => 'identica', :id => 'identica_auth' unless current_user.identica_login?
+
+- if params[:controller] != 'invitations'
+  %h1
+    = t('shared.social_connect.or_connect')
+  %ul
+    %li= link_to 'Google','/users/auth/open_id?openid_url=https://www.google.com/accounts/o8/id', :class => 'google', :id => 'google_auth'
+
+  %p
+    - User.where(:email => current_user.email, :_id.ne => current_user.id).each do |same_user|
+      =link_to "merge #{same_user.login} into this account", connect_users_path(:target_id => same_user.id), :method => :post

@@ -1,0 +1,21 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Važi do
+        message: Poruka
+        only_anonymous: Samo za anonimne korisnike
+        starts_at: Važi od
+  announcements: 
+    actions: 
+      delete: Ukloni
+      title: Radnje
+    create: 
+      success: Saopštenje je napravljeno.
+    index: 
+      description: Napravite saopštenja koja će biti prikazana na celom sajtu i upravljajte njima.
+      title: Saopštenja

@@ -1,0 +1,69 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mor
+# Author: Ovruni
+# Author: Patcito
+es: 
+  devise: 
+    confirmations: 
+      confirmed: Su cuenta ha sido confirmada. Está usted conectado ya.
+      send_instructions: Recibirás un correo electrónico con instrucciones sobre cómo confirmar tu cuenta en pocos minutos.
+    failure: 
+      inactive: Tu cuenta no ha sido activada todavía.
+      invalid: Dirección de correo electrónico o contraseña no válida .
+      invalid_token: Token de autenticación invalido.
+      locked: Tu cuenta está bloqueada.
+      timeout: Tu sesión ha caducado, identifícate de nuevo para continuar.
+      unauthenticated: Necesitas iniciar sesión o registrarte antes de continuar.
+      unconfirmed: Tienes que confirmar tu cuenta antes de continuar.
+    mailer: 
+      confirm_account: 
+        instruction1: "Usted puede confirmar su cuenta a través del siguiente enlace:"
+        link: Confirmar mi cuenta
+        welcome: Bienvenido
+      confirmation_instructions: 
+        subject: Instrucciones de la confirmación
+      hello: Hola
+      reset_password: 
+        instruction1: Alguien ha pedido un enlace para cambiar su contraseña, y usted puede hacerlo a través del siguiente enlace.
+        link: Cambiar mi contraseña
+        nonrequested: Si usted no solicitó eso, por favor ignore este mensaje.
+        warning: Tu contraseña no cambiará hasta que accedas al enlace anterior y crees una nueva.
+      reset_password_instructions: 
+        subject: Instrucciones de restablecimiento de contraseña
+      unlock: 
+        instruction1: Su cuenta ha sido bloqueada debido a una excesiva cantidad de intentos de conexiones sin éxito.
+        instruction2: "Haga clic en el enlace de abajo para desbloquear su cuenta:"
+        link: Desbloquear mi cuenta
+      unlock_instructions: 
+        subject: Instrucciones de desbloqueo
+    passwords: 
+      link: ¿Has olvidado tu contraseña?
+      send_button: Enviarme las instrucciones de restablecimiento de contraseña
+      send_instructions: Recibirás en algunos minutos un correo electrónico con instrucciones acerca de cómo restablecer tu contraseña.
+      updated: Su contraseña se ha cambiado. Ya esta conectado.
+    registrations: 
+      destroyed: ¡Adios! Tu cuenta fue cancelada. Esperamos verte pronto de nuevo.
+      link: Registrarse
+      signed_up: Te has inscrito correctamente. Si está habilitado, una confirmación fue enviada a tu correo electrónico.
+      updated: Has actualizado tu cuenta correctamente.
+    sessions: 
+      link: Inicia sesión
+      new: 
+        openid_url: Tu URL de OpenID
+        remember_me: Permanecer conectado
+      registered_only: Debes estar registrado para ver el contenido.
+      sign_out: Cerrar la sesión
+      signed_in: Ingreso exitoso
+      signed_out: La sesión ha sido cerrada correctamente.
+      signin_group: Iniciar sesión en %{group}
+    unlocks: 
+      link: ¿No ha recibido instrucciones de desbloqueo?
+      send_instructions: Recibirás un correo electrónico con instrucciones sobre cómo desbloquear tu cuenta en pocos minutos.
+      unlocked: Su cuenta fue desbloqueada. Ahora está conectado usted.
+  errors: 
+    messages: 
+      already_confirmed: ya fue confirmado
+      not_found: no encontrado
+      not_locked: no fue bloqueado

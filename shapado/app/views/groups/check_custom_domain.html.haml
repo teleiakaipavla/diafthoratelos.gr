@@ -1,0 +1,6 @@
+%h2= t('users.check_custom_domain.title')
+= form_for(:group, :url => reset_custom_domain_path(@group.id)) do |f|
+  = f.submit t('users.check_custom_domain.reset_domain_button', :domain => "#{@group.slug}.#{AppConfig.domain}")
+  = link_to t('users.check_custom_domain.refresh'), ""
+  = link_to t('users.check_custom_domain.working_domain_link'), "#{domain_url(:custom => @group.domain)}/manage/properties/domain"
+%iframe{:src=>"http://#{@group.domain}:#{request.port}", :style=>"width: 100%;height: 800px;"}

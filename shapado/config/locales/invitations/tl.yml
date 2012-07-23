@@ -1,0 +1,33 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  invitations: 
+    accept: 
+      create_account: Lumikha ng isang akawnt (1 ng 2)
+      create_account_step2: Likhain ang Akawnt
+      description: Ang %{group} ay isang painam nang painam na kalipunan ng mga tanong at mga sagot na patungkol sa anumang paksa.
+      done: Tapos na!
+      facebook_connect: Kumabit sa pamamagitan ng Akawnt mo sa Facebook
+      final_step: Panghuling hakbang (2 ng 2)
+      find_friends: "Maghanap ng mga kaibigan at umugnay:"
+      follow_things: Sundan ang mga Tatak at mga Tao
+      follow_things_description: Lilitaw ang mga tanong na may kaugnayan sa mga ito sa iyong pakain.
+      other_connect: o gamitin ang isa sa mga ito.
+      other_social_options: Maaari mo ring gamitin ang %{linkedin} at %{identica}.
+      point1: Magtanong sa mga dalubhasa na maalam hinggil sa isang ibinigay na paksa.
+      point2: Sundan ang mga paksa at sagutin ang mga tanong na kinagigiliwan mo.
+      point3: Bumoto at baguhin ang mga sagot at mga pahina ng wiki upang mapainam ang mga ito. Magwagi ng mga tsapa
+      point4: Sumagot mula sa iyong kliyente ng e-liham na walang kuskos-balungkos.
+      twitter_connect: Kumabit sa pamamagitan ng Akawnt mo sa Twitter
+      welcome: Maligayang pagdating
+    create: 
+      flash_notice: Matagumpay na naipadala ang mga paanyaya mo.
+      limit_notice: 
+        one: Paumanhin, hindi ka makapagpapadala ng mas mahigit kaysa sa %{limit} paanyaya sa bawat isang pagkakataon.
+        other: Paumanhin, hindi ka makapagpapadala ng mas mahigit kaysa sa %{limit} mga paanyaya sa bawat isang pagkakataon.
+    resend: 
+      flash_notice: Matagumpay na muling naipadala ang paanyaya mo.
+    revoke: 
+      flash_notice: Matagumpay na napawalang-bisa ang paanyaya mo.

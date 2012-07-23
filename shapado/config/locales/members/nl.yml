@@ -1,0 +1,23 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Siebrand
+nl: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rol
+  members: 
+    create: 
+      error: De gebruiker **%{user_id}** bestaat niet.
+      notice: "%{login} is toegevoegd als %{role}."
+    form: 
+      destroy_confirm: Weet u het zeker? Deze gebruiker is dan niet langer lid van deze groep.
+      login_tip: Zoeken tijdens het invoeren
+    index: 
+      manage_members_title: Leden beheren
+      title: Leden van de groep %{name}
+      title_isolate: Leden van %{name}
+    update: 
+      error: U bent niet gemachtigd om het lidmaatschap van **%{login}** aan te passen.

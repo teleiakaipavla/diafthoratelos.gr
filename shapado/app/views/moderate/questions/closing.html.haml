@@ -1,0 +1,7 @@
+%h1
+  = t('admin.moderate.closing.title')
+
+= @question.title
+= @question.body
+
+= render "moderate/questions/closing_form", :question => @question

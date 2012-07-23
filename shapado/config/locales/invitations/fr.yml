@@ -1,0 +1,35 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: Od1n
+# Author: Patcito
+fr: 
+  invitations: 
+    accept: 
+      create_account: Créer un compte (1 de 2)
+      create_account_step2: Créer un compte
+      description: "%{group} est une collection de question et réponses en constante évolution sur n'importe quel sujet."
+      done: Terminé !
+      facebook_connect: Connectez-vous avec votre compte Facebook
+      final_step: Dernière étape (2 de 2)
+      find_friends: "Trouver des amis et connecter-vous :"
+      follow_things: Suivez des tags et des personnes
+      follow_things_description: Les questions relatives à ceux-ci apparaîtront dans votre flux.
+      other_connect: ou utilisez l'un de ceux-ci.
+      other_social_options: Vous pouvez également utiliser %{linkedin} et %{identica}.
+      point1: Posez des questions à des experts qui connaissent un sujet donné.
+      point2: Suivez les sujets et répondez aux questions qui vous intéressent.
+      point3: Votez et modifiez les réponses et les pages wiki pour les améliorer. Gagnez des badges
+      point4: Répondez par email sans chichi.
+      twitter_connect: Connectez-vous avec votre compte Twitter
+      welcome: Bienvenue
+    create: 
+      flash_notice: Vos invitations ont été envoyées avec succès.
+      limit_notice: 
+        one: Désolé, vous ne pouvez pas envoyer plus d’%{limit} invitation à un moment.
+        other: Désolé, vous ne peut pas envoyer plus de %{limit} invitations à un moment.
+    resend: 
+      flash_notice: Votre invitation a été renvoyé avec succès.
+    revoke: 
+      flash_notice: Votre invitation a été révoquée avec succès.

@@ -1,0 +1,73 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  layouts: 
+    application: 
+      all: Усе
+      ask_question: Задаць пытаньне
+      badges: Узнагароды
+      by_me: Мной
+      collaborate: Супрацоўніцтва
+      contributed: Унесены
+      faq: Частыя пытаньні
+      follow_us_and_share: Сачыце за намі і дзяліцеся інфармацыяй
+      followed: Сочаць
+      forgot: Забыліся?
+      home: Пачатак
+      join_group: Далучыцца да %{group}
+      languages: Мовы
+      log_in: Увайсьці ў сыстэму
+      logged: Увайшлі як %{login}
+      logout: Выйсьці
+      manage_ads: Кіраваньне рэклямай
+      moderate: Сярэдняя
+      now: зараз!
+      openid: 
+        explaination: "Калі Вы жадаеце зарэгістравацца ці проста ўвайсьці ў сыстэму, калі ласка, выберыце Ваш сэрвіс OpenID:"
+      pages: Старонкі
+      preferred: Пажадана
+      questions: Пытаньні
+      questions_in: Пытаньні ў
+      questions_tagged: памечаная з
+      random_question: Выпадковае пытаньне
+      search: Шукаць
+      settings: Устаноўкі
+      signup: Зарэгіструйцеся
+      subscribe: Падпісацца
+      tags: Тэгі
+      title: Пытаньні і адказы
+      unanswered: Без адказаў
+      users: Карыстальнікі
+      welcome_from: Вітаем! Вы можаце
+    manage: 
+      access: Доступ
+      actions: Дзеяньні
+      announcements: Аб’явы
+      appearance: Выгляд
+      close_group: Закрыць групу
+      constrains: Патрабаваньні
+      content: Зьмест
+      dashboard: Панэль інструмэнтаў
+      domain: Дамэн
+      edit_layout: Рэдагаваць разьмяшчэньне
+      general: Агульныя
+      group_features: Магчымасьці
+      group_look_and_feel: Выгляд
+      group_user_management: Кіраваньне карыстальнікамі
+      invitations: Запрашэньні
+      invoices: Рахункі
+      members: Удзельнікі
+      pages: Старонкі
+      properties: Уласьцівасьці
+      reputation: Рэпутацыя
+      rewards: Узнагароды
+      social: Сацыяльны
+      stats: Статыстыка
+      theme: Афармленьне
+      themes: Афармленьні
+      widgets: Віджэты
+    notifications: 
+      message: Калі Вы болей не жадаеце атрымліваць аўтаматычныя абвяшчэньні з %{group}, зьмяніце Вашыя ўстаноўкі ў акне абвяшчэньняў.

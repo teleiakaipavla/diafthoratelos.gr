@@ -1,0 +1,17 @@
+%li
+  %label
+    = number_with_delimiter(@resources.total_count)
+    = t(:activities, :scope => "activerecord.models")
+    \-
+    = t('global.filter_by')
+
+%li.all
+  = link_to "All", activity_user_path(@user, params), :rel => "nofollow", :class => "pjax", :"data-layout" => "index"
+%li.questions
+  = link_to "Questions", activity_user_path(@user, params.merge(:tab=>"questions")), :rel => "nofollow", :class => "pjax", :"data-layout" => "index"
+%li.answers
+  = link_to "Answers", activity_user_path(@user, params.merge(:tab=>"all")), :rel => "nofollow", :class => "pjax", :"data-layout" => "answers"
+%li.users
+  = link_to "Users", activity_user_path(@user, params.merge(:tab=>"users")), :rel => "nofollow", :class => "pjax", :"data-layout" => "index"
+%li.users
+  = link_to "Pages", activity_user_path(@user, params.merge(:tab=>"pages")), :rel => "nofollow", :class => "pjax", :"data-layout" => "index"

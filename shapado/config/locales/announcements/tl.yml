@@ -1,0 +1,21 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: nagtatapos sa
+        message: mensahe
+        only_anonymous: para lang sa mga tagagamit na hindi nagpapakilala
+        starts_at: nagsisimula sa
+  announcements: 
+    actions: 
+      delete: tanggalin
+      title: mga galaw
+    create: 
+      success: Matagumpay na nalikha ang patalastas mo.
+    index: 
+      description: Pamahalaan at lumikha ng bagong mga anunsiyo na ipapakita sa mga panauhin mo sa buong sityo.
+      title: mga pahayag

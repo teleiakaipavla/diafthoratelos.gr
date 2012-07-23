@@ -1,0 +1,37 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  admin: 
+    moderate: 
+      closing: 
+        title: Isara ang katanungan
+      index: 
+        all: lahat
+        ban: pagbawalan
+        banned: pinagbabawalang mga tanong
+        content: nilalaman
+        flagged: binandilang mga tanong
+        item_title: pamagat
+        need_tags: tatakan uli
+        title: katamtaman
+      opening: 
+        title: Buksan ang tanong
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Ipinagbawal
+        banned_tooltip: Ipakita lamang ang mga tanong na ipinagbabawal
+        filters: "Mga pansala:"
+        unbanned: Hindi na pinagbabawalan
+        unbanned_tooltip: Ipakita lamang ang mga tanong na hindi ipinagbabawal
+      subtabs: 
+        flagged: Ibinandila
+        flagged_tooltip: Mga tanong na ibinandila ng mga tagagamit
+        retag: Nangangailangan ng mga tatak
+        retag_tooltip: Mga tanong na walang mga tatak
+        to_close: Mga kahilingan ng pagsasara
+        to_close_tooltip: Mga tanong na hiliniling ng mga tagagamit na isara na
+        to_open: Mga hiling ng muling pagbubukas
+        to_open_tooltip: Mga tanong na nakasara na hiniling ng mga tagagamit na buksang muli

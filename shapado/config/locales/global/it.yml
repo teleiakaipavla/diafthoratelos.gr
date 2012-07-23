@@ -1,0 +1,97 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+# Author: Rippitippi
+it: 
+  feeds: 
+    feed: Feed
+    post_new_questions: Manda le nuove domande su
+    question: Iscriviti a questa domanda
+    questions: Iscriviti a tutte le domande
+    share_on_twitter: twitter, facebook e molti altri...
+    tag: Iscriviti al tag
+    user: Iscriviti alle domande dell'utente
+  global: 
+    actions: Azioni
+    active: Attiva
+    alphabetically: In ordine alfabetico
+    anonymous: Anonimo
+    blog: Blog
+    by: da
+    by_semi: "Da:"
+    chat: Chat
+    current: Attuale
+    edited: Modificato
+    edited_by: Modificato da
+    edited_by_semi: "Modificato da:"
+    feedback: Feedback
+    follow: Segui
+    followed_by: "Seguito da:"
+    following: Seguendo
+    from: da %{site}
+    group_not_found: La pagina %{url} non esiste
+    home: Pagina principale
+    next_button: Successivo
+    open: Apri
+    or: o
+    permission_denied: Permesso negato
+    please_login: Accedi
+    preview: Anteprima
+    previous: Precedenti
+    privacy: Privacy
+    share: Condividi
+    sign_up: Iscriviti
+    size: Dimensioni
+    sort_by: "Ordina per:"
+    tags_label: "Tag:"
+    tos: Termini di Servizio
+    unfollow: Non seguire
+    unknown_place: Sconosciuto
+    view: Visualizza
+    view_question: Visualizza domanda
+    what_to_do: Cosa vuoi fare?
+  models: 
+    question: La domanda
+  number: 
+    x_time: 
+      one: "%{count} volta"
+      other: "%{count} volte"
+      zero: Mai
+  preferred_languages: 
+    any: Qualsiasi
+    user: Lingue preferite
+  roles: 
+    moderator: Moderatore
+    owner: Proprietario
+    user: Utente normale
+  scaffold: 
+    add: Aggiungi
+    are_you_sure: Sei sicuro?
+    back: Indietro
+    cancel: Annulla
+    close: Chiudi
+    create: Crea
+    destroy: Cancella
+    details: Dettagli
+    edit: Modifica
+    more: Altro...
+    new: Aggiungi nuovo %{model}
+    post_as_anonymous: Posta come anonimo
+    save: Salva
+    send: Invia
+    show: Mostra
+    sure: Cancellare questo %{model} ?
+    update: Aggiorna
+  time: 
+    ago: "%{time} fa"
+    today: oggi
+    yesterday: ieri
+  views: 
+    pagination: 
+      first: Prima pagina
+      last: Ultima
+      next: Successivo &raquo;
+      previous: "&laquo; Precedente"
+      truncate: ...

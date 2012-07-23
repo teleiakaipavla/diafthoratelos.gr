@@ -1,0 +1,62 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Martorell
+# Author: Papapep
+ca: 
+  shared: 
+    any_lang: Qualsevol idioma
+    by_anon: Per Anònim
+    current_tags: 
+      title: Etiquetes seleccionades
+    description: Descripció
+    empty: 
+      activities: 
+        description: 
+          text: Aquest lloc se n'ompliran automàticament quan la gent comenci a usar el lloc.
+        title: No hi ha cap activitat fins ara.
+      answers: 
+        description: 
+          text: Sigui el primer!
+        title: Ningú ha respost a aquesta pregunta encara.
+      default: 
+        description: 
+          text: Sigui el primer en %{action_link}!
+        title: Ho sento! No hi ha molt per veure aquí.
+      questions: 
+        description: 
+          action_link: Feu una pregunta
+      themes: 
+        description: 
+          action_link: ara
+          text: crear un %{action_link}
+        title: Encara no heu creat cap temes per ara.
+    layout: 
+      footer: 
+        cc_footer: Tot el contingut de Shapado.com i dades estan disponibles sota la llicència de %{cc_link}
+        powered_by: Powered by % %{source_link} %{version} sota el %{agpl_link}
+    login_drop_down: 
+      with_facebook: amb Facebook
+      with_google: amb Google
+      with_identica: amb Identi. ca
+      with_linked_in: amb LinkedIn
+      with_openid: OpenID
+      with_twitter: amb Twitter
+    manage_navigation: 
+      title_content: Grup de contingut
+      title_features: Trets de grup
+      title_options: Opcions de grup
+    name: Nom
+    preferred_lang: El meu idioma preferit
+    quick_question: 
+      random_question: Contesti a una pregunta aleatòria
+    social_connect: 
+      find_friends_facebook: Trobar amics a Facebook
+      find_friends_identica: Find friends on Identi. ca
+      find_friends_linked_in: Trobar amics a LinkedIn
+      find_friends_twitter: Trobar amics a Twitter
+    topbar: 
+      admin: Administrador
+      logged_as: Heu iniciat la sessió com a %{login}
+      user_page: Pàgina personal

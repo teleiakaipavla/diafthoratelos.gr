@@ -1,0 +1,135 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  activerecord: 
+    attributes: 
+      user: 
+        activated_at: dihidupkan pada
+        activation_code: Kod pengaktifan
+        age: Umur
+        asked_by: ditanya oleh
+        avatar: Gambar profil
+        birthday: Hari jadi
+        created_at: menyertai
+        current_password: Kata laluan sekarang
+        email: E-mel
+        fullname: Nama penuh
+        hide_country: Jangan paparkan negara saya
+        language: Bahasa
+        language_filter: Tapis mengikut bahasa
+        last_logged_at: dilihat
+        login: Nama pengguna
+        name: Nama sebenar
+        password: Kata laluan
+        password_confirmation: Pengesahan kata laluan
+        preferred_languages: "Anda mahu membaca soalan dalam bahasa-bahasa berikut:"
+        preferred_tags: Tag keutamaan
+        reputation: Reputasi
+        timezone: Zon waktu
+        updated_at: dikemas kini pada
+        website: Tapak web
+    models: 
+      user: Pengguna
+      users: Pengguna
+  users: 
+    actions: 
+      edit_others_posts: Sunting kiriman orang lain
+      edit_wiki_post: Sunting kiriman wiki
+      flag: Bendera
+      retag_others_questions: Tag semula soalan orang lain
+      vote_down: Undi tak setuju
+      vote_to_close_any_question: Pohon supaya soalan ditutup
+      vote_to_close_own_question: Pohon supaya soalan anda ditutup
+      vote_up: Undi setuju
+    anonymous_form: 
+      never_shown: tidak pernah dipaparkan
+    change_password: 
+      submit: Tukar kata laluan saya
+      title: Tukar kata laluan
+    check_custom_domain: 
+      reset_domain_button: Tidak, tolong setkan balik domain tersuai kepada %{domain}
+      title: Adakah domain tersuai anda berjalan dengan lancar?
+      working_domain_link: Ya, saya mendapati domain baru saya berjalan dengan lancar.
+    create: 
+      flash_error: Maaf, kami tidak dapat membuka akaun itu. Sila cuba lagi atau hubungi pentadbir (melalui pautan di atas).
+      flash_notice: Terima kasih kerana mendaftar diri!
+    edit: 
+      enable_twitter: Bolehkan akaun Facebook atau Twitter anda
+      submit: Simpan
+      title: Tetapan
+    follow: 
+      flash_error: Anda tidak boleh mengikuti diri sendiri.
+      flash_notice: Anda sedang mengikuti %{user}.
+    form: 
+      activities_notification: Terima pemberitahuan e-mel mengenai kegiatan sistem seperti lencana yang diraih, pengikut baru, dsb.
+      avatar_tip: Tukar gambar profil anda dengan menggunakan Gravatar
+      check_domain: Periksa %{domain}
+      check_domain_title: Periksa domain tersuai kumpulan anda
+      desktop_notification: Pemberitahuan desktop
+      give_advice_notification: Terima pemberitahuan e-mel mengenai soalan-soalan dalam bidang anda
+      information: Maklumat
+      language: Bahasa yang digunakan untuk antara muka laman
+      new_answer_notification: Dapatkan pemberitahuan e-mel untuk jawapan baru
+      notifications: Pemberitahuan
+      reports_notification: Terima laporan kegiatan kumpulan terkini (untuk pentadbir kumpulan sahaja)
+      send_answers_to_twitter: Hantar jawapan saya ke Twitter saya
+      send_badges_to_twitter: Hantar lencana yang baru saya raih ke Twitter saya
+      send_comments_to_twitter: Hantar komen saya ke Twitter
+      send_favorites_to_twitter: Hantar jawapan kegemaran saya ke Twitter saya
+      send_questions_to_twitter: Hantar soalan saya ke Twitter saya
+      show_more_lang: Tunjukkan banyak lagi bahasa
+      social_interaction: Interaksi media sosial
+    index: 
+      empty: Kumpulan ini tiada ahli baru. Ambil bahagian dengan menyertai kumpulan ini.
+      filter: Cari pengguna
+      name: Nama
+      name_tooltip: Pengguna disusun mengikut turutan abjad
+      near: Dekat anda
+      near_tooltip: Pengguna yang berdekatan dengan anda
+      newest: Terbaru
+      newest_tooltip: Pengguna yang baru menyertai
+      oldest: Terlama
+      oldest_tooltip: Pengguna yang pertama sekali menyertai
+      reputation: Reputasi
+      reputation_tooltip: Pengguna disusun mengikut tahap reputasi
+      title: Semua pengguna
+    messages: 
+      errors: 
+        reputation_needed: Anda memerlukan tahap reputasi %{min_reputation} untuk %{action}
+    new: 
+      description: Sertai komuniti ini untuk bertanya, menjawab dan menambah ilmu!
+      join_group: Sertai %{group}
+      submit: Daftar diri
+      title: Daftar diri sebagai pengguna baru
+    show: 
+      edit_profile: Sunting profil
+      follow: Ikuti
+      followers: Pengikut
+      following: Diikuti
+      title: Pengguna %{user}
+      unfollow: Berhenti mengikut
+      views: kunjungan
+    show_json: 
+      edit_it: Klik di sini untuk mengisikan biodata anda dalam profil anda.
+      no_description: Pengguna ini belum mengisikan biodatanya.
+    top_user: 
+      connect: Sambung
+      my_karma: "Karma saya: %{karma}"
+      profile: Profil
+    unfollow: 
+      flash_notice: Anda tidak mengikuti %{user} lagi.
+    update_followed_tags: 
+      followed: 
+        flash_notice: Anda sedang mengikuti tag %{tag}.
+      unfollowed: 
+        flash_notice: Anda tidak mengikuti tag %{tag} lagi.
+    user_bar: 
+      create_account: Buka akaun
+      not_logged_in: Belum log masuk
+      signed_as: Log masuk sebagai
+    user_mini: 
+      admin: "[ Pentadbir ]"
+      editor: "[ Penyunting ]"
+      mod: "[ Pengawal Selia ]"

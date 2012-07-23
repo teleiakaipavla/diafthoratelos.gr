@@ -1,0 +1,139 @@
+%meta{"data-js"=> 'show'}
+= include_latex
+
+- question_body = find_and_preserve(shapado_auto_link(markdown(@question.body.present? ? @question.body : @question.title)))
+
+- content_for :head do
+  %meta{name: "keywords", content: clean_seo_keywords(@question.tags.dup, @question.title)}
+  %meta{name: "description", content: question_body.gsub(/<\/?[^>]*>/, "")[0, 255] }
+  %link{rel: "canonical", href: question_url(@question) }
+
+-cache_for(:question, @question.id, @question.user == current_user ? "owner" : "" ) do
+  %section{class: "main-question #{@question.id}", id: "question-#{@question.id}", item_scope: '', itemtype: "http://schema.org/Article"}
+
+    %h1{itemprop: "name"}
+      = @question.title
+      - if @question.closed
+        =" [#{t("closed", scope: "activerecord.attributes.question").upcase}]"
+    .author
+      %small
+        %span
+          = t('activerecord.attributes.question.asked_by')
+        = render "users/user_mini", user: @question.user, author: true
+        %time{datetime: @question.created_at.iso8601, itemprop: "datePublished"}
+          = t("time.ago", time: time_ago_in_words(@question.created_at))
+        - if @question.updated_by
+          ,
+          = t('global.edited_by')
+          = render "users/user_mini", user: @question.updated_by
+
+          %time{datetime: @question.updated_at.iso8601, itemprop: "dateModified"}
+            = link_to t("time.ago", time: time_ago_in_words(@question.updated_at)), history_question_path(@question), title: "#{t("questions.show.history")} (#{@question.versions_count})"
+
+    .description.markdown.clearfix
+      %div{itemprop: "articleBody"}
+        = question_body
+      = render "reward_info"
+      = render "attachments", question: @question, attachments: @question.attachments, editing: false
+
+
+    %ul.tag-list.clearfix
+      - @question.tags.each do |tag|
+        %li
+          = tag_link(tag)
+      - if logged_in? && (current_user.can_modify?(@question) || current_user.can_retag_others_questions_on?(current_group))
+        %li.retag
+          = link_to t('.retag'), retag_question_path(@question), class: 'retag-link'
+
+    %meta{itemprop: "keywords", content: @question.tags.join(",")}
+    %meta{itemprop: "inLanguage", content: @question.language}
+    %meta{itemprop: "interactionCount", content: "UserComments:#{@question.answers_count}"}
+    %meta{itemprop: "interactionCount", content: "UserPageVisits:#{@question.views_count}"}
+
+    = render "toolbar"
+
+    .comments
+      =link_to "#{content_tag(:span, "NN", class: "counter")} comments".html_safe, "#", class: "toggle_comments"
+      -@question.comments.each do |comment|
+        -read = (@last_read_at && @last_read_at > comment.created_at && comment.votes_average < 2)
+        = render "comments/comment", comment: comment, source: question_path(@question), mini: true, read: read
+
+    .panel-comments
+      = form_for [@question, @comment ||= Comment.new], remote: true, html: {class: "question_comment_form", data: {commentable: @question.id, editor: current_group.wysiwyg_editor ? 'wysiwyg_editor' : 'markdown_editor', "login-required" => true}} do |f|
+        %fieldset
+          = render "comments/form", f: f, commentable: @question, source: question_url(@question)
+          .buttons
+            = f.submit t("comments.shared.comment_submit"), data: {"disable-with" => "Saving..."}
+            = t("global.or")
+            = link_to t('scaffold.cancel'), '', :class => 'cancel cancel_comment'
+
+#answers-content-wrap
+  .error
+    - source = question_path(@question)
+    = error_messages_for 'answer'
+
+  - if @question.closed && @question.close_reason.present?
+    #close_reason
+      = t(".close_reason")
+      = t(@question.close_reason.reason, scope: "close_requests.form")
+      - if !@question.close_reason.comment.empty?
+
+        .comment
+          =find_and_preserve(shapado_auto_link(@question.close_reason.comment))
+  - if !@answers.empty? || @question.accepted
+    -cache_for(:question_answers, @question.id) do
+      %h2
+        = t("questions.question.has_answers", count: @question.answers_count)
+
+      .filters.clearfix
+        %ul.menubar{class: @active_subtab.to_s}
+          %li
+            %label=t('global.sort_by')
+          %li.newest-active
+            = link_to t("questions.index.newest"), question_path(@question, sort: "newest", anchor: "answers"), rel: "nofollow", class: "pjax", data: {layout: "question"}
+          %li.votes-active
+            = link_to t("questions.index.votes"), question_path(@question, sort: "votes", anchor: "answers"), rel: "nofollow", class: "pjax", data: {layout: "question"}
+          %li.oldest-active
+            = link_to t("questions.index.oldest"), question_path(@question, sort: "oldest", anchor: "answers"), rel: "nofollow", class: "pjax", data: {layout: "question"}
+          %li
+            = link_to t('.solution')
+
+        -if @question.follow_up
+          .followUp-content
+            %h1
+              = t("questions.show.follow_up_of")
+            = link_to @question.follow_up.original_question.title, question_path(@question.follow_up.original_question, anchor: @question.follow_up.original_answer_id), rel: 'nofollow'
+
+        -if @question.followed_up_by.limit(1).count > 0
+          %h1= t('global.followed_by')
+          %ul
+            -@question.followed_up_by.all.each do |child|
+              %li
+                = link_to child.title, question_path(child)
+
+  - if !@answers.empty? || @question.accepted
+    .answers-list
+      - if @question.accepted
+        - solution = @question.answer
+        = render "answer", question: @question, answer: solution unless solution.nil?
+
+      - @answers.each do |answer|
+        - next if answer.id == @question.answer_id
+        = render "answer", {:question => @question, :answer => answer}
+
+      = paginate(@answers)
+
+  -if !@question.closed || !(logged_in? && current_user.can_answer_on?(current_group))
+    #to_answer
+      -if logged_in? && @question.answers.where(user_id: current_user.id).count > 0
+        %h2
+        .toolbar
+          %ul.menubar
+            %li.action
+              = link_to "Add another answer", "#", id: "add_another_answer"
+      -else
+        %h2
+          -#i18n
+          Your answer
+
+      = render "answers/form", markdown: true, question: @question

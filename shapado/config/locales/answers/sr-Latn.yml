@@ -1,0 +1,30 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Tekst
+        created_at: "Napravljeno:"
+        link: Veza
+    models: 
+      answer: Odgovor
+      answers: Odgovori
+  answers: 
+    create: 
+      annon_notice: Korisnik je već upisan. Prijavite se.
+      flash_error: "Došlo je do greške pri dodavanju odgovora. \nUpamtite da: \n – prazni i ponovljeni odgovori nisu dozvoljeni.\n – treba da sačekate 20 sekundi pre postavljanja sledećeg odgovora. \n – možete postaviti samo jedan odgovor po pitanju."
+      flash_notice: Hvala!
+    edit: 
+      title: Uređivanje odgovora
+    form: 
+      answer_label: Odgovorite na pitanje
+      comment_label: Prokomentarišite ovaj odgovor
+      comment_submit: Prokomentariši
+      submit: Odgovori
+    revert: 
+      title: Vrati odgovor
+    update: 
+      flash_notice: Odgovor je ažuriran.

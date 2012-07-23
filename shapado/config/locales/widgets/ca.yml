@@ -1,0 +1,82 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+# Author: SMP
+ca: 
+  widgets: 
+    about: 
+      description: Aquest widget Mostra una breu descripció del seu grup.
+      title: Sobre
+    ask_question: 
+      ask: Pregunti
+      description: Aquest widget permet als usuaris fer preguntes des de qualsevol lloc.
+      footer: Veure totes les preguntes en % {grup}
+      title: "Una pregunta:"
+      view_question: <p>Vostè pot veure'l <a href="%{question}">aquí</a> o demaneu a un altre aquest sota.</p>
+    badges: 
+      description: Aquest giny mostra els distintius recentment atorgats a usuaris o preguntes
+      title: Distintius recents
+    contributors: 
+      description: Aquest widget Mostra la llista de persones que han contribuït a una pregunta.
+      title: Col. laboradors de pregunta
+    current_tags: 
+      description: Aquest widget Mostra etiquetes seguits per l'usuari actual.
+    group_networks: 
+      description: Aquest widget Mostra una llista d'enllaços de xarxa social per tal que els usuaris poden seguir allà.
+      title: Siga amb nosaltres
+    groups: 
+      description: Aquest giny mostra els últims grups
+      title: Grups recents
+    index: 
+      description: Empreu les fletxes per a moure els ginys
+      title: Gestiona els ginys de la barra lateral
+    mod_info: 
+      description: Aquest widget Mostra informació rellevant per a moderadors com banderes i sol. licituds d'informació.
+    pages: 
+      description: Aquest giny mostra la llista de pàgines wiki
+      new: Afegeix una nova pàgina
+      title: Pàgines Wiki
+    question_badges: 
+      description: Aquest widget Mostra distintius guanyats sobre aquesta qüestió.
+      title: Distintius de pregunta
+    question_stats: 
+      description: Aquest widget Mostra stats sobre una pregunta com la cita de creació i nombre de vistes.
+    question_tags: 
+      description: Aquest widget Mostra Etiquetes relacionades amb la pàgina actual.
+      title: Etiquetes de pregunta
+    related_questions: 
+      description: Aquest widget Mostra una llista de preguntes relacionades amb la qüestió actual.
+      title: Questions relacionades
+    settings: 
+      code: "Copieu i enganxeu el codi al seu lloc o bloc, com un widget de text en el seu Wordpress:"
+      custom_external_css: "Inclouen personalitzat CSS pel teu Giny (aconsellable si no són inclosos el CSS de Shapado):"
+      preview: "Vista prèvia de Widget:"
+    share: 
+      description: Aquest widget Mostra diversos botons per compartir la pàgina actual a les xarxes socials.
+      title: Compartir en
+    sharing_buttons: 
+      description: Aquest widget mostrarà els botons de participació socials.
+      title: Compartir això en
+    suggestions: 
+      description: Suggeriment d'amics i etiquetes per a l'usuari a seguir.
+      follow_tag: + Seguir la tag
+      follow_user: + Seguir l'usuari
+      followed_by: Seguit en % {user}
+      title: Gent I Etiquetes per seguir
+    tag_cloud: 
+      description: Aquest giny mostra un núvol d'etiquetes
+      title: Núvol d'etiquetes
+    tag_list: 
+      description: Aquest widget Mostra Etiquetes relacionades amb la pàgina actual.
+      title: Etiquetes
+    top_groups: 
+      description: Aquest giny mostra els 5 grups millor classificats
+      title: Els 5 grups millor classificats
+    top_users: 
+      description: Aquest giny mostra els 5 usuaris millor classificats
+      title: Els 5 usuaris millor classificats
+    users: 
+      description: Aquest giny mostra els membres recentment registrats
+      title: Usuaris recents

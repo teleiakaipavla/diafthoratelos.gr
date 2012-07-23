@@ -1,0 +1,98 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+# Author: McDutchie
+# Author: Rancher
+mk: 
+  activerecord: 
+    attributes: 
+      group: 
+        daily_cap: Дневно ограничување
+        default_tags: основно зададени ознаки
+        description: опис
+        domain: домен
+        enable_latex: Овозможи LaTeX со jqmath (брзо, но ги нема сите можности)
+        enable_mathjax: Овозможи LaTeX со mathjax (бавно, но ги има сите можности)
+        fb_button: Овозможи копче „Ми се допаѓа“ на Facebook (не е погодно за приватност)
+        forum: дозволи повеќе од еден одговор по корисник
+        group_created_by: создадена од
+        language: Основен јазик
+        languages: Дополнителни јазици
+        legend: легенда
+        logo: лого
+        may_contain_adult_content: ова мрежно место може да има содржини за возрасни
+        name: име
+        owner: групава е создадена од %{login}
+        registered_only: само регистрирани корисници можат да пристапат на местото
+        signup_type: "На кој начин може да се регистрираат вашите корисници:"
+        state: држава
+        subdomain: URL
+        track_users: Побарај им ја физичката местоположба на корисниците
+        wysiwyg_editor: Овозможи згоден кориснички уредник
+    models: 
+      default_tags_message: не може да имате повеќе од 10 основно зададени ознаки
+      duplicate_domain_message: Нажалост, доменот е зафатен.
+      group: група
+      groups: групи
+      reputation_rewards_answer_constrain: Ограничувањето за наградување одговори треба да биде негативно
+      reputation_rewards_ask_constrain: Ограничувањето за поставување прашања треба да биде негативно
+      reputation_rewards_key: Неважечки клуч
+  groups: 
+    connect_group_to_twitter: 
+      failed_twitter_connection: Нажалост, нешто не е во ред. Обидете се подоцна.
+      success_twitter_connection: Честитки! Успешно ја поврзавте сметката на Twitter!
+    create: 
+      flash_notice: Вашата група е успешно создадена. Сега можете да почнете да правите поставки и прилагодувања.
+    edit: 
+      title: Уредете ја вашата група
+    form: 
+      access: Поставки за пристап
+      analytics_engine: Аналитички погон
+      analytics_legend: Оваа група ќе може да користи сопствен код за следење
+      any_language: било кој
+      custom_analytics: Дозволи прилагодена аналитика
+      custom_html: Дозволи прилагоден HTML
+      custom_js: Дозволи прилагодена Јава-скрипта
+      default_tags_legend: одделувајте ги ознаките со запирки. дозволени се само 10 основно зададени ознаки.
+      description_legend: имате 400 знаци за опис на групата.
+      isolate_group: Изолирај ја групата од останатите групи
+      legend_legend: ова ќе се користи во заглавието. имате 40 знаци
+      logo_legend: можете да подигнете лого на групата. максималната дозволена големина изнесува 2 Мб
+      members_only: Само членовите на групата ќе имаат пристап до неа
+      signup_all: Сите одбрани добавувачи, плус корисник/лозинка
+      signup_email: Само корисник/лозинка
+      signup_noemail: Сите одбрани добавувачи, минус корисник/лозинка
+      signup_social: Корисниците се приморани да користат Facebook, Twitter, LinkedIn или Identica
+      website_analytics_id: ID на аналитика на мреж. место
+    group: 
+      about: за групата
+      accept_group: прифати ја групава
+      allow_ads: дозволи реклами
+      close: затвори
+      close_group: затвори ја групава
+      disallow_ads: забрани реклами
+    index: 
+      actives: активни
+      create_your_own: создајте своја група
+      description: Ова е список на создадените јавни групи. Филтрирајте ги подолу во полето запребарување. Можете и да %{link}.
+      filter: пребарување на нови групи
+      most_active: најактивни
+      name: име
+      pendings: во исчекување
+      request_group: побарај нова група
+      title: групи
+    new: 
+      title: создајте своја група
+    show: 
+      accept_group: прифати ја групава
+      accept_group_with_custom_ads: прифати ја групата и дозволи реклами по избор
+      close_group: затвори ја групава
+      group_awaiting_acceptance: оваа група чека на одобрение од модератор.
+      group_closed: оваа група е затворена.
+      title: за %{name}
+      visit_group: посети ја групава
+    top_grouplist: 
+      active_site: Активно мр. место
+    update: 
+      notice: Вашата група е успешно подновена.

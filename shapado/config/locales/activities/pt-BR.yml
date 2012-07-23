@@ -1,0 +1,18 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Pedroca cerebral
+pt-BR: 
+  activerecord: 
+    models: 
+      activities: Atividades
+      activity: Atividade
+  activity: 
+    asked: perguntou
+    changed: mudou
+    created: criado
+    deleted: eliminado
+    flagged: marcou
+    requested_to_close: solicitou o fechamento
+    requested_to_open: solicitou a abertura
+    updated: atualizado

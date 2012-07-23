@@ -1,0 +1,95 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  feeds: 
+    feed: Dovod
+    post_new_questions: Postavite nova pitanja na
+    question: Prijavi me na ovo pitanje
+    questions: Prijavi me na sva pitanja
+    share_on_twitter: Tviter, Fejsbuk i više…
+    tag: Prijavi me na oznaku
+    user: Prijavi me na korisnička pitanja
+  global: 
+    actions: Radnje
+    active: Aktiviraj
+    alphabetically: Abecedno
+    anonymous: Anonimno
+    blog: Blog
+    by: od
+    by_semi: "Od:"
+    chat: Ćaskanje
+    current: Tekuće
+    edited: Uređeno
+    edited_by: "Uredio:"
+    edited_by_semi: "Uredio:"
+    feedback: Mišljenja
+    follow: Prati
+    followed_by: "Pratioci:"
+    following: Pratim
+    from: iz %{site}
+    group_not_found: Stranica %{url} ne postoji
+    home: Početna
+    next_button: Sledeće
+    open: Otvori
+    or: ili
+    permission_denied: Dozvola je odbijena
+    please_login: Prijavite se
+    preview: Pregledaj
+    previous: Prethodno
+    privacy: Privatnost
+    share: Deli
+    sign_up: Upis
+    size: Veličina
+    sort_by: "Poređaj po:"
+    tags_label: "Oznake:"
+    tos: Uslovi
+    unfollow: Prestani s praćenjem
+    unknown_place: Nepoznato
+    view: Pogledaj
+    view_question: Pogledaj pitanje
+    what_to_do: Šta želite da uradite?
+  models: 
+    question: Pitanje
+  number: 
+    x_time: 
+      one: "%{count} put"
+      other: "%{count} puta"
+      zero: Never
+  preferred_languages: 
+    any: bilo koji
+    user: Željeni jezici
+  roles: 
+    moderator: Moderator
+    owner: Vlasnik
+    user: Običan korisnik
+  scaffold: 
+    add: Dodaj
+    are_you_sure: Jeste li sigurni?
+    back: Nazad
+    cancel: Otkaži
+    close: Zatvori
+    create: Napravi
+    destroy: Obriši
+    details: Detalji
+    edit: Uredi
+    more: Više…
+    new: Dodaj %{model}
+    post_as_anonymous: Objavi anonimno
+    save: Sačuvaj
+    send: Pošalji
+    show: Prikaži
+    sure: Želite li da obrišete %{model}?
+    update: Ažuriraj
+  time: 
+    ago: pre %{time}
+    today: danas
+    yesterday: juče
+  views: 
+    pagination: 
+      first: Prvo
+      last: Poslednje
+      next: Sledeće &raquo;
+      previous: "&laquo; Prethodno"
+      truncate: …

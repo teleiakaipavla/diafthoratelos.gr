@@ -1,0 +1,77 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Giallu
+it: 
+  layouts: 
+    application: 
+      all: Tutti
+      ask_question: Poni domanda
+      badges: Badge
+      by_me: Mie
+      collaborate: Collabora
+      contributed: Contribuito
+      faq: FAQ
+      feed: Seguito
+      follow_us_and_share: Seguici e condivi
+      followed: Seguito
+      forgot: Dimenticato?
+      home: Home
+      join_group: Iscriviti a %{group}
+      languages: Lingue
+      log_in: Entra
+      logged: Collegato come %{login}
+      logout: Esci
+      manage_ads: Gestisci annunci
+      moderate: Modera
+      need_to_signin: Prima è necessario fare login.
+      not_member_join_dialog: È necessario unirsi al %{group} per completare questa azione, clicca qui per farlo.
+      now: ora!
+      openid: 
+        explaination: "Per iscriversi o accedere, selezionare il provider OpenID:"
+      pages: Pagine
+      preferred: Preferiti
+      questions: Domande
+      questions_in: Domande in
+      questions_tagged: taggato con
+      random_question: Domanda a caso
+      search: Cerca
+      settings: Impostazioni
+      signup: Iscriviti
+      subscribe: Iscriviti
+      success_joining_group: Ora sei un membro di %{group}, grazie per esserti unito!
+      tags: Tag
+      title: Domande & Risposte
+      unanswered: Senza risposta
+      users: Utenti
+      welcome_from: Benvenuto! È possibile
+    manage: 
+      access: Accesso
+      actions: Azioni
+      announcements: Annunci
+      appearance: Aspetto
+      close_group: Chiudi gruppo
+      constrains: Requisiti
+      content: Contenuto
+      dashboard: Dashboard
+      domain: Dominio
+      edit_layout: Modifica il layout
+      general: Generale
+      group_features: Caratteristiche
+      group_look_and_feel: Look & feel
+      group_user_management: Gestione degli utenti
+      invitations: Inviti
+      invoices: Fatture
+      members: Membri
+      pages: Pagine
+      properties: Proprietà
+      reputation: Reputazione
+      rewards: Ricompense
+      social: Sociale
+      stats: Statistiche
+      theme: Tema
+      themes: Temi
+      widgets: Widget
+    notifications: 
+      message: Per non ricevere più notifiche da %{group}, cambiare le preferenze nella pagina Notifiche.

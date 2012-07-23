@@ -1,0 +1,41 @@
+# Messages for Catalan (català)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gemmaa
+# Author: Papapep
+ca: 
+  admin: 
+    moderate: 
+      closing: 
+        title: A prop pregunta
+      index: 
+        all: Tot
+        ban: Prohibició
+        banned: Preguntes prohibides
+        content: Contingut
+        flagged: Preguntes marcades
+        item_title: Títol
+        need_tags: Recategoriza
+        title: Modereu
+      opening: 
+        title: Pregunta oberta
+  moderate: 
+    questions: 
+      flagged: 
+        banned: Prohibit
+        banned_tooltip: Mostra només prohibit preguntes
+        filters: "Filtres:"
+        title: Preguntes moderats
+        unbanned: Unbanned
+        unbanned_tooltip: Mostra només unbanned preguntes
+      index: 
+        title: Preguntes moderats
+      subtabs: 
+        flagged: S'ha marcat
+        flagged_tooltip: Preguntes s'ha marcat pels usuaris
+        retag: Necessitat d'Etiquetes
+        retag_tooltip: Preguntes sense Etiquetes
+        to_close: Peticions de tancament
+        to_close_tooltip: Preguntes usuaris demana ser tancat
+        to_open: Reobrir peticions
+        to_open_tooltip: Preguntes tancades usuaris demana tornar a obrir

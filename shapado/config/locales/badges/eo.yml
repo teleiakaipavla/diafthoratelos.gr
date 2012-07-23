@@ -1,0 +1,153 @@
+# Messages for Esperanto (Esperanto)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: LaPingvino
+# Author: Mihxil
+eo: 
+  activerecord: 
+    models: 
+      badge: Insigno
+      badges: Insignoj
+  badges: 
+    index: 
+      description: Ĉiuj gajneblaj insignoj. Dividu vian scion kaj gajnu insignojn.
+      title: insignoj
+    shared: 
+      addict: 
+        description: Vizitis la retejon ĉiutage 20 tagojn sinsekve
+        name: Sklavigito
+      autobiographer: 
+        description: Kompletis ĉiujn uzantprofilajn kampojn
+        name: Aŭtobiografiisto
+      celebrity: 
+        description: Ekhavis pli ol 100 sekvantojn
+        name: Famulo
+      citizen_patrol: 
+        description: Unua markita afiŝo
+        name: Supervidanto
+      civic_duty: 
+        description: Voĉdonis 300-foje
+        name: Civitana devo
+      cleanup: 
+        description: Unuafoje remetis
+        name: Purigado
+      commentator: 
+        description: Lasis 10 komentojn
+        name: Raportisto
+      critic: 
+        description: Voĉdonis negative unuafoje
+        name: Kritikanto
+      disciplined: 
+        description: Forviŝi propran afiŝon kun 3 poentoj aŭ pli
+        name: Disciplinita
+      editor: 
+        description: Unua redaktita afiŝo
+        name: Redaktisto
+      effort_medal: 
+        description: Ekhavis 100 pozitivajn voĉojn
+        name: Medalo por penado.
+      enlightened: 
+        description: Havas respondon kiu akceptiĝis per almenaŭ 10 voĉoj
+        name: Lumiĝinta
+      famous_question: 
+        description: Demandis demandon kun 10000 vidoj
+        name: Fama demando
+      fanatic: 
+        description: Vizitis la retejon ĉiutage 100 tagojn sinsekve
+        name: Fanatikulo
+      favorite_question: 
+        description: Demandis demandon plejŝatatan de 25 uzantoj
+        name: Plejŝatata demando
+      friendly: 
+        description: Unuafoje sekvas iun
+        name: Amika
+      good_answer: 
+        description: Respondis respondon kiu meznombre atingas pli ol 25 voĉoj
+        name: Bona respondo
+      good_question: 
+        description: Demandisdemandon kiu meznombre atingas pli ol 25 voĉojn
+        name: Bona demando
+      great_answer: 
+        description: Havas respondon suprenvoĉdonitan 100-foje
+        name: Bonega respondo
+      great_question: 
+        description: Demando voĉdoniĝis supren 100-foje
+        name: Bonega demando
+      guru: 
+        description: Donis solvon al demando kun meznombre pli ol 40 voĉoj
+        name: Guruo
+      inquirer: 
+        description: Demandis demandon unuafoje
+        name: Informpetanto
+      interesting_person: 
+        description: Ekhavis pli ol 10 sekvantojn
+        name: Interesulo
+      merit_medal: 
+        description: Ekhavis 200 pozitivajn voĉojn
+        name: Medalo pri merito
+      necromancer: 
+        description: Respondis demandon pli ol 60 tagojn poste kun almenaŭ 5 voĉoj.
+        name: Viviganto
+      nice_answer: 
+        description: Respondis respondon suprenvoĉdonitan 10-foje
+        name: Bela respondo
+      nice_question: 
+        description: Demandis demandon kiu voĉdoniĝis supren 10-foje
+        name: Bela demando
+      notable_question: 
+        description: Demandis demandon kun 2500 vidoj
+        name: Rimarkinda demando
+      organizer: 
+        description: Unuafoje ŝanĝis etikedon
+        name: Organizanto
+      peer_pressure: 
+        description: Forviŝis propran afiŝon kun -3 aŭ malpli da poentoj
+        name: Kunula premo
+      pioneer: 
+        description: Esti unu el la unuaj registritaj uzantoj
+        name: Pioniro
+      popstar: 
+        description: Havas 500 pozitivajn voĉdonojn, kaj maksimume 10 negativajn
+        name: Popidolo
+      popular_person: 
+        description: Ekhavis pli ol 50 sekvantojn
+        name: Popularulo
+      popular_question: 
+        description: Demandis demandon kun 1000 vidoj
+        name: Populara demando
+      rockstar: 
+        description: Havas 1000 pozitivajn voĉdonojn, kaj maksimume 10 negativajn
+        name: Rokstelulo
+      scholar: 
+        description: Unuafoje respondis memdemanditan demandon per akceptita
+        name: Lernanto
+      self-learner: 
+        description: Respondis propran demandon kun almenaŭ 3 suprenvoĉoj
+        name: Aŭtodidakto
+      service_medal: 
+        description: Havas 300 pozitivajn voĉojn
+        name: Medalo pri servado
+      shapado: 
+        description: Vizitis la retejon ĉiutage 8 tagojn sinsekve
+      stellar_question: 
+        description: Demandis demandon kiun favoras 100 uzantoj
+        name: Mojosega demando
+      student: 
+        description: Demandis unuan demandon kun almenaŭ unu suprenvoĉo
+        name: Studento
+      supporter: 
+        description: Voĉdonis pozitive unuafoje
+        name: Subtenanto
+      troubleshooter: 
+        description: Respondis unuafoje
+        name: Problemsolvanto
+      tutor: 
+        description: Donis solvon al demando kun meznombre pli ol 2 voĉoj
+        name: Instruanto
+    show: 
+      description: "Uzantoj kiuj gajnis ĉi tiun insignon. Laste donita al:"
+      earned: gajnis
+      for_tag_bronze: 200 voĉoj en etikedo %{tag}
+      for_tag_gold: 1000 voĉoj en etikedo %{tag}
+      for_tag_silver: 400 voĉoj en etikedo %{tag}
+      title: Insigno %{type}

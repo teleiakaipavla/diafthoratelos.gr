@@ -1,0 +1,27 @@
+-object_form = flag
+-klass = "form flag_form"
+-if flaggeable.is_a?(Answer)
+  -object_form = [flaggeable.question, flaggeable, flag]
+  -klass << " flag_answer"
+-elsif flaggeable.is_a?(Question)
+  -object_form = [flaggeable, flag]
+  -klass << " flag_question"
+
+
+=form_for object_form, :html => {:class=>"#{klass} #{local_assigns[:form_id]}", :id => local_assigns[:form_id]} do |f|
+  = hidden_field_tag "return_to", source, :id => "flaggeable_source_#{flaggeable.class.name}_#{flaggeable.id}"
+  /%h1=t(".label")
+
+  .field
+    = label_tag "flag[reason]", t(:reason, :scope=>"activerecord.attributes.flag"), :class => "label"
+    = select "flag", "reason", Flag::REASONS.collect{|type| [t(type, :scope=>"flags.form"), type]}, :selected => flag.reason, :id => "flaggeable_typeselect_#{flaggeable.class.name}_#{flaggeable.id}"
+
+
+  .field.form-options
+    .buttons
+      -if flag.new?
+        = f.submit t("scaffold.create"), :id => "flaggeable_submit_#{flaggeable.class.name}_#{flaggeable.id}",  :class => "save"
+      -else
+        = f.submit t("scaffold.update"), :id => "flaggeable_submit_#{flaggeable.class.name}_#{flaggeable.id}",  :class => "save"
+      = t("global.or")
+      = link_to t("scaffold.cancel"), source, :class => "button cancel"

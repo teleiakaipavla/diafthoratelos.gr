@@ -1,0 +1,22 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rolo
+  members: 
+    create: 
+      error: Le usator **%{user_id}** non existe.
+      notice: "%{login} ha essite addite como %{role} con successo."
+    form: 
+      destroy_confirm: Es tu secur? Iste usator non plus essera membro de iste gruppo.
+      login_tip: Cercar durante que tu digita
+    index: 
+      manage_members_title: Gerer membros
+      title: Membros del gruppo de %{name}
+      title_isolate: Membros de %{name}
+    update: 
+      error: Tu non ha le permissiones requisite pro cambiar le membrato de **%{login}**.

@@ -1,0 +1,25 @@
+%h2
+  =t(".asking_from_twitter")
+
+.field.asked-twitter
+  %label
+    =t(".question_asked_to")
+  <span>@</span>
+  = text_field_tag 'group[share][twitter_user]', @group.share.twitter_user
+  %small
+    =t(".twitter_account")
+
+.field
+  %label
+    = t(".question_must_include")
+  =text_field_tag 'group[share][twitter_pattern]', @group.share.twitter_pattern
+  %small
+    = t(".question_must_include_example")
+
+.field
+  .checkbox
+    = check_box_tag 'group[share][enable_twitter]', true, @group.share.enable_twitter
+    %label
+      =t("global.active")
+.buttons
+  = f.submit t('scaffold.update'), :class => "save"

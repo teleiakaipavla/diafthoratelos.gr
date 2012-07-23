@@ -1,0 +1,46 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+fi: 
+  themes: 
+    edit: 
+      title: Muokkaa teemaa
+    form: 
+      bg_color_legend: Määritä tasainen väri taustaksi, varmistu sovelluksesi kontrastista.
+      bg_image_legend: Tämä kuva näytetään seinätapettina jokaisella sivulla. Kuvatiedoston koko ei saa ylittää 800 kilotavua ja sen on oltava joko GIF, JPG tai PNG.
+      colors_and_bg: Värit ja taustat
+      custom_css_legend: Jos osaat CSS:ää, käytä sitä sivustosi tyylin räätälöintiin. Voit käyttää joko tavallista CSS-määrittelyä tai SCCS-määrittelyä.
+      fluid_layout: Joustava asettelu
+      fluid_layout_legend: Fluid-asettelu saa sivun jokaisen elementin leveyden riippumaan näkymäportista pikemmin kuin siitä, mitä elementti alunperin sisälsi. Toisin sanoen, kun muutat selainikkunan kokoa tai vaihdat pienemmällä näytöllä varustettuun laitteeseen, asettelu muuttuu sisäänpäin ja ulospäin.
+      main_color_legend: Tämä on yksi eniten käytetyistä väreistä jokaisella sivulla. Varmista, että valitset tavaramerkille tai yhteisöllesi sopivan värin.
+      modules_color_legend: Varmista, että tämä väri sopii hyvin yhteen päävärin kanssa.
+      submit_update: Päivitä teema
+      text_color_legend: Varmista, että tekstisi on luettavaa ja yhteensopiva taustavärin kanssa.
+      update: Päivitä teema
+    index: 
+      description: Etsi tästä teemasi ja vaihda sovelluksesi ulkoasua.
+      new_theme: Voit luoda oman teeman täällä.
+    ready: 
+      success: Teemasi on valmis!
+    show: 
+      apply: Käytä
+      bg_color: Taustaväri
+      bg_image: Taustakuva
+      brand_color: Tavaramerkkiväri
+      button_bg: Painikkeiden taustaväri
+      button_fg: Painikkeiden taustaväri
+      fg_color: Taustaväri
+      fluid: Fluid (tämä tekee ulkoasun joustavaksi selainikkunan koon muuttuessa)
+      link_bg: Linkkien taustaväri
+      link_fg: Linkkien taustaväri
+      main_color: Pääasiallinen väri
+      modules_color: Moduulien väri
+      not_ready: Tämä teema ei ole valmis käytettäväksi, tarkista pian uudestaan.
+      text_color: Tekstin väri
+      try: Kokeile
+      use_link_bg: Käytä taustaa linkeissä
+      view_bg: Näkymän taustaväri
+      view_fg: Näkymän edustaväri

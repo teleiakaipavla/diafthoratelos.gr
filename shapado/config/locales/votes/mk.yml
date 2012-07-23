@@ -1,0 +1,36 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  activerecord: 
+    models: 
+      vote: глас
+      votes: Гласа
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Вие и уште %{votes} други корисници го имате поддржано коментаров.
+        no_user_more_votes: Над %{votes} корисници го имаат поддржано коментаров. Стиснете за да го поддржите и вие.
+        no_user_no_vote: Стиснете за да го поддржите коментаров.
+        no_user_one_vote: Само еден корисник го има поддржано коментаров. Стиснете за да го поддржите и вие.
+        one_vote_two_users: Само вие и уште еден корисник го имате поддржано коментаров.
+        one_vote_user: Само вие го имате поддржано коментаров.
+    control: 
+      have_voted_down: кликнете за да го поништите гласот „против“
+      have_voted_up: кликнете за да го поништите гласот „за“
+      to_vote_down: кликнете за да гласате „против“
+      to_vote_up: кликнете за да гласате „за“
+    create: 
+      average: 
+        one: "%{count} глас"
+        other: "%{count} гласа"
+      flash_error: не може да гласате за ова
+      flash_notice: ви благодариме што гласавте!
+      unauthenticated: анонимните корисници не можат да гласаат
+    destroy: 
+      flash_notice: вашиот глас е успешно поништен.
+    model: 
+      messages: 
+        closed_question: не може да гласате на пораки што припаѓаат на затворени прашања
+        vote_down_comment: не може да гласате „против“ коментари

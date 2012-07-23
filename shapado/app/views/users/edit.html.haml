@@ -1,0 +1,13 @@
+
+=#link_to "leave #{current_group.domain}", leave_users_path
+
+- @user.password = @user.password_confirmation = nil
+
+= error_messages_for :user
+
+= form_for @user, :html => {:class => "form", :multipart => true} do |f|
+  =render :partial => "form", :locals => {:f => f}
+
+  .form-options
+    .buttons
+      = submit_tag t('.submit'), :class => "save"

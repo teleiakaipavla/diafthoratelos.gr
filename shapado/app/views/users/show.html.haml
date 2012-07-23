@@ -1,0 +1,134 @@
+#users_show{:item_scope => '', :itemtype => "http://schema.org/Person"}
+  %section.userHistory
+    .userDescription.clearfix
+      .basicInfo
+        = avatar_img @user, :size => "medium"
+        %h2{:itemprop => "name"}
+          = @user.name
+        - config = @user.config_for(current_group)
+        - if config
+          -if config.joined_at
+            %small
+              = t(:created_at, :scope => "activerecord.attributes.user")
+              %time{:datetime => config.joined_at.iso8601}
+                = t("time.ago", :time => time_ago_in_words(config.joined_at))
+            |
+          -if config.last_activity_at
+            %small
+              = t(:last_logged_at, :scope => "activerecord.attributes.user")
+              %time{:datetime => config.last_activity_at.iso8601}
+                = t("time.ago", :time => time_ago_in_words(config.last_activity_at))
+
+        -if @user.website
+          %p
+            =t(:website, :scope => "activerecord.attributes.user")
+            %a{:rel => "nofollow", :href =>  @user.website ,  :itemprop=>"url"}= @user.website
+
+        .description
+          %p{ :itemprop=>"description"}
+            = markdown(@user.bio)
+        -if current_user == @user
+          %p
+            = link_to t('.edit_profile'), settings_path
+
+      %ul.profile-stats
+        %li
+          %strong
+            = format_number(@user.reputation_on(current_group))
+          %small
+            = t(:reputation, :scope => "activerecord.attributes.user")
+
+        %li
+          %strong
+            = format_number(@user.views_on(current_group))
+            %meta{:itemprop=>"interactionCount", :content=>"UserPageVisits:#{@user.views_on(current_group)}"}
+          %small
+            = t(".views")
+        %li
+          %strong
+            = @user.following_count
+          %small
+            = link_to t('.following'), follows_user_path(@user, :sort=>"following")
+        %li
+          %strong
+            = @user.followers_count
+          %small
+            = link_to t('.followers'), follows_user_path(@user, :sort=>"followers")
+        -if current_user != @user && @user.member_of?(current_group)
+          %li.follow
+            = follow_user_link(@user)
+
+    .badges
+      %h3= t("activerecord.models.badges")
+      %ul.clearfix
+        - @badges.each do |badge|
+          %li
+            .badge_item
+              = pjax_link_to badge.name, "badges", badge_path(:id => badge.token), {:class => "badge #{badge.type}", :title => badge.description}
+
+              -if badge["count"] > 1
+                .counter
+                  × #{badge["count"].to_i}
+
+    #main-content-wrap{:class => @active_tab}
+      %nav{:class => @active_subtab }
+        %ul.content-tabs
+          = tab_entry "li", t(:questions, :scope => "activerecord.models"), user_path(@user), {:selected => "active"}, {:class => "questions"}
+          = tab_entry "li", t(:answers, :scope => "activerecord.models"), answers_user_path(@user), {:selected => "active"}, {:class => "answers"}
+          = tab_entry "li", t('global.following'), follows_user_path(@user), {:selected => "active"}, {:class => "follow"}
+          = tab_entry "li", t(:activity, :scope => "activerecord.models"), activity_user_path(@user), {:selected => "active"}, {:class => "activity"}
+      %section.clearfix.filters.clearfix{:class => @active_subtab }
+        %ul
+          = render "users/show/user_#{params[:action]}_filters"
+
+      = render "users/show/user_#{params[:action]}_content"
+
+    .additional_info
+      = paginate @resources
+
+-content_for :sidebar do
+  .networks.clearfix
+    -if username = @user.networks["flickr"]
+      -username = username["nickname"]
+      .one-net.flickr.module
+        %h3 Flickr Feed
+        %section
+          = widget_for(:flickr, {:photos_number=>6, :horizontal=>true, :user=> username,:background  => "#E5DDFF"})
+
+    -if username = @user.networks["youtube"]
+      -username = username["nickname"]
+      .one-net.youtube.module
+        %h3 Youtube  Feed
+        %section
+          = widget_for(:youtube, {:channel => username, :vertical => false, :large => false, :height =>   "260px", :width => "320px" })
+
+    -if username = @user.networks["twitter"]
+      -username = username["nickname"]
+      .one-net.twitter.module
+        %h3 Twitter  Feed
+        %section
+          = widget_for(:twitter, {:user => username, :interval => "10000", :shell_background => "#3e4953", :shell_color => "#fff", :tweets_background=> "#fff" , :tweets_color=> "#666" ,:tweets_links => "#cc6600", })
+
+    -if username = @user.networks["linkedin"]
+      -username = username["nickname"]
+      .one-net.linkedin.module
+        %h3 LinkedIn  Feed
+        %section
+          = widget_for(:linked_in, {:user => username})
+
+
+    -if username = @user.networks["github"]
+      -username = username["nickname"]
+      .one-net.github.module
+        %h3 GitHub  Feed
+        %section
+          = widget_for(:github, {:user => username, :theme => "white", :title => "Github Projects", :list_length => 6, :show_all => "Show All", :head => "h2"})
+
+
+    -if username = @user.networks["ohloh"]
+      -username = username["nickname"]
+      .one-net.ohloh.module
+        %h3 Ohloh  Feed
+        %section
+          = widget_for(:ohloh, {:user => username})
+

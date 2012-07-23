@@ -1,0 +1,19 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  searches: 
+    form: 
+      clear: Vacuar
+      search_box_title: Verifica que tu question non ha jam essite ponite
+      tags_tip: Usa [etiquetta] pro specificar etiquettas.
+    index: 
+      advanced_search: recerca avantiate
+      description: Usa le optiones %{link} pro obtener resultatos plus precise.
+      empty: Nulle question correspondeva al terminos de tu recerca.
+      found_results: "%{quantity} resultatos ha essite trovate."
+      input_legend: Iste recerca salveguardate apparera in le barra de navigation pro accesso rapide.
+      input_title: "Salveguardar iste recerca como:"
+      search_text: Questiones continente
+      tags: intra iste etiquettas

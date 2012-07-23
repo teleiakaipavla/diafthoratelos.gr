@@ -1,0 +1,32 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Motivo
+    models: 
+      flag: Informe
+      flags: Informes
+  flags: 
+    create: 
+      flash_error: Non pode informar sobre isto
+      flash_notice: Grazas polo seu informe
+    destroy: 
+      flash_notice: A súa marca revogouse correctamente.
+    edit: 
+      title: Editar a marca do %{model}
+    form: 
+      attention: Necesita a atención dun moderador
+      label: Por favor, informe con tino
+      offensive: Palabras ofensivas, abusivas ou intolerantes
+      spam: Spam
+    model: 
+      messages: 
+        already_requested: Xa marcou este %{model}
+    new: 
+      title: Marcar o %{model}
+    update: 
+      flash_notice: A marca da pregunta actualizouse correctamente.

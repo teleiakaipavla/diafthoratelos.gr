@@ -1,0 +1,297 @@
+/*items.scss: style for common  */
+
+@import "compass/css3";
+
+//NOTIFICATIONS
+
+.error {
+  background-color: #cc0000;
+  background-image: -moz-linear-gradient(#cc0000, #aa0000);
+  background-image: -ms-linear-gradient(#cc0000, #aa0000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cc0000), color-stop(100%, #aa0000));
+  background-image: -webkit-linear-gradient(#cc0000, #aa0000);
+  background-image: -o-linear-gradient(#cc0000, #aa0000);
+  background-image: linear-gradient(#cc0000, #aa0000);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#cc0000), to(#aa0000)); }
+
+.notice {
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#00cc00), to(#00aa00));
+  background-image: -moz-linear-gradient(#00cc00, #00aa00);
+  background-image: -ms-linear-gradient(#00cc00, #00aa00);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cc0000), color-stop(100%, #00aa00));
+  background-image: -webkit-linear-gradient(#00cc00, #00aa00);
+  background-image: -o-linear-gradient(#00cc00, #00aa00);
+  background-image: linear-gradient(#00cc00, #00aa00); }
+
+
+.loading-box {
+  background: #222222;
+  color: white;
+  h1 {
+    color: white; } }
+
+//TOPBAR
+$fg_topbar_color: $topbar_color;
+@if lightness($fg_topbar_color) > 60% {
+  $fg_topbar_color: darken($fg_topbar_color, lightness($fg_topbar_color) - 60%); }
+@else {
+  $fg_topbar_color: lighten($fg_topbar_color, 60% - lightness($fg_topbar_color));}
+
+
+$dark_topbar_color: $topbar_color;
+@if lightness($topbar_color) > 90% {
+  $dark_topbar_color: darken($topbar_color, lightness($topbar_color) - 90%); }
+@else {
+  $dark_topbar_color: lighten($topbar_color, 20%);}
+
+.top-bar {
+  background: $topbar_color;
+  background-color: $topbar_color;
+  background-repeat: repeat-x;
+
+  @if lightness($topbar_color) > 90% {
+    @include background-image(linear-gradient($topbar_color, darken($topbar_color, lightness($topbar_color) - 90%) 75%, darken($topbar_color, lightness($topbar_color) - 90%)));}
+  @else {
+    @include background-image(linear-gradient(lighten($topbar_color, 20%), $topbar_color 75%, $topbar_color));
+  }
+
+  ul.menubar {
+    .active: darken($view_bg_color, 70%);
+    #notification-counter {
+      border-left: 1px solid darken($topbar_color, 20%);
+    }
+    &>li {
+      &:hover small, &:hover a small, a:hover small {
+        color: $fg_topbar_color }
+      &>a {
+        background-image: none;
+        color: $fg_topbar_color;
+        border-right: 1px solid darken($topbar_color, 20%);
+        &:hover, &:hover a {
+          color: $fg_topbar_color;
+          background-color: $topbar_color; }
+        &:visited a {
+          color: $fg_topbar_color;
+        } } }
+    ul {
+      background-color: $view_bg_color !important;
+      li {
+        border-top: 1px solid border_color; }
+      &.drop-menu a {
+        color: lighten($fg_color, 40%);;
+        &:hover {
+          background-color: $brand_color;
+          color: $fg_brand_color; } } } }
+  .searcher {
+    border-right: 1px solid darken($topbar_color, 20%); }
+  .signin-dropdown {
+    border-left: 1px solid darken($topbar_color, 20%); } }
+
+//NAVIGATION
+ul.content-tabs {
+  border-bottom: 1px solid $border_color;
+  li {
+    a {
+      color: $fg_color;
+      border-right: 1px solid $border_color;
+      &:hover {
+        background-color: $light_brand_color;
+        color: $fg_light_brand_color; } } } }
+
+.questions-controller ul.content-tabs li.questions a,
+.badges-controller ul.content-tabs li.badges a,
+.users-controller ul.content-tabs li.users a,
+.tags-controller ul.content-tabs li.tags a,
+.activities-controller ul.content-tabs li.activities a {
+  background-color: $light_brand_color;
+  color: $fg_light_brand_color; }
+
+//FILTERS BAR
+.filters {
+  border-bottom: 1px solid $border_color;
+  border-top: 1px solid $border_color;
+  ul li a {
+    color: $fg_color; } }
+
+.filters.newest ul li.newest a,
+.filters.hot ul li.hot a,
+.filters.votes ul li.votes a,
+.filters.activity ul li.activity a,
+.filters.all ul li.all a,
+.filters.questions ul li.questions a,
+.filters.answers ul li.answers a,
+.filters.pages ul li.pages a,{
+  border-bottom: 2px solid $brand_color;
+}
+
+//MODULE
+.module {
+  background-color: $view_bg_color;
+  h3 {
+    color: $fg_color;
+    border-bottom: 1px solid $border_color; }
+    footer {
+      a {
+        &:hover {
+          color: $brand_color; } } }}
+
+//BUTTONS
+input[type=submit], input.save, .add_attachment {
+  background-color: $brand_color;
+  background-image: -khtml-gradient(linear, left top, left bottom, from($brand_color), to($dark_brand_color));
+  background-image: -moz-linear-gradient($brand_color, $dark_brand_color);
+  background-image: -ms-linear-gradient($brand_color, $dark_brand_color);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $brand_color), color-stop(100%, $dark_brand_color));
+  background-image: -webkit-linear-gradient($brand_color, $dark_brand_color);
+  background-image: -o-linear-gradient($brand_color, $dark_brand_color);
+  background-image: linear-gradient($brand_color, $dark_brand_color);
+  color: white;
+  border: 1px solid $dark_brand_color !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  &:hover {
+    color: white; } }
+
+//MENUBAR
+.menubar ul {
+  &.drop-menu {
+    background-color: $view_bg_color;
+    li {
+      border-top: 1px solid darken($view_bg_color, 5%);
+      &:hover {
+        background-color: $light_brand_color;
+        color: $fg_light_brand_color;
+        a {
+          color: $fg_light_brand_color; } }
+          a:hover {
+            background-color: $light_brand_color;
+            color: $fg_light_brand_color; } } } }
+
+//TOOLBAR
+.toolbar ul {
+  li.action {
+    border: 1px solid $border_color;
+    @if lightness($view_bg_color) > 90% {
+      @include background-image(linear-gradient($view_bg_color, lighten($border_color, 4%) 75%, lighten($border_color, 2%)));}
+    @else {
+      @include background-image(linear-gradient(lighten($view_bg_color, 10%), $view_bg_color 75%, $view_bg_color));}
+    a {
+      &:visited {
+        color: $fg_color;
+      }
+      &:hover {
+        background-color: $view_bg_color;
+        color: $fg_color;
+      }
+    }
+  }
+}
+
+.answers-list article .toolbar {
+  background-color: lighten($view_bg_color, 10%); }
+
+// PAGINATION
+.pagination {
+  span a {
+    background-color: $border_color;
+    &:hover {
+      background-color: $brand_color;
+      color: $light_brand_color; } }
+      span.current {
+        background-color: $brand_color;
+        color: $light_brand_color; } }
+
+//MARKDOWN
+.markdown {
+  color: lighten($fg_color, 15%);
+  a {
+    border-bottom: 1px dotted $fg_color;
+    &:hover {
+      color: $brand_color;
+      border-bottom: 1px dotted $brand_color;
+    }
+  }
+
+  textarea {
+    border: 1px solid $border_color; }
+  pre {
+    background-color: #fffbeb; }
+  ol {
+    li {
+      color: #666666; } }
+  code {
+    background-color: #eeeeee; }
+  blockquote {
+    background-color: #dddddd; } }
+
+//EDITORS
+.jHtmlArea, .ToolBar {
+  iframe {
+    background-color: white;
+    border: 1px solid #cccccc; } }
+
+.question-form {
+  .ToolBar {
+    background-color: darken($view_bg_color, 5%);
+    border: 1px solid #cccccc; } }
+
+div.jHtmlArea {
+  .ToolBar ul {
+    li {
+      &:hover {
+        border: solid 1px #cccccc;
+        background-color: #dddddd; }
+      a {
+        &.highlighted {
+          border: solid 1px #aaaaaa;
+          background-color: #bbbbbb; } }
+      &.separator {
+        border-left: 1px solid #cccccc;
+        background-color: white; } } } }
+
+.markdown_toolbar {
+  border: 1px solid #d7d7d7;
+  background-color: #f6f6f6;
+  li {
+    a {
+      border: 1px solid white;
+      border-right-color: #d7d7d7;
+      &:hover {
+        border-color: #990000; } }
+    a#markdown_help_button {
+      border-left-color: #d7d7d7;
+      border-right-color: white;
+      &:hover {
+        border-left-color: #990000;
+        border-right-color: #990000; } } } }
+
+//TAGS
+.tagwrapper {
+  border: 1px solid darken($view_bg_color, 10%) !important; }
+
+.tags-list {
+  .tags {
+    .each {
+      background-color: #f9f9f9; }
+    .tools {
+      background-color: darken($view_bg_color, 10%);
+      a {
+        color: #999999;
+        &:hover {
+          color: $fg_color; } } } } }
+
+//COLOR FIELD
+.display-color {
+  border: 1px solid $border_color; }
+
+.toggle_comments {
+  background: $border_color; }
+
+.badge {
+  background-color: $light_brand_color;
+  @include border-radius(4px);
+  border: 1px solid darken($light_brand_color, 20%);
+  &:hover {
+    border: 1px solid darken($light_brand_color, 20%);
+    background-color: darken($light_brand_color, 20%);
+  }
+}

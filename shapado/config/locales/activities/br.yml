@@ -1,0 +1,16 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Y-M D
+br: 
+  activerecord: 
+    models: 
+      activities: Obererezhioù
+      activity: Obererezh
+  activity: 
+    asked: goulennet
+    changed: kemmet
+    created: krouet
+    deleted: diverket
+    flagged: merket
+    updated: hizivaet

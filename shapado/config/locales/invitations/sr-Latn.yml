@@ -1,0 +1,33 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  invitations: 
+    accept: 
+      create_account: Otvorite nalog (1 od 2)
+      create_account_step2: Otvori nalog
+      description: "%{group} je zbirka pitanja i odgovora o bilo kojoj temi koja se neprestano poboljšava i usavršava."
+      done: Završeno!
+      facebook_connect: Povežite se sa svojim nalogom na Fejsbuku
+      final_step: Poslednji korak (2 od 2)
+      find_friends: "Pronađite prijatelje i povežite se:"
+      follow_things: Pratite oznake i ljude
+      follow_things_description: Pitanja vezana za ova će se pojavljivati u dovodu.
+      other_connect: ili koristite jedno od ovih.
+      other_social_options: Možete koristiti i Linkedin (%{linkedin}) i Identiku (%{identica}).
+      point1: Pitajte stručnjaka za navedenu oblast.
+      point2: Pratite teme i odgovarajte na pitanja koja vas zanimaju.
+      point3: Glasajte i uređujte odgovore i viki stranice da biste ih poboljšali. Na taj način osvajate značke
+      point4: Odgovarajte na pitanja i preko e-pošte.
+      twitter_connect: Povežite se sa svojim nalogom na Tviteru
+      welcome: Dobro došli
+    create: 
+      flash_notice: Vaše pozivnice su poslate.
+      limit_notice: 
+        one: Nažalost, u ovom trenutku ne možete poslati više od %{limit} pozivnice.
+        other: Nažalost, u ovom trenutku ne možete poslati više od %{limit} pozivnice.
+    resend: 
+      flash_notice: Vaša pozivnica je ponovno poslata.
+    revoke: 
+      flash_notice: Vaša pozivnica je povučena.

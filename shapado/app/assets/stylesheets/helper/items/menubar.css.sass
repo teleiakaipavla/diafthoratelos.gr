@@ -1,0 +1,186 @@
+.menubar li ul
+  display: none
+.menubar, .menubar *
+  margin:       0
+  padding:      0
+  list-style:   none
+.menubar
+  line-height:  1.0
+  .sf-sub-indicator
+    position: absolute
+    display: block
+    right: 8px
+    top: 1.05em // IE6 only
+    width: 10px
+    height: 10px
+    text-indent: -999em
+    overflow: hidden
+    background: image-url('arrows-ffffff.png') no-repeat -10px -100px //8-bit indexed alpha png. IE6 gets solid image only
+
+  ul.drop-menu
+    a
+      display: block
+      position: relative
+      white-space: nowrap
+    li
+      &:hover
+        visibility: inherit // fixes IE7 'sticky bug'
+        cursor: pointer
+      a
+        width 100%
+        display: block
+        position: relative
+        border-right: 0px !important
+        border-left: 0px !important
+        &:hover
+          cursor: pointer
+
+  ul
+    position: absolute
+    top: -999em
+    width: auto // left offset of submenus need to match (see below)
+    +outer-shadow
+    li
+      width: 100%
+      display: block
+
+  li
+    float: left
+    position: relative
+    &:hover ul, &.sfHover ul, &.dropHover ul
+      left:  0
+      top: 24px // match top ul list item height
+      z-index: 99
+    &:hover li ul, &.sfHover li ul, &.dropHover li ul
+      top: -999em
+    li:hover ul, li.sfHover ul, li.dropHover ul
+      left:  auto // match ul width
+      top: 0
+    li li:hover ul, li li.sfHover ul, li li.dropHover ul
+      left: auto // match ul width
+      top: 0
+
+// arrows
+.menubar a.sf-with-ul
+  min-width: 1px
+  // trigger IE7 hasLayout so spans position accurately
+
+.menubar  a > .sf-sub-indicator
+  // give all except IE6 the correct values
+  top: .8em
+  background-position: 0 -100px
+  // use translucent arrow for modern browsers
+
+// apply hovers to modern browsers
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator
+  background-position: -10px -100px
+  // arrow hovers for modern browsers
+
+// point right for anchors in subs
+.menubar ul
+  .sf-sub-indicator
+    background-position:  -10px 0
+  a > .sf-sub-indicator
+    background-position:  0 0
+
+// apply hovers to modern browsers
+.menubar  ul
+  a:focus > .sf-sub-indicator,
+  a:hover > .sf-sub-indicator,
+  a:active > .sf-sub-indicator,
+  li:hover > a > .sf-sub-indicator,
+  li.sfHover > a > .sf-sub-indicator
+    background-position: -10px 0
+    // arrow hovers for modern browsers
+
+// shadows for all but IE6
+.sf-shadow ul
+  &.sf-shadow-off
+    background: transparent
+
+
+// HEADER - dropdowns for groups, user link, and admin/moderate
+//-------------------------------------------------------------------------------------------------------------------
+.top-bar
+  .menubar
+    float: left
+    .sf-sub-indicator
+      background: image-url('question-toolbar-icons-small.png') 0 -387px no-repeat
+    &>li
+      small
+        position: absolute
+        top: 2px
+        left: 15px
+      &>a
+        display: block
+        padding: 14px 25px 13px 15px
+    ul
+      &.drop-menu
+        a
+          padding: 8px 10px
+      &.auth-list ul li a
+        padding: 8px 10px
+      top: 40px !important
+      h3
+        padding: 5px
+      li:first-child
+        border: 0px
+      a
+        border: 0
+        &.sf-with-ul
+          padding-right: 30px
+
+  ul.user-list
+    float: right
+    a
+      cursor: pointer
+    ul li a
+      padding-left: 10px
+    li.user
+      position: relative
+      a
+        padding-left: 50px
+      img
+        position: absolute
+        top: 7px
+        left: 13px
+        +normal-radius
+        width: 25px
+
+    li.notifications-list
+      width: 2em
+      a
+        text-align: center
+        padding-left: 0px
+        padding-right: 0px
+      ul
+        width: 320px
+        left: -288px
+        li.notification
+          .warp
+            padding: 5px
+          cursor: auto
+
+.index .toolbar .dropHover  ul,
+.main-question .toolbar .dropHover ul
+  top: 22px
+  a, li
+    +none-radius
+.main-question .toolbar .dropHover ul
+  top: 27px
+
+#login_dialog, #join_dialog
+  display: none
+
+.ui-dialog
+  .auth-list
+    border: 0px !important
+    ul
+      margin: 0 10px 0 0 !important
+      li
+        display: block !important
+        float: none !important

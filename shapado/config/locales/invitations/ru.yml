@@ -1,0 +1,30 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+ru: 
+  invitations: 
+    accept: 
+      create_account: Создание учетной записи (1 из 2)
+      create_account_step2: Создать учётную запись
+      description: "%{group} содержит коллекцию вопросов и ответов на любую тему."
+      done: Готово!
+      facebook_connect: Присоедините учётную запись Facebook
+      final_step: Заключительный шаг (2 из 2)
+      find_friends: "Найдите и подключите друзей:"
+      follow_things: Следите за тегами и людьми
+      follow_things_description: Вопросы по этим темам будут отображаться в вашей ленте.
+      other_connect: или используйте один из вариантов ниже.
+      other_social_options: Вы также можете использовать %{linkedin} и %{identica}.
+      point1: Задайте вопрос экспертам в данной области.
+      point2: Подпишитесь на интересные для вас темы и отвечайте на вопросы.
+      point3: Голосуйте, редактируйте ответы и улучшайте вики-страницы. Получайте бэджи
+      point4: Отвечайте прямо из почтового клиента без суеты.
+      twitter_connect: Присоедините учётную запись Twitter
+      welcome: Добро пожаловать
+    create: 
+      flash_notice: Ваши приглашения успешно отправлены.
+    resend: 
+      flash_notice: Ваше приглашение успешно отправлено ещё раз.
+    revoke: 
+      flash_notice: Ваше приглашение успешно отозвано.

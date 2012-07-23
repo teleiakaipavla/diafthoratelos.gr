@@ -1,0 +1,30 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Pedroca cerebral
+pt-BR: 
+  invitations: 
+    accept: 
+      create_account: Criar uma conta (1 de 2)
+      create_account_step2: Criar uma conta
+      description: "%{group} é uma coleção cada vez melhor de perguntas e respostas sobre qualquer tema."
+      done: Feito!
+      facebook_connect: Conectar-se com sua conta do Facebook
+      final_step: Etapa final (2 de 2)
+      find_friends: "Encontrar amigos e se conectar com eles:"
+      follow_things: Siga etiquetas e pessoas
+      follow_things_description: Perguntas relacionadas com estas aparecerão em seu feed.
+      other_connect: ou use um desses.
+      other_social_options: Você também pode usar %{linkedin} e %{identica}.
+      point1: Pergunte aos especialistas que sabem sobre um determinado tema.
+      point2: Siga os temas e responda as perguntas que lhe interessam.
+      point3: Vote e edite respostas e páginas wiki para melhorá-las. Ganhe emblemas.
+      point4: Resposta do seu cliente de e-mail sem nenhum problema.
+      twitter_connect: Conectar-se com sua conta do Twitter
+      welcome: Bem-vindo
+    create: 
+      flash_notice: Os convites foram enviados com sucesso.
+    resend: 
+      flash_notice: Seu convite foi enviado com sucesso.
+    revoke: 
+      flash_notice: Seu convite foi revogado com sucesso.

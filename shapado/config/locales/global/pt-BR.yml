@@ -1,0 +1,98 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giro720
+# Author: Luckas Blade
+# Author: Pedroca cerebral
+# Author: Vgeorge
+# Author: 555
+pt-BR: 
+  feeds: 
+    feed: Feed
+    post_new_questions: Publicar perguntas novas
+    question: Assinar feed desta pergunta
+    questions: Assinar feed de todas perguntas
+    share_on_twitter: no twitter, facebook e outros...
+    tag: Assinar feed da tag
+    user: Assinar feed das perguntas do usuário
+  global: 
+    actions: Ações
+    active: Ativar
+    alphabetically: Em ordem alfabética
+    anonymous: Anônimo
+    blog: Blog
+    by: por
+    by_semi: "Por:"
+    chat: Chat
+    current: Atual
+    edited: Editado
+    edited_by_semi: "Editado por:"
+    feedback: Comentários
+    follow: Seguir
+    followed_by: "Seguido por:"
+    following: Seguindo
+    from: de %{site}
+    group_not_found: A página %{url} não existe
+    home: Início
+    next_button: Seguinte
+    open: Abrir
+    or: ou
+    permission_denied: Permissão negada
+    please_login: Inicie uma sessão, por favor
+    preview: Pré-visualização
+    previous: Anterior
+    privacy: Privacidade
+    share: Compartilhar
+    sign_up: Criar uma conta
+    size: Tamanho
+    sort_by: "Ordenar por:"
+    tags_label: "Etiquetas:"
+    tos: Termos de serviço
+    unfollow: Deixar de seguir
+    unknown_place: Desconhecido
+    view: Ver
+    view_question: Ver pergunta
+    what_to_do: O que quer fazer?
+  models: 
+    question: A pergunta
+  number: 
+    x_time: 
+      one: "%{count} vez"
+      other: "%{count} vezes"
+      zero: Nunca
+  preferred_languages: 
+    any: Qualquer
+    user: Meus idiomas preferidos
+  roles: 
+    moderator: Moderador
+    owner: Proprietário
+    user: Usuário normal
+  scaffold: 
+    add: Adicionar
+    are_you_sure: Tem certeza?
+    back: Voltar
+    cancel: Cancelar
+    close: Fechar
+    create: Criar
+    destroy: Eliminar
+    details: Detalhes
+    edit: Editar
+    more: Mais ...
+    new: Adicionar novo %{model}
+    post_as_anonymous: Publicar como anônimo
+    save: Salvar
+    send: Enviar
+    show: Exibir
+    sure: Você tem certeza de que pretende apagar este %{model}?
+    update: Atualizar
+  time: 
+    ago: "%{time} atrás"
+    today: hoje
+    yesterday: ontem
+  views: 
+    pagination: 
+      first: Primeiro
+      last: Último
+      next: Seguinte »
+      previous: « Anterior
+      truncate: ...

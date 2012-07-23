@@ -1,0 +1,96 @@
+en:
+  groups:
+    downgrade:
+      notice: "You have unsubscribed successfully, you are now using our free plan."
+    upgrade:
+      error: 'You are already subscribed to this plan'
+    update:
+      notice: "Your group was successfully updated."
+    top_grouplist:
+      active_site: "Active site:"
+    index:
+      title: Groups
+      description: This is the list of public groups that have been created. Use the search input below to filter groups. You can also %{link}.
+      create_your_own: create your own group
+      filter: "Search for groups"
+      actives: Active
+      pendings: Pending
+      most_active: Most active
+      request_group: Request a new group
+      name: Name
+    group:
+      about: About
+      close: Close
+      accept_group: Accept this group
+      close_group: Close this group
+      allow_ads: Allow ads
+      disallow_ads: Disallow ads
+    show:
+      title: "About %{name}"
+      visit_group: Visit this group
+      group_awaiting_acceptance: "This group is awaiting acceptance of a moderator."
+      group_closed: This group was closed.
+      accept_group: Accept this group
+      close_group: Close this group
+      accept_group_with_custom_ads: Accept group and allow custom ads
+    new:
+      title: Create your group
+    create:
+      flash_notice: Your group was successfully created. You can now start configuring it.
+    edit:
+      title: Edit your group
+    form:
+      description_legend: You have 400 characters to describe the group.
+      legend_legend: "It will be used in the header. You have 40 characters."
+      default_tags_legend: "Separate tags by commas. Only 10 default tags allowed."
+      logo_legend: "You can upload the group logo. The maximum file size is 2MB."
+      any_language: Any
+      access: Access Settings
+      isolate_group: Isolate the group from other groups
+      members_only: "Only the group's members will be able to access this group"
+      custom_html: Allow custom HTML
+      custom_js: Allow custom JavaScript
+      custom_analytics: Allow custom analytics
+      analytics_engine: Analytics engine
+      website_analytics_id: Website Analytics ID
+      analytics_legend: The group will be able to use its own tracking code
+      signup_all: 'All selected providers plus user/password'
+      signup_noemail: 'All selected providers minus user/password'
+      signup_social: 'Users are forced to use either Facebook, Twitter, LinkedIn or Identica'
+      signup_email: 'Only user/password'
+    connect_group_to_twitter:
+      success_twitter_connection: Congratulation, you connected your Twitter account successfully!
+      failed_twitter_connection: Sorry, something went wrong. Try again please.
+  activerecord:
+    models:
+      groups: Groups
+      group: Group
+      default_tags_message: "You cannot have more than 10 default tags"
+      reputation_rewards_key: "Invalid key"
+      reputation_rewards_ask_constrain: "Constraint for asking should be negative"
+      reputation_rewards_answer_constrain: "Constraint to answer rewards should be negative"
+      duplicate_domain_message: "Sorry, this domain has already been taken."
+    attributes:
+      group:
+        name: Name
+        subdomain: URL
+        domain: Domain
+        legend: Legend
+        description: Description
+        state: State
+        owner: "This group was created by %{login}"
+        group_created_by: created by
+        language: Default Language
+        languages: Extra Languages
+        default_tags: "Default tags"
+        logo: Logo
+        forum: Allow more than one answer by user
+        signup_type: "Which methods can your users use to sign up:"
+        registered_only: Only registered people can access the site
+        may_contain_adult_content: This site may contain adult content
+        wysiwyg_editor: Enable user-friendly editor
+        fb_button: Enable Facebook Like button (not privacy friendly)
+        enable_latex: 'Enable LaTeX with jqmath (fast but not full featured)'
+        enable_mathjax: 'Enable LaTeX with mathjax (slow but full featured)'
+        daily_cap: Daily Cap
+        track_users: Ask users for their physical location

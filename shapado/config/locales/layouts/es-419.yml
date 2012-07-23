@@ -1,0 +1,52 @@
+# Messages for Latin American Spanish (espanol de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crazymadlover
+# Author: Patcito
+es-419: 
+  layouts: 
+    application: 
+      ask_question: Pregunte
+      badges: Insignias
+      forgot: La olvido?
+      home: Pagina principal
+      languages: Idiomas
+      log_in: Acceder
+      logged: Conectado como %{login}
+      logout: Salir
+      manage_ads: Gestionar propagandas
+      moderate: Moderar
+      now: ya!
+      openid: 
+        explaination: "Si deseas abrir una cuenta o solamente conectarte, por favor seleccione tu provedor openid:"
+      pages: Paginas
+      questions: Preguntas
+      questions_in: Preguntas en
+      questions_tagged: etiquetadas con
+      search: Buscar
+      settings: Configuración
+      signup: Registrarse
+      subscribe: Subscribirse
+      tags: Etiquetas
+      title: Preguntas & respuestas
+      unanswered: Sin contestar
+      users: Usuarios
+      welcome_from: Bienvenido! puedes
+    manage: 
+      actions: Acciones
+      announcements: Anuncios
+      constrains: Restricciones
+      content: Contenido
+      dashboard: Panel de control
+      domain: Dominio
+      general: General
+      members: Miembros
+      pages: Paginas
+      properties: Propiedades
+      reputation: Reputación
+      rewards: Premios
+      stats: Estadísticas
+      theme: Tema
+      widgets: Widgets
+    notifications: 
+      message: Si no deseas recibir notificaciones automáticas de %{group} otra vez, cambia tus preferencias en la pantalla de notificaciones.

@@ -1,0 +1,14 @@
+# Messages for Latin American Spanish (espanol de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mor
+# Author: Patcito
+es-419: 
+  activerecord: 
+    models: 
+      favorite: Favorito
+      favorites: Favoritos
+  unfavorites: 
+    create: 
+      success: La pregunta ha sido eliminada de tus favoritas
+      unauthenticated: Necesitas tener una cuenta para quitar un favorito

@@ -1,0 +1,76 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  layouts: 
+    application: 
+      all: Alle
+      ask_question: Frage stellen
+      badges: Abzeichen
+      by_me: Von mir
+      collaborate: Mitmachen
+      contributed: Bearbeitet
+      faq: Häufige Fragen
+      feed: Gefolgt
+      follow_us_and_share: Folge uns und mache auf uns aufmerksam
+      followed: Beobachtet
+      forgot: Vergessen?
+      home: Startseite
+      join_group: "%{group} beitreten"
+      languages: Sprachen
+      log_in: Anmeldung
+      logged: Als %{login} angemeldet
+      logout: Abmelden
+      manage_ads: Anzeigen verwalten
+      moderate: Moderieren
+      need_to_signin: Du musst Dich zuerst anmelden.
+      not_member_join_dialog: Du musst der Gruppe %{group} beitreten, um diese Aktion ausführen zu können. Klicke hier, um dies zu tun.
+      now: jetzt!
+      openid: 
+        explaination: "Sofern Du Dich nicht registrieren oder anmelden möchtest, kannst Du auch Deinen OpenID-Anbieter auswählen:"
+      pages: Seiten
+      preferred: Bevorzugt
+      questions: Fragen
+      questions_in: Fragen in
+      questions_tagged: mit folgenden Stichwörtern versehen
+      random_question: Zufällige Frage
+      search: Suchen
+      settings: Einstellungen
+      signup: Registrieren
+      subscribe: Abonnieren
+      success_joining_group: Du bist nun Mitglied der Gruppe %{group}. Vielen Dank für Deinen Beitritt.
+      tags: Stichwörter
+      title: Fragen und Antworten
+      unanswered: Unbeantwortet
+      users: Nutzer
+      welcome_from: Herzlich Willkommen! Du kannst
+    manage: 
+      access: Zugriff
+      actions: Aktionen
+      announcements: Ankündigungen
+      appearance: Aussehen
+      close_group: Gruppe schließen
+      constrains: Voraussetzungen
+      content: Inhalt
+      dashboard: Übersichtsseite
+      domain: Domain
+      edit_layout: Layout bearbeiten
+      general: Allgemein
+      group_features: Funktionen
+      group_look_and_feel: Anmutung
+      group_user_management: Nutzerverwaltung
+      invitations: Einladungen
+      invoices: Rechnungen
+      members: Mitglieder
+      pages: Seiten
+      properties: Eigenschaften
+      reputation: Reputation
+      rewards: Auszeichnungen
+      social: Sozial
+      stats: Statistiken
+      theme: Theme
+      themes: Nutzeroberflächen
+      widgets: Widgets
+    notifications: 
+      message: Sofern Du keine automatischen Benachrichtigungen mehr von %{group} erhalten möchtest, musst Du Deine Einstellungen auf der Benachrichtigungsseite ändern. Siehe

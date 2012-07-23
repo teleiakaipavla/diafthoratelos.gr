@@ -1,0 +1,20 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  comments: 
+    create: 
+      flash_notice: Qandê vatışi teşekur keme
+    edit: 
+      title: Vatışi bıvurnê
+    shared: 
+      add_comment: Vatış deke...
+      comment_submit: Vatış
+      reply: Cewab bıde
+      said: va
+    update: 
+      flash_notice: Vatışê şıma biyo anewe.
+  models: 
+    comment: Vatış
+    comments: Vatışi

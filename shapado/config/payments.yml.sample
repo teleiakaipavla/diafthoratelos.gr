@@ -1,0 +1,18 @@
+development:
+  login: pppro_1311897350_biz_api1.gmail.com
+  password: 1311897398
+  signature: AFcWxV21C7fd0v3bYYYRCpSSRl31AkVR38nJvZuGc0OuEi6OkJSsyu3H
+test:
+  login: pppro_1311897350_biz_api1.gmail.com
+  password: 1311897398
+  signature: AFcWxV21C7fd0v3bYYYRCpSSRl31AkVR38nJvZuGc0OuEi6OkJSsyu3H
+production:
+  login: pppro_1311897350_biz_api1.gmail.com
+  password: 1311897398
+  signature: AFcWxV21C7fd0v3bYYYRCpSSRl31AkVR38nJvZuGc0OuEi6OkJSsyu3H
+
+# client info
+# cc 4920894315341961
+# vv 123
+# vt 07 2016
+

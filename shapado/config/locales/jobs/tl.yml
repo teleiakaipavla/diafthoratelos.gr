@@ -1,0 +1,21 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "Sumagot si %{user} sa: %{question}"
+        send_twitter: Ang sagot ko sa %{question}
+      on_favorite_answer: 
+        group_send_twitter: "Nagustuhan ni %{user} ang isang sagot ni %{author} doon sa: %{question}"
+        send_twitter: "Nagustuhan ko ang sagot ni %{author} doon sa: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: Kapapanalo lang ni %{user} ng tsapang %{token} doon sa %{group_name} %{link}
+        send_twitter: Napanalunan ko na ang tsapang %{token} doon sa %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "Pinuna ni %{user} ang: %{question}"
+        send_twitter: Ang puna ko sa %{question}

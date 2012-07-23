@@ -1,0 +1,76 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: Eleferen
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  admin: 
+    manage: 
+      access: 
+        title: Доступ
+      answers: 
+        banning: 
+          title: Заблокировать ответ
+      content: 
+        footer: Низ сайта
+        head: заголовок
+        question_help: Помощь по вопросу
+        question_prompt: Строка задания вопроса
+        title: Настраиваемое содержимое
+        top_bar: Верхняя панель
+        top_bar_tip: Вводите по одной ссылке на строку
+      invitations: 
+        invitations: Отправить приглашения
+        invitations_title: Список отправленных вами приглашений
+        invite: Пригласите людей
+        invite_title: Пригласить участников по электронной почте
+        title: Приглашения
+      properties: 
+        constrains: 
+          reputation_constrains_description: Этот форма позволяет настроить количество очков репутации, начисляемых пользователям в ответ на заданные действия
+          reputation_constrains_subtitle: Список ограничений по репутации для каждого действия
+          title: Ограничения
+        domain: 
+          description: "Вы можете настроить ваш сайт так, чтобы к нему можно было обращаться через собственный домен; вот, что для этого необходимо сделать:"
+          instruction1: Для этого нужно сначала представиться вашему провайдеру домена (сайту, где вы купили домен, вроде %{subdomain}.com).
+          instruction2: Там вам нужно зайти в раздел DNS и создать нечто, называемое CNAME.
+          instruction3: Выберите «www» или что-нибудь другое в качестве имени CNAME.
+          instruction4: "Затем в поле хоста или назначения укажите текущий домен shapado: %{domain}."
+          instruction5: Как только это будет сделано, примерно через час ваш домен www.%{subdomain} должен указывать на %{appdomain}.
+          instruction6: Если это так, возвратитесь сюда, укажите ваше доменное имя www.%{subdomain} в поле ниже и нажмите кнопку «Обновить». Если у вас есть вопросы, задайте их нам в %{chat_url} или на нашем форуме поддержки
+          title: Настройка пользовательского домена
+          warning: Вы действительно хотите изменить свой домен?
+        general: 
+          title: Свойства группы
+        invitations: 
+          resend_button: Переслать
+          revoke_button: Отозвать
+        invite: 
+          title: Пригласить участников по электронной почте
+        rewards: 
+          reputation_rewards_description: Этот форма позволяет настроить получение или потерю очков репутации в ответ на заданные действия
+          reputation_rewards_subtitle: Список вознаграждений к репутации
+          title: Награды
+        share: 
+          title: Распространение
+        tag_your_tweets: 
+          ends_with_example: "например, #shapado"
+          starts_with_example: "например, #qa"
+      questions: 
+        banning: 
+          title: Заблокировать вопрос
+      social: 
+        ask_from_twitter: Вопросы из Твиттера
+        description: Свяжите свою группу с социальными сетями
+        facebook_app: Приложение Facebook
+        post_to_twitter: Отправка в Твиттер
+        post_to_twitter_title: Автоматическая отправка всех вопросов и ответов в Твиттер
+        tag_your_tweets: Теги для твитов
+        tag_your_tweets_title: Добавьте теги к вашим твитам
+        title: Взаимодействие с социальными сервисами
+        twitter_account: Учётная запись Твиттер
+      top_admin: 
+        site: Сайт
+        title: Администрирование

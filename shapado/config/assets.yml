@@ -1,0 +1,145 @@
+package_assets:         on         # (on, off, always)
+embed_assets:           datauri          # (on, off, datauri)
+compress_assets:        on         # (on, off)
+gzip_assets:            on          # (on, off)
+template_function:      _.template  # (defaults to the built-in micro-templating)
+package_path:           packages    # (defaults to assets)
+javascript_compressor:  closure     # (yui, closure)
+
+javascripts:
+
+  modernizrdev:
+    - public/javascripts/vendor/modernizr.custom.geo.load.js
+    - public/javascripts/vendor/jquery-1.6.4.js
+    - public/javascripts/app/modules/jqmath.js
+  initdev:
+    - public/javascripts/app/initializers/assets.js
+    - public/javascripts/app/initializers/init_dev.js
+  modernizr_7:
+    - public/javascripts/vendor/modernizr.custom.geo.load.js
+    - public/javascripts/app/initializers/assets.js
+    - public/javascripts/app/modules/jqmath.js
+    - public/javascripts/app/initializers/init_modernizr.js
+
+  websocket:
+    - public/javascripts/vendor/web-socket-js/swfobject.js
+    - public/javascripts/vendor/web-socket-js/FABridge.js
+    - public/javascripts/vendor/web-socket-js/web_socket.js
+
+  json:
+    - public/javascripts/vendor/polyfills/json2.js
+
+  base_7:
+    - public/javascripts/rails.js
+    - public/javascripts/vendor/jquery-ui-1.8.14.custom.min.js
+    - public/javascripts/app/modules/effects.js
+    - public/javascripts/vendor/chosen.jquery.min.js
+    - public/javascripts/vendor/ajax-chosen.js
+    - public/javascripts/vendor/jquery.cookie.js
+    - public/javascripts/vendor/jquery.pjax.js
+
+    - public/javascripts/app/modules/app_config.js
+    - public/javascripts/app/modules/comments.js
+    - public/javascripts/app/modules/answers.js
+    - public/javascripts/app/modules/activities.js
+    - public/javascripts/app/modules/authentication.js
+    - public/javascripts/app/modules/local_storage.js
+    - public/javascripts/app/modules/messages.js
+    - public/javascripts/app/modules/questions.js
+    - public/javascripts/app/modules/shapado_ui.js
+    - public/javascripts/app/modules/tags.js
+    - public/javascripts/app/modules/ui.js
+    - public/javascripts/app/modules/utils.js
+    - public/javascripts/app/modules/votes.js
+    - public/javascripts/app/modules/websocket.js
+    - public/javascripts/app/modules/groups.js
+    - public/javascripts/app/modules/loader.js
+    - public/javascripts/app/modules/updater.js
+    - public/javascripts/app/modules/layout_editor.js
+
+
+    - public/javascripts/app/initializers/search.js
+    - public/javascripts/app/initializers/shapado_toolbar.js
+    - public/javascripts/vendor/jquery.droppy.js
+    - public/javascripts/app/modules/invitations.js
+    - public/javascripts/application-init.js
+
+    - public/javascripts/vendor/jquery.textarea.js
+    - public/javascripts/vendor/jHtmlArea.js
+    - public/javascripts/vendor/highlight/prettify.js
+    - public/javascripts/app/modules/editor.js
+    - public/javascripts/vendor/showdown.js
+    - public/javascripts/app/modules/rewards.js
+    - public/javascripts/app/initializers/single/question.js
+    - public/javascripts/app/modules/notifier.js
+    - public/javascripts/vendor/jquery.notifyBar.js
+    - public/javascripts/app/modules/form.js
+    - public/javascripts/app/modules/geo.js
+    - public/javascripts/app/modules/networks.js
+    - public/javascripts/app/modules/widgets.js
+    - public/javascripts/vendor/jquery.smart-poll.js
+    - public/javascripts/app/modules/themes.js
+    - public/javascripts/application.js
+
+  extra_1:
+    - public/javascripts/app/initializers/retag.js
+    - public/javascripts/app/modules/users.js
+    - public/javascripts/app/modules/members.js
+    - public/javascripts/app/modules/searches.js
+    - public/javascripts/app/modules/tags.js
+
+  jqueryautovideo:
+    - public/javascripts/vendor/jquery.autovideo.js
+  mobile:
+    - public/javascripts/vendor/jquery-1.6.4.js
+    - public/javascripts/rails.js
+    - public/javascripts/app/initializers/mobile.js
+
+  facebook:
+    - public/javascripts/vendor/jquery-1.6.4.js
+    - public/javascripts/rails.js
+    - public/javascripts/vendor/jquery.cookie.js
+    - public/javascripts/vendor/jquery.notifyBar.js
+    - public/javascripts/facebook_app/facebox/facebox.js
+    - public/javascripts/app/modules/utils.js
+    - public/javascripts/app/modules/authentication.js
+    - public/javascripts/app/modules/messages.js
+    - public/javascripts/facebook_app/init.js
+
+  jpicker:
+    - public/javascripts/vendor/jpicker.js
+
+  geolocation:
+    - public/javascripts/vendor/polyfills/geolocation.js
+
+  jqmath:
+    - public/javascripts/vendor/mathscribe/jqmath-etc-0.1.1.min.js
+
+  codemirror:
+    - public/codemirror/lib/codemirror.js
+    - public/codemirror/mode/javascript/javascript.js
+    - public/codemirror/mode/css/css.js
+    - public/codemirror/mode/xml/xml.js
+    - public/codemirror/mode/htmlmixed/htmlmixed.js
+
+
+stylesheets:
+  base:
+    - public/stylesheets/compiled/application.css
+    - public/stylesheets/chosen/chosen.css
+  jqueryui:
+    - public/stylesheets/ui-lightness/jquery-ui.css
+    - public/stylesheets/jquery.ui.tabs.css
+
+  jpicker:
+    - public/stylesheets/compoments/jPicker-1.1.6.css
+
+  mobile:
+    - public/stylesheets/compiled/mobile.css
+
+  jqmath:
+    - public/javascripts/vendor/mathscribe/jqmath-0.1.1.css
+
+  codemirror:
+    - public/codemirror/lib/codemirror.css
+    - public/codemirror/theme/default.css

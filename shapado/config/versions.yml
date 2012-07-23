@@ -1,0 +1,124 @@
+legacy_public:
+  page_views: 0
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: false
+  custom_themes: true
+  basic_support: false
+  phone_support: false
+  uses_stripe: false
+  price: 0
+
+legacy_private:
+  page_views: 0
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: true
+  custom_themes: true
+  basic_support: false
+  phone_support: false
+  uses_stripe: false
+  price: 0
+
+special:
+  page_views: 0
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: false
+  custom_themes: true
+  basic_support: false
+  phone_support: false
+  uses_stripe: false
+  price: 0
+
+free:
+  page_views: 0
+  custom_ads: false
+  custom_js: false
+  custom_domain: false
+  private: false
+  custom_themes: true
+  basic_support: false
+  phone_support: false
+  uses_stripe: false
+  price: 0
+
+basic:
+  page_views: 0
+  custom_ads: false
+  custom_js: false
+  custom_domain: true
+  private: false
+  custom_themes: true
+  basic_support: true
+  phone_support: false
+  uses_stripe: true
+  price: 900
+
+
+plus:
+  page_views: 1000000
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: false
+  custom_themes: true
+  basic_support: true
+  phone_support: true
+  uses_stripe: true
+  price: 4900
+
+
+premium:
+  page_views: 5000000
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: false
+  custom_themes: true
+  basic_support: true
+  phone_support: true
+  uses_stripe: true
+  price: 24900
+
+
+maximium:
+  page_views: 15000000
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: false
+  custom_themes: true
+  basic_support: true
+  phone_support: true
+  uses_stripe: true
+  price: 74900
+
+
+optimum:
+  page_views: 0
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: false
+  custom_themes: true
+  basic_support: true
+  phone_support: true
+  uses_stripe: true
+  price: 99900
+
+private:
+  page_views: 0
+  custom_ads: true
+  custom_js: true
+  custom_domain: true
+  private: true
+  custom_themes: true
+  basic_support: true
+  phone_support: true
+  uses_stripe: true
+  price: 0
+  per_user: 200

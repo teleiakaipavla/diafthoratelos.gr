@@ -1,0 +1,36 @@
+# Messages for Brazilian Portuguese (português do Brasil)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giro720
+# Author: Luckas Blade
+# Author: Pedroca cerebral
+pt-BR: 
+  close_requests: 
+    create: 
+      flash_notice: O pedido de fechamento foi criado com sucesso.
+    destroy: 
+      flash_notice: O pedido de fechamento foi eliminado com sucesso
+    edit: 
+      title: Editar pedido de encerramento
+    form: 
+      close_with_reason: Fechar esta pergunta usando este motivo
+      dupe: Duplicada
+      no_question: Não é uma pergunta
+      not_relevant: Não é relevante
+      ot: Está fora do tema
+      request_closing_details: Pedir para fechar esta pergunta
+      retract: Retrair
+      spam: spam
+    index: 
+      title: Lista de pedidos de fechamento
+    model: 
+      attributes: 
+        comment: Comentário
+        reason: Motivo
+        user: Usuário
+      messages: 
+        already_requested: Você já pediu para fechar esta pergunta
+      name: Pedido de fechamento
+      prural_name: Pedidos de fechamento
+    update: 
+      flash_notice: O pedido de fechamento foi atualizado

@@ -1,0 +1,22 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mor
+# Author: Patcito
+es: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Finaliza en el
+        message: Mensaje
+        only_anonymous: Sólo para usuarios anónimos
+        starts_at: Comienza a las
+  announcements: 
+    actions: 
+      delete: Suprimir
+      title: Acciones
+    create: 
+      success: Tu anuncio se ha creado correctamente.
+    index: 
+      description: Manejar y crear nuevos anuncios que se mostrarán en todo el sitio a sus visitantes.
+      title: Anuncios

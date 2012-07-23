@@ -1,0 +1,23 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  welcome: 
+    confirm_age: 
+      notice: Για να εισέλθετε σε αυτή τη σελίδα πρέπει να είστε τουλάχιστον 18 ετών ή στην ηλικία ενηλικίωσης στη χώρα στην οποία διαμένετε ή από την οποία έχετε πρόσβαση σε αυτή τη σελίδα.
+      over_18: Είμαι πάνω από 18
+      under_18: Είμαι κάτω από 18
+      warning: "ΠΡΟΣΟΧΗ: Το περιεχόμενο της σελίδας μπορεί να είναι ακατάλληλο για ανηλίκους."
+    feedback: 
+      captcha_error: Παρακαλώ λύστε μια απλή μαθηματική πράξη
+      email_description: Παρακαλώ εισάγετε το email σας ώστε να μπορούμε να απαντήσουμε
+      feedback_description: Περιγραφή
+      feedback_title: Θέμα
+      title: Στείλτε τα σχόλιά σας
+    index: 
+      active: Ενεργές
+      create_own_site: Δημιουργήστε το δικό σας Q&amp;A site σε 8 δευτερόλεπτα, δωρεάν
+      hot: Δημοφιλείς
+      quick_question: Κάντε μια ερώτηση, θα βρούμε κάποιον να την απαντήσει
+      recent_questions: Πρόσφατες ερωτήσεις

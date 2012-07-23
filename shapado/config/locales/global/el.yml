@@ -1,0 +1,50 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  feeds: 
+    feed: ροή
+    post_new_questions: Αποστολή νέων ερωτήσεων προς
+    question: Εγγραφείτε σ' αυτή την ερώτηση
+    questions: Εγγραφείτε σε όλες τις ερωτήσεις
+    share_on_twitter: twitter, facebook και άλλα...
+    tag: Εγγραφείτε στην ετικέτα
+    user: Εγγραφείτε στις ερωτήσεις του μέλους
+  global: 
+    by: από
+    current: Τρέχουσα
+    from: από %{site}
+    group_not_found: Η σελίδα %{url} δεν υπάρχει
+    or: ή
+    permission_denied: Απαγορεύεται η πρόσβαση
+    please_login: Παρακαλώ συνδεθείτε
+    preview: Προεπισκόπηση
+    previous: Προηγούμενη
+    share: Διαμοιρασμός
+  models: 
+    question: Η ερώτηση
+  number: 
+    x_time: 
+      one: "%{count} φορά"
+      other: "%{count} φορές"
+      zero: ποτέ
+  scaffold: 
+    add: Προσθήκη
+    back: Πίσω
+    cancel: Ακύρωση
+    close: Κλείδωμα
+    create: Δημιουργία
+    destroy: Διαγραφή
+    details: Λεπτομέρειες
+    edit: Επεξεργασία
+    more: Περισσότερα ...
+    new: Προσθήκη νέας %{model}
+    save: Αποθήκευση
+    send: Αποστολή
+    show: Προβολή
+    sure: Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την %{model} ?
+    update: Ενημέρωση
+  time: 
+    ago: "%{time} πριν"
+    today: σήμερα

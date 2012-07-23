@@ -1,0 +1,79 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+# Author: Pinxnl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  layouts: 
+    application: 
+      all: Alle
+      ask_question: Vraag stellen
+      badges: Speldjes
+      by_me: Door mij
+      collaborate: Samenwerken
+      contributed: Bijgedragen
+      faq: Veel gestelde vragen
+      feed: Gevolgd
+      follow_us_and_share: Volg ons en delen
+      followed: Gevolgd
+      forgot: Vergeten?
+      home: Startpagina
+      join_group: Lid worden van %{group}
+      languages: Talen
+      log_in: Aanmelden
+      logged: Aangemeld als %{login}
+      logout: Afmelden
+      manage_ads: Advertenties beheren
+      moderate: Modereren
+      need_to_signin: U moet eerst aanmelden.
+      not_member_join_dialog: U moet lid worden van %{group} om deze handeling te voltooien. Klik hier om dat te doen.
+      now: Nu!
+      openid: 
+        explaination: "Als u wilt registreren of aanmelden, kies dan uw OpenID-provider:"
+      pages: Pagina's
+      preferred: Voorkeur
+      questions: Vragen
+      questions_in: Vragen in het
+      questions_tagged: Met label
+      random_question: Willekeurige vraag
+      search: Zoeken
+      settings: Voorkeuren
+      signup: Registreren
+      subscribe: Abonneren
+      success_joining_group: U bent nu lid van %{group}. Dank u wel!
+      tags: Labels
+      title: Vragen en antwoorden
+      unanswered: Onbeantwoord
+      users: Gebruikers
+      welcome_from: Welkom! U kunt
+    manage: 
+      access: Toegang
+      actions: Handelingen
+      announcements: Aankondigingen
+      appearance: Uiterlijk
+      close_group: Groep sluiten
+      constrains: Beperkingen
+      content: Inhoud
+      dashboard: Dashboard
+      domain: Domein
+      edit_layout: Vormgeving bewerken
+      general: Algemeen
+      group_features: Extra functionaliteit
+      group_look_and_feel: Uiterlijk en gedrag
+      group_user_management: Gebruikersbeheer
+      invitations: Uitnodigingen
+      invoices: Facturen
+      members: Leden
+      pages: Pagina's
+      properties: Eigenschappen
+      reputation: Reputatie
+      rewards: Beloningen
+      social: Sociaal
+      stats: Statistieken
+      theme: Thema
+      themes: Thema's
+      widgets: Widgets
+    notifications: 
+      message: Als u geen automatische meldingen van %{group} meer wilt ontvangen, wijzig dan uw voorkeuren in het scherm voor meldingen.

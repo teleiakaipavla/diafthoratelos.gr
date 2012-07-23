@@ -1,0 +1,90 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fulup
+# Author: Y-M D
+br: 
+  feeds: 
+    feed: Lanvad
+    post_new_questions: Sevel goulennoù nevez ouzh
+    question: Koumanantiñ d'ar goulenn-mañ
+    questions: Koumanantiñ d'an holl c'houlennoù
+    share_on_twitter: twitter, facebook ha muioc'h...
+    tag: Koumanantiñ d'an dikedenn
+    user: En em enskrivit da goulennoù an implijer
+  global: 
+    actions: Oberoù
+    active: Gweredekaat
+    alphabetically: Dre urzh al lizherenneg
+    anonymous: Dizanv
+    blog: Blog
+    by: gant
+    by_semi: "Gant :"
+    chat: Flap
+    current: Red
+    edited: Kemmet
+    edited_by: Aozet gant
+    edited_by_semi: "Aozet gant :"
+    feedback: Sonjoù
+    follow: Heuliañ
+    followed_by: "Heuliet gant :"
+    following: O Heuliañ
+    from: eus %{site}
+    group_not_found: N'eus ket eus ar bajenn %{url}
+    home: Degemer
+    next_button: War-lerc'h
+    open: Digor
+    or: pe
+    permission_denied: Aotre nac'het
+    please_login: Mar plij kevreit
+    preview: Rakwelet
+    previous: Kent
+    privacy: Prevezded
+    share: rannañ
+    sign_up: En em enskrivañ
+    size: Ment
+    sort_by: "Urzhiañ dre :"
+    tags_label: "Balizennoù :"
+    tos: AIH
+    unfollow: Chom hep heuliañ
+    unknown_place: Dianav
+    view: Gwelet
+    view_question: Gwelet ar goulenn
+    what_to_do: Petra hoc'h eus c'hoant d'ober ?
+  models: 
+    question: Ar goulenn
+  preferred_languages: 
+    any: Forzh pehini
+    user: Ma yezhoù karetañ
+  roles: 
+    moderator: Habasker
+    owner: Perc'henn
+  scaffold: 
+    add: Ouzhpennañ
+    are_you_sure: Ha sur oc'h ?
+    back: Distreiñ
+    cancel: Nullañ
+    close: Serriñ
+    create: Krouiñ
+    destroy: Diverkañ
+    details: Munudoù
+    edit: Kemmañ
+    more: Muioc'h...
+    new: Ouzhpennañ %{model}
+    post_as_anonymous: Postañ er mod dizanv
+    save: Enrollañ
+    send: Kas
+    show: Diskouez
+    sure: Ha sur oc'h hoc'h eus c'hoant da zilemel ar %{model}-mañ ?
+    update: Hizivaat
+  time: 
+    ago: "%{time} zo"
+    today: hiziv
+    yesterday: dec'h
+  views: 
+    pagination: 
+      first: Kentañ
+      last: Diwezhañ
+      next: War-lerc'h &raquo;
+      previous: "&laquo; Kent"
+      truncate: ...

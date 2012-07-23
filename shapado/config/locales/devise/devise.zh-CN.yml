@@ -1,0 +1,44 @@
+# Messages for Simplified Chinese (‪中文(简体)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  devise: 
+    confirmations: 
+      confirmed: 确认您的帐户。您现在登录。
+      link: 没有收到确认说明吗？
+      send_instructions: 您将收到一封电子邮件带有关于如何在几分钟内确认您的帐户的说明。
+    mailer: 
+      confirmation_instructions: 确认的说明
+      reset_password_instructions: 重置密码的说明
+      unlock_instructions: 解锁指令
+    passwords: 
+      link: 忘记了密码吗？
+      send_instructions: 您将收到一封电子邮件，提供有关如何重置您的密码，在几分钟内说明。
+      updated: 您的密码已更改。您现在登录。
+    registrations: 
+      destroyed: 再见！您的帐户已被取消。我们希望很快再次见到你。
+      link: 登记
+      signed_up: 您已签约。
+      updated: 您更新您的帐户。
+    sessions: 
+      facebook_actions: 
+        sign_in: 登录
+        sign_out: 注销
+      facebook_authenticity_token: 出了错。出于安全原因请重新登录。
+      facebook_invalid: 可以签署。无效的帐户。
+      facebook_timeout: Facebook 会话已过期。请重新登录以继续。
+      inactive: 您的帐户是尚未证实。
+      invalid: 无效的电子邮件地址或密码。
+      invalid_token: 无效的身份验证令牌。
+      link: 登录
+      locked: 您的帐户被锁定。
+      signed_in: 在签署。
+      signed_out: 注销。
+      timeout: 您的会话已过期。请重新登录以继续。
+      unauthenticated: 您需要登录或注册然后再继续。
+      unconfirmed: 您必须在继续之前，请确认您的帐户。
+    unlocks: 
+      link: 没有收到解锁指令吗？
+      send_instructions: 您将收到一封电子邮件，说明如何在几分钟内解锁您的帐户。
+      unlocked: 您的帐户未锁定。您现在登录。

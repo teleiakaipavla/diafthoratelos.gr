@@ -1,0 +1,16 @@
+-# FIXME: use t('activity.humanized', :user=>user, :action=> action, :target=> target) after styling
+-if activity[:target_type] || activity[:trackable_type]
+  %article.activity
+    %p
+      = pjax_link_to activity.user.display_name, "user", user_path(activity.user)
+      = activity.humanize_action
+    %h2
+      - if activity.action == "destroy"
+        = activity.target_name
+      - else
+        = pjax_link_to activity.target_name, activity.url_for_trackable(request.host), activity.params_for_trackable
+
+    %p
+      %time{:pubdate => "pubdate", :datetime => activity.created_at.iso8601}
+        = t("time.ago", :time => time_ago_in_words(activity.created_at, true))
+        = activity.created_at

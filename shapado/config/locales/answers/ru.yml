@@ -1,0 +1,31 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Adata80
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Текст
+        created_at: Создан в
+        link: Ссылка
+    models: 
+      answer: Ответ
+      answers: Ответы
+  answers: 
+    create: 
+      flash_error: "При добавления ответа что-то пошло не так.\n  Помните, что:\n - Не допускаются пустые и повторяющиеся ответы\n - Следует подождать 20 секунд, прежде чем отправлять следующий ответ\n - Вы можете дать только один ответ на каждый вопрос"
+      flash_notice: Спасибо!
+    edit: 
+      title: Редактирование ответа
+    form: 
+      answer_label: Ответ на вопрос
+      comment_label: Комментарий к этому вопросу
+      comment_submit: Комментировать
+      submit: Ответить
+    revert: 
+      title: Отменить ответ
+    update: 
+      flash_notice: Ответ успешно обновлён.

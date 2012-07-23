@@ -1,0 +1,126 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+# Author: McDutchie
+de: 
+  admin: 
+    manage: 
+      access: 
+        title: Zugriff
+      answers: 
+        banning: 
+          title: Antwort verbieten
+      appearance: 
+        logo_legend: Lade ein Logo für Deine Gruppe hoch. Es muss kleiner als 2 MB sein.
+        title: Wähle Deine Benutzeroberfläche und passe sie an
+      close_group: 
+        description: Das Schließen der Gruppe macht sie, mit Ausnahme von Dir selbst, unzugänglich.
+        feedback: "Bitte teile uns mit, warum Du die Gruppe schließt:"
+      content: 
+        description: Konfiguriere Deine Gruppe mit benutzerdefinierten Texten und individueller Anmutung
+        footer: Fußbereich
+        head: Kopfzeile
+        question_help: Hilfe zu Fragen
+        question_prompt: Eingabeaufforderung für Fragen
+        title: Nutzerdefinierter Inhalt
+        top_bar: Titelleiste
+        top_bar_tip: Gebe einen Link pro Zeile ein
+      invitations: 
+        invitations: Verschickte Einladungen
+        invitations_title: Liste aller von Dir verschickten Einladungen
+        invite: Lade Personen ein
+        invite_title: Lade Personen per E-Mail ein
+        title: Einladungen
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Fragen aus Twitter heraus stellen
+          question_asked_to: Frage gestellt an
+          question_must_include: "Die Frage muss das folgende Stichwort enthalten, damit sie veröffentlicht werden kann:"
+          question_must_include_example: "z. B. #iAsk"
+          twitter_account: Das Twitterkonto mit dem die Fragen Deiner Nutzer veröffentlicht werden.
+        constrains: 
+          reputation_constrains_description: Mit diesem Formular kannst Du festlegen, wieviele Reputationspunkte ein Nutzer benötigt, um bestimmte Aktionen ausführen zu können
+          reputation_constrains_subtitle: Liste der Mindestreputation, die für jede Aktion benötigt wird
+          title: Voraussetzungen
+        domain: 
+          description: "Du kannst eine abweichende Domain auf Deine Website bei Shapado umleiten, so dass diese über Deine eigene Domain aufgerufen werden kann. So wird es gemacht:"
+          instruction1: Hierzu musst Du Dich zunächst bei Deinem Hoster anmelden. Dies ist die Seite bei der Deine Domain wie bspw. %{subdomain}.de gehostet wird.
+          instruction2: Dort musst Du im DNS-Abschnitt einen kanonischen Namen (CNAME) erstellen.
+          instruction3: Wähle „www“ oder irgendetwas anderes als kanonischen Namen (CNAME).
+          instruction4: Füge hernach Deine aktuelle %{domain} für Shapado in das Feld für das Domainziel ein.
+          instruction5: Sobald dies erledigt ist, sollte Deine Domain www.%{subdomain} nach ca. einer Stunde auf %{appdomain} weiterleiten.
+          instruction6: Sobald dies der Fall ist, kannst Du im folgenden Feld den Namen Deiner www.%{subdomain} angeben und die Schaltfläche „aktualisieren“ anklicken. Sofern Du Fragen hast, kannst Du uns im Chat %{chat_url} oder in unserem Hilfeforum kontaktieren.
+          title: Konfiguriere Deine eigene nutzerdefinierte Domain
+          warning: Bist Du sicher, dass Du Deine Domain ändern möchtest?
+        facebook_app: 
+          application_id: Kennung der App
+          facebook_app: Einstellungen zur Facebook-App
+          legend: Du kannst Deine Facebook-App konfigurieren. Sie wird dazu genutzt werden, um Deine Nutzer über ihre Facebookkonto anzumelden. Diese Einstellungen sind nur erforderlich, sofern Du eine eigene Domain verwendest.
+          secret_key: Geheimer Schlüssel
+        general: 
+          title: Gruppeneigenschaften
+        invitations: 
+          resend_button: Erneut senden
+          revoke_button: Widerrufen
+        invite: 
+          body_instructions: Schreibe eine Nachricht an die Personen, die Du  einlädst (optional)
+          body_length_warning: Der Text kann nicht mehr als 400 Zeichen enthalten.
+          emails_instructions: Gib durch Kommata getrennte E-Mail-Adressen ein
+          invitations: Verschickte Einladungen
+          invite: Lade Personen ein
+          title: Lade Personen per E-Mail ein
+          user_role: Lade Benutzer ein als
+        post_to_twitter: 
+          legend: Auf dieser Seite kannst Du konfigurieren, was an Twitter gesandt wird. Das hierfür genutzte Konto lautet <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>. Sofern Du ein anderes Konto verwenden möchtest, klicke bitte <a href="%{link}">hier</a>.
+          legend_connect: Auf dieser Seite kannst Du konfigurieren, was an Twitter gesandt wird. Zunächst musst Du aber ein Twitterkonto angeben, das hierfür verwenden werden soll. Klicke <a href="%{link}">hier</a>, um dieses festzulegen.
+          post_to_twitter: Aktivitäten bei Twitter veröffentlichen
+          send_answers_to_twitter: Alle Antworten bei Twitter veröffentlichen
+          send_badges_to_twitter: Alle neu verdienten Abzeichen bei Twitter veröffentlichen
+          send_comments_to_twitter: Alle Kommentare bei Twitter veröffentlichen
+          send_favorites_to_twitter: Alle Lieblingsantworten bei Twitter veröffentlichen
+          send_questions_to_twitter: Alle Fragen bei Twitter veröffentlichen
+        rewards: 
+          reputation_rewards_description: Mit diesem Formular kannst Du festlegen, wie Nutzer für bestimmte Aktionen Reputationspunkte gewinnen oder verlieren können
+          reputation_rewards_subtitle: Liste der Auszeichnungen
+          title: Auszeichnungen
+        share: 
+          title: freigeben
+        tag_your_tweets: 
+          add_tags: Füge Deinen Tweets Stichwörter hinzu
+          ends_with_example: "z. B. #shapado"
+          starts_with_example: "z. B. #qa"
+          title: Deinen Tweets Stichwörter hinzufügen
+          tweet_ends_with: Deinem Tweet ein Stichwort anfügen
+          tweet_starts_with: Deinem Tweet ein Stichwort voranstellen
+        title: Gruppeneigenschaften
+        twitter_account: 
+          connect_to_other_twitter: Klick hier, um ein anderes Twitterkonto mit Deiner Gruppe zu verknüpfen
+          connect_to_twitter: Klick hier, um ein Twitterkonto mit Deiner Gruppe zu verknüpfen
+          disconnect_twitter_group: Trenne diese Gruppe von Twitter
+          legend: Dieses Konto wird dazu verwendet werden neue Fragen und Antworten bei Twitter zu veröffentlichen.
+          legend_with_account: Dein Twitterkonto <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> wird dazu genutzt werden, neue Fragen und Antworten bei Twitter zu veröffentlichen. Was genau bei Twitter veröffentlicht werden soll, kannst Du <a href="%{link}">hier</a> festlegen.
+          twitter_account: Twitterkonto
+        twitter_app: 
+          key: Kennung der App
+          secret: Geheimer Schlüssel der App
+          twitter_app: Twitter-App
+      questions: 
+        banning: 
+          title: Frage verbieten
+      social: 
+        ask_from_twitter: Von Twitter aus fragen
+        ask_from_twitter_title: Erlaube es Deinen Nutzern, von Twitter aus, Fragen zu stellen
+        description: Verknüpfe Deine Gruppe mit Deinen sozialen Netzwerken
+        facebook_app: Facebook-App
+        facebook_app_title: Konfiguriere Deine Facebook-App so, dass sie von Deinen Nutzern dazu verwendet werden kann, sich mit ihrem Facebookkonto anzumelden
+        post_to_twitter: Auf Twitter veröffentlichen
+        post_to_twitter_title: Alle Fragen und Antworten automatisch auf Twitter veröffentlichen
+        tag_your_tweets: Deinen Tweets Stichwörter hinzufügen
+        tag_your_tweets_title: Füge Deinen Tweets Stichwörter hinzu
+        title: Social-Media-Interaktion
+        twitter_account: Twitterkonto
+        twitter_account_title: Konfiguriere Dein Twitterkonto so, dass es dazu verwendet werden kann Beiträge auf Twitter zu veröffentichen
+      top_admin: 
+        site: Website
+        title: Administration

@@ -1,0 +1,39 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Giro720
+# Author: Hamilton Abreu
+# Author: Luckas Blade
+pt-PT: 
+  doc: 
+    chat: 
+      title: Supporte por Conversação
+    plans: 
+      15millions: 15 milhões de visitas/mês
+      1million: 1 milhão de visitas/mês
+      247_all_support: Suporte baseado na internet, correio electrónico, canais de conversação e telefone de disponibilidade permanentemente
+      5millions: 5 milhões de visitas/mês
+      all_support: Suporte baseado na internet, correio electrónico, canais de conversação e telefone
+      basic_restrictions: Sem anúncios personalizados e sem interface totalmente personalizável
+      beta_info: Por enquanto todos os sites são gratuitos e disfrutam das opções do plano Óptimo, excepto no que concerne os serviços de suporte, que são baseados na internet, no correio electrónico e em canais de conversação.
+      big_sites: Sites de Alto Tráfego
+      custom_ads: Usar anúncios próprios
+      custom_analytics: Estatísticas de tráfego
+      custom_domain: Domínio próprio
+      custom_themes: Use os nossos temas personalizados predefinidos
+      custom_ui: Interface totalmente personalizável
+      free_plan: Plano Grátis
+      getting_popular: A Tornar-se Popular
+      huge_sites: Sites de Tráfego Enorme
+      month: mês
+      page_views: Para Sites Pequenos/Particulares
+      plans: Planos
+      private_site: Permitir acesso público/privado
+      small_private: Sites Pequenos/Particulares
+      start_monetizing: comece a ganhar dinheiro
+      support: Suporte
+      title: Planos e preços
+      unlimited: Tráfego ilimitado a cada mês
+      we_offer: Também oferecemos
+      web_support: Suporte baseado na internet
+      with_unlimited: com tráfego ilimitado, sem anúncios personalizados e sem domínio próprio.

@@ -1,0 +1,11 @@
+-# if @updated
+  =# I18n.t('global.edited_by_semi')
+-# else
+  = I18n.t('global.by_semi')
+
+-bronze, silver, gold = user.badges_count_on(current_group)
+-unless user.nil?
+  =link_to h(user.display_name), user_path(user), :class => "user-link pjax ajax-tooltip", :"data-layout" => "user"
+
+-else
+  = t('users.deleted')

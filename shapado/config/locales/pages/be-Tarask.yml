@@ -1,0 +1,37 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Табліцы стыляў
+        js: JavaScript
+    models: 
+      page: Старонка
+      pages: Старонкі
+  pages: 
+    actions: 
+      create_page: Стварыць новую старонку
+      edit_page: Рэдагаваць старонку
+      title: Дзеяньні
+    create: 
+      success: Старонка была пасьпяхова створаная.
+    edit: 
+      title: Рэдагаваньне старонкі
+    form: 
+      language_tip: Мова старонкі
+      title_tip: "Назва старонкі. Выкарыстоўвайце яе для спасылкі на старонку. Напрыклад: [[FAQ|праверце faq]]"
+    index: 
+      create_page: Стварыць новую старонку
+      title: Сьпіс старонак
+      wiki: Вікі
+      wiki_pages: Вікі-старонкі
+      written_in: Напісана на %{language}
+    new: 
+      title: Новая старонка
+    title: Выправіць
+    update: 
+      success: Старонка была пасьпяхова абноўленая.

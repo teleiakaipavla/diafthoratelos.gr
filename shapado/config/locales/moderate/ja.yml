@@ -1,0 +1,15 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+ja: 
+  admin: 
+    moderate: 
+      index: 
+        all: 全て
+        ban: 弾く
+        banned: 弾かれた質問
+        content: 内容
+        flagged: 報告されている質問
+        item_title: タイトル
+        need_tags: タグの編集
+        title: モデレート

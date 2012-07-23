@@ -1,0 +1,95 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  feeds: 
+    feed: Suapan
+    post_new_questions: Kirim soalan baru ke
+    question: Langgan soalan ini
+    questions: Langgan semua soalan
+    share_on_twitter: Twitter, Facebook dan banyak lagi ...
+    tag: Langgan tag
+    user: Langgan soalan pengguna
+  global: 
+    actions: Tindakan
+    active: Hidupkan
+    alphabetically: Ikut turutan abjad
+    anonymous: Tanpa nama
+    blog: Blog
+    by: oleh
+    by_semi: "Oleh:"
+    chat: Sembang
+    current: Kini
+    edited: Disunting
+    edited_by: "Disunting oleh:"
+    edited_by_semi: "Disunting oleh:"
+    feedback: Maklum Balas
+    follow: Ikuti
+    followed_by: "Diikuti oleh:"
+    following: Diikuti
+    from: dari %{site}
+    group_not_found: Laman %{url} tak wujud
+    home: Laman Utama
+    next_button: Berikutnya
+    open: Buka
+    or: atau
+    permission_denied: Kebenaran ditolak
+    please_login: Sila log masuk
+    preview: Pralihat
+    previous: Sebelumnya
+    privacy: Privasi
+    share: Kongsi
+    sign_up: Daftar diri
+    size: Saiz
+    sort_by: "Isih mengikut:"
+    tags_label: "Tag:"
+    tos: Terma Perkhidmatan
+    unfollow: Berhenti mengikut
+    unknown_place: Tidak diketahui
+    view: Lihat
+    view_question: Lihat soalan
+    what_to_do: Apakah yang ingin anda lakukan?
+  models: 
+    question: Soalan
+  number: 
+    x_time: 
+      one: "%{count} kali"
+      other: "%{count} kali"
+      zero: Tak pernah
+  preferred_languages: 
+    any: Semua
+    user: Bahasa-bahasa keutamaan saya
+  roles: 
+    moderator: Pengawal selia
+    owner: Pemilik
+    user: Pengguna biasa
+  scaffold: 
+    add: Tambahkan
+    are_you_sure: Adakah anda pasti?
+    back: Kembali
+    cancel: Batalkan
+    close: Tutup
+    create: Cipta
+    destroy: Hapuskan
+    details: Butiran
+    edit: Sunting
+    more: Lagi ...
+    new: Tambahkan %{model} baru
+    post_as_anonymous: Kirim sebagai tanpa nama
+    save: Simpan
+    send: Hantar
+    show: Paparkan
+    sure: Adakah anda benar-benar ingin menghapuskan %{model} ini?
+    update: Kemas kini
+  time: 
+    ago: "%{time} yang lalu"
+    today: hari ini
+    yesterday: semalam
+  views: 
+    pagination: 
+      first: Pertama
+      last: Terakhir
+      next: Berikutnya &raquo;
+      previous: "&laquo; Sebelumnya"
+      truncate: ...

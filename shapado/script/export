@@ -1,0 +1,76 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'zip/zipfilesystem'
+require 'fileutils'
+
+options = {}
+optparser = OptionParser.new do |opts|
+  opts.banner = "Usage: #{$0} [options] <group_id or domain>"
+
+  opts.on("-z", "--zip", "Perform a complete search") do |o|
+    options[:method] = :zip
+  end
+
+  opts.on_tail("-h", "--help", "Show this help message.") do
+    puts opts
+    exit
+  end
+end
+
+args = []
+begin
+  args = optparser.parse!
+  if args.empty?
+    raise StandardError, "Missing group id"
+  end
+rescue => e
+  $stderr.puts e
+  $stderr.puts optparser
+  exit 0
+end
+
+require File.expand_path('../../config/environment', __FILE__)
+
+group = Group.find(args.first) || Group.where(:subdomain => args.first).first
+exporter = Export.new(group)
+time = Time.now
+
+exclude = [:_keywords, :salt, :remember_token_expires_at, :crypted_password, :encrypted_password, :ip, :identity_url, :email, :default_subtab, :admin]
+
+if options[:method] == :zip
+  filename = "#{group.subdomain}.zip"
+  File.unlink(filename) if File.exist?(filename)
+  Zip::ZipFile.open(filename, Zip::ZipFile::CREATE) do |zf|
+    zf.dir.mkdir(group.subdomain)
+    zf.dir.chdir(group.subdomain)
+
+    exporter.to_zip(group, zf)
+    exporter.to_zip(Question, zf)
+    exporter.to_zip(Answer, zf)
+    exporter.to_zip(Badge, zf)
+    exporter.to_zip(User, zf, :selector => {:"membership_list.#{group.id}" => {:$exists => true}},
+                           :except => exclude)
+    friend_list_ids = group.members(:friend_list_id).map(&:friend_list_id)
+    puts friend_list_ids
+    exporter.to_file(FriendList, :selector => {:_id => friend_list_ids})
+  end
+else
+  FileUtils.mkpath(group.subdomain)
+  Dir.chdir(group.subdomain)
+
+  $stderr.puts "Created #{File.expand_path(Dir.getwd)}"
+
+  exporter.to_file(group)
+  exporter.to_file(Question)
+  exporter.to_file(Answer)
+  exporter.to_file(Badge)
+  exporter.to_file(User, :selector => {"membership_list.#{group.id}" => {:$exists => true}},
+                         :except => exclude)
+  friend_list_ids = group.members(:friend_list_id).map(&:friend_list_id)
+  exporter.to_file(FriendList, :selector => {:_id.in => friend_list_ids})
+end
+
+time = Time.now - time
+$stderr.puts "Exported #{group.name} in #{time} seconds"
+

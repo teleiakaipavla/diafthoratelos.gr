@@ -1,0 +1,21 @@
+# Messages for tarandíne (tarandíne)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Joetaras
+roa-tara: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: Spicce 'u
+        message: Messàgge
+        only_anonymous: Sulamende pe utinde anonime
+        starts_at: Accumenze 'u
+  announcements: 
+    actions: 
+      delete: Live
+      title: Aziune
+    create: 
+      success: L'annunge tune ha state ccrejate cu successe.
+    index: 
+      description: Gestisce e ccreje annuge nuève ca avènene fatte vedè sus a 'u site a le visitature.
+      title: Annunge

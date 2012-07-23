@@ -1,0 +1,19 @@
+%nav{:class => @active_tab}
+  %ul.content-tabs
+    %li.questions
+      =link_to t("layouts.application.questions"), questions_link
+    %li.answers
+      =link_to t("activerecord.models.answers"), url_for(:answers => 1)
+    %li.unanswered
+      =link_to t("layouts.application.unanswered"), url_for(:unanswered => 1)
+
+
+  %section.filters{:class => @active_subtab }
+    %ul
+      %header Sort By:
+      %li.newest
+        = link_to t("questions.index.newest"), url_for(params.merge(:sort=>"newest")), :title => t("questions.index.newest_tooltip")
+      %li.hot
+        = link_to t("questions.index.hot"), url_for(params.merge(:sort=>"hot")), :title => t("questions.index.hot_tooltip"), :rel => "nofollow"
+      %li.votes
+        = link_to t("questions.index.votes"), url_for(params.merge(:sort=>"votes")), :title =>  t("questions.index.votes_tooltip"), :rel => "nofollow"

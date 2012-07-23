@@ -1,0 +1,14 @@
+# Messages for Friulian (furlan)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Klenje
+fur: 
+  activerecord: 
+    models: 
+      activity: Ativitât
+  activity: 
+    asked: domandade
+    changed: cambiade
+    created: creade
+    deleted: eliminade
+    updated: inzornade

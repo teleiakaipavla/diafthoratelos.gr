@@ -1,0 +1,168 @@
+.invoices
+  padding: 30px 0 !important
+  width: 800px
+  margin: 0 auto 10px auto !important
+  form
+    margin: 0 auto
+    width: 600px !important
+    .invoice_info
+      overflow: hidden
+      padding: 0 0 20px 0
+      .brand
+        float: left
+      .references
+        float: right
+        padding: 10px
+      p
+        margin: 0 0 5px 0 !important
+        padding: 0 !important
+        font-size: 14px
+        text-align: left
+        strong
+          font-weight: bold
+          margin: 0 !important
+          padding: 0 !important
+
+  .thanks
+    clear: both
+    display: block
+    padding: 25px
+    margin: 0 0 20px 0
+    p
+      line-height: 16px
+      margin: 0
+      text-align: center
+      a
+        font-size: 10px
+        font-style: italic
+        margin: 10px 0 0 0
+        &:hover
+          border-bottom: 1px dotted
+    p.action
+      font-size: 16px
+      line-height: 20px
+      font-weight: bold
+      margin: 0 0 15px 0
+      em
+        margin: 0 5px
+        font-size: 16px
+
+  .contact-details
+    overflow: hidden
+    margin: 0 0 15px 0
+    .name
+      float: left
+      width: 286px
+      margin: 0 20px 0 0
+    .lastname
+      float: left
+      width: 286px
+
+  .credit-cards
+    overflow: hidden
+    padding: 0 0 15px 0
+    label
+      margin-bottom: 15px
+    input
+      width: 30px
+      margin: 10px 0 0 0
+    .visa
+      background: image-url("visa.gif") 30px 0 no-repeat
+      height: 30px
+      width: 90px
+      float: left
+    .master
+      background: image-url("mastercard.gif") 30px 0 no-repeat
+      height: 30px
+      width: 90px
+      float: left
+    .amex
+      background: image-url("amex.gif") 30px 0 no-repeat
+      height: 30px
+      width: 90px
+      float: left
+  .half
+    .field
+      width: 286px
+      float: left
+      &:first-child
+        margin: 0 20px 0 0
+      .checkbox
+        input, label
+          float: right
+        input
+          width: 25px
+        label
+          width: 255px
+  .half
+    select
+      width: auto
+  .cc-info
+    margin: 0 0 20px 0
+    height: 145px
+
+  table
+    margin: 30px 0
+    td
+      padding: 10px
+      text-align: right
+
+
+// Invoices
+.manage-layout
+  .invoices
+    min-height: 600px
+    width: 100% !important
+    padding: 30px !important
+    table
+      font-size: 12px
+      margin: 0
+      td
+        padding: 10px
+      thead, thead tr td
+        td
+          font-weight: bold
+          text-align: center
+          padding: 0 10px
+
+// Each invoice
+.each-invoice
+  padding: 30px !important
+  .brand
+    float: left
+    margin: 0 0 80px 0
+  .references
+    float: right
+    margin: 0 30px 0 0
+    p
+      margin: 0 0 5px 0 !important
+      font-size: 14px
+      text-align: left
+      strong
+        font-weight: bold
+  h2
+    display: block
+    float: none
+    clear: both
+    font-size: 22px
+    margin: 40px 0 25px 0
+    padding: 0 0 5px 0
+  p
+    margin: 0 0 15px 150px
+    font-size: 16px
+    line-height: 20px
+    text-align: left
+    strong
+      font-weight: bold
+      font-size: 16px
+  table
+    width: 600px
+    margin-top: 100px
+    margin-left: 100px
+    tr
+      td.total
+        font-weight: bold
+      td.due
+        font-weight: bold
+        font-size: 16px
+        min-width: 90px

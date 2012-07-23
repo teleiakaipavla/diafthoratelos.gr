@@ -1,0 +1,14 @@
+# Messages for Faroese (føroyskt)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EileenSanda
+fo: 
+  activerecord: 
+    models: 
+      activities: Aktivitetir
+      activity: Aktivitetur
+  activity: 
+    changed: broytt
+    created: stovnað
+    deleted: er strikað
+    updated: dagført

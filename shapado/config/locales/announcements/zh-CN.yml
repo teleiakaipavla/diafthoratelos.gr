@@ -1,0 +1,23 @@
+# Messages for Simplified Chinese (‪中文（简体）‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+# Author: Hydra
+# Author: Xiaomingyan
+# Author: ZhengYiFeng
+zh-CN: 
+  activerecord: 
+    attributes: 
+      announcement: 
+        ends_at: 要结束
+        message: 信息
+        only_anonymous: 仅对匿名用户
+        starts_at: 开始
+  announcements: 
+    actions: 
+      delete: 删除
+      title: 行动
+    create: 
+      success: 您的公告成功创立。
+    index: 
+      title: 公告

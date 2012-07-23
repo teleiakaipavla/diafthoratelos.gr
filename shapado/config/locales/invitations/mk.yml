@@ -1,0 +1,33 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  invitations: 
+    accept: 
+      create_account: Создај сметка (1 од 2)
+      create_account_step2: Направи сметка
+      description: "%{group} е збирка на прашања и одговори на било која тема која постојано се подобрува и усовршува."
+      done: Готово!
+      facebook_connect: Поврзете се со вашата сметка на Facebook
+      final_step: Последен чекор (2 од 2)
+      find_friends: "Пронајдете ги пријателите и поврзете се:"
+      follow_things: Следете ознаки и луѓе
+      follow_things_description: Прашањата поврзани со овие ќе се појавуваат во каналот.
+      other_connect: или употребете едно од овие.
+      other_social_options: Можете и да користите %{linkedin} и %{identica}.
+      point1: Прашајте ги стручните на дадено поле.
+      point2: Следете теми и одговарајте на прашања што ве интересираат.
+      point3: Гласајте и уредувајте одговори и вики-страници за да ги подобрите. Така ќе освоите значки.
+      point4: Давајте одговори едноставно од вашата е-пошта.
+      twitter_connect: Поврзете се со вашата сметка на Twitter
+      welcome: Добредојдовте
+    create: 
+      flash_notice: Вашата покана е успешно испратена.
+      limit_notice: 
+        one: Нажалост, во моментов не можете да испратите повеќе од %{limit} покана.
+        other: Нажалост, во моментов не можете да испратите повеќе од %{limit} покани.
+    resend: 
+      flash_notice: Вашата покана е успешно препратена.
+    revoke: 
+      flash_notice: Вашата покана е успешно повлечена.

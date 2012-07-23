@@ -1,0 +1,27 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fulup
+# Author: Y-M D
+br: 
+  welcome: 
+    confirm_age: 
+      notice: Ne c'hellit mont war al lec'hienn-mañ nemet ma 'z oc'h da nebeutañ 18 bloaz, pe da nebeutañ oad gour ar barnerezh e lec'h m'emaoc'h o chom pe evit pehini ez it war ar bajenn internet-mañ.
+      over_18: A-us 18 bloaz on
+      under_18: Dindan 18 bloaz on
+      warning: "DIWALLIT : Er bajenn-mañ e c'heller kavout danvez evit an dud gour."
+    feedback: 
+      captcha_error: Mar plij, diskoulmit un oberiadenn matematikel simpl
+      email_description: Merkit ur chomlec'h postel evit ma c'hallfemp respont d'ho kemennadenn
+      feedback_description: deskrivadur
+      feedback_title: titl
+      title: Kasit hoc'h evezhiadennoù
+    index: 
+      active: oberiant
+      browse_all_or_by_tags: Sellit %{full_list_of_questions} pe %{browse_by_tags}
+      browse_by_tags: merdeit dre balizenn
+      create_own_site: Krouit ho lec'hienn G&amp;R en 8 eilenn, evit netra
+      full_list_of_questions: Roll klok ar goulennoù
+      hot: Tomm-berv
+      quick_question: Goulennit un dra bennak, ni a gavo tud da respont deoc'h
+      recent_questions: Goulennoù nevez

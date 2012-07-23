@@ -1,0 +1,10 @@
+-content_for :subtabs do
+  .navtitle
+    =t("admin.manage.properties.#{@active_subtab}.title")
+  %ul
+    %li.general
+      = link_to t("layouts.manage.general"), manage_properties_path(:tab => "general")
+    %li.theme
+      = link_to t("layouts.manage.theme"), manage_properties_path(:tab => "theme")
+    %li.domain
+      = link_to t("layouts.manage.domain"), manage_properties_path(:tab => "domain")

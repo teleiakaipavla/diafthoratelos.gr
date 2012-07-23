@@ -1,0 +1,32 @@
+-if logged_in? && current_user.mod_of?(current_group)
+  %li.more.moderate.action
+    = link_to I18n.t('questions.toolbar.moderate', :default => "Moderate"), "#"
+    %ul.drop-menu
+      %li
+        = link_to question.banned ? t("#{i18n_scope}.unban", :default => "Unban") : t("#{i18n_scope}.ban"), banning_moderate_question_path(question), :id => "ban_question", :class => "ban-link", "data-lazy" => "1", :rel => 'nofollow', :class => "show_form"
+      -if question.closed
+        %li.open
+          = link_to t("#{i18n_scope}.open"), opening_moderate_question_path(question), :rel => 'nofollow', :id => "open_question", :class => "open-link", "data-lazy" => "1", :rel => 'nofollow', :class => "show_form"
+      -else
+        %li.close
+          = link_to t("#{i18n_scope}.close"), closing_moderate_question_path(question), :id => "close_question", :class => "close-link", "data-lazy" => "1", :rel => 'nofollow', :class => "show_form"
+
+
+-elsif logged_in? && current_user.can_view_offensive_counts_on?(current_group)
+  %li.more.requests
+    = link_to I18n.t('questions.toolbar.requests'), "#", :class => "action"
+    %ul.drop-menu
+      - unless question.flags.count == 0
+        %li
+          = t(:flags, :scope => "activerecord.models")
+          = render :partial => "flags/list", :locals => {:flaggeable => question}
+
+      - unless question.close_requests.size == 0
+        %li
+          = t(:prural_name, :scope => "close_requests.model")
+          = render :partial => "close_requests/list", :locals => {:question => question}
+
+      - unless question.open_requests.size == 0
+        %li
+          = t(:prural_name, :scope => "open_requests.model")
+          = render :partial => "open_requests/list", :locals => {:question => question}

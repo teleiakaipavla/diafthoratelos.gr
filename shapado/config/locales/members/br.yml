@@ -1,0 +1,17 @@
+# Messages for Breton (brezhoneg)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Fulup
+# Author: Y-M D
+br: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: Rol
+  members: 
+    form: 
+      login_tip: Klask en ur vizskrivañ
+    index: 
+      manage_members_title: Izili merañ
+      title: Izili ar strollad %{name}
+      title_isolate: Izili %{name}

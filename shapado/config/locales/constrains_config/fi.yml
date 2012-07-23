@@ -1,0 +1,8 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Raspi
+fi: 
+  activemodel: 
+    models: 
+      constrains_config: Mainerajoituksien asetukset

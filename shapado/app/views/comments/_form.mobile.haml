@@ -1,0 +1,19 @@
+= hidden_field_tag "source", source, :id => "source_#{commentable.id}"
+
+-opts = {:class => "text_area", :rows => 'auto', :cols => 'auto'}
+-if local_assigns[:markdown]
+  -if current_group.wysiwyg_editor
+    -opts[:class] = "wysiwyg_editor"
+    -opts[:value] = markdown(@comment.body)
+  -else
+    -opts[:class] = "markdown_editor"
+
+.markdown
+  = f.text_area :body, opts
+
+-if local_assigns[:markdown] && !current_group.wysiwyg_editor
+  =#markdown(@comment.body)
+
+-elsif !logged_in?
+  = render :partial => "users/anonymous_form"
+

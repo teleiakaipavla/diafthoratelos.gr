@@ -1,0 +1,46 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gomoko
+# Author: Hashar
+# Author: Od1n
+fr: 
+  themes: 
+    edit: 
+      title: Modifier le thème
+    form: 
+      bg_color_legend: Définir la couleur unie comme arrière-plan, faites attention au contraste avec votre application.
+      bg_image_legend: Cette image sera affichée comme fond d'écran sur chaque page. Sa taille ne doit pas dépasser 800K et doit être un GIF, un JPG ou un PNG.
+      colors_and_bg: Couleurs et arrière-plans
+      custom_css_legend: Si vous connaissez le langage CSS, utilisez-le pour personnaliser le style de votre site. Vous pouvez utiliser soit CSS soit SCSS.
+      fluid_layout: Mise en page fluide
+      fluid_layout_legend: Avec une mise en page fluide, la largeur de chaque élément de la page dépend de la taille de la page et non de l'élément initial. En d'autres termes, lorsque l'utilisateur redimensionne la fenêtre de son navigateur ou utilise un écran plus petit, la mise en page s'adapte aux nouvelles dimensions.
+      main_color_legend: C'est l'une des couleurs les plus utilisées sur chaque page, assurez-vous de sélectionner la bonne pour votre marque ou votre communauté.
+      modules_color_legend: Assurez-vous que cette couleur et la couleur principale se marient bien ensemble.
+      submit_update: Mettre à jour le thème
+      text_color_legend: Assurez-vous que votre texte est lisible et est compatible avec la couleur d'arrière-plan.
+      update: Mettre à jour le thème
+    index: 
+      description: Retrouvez ici vos thèmes et changez l'apparence de votre application.
+      new_theme: Vous pouvez créer votre propre thème ici.
+    ready: 
+      success: Votre thème est prêt !
+    show: 
+      apply: Appliquer
+      bg_color: Couleur d'arrière-plan
+      bg_image: Image d'arrière-plan
+      brand_color: Couleur de la marque
+      button_bg: Couleur d'arrière-plan des boutons.
+      button_fg: Couleur de premier plan des boutons.
+      fg_color: Couleur de premier plan
+      fluid: Fluide (ce qui rendra le thème élastique lorsque la fenêtre du navigateur est redimensionnée)
+      link_bg: Couleur d'arrière-plan des liens
+      link_fg: Couleur de premier plan des liens
+      main_color: Couleur principale
+      modules_color: Couleur des modules
+      not_ready: Ce thème n'est pas encore prêt à être utilisé, revenez plus tard.
+      text_color: Couleur du texte
+      try: Essayer
+      use_link_bg: Utiliser un arrière plan pour les liens
+      view_bg: Couleur d'arrière-plan de la vue
+      view_fg: Couleur de premier plan de la vue

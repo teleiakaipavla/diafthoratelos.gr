@@ -1,0 +1,21 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} respondeu a: %{question}"
+        send_twitter: A miña resposta en %{question}
+      on_favorite_answer: 
+        group_send_twitter: "%{user} gustou dunha resposta de %{author} en: %{question}"
+        send_twitter: "Gustoume unha resposta de %{author} en: %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} acaba de gañar a insignia %{token} en %{group_name} %{link}"
+        send_twitter: Acabo de gañar a insignia %{token} en %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} comentou en: %{question}"
+        send_twitter: O meu comentario en %{question}

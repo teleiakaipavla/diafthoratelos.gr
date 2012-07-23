@@ -1,0 +1,8 @@
+%li.questions
+  = link_to t("activerecord.models.questions"), follows_user_path(@user, params.merge(:sort=>"questions")), :rel => "nofollow", :class => "pjax", :"data-layout" => "user"
+%li.answers
+  = link_to t("activerecord.models.answers"), follows_user_path(@user, params.merge(:sort=>"answers")), :rel => "nofollow", :class => "pjax", :"data-layout" => "user"
+%li.following
+  = link_to t("global.following"), follows_user_path(@user, params.merge(:sort=>"following")), :rel => "nofollow", :class => "pjax", :"data-layout" => "user"
+%li.followers
+  = link_to t("users.show.followers"), follows_user_path(@user, params.merge(:sort=>"followers")), :rel => "nofollow", :class => "pjax", :"data-layout" => "user"

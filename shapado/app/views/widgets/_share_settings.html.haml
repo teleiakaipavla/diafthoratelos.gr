@@ -1,0 +1,7 @@
+
+- AppConfig.share_links.keys.each do |key|
+  .field.checkbox
+    = check_box_tag "settings[share_links][#{key}]", 1, (widget.settings["share_links"][key].nil?)? false : true, :class => 'share_checkbox'
+    = label_tag key.camelize.to_s, key.camelize.to_s
+    %p= raw(AppConfig.share_links[key])
+= render :partial => "shared/external_widget_settings", :locals => {:widget => widget}

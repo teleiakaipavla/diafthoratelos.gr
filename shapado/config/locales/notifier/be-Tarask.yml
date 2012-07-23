@@ -1,0 +1,60 @@
+# Messages for Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EugeneZelenko
+# Author: Jim-by
+be-Tarask: 
+  notifier: 
+    admin_login: 
+      message1: Карыстальнік %{user} далучыўся як адміністратар у %{time} з IP-адрасу %{ip}.
+      subject: "Увага: злучэньне адміністратара"
+    created_flag: 
+      message1: Вы атрымалі гэтае паведамленьне, таму што Вы зьяўляецеся мадэратарам %{group}.
+      message2: "Паведамленьне было пазначанае па наступнай прычыне:"
+      message2bis: Тут Вы можаце чытаць пазначанае паведамленьне.
+      message2bistext: "Вы можаце чытаць пазначаныя паведамленьні, націснуўшы наступную спасылку:"
+      message3: "Перайсьці на старонку мадэратара каб убачыць сьпіс пазначаных элемэнтаў:"
+      message4: Наведаць старонку мадэратара каб убачыць сьпіс пазначаных элемэнтаў.
+    earned_badge: 
+      message1: Вы заслужылі ўзнагароду %{badge} у %{app}
+      message2: "Апісаньне ўзнагароды:"
+      message3: Вы можаце паглядзець усе Вашыя ўзнагароды на Вашай %{user_page}
+    favorited: 
+      message1: "%{user} дадаў Ваш адказ у %{group} ва ўлюблёныя"
+      message2: "Пытаньне было:"
+      message3: "Вы можаце паглядзець гэта тут:"
+    follow: 
+      message1: "%{user} цяпер сочыць за Вашымі пытаньнямі і адказамі на %{app}"
+      message2: Вы можаце пачаць сачыць за ім зноў, націснуўшы кнопку «Сачыць» на яго %{user_page}
+    give_advice: 
+      message1: "%{user} задаў пытаньне, на якое Вы змаглі бы адказаць:"
+      message2: "Каб адказаць, проста напішыце тут адказ на гэтае паведамленьне:"
+      message3: "Ці, калі Вы ведаеце каго-небудзь, хто зможа адказаць, дашліце яму гэтую спасылку:"
+      message4: Калі мы не атрымаем ад Вас адказ у бліжэйшы час, мы спытаем каго-небудзь іншага. Вы ўсё яшчэ зможаце адказаць, калі пажадаеце.
+    global: 
+      hi: Вітаем, %{user},
+      hi_no_user: Вітаем,
+      user_page: старонка карыстальніка
+    new_answer: 
+      message: "%{user} адказаў %{new_answer} на пытаньне %{question}"
+    new_comment: 
+      message: "%{user} пакінуў камэнтар %{new_comment} да пытаньня %{link}"
+    new_feedback: 
+      message1: Карыстальнік %{user} <%{email}> даслаў водгук
+      message2: Ананімны карыстальнік даслаў водгук з IP-адрасу %{ip}
+      message3: "Адрас электроннай пошты: %{email}"
+      message4: "Тэма: %{subject}"
+    new_invitation: 
+      message1: Націсьніце тут, каб прыняць запрашэньне %{link}
+      message2: Каманда %{group}.
+      message3: "Паведамленьне ад запрасіўшага:"
+      subject: "%{user} запрашае Вас у %{group}"
+    report: 
+      message1: Справаздача для групы %{group}
+      message2: З %{date}
+      message3: "Створана пытаньняў: %{questions}"
+      message4: "Створана адказаў: %{answers}"
+      message5: Галасоў аддана %{votes}
+      message6: "Колькасьць атрыманых узнагародаў:  %{badges}"
+      message7: Рахунак мае %{users} карыстальнікаў.
+      message8: Наведайце Вашую групу на %{link}

@@ -1,0 +1,73 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Eleferen
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  layouts: 
+    application: 
+      all: Все
+      ask_question: Задать вопрос
+      badges: Беджи
+      by_me: Моё
+      collaborate: Совместное
+      contributed: Мой вклад
+      faq: ЧаВО
+      follow_us_and_share: Следуйте за нами и делитесь информацией
+      followed: Подписки
+      forgot: Забыли?
+      home: В начало
+      join_group: Присоединиться к %{group}
+      languages: Языки
+      log_in: Войти
+      logged: Вы вошли как %{login}
+      logout: Выход
+      manage_ads: Управление рекламой
+      moderate: Модерация
+      now: сейчас!
+      openid: 
+        explaination: "Если вы хотите зарегистрироваться или просто войти в систему, пожалуйста, выберите своего openid-провайдера:"
+      pages: Страницы
+      preferred: Предпочтeния
+      questions: Вопросы
+      questions_in: Вопросы в
+      questions_tagged: с тегом
+      random_question: Случайный вопрос
+      search: Найти
+      settings: Настройки
+      signup: Регистрация
+      subscribe: Подписка
+      tags: Теги
+      title: Вопросы и ответы
+      unanswered: Без ответов
+      users: Пользователи
+      welcome_from: Добро пожаловать! Вы можете
+    manage: 
+      access: Доступ
+      actions: Действия
+      announcements: Объявления
+      appearance: Внешний вид
+      constrains: Ограничения
+      content: Содержимое
+      dashboard: Панель инструментов
+      domain: Домен
+      edit_layout: Изменить макет
+      general: Общие
+      group_features: Возможности
+      group_look_and_feel: Внешний вид
+      group_user_management: Управление пользователями
+      invitations: Приглашения
+      invoices: Счета
+      members: Участники
+      pages: Страницы
+      properties: Свойства
+      reputation: Репутация
+      rewards: Награды
+      social: Социальное
+      stats: Статистика
+      theme: Оформление
+      themes: Темы
+      widgets: Виджеты
+    notifications: 
+      message: Если вы не хотите больше получать автоматические уведомления от %{group}, измените настройки в окне уведомлений.

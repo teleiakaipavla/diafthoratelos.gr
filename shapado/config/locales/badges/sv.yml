@@ -1,0 +1,142 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lokal Profil
+# Author: The real emj
+# Author: Tobulos1
+# Author: WikiPhoenix
+sv: 
+  activerecord: 
+    models: 
+      badge: Emblem
+      badges: Emblem
+  badges: 
+    index: 
+      description: Alla emblem som du kan tjäna. Dela din kunskap och tjäna emblem.
+      title: emblem
+    shared: 
+      addict: 
+        description: Besökte webbplatsen varje dag i 20 dagar i följd
+        name: Beroende
+      autobiographer: 
+        description: Avslutade alla fälten på användarprofilen
+        name: Autobiographer
+      celebrity: 
+        description: Fick mer än 100 anhängare
+        name: Kändis
+      civic_duty: 
+        description: Röstade 300 gånger
+      commentator: 
+        description: Lämnat 10 kommentarer
+        name: Kommentator
+      critic: 
+        description: Röstade negativt för första gången
+        name: Kritiker
+      disciplined: 
+        name: Disciplinerad
+      editor: 
+        description: Redigerade ett inlägg för första gången
+        name: Redaktör
+      effort_medal: 
+        description: Fick 100 positiva röster
+      enlightened: 
+        name: Upplyst
+      famous_question: 
+        description: Ställde en fråga med 10.000 visningar
+        name: Berömd fråga
+      fanatic: 
+        description: Besökte webbplatsen varje dag i 100 dagar i följd
+        name: Fanatiker
+      favorite_answer: 
+        description: Har ett svar som märkts som favorit av 25 användare
+        name: Favoritsvar
+      favorite_question: 
+        description: Ställt en fråga som följs av 25 användare
+        name: Favort fråga
+      friendly: 
+        description: Började följa någon för första gången
+        name: Vänlig
+      good_answer: 
+        description: Gav ett svar som nådde ett genomsnitt på mer än 25 röster
+        name: Bra svar
+      good_question: 
+        description: Ställde en fråga som nådde ett genomsnitt på mer än 25 röster
+        name: Bra fråga
+      great_answer: 
+        description: Har ett svar som röstats upp 100 gånger
+        name: Fantastiskt svar
+      great_question: 
+        description: Ställde en fråga som röstats upp 100 gånger
+        name: Fantastisk fråga
+      guru: 
+        description: Gav en lösning på en fråga med ett genomsnitt av mer än 40 röster
+        name: Guru
+      inquirer: 
+        description: Ställde en fråga för första gången
+        name: Undersökare
+      interesting_person: 
+        description: Fick mer än 10 anhängare
+        name: Intressant person
+      merit_medal: 
+        description: Fick 200 positiva röster
+      necromancer: 
+        description: Besvarade en fråga efter 60 dagar med minst 5 röster
+        name: Schaman (nekromatiker)
+      nice_answer: 
+        description: Har ett svar som röstats upp 10 gånger
+        name: Bra svar
+      nice_question: 
+        description: Ställde en fråga som röstats upp 10 gånger
+        name: Bra fråga
+      notable_question: 
+        description: Ställde en fråga med 2.500 visningar
+        name: Anmärkningsvärd fråga
+      organizer: 
+        name: Organisatör
+      peer_pressure: 
+        description: Raderade egna inlägg med ett poäng på -3 eller lägre
+        name: Grupptryck
+      pioneer: 
+        description: Var en av de första registrerade användarna
+        name: Pionjär
+      popstar: 
+        description: Har 500 positiva röster, maximalt 10 negativa röster
+        name: Popstjärna
+      popular_person: 
+        description: Fick mer än 50 anhängare
+        name: Populär person
+      popular_question: 
+        description: Ställde en fråga med 1.000 visningar
+        name: Populära frågor
+      rockstar: 
+        description: Har 1.000 positiva röster, maximalt 10 negativa röster
+        name: Rockstjärna
+      service_medal: 
+        description: Har 300 positiva röster
+      shapado: 
+        description: Besökt webbplatsen varje dag i 8 dagar i följd
+      stellar_answer: 
+        description: Har ett svar som märkts som favorit av 100 användare
+        name: Utmärkt svar
+      stellar_question: 
+        description: Ställde en fråga som följs av 100 användare
+        name: Utmärkt fråga
+      student: 
+        description: Ställt en fråga som fått åtminstone en upp röst.
+        name: Student
+      supporter: 
+        description: Röstade positivt för första gången
+        name: Supporter
+      troubleshooter: 
+        description: Svarade för första gången
+        name: Felsökaren
+      tutor: 
+        description: Gav en lösning på en fråga med ett genomsnitt av mer än 2 röster
+        name: Väglädare
+    show: 
+      description: "Användare som har tjänat detta emblem. Nyligen tilldelad till:"
+      earned: tjänade
+      for_tag_bronze: 200 röster i taggen %{tag}
+      for_tag_gold: 1000 röster i taggen %{tag}
+      for_tag_silver: 400 röster i taggen %{tag}
+      title: Emblem %{type}

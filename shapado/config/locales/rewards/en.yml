@@ -1,0 +1,8 @@
+en:
+  rewards:
+    start:
+      active_notice: "This question already has an active reward."
+      wait_notice: "You need to wait for 2 days before offering a reward on this question."
+      reputation_notice: "You do not have enough reputation to create a reward on this question."
+    close:
+      error: "You need to wait %{time} before awarding this reward."

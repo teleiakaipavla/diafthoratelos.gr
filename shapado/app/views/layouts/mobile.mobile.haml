@@ -1,0 +1,21 @@
+!!! Mobile
+
+%html{"xml:lang" => I18n.locale, :lang => I18n.locale, :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title
+      &= page_title
+    %script{ src: "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" }
+    %script{:src=>"//code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js", :type => "text/javascript"}
+
+    - jq = "#{javascript_include_tag("jquery.js")}".gsub('</script>', '<\/script>')
+    - jqmobile = "#{javascript_include_tag("jquery_mobile.js")}".gsub('</script>', '<\/script>')
+    :javascript
+      window.jQuery || document.write("#{jq}")
+      window.jQuery.mobile || document.write("#{jqmobile}")
+
+    = stylesheet_link_tag('mobile')
+    = javascript_include_tag('mobile')
+
+    = csrf_meta_tag
+  %body
+    =yield

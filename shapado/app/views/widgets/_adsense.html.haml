@@ -1,0 +1,5 @@
+- unless @no_ads
+  .module.widget.clearfix.block{:class => 'widget-adsense'}
+    = render "widgets/header", :widget => widget
+    %aside
+      = widget.ad

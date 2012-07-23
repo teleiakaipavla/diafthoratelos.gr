@@ -1,0 +1,78 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  shared: 
+    any_lang: Mana-mana bahasa
+    by_anon: Oleh tanpa nama
+    current_tags: 
+      title: Tag yang dipilih
+    description: Keterangan
+    empty: 
+      activities: 
+        description: 
+          text: Tempat ini akan menjadi rancak dalam sekelip mata sebaik sahaja orang ramai mulai menggunakan tapak web ini.
+        title: Tiada aktiviti setakat ini.
+      answers: 
+        description: 
+          text: Jadilah yang pertama!
+        title: Tiada siapa yang menjawab soalan ini lagi.
+      default: 
+        description: 
+          text: Jadilah yang pertama untuk %{action_link}!
+        title: Maaf! Tidak banyak perkara untuk dilihat di sini.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Klik di sini untuk membaca soalan-soalan dalam semua bahasa.
+          text: <a href='%{url}' class='lang-option', data-language='any' > %{action_link}</a>
+        title: Maaf, tiada soalan yang ada dalam bahasa ini.
+      filtered_questions: 
+        description: 
+          action_link: Klik di sini untuk memaparkan semua soalan
+          text: <a href='%{url}'>%{action_link}</a>
+        title: Maaf, tiada soalan yang ada dalam tapisan ini.
+      questions: 
+        description: 
+          action_link: tanyakan soalan
+          text: Jadilah yang pertama untuk <a href="%{url}"> %{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: sekarang
+          text: buat satu %{action_link}
+        title: Anda belum mencipta apa-apa tema buat sekarang.
+    filter: "Penapis:"
+    language: "Bahasa:"
+    language_filter_tooltip: Cuba versi bahasa lain.
+    languages: "Bahasa:"
+    layout: 
+      footer: 
+        cc_footer: Segala kandungan dan data Shapado.com disediakan di bawah lesen %{cc_link}
+        powered_by: Dikuasakan oleh %{source_link} %{version} di bawah %{agpl_link}
+    login_drop_down: 
+      sign_up_user_pass: Daftar diri dengan e-mel/kata laluan
+      with_email_pass: Daftar masuk dengan e-mel anda
+      with_facebook: dengan Facebook
+      with_google: dengan Google
+      with_identica: dengan Identi.ca
+      with_linked_in: dengan LinkedIn
+      with_openid: OpenID
+      with_twitter: dengan Twitter
+    manage_navigation: 
+      title_content: Kandungan kumpulan
+      title_features: Ciri-ciri kumpulan
+      title_options: Pilihan kumpulan
+    name: Nama
+    preferred_lang: Bahasa keutamaan saya
+    quick_question: 
+      random_question: Jawab soalan rawak
+    social_connect: 
+      find_friends_facebook: Cari rakan di Facebook
+      find_friends_identica: Cari rakan di Identi.ca
+      find_friends_linked_in: Cari rakan di LinkedIn
+      find_friends_twitter: Cari rakan di Twitter
+    topbar: 
+      admin: Pentadbir
+      logged_as: Log masuk sebagai %{login}
+      user_page: Laman saya
+    view_mode: "Ragam paparan:"

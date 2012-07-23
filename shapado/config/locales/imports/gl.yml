@@ -1,0 +1,10 @@
+# Messages for Galician (galego)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Toliño
+gl: 
+  imports: 
+    subtabs: 
+      need_confirmation: 
+        name: Cómpre confirmación
+        title: enviar correos de confirmación

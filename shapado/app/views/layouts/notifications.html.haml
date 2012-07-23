@@ -1,0 +1,11 @@
+!!! Strict
+%html{ "xml:lang" => @language, :lang => @language, :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+  %body
+    =yield
+    - unless @invite
+      %br
+      %p{:style=>"border-top: 1px solid #999"}
+        = I18n.t("layouts.notifications.message", :group => @group.name, :locale => @language)
+        = url_for(:host => @group.domain, :controller => "users", :action => "edit", :id => @user, :anchor => "notifications")

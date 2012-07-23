@@ -1,0 +1,19 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  activerecord: 
+    models: 
+      activities: Mga gawain
+      activity: Gawain
+  activity: 
+    asked: naitanong na
+    changed: nabago na
+    created: nalikha na
+    deleted: nabura na
+    destroyed: nabura na
+    flagged: iwinatawat
+    requested_to_close: hiniling na isara na
+    requested_to_open: hiniling na buksan
+    updated: naisapanahon na

@@ -1,0 +1,14 @@
+# Messages for Finnish (suomi)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Centerlink
+# Author: Nike
+# Author: Raspi
+fi: 
+  rewards: 
+    close: 
+      error: Sinun on odotettava %{time} ennen tämän palkinnon myöntämistä.
+    start: 
+      active_notice: Tällä kysymyksellä on jo aktiivinen palkkio.
+      reputation_notice: Sinulla ei ole kylliksi mainetta palkinnon luomiseksi tälle kysymykselle.
+      wait_notice: Sinun on odotettava 2 päivää ennen kuin voit tarjoat palkintoa tälle kysymykselle.

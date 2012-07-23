@@ -1,0 +1,22 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  activerecord: 
+    attributes: 
+      member: 
+        role: улога
+  members: 
+    create: 
+      error: Нажалост, корисникот **%{user_id}** не постои
+      notice: Корисникот %{login} е успешно додаден како %{role}.
+    form: 
+      destroy_confirm: Дали сте сигурни? Овој корисник повеќе нема да членува во групата.
+      login_tip: пребарувај пишувајќи
+    index: 
+      manage_members_title: раководење со членови
+      title: членови на групата на %{name}
+      title_isolate: членови на %{name}
+    update: 
+      error: Нажалост, не можете да го измените членството на **%{login}**

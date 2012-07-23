@@ -1,0 +1,19 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  searches: 
+    form: 
+      clear: исчисти
+      search_box_title: Проверете дали прашањето е веќе поставено
+      tags_tip: користете [ознака] за укажување на ознаки.
+    index: 
+      advanced_search: напредно пребарување
+      description: Користете ги нагодувањата на %{link} за да добивате поистенчени резултати.
+      empty: бараното не одговара на ниедно постоечко прашање.
+      found_results: Пронајдени се %{quantity} резултати.
+      input_legend: Ова зачувано пребарување ќе стои на навигациската лента за брз пристап.
+      input_title: "Зачувај го пребарувањево како:"
+      search_text: прашања што содржат
+      tags: во рамките на овие ознаки

@@ -1,0 +1,18 @@
+# Messages for Hungarian (magyar)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Dj
+hu: 
+  activerecord: 
+    models: 
+      activities: Tevékenységek
+      activity: Tevékenység
+  activity: 
+    asked: kérve
+    changed: megváltoztatva
+    created: létrehozva
+    deleted: törölve
+    flagged: megjelölve
+    requested_to_close: lezárés kérése
+    requested_to_open: megnyitás kérése
+    updated: frissítve

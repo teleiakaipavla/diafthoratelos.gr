@@ -1,0 +1,103 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gomoko
+# Author: Hashar
+# Author: McDutchie
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+# Author: Sherbrooke
+# Author: Verdy p
+# Author: Zcqsc06
+fr: 
+  feeds: 
+    feed: Flux
+    post_new_questions: Poster les nouvelles questions à
+    question: Souscrire à cette question
+    questions: Souscrire à toutes les questions
+    share_on_twitter: Twitter, Facebook et plus...
+    tag: Souscrite au tag
+    user: Inscrivez-vous aux questions de l'utilisateur
+  global: 
+    actions: Actions
+    active: Activer
+    alphabetically: Par ordre alphabétique
+    anonymous: Anonyme
+    blog: Blog
+    by: par
+    by_semi: "Par :"
+    chat: Tchat
+    current: Actuel
+    edited: Modifié
+    edited_by: Modifié par
+    edited_by_semi: "Modifié par :"
+    feedback: Avis
+    follow: Suivre
+    followed_by: "Suivie par :"
+    following: Suivi
+    from: depuis %{site}
+    group_not_found: La page %{url} n'existe pas
+    home: Accueil
+    next_button: Suivant
+    open: Ouvrir
+    or: ou
+    permission_denied: Permission refusée
+    please_login: Ouvrez une session s'il vous plait
+    preview: Prévisualisation
+    previous: Précédent
+    privacy: Confidentialité
+    share: Partager
+    sign_up: S'inscrire
+    size: Taille
+    sort_by: "Trier par :"
+    tags_label: "Balises :"
+    tos: CGU
+    unfollow: Ne plus suivre
+    unknown_place: Inconnu
+    view: Voir
+    view_question: Voir la question
+    what_to_do: Que voulez-vous faire ?
+  models: 
+    question: La question
+  number: 
+    x_time: 
+      one: "%{count} fois"
+      other: "%{count} fois"
+      zero: Jamais
+  preferred_languages: 
+    any: Toute
+    user: Les langues que je connais
+  roles: 
+    moderator: Modérateur
+    owner: Propriétaire
+    user: Utilisateur normal
+  scaffold: 
+    add: Ajouter
+    are_you_sure: Êtes-vous sûr ?
+    back: Arrière
+    cancel: Annuler
+    close: Fermer
+    create: Créer
+    destroy: Supprimer
+    details: Détails
+    edit: Modifier
+    more: Plus...
+    new: Ajouter %{model}
+    post_as_anonymous: Publier de manière anonyme
+    save: Sauvegarder
+    send: Envoyer
+    show: Afficher
+    sure: Êtes-vous sûr de vouloir supprimer ce %{model} ?
+    update: Actualiser
+  time: 
+    ago: il y a %{time}
+    today: aujourd'hui
+    yesterday: hier
+  views: 
+    pagination: 
+      first: Première
+      last: Dernière
+      next: Suivant &raquo;
+      previous: "&laquo; Précédent"
+      truncate: ...

@@ -1,0 +1,19 @@
+= form_for [:moderate, question], :url => close_moderate_question_url(question), :html => {:class => "form", :method => :put} do |form|
+  = render "close_requests/list", :question => question
+
+  = fields_for(@close_request ||= CloseRequest.new) do |fields|
+    .field
+      = fields.label :reason, t(:reason, :scope=>"activerecord.attributes.flag"), :class => "label"
+      -CloseRequest::REASONS.each do |reason|
+        .column.radio
+          = fields.radio_button :reason, reason, :class => "radio_button"
+          = t(reason, :scope=>"close_requests.form")
+      .clear
+    .field
+      = fields.label :comment, t(:comment, :scope=>"models"), :class => "label"
+      = fields.text_field :comment, :class => "text_field"
+
+  .buttons
+    = submit_tag t("scaffold.close"), :class => "save"
+    = t("global.or")
+    = link_to t('scaffold.cancel'), question_path(question), :class => "button cancel"

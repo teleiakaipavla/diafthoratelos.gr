@@ -1,0 +1,78 @@
+# Messages for Danish (dansk)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Emilkris33
+# Author: Tjernobyl
+da: 
+  feeds: 
+    feed: Feed
+    post_new_questions: Send nye spørgsmål til
+    question: Abonner på dette spørgsmål
+    questions: Abonner på alle spørgsmål
+    share_on_twitter: twitter, facebook and mere...
+    tag: Abonner på kategori
+    user: Abonner på spørgsmål fra denne bruger
+  global: 
+    actions: Handlinger
+    active: Aktiver
+    alphabetically: Alfabetisk
+    anonymous: Anonym
+    by: af
+    by_semi: "Af:"
+    current: Nuværende
+    edited: Redigeret
+    edited_by_semi: "Redigeret af:"
+    feedback: Tilbagemelding
+    following: Følger
+    from: fra %{site}
+    group_not_found: Side %{url}'en eksisterer ikke
+    next_button: Næste
+    open: Åben
+    or: eller
+    permission_denied: Tilladelse nægtet
+    please_login: Du bedes logge ind
+    preview: Forhåndsvisning
+    previous: Forrige
+    share: Del
+    size: Størrelse
+    sort_by: "Sorter efter:"
+    unfollow: Stop med at følge
+    unknown_place: Ukendt
+    view: Vis
+    view_question: Vis spørgsmål
+    what_to_do: Hvad vil du gøre?
+  models: 
+    question: Spørgsmålet
+  preferred_languages: 
+    user: Mine foretrukne sprog
+  roles: 
+    moderator: Moderator
+    owner: Ejer
+  scaffold: 
+    add: Tilføj
+    are_you_sure: Er du sikker?
+    back: Tilbage
+    cancel: Annuller
+    close: Luk
+    create: Opret
+    destroy: Slet
+    details: Detaljer
+    edit: Redigér
+    more: Mere ...
+    new: Tilføj ny %{model}
+    post_as_anonymous: Send som Anonym
+    save: Gem
+    send: Send
+    show: Vis
+    sure: Er du sikker på du vil slette denne %{model}?
+    update: Opdater
+  time: 
+    ago: "%{time} siden"
+    today: i dag
+    yesterday: I går
+  views: 
+    pagination: 
+      first: Første
+      last: Sidste
+      next: Næste &raquo;
+      previous: "&laquo; Forrige"

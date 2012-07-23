@@ -1,0 +1,8 @@
+.clearfix{:class => style}
+  -tags.each do |tag|
+    -if !tag["name"].blank? && !current_tags.include?(tag["name"])
+      -size = min_size + (tag["count"] - lowest_value["count"]) * ratio
+      -url = tag_url(:id => (current_tags + [tag["name"]]).join("+"))
+      %span
+        =link_to tag.name, url, :class => "#{tag_class} #{css[size.round]}", :rel => "tag",:title => t("questions.tags.tooltip", :tag => tag.name)
+

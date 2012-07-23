@@ -1,0 +1,22 @@
+= form_for(@tag, :html => {:class => "form", :multipart => true}) do |form|
+  = error_messages_for(:tag)
+  .field
+    = form.label :name
+    = form.text_field :name, :class => "textfield"
+
+  .field
+    = form.label :icon
+    = form.file_field :icon
+
+  .field
+    = form.label :description
+    = form.text_area :description, :class => "textarea"
+
+  -if !(@tag.new_record? || @tag.errors[:name].blank?)
+    == The tag '#{@name_changes.last}' already exists
+    .field
+      = check_box_tag "merge"
+      == "MERGE"
+
+  .buttons
+    =form.submit nil, :class => "save"

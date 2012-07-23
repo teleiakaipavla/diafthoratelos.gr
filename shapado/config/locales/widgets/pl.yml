@@ -1,0 +1,76 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  widgets: 
+    adsense: 
+      description: Ten widget pozwala wyświetlać reklamy Google AdSense.
+      title: AdSense
+    ask_question: 
+      ask: Zapytaj
+      footer: Zobacz wszystkie pytania z grupy %{group}
+      title: "Zadaj pytanie:"
+    badges: 
+      see_all: Zobacz wszystkie odznaki
+      title: Ostatnie odznaki
+    create: 
+      notice: Widget został pomyślnie utworzony.
+    current_tags: 
+      description: Ten widget wyświetla tagi śledzone przez bieżącego użytkownika.
+    group_networks: 
+      title: Śledź nas
+    groups: 
+      description: Ten widget wyświetla ostatnie grupy.
+      title: Ostatnie grupy
+    index: 
+      external_widgets: Zewnętrzny
+      mainlist_widgets: Główna lista
+      question_widgets: Pytanie
+      question_widgets_title: Widgety, które pojawią się na każdej stronie pytań
+      welcome_widgets: Witamy
+    pages: 
+      description: Ten widget wyświetla listę stron wiki.
+      new: Dodaj nową stronę
+      title: Strony wiki
+    question_badges: 
+      title: Odznaki pytań
+    question_tags: 
+      title: Etykiety pytań
+    related_questions: 
+      description: Ten widget wyświetla listę pytań związanych z obecnym pytaniem.
+      title: Podobne pytania
+    settings: 
+      custom_html: "Własny kod html:"
+      on_questions: Pokaż na stronie z główną listą pytań
+      on_show_question: Wyświetl podczas pokazywania pytania
+      on_welcome: Pokaż na stronie powitalnej
+      preview: "Podglądu Widgetu:"
+    share: 
+      title: Udostępnij w
+    sharing_buttons: 
+      description: Ten widget wyświetla przyciski do udostępniania w serwisach społecznościowych.
+      title: Podziel się tym na
+    suggestions: 
+      followed_by: Śledzone przez %{user}
+      title: Śledzeni ludzie i etykiety
+    tag_cloud: 
+      description: Ten widget wyświetla chmurę tagów.
+      title: Chmura tagów
+    tag_list: 
+      description: Ten widget wyświetla tagi związane z bieżącą stroną.
+      title: Etykiety
+    top_groups: 
+      description: Ten widget wyświetla top 5 grup.
+      has_members: 
+        one: "%{count} członek"
+        other: "%{count} członków"
+      title: Top 5 grup
+    top_users: 
+      description: Ten widget wyświetla top 5 użytkowników.
+      title: Top 5 użytkowników
+    update: 
+      notice: Widget został pomyślnie zaktualizowany.
+    users: 
+      description: Ten widget wyświetla nowo zarejestrowanych użytkowników.
+      title: Ostatni użytkownicy

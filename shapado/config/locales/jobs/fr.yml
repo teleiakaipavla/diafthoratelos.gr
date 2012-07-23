@@ -1,0 +1,22 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Od1n
+# Author: Patcito
+fr: 
+  jobs: 
+    answers: 
+      on_create_answer: 
+        group_send_twitter: "%{user} a répondu à : %{question}"
+        send_twitter: "Ma réponse à: %{question}"
+      on_favorite_answer: 
+        group_send_twitter: "%{user} a aimé une réponse par %{author} sur: %{question}"
+        send_twitter: "J'ai aimé une réponse par %{author} sur : %{question}"
+    base: 
+      create_badge: 
+        group_send_twitter: "%{user} vient de gagner le badge %{token} sur %{group_name} %{link}"
+        send_twitter: Je viens de gagner le badge %{token} sur %{group_name} %{link}
+    comments: 
+      on_comment: 
+        group_on_comment: "%{user} a répondu à : %{question}"
+        send_twitter: Mon commentaire sur %{question}

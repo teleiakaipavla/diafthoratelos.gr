@@ -1,0 +1,23 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+# Author: Evropi
+el: 
+  sessions: 
+    create: 
+      flash_error: Δεν μπορέσαμε να σας συνδέσουμε ως '%{login}'
+      flash_notice: Συνδεθήκατε επιτυχώς
+    destroy: 
+      flash_notice: Έχετε αποσυνδεθεί.
+    new: 
+      log_in: Είσοδος
+      not_registered: Δεν έχετε εγγραφεί ακόμα;
+      registered: Ήδη εγγεγραμμένοι;
+      remember_me: Αποθήκευση
+      sign_in: Σύνδεση
+      signup: Εγγραφή
+      with_authentication: Συνδεθείτε με το δικό μας σύστημα πιστοποίησης
+      with_facebook: Συνδεθείτε με το Facebook
+      with_openid: Συνδεθείτε με OpenID
+      with_twitter: Συνδεθείτε με το twitter

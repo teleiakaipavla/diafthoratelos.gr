@@ -1,0 +1,19 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es: 
+  searches: 
+    form: 
+      clear: Limpiar
+      search_box_title: Comprueba si tu pregunta ya ha sido hecha
+      tags_tip: User [etiqueta] para especificar etiquetas.
+    index: 
+      advanced_search: Búsqueda avanzada
+      description: Utilice los opciones de %{link} para obtener los resultados de grano fino.
+      empty: Tu búsqueda no produjo ningún resultados.
+      found_results: "%{quantity} resultados se encontraron."
+      input_legend: Esta búsqueda guardada aparecerá en la barra de navegación para un acceso rápido.
+      input_title: "Guardar esta busqueda como:"
+      search_text: Preguntas conteniendo
+      tags: con estas etiquetas

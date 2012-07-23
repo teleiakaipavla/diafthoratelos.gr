@@ -1,0 +1,22 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  wiki: 
+    actions: 
+      all_history: Tillbaka till historiken
+      back_to_question: Tillbaka till frågan
+      revert: Återgå till denna version
+      show_diff: Jämför valda versioner
+    diff: 
+      title: Skillnader mellan %{prev} och %{curr}
+    history: 
+      current_version: Nuvarande version
+      previous_versions: Tidigare versioner
+      title: Historik (%{count})
+      version: Version
+      version_summary: Sammanfattning av version
+    model: 
+      attributes: 
+        message: Sammanfattning

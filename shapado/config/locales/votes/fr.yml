@@ -1,0 +1,40 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Gomoko
+# Author: McDutchie
+# Author: Od1n
+# Author: Patcito
+# Author: Peter17
+fr: 
+  activerecord: 
+    models: 
+      vote: Vote
+      votes: Votes
+  votes: 
+    comments: 
+      title: 
+        more_votes_user: Vous et %{votes} autres utilisateurs avez voté sur ce commentaire.
+        no_user_more_votes: Plus de %{votes} personnes ont voté sur ce commentaire, cliquez pour voter aussi.
+        no_user_no_vote: Cliquez pour voter sur ce commentaire.
+        no_user_one_vote: Un seul utilisateur a voté sur ce commentaire, cliquez pour voter aussi.
+        one_vote_two_users: Vous et un autre utilisateur avez voté sur ce commentaire.
+        one_vote_user: Vous seul avez voté sur ce commentaire.
+    control: 
+      have_voted_down: Cliquez pour annuler votre désapprobation
+      have_voted_up: Cliquez pour annuler votre approbation
+      to_vote_down: Cliquez si vous désapprouvez.
+      to_vote_up: Cliquez si vous approuvez
+    create: 
+      average: 
+        one: "%{count} vote"
+        other: "%{count} votes"
+      flash_error: Vous ne pouvez pas voter
+      flash_notice: Merci d'avoir voté !
+      unauthenticated: Les utilisateurs anonymes ne peuvent pas voter.
+    destroy: 
+      flash_notice: Votre vote a été annulé avec succès.
+    model: 
+      messages: 
+        closed_question: Vous ne pouvez pas voter sur les entées qui appartienent à une question fermée.
+        vote_down_comment: Les commentaires ne peuvent pas recevoir de votes négatifs

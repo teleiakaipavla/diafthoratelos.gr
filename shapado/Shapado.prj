@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "Shapado.dtd">
+<PRJ>
+  <Project_Information>
+    <Use_Relative_Dir>1</Use_Relative_Dir>
+    <Relative_to_Project_File>1</Relative_to_Project_File>
+    <Include_Sub_Dir>0</Include_Sub_Dir>
+    <Create_Tagfile>0</Create_Tagfile>
+    <Filter></Filter>
+    <CTags_Support>0</CTags_Support>
+    <Word_File></Word_File>
+    <Project_Directory>/home/fra/Documentos/Shapado/dgfranciscos-shapado</Project_Directory>
+    <Tag_File></Tag_File>
+  </Project_Information>
+  <Project_ID>
+    <Signature>UE Proj: v.1</Signature>
+  </Project_ID>
+</PRJ>

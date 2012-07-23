@@ -1,0 +1,19 @@
+#badges_show
+  .description
+    .name
+      = render :partial => "badges/badge", :object => @badge, :locals => {:hide_user => true}
+    %p
+      = @badge.description
+
+  .counter
+    %p
+      %b
+        =@badges.total_count
+      =t(".description")
+
+  .users
+    %ul
+      -@users.each do |user|
+        = render :partial => "user", :object => user, :locals => {:badge => @badge}
+
+  =paginate @badges

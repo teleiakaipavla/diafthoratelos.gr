@@ -1,0 +1,76 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Sp5uhe
+# Author: Woytecr
+pl: 
+  activerecord: 
+    attributes: 
+      user: 
+        activation_code: Kod aktywacyjny
+        age: Wiek
+        asked_by: zadane przez
+        avatar: Portret właściciela profilu
+        birthday: Urodziny
+        created_at: dołączył
+        current_password: "Aktualne hasło:"
+        email: Email
+        fullname: Imię i nazwisko
+        hide_country: Nie wyświetlaj mojego kraju
+        language: Język
+        last_logged_at: ostatnio widziany
+        login: Nazwa użytkownika
+        name: Imię i nazwisko
+        password: Hasło
+        password_confirmation: Potwierdzenie hasła
+        preferred_tags: Preferowane znaczniki
+        reputation: Reputacja
+        timezone: Strefa czasowa
+        website: Strona internetowa
+    models: 
+      user: Użytkownik
+      users: Użytkownicy
+  users: 
+    actions: 
+      edit_others_posts: Edytuj posty innych
+    anonymous_form: 
+      never_shown: nigdy nie pokazuj
+    change_password: 
+      submit: Zmień moje hasło
+      title: Zmień hasło
+    edit: 
+      submit: Zapisz
+      title: Ustawienia
+    form: 
+      information: Informacja
+      language: Język interfejsu strony
+      new_answer_notification: Otrzymuj powiadomienia o nowych odpowiedziach
+      notifications: Powiadomienia
+      send_answers_to_twitter: Wysyłaj moje odpowiedzi na moje konto Twitter
+      send_comments_to_twitter: Wysyłaj moje komentarze na moje konto Twitter
+      send_favorites_to_twitter: Wysyłaj moje ulubione odpowiedzi na moje konto Twitter
+      send_questions_to_twitter: Wysyłaj moje pytania na moje konto Twitter
+      show_more_lang: Pokaż więcej języków
+    index: 
+      empty: Ta grupa nie ma członków. Możesz dołączyć do tej grupy.
+      filter: Szukaj użytkowników
+      name: Nazwa
+      name_tooltip: Użytkownicy posortowani alfabetycznie
+      oldest: Najstarsze
+      reputation: Reputacja
+      title: Wszyscy użytkownicy
+    new: 
+      join_group: Dołącz do %{group}
+    show: 
+      edit_profile: Edytuj profil
+      follow: Śledź
+      followers: Śledzący
+      following: Śledzeni
+      title: Użytkownik %{user}
+      unfollow: Przestań śledzić
+      views: odsłon
+    top_user: 
+      connect: Połącz
+      profile: Profil
+    user_bar: 
+      create_account: Załóż konto

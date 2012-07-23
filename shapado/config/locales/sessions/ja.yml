@@ -1,0 +1,22 @@
+# Messages for Japanese (日本語)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Shirayuki
+ja: 
+  sessions: 
+    create: 
+      flash_error: ログインできません。ユーザ名'%{login}'
+      flash_notice: ログインしました
+    destroy: 
+      flash_notice: ログアウトしました。
+    new: 
+      log_in: ログイン
+      not_registered: 未登録の方はこちら
+      registered: 登録済みの方はこちら
+      remember_me: 私を記憶
+      sign_in: サインイン
+      signup: ユーザ登録
+      with_authentication: iPhone Worldの認証システムを利用する
+      with_facebook: Facebookを使用してログイン
+      with_openid: OpenIDでログイン
+      with_twitter: Twitterを使用してログイン

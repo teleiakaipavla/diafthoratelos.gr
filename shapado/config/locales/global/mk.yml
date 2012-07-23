@@ -1,0 +1,95 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  feeds: 
+    feed: Канал
+    post_new_questions: поставај нови прашања на
+    question: Претплати се на прашањево
+    questions: претплати се на сите прашања
+    share_on_twitter: Twitter, Facebook и повеќе...
+    tag: претплати се на ознаката
+    user: претплати се на кориснички прашања
+  global: 
+    actions: Дејства
+    active: Активирај
+    alphabetically: Азбучно
+    anonymous: Анонимно
+    blog: Блог
+    by: од
+    by_semi: "Од:"
+    chat: Разговор
+    current: тековно
+    edited: Уредено
+    edited_by: "Уредил:"
+    edited_by_semi: "Уредил:"
+    feedback: Мислења
+    follow: Следи
+    followed_by: "Следбеници:"
+    following: Следени
+    from: од %{site}
+    group_not_found: страницата %{url} не постои
+    home: Почетна
+    next_button: Следна
+    open: Отвори
+    or: или
+    permission_denied: дозволата е одбиена
+    please_login: најавете се
+    preview: преглед
+    previous: претходно
+    privacy: Приватност
+    share: сподели
+    sign_up: Регистрација
+    size: Големина
+    sort_by: "Подреди по:"
+    tags_label: "Ознаки:"
+    tos: Услови
+    unfollow: Престани со следење
+    unknown_place: Непознато
+    view: Преглед
+    view_question: Преглед на прашањето
+    what_to_do: Што сакате да правите?
+  models: 
+    question: Прашање
+  number: 
+    x_time: 
+      one: "%{count} пат"
+      other: "%{count} пати"
+      zero: Never
+  preferred_languages: 
+    any: било кој
+    user: Мои претпочитани јазици
+  roles: 
+    moderator: Модератор
+    owner: Сопственик
+    user: Обичен корисник
+  scaffold: 
+    add: Додај
+    are_you_sure: Дали сте сигурни?
+    back: Назад
+    cancel: Откажи
+    close: Затвори
+    create: Создај
+    destroy: Избриши
+    details: Подробно
+    edit: Уреди
+    more: Повеќе ...
+    new: Додај %{model}
+    post_as_anonymous: Објави анонимно
+    save: Зачувај
+    send: Испрати
+    show: Прикажи
+    sure: Дали сте сигурни дека сакате да го избришете овој %{model} ?
+    update: Поднови
+  time: 
+    ago: пред %{time}
+    today: денес
+    yesterday: вчера
+  views: 
+    pagination: 
+      first: Прва
+      last: Последна
+      next: Следна &raquo;
+      previous: "&laquo; Претходна"
+      truncate: ...

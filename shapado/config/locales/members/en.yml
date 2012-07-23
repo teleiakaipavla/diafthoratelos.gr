@@ -1,0 +1,18 @@
+en:
+  activerecord:
+    attributes:
+      member:
+        role: Role
+  members:
+    index:
+      title: "Members of %{name}'s group"
+      title_isolate: "Members of %{name}"
+      manage_members_title: Manage members
+    form:
+      login_tip: "Search as you type"
+      destroy_confirm: "Are you sure? This user will no longer be a member of this group."
+    create:
+      notice: "%{login} was successfully added as %{role}."
+      error: "Sorry, the user **%{user_id}** does not exists."
+    update:
+      error: "Sorry, you do not have enough permissions to change **%{login}'s** membership."

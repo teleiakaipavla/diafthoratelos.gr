@@ -1,0 +1,19 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  activerecord: 
+    models: 
+      activities: Activitates
+      activity: Activitate
+  activity: 
+    asked: poneva le question
+    changed: cambiava
+    created: creava
+    deleted: deleva
+    destroyed: delite
+    flagged: marcava
+    requested_to_close: requestava le clausura de
+    requested_to_open: requestava le apertura de
+    updated: actualisava

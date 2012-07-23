@@ -1,0 +1,182 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danke7
+# Author: Od1n
+# Author: Patcito
+# Author: Vivaelcelta
+es: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Respuestas
+        asked_by: Preguntado por
+        banned: Prohibidas
+        body: Contenido
+        closed: Cerrada
+        created_at: Preguntado
+        language: Idioma
+        tags: Etiquetas
+        title: Título
+        updated_at: actualizado
+        updated_by: actualizado por
+        views: Visitas
+        votes: Votos
+    models: 
+      question: Pregunta
+      questions: Preguntas
+  questions: 
+    answer: 
+      add_comment: Agregar comentario
+      favorite: Guardar
+      favorite_tooltip: Añadir esta respuesta a sus favoritos
+      flag: Reportar abuso
+      pick_answer: Escoger como solución
+      unfavorite: Dejar de guardar
+      unfavorite_tooltip: Eliminar esta respuesta de su lista de favoritos
+      unset_answer: ¿Quitar como solución?
+    answer_toolbar: 
+      flagged_by_you: Marcado por usted
+    close: 
+      failure: Esta pregunta tiene una recompensa activa y no se puede cerrar.
+    create: 
+      already_registered: Un usuario con el correo electrónico %{email} ya está registrado, por favor ingrese usando este correo electrónico.
+      flash_notice: La pregunta fue creada exitosamente.
+    disallow_spam: 
+      error: Tiene que esperar 20 segundos antes de enviar otra pregunta.
+    edit: 
+      title: Editar pregunta
+    flag: 
+      title: Reportar abuso en esta pregunta
+    form: 
+      add_attachment: Adjuntar un archivo
+      adult_content: Esta pregunta tiene contenido para adultos
+      body_tip: ¿Cuál es tu pregunta? por favor se descriptivo.
+      language_tip: Selecciona el idioma de tu pregunta.
+      related_questions_desc: Aquí se mostrarán preguntas similares.
+      remove_attachment: Eliminar
+      tags_tip: Usa etiquetas para añadir más información sobre tu pregunta.
+    history: 
+      back: ← Volver a la pregunta
+    index: 
+      active: Activas
+      active_tooltip: Preguntas que se han actualizado recientemente
+      ask_question: Pregunte
+      empty: Nadie ha preguntado aun. ¡Se el primero!
+      followers_tooltip: Preguntas con más seguidores
+      has_followers: 
+        one: "%{count} seguidor"
+        other: "%{count} seguidores"
+      help_to_answer: Ayudanos a responder
+      hot: Calientes
+      hot_tooltip: Preguntas con más actividad en los ultimos 5 dias
+      newest: Recientes
+      newest_tooltip: Preguntas más recientes
+      oldest: Antiguas
+      title: Todas las preguntas
+      unanswered_questions: Preguntas sin contestar
+      votes: Votos
+    model: 
+      messages: 
+        empty_tags: Disculpa, debes usar al menos una etiqueta.
+        tags_not_added: Las etiquetas '%{tags}' no se pueden agregar. Se necesita una reputación de %{reputation_required} para crear nuevas etiquetas
+        title_too_long: Lo sentimos, el título no puede contener más de 100 letras.
+        too_many_tags: Lo sentimos, sólo se puede ingresar un máximo de 20 etiquetas.
+        too_short: 
+          one: Lo sentimos, su título debe tener más de %{count} palabra
+          other: Lo sentimos, su título debe tener más de %{count} palabras.
+    move: 
+      group_label: "Mover la pregunta a el group con slug:"
+      submit: Mover!
+      title: "Mover la pregunta: %{title}"
+    move_to: 
+      group_dont_exists: El grupo %{group} no existe
+      success: Pregunta movida a %{group}
+    new: 
+      description: Por favor, sea descriptivo y asegúrese de agregar etiquetas relacionadas para que su pregunta se pueda encontrar fácilmente.
+      how_to_ask: Como preguntar
+      title: Pregunte
+    question: 
+      accepted_tooltip: Esta pregunta tiene una respuesta aceptada
+      answer_verb: Responder
+      has_answers: 
+        one: "%{count} respuesta"
+        other: "%{count} respuestas"
+      wiki_title: "Wiki: %{title}"
+    retag: 
+      title: Re-etiquetar
+    retag_form: 
+      cancel: Cancelar
+      submit: Actualizar las etiquetas!
+      title: Actualizar las etiquetas
+    retag_to: 
+      failure: Disculpa, las etiquetas no han podido ser actualizadas.
+      success: Las etiquetas han sido actualizados con exito.
+    revert: 
+      title: Revertir la pregunta
+    shared: 
+      flag: Reportar abuso
+    show: 
+      accepted_tooltip: Una de las respuestas fue aceptada como correcta
+      another_answers: Otras respuestas
+      answers: Respuestas
+      asked_on: preguntado en
+      ban: Prohibir
+      close: Cerrar
+      close_reason: "La pregunta ha sido cerrada por la siguiente razón:"
+      create_reward: Crear una recompensa
+      create_reward_description: Premiar la mejor respuesta con algo de su propio karma.
+      edit_request: Editar la solicitud
+      flag: Reportar abuso
+      flagged_as: Reportado como
+      flags: Reportado como
+      follow_tooltip: Siga esta pregunta
+      follow_up: Crear un seguimiento
+      follow_up_description: Crear una nueva pregunta basada en esta entrada.
+      follow_up_of: Esta pregunta es un seguimiento de
+      history: Historial
+      last_activity: Última actividad
+      more_actions: Más acciones
+      open: Abierto
+      related_questions: Preguntas relacionadas
+      request_closing: Pedir cierre
+      request_closing_details: Pide cerrar esta pregunta
+      request_opening: Solicitar re-abrid
+      request_opening_details: Solicitar re-abrir esta pregunta
+      requested_close_as: Has solicitado cerrar esta pregunta como
+      requested_reopening: Has solicitado re-abrir esta pregunta
+      retag: Re-etiquetar
+      retract_request: Retractar la solicitud
+      share: Compartir esta pregunta en
+      share_on: Compartir esta pregunta en %{site}
+      solution: Solución
+      to_answer_question: para responder esta pregunta
+      unauthenticated_retag: Se necesita una cuenta para re-etiquetar
+      unban: Ya no prohibir
+      unfollow_tooltip: Deje de seguir a esta pregunta
+      viewed: visto
+    solve: 
+      flash_notice: La pregunta ha sido resuelta
+    tags: 
+      filter: Buscar tags
+      title: Etiquetas
+      tooltip: Muestra las preguntas etiquetadas con %{tag}
+    toolbar: 
+      answer_by_mail: Responda por email
+      more_actions: Más acciones
+      requests: Solicitudes
+      your_close_request: Su solicitud de cierre
+    unanswered: 
+      empty: Este grupo no tiene preguntas no contestar.
+      expert: Expertos
+      my_tags: Mis etiquetas
+      tags: Etiquetas sin respuesta
+      title: Preguntas no contestadas
+    unsolve: 
+      flash_notice: La pregunta ahora no esta resuelta.
+    unwatch: 
+      success: Ya no recibirás notificaciones via email por cada respuesta a esta pregunta.
+    update: 
+      flash_notice: La pregunta fue actualizada exitosamente.
+    watch: 
+      success: Ahora usted recibirá notificaciones via email por cada respuesta a esta pregunta.

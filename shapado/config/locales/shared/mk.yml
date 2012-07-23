@@ -1,0 +1,78 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  shared: 
+    any_lang: Било кој јазик
+    by_anon: Анонимно
+    current_tags: 
+      title: одбрани ознаки
+    description: Опис
+    empty: 
+      activities: 
+        description: 
+          text: Ова место ќе се исполни автоматски кога посетителите ќе почнат да го користат мрежното место.
+        title: Досега нема активности.
+      answers: 
+        description: 
+          text: Бидете први!
+        title: Досега никој нема одговорено на прашањево.
+      default: 
+        description: 
+          text: Бидете првиот што ќе %{action_link}!
+        title: Нажалост, тука нема многу што да се види.
+      filtered_by_language_questions: 
+        description: 
+          action_link: Стиснете тука за да ги видите прашањата на сите јазици.
+          text: <a href='%{url}' class='lang-option', data-language='any' > %{action_link}</a>
+        title: Жалиме, но нема расположиви прашања на тој јазик.
+      filtered_questions: 
+        description: 
+          action_link: Стиснете тука за да се прикажат сите прашања
+          text: <a href='%{url}'>%{action_link}</a>
+        title: Жалиме, но нема расположиви прашања во овој филтер.
+      questions: 
+        description: 
+          action_link: постави прашање
+          text: Бидете први што ќе <a href="%{url}"> %{action_link}<a/>!
+      themes: 
+        description: 
+          action_link: сега
+          text: создајте %{action_link}
+        title: Засега немате создадено ниеден изглед.
+    filter: "Филтер:"
+    language: "Јазик:"
+    language_filter_tooltip: Обидете се со друг јазик.
+    languages: "Јазици:"
+    layout: 
+      footer: 
+        cc_footer: Сите содржини и податоци на Shapado.com се достапни под лиценцата %{cc_link}
+        powered_by: Овозможено од %{source_link} %{version} под %{agpl_link}
+    login_drop_down: 
+      sign_up_user_pass: Најавете се со е-пошта/лозинка
+      with_email_pass: Најава со е-пошта
+      with_facebook: со Facebook
+      with_google: со Google
+      with_identica: со Identi.ca
+      with_linked_in: со LinkedIn
+      with_openid: OpenID
+      with_twitter: со Twitter
+    manage_navigation: 
+      title_content: Содржина на групата
+      title_features: Карактеристики на групата
+      title_options: Нагодувања за групата
+    name: Име
+    preferred_lang: Мои претпочитани јазици
+    quick_question: 
+      random_question: Одговори случајно прашање
+    social_connect: 
+      find_friends_facebook: Пронајди пријатели од Facebook
+      find_friends_identica: Пронајди пријатели од Identi.ca
+      find_friends_linked_in: Пронајди пријатели од LinkedIn
+      find_friends_twitter: Пронајди пријатели од Twitter
+    topbar: 
+      admin: админ
+      logged_as: најавен како %{login}
+      user_page: мојата страница
+    view_mode: "Прегледен режим:"

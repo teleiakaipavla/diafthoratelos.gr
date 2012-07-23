@@ -1,0 +1,24 @@
+# Messages for Polish (polski)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Woytecr
+pl: 
+  welcome: 
+    confirm_age: 
+      over_18: Mam ukończone 18 lat
+      under_18: Mam poniżej 18 lat
+      warning: "UWAGA: Ta strona może zawierać materiały tylko dla dorosłych."
+    feedback: 
+      captcha_error: Proszę upewnić się, że przepisano poprawnie kod z obrazka oraz podano prawidłowy adres e-mail.
+      email_description: Proszę podać adres e-mail, abyśmy mogli odpowiedzieć na Twoją wiadomość
+      feedback_description: Opis
+      feedback_title: Tytuł
+      title: Wyślij swoją opinię
+    index: 
+      active: Aktywny
+      browse_all_or_by_tags: Zobacz %{full_list_of_questions} lub %{browse_by_tags}
+      browse_by_tags: Przeglądaj według etykiet
+      create_own_site: Stwórz własną witrynę pytań i odpowiedzi w ciągu 8 sekund za darmo
+      full_list_of_questions: pełna lista pytań
+      hot: Gorący
+      recent_questions: Ostatnie pytania

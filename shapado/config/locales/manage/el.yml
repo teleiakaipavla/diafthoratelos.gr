@@ -1,0 +1,45 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+# Author: Evropi
+el: 
+  admin: 
+    manage: 
+      content: 
+        footer: Υποσέλιδο
+        head: Κεφαλίδα
+        question_help: Βοήθεια ερώτησης
+        question_prompt: Προτροπή ερώτησης
+        title: Προσαρμοσμένο περιεχόμενο
+        top_bar: Άνω μπάρα
+        top_bar_tip: Εισάγετε ένα σύνδεσμο ανά γραμμή
+      properties: 
+        constrains: 
+          reputation_constrains_description: Αυτή η φόρμα σας δίνει τη δυνατότητα να καθορίσετε πόσους πόντους υπόληψης πρέπει να έχουν τα μέλη για να τους επιτρέπονται συγκεκριμένες ενέργειες
+          reputation_constrains_subtitle: Κατάλογος απαιτούμενων πόντων υπόληψης για κάθε ενέργεια
+          title: Περιορισμοί
+        domain: 
+          description: "You can map your site so it can be accessed through your own custom domain, this is how you do it:"
+          instruction1: To do so you first need to log on to your domain provider (the site where you bought your domain such as %{subdomain}.com).
+          instruction2: There you need to go to the DNS section and create something called a CNAME.
+          instruction3: Pick 'www' or anything else as the name of your CNAME.
+          instruction4: "Then in the host or destination field, put your current shapado domain: %{domain}."
+          instruction5: Once this is done, after an hour or so, your domain www.%{subdomain} should point to %{appdomain}.
+          instruction6: When this is the case, come back here and put your domain name www.%{subdomain} in the field below and press the button 'update'. If you have questions, ask us in the %{chat_url} or on our support forum
+          title: Ρυθμίστε το domain
+          warning: Είστε σίγουροι ότι θέλετε να αλλάξετε το domain σας;
+        general: 
+          title: Ιδιότητες ομάδας
+        rewards: 
+          reputation_rewards_description: Η φόρμα παρακάτω σας δίνει τη δυνατότητα να ρυθμίσετε πως τα μέλη κερδίζουν ή χάνουν πόντους υπόληψης για τις ενέργειές τους
+          reputation_rewards_subtitle: Κατάλογος ανταμοιβών υπόληψης
+          title: Ανταμοιβές
+        share: 
+          ends_with_example: "π.χ. #shapado"
+          question_must_include_example: "π.χ. #iAsk"
+          starts_with_example: "π.χ. #qa"
+          title: Διαμοιρασμός
+        theme: 
+          logo_legend: Φορτώστε ένα λογότυπο για την ομάδα σας, θα πρέπει να είναι μικρότερο από 2MB.
+          title: Ρυθμίστε το θέμα της ομάδας σας

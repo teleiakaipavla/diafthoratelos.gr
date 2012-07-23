@@ -1,0 +1,33 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+# Author: Peter17
+fr: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Raison
+    models: 
+      flag: Rapport
+      flags: Rapports
+  flags: 
+    create: 
+      flash_error: Vous ne pouvez rapporter ceci
+      flash_notice: Merci pour votre rapport
+    destroy: 
+      flash_notice: Votre signal a été révoqué avec succès.
+    edit: 
+      title: Modifier le signal du %{model}
+    form: 
+      attention: Nécesite l'attention des modérateurs
+      label: S'il vous plait, raporter avec attention
+      offensive: Injurieux, abusif ou discours de haine
+      spam: Spam
+    model: 
+      messages: 
+        already_requested: Vous avez déjà signalé ce %{model}
+    new: 
+      title: Signaler le %{model}
+    update: 
+      flash_notice: Le signal de la question a été mis à jour avec succès.

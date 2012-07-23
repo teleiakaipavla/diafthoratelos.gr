@@ -1,0 +1,6 @@
+.module.clearfix.widget.block{:class => 'widget-contributors'}
+  = render "widgets/header", :widget => widget
+  %aside
+    - @question.contributors.each do |user|
+      %a{ :href => user_path(user), :class => "pjax", :"data-layout" => "user"}
+        = avatar_img(user, :size => "small")

@@ -1,0 +1,39 @@
+# Messages for Italian (italiano)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Danmaz74
+# Author: Rippitippi
+# Author: Tuxwet
+it: 
+  doc: 
+    chat: 
+      title: Chat di supporto
+    plans: 
+      15millions: 15 milioni di pagine viste/mese
+      1million: 1 milione di pagine viste/mese
+      247_all_support: Supporto 24/7 basato su web, email, chat e telefono
+      5millions: 5 milioni di pagine viste/mese
+      all_support: Supporto basato su web, email, chat e telefono
+      basic_restrictions: Niente pubblicità personalizzate e niente UI completamente personalizzabile
+      beta_info: Per ora tutti i siti sono liberi, e tutti i siti beneficiano le stesse opzioni come il piano di Optimum, fatta eccezione per il sostegno che è solo basato sul web, email e chat.
+      big_sites: Siti con grande traffico
+      custom_ads: Usa i tuoi annunci pubblicitari
+      custom_analytics: Statistiche di traffico
+      custom_domain: Dominio personalizzato
+      custom_themes: Utilizza i nostri temi personalizzati già fatti
+      custom_ui: Interfaccia utente completamente personalizzabile
+      free_plan: Piano gratuito
+      getting_popular: Sempre più popolare
+      huge_sites: Siti con traffico enorme
+      month: mese
+      page_views: Per siti Piccoli/Privati
+      plans: Piani
+      private_site: Abilitare accesso pubblico/privato
+      small_private: Siti Piccoli/Privati
+      start_monetizing: iniziare a monetizzare
+      support: Supporto
+      title: Piani e prezzi
+      unlimited: Traffico illimitato ogni mese
+      we_offer: Offriamo inoltre un
+      web_support: Supporto basato sul Web
+      with_unlimited: con traffico illimitato, senza annunci personalizzati e nessun dominio personalizzato.

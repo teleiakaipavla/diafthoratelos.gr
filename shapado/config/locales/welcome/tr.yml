@@ -1,0 +1,20 @@
+# Messages for Turkish (Türkçe)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Emperyan
+tr: 
+  welcome: 
+    confirm_age: 
+      over_18: 18 yaş büyüğüm
+      under_18: 18 yaşından küçüğüm
+      warning: "UYARI: Bu sayfa açıkça yetişkinlere yönelik içerik içerebilir."
+    feedback: 
+      captcha_notice: Geribildiriminiz için teşekkür ederiz, mümkün olan en kısa sürede size geri döneceğiz.
+      feedback_description: Açıklama
+      feedback_title: Başlık
+      title: Geri bildirim gönderin
+    index: 
+      active: Etkin
+      browse_by_tags: etikete göre göz atın
+      full_list_of_questions: soruların tam listesi
+      recent_questions: Son sorular

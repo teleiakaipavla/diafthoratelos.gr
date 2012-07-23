@@ -1,0 +1,33 @@
+# Messages for German (Deutsch)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Kghbln
+de: 
+  invitations: 
+    accept: 
+      create_account: Erstelle ein Konto (Schritt 1 von 2)
+      create_account_step2: Konto erstellen
+      description: "%{group} ist eine sich stets verbessernde Sammlung von Fragen und Antworten zu allen diesbezüglichen Themen."
+      done: Fertig.
+      facebook_connect: Verbinde mit Deinem Facebook-Konto
+      final_step: Letzter Schritt (2 von 2)
+      find_friends: "Finde Freunde auf und vernetze Dich mit ihnen:"
+      follow_things: Beobachte Stichwörter und folge Menschen
+      follow_things_description: Mit ihnen im Zusammenhang stehende Fragen werden auf Deinem Feed angezeigt.
+      other_connect: oder verwende eines von ihnen.
+      other_social_options: Du kannst auch %{linkedin} und %{identica} nutzen.
+      point1: Frage Experten, die sich mit einem bestimmten Thema auskennen.
+      point2: Folge Themen und beantworte Fragen, die Dich interessieren.
+      point3: Bewerte und bearbeite Antworten und Wikiseiten, um sie so zu verbessern. Verdiene Dir Abzeichen.
+      point4: Antworte ohne Umstände aus Deinem E-Mail-Programm heraus.
+      twitter_connect: Verbinde mit Deinem Twitter-Konto
+      welcome: Willkommen
+    create: 
+      flash_notice: Deine Einladungen wurden erfolgreich versandt.
+      limit_notice: 
+        one: Du kannst leider nicht mehr als eine Einladung auf einmal versenden.
+        other: Du kannst leider nicht mehr als %{limit} Einladungen auf einmal versenden.
+    resend: 
+      flash_notice: Deine Einladung wurde erfolgreich erneut versandt.
+    revoke: 
+      flash_notice: Deine Einladung wurde erfolgreich zurückgenommen.

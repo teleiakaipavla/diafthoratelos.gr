@@ -1,0 +1,33 @@
+# Messages for French (français)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Crochet.david
+# Author: Od1n
+# Author: Patcito
+# Author: Y-M D
+fr: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Corps
+        created_at: "Créé le :"
+        link: Lien
+    models: 
+      answer: Réponse
+      answers: Réponses
+  answers: 
+    create: 
+      annon_notice: L'utilisateur est déjà enregistré, veuillez s'il vous plait vous connecter.
+      flash_error: "Une erreur s'est produite lors de l'ajout de votre question. \n  N'oubliez pas que : \n - Les réponses vides de contenu ou les doublons ne sont pas autorisés. \n - Vous devez attendre au moins 20 secondes avant de poster une autre réponse. \n - Vous ne pouvez poster qu'une réponse par question."
+      flash_notice: Merci !
+    edit: 
+      title: Modification de la réponse
+    form: 
+      answer_label: Répondre à la question
+      comment_label: Commenter sur cette réponse
+      comment_submit: Commenter
+      submit: Répondre
+    revert: 
+      title: Revenir à cette réponse
+    update: 
+      flash_notice: La réponse a été créée avec succès.

@@ -1,0 +1,125 @@
+# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr: 
+  admin: 
+    manage: 
+      access: 
+        title: Приступ
+      answers: 
+        banning: 
+          title: Забрани одговор
+      appearance: 
+        logo_legend: Отпремите логотип за групу (највише 2 MB).
+        title: Изаберите тему и прилагодите је
+      close_group: 
+        description: Ако затворите групу, она ће бити недоступна за свакога осим за вас.
+        feedback: "Наведите зашто затварате групу:"
+      content: 
+        description: Подесите текст и стил групе
+        footer: Подножје
+        head: заглавље
+        question_help: Помоћ за питања
+        question_prompt: Подсетник за питање
+        title: Прилагођени садржај
+        top_bar: Горња трака
+        top_bar_tip: Унесите једну везу по реду
+      invitations: 
+        invitations: Послате позивнице
+        invitations_title: Списак свих послатих позивница
+        invite: Позови људе
+        invite_title: Позовите људе преко е-поште
+        title: Позивнице
+      properties: 
+        ask_from_twitter: 
+          asking_from_twitter: Постављање питања с Твитера
+          question_asked_to: Питање је постављено на
+          question_must_include: Питање мора садржати следећу ознаку да би била објављена на Твитер.
+          question_must_include_example: "нпр. #iAsk"
+          twitter_account: Налог на Твитеру на који ће ваши корисници постављати питања.
+        constrains: 
+          reputation_constrains_description: Овај образац вам омогућава да подесите колико бодова за углед корисницима треба да би могли да изврше одређену радњу
+          reputation_constrains_subtitle: Списак захтева за углед за сваку радњу
+          title: Захтеви
+        domain: 
+          description: "Можете назначити други домен вашег мрежног места на Шападу да би му се могло приступити преко домена по вашем избору. То ћете урадити овако:"
+          instruction1: Прво се морате пријавити код добављача домена да бисте то урадили. На том месту сте купили свој домен, као %{subdomain}.com.
+          instruction2: Тамо треба да идете на одељак DNS и направите нешто што се зове CNAME.
+          instruction3: Изаберите „www“ или било шта друго као назив за ваш CNAME.
+          instruction4: "Потом у поље за домаћина или одредиште унесите текући домен на Шападу: %{domain}."
+          instruction5: Када завршите с овим, после око сат времена, ваш домен www.%{subdomain} требало би да води до %{appdomain}.
+          instruction6: Када дође до тога, вратите се овде и унесите назив домена www.%{subdomain} у поље испод и кликните на дугме „ажурирај“. Ако имате питања, поставите их на %{chat_url} или на нашем форуму за подршку.
+          title: Подесите свој домен
+          warning: Желите ли да промените свој домен?
+        facebook_app: 
+          application_id: Назнака програма
+          facebook_app: Поставке програма на Фејсбуку
+          legend: Можете подесити свој програм на Фејсбуку. Он ће се користити за пријављивање ваших корисника помоћу њихових налога на Фејсбуку. Имајте на уму да је ово потребно само ако користите прилагођени домен.
+          secret_key: Тајни кључ
+        general: 
+          title: Својства групе
+        invitations: 
+          resend_button: Пошаљи поново
+          revoke_button: Опозови
+        invite: 
+          body_instructions: Напишите поруку људима које желите да позовете (необавезно)
+          body_length_warning: Садржај може да има највише 400 знакова
+          emails_instructions: Унесите е-адресе одвојене запетом
+          invitations: Послате позивнице
+          invite: Позови људе
+          title: Позовите људе преко е-поште
+          user_role: Позови кориснике као
+        post_to_twitter: 
+          legend: Ова страница вам омогућава да одредите шта желите да шаљете на Твитер. Користи се налог <a href="http://twitter.com/%{twitter_account}">@%{twitter_account}</a>. Ако желите да користите други налог, кликните <a href="%{link}">овде</a>.
+          legend_connect: Ова страница вам омогућава да одредите шта желите да шаљете на Твитер. Прво морате навести налог. Кликните <a href="%{link}">овде</a> да то урадите.
+          post_to_twitter: Објави активности на Твитеру
+          send_answers_to_twitter: Пошаљи све одговоре на Твитер
+          send_badges_to_twitter: Пошаљи све новоосвојене значке на Твитер
+          send_comments_to_twitter: Пошаљи све коментаре на Твитер
+          send_favorites_to_twitter: Пошаљи све омиљене одговоре на Твитер
+          send_questions_to_twitter: Пошаљи сва питања на Твитер
+        rewards: 
+          reputation_rewards_description: Овај образац вам омогућава да подесите како корисници могу да освајају и губе бодове за углед за одређену радњу
+          reputation_rewards_subtitle: Списак награда за углед
+          title: Награде
+        share: 
+          title: Дели
+        tag_your_tweets: 
+          add_tags: Додајте ознаке на објављено на Твитеру
+          ends_with_example: "нпр. #shapado"
+          starts_with_example: "нпр. #qa"
+          title: Означите своје објаве на Твитеру
+          tweet_ends_with: Приложите ознаку на објављено на Твитеру
+          tweet_starts_with: Убаците ознаку на објављено на Твитеру
+        title: Својства групе
+        twitter_account: 
+          connect_to_other_twitter: Кликните овде да повежете групу с другим налозима на Твитеру
+          connect_to_twitter: Кликните овде да повежете групу с налогом на Твитеру
+          disconnect_twitter_group: Изузми групу с Твитера
+          legend: Овај налог ће се користити за постављање нових питања и одговора на Твитер.
+          legend_with_account: Ваш налог <a href="https://twitter.com/%{twitter_account}">@%{twitter_account}</a> ће се користити за постављање нових питања и одговора на Твитеру. Можете одредити шта желите да шаљете на Твитер <a href="%{link}">овде</a>.
+          twitter_account: Налог на Твитеру
+        twitter_app: 
+          key: Кључ програма
+          secret: Тајна програма
+          twitter_app: Програм на Твитеру
+      questions: 
+        banning: 
+          title: Забрани питање
+      social: 
+        ask_from_twitter: Постави питање преко Твитера
+        ask_from_twitter_title: Дозволите својим корисницима да постављају питања на Твитер
+        description: Повежите групу са својим друштвеним мрежама
+        facebook_app: Програм на Фејсбуку
+        facebook_app_title: Подесите програм на Фејсбуку тако да дозволи пријављивање корисника преко њега
+        post_to_twitter: Објави на Твитеру
+        post_to_twitter_title: Самопостављање свих питања и одговора на Твитер
+        tag_your_tweets: Означите своје објаве на Твитеру
+        tag_your_tweets_title: Додајте ознаке на објављено на Твитеру
+        title: Општење преко друштвених медија
+        twitter_account: Налог на Твитеру
+        twitter_account_title: Подесите налог на Твитеру тако да објављује поруке на њега
+      top_admin: 
+        site: Сајт
+        title: Администратор

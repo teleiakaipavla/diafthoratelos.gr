@@ -1,0 +1,17 @@
+en:
+  jobs:
+    base:
+      create_badge:
+        send_twitter: "I just won the badge %{token} on %{group_name} %{link}"
+        group_send_twitter: "%{user} just won the badge %{token} on %{group_name} %{link}"
+    answers:
+      on_favorite_answer:
+        send_twitter: "I liked an answer by %{author} on: %{question}"
+        group_send_twitter:  "%{user} liked an answer by %{author} on: %{question}"
+      on_create_answer:
+        send_twitter: "My answer on %{question}"
+        group_send_twitter: "%{user} answered to: %{question}"
+    comments:
+      on_comment:
+        send_twitter: "My comment on %{question}"
+        group_on_comment: "%{user} commented on: %{question}"

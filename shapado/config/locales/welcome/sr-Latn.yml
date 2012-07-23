@@ -1,0 +1,27 @@
+# Messages for Serbian (Latin script) (‪srpski (latinica)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Rancher
+sr-Latn: 
+  welcome: 
+    confirm_age: 
+      notice: Stranicu smete da gledate samo ako imate 18 godina ili više, odnosno ako ste punoletni prema propisima zemlje u kojoj boravite.
+      over_18: Imam iznad 18 godina
+      under_18: Imam ispod 18 godina
+      warning: "Upozorenje: ova stranica može sadržati materijal samo za odrasle."
+    feedback: 
+      captcha_error: Ispravno unesite potvrdni kod i navedite važeću e-adresu.
+      captcha_notice: Hvala vam na povratnoj informaciji. Odgovorićemo vam što je pre moguće.
+      email_description: Navedite svoju e-adresu da bismo mogli da vam odgovorimo na poruku
+      feedback_description: Opis
+      feedback_title: Naslov
+      title: Pošaljite povratnu informaciju
+    index: 
+      active: Aktivno
+      browse_all_or_by_tags: Pogledajte %{full_list_of_questions} ili %{browse_by_tags}
+      browse_by_tags: potražite po oznakama
+      create_own_site: Napravite sopstveno mrežno mesto za pitanja i odgovore za osam sekundi, i to besplatno
+      full_list_of_questions: ceo spisak pitanja
+      hot: Zanimljivo
+      quick_question: Postavite pitanje a mi ćemo naći nekoga ko će vam odgovoriti
+      recent_questions: Skorašnja pitanja

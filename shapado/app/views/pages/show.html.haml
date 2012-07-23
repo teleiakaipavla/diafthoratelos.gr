@@ -1,0 +1,23 @@
+= include_latex
+
+-content_for :head do
+  -if @page.has_css?
+    %link{:href => css_page_path(@page),  :rel => "stylesheet", :media => "screen", :type => "text/css"}
+
+  -if current_group.shapado_version.has_custom_js?
+    %script{:src => js_page_path(@page), :type => "text/javascript"}
+
+#pages_show
+  -if (logged_in? && current_user.can_edit_wiki_post_on?(current_group) )
+    .toolbar
+      %ul
+        %li.action
+          = pjax_link_to t("pages.actions.create_page"), "pages", new_page_path
+        %li.action
+          = pjax_link_to t("scaffold.edit"), "pages", edit_page_path(@page)
+  .markdown
+    -if safe_page?(@page)
+      -body = current_group.wysiwyg_editor ? CGI.unescapeHTML(@page.body) : @page.body
+      = markdown(body, :raw => true, :sanitize => false)
+    -else
+      = markdown(@page.body)

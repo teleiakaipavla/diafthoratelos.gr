@@ -1,0 +1,121 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: SPQRobin
+# Author: Siebrand
+nl: 
+  widgets: 
+    about: 
+      description: Dit widget geeft een korte beschrijving van uw groep weer.
+      title: Over
+    adsense: 
+      description: Met dit widget kunt u advertenties van Google AdSense weergeven.
+      title: AdSense
+    ask_question: 
+      ask: Vragen
+      description: Dit widget laat gebruikers overal een vraag stellen.
+      footer: Alle vragen op %{group} bekijken
+      title: "Een vraag stellen:"
+      view_question: <p>U kunt de<a href="%{question}">vraag bekijken</a> of hieronder nog een vraag stellen.</p>
+    badges: 
+      description: In deze widget worden speldjes weergeven die gebruikers recent hebben ontvangen.
+      see_all: Alle speldjes bekijken
+      title: Recente speldjes
+    contributors: 
+      description: Deze widget toont de lijst van mensen die hebben bijgedragen aan een vraag.
+      title: Medewerkers voor de vraag
+    create: 
+      notice: De widget is aangemaakt.
+    current_tags: 
+      description: Dit widget geeft labels weer die de huidige gebruiker volgt.
+    custom_html: 
+      description: Elke vorm van HTML die u hier wilt toevoegen.
+    edit: 
+      title: Widget bewerken
+    group_networks: 
+      description: Dit widget geeft een lijst weer met verwijzingen naar sociale netwerken zodat uw gebruiker u daar kunnen volgen.
+      title: Volg ons
+    groups: 
+      description: In deze widget worden de meest recent actieve groepen weergegeven
+      title: Recente groepen
+    index: 
+      add_new: Nieuw widget toevoegen
+      description: Gebruik de pijlen om uw widgets te verplaatsten
+      external_widgets: Extern
+      external_widgets_title: Widgets die u kunt gebruiken op uw eigen site
+      footer: Voettekst
+      header: Koptekst
+      mainlist_widgets: Hoofdlijst
+      mainlist_widgets_title: Widgets die in de hoofdlijst met vragen verschijnen
+      name: Widgetnaam
+      navbar: Navigatiebalk
+      question_widgets: Vraag
+      question_widgets_title: Widgets die op iedere vraagpagina verschijnen
+      sidebar: Menubalk
+      title: Menubalkwidgets beheren
+      type: "Type:"
+      welcome_widgets: Welkom
+      zone: "Sectie van de pagina:"
+    mod_info: 
+      description: Dit widget geeft gegevens weer die relevant zijn voor moderatoren, zoals markeringen en probleemrapporten.
+    pages: 
+      description: In deze widget wordt de lijst met wikipagina's weergegeven
+      new: Nieuwe pagina toevoegen
+      title: Wikipagina's
+    question_badges: 
+      description: Dit widget geef speldjes weer die zijn verdiend voor de bewuste vraag.
+      title: Vraagspeldjes
+    question_stats: 
+      description: Dit widget geeft statistieken weer over een vraag zoals de datum waarop die is gesteld en het aantal keren dat de vraag is bekeken.
+    question_tags: 
+      description: Dit widget geeft labels weer die gerelateerd zijn aan de huidige pagina.
+      title: Vraaglabels
+    related_questions: 
+      description: Dit widget geeft een lijst weer met vragen die gerelateerd zijn aan de huidige vraag.
+      title: Gerelateerde vragen
+    settings: 
+      code: "Kopieer deze code en plak die in uw website of blog, zoals een tekstwidget in Wordpress:"
+      custom_external_css: "CSS van de Shapadosite toepassen op uw widget (gebruik dit als u de Shapado-CSS niet toevoegt):"
+      custom_html: "Aangepaste HTML-code:"
+      exclude_css_on_external: CSS van de Shapadosite niet toepassen op uw widget
+      limit: "Aantal weer te geven:"
+      on_questions: Weergeven op de hoofdpagina voor vragen
+      on_show_question: Weergeven bij het bekijken van een vraag
+      on_welcome: Op de welkomstpagina weergeven
+      preview: "Voorbeeld van de widget:"
+    share: 
+      description: Dit widget geeft verschillende knoppen weer om de huidige pagina op sociale netwerken te delen.
+      title: Delen in
+    sharing_buttons: 
+      description: In deze widget worden knoppen weergegeven voor delen via sociale media.
+      title: Dit delen op
+    suggestions: 
+      description: Suggesties om vrienden en labels te volgen.
+      follow_tag: + Label volgen
+      follow_user: + Gebruiker volgen
+      followed_by: Gevolgd door %{user}
+      title: Mensen en labels om te volgen
+      unfollow_tag: "- Label niet langer volgen"
+      unfollow_user: "- Gebruiker niet langer volgen"
+    tag_cloud: 
+      description: In deze widget wordt de woordenwolk weergegeven
+      title: Woordwolk
+    tag_list: 
+      description: Dit widget geeft labels weer die gerelateerd zijn aan de huidige pagina.
+      title: Labels
+    top_groups: 
+      description: In deze widget worden de top 5 groepen weergegeven
+      has_members: 
+        one: eén lid
+        other: "%{count} leden"
+      title: Top 5 groepen
+    top_users: 
+      description: In deze widget worden de top 5 gebruikers weergegeven
+      title: Top 5 gebruikers
+    update: 
+      notice: De widget is bijgewerkt.
+    users: 
+      description: In deze widget wordende nieuwe gebruikers weergegeven
+      title: Recente gebruikers
+    widget: 
+      change_position: "Widgetpositie wijzigen:"

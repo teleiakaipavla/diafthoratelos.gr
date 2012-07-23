@@ -1,0 +1,9 @@
+# Messages for Zazaki (Zazaki)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Erdemaslancan
+diq: 
+  activerecord: 
+    models: 
+      favorite: Weseney
+      favorites: Weseneyi

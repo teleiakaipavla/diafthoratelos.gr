@@ -1,0 +1,16 @@
+# Messages for Simplified Chinese (‪中文(简体)‬)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hydra
+zh-CN: 
+  admin: 
+    moderate: 
+      index: 
+        all: 全部
+        ban: 禁止
+        banned: 被禁止的问题
+        content: 内容
+        flagged: 已标记的问题
+        item_title: 标题
+        need_tags: 重新添加标签
+        title: 中度

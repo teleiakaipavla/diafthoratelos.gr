@@ -1,0 +1,8 @@
+# Messages for Tagalog (Tagalog)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: AnakngAraw
+tl: 
+  activemodel: 
+    models: 
+      constrains_config: Pinipigilan ng Reputasyon ang Kumpigurasyon

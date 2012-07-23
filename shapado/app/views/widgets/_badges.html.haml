@@ -1,0 +1,11 @@
+- recent_badges = widget.recent_badges(current_group)
+- if recent_badges.count > 0
+  .module.clearfix.widget.block{:class => 'widget-badges'}
+    = render "widgets/header", :widget => widget
+    %aside.badges
+      %ul
+        - recent_badges.each do |badge|
+          %li
+            = render :partial => "badges/badge", :object => badge
+    %footer
+      = link_to t('.see_all'), badges_path

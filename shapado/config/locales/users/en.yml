@@ -1,0 +1,134 @@
+en:
+  users:
+    show_json:
+      edit_it: "Click here to fill your bio on your profile."
+      no_description: "This user has not filled his bio yet."
+    user_mini:
+      admin: '[ Admin ]'
+      mod: '[ Moderator ]'
+      editor: '[ Editor ]'
+    user_bar:
+      signed_as: Signed in as
+      not_logged_in: 'Not logged in'
+      create_account: Create an account
+    top_user:
+      profile: Profile
+      my_karma: 'My karma: %{karma}'
+      connect: Connect
+    index:
+      title: All users
+      empty: "This group does not have any members. Participate by joining this group."
+      filter: "Search for users"
+      reputation: Reputation
+      newest: Newest
+      oldest: Oldest
+      name: Name
+      near: Near you
+      near_tooltip: Users who are near you
+      reputation_tooltip: Users sorted by higher reputation
+      newest_tooltip: Users who just joined
+      oldest_tooltip: Users who were the first to join
+      name_tooltip: Users sorted alphabetically
+    new:
+      title: Sign up as a new user
+      submit: Sign up
+      join_group: Join %{group}
+      description: Become a part of this community to ask, answer and learn!
+    edit:
+      title: Settings
+      submit: Save
+      enable_twitter: Enable your Facebook or Twitter accounts
+    change_password:
+      title: Change password
+      submit: Change my password
+    show:
+      title: "User %{user}"
+      follow: Follow
+      unfollow: Unfollow
+      views: views
+      followers: Followers
+      following: Following
+      edit_profile: Edit profile
+    follow:
+      flash_notice: "You are now following %{user}."
+      flash_error: "You cannot follow yourself."
+    unfollow:
+      flash_notice: "You are not following %{user} anymore."
+    update_followed_tags:
+      followed:
+        flash_notice: "You are now following the tag %{tag}."
+      unfollowed:
+        flash_notice: "You are not following the tag %{tag} anymore."
+    check_custom_domain:
+      title: "Is your new custom domain working?"
+      reset_domain_button: "No, please reset custom domain to %{domain}"
+      working_domain_link: 'Yes, I can see my new domain is working below.'
+      refresh: "Refresh this page to try again."
+    form:
+      check_domain_title: "Check your group's custom domains"
+      check_domain: "Check %{domain}"
+      desktop_notification: Desktop notifications
+      information: Information
+      notifications: Notifications
+      new_answer_notification: Get email notifications for new answers
+      give_advice_notification: Receive email notifications about questions in your field of expertise
+      activities_notification: Receive email notifications about system activities such as earned badges, new followers, etc.
+      reports_notification: Receive a report with latest group activity (only for group admins)
+      avatar_tip: "Change your profile image using Gravatar"
+      show_more_lang: "Show more languages"
+      language: Language used for the interface of the site
+      send_questions_to_twitter: Send my questions to my Twitter
+      send_badges_to_twitter: Send my newly won badges to my Twitter
+      send_favorites_to_twitter: Send my favorite answers to my Twitter
+      send_answers_to_twitter: Send my answers to my Twitter
+      send_comments_to_twitter: Send my comments to Twitter
+      social_interaction: Social media interaction
+    create:
+      flash_notice: "Thanks for signing up!"
+      flash_error:  "Sorry, we could not set up that account. Please try again, or contact an administrator (link is above)."
+    messages:
+      errors:
+        reputation_needed: "You need a reputation of %{min_reputation} to %{action}"
+    actions:
+      vote_up: Upvote
+      vote_down: Downvote
+      flag: Flag
+      edit_others_posts: "Edit other's posts"
+      edit_wiki_post: "Edit wiki posts"
+      retag_others_questions: "Retag others questions"
+      vote_to_close_own_question: "Request closing own question"
+      vote_to_close_any_question: "Request closing any question"
+    anonymous_form:
+      never_shown: never shown
+  activerecord:
+    models:
+      users: Users
+      user: User
+    attributes:
+      user:
+        login: Username
+        email: Email
+        name: Real name
+        current_password: Current password
+        password: Password
+        password_confirmation: Password confirmation
+        created_at: created at
+        updated_at: updated at
+        activation_code: Activation code
+        activated_at: activated at
+        fullname: Full name
+        language: Language
+        asked_by: asked by
+        timezone: Time zone
+        preferred_tags: Preferred tags
+        preferred_languages: 'You want to read questions in the following languages:'
+        last_logged_at: seen
+        created_at: joined
+        reputation: Reputation
+        avatar: Profile image
+        hide_country: Do not display my country
+        language_filter: Filter by language
+        website: Website
+        birthday: Birthday
+        age: Age
+

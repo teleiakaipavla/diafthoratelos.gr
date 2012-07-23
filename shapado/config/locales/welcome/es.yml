@@ -1,0 +1,29 @@
+# Messages for Spanish (español)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Mor
+# Author: Od1n
+# Author: Patcito
+es: 
+  welcome: 
+    confirm_age: 
+      notice: Sólo deberia entrar a esta pagina si tiene usted 18 años o más de edad, o al menos la mayoria de edad en el lugar donde usted reside o desde donde entra a esta pagina.
+      over_18: Soy mayor de edad
+      under_18: Soy menor de edad
+      warning: "ATENCION: Esta pagina puede contener material explicito para adultos."
+    feedback: 
+      captcha_error: Por favor, asegúrese de llenar el captcha correctamente y ingresar una dirección de correo electrónico válida.
+      captcha_notice: Gracias por tus comentarios, nos pondremos en contacto con usted lo mas antes posible.
+      email_description: Por favor, proporciona tu dirección de correo electrónico para que podamos responder a tu mensaje
+      feedback_description: Descripción
+      feedback_title: Título
+      title: Envía tu sugerencia
+    index: 
+      active: Activas
+      browse_all_or_by_tags: Descubre la %{full_list_of_questions} o %{browse_by_tags}
+      browse_by_tags: navega por tags
+      create_own_site: Crea gratuitamente tu propio sitio en 8 segundos
+      full_list_of_questions: Lista completa de preguntas
+      hot: Calientes
+      quick_question: Haz tu pregunta, nosotros buscaremos quien la responda
+      recent_questions: Preguntas recientes

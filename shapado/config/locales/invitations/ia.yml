@@ -1,0 +1,33 @@
+# Messages for Interlingua (interlingua)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: McDutchie
+ia: 
+  invitations: 
+    accept: 
+      create_account: Crear un conto (passo 1 de 2)
+      create_account_step2: Crear conto
+      description: "%{group} es un collection sempre melior de questiones e responsas super qualcunque thema."
+      done: Finite!
+      facebook_connect: Connecter con tu conto de Facebook
+      final_step: Passo final (2 de 2)
+      find_friends: "Cercar amicos e connecter:"
+      follow_things: Sequer etiquettas e personas
+      follow_things_description: Questiones connexe a istes apparera in tu fluxo personal.
+      other_connect: o usa un de istes.
+      other_social_options: Tu pote anque usar %{linkedin} e %{identica}.
+      point1: Pone questiones a expertos de un certe thema.
+      point2: Seque themas e responde al questiones que te interessa.
+      point3: Votar e modificar responsas e paginas wiki pro meliorar los. Gania insignias.
+      point4: Responder con tu programma de e-mail sin difficultate.
+      twitter_connect: Connecter con tu conto de Twitter
+      welcome: Benvenite
+    create: 
+      flash_notice: Le invitationes ha essite inviate.
+      limit_notice: 
+        one: Tu non pote inviar plus de %{limit} invitation al mesme tempore.
+        other: Tu non pote inviar plus de %{limit} invitationes al mesme tempore.
+    resend: 
+      flash_notice: Tu invitation ha essite inviate de novo.
+    revoke: 
+      flash_notice: Tu invitation ha essite revocate.

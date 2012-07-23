@@ -1,0 +1,18 @@
+==%% #{t("notifier.give_advice.reply_instructions", :default => "REPLY BEFORE THIS LINE TO ANSWER THE QUESTION")} %%
+
+= t('notifier.global.hi', :user => h(@user.login))
+
+= t('.message1', :user => h(@question.user.login))
+
+== "#{h(@question.title)}"
+
+= t('.message2')
+= url_for(:host => @group.domain, :controller => "questions", :action => "show", :id => @question.slug)
+
+= t('.message3')
+=  url_for(:host => @group.domain, :controller => "questions", :action => "show", :id => @question.slug)
+
+= t('.message4')
+
+== - #{@group.name}
+

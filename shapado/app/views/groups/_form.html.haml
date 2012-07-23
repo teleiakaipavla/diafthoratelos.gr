@@ -1,0 +1,105 @@
+.field
+  = form.label :name, t('name', :scope => "activerecord.attributes.group"), :class => "label"
+  = form.text_field :name, :class => "text_field"
+
+-if @group.new? || !@group.shapado_version.has_custom_domain?
+  .field
+    = form.label :subdomain, "URL", :class => "label"
+    .domain
+      %small
+        ="#{request.protocol}"
+      = form.text_field :subdomain, :class=>"text_field"
+      %small
+        = ".#{request.domain}"
+
+-if current_user.admin?
+  .field
+    = form.label :domain,  t('domain', :scope => "activerecord.attributes.group"), :class => "label"
+    .domain
+      %small
+        =request.protocol
+      = form.text_field :domain, :class=> "text_field"
+
+  .field
+    = form.label :description,  t('description', :scope => "activerecord.attributes.group"), :class => "label"
+    -if current_group.wysiwyg_editor
+      = form.text_area :description, :class => "text_area wysiwyg_editor", :value => markdown(@group.description)
+    -else
+      = form.text_area :description, :class => "text_area markdown_editor"
+      %small
+        = t('.description_legend')
+      %label.label
+        = t("global.preview")
+      .markdown_preview.markdown
+        =markdown(@group.description)
+
+-if true
+  .field
+    .checkbox
+      = form.label :isolate, t(".isolate_group"), :class => "radio"
+      = form.check_box :isolate, :class => "checkbox"
+  .field
+    .checkbox
+      = form.label :private, t(".custom_analytics"), :class => "radio"
+      = form.check_box :has_custom_analytics, :class => "checkbox"
+      %small{:style => "margin-bottom: 20px;"}
+        = t(".analytics_legend")
+
+.field{style: "clear: both"}
+  =form.label :layout, t('layout', :scope => "activerecord.attributes.group"), :class => "label"
+  =form.select :layout, [['Default', 'application'], ['2-Columns', 'classic']]
+
+-if !@group.new?
+  - if @group.has_custom_analytics
+    .field
+      = form.label :analytics_engine, t(".analytics_engine"), :class => "label"
+      =  select("group", "analytics_vendor", [['Google Analytics', 'googlean']])
+
+    .field
+      = form.label :analytics_id, t(".website_analytics_id"), :class => "label"
+      = form.text_field :analytics_id, :class=> "text_field"
+
+  .field
+    .checkbox
+      = form.label :wysiwyg_editor, t('wysiwyg_editor', :scope => "activerecord.attributes.group"), :class => "radio"
+      = form.check_box :wysiwyg_editor, :class => "checkbox"
+
+  .field
+    .checkbox
+      = form.label :enable_latex, t('enable_latex', :scope => "activerecord.attributes.group"), :class => "radio"
+      = form.check_box :enable_latex, :class => "checkbox"
+
+  .field
+    .checkbox
+      = form.label :enable_mathjax, t('enable_mathjax', :scope => "activerecord.attributes.group"), :class => "radio"
+      = form.check_box :enable_mathjax, :class => "checkbox"
+  .field
+    .checkbox
+      = form.label :fb_button, t('fb_button', :scope => "activerecord.attributes.group"), :class => "radio"
+      = form.check_box :fb_button, :class => "checkbox"
+  .field
+    .checkbox
+      = form.label :track_users, t('track_users', :scope => "activerecord.attributes.group"), :class => "radio"
+      = form.check_box :track_users, :class => "checkbox"
+
+  .field
+    = form.label :legend, t('legend', :scope => "activerecord.attributes.group"), :class => "label"
+    = form.text_field :legend, :class => "text_field"
+    %small
+      = t('.legend_legend')
+
+.field
+  = form.label :default_tags, t('default_tags', :scope => "activerecord.attributes.group"), :class => "label"
+  = form.text_field :default_tags, :value => @group.default_tags.join(", "), :class => "text_field"
+  %small
+    = t('.default_tags_legend')
+
+-if AppConfig.enable_i18n
+  .field
+    = form.label :language, t(:language, :scope => "activerecord.attributes.group"), :class => "label"
+    = form.select :language, AVAILABLE_LANGUAGES.collect {|lang| [ language_desc(lang), lang ] }, :selected => @group.language || 'en', :class => "select"
+  .field
+    = form.label :language, t(:languages, :scope => "activerecord.attributes.group"), :class => "label"
+    = form.select :languages, AVAILABLE_LANGUAGES.collect{|lang| [language_desc(lang), lang]}, {:selected => @group.languages.to_a},{:multiple => true}
+-else
+  = form.hidden_field :language, :value => (AppConfig.default_language || 'en')

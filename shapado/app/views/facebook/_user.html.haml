@@ -1,0 +1,12 @@
+%table
+  -[["Name", "name"], ["Login", "login"]].each do |row|
+    %tr
+      %td
+        =row.first
+      %td
+        =user.send(row.last)
+  %tr
+    %td
+      ="Reputation"
+    %td
+      =user.reputation_on(current_group)

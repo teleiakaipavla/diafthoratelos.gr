@@ -1,0 +1,24 @@
+# Messages for Faroese (føroyskt)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: EileenSanda
+fo: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: Kroppur
+        created_at: Stovnað hin
+        link: Leinkja
+    models: 
+      answer: Svar
+  answers: 
+    create: 
+      annon_notice: Brúkarin er longu skrásettur, vinarliga rita inn.
+      flash_notice: Takk fyri!
+    edit: 
+      title: Rætta svarið
+    form: 
+      answer_label: Svara hesum spurningi
+      comment_label: Viðmerk hetta svarið
+      comment_submit: Viðmerk
+      submit: Svara

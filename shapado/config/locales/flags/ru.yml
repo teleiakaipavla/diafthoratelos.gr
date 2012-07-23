@@ -1,0 +1,33 @@
+# Messages for Russian (русский)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Lockal
+# Author: Александр Сигачёв
+ru: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: причина
+    models: 
+      flag: Отметка
+      flags: Отметки
+  flags: 
+    create: 
+      flash_error: Вы не можете отметить это
+      flash_notice: Благодарим за ваше сообщение
+    destroy: 
+      flash_notice: Ваш флаг был успешно отменён.
+    edit: 
+      title: Изменить флаг %{model}
+    form: 
+      attention: Необходимо внимание модератора
+      label: Пожалуйста, будьте внимательны при отметке
+      offensive: Агрессия, оскорбление или проявление ненависти
+      spam: спам
+    model: 
+      messages: 
+        already_requested: Вы уже отметили эту %{model}
+    new: 
+      title: Флаг %{model}
+    update: 
+      flash_notice: Флаг вопроса был успешно обновлён.

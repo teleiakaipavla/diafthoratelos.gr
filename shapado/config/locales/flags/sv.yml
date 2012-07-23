@@ -1,0 +1,31 @@
+# Messages for Swedish (svenska)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Tobulos1
+sv: 
+  activerecord: 
+    attributes: 
+      flag: 
+        reason: Orsak
+    models: 
+      flag: Flagga
+      flags: Flaggor
+  flags: 
+    create: 
+      flash_error: Du kan inte flagga det här
+      flash_notice: Tack för din rapport
+    destroy: 
+      flash_notice: Din flaggning har återkallats framgångsrikt.
+    edit: 
+      title: Redigera %{model}s flagga
+    form: 
+      label: Flagga med omsorg
+      offensive: Stötande, kränkande eller hatpropaganda
+      spam: Spam
+    model: 
+      messages: 
+        already_requested: Du har redan flaggat denna %{model}
+    new: 
+      title: Flagga %{model}
+    update: 
+      flash_notice: Frågans flagga har uppdaterats.

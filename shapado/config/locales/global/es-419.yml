@@ -1,0 +1,46 @@
+# Messages for Latin American Spanish (espanol de America Latina)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Patcito
+es-419: 
+  feeds: 
+    feed: Flujo
+    post_new_questions: Publicar nuevas preguntas en
+    question: Subscribirse a esta pregunta
+    questions: Subscribirse a todas las preguntas
+    share_on_twitter: twitter, facebook y mas...
+    tag: Subscribirse al tag
+    user: Subscribirse a las preguntas del usuario
+  global: 
+    active: Activar
+    by: por
+    current: Actual
+    from: desde %{site}
+    group_not_found: La página %{url} no existe
+    or: o
+    permission_denied: Permiso denegado
+    please_login: Por favor inicia sesión
+    preview: Vista previa
+    previous: Anterior
+    share: Compartir
+  models: 
+    question: La pregunta
+  scaffold: 
+    add: Añadir
+    back: Volver
+    cancel: Cancelar
+    close: Cerrar
+    create: Crear
+    destroy: Borrar
+    details: Detalles
+    edit: Editar
+    more: Más...
+    new: Agregar un(a) nuevo(a) %{model}
+    save: Guardar
+    send: Enviar
+    show: Ver
+    sure: ¿Esta seguro que quiere borrar esta %{model}?
+    update: Actualizar
+  time: 
+    ago: hace %{time}
+    today: hoy

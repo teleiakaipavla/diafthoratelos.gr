@@ -1,0 +1,12 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Siebrand
+nl: 
+  rewards: 
+    close: 
+      error: U moet %{time} wachten voordat u deze beloning kunt uitreiken.
+    start: 
+      active_notice: Deze vraag heeft al een actieve beloning.
+      reputation_notice: Uw reputatie is nog niet voldoende om een beloning voor deze vraag te kunnen uitloven.
+      wait_notice: U moet twee dagen wachten voordat u een beloning kunt uitloven voor deze vraag.

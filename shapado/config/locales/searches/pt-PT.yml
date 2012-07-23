@@ -1,0 +1,14 @@
+# Messages for Portuguese (português)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Hamilton Abreu
+pt-PT: 
+  searches: 
+    form: 
+      clear: Limpar
+      search_box_title: Verifique se a sua pergunta já foi feita
+      tags_tip: Use [tag] para especificar categorias.
+    index: 
+      empty: A sua pesquisa não produziu resultados.
+      search_text: Perguntas que contêm
+      tags: com estas categorias

@@ -1,0 +1,30 @@
+# Messages for Macedonian (македонски)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Bjankuloski06
+mk: 
+  activerecord: 
+    attributes: 
+      answer: 
+        body: текст
+        created_at: Создадено во
+        link: врска
+    models: 
+      answer: одговор
+      answers: Одговори
+  answers: 
+    create: 
+      annon_notice: Корисникот е веќе регистриран. Најавете се.
+      flash_error: "нешто не е во ред со додавањето на одговорот. \n  запомнете дека: \n - не се дозволени празни и повторени одговори \n - треба да почекате 20 секунди пред да одговорите на друго прашање. \n - смеете да давате само еден одговор по прашање."
+      flash_notice: фала!
+    edit: 
+      title: уредување на одговор
+    form: 
+      answer_label: одговорете на прашањето
+      comment_label: коментирајте на овој одговор
+      comment_submit: коментирај
+      submit: Одговори
+    revert: 
+      title: врати одговор
+    update: 
+      flash_notice: одговорот е успешно подновен.

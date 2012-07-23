@@ -1,0 +1,27 @@
+-feed_url = url_for(:format => "atom", :tags => @tag_names.join("+"))
+
+-content_for :rss do
+  %link{:rel=>"alternate", :type=>"application/atom+xml", :title => "atom", :href=> feed_url}
+
+.tags-list
+
+  %h1
+    = t('layouts.application.tags')
+  .tags
+    -@tags.each do |tag|
+      .each
+        = render "tag", :tag => tag, :show_counter => true
+        -if tag.has_icon?
+          = image_tag tag_icon_path(current_group,tag.name)
+        %p
+          = tag.description
+
+  %section
+    -if @questions.empty?
+      %article.question
+        %li.highlight
+        = t(".empty")
+    -@questions.each do |question|
+      = render "questions/question", :question => question
+
+  = paginate @questions

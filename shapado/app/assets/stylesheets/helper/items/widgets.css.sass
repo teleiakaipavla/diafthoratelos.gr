@@ -1,0 +1,254 @@
+.widget
+  margin: 6px 15px 0px 0px
+  h3
+    padding: 0px 0px 2px 5px
+    font-size: 12px
+  footer
+    text-align: right
+    padding: 5px 0 0 0
+    a
+      margin: 0px 10px
+      font-style: italic
+  aside
+    padding: 2px 10px
+  ul, ol
+    list-style: none
+    margin: 0px
+    padding: 4px
+
+.sidebar-widgets
+  .widget-adsense
+    aside
+      padding: 0px
+
+
+//_wikis.sass, customLinks.sass
+.widget-pages ul, .widget-links ul, .widget-tag_cloud ul
+  li
+    margin: 0 0 2px 0
+    a
+      padding: 4px 5px
+      display: block
+      +normal-radius
+      &:first-letter
+        text-transform: capitalize
+
+//_networks.sass
+.widget-group_networks
+  ul
+    overflow: hidden
+    li
+      margin: 3px
+      float: left
+      display: inline
+      a
+        display: block
+        text-indent: -1000000px
+        height: 16px
+        width: 16px
+      .facebook
+        background: image-url("facebook.png") 0 0  no-repeat
+      .twitter
+        background: image-url("twitter.png") 0 0 no-repeat
+      .digg
+        background: image-url("digg.png") 0 0 no-repeat
+      .youtube
+        background: image-url("youtube.png") 0 0 no-repeat
+      .flickr
+        background: image-url("youtube.png") 0 0 no-repeat
+      .linkedin
+        background: image-url("linkedin.png") 0 0 no-repeat
+      .blog
+        background: image-url("rss.png") 0 0 no-repeat
+      .github
+        background: image-url("github.png") 0 0 no-repeat
+      .lastfm
+        background: image-url("lastfm.png") 0 0 no-repeat
+      .reddit
+        background: image-url("reddit.png") 0 0 no-repeat
+      .ohloh
+        background: image-url("ohloh.png") 0 0 no-repeat
+
+//_tags.sass
+.widget-tag_cloud
+  .active-tags
+    padding-bottom: 5px
+    a
+      line-height: 22px
+      margin: 0 2px
+    .remove_tag
+      padding: 0 4px
+      line-height: 12px
+      +huge-radius
+
+  .tag_cloud, .list_cloud
+    span
+      a
+        line-height: 24px
+        padding: 3px 5px 2px 5px
+        line-height: 22px
+        +normal-radius
+        overflow: hidden
+      .xxs
+        font-size: 10px
+      .xs
+        font-size: 12px
+      .s
+        font-size: 14px
+      .m
+        font-size: 16px
+      .xm
+        font-size: 18px
+      .xxm
+        font-size: 20px
+      .l
+        font-size: 22px
+      .xl
+        font-size: 24px
+      .xxl
+        font-size: 26px
+
+
+
+//_top_groups.sass
+.widget-top_groups
+  aside
+    overflow: hidden
+    display: block
+    padding-bottom: 10px
+    margin-bottom: 10px
+    .avatar
+      float: left
+      margin-right: 10px
+      overflow: hidden
+      width: 40px
+      height: 40px
+      img
+        width: 40px
+        height: 40px
+
+    .data
+
+      h3
+        margin: 0 !important
+        border: 0px
+        small
+          font-size: 9px
+          font-weight: normal !important
+          font-style: italic
+      p
+        font-size: 12px
+
+//_top_users.sass
+.widget-top_users, .widget-users ul
+  li
+    overflow: hidden
+    display: block
+    margin-bottom: 7px
+    padding-bottom: 7px
+
+    .avatar
+      float: left
+      margin-right: 5px
+      a
+
+    .data
+      float: left
+      h5
+        margin: 1px 0 0 0
+        a
+          font-size: 12px
+        small
+          display: block
+          font-size: 9px
+          font-weight: normal !important
+          font-style: italic
+
+//_share.sass
+.widget-badges ul, .widget-share ul
+  padding: 10px
+  li
+    margin: 0
+    height: 36px
+
+
+//_suggestions.sass
+.widget-suggestions
+  li
+    padding-bottom: 5px
+    margin-bottom: 5px
+    overflow: hidden
+    &:last-child
+      border: 0px
+    .info
+      float: left
+      .link a
+        font-weight: bold
+      .f-link a
+        font-size: 11px
+        line-height: 11px
+        font-style: italic
+        padding: 2px 5px
+        +normal-radius
+  img
+    width: 25px
+    height: 25px
+    margin: 0 10px 0 0
+    float: left
+
+//badges
+.widget-badges ul, .widget-question_badges ul
+  padding: 0
+  margin: 0
+  li
+    margin: 0 0 3px 0
+    height: 32px
+
+//  related_questions
+.widget-related_questions ul
+  margin: 0 0 0 20px
+  li
+    list-style: disc
+    margin-bottom: 8px
+    &:first-letter
+      text-transform: uppercase
+
+//  Contributor
+.widget-contributors a
+  float: left
+  margin: 0 10px 0 0
+
+//  Left Column
+.left-panel
+  .widget-suggestions
+    li .info
+      float: right
+    img
+      float: right
+      margin: 0 0 0 10px
+
+//  Header // Footer zones
+.header-widgets, .footer-widgets
+  .widget-suggestions
+    li
+      float: left
+      padding: 0
+      margin: 0
+      height: 30px
+      width: 145px
+      border: 0px
+      .info
+        float: left
+        .link a
+          font-weight: bold
+        .f-link a
+          font-size: 11px
+          line-height: 11px
+          font-style: italic
+          padding: 2px 5px
+          +normal-radius
+    img
+      width: 25px
+      height: 25px
+      margin: 0 10px 0 0
+      float: left

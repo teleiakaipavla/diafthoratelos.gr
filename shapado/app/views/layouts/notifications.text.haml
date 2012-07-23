@@ -1,0 +1,8 @@
+=yield
+
+- if @group
+  = "_"*80
+  = I18n.t("layouts.notifications.message", :group => @group.name, :locale => @language)
+
+  = url_for(:host => @group.domain, :controller => "users", :action => "edit", :id => @user, :anchor => "notifications")
+

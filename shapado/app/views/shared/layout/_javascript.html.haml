@@ -1,0 +1,19 @@
+
+%script{ src: "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" }
+
+- jq = "#{javascript_include_tag("jquery.js")}".gsub('</script>', '<\/script>')
+:javascript
+  window.jQuery || document.write('#{jq}')
+
+- if current_group.shapado_version.has_custom_js?
+  -current_theme = current_group.current_theme || Theme.where(:is_default => true).first
+  %meta{'data-has-js'=> current_theme.has_js, 'data-theme-js' => javascript_group_path(current_group, params[:test_theme] || current_theme.id, current_theme.version)}
+
+= javascript_include_tag "application", :debug => Rails.env.development? && params[:debugjs]
+= javascript_include_tag "i18n/#{I18n.locale}"
+
+= yield :js
+
+/[if lt IE 7 ]
+  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+  <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>

@@ -1,0 +1,16 @@
+- if logged_in?
+  #user-bar-greeting
+    = t('.signed_as')
+    = link_to_current_user :content_method => :login
+  #user-bar-action
+    (
+    = link_to t('devise.sessions.sign_out'), destroy_user_session_path, { :title => "Log out" }
+    )
+- else
+  #user-bar-greeting
+    = link_to_login_with_IP t('.not_logged_in'), :style => 'border: none;'
+  #user-bar-action
+    = link_to t('devise.sessions.link'),  new_user_session_path,  { :title =>  t('devise.sessions.link') }
+    \/
+    = link_to t('global.sign_up'), signup_path, { :title => t('.create_account') }
+

@@ -1,0 +1,94 @@
+/*widgets.css*/
+
+//  Header // Footer zones
+.header-widgets, .footer-widgets {
+  .widget-suggestions {
+    li {
+      .info {
+        .link a {
+          color: $fg_color;
+          &:hover {
+            color: $brand_color; } }
+        .f-link a {
+          &:hover {
+            background-color: $brand_color;
+            color: white; } } } }
+    img {
+      border: 1px solid darken($view_bg_color, 10%); } } }
+
+//widget-pages, widget-links, tag_cloud
+.widget-pages ul, .widget-links ul, .widget-tag_cloud ul {
+  li {
+    a {
+      &:hover {
+        background-color: $brand_color;
+        color: white; } }
+    &.active a {
+      background-color: $brand_color;
+      color: white; } } }
+
+//tag_cloud
+.widget-tag_cloud {
+  .active-tags {
+    a {
+      color: #cc0000; }
+    .remove_tag {
+      background-color: #cc0000;
+      color: white; } }
+  .tag_cloud, .list_cloud {
+    span {
+      a {
+        &:hover {
+          background-color: $brand_color;
+          color: white; } } } } }
+
+//top_groups
+.widget-top_groups {
+  aside {
+    .avatar {
+      border: 1px solid darken($view_bg_color, 10%); }
+    .data {
+      h3 {
+        small {
+          color: #666666; } } } } }
+
+//top_users
+.widget-top_users, .widget-users ul {
+  li {
+    .data {
+      h5 {
+        a {
+          color: $fg_color; }
+        small {
+          color: #666666; } } } } }
+
+//suggestions
+.widget-suggestions {
+  li {
+    border-bottom: 1px dotted darken($view_bg_color, 5%);
+    .info {
+      .link a {
+        color: $fg_color;
+        &:hover {
+          color: $brand_color; } }
+      .f-link a {
+        &:hover {
+          background-color: $brand_color;
+          color: white; } } } }
+  img {
+    border: 1px solid darken($view_bg_color, 10%); } }
+
+//badges, question_badges
+.widget-badges ul, .widget-question_badges ul {
+  li {}
+  .badge_item {
+    a.badge {
+      color: $fg_color; } } }
+
+//related_questions
+.widget-related_questions ul {
+  li {
+    a {
+      color: $fg_color;
+      &:hover {
+        color: $brand_color; } } } }

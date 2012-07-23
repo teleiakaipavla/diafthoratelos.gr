@@ -1,0 +1,12 @@
+-last_read_on = 2.days.ago
+-activities = Activity.desc(:created_at).where(:group_id => current_group.id, :created_at.gte => last_read_on, :follower_ids.in => [current_user.id]).page(1).per(10)
+
+%li.notifications-list
+  %a#notification-counter{:href => "#"}
+    =activities.count
+  %ul
+    %li.notification.notification-title
+      %h3
+        Notifications
+    -activities.each do |activity|
+      = render "notifications/notification_item", :activity => activity

@@ -1,0 +1,173 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  activerecord: 
+    attributes: 
+      question: 
+        answers: Jawapan
+        asked_by: Ditanyakan oleh
+        banned: Dilarang
+        body: Isi
+        closed: Tutup
+        created_at: Ditanya
+        language: Bahasa
+        tags: Tag
+        title: Tajuk
+        updated_at: dikemas kini
+        updated_by: dikemas kini oleh
+        views: Kunjungan
+        votes: Undian
+    models: 
+      question: Soalan
+      questions: Soalan
+  questions: 
+    answer: 
+      add_comment: Tulis ulasan...
+      favorite: Simpan
+      favorite_tooltip: Tambahkan jawapan ini ke dalam kegemaran anda
+      flag: Bendera
+      pick_answer: Pilih sebagai jawapan
+      unfavorite: Nyahsimpan
+      unfavorite_tooltip: Gugurkan jawapan ini daripada kegemaran anda
+      unset_answer: Jawapan tidak ditetapkan?
+    answer_toolbar: 
+      flagged_by_you: Dibenderakan oleh anda
+    close: 
+      failure: Soalan ini mempunyai ganjaran yang aktif dan tidak boleh ditutup.
+    create: 
+      already_registered: Seorang pengguna dengan alamat e-mel %{email} sudah berdaftar, sila log masuk dengan menggunakan alamat ini.
+      flash_notice: Soalan berjaya dicipta.
+    disallow_spam: 
+      error: Anda perlu menunggu 20 saat sebelum mengepos soalan lain.
+    edit: 
+      title: Menyunting soalan
+    flag: 
+      title: Menaikkan bendera pada soalan
+    form: 
+      add_attachment: Bubuh lampiran
+      adult_content: Soalan ini mengandungi kandungan dewasa (18+).
+      body_tip: Apakah soalan anda? Sila nyatakan dengan deskriptif.
+      language_tip: Pilih bahasa soalan yang anda tanyakan itu.
+      related_questions_desc: Soalan yang serupa akan dipaparkan di sini.
+      remove_attachment: Buang
+      tags_tip: Gunakan tag untuk menambahkan maklumat mengenai soalan anda.
+    history: 
+      back: ← kembali ke soalan
+    index: 
+      active: Aktif
+      active_tooltip: Soalan yang dikemas kini baru-baru ini
+      ask_question: Tanyakan soalan
+      empty: Di sini belum ada yang tanyakan apa-apa soalan lagi. Jadilah orang pertama!
+      followers_tooltip: Soalan yang paling ramai pengikut
+      has_followers: "%{count} pengikut"
+      help_to_answer: Bantu kami menjawabnya
+      hot: Hangat
+      hot_tooltip: Soalan yang paling giat selama 5 hari yang lalu
+      newest: Terbaru
+      newest_tooltip: Soalan yang paling baru dijawab
+      oldest: Terlama
+      title: Semua soalan
+      unanswered_questions: Soalan yang tak terjawab
+      votes: Undian
+    model: 
+      messages: 
+        empty_tags: Maaf, anda perlu menggunakan sekurang-kurangnya satu tag.
+        tags_not_added: Tag '%{tags}' tidak dapat dibubuh. Anda memerlukan reputasi %{reputation_required} untuk membuat tag baru
+        title_too_long: Maaf, tajuk tidak boleh mengandungi lebih daripada 100 aksara.
+        too_many_tags: Maaf, anda hanya boleh isikan maksimum 20 tag.
+        too_short: Maaf, tajuk anda perlu mempunyai lebih daripada %{count} perkataan.
+    move: 
+      group_label: "Pindah ke kumpulan:"
+      submit: Pindahkan!
+      title: "Pindahkan soalah: %{title}"
+    move_to: 
+      group_dont_exists: Kumpulan %{group} tidak wujud
+      success: Soalan dipindahkan ke %{group}
+    new: 
+      description: Sila pastikan soalan anda deskriptif, dan pastikan ia dibubuhi tag-tag yang berkenaan supaya mudah dicari.
+      how_to_ask: Cara menanya
+      title: Tanyakan soalan
+    question: 
+      accepted_tooltip: Soalan ini ada jawapan yang diterima
+      answer_verb: Jawab
+      has_answers: "%{count} jawapan"
+      wiki_title: "Wiki: %{title}"
+    retag: 
+      title: Tag semula
+    retag_form: 
+      cancel: Batalkan
+      submit: Kemas kini tag!
+      title: Kemas kini tag
+    retag_to: 
+      failure: Maaf, tag-tag ini tidak dapat dikemas kini.
+      success: Tag-tag ini berjaya dikemas kini.
+    revert: 
+      title: Batalkan soalan
+    shared: 
+      flag: Bendera
+    show: 
+      accepted_tooltip: Satu jawapan telah diterima sebagai jawapan tepat.
+      another_answers: Jawapan lain
+      answers: Jawapan
+      asked_on: ditanya pada
+      ban: Larang
+      close: Tutup
+      close_reason: "Soalan ini ditutup atas sebab berikut:"
+      create_reward: Cipta ganjaran
+      create_reward_description: Ganjari jawapan terbaik dengan sedikit karma anda sendiri.
+      edit_request: Permohonan menyunting
+      flag: Bendera
+      flagged_as: Dinaikkan bendera kerana
+      flags: Dilaporkan kerana
+      follow_tooltip: Ikuti soalan ini
+      follow_up: Susulan
+      follow_up_description: Buat soalan baru berasaskan kiriman ini.
+      follow_up_of: Soalan ini ialah susulan
+      history: Sejarah
+      last_activity: Kegiatan terkini
+      more_actions: Tindakan lain
+      open: Buka
+      related_questions: Soalan berkaitan
+      request_closing: Pohon penutupan
+      request_closing_details: Pohon supaya soalan ini ditutup
+      request_opening: Pohon pembukaan semula
+      request_opening_details: Pohon supaya soalan ini dibuka semula
+      requested_close_as: Anda memohon supaya soalan ini ditutup kerana
+      requested_reopening: Anda memohon supaya soalan ini dibuka semula
+      retag: Tag semula
+      retract_request: Tarik balik permohonan
+      share: Kongsikan soalan ini di
+      share_on: Kongsikan soalan ini di %{site}
+      solution: Jawapan
+      to_answer_question: menjawab soalan ini
+      unauthenticated_retag: Anda memerlukan akaun untuk mengetag semula soalan
+      unban: Tarik Balik Larangan
+      unfollow_tooltip: Berhenti mengikuti soalan ini
+      viewed: dilihat
+    solve: 
+      flash_notice: Soalan ini terjawab.
+    tags: 
+      filter: Cari tag
+      title: Tag
+      tooltip: Tunjukkan soalan yang bertag %{tag}
+    toolbar: 
+      answer_by_mail: Jawab melalui e-mel
+      more_actions: Tindakan lain
+      requests: Permintaan
+      your_close_request: Permintaan tutup anda
+    unanswered: 
+      empty: Kumpulan ini tiada soalan yang tak terjawab.
+      expert: Pakar
+      my_tags: Tag saya
+      tags: Tag tak terjawab
+      title: Soalan yang tak terjawab
+    unsolve: 
+      flash_notice: Soalan ini tidak diselesaikan lagi.
+    unwatch: 
+      success: Anda tidak akan menerima pemberitahuan melalui e-mel untuk setiap jawapan baru kepada soalan ini lagi.
+    update: 
+      flash_notice: Soalan berjaya dikemas kini.
+    watch: 
+      success: Kini, anda akan menerima pemberitahuan melalui e-mel untuk setiap jawapan baru kepada soalan ini.

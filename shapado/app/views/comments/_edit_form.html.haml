@@ -1,0 +1,8 @@
+
+= form_for full_scope+[@comment], remote: true, html: {:class => "edit_comment_form"}, data: {commentable: @comment.commentable.id, editor: current_group.wysiwyg_editor ? 'wysiwyg_editor' : 'markdown_editor'} do |f|
+  %fieldset
+    = render :partial => "comments/form", :locals => local_assigns.merge(:f => f, :markdown => true)
+    .buttons
+      = submit_tag t("scaffold.update")
+      = t("global.or")
+      = link_to t('scaffold.cancel'), '', :class => 'cancel cancel_edit_comment'

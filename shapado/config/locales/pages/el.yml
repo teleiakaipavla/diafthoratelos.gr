@@ -1,0 +1,34 @@
+# Messages for Greek (Ελληνικά)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Discon
+el: 
+  activerecord: 
+    attributes: 
+      page: 
+        css: Stylesheets
+        js: Javascript
+    models: 
+      page: Σελίδα
+      pages: Σελίδες
+  pages: 
+    actions: 
+      create_page: Δημιουργία νέας σελίδας
+      edit_page: Επεξεργασία σελίδας
+      title: Ενέργειες
+    create: 
+      success: Η σελίδα δημιουργήθηκε επιτυχώς.
+    edit: 
+      title: Επεξεργασία σελίδας
+    form: 
+      language_tip: Γλώσσα σελίδας
+      title_tip: "Τίτλος σελίδας, χρησιμοποιήστε τον για να αναφερθείτε στη σελίδα. π.χ: [[FAQ|check out the faq]]"
+    index: 
+      create_page: Δημιουργία νέας σελίδας
+      title: Κατάλογος σελίδων
+      written_in: Γραμμένη στα %{language}
+    new: 
+      title: Νέα σελίδα
+    title: Σελίδες
+    update: 
+      success: Η σελίδα ενημερώθηκε επιτυχώς.

@@ -1,0 +1,16 @@
+
+-content_for :subtabs do
+  .navtitle
+    = t(".title")
+  %ul
+    %li.retag
+      = link_to t(".need_tags"), moderate_path(:tab=>"retag")
+    %li.questions
+      = link_to t(".flagged", :default => :"activerecord.models"), moderate_path(:tab=>"flagged_questions")
+    %li.answers
+      = link_to t(".answers", :default => :"activerecord.models.answers"), moderate_path(:tab=>"flagged_answers")
+    %li.banneds
+      = link_to t(".banned", :default => :"activerecord.models"), moderate_path(:tab=>"banned")
+
+= render :partial => "admin/moderate/subtabs/#{@active_subtab}"
+

@@ -1,0 +1,44 @@
+# Messages for Malay (Bahasa Melayu)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Anakmalaysia
+ms: 
+  themes: 
+    edit: 
+      title: Sunting tema
+    form: 
+      bg_color_legend: Tentukan warna satah sebagai latar belakang, pastikan kontras dengan aplikasi anda.
+      bg_image_legend: Imej ini akan ditunjukkan sebagai wallpaper di setiap halaman. Saiznya tidak boleh melebihi 800K, dan mestilah berbentuk GIF, JPG atau PNG.
+      colors_and_bg: Warna dan latar belakang
+      custom_css_legend: Jika anda tahu bahasa CSS, gunakan yang ini untuk menyesuaikan penggayaan tapak sesawang anda. Anda boleh menggunakan CSS biasa atau SCSS.
+      fluid_layout: Susun atur boleh ubah
+      fluid_layout_legend: Susun atur boleh ubah akan membuat lebar setiap unsur halaman bergantung pada viewport dan bukannya unsur pengandung yang mulanya. Dalam erti kata lain, ketika mengubah saiz tetingkap pelayar atau beralih ke peranti skrin kecil, tataletaknya akan beralih ke dalam atau ke luar.
+      main_color_legend: Inilah salah satu warna yang paling digunakan di setiap laman. Pastikan anda memilih warna yang betul untuk jenama atau komuniti anda.
+      modules_color_legend: Pastikan warna ini dan warna utama berpadan dengan cantik.
+      submit_update: Kemas kini tema
+      text_color_legend: Pastikan teks anda mudah dibaca dan serasi dengan warna latar.
+      update: Kemas kini tema
+    index: 
+      description: Cari tema anda di sini dan ubah penampilan aplikasi anda.
+      new_theme: Anda boleh membuat tema sendiri di sini.
+    ready: 
+      success: Tema ada sudah sedia!
+    show: 
+      apply: Gunakan
+      bg_color: Warna latar belakang
+      bg_image: Imej latar belakang
+      brand_color: Warna jenama
+      button_bg: Warna latar belakang butang
+      button_fg: Warna latar depan butang
+      fg_color: Warna latar depan
+      fluid: Bendalir (ini akan membuat susuna atur lebih anjal apabila tetingkap pelayar dilaraskan saiznya)
+      link_bg: Warna latar belakang pautan
+      link_fg: Warna latar depan pautan
+      main_color: Warna utama
+      modules_color: Warna modul
+      not_ready: Tema ini belum sedia dipakai. Sila balik nanti.
+      text_color: Warna teks
+      try: Cuba
+      use_link_bg: Gunakan latar belakang untuk pautan
+      view_bg: Warna latar belakang paparan
+      view_fg: Warna latar depan paparan

@@ -1,0 +1,19 @@
+# Messages for Dutch (Nederlands)
+# Exported from translatewiki.net
+# Export driver: syck-pecl
+# Author: Siebrand
+nl: 
+  activerecord: 
+    models: 
+      activities: Activiteiten
+      activity: Activiteit
+  activity: 
+    asked: gevraagd
+    changed: gewijzigd
+    created: aangemaakt
+    deleted: verwijderd
+    destroyed: verwijderd
+    flagged: gemarkeerd
+    requested_to_close: verzocht om te sluiten
+    requested_to_open: verzocht om te openen
+    updated: bijgewerkt
