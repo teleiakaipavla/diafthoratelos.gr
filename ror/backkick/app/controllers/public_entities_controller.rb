@@ -1,0 +1,99 @@
+class PublicEntitiesController < ApplicationController
+  # GET /public_entities
+  # GET /public_entities.json
+  def index
+    @public_entities = PublicEntity.all
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.json { render json: @public_entities }
+    end
+  end
+
+  # GET /public_entities/search
+  def search
+    @public_entities = if params[:term]
+                         PublicEntity.where('name like ?', "%#{params[:term]}%")
+                       else
+                         PublicEntity.all
+                       end
+    respond_to do |format|
+      format.html { render "index" }
+      format.json do
+        names = @public_entities.collect { |pe| pe.name }
+        render :json => names
+      end 
+    end
+  end
+  
+  # GET /public_entities/1
+  # GET /public_entities/1.json
+  def show
+    @public_entity = PublicEntity.find(params[:id])
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @public_entity }
+    end
+  end
+
+  # GET /public_entities/new
+  # GET /public_entities/new.json
+  def new
+    @public_entity = PublicEntity.new
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.json { render json: @public_entity }
+    end
+  end
+
+  # GET /public_entities/1/edit
+  def edit
+    @public_entity = PublicEntity.find(params[:id])
+  end
+
+  # POST /public_entities
+  # POST /public_entities.json
+  def create
+    @public_entity = PublicEntity.new(params[:public_entity])
+
+    respond_to do |format|
+      if @public_entity.save
+        format.html { redirect_to @public_entity, notice: 'Public entity was successfully created.' }
+        format.json { render json: @public_entity, status: :created, location: @public_entity }
+      else
+        format.html { render action: "new" }
+        format.json { render json: @public_entity.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PUT /public_entities/1
+  # PUT /public_entities/1.json
+  def update
+    @public_entity = PublicEntity.find(params[:id])
+
+    respond_to do |format|
+      if @public_entity.update_attributes(params[:public_entity])
+        format.html { redirect_to @public_entity, notice: 'Public entity was successfully updated.' }
+        format.json { head :no_content }
+      else
+        format.html { render action: "edit" }
+        format.json { render json: @public_entity.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # DELETE /public_entities/1
+  # DELETE /public_entities/1.json
+  def destroy
+    @public_entity = PublicEntity.find(params[:id])
+    @public_entity.destroy
+
+    respond_to do |format|
+      format.html { redirect_to public_entities_url }
+      format.json { head :no_content }
+    end
+  end
+end

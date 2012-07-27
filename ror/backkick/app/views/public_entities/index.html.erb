@@ -1,0 +1,23 @@
+<h1>Listing public_entities</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @public_entities.each do |public_entity| %>
+  <tr>
+    <td><%= public_entity.name %></td>
+    <td><%= link_to 'Show', public_entity %></td>
+    <td><%= link_to 'Edit', edit_public_entity_path(public_entity) %></td>
+    <td><%= link_to 'Destroy', public_entity, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Public entity', new_public_entity_path %>
