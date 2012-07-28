@@ -1,4 +1,5 @@
 Backkick::Application.routes.draw do
+
   resources :incidents
 
   resources :categories
@@ -6,6 +7,7 @@ Backkick::Application.routes.draw do
   resources :public_entities do
     collection do
       get 'search'
+      post 'category'
     end
   end
 

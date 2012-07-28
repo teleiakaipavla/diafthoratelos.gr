@@ -12,17 +12,33 @@ class PublicEntitiesController < ApplicationController
 
   # GET /public_entities/search
   def search
-    @public_entities = if params[:term]
-                         PublicEntity.where('name like ?', "%#{params[:term]}%")
-                       else
-                         PublicEntity.all
-                       end
+    
+    @public_entities = nil
+    if params[:term]
+      @public_entities = PublicEntity.where('name like ?', "%#{params[:term]}%")
+    else
+      @public_entities = PublicEntity.all
+    end
+
+    category_id = session[:category_id]
+    if category_id
+      @public_entities = @public_entities.where(:category_id => category_id)
+    end
+    
     respond_to do |format|
       format.html { render "index" }
       format.json do
         names = @public_entities.collect { |pe| pe.name }
         render :json => names
       end 
+    end
+  end
+
+  # POST /public_entities/category
+  def category
+    session[:category_id] = params[:category_id]
+    respond_to do |format|
+      format.json { render json: { :ok => true } }
     end
   end
   
