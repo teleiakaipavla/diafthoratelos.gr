@@ -28,9 +28,13 @@
     <%= f.text_area :description %>
   </div>
   <div class="field ui-widget">
-    <%= label_tag :public_entity_name %><br />
-    <%= search_field_tag :public_entity_name, params[:name] %>
+    <%= label_tag :category_name %><br />
+    <%= collection_select(:public_entity, :category_id, Category.all, :id, :name) %>
   </div>
+  <div class="field ui-widget">
+    <%= label_tag :public_entity_name %><br />
+    <%= search_field_tag :public_entity_name, params[:public_entity_name] %>
+  </div>  
   <div class="actions">
     <%= f.submit %>
   </div>
