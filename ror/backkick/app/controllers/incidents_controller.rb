@@ -43,6 +43,14 @@ class IncidentsController < ApplicationController
   def create
     @incident = Incident.new(params[:incident])
 
+    if params.has_key?(:public_entity_name)
+      public_entity_name = params[:public_entity_name]
+      public_entity = PublicEntity.where(:name => public_entity_name)
+      if public_entity.any?
+        @incident.public_entity_id = public_entity.first.id
+      end
+    end
+
     respond_to do |format|
       if @incident.save
         format.html { redirect_to @incident, notice: 'Incident was successfully created.' }

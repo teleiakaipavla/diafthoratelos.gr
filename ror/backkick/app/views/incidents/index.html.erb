@@ -18,7 +18,9 @@
     <td><%= incident.money_asked %></td>
     <td><%= incident.money_given %></td>
     <td><%= incident.description %></td>
-    <td><%= incident.public_entity_id %></td>
+    <td><%= incident.public_entity.nil? ?
+	    ""
+	    : incident.public_entity.name %></td>
     <td><%= link_to 'Show', incident %></td>
     <td><%= link_to 'Edit', edit_incident_path(incident) %></td>
     <td><%= link_to 'Destroy', incident, method: :delete, data: { confirm: 'Are you sure?' } %></td>
