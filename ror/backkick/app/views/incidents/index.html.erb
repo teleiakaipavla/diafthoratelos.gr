@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th>Incident date</th>
-    <th>Money requested</th>
+    <th>Money asked</th>
     <th>Money given</th>
     <th>Description</th>
     <th>Public entity</th>
@@ -15,7 +15,7 @@
 <% @incidents.each do |incident| %>
   <tr>
     <td><%= incident.incident_date %></td>
-    <td><%= incident.money %></td>
+    <td><%= incident.money_asked %></td>
     <td><%= incident.money_given %></td>
     <td><%= incident.description %></td>
     <td><%= incident.public_entity_id %></td>

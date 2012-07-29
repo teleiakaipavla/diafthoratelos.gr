@@ -10,14 +10,14 @@
 require 'CSV'
 
 Category.delete_all
+PublicEntity.delete_all
+Incidents.delete_all
 
 categories_path = File.dirname(__FILE__) + "/categories.csv"
 
 CSV.foreach(categories_path, :col_sep => ";") do |row|
   Category.create(name: row[0])
 end
-
-PublicEntity.delete_all
 
 public_entities_path = File.dirname(__FILE__) + "/tax_offices.csv"
 

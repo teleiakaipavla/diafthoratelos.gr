@@ -1,7 +1,7 @@
 class Incident < ActiveRecord::Base
   attr_accessible :description
   attr_accessible :incident_date
-  attr_accessible :money_requested
+  attr_accessible :money_asked
   attr_accessible :money_given
   attr_accessible :public_entity_id
 
