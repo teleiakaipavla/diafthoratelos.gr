@@ -21,16 +21,16 @@ PublicEntity.delete_all
 
 public_entities_path = File.dirname(__FILE__) + "/tax_offices.csv"
 
-tax_office_category_id = Category.where(:name => "Εφορίες")
+tax_office_category = Category.where(:name => "Εφορίες").first
 
 CSV.foreach(public_entities_path, :col_sep => ";") do |row|
-  PublicEntity.create(name: row[0], category_id: tax_office_category_id)
+  PublicEntity.create(name: row[0], category_id: tax_office_category.id)
 end
 
 public_entities_path = File.dirname(__FILE__) + "/hospitals.csv"
 
-hospital_category_id = Category.where(:name => "Νοσοκομεία")
+hospital_category = Category.where(:name => "Νοσοκομεία").first
 
 CSV.foreach(public_entities_path, :col_sep => ";", :quote_char => '"') do |row|
-  PublicEntity.create(name: row[0], category_id: hospital_category_id)
+  PublicEntity.create(name: row[0], category_id: hospital_category.id)
 end
