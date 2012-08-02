@@ -20,8 +20,8 @@ class PublicEntitiesController < ApplicationController
       @public_entities = PublicEntity.all
     end
 
-    category_id = session[:category_id]
-    if category_id
+    if session[:category_id] != ""
+      category_id = session[:category_id]
       @public_entities = @public_entities.where(:category_id => category_id)
     end
     

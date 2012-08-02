@@ -11,26 +11,23 @@ require 'CSV'
 
 Category.delete_all
 PublicEntity.delete_all
-Incidents.delete_all
+Incident.delete_all
 
 categories_path = File.dirname(__FILE__) + "/categories.csv"
 
-CSV.foreach(categories_path, :col_sep => ";") do |row|
-  Category.create(name: row[0])
+public_entity_types = {}
+CSV.foreach(categories_path, :col_sep => ",") do |row|
+  if row[0]
+    public_entity_types[row[0]] = row[1]
+  end
+  Category.create(name: row[1])
 end
 
-public_entities_path = File.dirname(__FILE__) + "/tax_offices.csv"
-
-tax_office_category = Category.where(:name => "Εφορίες").first
-
-CSV.foreach(public_entities_path, :col_sep => ";") do |row|
-  PublicEntity.create(name: row[0], category_id: tax_office_category.id)
-end
-
-public_entities_path = File.dirname(__FILE__) + "/hospitals.csv"
-
-hospital_category = Category.where(:name => "Νοσοκομεία").first
-
-CSV.foreach(public_entities_path, :col_sep => ";", :quote_char => '"') do |row|
-  PublicEntity.create(name: row[0], category_id: hospital_category.id)
+public_entity_types.each do |english_name, greek_name|
+  file_path = File.dirname(__FILE__) + "/#{english_name}.csv"
+  puts "processing #{file_path}"
+  category = Category.where(:name => greek_name).first
+  CSV.foreach(file_path, :col_sep => ";") do |row|
+    PublicEntity.create(name: row[0], category_id: category.id)
+  end
 end
