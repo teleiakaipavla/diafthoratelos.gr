@@ -1,18 +1,31 @@
 $(function() {
 
+    var category_id_val = "";
+
     $("#public_entity_category_id").change(function() {
-	$.ajax({
-	    type: 'POST',
-	    url: '/public_entities/category',
-	    data: {
-		category_id: $(this).val()
-	    }
-	});
+	category_id_val = $(this).val();
     });
     
     $("#public_entity_name").autocomplete({
-	source: "/public_entities/search",
-	minLength: 2
+	source: function(request, response) {
+	    $.ajax({
+		url: "/public_entities/search",
+		dataType: "json",
+		data: {
+		    term: request.term,
+		    category_id: category_id_val,
+		},
+		success: function(data) {
+		    response($.map(data, function(item) {
+			return {
+			    label: item.label,
+			    value: item.value
+			}}))},
+	    })},
+	minLength: 2,
+	select: function(event, ui) {
+	    $(this).val(ui.item.label);
+	},
     });
 
 });

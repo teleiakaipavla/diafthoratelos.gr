@@ -20,25 +20,17 @@ class PublicEntitiesController < ApplicationController
       @public_entities = PublicEntity.all
     end
 
-    if session[:category_id] != ""
-      category_id = session[:category_id]
+    if params[:category_id] != ""
+      category_id = params[:category_id]
       @public_entities = @public_entities.where(:category_id => category_id)
     end
     
     respond_to do |format|
       format.html { render "index" }
       format.json do
-        names = @public_entities.collect { |pe| pe.name }
+        names = @public_entities.collect { |pe| {value: pe.id, label: pe.name} }
         render :json => names
       end 
-    end
-  end
-
-  # POST /public_entities/category
-  def category
-    session[:category_id] = params[:category_id]
-    respond_to do |format|
-      format.json { render json: { :ok => true } }
     end
   end
   
