@@ -8,17 +8,6 @@
     <script src="js/global.js" type="text/javascript"></script>
 </head>
 <body>
-<script>
-
-    function SelectType(type) {
-        $('img[data-type="' + type + '"]').show();
-
-        if (type == 'diafthora')
-            $('img[data-type="peristatiko"]').hide()
-        else
-            $('img[data-type="diafthora"]').hide()
-    }
-</script>
     <div class="master">
 <!--Header Start        -->
         <div id="Header">
@@ -50,29 +39,12 @@
 <!--Header End        -->
 
     <div class="content">
-        <h1 class="exeisimvikaisemena-icon">Έχει συμβεί και σε μένα!</h1>
-        <div class="subtext">Βοήθησε και εσύ να συρρικνώσουμε τη μαύρη τρύπα της διαφθοράς, γράφοντας τη δική σου εμπειρία.</div>
-        <div class="text exeisimvikaisemena">
-           <div class="left diafthora" ><img src="images/exeisimvikaisemena/diafthora.png" onclick="SelectType('diafthora')" />
-               <img src="images/exeisimvikaisemena/tick.png" class="tick" data-type="diafthora" />
-           </div>
-           <div class="left or" ><img src="images/exeisimvikaisemena/or.png" /></div>
-           <div class="left peristatiko"><img src="images/exeisimvikaisemena/peristatiko.png" onclick="SelectType('peristatiko')" />
-           <img src="images/exeisimvikaisemena/tick.png" class="tick" data-type="peristatiko" />
-           </div>
-            
-           <div class="clear"></div>
-           <div  class="left next-left"><a href="diafthora.htm"><img border="0" src="images/btns/next.png" data-type="diafthora" /></a></div>
-           <div class="left next-right"><a href="peristatiko.htm"><img border="0" src="images/btns/next.png" data-type="peristatiko" /></a></div>
-           <div class="clear"></div>
-            
+        <h1 class="dikaiomata-icon">Δες που συμβαίνει</h1>
+        <div class="subtext">Βοήθησε και εσύ να συρρικνώσουμε την μαύρη τρύπα της διαφθοράς, γράφοντας και εσύ την δική σου εμπειρία<br />από το περιστατικό διαφθοράς που έχεις βιώσει.</div>
+        <div class="text">
+            <img src="images/map/map.png" />
         </div>
-        <div class="readmore">
-            <div class="starts">* * *</div>
-            <div class="txt">ΤΑ ΣΤΟΙΧΕΙΑ ΥΠΟΒΑΛΟΝΤΑΙ ΑΝΩΝΥΜΑ</div>
-            <div class="starts">* * *</div>
-            <div class="link"><a href="#">Μάθε περισσότερα</a></div>
-        </div>
+        
     </div>
 
 <!--Footer Start        -->
@@ -83,4 +55,3 @@
     </div>
 </body>
 </html>
-

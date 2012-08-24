@@ -52,7 +52,7 @@
 
 
 .content{width:896px;background-color:White;margin-top:28px;margin-bottom:26px;padding:31px 31px 31px 31px}
-.content h1{margin:0px;font-family:PF Agora Slab Pro;font-size:24px;color:#009fe3;}
+.content h1{margin:0px;font-family:PF Agora Slab Pro;font-size:24px;color:#009fe3;margin-top:-7px}
 .content .subtext{font-family:PF Agora Slab Pro;font-size:16px;color:#010100;line-height:18px;padding-top:10px}
 .content .text{font-family:Arial;font-size:12px;color:#444444;line-height:20px;padding-top:25px}
 .content .readmore{font-family:PF Agora Slab Pro;font-size:16px;color:#009fe3;font-weight:bold;line-height:54px;height:52px;margin-top:44px;border-top:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5}
@@ -131,3 +131,63 @@
 
 .exeisimvikaisemena .next-left img{display:none}
 .exeisimvikaisemena .next-right img{display:none}
+
+.diafthora{padding-top:45px}
+.diafthora .box{width:280px;height:240px;background-color:#f1f1f1;float:left;margin-right:16px;margin-bottom:16px;}
+.diafthora .box-big{width:576px;height:240px;background-color:#f1f1f1;float:left;margin-bottom:16px;}
+.diafthora .dtm{background-image:url('../images/diafthora/dtm.png');background-repeat:no-repeat;background-position:center center}
+.diafthora .dtm-ddl-holder{padding-top:200px}
+.diafthora .dtm-ddl-holder .dll{padding-left:5px}
+
+
+.diafthora .category{background-image:url('../images/diafthora/category.png');background-repeat:no-repeat;background-position:center center}
+.diafthora .category-ddl-holder{padding-top:200px}
+.diafthora .category-ddl-holder .dll{padding-left:5px}
+
+.diafthora .place{background-image:url('../images/diafthora/place.png');background-repeat:no-repeat;background-position:center top}
+.diafthora .place-ddl-holder{padding-top:200px}
+.diafthora .place-ddl-holder .dll{padding-left:5px}
+
+
+.diafthora .money{background-image:url('../images/diafthora/money.png');background-repeat:no-repeat;background-position:center top}
+.diafthora .money-ddl-holder{padding-top:155px;padding-left:13px}
+.diafthora .money-ddl-holder .moneytxt{background-image:url('../images/diafthora/moneybg.png');background-repeat:no-repeat;width:250px;height:33px;margin-bottom:10px}
+.diafthora .money-ddl-holder .moneytxt input{width:200px;margin-left:40px;height:26px;line-height:26px;background:transparent;border:0px;margin-top:2px}
+
+.diafthora .comments{background-image:url('../images/diafthora/comments.png');background-repeat:no-repeat;background-position:center top}
+.diafthora .comments-ddl-holder{padding-top:85px;padding-left:10px}
+.diafthora .comments-ddl-holder .commentstxt{background-image:url('../images/diafthora/textarea.png');background-repeat:no-repeat;width:260px;height:124px;margin-bottom:3px}
+.diafthora .comments-ddl-holder .commentstxt textarea{width:246px;height:108px;margin:4px;outline:none;border:0px}
+.diafthora .comments-ddl-holder .sub-text{font-family:Arial;font-style:italic;font-size:11px;color:#8c8b8b;line-height:12px}
+
+.diafthora .comments-ddl-holder .commentstxt-big{background-image:url('../images/diafthora/textarea-big.png');background-repeat:no-repeat;width:558px;height:124px;margin-bottom:3px}
+.diafthora .comments-ddl-holder .commentstxt-big textarea{width:542px;height:108px;margin:4px;outline:none;border:0px}
+
+
+.diafthora .map-ddl-holder .map{padding:10px}
+.diafthora .map-ddl-holder .dll{padding-left:5px}
+.diafthora .bottom{margin-top:3px;width:870px;height:62px;background-color:#f1f1f1;}
+.diafthora .bottom .captcha{float:left;width:259px;}
+.diafthora .bottom .poiter{float:left;padding-top:18px;width:48px;}
+.diafthora .bottom .txt{float:left;background-image:url('../images/diafthora/text.png');background-repeat:no-repeat;width:260px;height:33px;margin-top:17px}
+.diafthora .bottom .txt input{width:250px;height:26px;line-height:26px;background:transparent;border:0px;margin-top:2px;margin-left:3px}
+.diafthora .bottom .btn{float:left;padding-top:16px;margin-left:40px;cursor:pointer}
+.diafthora .return{padding-top:20px}
+.Cloud{width:189px;height:52px;background-image:url('../images/diafthora/Cloud.png');background-repeat:no-repeat;font-size:11px;color:#a1a1a2;font-weight:bold;font-family:Arial;position:absolute;text-align:center;line-height:40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,3 +7,16 @@
     });
 });
 
+
+
+function ClearTxt(obj, text) {
+    if ($(obj).val() == text) {
+        $(obj).val('')
+    }
+}
+
+function ResetTxt(obj, text) {
+    if ($(obj).val() == '') {
+        $(obj).val(text)
+    }
+}
