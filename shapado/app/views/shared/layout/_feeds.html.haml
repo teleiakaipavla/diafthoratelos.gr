@@ -1,3 +1,0 @@
--if @feed_urls && !@feed_urls.empty?
-  -@feed_urls.each do |title, url|
-    %link{:rel=>"alternate", :type=>"application/atom+xml", :title => h(title), :href=> url}

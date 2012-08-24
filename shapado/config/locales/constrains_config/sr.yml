@@ -1,8 +1,0 @@
-# Messages for Serbian (Cyrillic script) (‪српски (ћирилица)‬)
-# Exported from translatewiki.net
-# Export driver: syck-pecl
-# Author: Rancher
-sr: 
-  activemodel: 
-    models: 
-      constrains_config: Поставке ограничавања угледа

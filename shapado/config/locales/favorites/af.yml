@@ -1,9 +1,0 @@
-# Messages for Afrikaans (Afrikaans)
-# Exported from translatewiki.net
-# Export driver: syck-pecl
-# Author: Naudefj
-af: 
-  activerecord: 
-    models: 
-      favorite: Gunsteling
-      favorites: Gunstelinge

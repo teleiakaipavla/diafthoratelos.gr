@@ -1,5 +1,0 @@
--if @resources.empty?
-  = render "shared/empty", :type => "activities", :url => ""
--else
-  - @resources.each do |activity|
-    = render "activities/activity", :activity => activity
