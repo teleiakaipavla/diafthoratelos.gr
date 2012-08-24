@@ -1,0 +1,8 @@
+Το έργο αυτό έχει ως στόχο την ανάπτυξη του ιστότοπου 'www.teleiakaipavla.gr'
+
+Αποτελείται από τρεις εφαρμογές: 
+
+1. Το wordpress site για την εξυπηρέτηση του περιεχομένου -> php/wordpress
+2. Την Q&A πλατφόρμα 'question2answer' που ζει μέσα στο wordpress -> php/wordpress/qa
+3. Μια εφαρμογή σε Ruby on Rails για την καταχώρηση και διαχείριση των αναφορών -> ror/backkick
+
