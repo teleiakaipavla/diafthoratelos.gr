@@ -30,11 +30,13 @@
 	======================================================================
 */
 
-	define('QA_MYSQL_HOSTNAME', '127.0.0.1'); // try '127.0.0.1' or 'localhost' if MySQL on same server
-	define('QA_MYSQL_USERNAME', 'root');
-	define('QA_MYSQL_PASSWORD', '3cc135');
-	define('QA_MYSQL_DATABASE', 'teleiakaipavla');
-	define('QA_WORDPRESS_INTEGRATE_PATH', '/Users/makis/Documents/diafthoratelos.gr/php/wordpress');
+$db = parse_url($_SERVER["DATABASE_URL"]);
+
+define('QA_MYSQL_HOSTNAME', $db["host"]); // try '127.0.0.1' or 'localhost' if MySQL on same server
+define('QA_MYSQL_USERNAME', $db["user"]);
+define('QA_MYSQL_PASSWORD', $db["pass"]);
+define('QA_MYSQL_DATABASE', trim($db["path"],"/"));
+define('QA_WORDPRESS_INTEGRATE_PATH', '/app/www');
 	
 /*
 	Ultra-concise installation instructions:
