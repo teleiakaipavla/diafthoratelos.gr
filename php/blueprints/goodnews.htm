@@ -14,25 +14,70 @@
     <link href="js/nkal/dropdown/dropdown.css" rel="stylesheet" type="text/css" />
     <script src="js/nkal/dropdown/dropdown.js" type="text/javascript"></script>
     <script src="js/goodnews.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800,400,600&subset=latin,greek' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<!--Popup Start        -->
+    <div class="popupMain">
+        <div class="popup">
+            <div class="popup-close">
+                <a onclick="$('.popupMain').hide()"><img src="images/global/close.png" /></a>
+            </div>
+            <div class="readmore">
+                <div class="stars pl5">&nbsp;* * *</div>
+                <div class="txt">ΤΑ ΣΤΟΙΧΕΙΑ ΥΠΟΒΑΛΛΟΝΤΑΙ ΑΝΩΝΥΜΑ</div>
+                <div class="stars">* * *</div>
+                <div class="clear"></div><div class="clear"></div>
+                <div class="popup-holder">
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+                        In ultricies massa at massa adipiscing tincidunt.<br />
+                        Sed pretium ultricies ornare.<br />
+                        Nam tincidunt condimentum nisl, vel luctus justo consectetur in.<br />
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br />
+                        Mauris blandit tellus ac quam elementum facilisis. Nulla ac odio quam.<br />
+                        Phasellus ut sem sed neque blandit hendrerit eu nec diam.<br />
+                        Integer vestibulum felis at lacus blandit facilisis.<br />
+                        Nunc volutpat nisi in tellus convallis a ullamcorper lacus blandit.<br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+                        In ultricies massa at massa adipiscing tincidunt. Sed pretium ultricies ornare.<br />
+                        Nam tincidunt condimentum nisl, vel luctus justo consectetur in.<br />
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br />
+                        Mauris blandit tellus ac quam elementum facilisis. Nulla ac odio quam.<br />
+                        Phasellus ut sem sed neque blandit hendrerit eu nec diam.<br />
+                        Integer vestibulum felis at lacus blandit facilisis.<br />
+                        Nunc volutpat nisi in tellus convallis a ullamcorper lacus blandit.<br />
+                        Nam tincidunt condimentum nisl, vel luctus justo consectetur in.<br />
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br />
+                        Mauris blandit tellus ac quam elementum facilisis. Nulla ac odio quam.<br />
+                        Phasellus ut sem sed neque blandit hendrerit eu nec diam.<br />
+                        Integer vestibulum felis at lacus blandit facilisis.<br />
+                        Nunc volutpat nisi in tellus convallis a ullamcorper lacus blandit.<br />
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Popup End        -->
+
     <div class="master">
 <!--Header Start        -->
         <div id="Header">
             <div class="master-logo-holder">
             <!--Social Start        -->
                 <div class="social">
-                    <div class="fb"><a href="#"><img border="0" src="images/Global/facebook.png" /></a></div>
-                    <div class="tw"><a href="#"><img border="0" src="images/Global/twitter.png" /></a></div>
-                    <div class="mail"><a href="#"><img border="0" src="images/Global/mail.png" /></a></div>
+                    <div class="fb"><a href="#"><img border="0" src="images/global/facebook.png" /></a></div>
+                    <div class="tw"><a href="#"><img border="0" src="images/global/twitter.png" /></a></div>
+                    <div class="mail"><a href="#"><img border="0" src="images/global/mail.png" /></a></div>
                 </div>
             <!--Social End        -->
-                <div class="logo"><a href="home.htm"><img border="0" src="images/Global/Logo.png" /></a></div>
+                <div class="logo"><a href="home.htm"><img border="0" src="images/global/Logo.png" /></a></div>
                 <div class="menu">
                     <ul id="menu">
                     </ul>
                     <div>
-                        <img src="images/Global/kinimapolitontext.png" />
+                        <img src="images/global/kinimapolitontext.png" />
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -51,15 +96,15 @@
         <div class="left filter-ddl"><select id="category" ></select></div>
         <div class="left filter-ddl"><select id="city" ></select></div>
         <div class="left filter-ddl"><select id="carrier" ></select></div>
-        <div class="left filter-btn"><img src="images/btns/search.png" /></div>
+        <div class="left filter-btn"><img onmouseover="this.src='images/btns/searchon.png'" onmouseout="this.src='images/btns/search.png'"  src="images/btns/search.png" /></div>
         <div class="clear"></div>
     </div>
     <div class="content">
         <h1 class="goodnews-icon">Tα καλά νέα</h1>
-        <div class="subtext">Υπάρχουν και τα καλά περιστατικά ανθρώπων που κάνουν σωστά και έντιμα την δουλειά τους που δεν θα πρέπει να ξεχνάμε αλλά να επιβραβεύουμε...</div>
+        <div class="subtext">Διαφθορά δεν υπάρχει παντού. Καθημερινά βιώνουμε περιστατικά που αξίζει να αναδεικνύουμε</div>
         <div class="text">&nbsp;</div> 
         <div class="goodnews">
-            <div class="title">Περιστατικά</div>
+            <div class="title">Θετικά περιστατικά</div>
             <div class="title-small grid-bg">
                 <a >Οι καλύτερες υπηρεσίες</a>
             </div>
@@ -77,9 +122,9 @@
     </div>
 
 <!--Footer Start        -->
-    <div class="footer">
-        Copyright 2012  |  <a href="#" title="Σχετικά με τη δράση">Σχετικά με τη δράση</a>  |  <a href="#" title="Όροι χρήσης">Όροι χρήσης</a>  |  <a href="#" title="Προσωπικά δεδομένα">Προσωπικά δεδομένα</a>
-    </div>
+<div class="footer">
+    Copyright 2012  |  <a href="about.htm" title="Σχετικά με τη δράση">Σχετικά με τη δράση</a>  |  <a href="#" title="Όροι χρήσης">Όροι χρήσης</a>  |  <a href="#" title="Προσωπικά δεδομένα">Προσωπικά δεδομένα</a>
+</div>
 <!--Footer End        -->
     </div>
 </body>

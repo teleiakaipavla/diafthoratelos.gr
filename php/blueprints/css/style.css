@@ -1,10 +1,7 @@
 ﻿body 
 {
-    background-image:url('../images/Global/bg.png');
-  font-family:arial
-   
-   
-   
+  background-image:url('../images/global/bg.png');
+  font-family:arial;margin-top:30px;
 }
 
 .clear{clear:both}
@@ -12,78 +9,101 @@
 .p5{padding:5px}
 .pt10{padding-top:10px}
 .pl15{padding-left:15px}
-
+.pl100{padding-left:100px}
 .master{width:958px;margin-right:auto;margin-left:auto;}
 
 .master-logo-holder{width:479px;height:238px;background-color:White;float:left}
-.master-logo-holder .logo{padding:10px 30px 0px 20px;float:left;margin-top:-111px}
-.master-logo-holder .menu{float:left;padding-top:16px;margin-top:-111px}
+.master-logo-holder .logo{padding:0px 30px 0px 20px;float:left;margin-top:-117px}
+.master-logo-holder .menu{float:left;padding-top:6px;margin-top:-117px}
 .master-logo-holder .menu ul {margin: 0;margin-left:2px;padding: 0px 0px 0px 0px;list-style: none;line-height: 16px;}
-.master-logo-holder .menu ul li a{color:#b6b4b4;font-family:Arial;font-size:11px;text-decoration:none}
-.master-black-hole{width:479px;height:238px;float:left;background-image:url('../images/Global/blackhole.png');}
-.master-black-hole .text{font-family:PF Agora Sans Pro;font-size:30px;color:White;width:122px;padding:27px  105px 0px 30px;float:left}
-.master-black-hole .money{float:left;font-family:PF Agora Sans Pro;font-size:45px;color:White;width:205px;padding-top:95px;text-align:center}
+.master-logo-holder .menu ul li a{color:#b6b4b4;font-family:Arial;font-size:11px;text-decoration:none;padding-left:10px;padding-right:10px;margin-left:-10px}
+.master-logo-holder .menu ul li a:hover{color:white;font-family:Arial;font-size:11px;text-decoration:none;background-color:#009fe3;width:200px;padding-left:10px;padding-right:10px;margin-left:-10px}
+
+.master-black-hole{width:479px;height:238px;float:left;background-image:url('../images/global/blackhole.png');}
+.master-black-hole .text{font-family:'Open Sans', sans-serif;font-size:30px;color:White;width:122px;padding:31px  105px 0px 30px;float:left;line-height:36px}
+.master-black-hole .money{float:left;font-family:'Open Sans', sans-serif;font-size:45px;color:White;width:205px;padding-top:95px;text-align:center}
 
 .home-left{float:left;padding-top:14px}
+.home-left a{text-decoration:none}
 .home-right{float:left}
 
-.home-bluebox{width:230px;height:200px;background-image:url('../images/home/bluebox.png');background-repeat:no-repeat;margin:0px 12px 11px 0px}
-.home-bluebox-last{width:230px;height:200px;background-image:url('../images/home/bluebox.png');background-repeat:no-repeat;margin:0px 0px 14px 0px}
 
+.home-bluebox{width:230px;height:200px;background-image:url('../images/home/bluebox.png');background-repeat:no-repeat;margin:0px 0px 11px 12px}
+.home-bluebox-last{width:230px;height:200px;background-image:url('../images/home/bluebox.png');background-repeat:no-repeat;margin:0px 0px 0px  0px}
 .home-bluebox .img{text-align:center;padding-bottom:20px}
-.home-bluebox .title{text-align:center;font-family:PF Agora Sans Pro;font-size:28px;color:White;font-weight:bold;line-height:29px}
-.home-bluebox .text{text-align:center;font-family:PF Agora Sans Pro;font-size:15px;color:White;padding-top:22px}
-
+.home-bluebox .title{text-align:center;font-family:'Open Sans', sans-serif;font-size:24px;color:White;font-weight:bold;line-height:29px}
+.home-bluebox .text{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:22px}
 .home-bluebox .img-big{text-align:center;padding-bottom:10px}
-.home-bluebox .text-big{text-align:center;font-family:PF Agora Sans Pro;font-size:15px;color:White;padding-top:8px}
-
+.home-bluebox .text-big{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:8px}
 
 .home-bluebox-last .img{text-align:center;padding-bottom:20px}
-.home-bluebox-last .title{text-align:center;font-family:PF Agora Sans Pro;font-size:28px;color:White;font-weight:bold;line-height:29px}
-.home-bluebox-last .text{text-align:center;font-family:PF Agora Sans Pro;font-size:15px;color:White;padding-top:22px}
+.home-bluebox-last .img-big{text-align:center;padding-bottom:10px}
+.home-bluebox-last .title{text-align:center;font-family:'Open Sans', sans-serif;font-size:24px;color:White;font-weight:bold;line-height:29px}
+.home-bluebox-last .text{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:22px}
+
+
+.home-bluebox-over{width:230px;height:200px;background-image:url('../images/home/blueboxover.png');background-repeat:no-repeat;margin:0px  0px 11px  12px}
+.home-bluebox-last-over{width:230px;height:200px;background-image:url('../images/home/blueboxover.png');background-repeat:no-repeat;margin:0px 0px  0px 0px}
+
+.home-bluebox-over .img{text-align:center;padding-bottom:20px}
+.home-bluebox-over .title{text-align:center;font-family:'Open Sans', sans-serif;font-size:24px;color:White;font-weight:bold;line-height:29px}
+.home-bluebox-over .text{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:22px}
+.home-bluebox-over .img-big{text-align:center;padding-bottom:10px}
+.home-bluebox-over .text-big{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:8px}
+.home-bluebox-last-over .img{text-align:center;padding-bottom:20px}
+.home-bluebox-last-over .img-big{text-align:center;padding-bottom:10px}
+.home-bluebox-last-over .title{text-align:center;font-family:'Open Sans', sans-serif;font-size:24px;color:White;font-weight:bold;line-height:29px}
+.home-bluebox-last-over .text{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:22px}
+
+
+
 .home-bottom{padding-top:8px}
 .home-video{padding-top:14px;width:715px;height:414px}
-.footer{text-align:center;color:#8c8b8b;font-size:12px;font-family:Arial}
+.footer{text-align:center;color:#8c8b8b;font-size:12px;font-family:Arial;background-image:url('../images/global/footer.png');background-repeat:repeat-x;line-height:37px}
 .footer a{color:#8c8b8b;font-size:12px;text-decoration:none;font-family:Arial}
-.social{margin-left:-36px;width:36px;height:111px;background-image:url('../images/Global/social.png');}
+.footer a:hover{text-decoration:underline}
+.social{margin-left:-36px;width:36px;height:111px;background-image:url('../images/global/social.png');margin-top:16px}
 .social .fb{padding-top:11px;padding-left:6px;}
 .social .tw{padding-top:11px;padding-left:6px;}
 .social .mail{padding-top:11px;padding-left:8px;}
 
 
 .content{width:896px;background-color:White;margin-top:28px;margin-bottom:26px;padding:31px 31px 31px 31px}
-.content h1{margin:0px;font-family:PF Agora Slab Pro;font-size:24px;color:#009fe3;margin-top:-7px}
-.content .subtext{font-family:PF Agora Slab Pro;font-size:16px;color:#010100;line-height:18px;padding-top:10px}
+.content h1{margin:0px;font-family:'Open Sans', sans-serif;font-size:24px;color:#009fe3;margin-top:-7px}
+.content .subtext{font-family:'Open Sans', sans-serif;font-size:16px;color:#010100;line-height:18px;padding-top:10px}
 .content .text{font-family:Arial;font-size:12px;color:#444444;line-height:20px;padding-top:25px}
-.content .readmore{font-family:PF Agora Slab Pro;font-size:16px;color:#009fe3;font-weight:bold;line-height:54px;height:52px;margin-top:44px;border-top:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5}
+.content .readmore{font-family:'Open Sans', sans-serif;font-size:16px;color:#009fe3;font-weight:bold;line-height:54px;height:52px;margin-top:44px;border-top:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5}
 .content .readmore .starts{float:left;padding-top:3px}
 .content .readmore .txt{float:left;padding-left:7px;padding-right:7px}
 .content .readmore .link{padding-left:10px;float:left}
 .content .readmore .link a{color:#010100;font-size:12px;font-weight:normal;}
+
+.qa{width:958px;background-color:White;margin-top:28px;margin-bottom:26px;padding:0px 0px 0px 0px}
 
 .sxetika-icon{background-image:url('../images/icons/sxetika.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:43px}
 .dikaiomata-icon{background-image:url('../images/icons/dikaiomata.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:43px;line-height:40px}
 .goodnews-icon{background-image:url('../images/icons/goodnews.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:43px;line-height:40px}
 .protoimediafora-icon{background-image:url('../images/icons/protoimediafora.png');background-repeat:no-repeat;background-position:left bottom;padding:0px;padding-left:63px;line-height:40px}
 .exeisimvikaisemena-icon{background-image:url('../images/icons/exeisimvikaisemena.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:63px;line-height:63px;height:44px;}
+.pousimveni-icon{background-image:url('../images/icons/pousimveni.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:43px;line-height:63px;height:44px;}
 
 .kataggelies-filter{background-image:url('../images/katagkelies/Filter-Rptbg.png');background-repeat:repeat-x;width:896px;padding:0px 31px 0px 31px;line-height:52px;margin-top:22px;margin-bottom:-38px;height:64px}
-.kataggelies-filter .pointerbg{color:#a1a1a2;font-family:Arial;font-size:11px;font-weight:bold;float:left;background-image:url('../images/katagkelies/Filter-pointer.png');height:64px;background-repeat:no-repeat}
+.kataggelies-filter .pointerbg{color:#a1a1a2;font-family:Arial;font-size:11px;font-weight:bold;float:left;background-image:url('../images/katagkelies/Filter-pointer.png');height:67px;background-repeat:no-repeat}
 .kataggelies-filter .filter-ddl{padding-top:10px;padding-left:10px}
 .kataggelies-filter .filter-btn{padding-top:8px;padding-left:10px}
 
 
-.content .kataggelies .title{font-family:PF Agora Slab Pro;font-size:25px;color:White;background-color:#009fe3;line-height:40px;padding-left:23px;width:617px;margin-right:20px;float:left}
-.content .kataggelies .title-small{font-family:PF Agora Slab Pro;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px}
-.content .kataggelies .title-small .asked{font-family:PF Agora Slab Pro;font-size:18px;color:White;padding-left:50px}
-.content .kataggelies .title-small .given{font-family:PF Agora Slab Pro;font-size:18px;color:White;padding-left:25px}
+.content .kataggelies .title{font-family:'Open Sans', sans-serif;font-size:25px;color:White;background-color:#009fe3;line-height:40px;padding-left:23px;width:617px;margin-right:20px;float:left}
+.content .kataggelies .title-small{font-family:'Open Sans', sans-serif;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px}
+.content .kataggelies .title-small .asked{font-family:'Open Sans', sans-serif;font-size:18px;color:White;padding-left:50px}
+.content .kataggelies .title-small .given{font-family:'Open Sans', sans-serif;font-size:18px;color:White;padding-left:25px}
 .content .kataggelies .grid-bg{background-image:url('../images/katagkelies/smalltitle.png');background-repeat:no-repeat;}
 
 .content .kataggelies .grid {width:913px;height:500px;overflow-x:hidden}
 .content .kataggelies .grid .incidents{width:640px;height:106px;background-color:#f7f7f7;margin-right:20px;float:left;margin-bottom:23px}
 .content .kataggelies .grid .money{width:233px;height:106px;background-color:#f7f7f7;float:left;margin-bottom:23px}
-.content .kataggelies .grid .money .asked{font-family:PF Agora Slab Pro;font-size:24px;color:black;margin-left:50px;display:block;float:left;width:80px;text-align:center;line-height:40px;padding-top:30px}
-.content .kataggelies .grid .money .given{font-family:PF Agora Slab Pro;font-size:24px;color:black;display:block;float:left;margin-left:13px;width:85px;text-align:center;line-height:38px;padding-top:30px}
+.content .kataggelies .grid .money .asked{font-family:'Open Sans', sans-serif;font-size:24px;color:black;margin-left:50px;display:block;float:left;width:80px;text-align:center;line-height:40px;padding-top:30px}
+.content .kataggelies .grid .money .given{font-family:'Open Sans', sans-serif;font-size:24px;color:black;display:block;float:left;margin-left:13px;width:85px;text-align:center;line-height:38px;padding-top:30px}
 .content .kataggelies .grid .incidents .categories{color:#009fe3;font-size:13px;font-family:Arial;padding-top:13px;padding-left:23px}
 .content .kataggelies .grid .incidents .categories a{color:#009fe3;font-size:13px;font-family:Arial;text-decoration:none}
 .content .kataggelies .grid .incidents .descr{color:#1d1d1b;font-size:18px;font-family:Arial;padding-top:3px;padding-left:23px;padding-right:23px;height:45px;overflow:hidden}
@@ -92,8 +112,8 @@
 
 
 
-.content .goodnews .title{font-family:PF Agora Slab Pro;font-size:25px;color:White;background-color:#009fe3;line-height:40px;padding-left:23px;width:617px;margin-right:20px;float:left}
-.content .goodnews .title-small{font-family:PF Agora Slab Pro;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px}
+.content .goodnews .title{font-family:'Open Sans', sans-serif;font-size:25px;color:White;background-color:#009fe3;line-height:40px;padding-left:23px;width:617px;margin-right:20px;float:left}
+.content .goodnews .title-small{font-family:'Open Sans', sans-serif;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px}
 .content .goodnews .grid-bg{background-image:url('../images/goodnews/smalltitle.png');background-repeat:no-repeat;}
 .content .goodnews .grid-bg a{padding-left:12px}
 .content .goodnews .grid {width:651px;height:500px;overflow-x:hidden;float:left;padding-right:3px;margin-right:4px}
@@ -106,19 +126,21 @@
 
 
 .content .goodnews .topten{float:left}
-.content .goodnews .topten .box{float:left;background-image:url('../images/goodnews/toptenbox.png');background-repeat:no-repeat;width:38px;height:39px;font-family:PF Agora Slab Pro;font-size:21px;line-height:38px;text-align:center;color:White;margin-bottom:7px}
+.content .goodnews .topten .box{float:left;background-image:url('../images/goodnews/toptenbox.png');background-repeat:no-repeat;width:38px;height:39px;font-family:'Open Sans', sans-serif;font-size:21px;line-height:38px;text-align:center;color:White;margin-bottom:7px}
 .content .goodnews .topten .holder{float:left;width:190px;height:39px;background-image:url('../images/goodnews/toptenholder.png');background-repeat:no-repeat;margin-left:7px;margin-bottom:7px}
 .content .goodnews .topten .holder h1{color:#1d1d1b;font-family:Arial;font-size:15px;padding:0px;margin:0px;font-weight:bold}
 .content .goodnews .topten .holder h2{color:#999999;font-family:Arial;font-size:10px;padding:0px;margin:0px;font-weight:normal}
 
 .protimediafora{}
-.protimediafora .box{float:left;background-image:url('../images/protimediafora/box.png');background-repeat:no-repeat;width:50px;height:53px;font-family:PF Agora Slab Pro;font-size:21px;line-height:53px;text-align:center;color:White;margin-bottom:7px}
+.protimediafora .box{float:left;background-image:url('../images/protimediafora/box.png');background-repeat:no-repeat;width:50px;height:53px;font-family:'Open Sans', sans-serif;font-size:21px;line-height:53px;text-align:center;color:White;margin-bottom:7px}
 .protimediafora .descr{float:left;margin-right:4px;margin-left:8px;margin-bottom:7px}
 .protimediafora .descr .rpt{float:left;background-image:url('../images/protimediafora/center.png');background-repeat:repeat-x;width:684px;height:53px;}
 .protimediafora .descr .rpt h1{color:#1d1d1b;font-family:Arial;font-size:18px;padding:0px;margin:0px;font-weight:bold}
 .protimediafora .descr .rpt h2{color:#999999;font-family:Arial;font-size:10px;padding:0px;margin:0px;font-weight:normal}
-.protimediafora .given {float:left;background-image:url('../images/protimediafora/center.png');background-repeat:repeat-x;width:147px;height:53px;line-height:53px;text-align:center;font-family:PF Agora Slab Pro;font-size:24px;color:black;margin-bottom:7px}
-
+.protimediafora .given {float:left;background-image:url('../images/protimediafora/center.png');background-repeat:repeat-x;width:147px;height:53px;line-height:53px;text-align:center;font-family:'Open Sans', sans-serif;font-size:24px;color:black;margin-bottom:7px}
+.protimefiafora-header{padding-top:20px}
+.protimefiafora-title{width:146px;height:54px;background-image:url('../images/protimediafora/title.png');background-repeat:no-repeat;margin-top:-25px;position:absolute;margin-left:750px;text-align:center;line-height:40px}
+.protimefiafora-title a{font-family:'Open Sans', sans-serif;font-size:18px;color:White;padding: 0px  0px 0px 30px;}
 
 .exeisimvikaisemena .diafthora{width:382px;text-align:right;padding-top:60px;}
 .exeisimvikaisemena .diafthora img{cursor:pointer}
@@ -126,8 +148,8 @@
 .exeisimvikaisemena .or{width:132px;text-align:center;padding-top:170px}
 .exeisimvikaisemena .peristatiko{width:382px;text-align:left;padding-top:60px}
 .exeisimvikaisemena .peristatiko img{cursor:pointer}
-.exeisimvikaisemena .next-left{width:290px;text-align:right;padding-top:20px;}
-.exeisimvikaisemena .next-right{width:410px;text-align:right;padding-top:20px;}
+.exeisimvikaisemena .next-left{width:290px;text-align:right;padding-top:20px;;height:34px}
+.exeisimvikaisemena .next-right{width:410px;text-align:right;padding-top:20px;;height:34px}
 
 .exeisimvikaisemena .next-left img{display:none}
 .exeisimvikaisemena .next-right img{display:none}
@@ -166,27 +188,31 @@
 
 .diafthora .map-ddl-holder .map{padding:10px}
 .diafthora .map-ddl-holder .dll{padding-left:5px}
-.diafthora .bottom{margin-top:3px;width:870px;height:62px;background-color:#f1f1f1;}
-.diafthora .bottom .captcha{float:left;width:259px;}
-.diafthora .bottom .poiter{float:left;padding-top:18px;width:48px;}
+
+.diafthora .bottom{margin-top:3px;width:870px;height:70px;background-color:#f1f1f1;}
+.diafthora .bottom .captcha{float:left;width:275px;}
+.diafthora .bottom .poiter{float:left;padding-top:26px;width:48px;}
 .diafthora .bottom .txt{float:left;background-image:url('../images/diafthora/text.png');background-repeat:no-repeat;width:260px;height:33px;margin-top:17px}
 .diafthora .bottom .txt input{width:250px;height:26px;line-height:26px;background:transparent;border:0px;margin-top:2px;margin-left:3px}
-.diafthora .bottom .btn{float:left;padding-top:16px;margin-left:40px;cursor:pointer}
+.diafthora .bottom .btn{float:left;padding-top:16px;margin-left:20px;cursor:pointer;font-size:11px;font-family:Arial;font-style:italic;color:#8c8b8b}
 .diafthora .return{padding-top:20px}
 .Cloud{width:189px;height:52px;background-image:url('../images/diafthora/Cloud.png');background-repeat:no-repeat;font-size:11px;color:#a1a1a2;font-weight:bold;font-family:Arial;position:absolute;text-align:center;line-height:40px;}
 
+#recaptcha_image img {width: 250px !important; height: 52px !important;margin-top:10px;margin-left:10px }
 
 
+.popupMain{width:100%;text-align:center;background-image:url('../images/global/black.png');margin:-30px 0px 0px -10px;display:none;position:absolute;z-index:100}
+.popup{width:571px;height:200px;background-color:White;margin-left:auto;margin-right:auto;margin-top:220px}
+.popup .readmore{font-family:'Open Sans', sans-serif;font-size:16px;color:#009fe3;line-height:54px;height:52px;margin-top:34px;border-top:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5}
+.popup .readmore .stars{float:left;padding-top:3px;padding-left:10px;padding-right:10px}
+.popup .readmore .txt{text-align:center;float:left;font-weight:bold;}
+.popup-close{text-align:right;padding-right:40px;padding-top:10px;margin-bottom:-20px}
+.popup-close img{cursor:pointer}
 
 
+.popup-holder{width:550px;height:360px;overflow-x:hidden;margin:10px;font-family:Arial;font-size:12px;color:#010100;text-align:left;line-height:18px;}
 
-
-
-
-
-
-
-
+.popup-holder .jspDrag{opacity: 1;filter:alpha(opacity=100);background:#009fe3}
 
 
 
