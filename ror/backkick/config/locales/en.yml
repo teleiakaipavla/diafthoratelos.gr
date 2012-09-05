@@ -3,3 +3,9 @@
 
 en:
   hello: "Hello world"
+  money_asked: "Money asked"
+  money_given: "Money given"
+  area_city: "Area/City"
+  description: "Incident description"
+  non_identifying: "Texts containing references to specific persons will not be published"
+

@@ -11,32 +11,126 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :incident_date %><br />
-    <%= f.datetime_select :incident_date %>
+  <div class="Cloud">ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ...</div>
+  <div class="diafthora">
+    <div class="box dtm">
+      <div class="dtm-ddl-holder">
+        <div class="left dll">
+
+	  <div class="field">
+	    <%= f.datetime_select :incident_date %>
+	  </div>
+	</div>
+	<div class="clear"></div>
+      </div>
+    </div>
+    
+    <div class="box category">
+      <div class="category-ddl-holder">
+	<div class="dll">
+	  <div class="field ui-widget">
+	    <%= collection_select(:public_entity, :category_id, Category.all,
+		:id, :name, {:include_blank => true} ) %>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div class="box place">
+      <div class="place-ddl-holder">
+        <div class="dll">
+	  <div class="field ui-widget">
+	    <%= search_field_tag :public_entity_name, params[:public_entity_name] %>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="box money">
+      <div class="money-ddl-holder">
+
+	<div class="field">
+	  <div class="moneytxt moneyasked">
+	    <%= f.text_field :money_asked,
+		:value => t(:money_asked),
+   	        :onclick => "ClearTxt(this, '#{t(:money_asked)}')",
+	        :onblur => "ResetTxt(this, '#{t(:money_asked)}')" %>
+	  </div>
+	</div>
+	<div class="field">
+	  <div class="moneytxt moneygiven">
+	    <%= f.text_field :money_given,
+		:value => t(:money_given),
+   	        :onclick => "ClearTxt(this, '#{t(:money_given)}')",
+	        :onblur => "ResetTxt(this, '#{t(:money_given)}')"
+	    %>
+	  </div>
+	</div>
+
+      </div>
+    </div>
+    
+    <div class="box map">
+      <div class="map-ddl-holder">
+        <div class="map">
+          <iframe width="261" height="178" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=greece,athens&amp;aq=&amp;sll=35.51383,24.018037&amp;sspn=0.062109,0.132093&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%91%CE%B8%CE%AE%CE%BD%CE%B1,+%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1&amp;z=13&amp;ll=37.983715,23.72931&amp;output=embed"></iframe><br /><small></small>
+        </div>
+        
+        <div class="dll">
+          <select id="Select1" class="place_dll">
+            <option value="0"><%= t(:area_city) %></option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="box comments">
+      <div class="comments-ddl-holder">
+        <div class="commentstxt comment">
+
+	  <div class="field">
+	    <%= f.text_area :description,
+		:value => t(:description),
+   	        :onclick => "ClearTxt(this, '#{t(:description)}')",
+	        :onblur => "ResetTxt(this, '#{t(:description)}')" %>
+	  </div>
+	</div>
+        <div class="sub-text"><%= t(:non_identifying) %></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="bottom">
+      <div id="recaptcha_widget" style="display:none">
+        <div class="captcha">
+	  <div id="recaptcha_image" style="width:100px"></div>
+	</div> 
+        <div class="pointer"><%= image_tag "diafthora/pointer.png" %></div>
+        <div class="txt recaptchatxt">
+          <input type="text" class="recaptchatxtinput" id="recaptcha_response_field" name="recaptcha_response_field" value="Γράψε το κείμενο δίπλα" onclick="ClearTxt(this,'Γράψε το κείμενο δίπλα')" onblur="ResetTxt(this,'Γράψε το κείμενο δίπλα')" /></div>
+        <div class="btn">(Συμπληρώστε το κείμενο που βλέπετε στο κουτάκι<br />δίπλα χωρίς κενά)</div>
+        <div class="clear"></div>
+        <div class="errormessage">Θα πρέπει να συμπληρώσετε όλα τα απαραίτητα πεδία για να προχωρήσετε στο βήμα της υποβολής του περιστατικού σας.</div>
+        <div>
+	  <br/>
+	  <div class="actions">
+	    <%= image_tag "btns/return.png", :border => "0",
+	    :onclick => "parent.document.location='#'" %>
+	    <%= f.submit "Submit", :type => :image, :src => asset_path("diafthora/ypovoli.png"), :onclick =>
+	    "Validation()" %>
+	  </div>
+        </div>
+	
+	<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
+        <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC"></script>
+        <noscript><iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC" height="57" width="229" frameborder="0"></iframe><br>
+          <textarea name="recaptcha_challenge_field" rows="2" cols="1"></textarea>
+          <input type="hidden" name="recaptcha_response_field" value="manual_challenge"></noscript>
+	
+      <div class="clear"></div>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :money_asked %><br />
-    <%= f.text_field :money_asked %>
+	  
   </div>
-  <div class="field">
-    <%= f.label :money_given %><br />
-    <%= f.text_field :money_given %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </div>
-  <div class="field ui-widget">
-    <%= label_tag :category_name %><br />
-    <%= collection_select(:public_entity, :category_id, Category.all,
-	:id, :name, {:include_blank => true} ) %>
-  </div>
-  <div class="field ui-widget">
-    <%= label_tag :public_entity_name %><br />
-    <%= search_field_tag :public_entity_name, params[:public_entity_name] %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    
 <% end %>

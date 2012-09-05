@@ -1,0 +1,29 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+el:
+  hello: "Καλημέρα κόσμε"
+  money_asked: "Ύψος χρημάτων που ζητήθηκαν"
+  money_given: "Χρήματα που τελικά πλήρωσα"
+  area_city: "Περιοχή/Πόλη"
+  description: "Γράψε εδώ μία σύντομη περιγραφή του περιστατικού"
+  non_identifying: "Κείμενα που περιέχουν αναφορές σε συγκεκριμένα πρόσωπα δεν θα δημοσιεύονται"
+  date:
+    order:
+    - :day
+    - :month
+    - :year
+    month_names:
+    -
+    - Ιανουάριος
+    - Φεβρουάριος
+    - Μάρτιος
+    - Απρίλιος
+    - Μάιος
+    - Ιούνιος
+    - Ιούλιος
+    - Αύγουστος
+    - Σεπτέμβριος
+    - Οκτώβριος
+    - Νοέμβριος
+    - Δεκέμβριος

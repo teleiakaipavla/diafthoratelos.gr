@@ -1,3 +1,9 @@
+var RecaptchaOptions = {
+    tabindex: 1,
+    theme: 'custom',
+    custom_theme_widget: 'recaptcha_widget'
+};
+
 $(function() {
 
     var category_id_val = "";
