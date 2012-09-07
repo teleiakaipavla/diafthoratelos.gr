@@ -15,7 +15,11 @@ class PublicEntitiesController < ApplicationController
     
     @public_entities = nil
     if params[:term]
-      @public_entities = PublicEntity.where('name like ?', "%#{params[:term]}%")
+      if params[:exact]
+        @public_entities = PublicEntity.where('name = ?', "#{params[:term]}")
+      else
+        @public_entities = PublicEntity.where('name like ?', "%#{params[:term]}%")
+      end
     else
       @public_entities = PublicEntity.all
     end

@@ -11,7 +11,7 @@
     </div>
   <% end %>
 
-  <div class="Cloud">ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ...</div>
+  <div class="Cloud"><%= t(:start_here_prompt) %></div>
   <div class="diafthora">
     <div class="box dtm">
       <div class="dtm-ddl-holder">
@@ -39,8 +39,11 @@
     <div class="box place">
       <div class="place-ddl-holder">
         <div class="dll">
-	  <div class="field ui-widget">
-	    <%= search_field_tag :public_entity_name, params[:public_entity_name] %>
+	  <div class="field ui-widget"> 
+	    <%= search_field_tag :public_entity_name,
+		params[:public_entity_name],
+		:value => t(:public_entity_name)
+	    %>
 	  </div>
 	</div>
       </div>
@@ -52,18 +55,13 @@
 	<div class="field">
 	  <div class="moneytxt moneyasked">
 	    <%= f.text_field :money_asked,
-		:value => t(:money_asked),
-   	        :onclick => "ClearTxt(this, '#{t(:money_asked)}')",
-	        :onblur => "ResetTxt(this, '#{t(:money_asked)}')" %>
+		:value => t(:money_asked) %>
 	  </div>
 	</div>
 	<div class="field">
 	  <div class="moneytxt moneygiven">
 	    <%= f.text_field :money_given,
-		:value => t(:money_given),
-   	        :onclick => "ClearTxt(this, '#{t(:money_given)}')",
-	        :onblur => "ResetTxt(this, '#{t(:money_given)}')"
-	    %>
+		:value => t(:money_given) %>
 	  </div>
 	</div>
 
@@ -73,7 +71,10 @@
     <div class="box map">
       <div class="map-ddl-holder">
         <div class="map">
-          <iframe width="261" height="178" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=greece,athens&amp;aq=&amp;sll=35.51383,24.018037&amp;sspn=0.062109,0.132093&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%91%CE%B8%CE%AE%CE%BD%CE%B1,+%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1&amp;z=13&amp;ll=37.983715,23.72931&amp;output=embed"></iframe><br /><small></small>
+          <!-- <iframe width="261" height="178" frameborder="0" -->
+	  <!-- 	  scrolling="no" marginheight="0" marginwidth="0" -->
+	  <!-- 	  src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=greece,athens&amp;aq=&amp;sll=35.51383,24.018037&amp;sspn=0.062109,0.132093&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%91%CE%B8%CE%AE%CE%BD%CE%B1,+%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1&amp;z=13&amp;ll=37.983715,23.72931&amp;output=embed"></iframe> -->
+	  <br />
         </div>
         
         <div class="dll">
@@ -91,8 +92,8 @@
 	  <div class="field">
 	    <%= f.text_area :description,
 		:value => t(:description),
-   	        :onclick => "ClearTxt(this, '#{t(:description)}')",
-	        :onblur => "ResetTxt(this, '#{t(:description)}')" %>
+   	        :onclick => "clearTxt(this, '#{t(:description)}')",
+	        :onblur => "resetTxt(this, '#{t(:description)}')" %>
 	  </div>
 	</div>
         <div class="sub-text"><%= t(:non_identifying) %></div>
@@ -107,7 +108,7 @@
 	</div> 
         <div class="pointer"><%= image_tag "diafthora/pointer.png" %></div>
         <div class="txt recaptchatxt">
-          <input type="text" class="recaptchatxtinput" id="recaptcha_response_field" name="recaptcha_response_field" value="Γράψε το κείμενο δίπλα" onclick="ClearTxt(this,'Γράψε το κείμενο δίπλα')" onblur="ResetTxt(this,'Γράψε το κείμενο δίπλα')" /></div>
+          <input type="text" class="recaptchatxtinput" id="recaptcha_response_field" name="recaptcha_response_field" value="Γράψε το κείμενο δίπλα" onclick="clearTxt(this,'Γράψε το κείμενο δίπλα')" onblur="resetTxt(this,'Γράψε το κείμενο δίπλα')" /></div>
         <div class="btn">(Συμπληρώστε το κείμενο που βλέπετε στο κουτάκι<br />δίπλα χωρίς κενά)</div>
         <div class="clear"></div>
         <div class="errormessage">Θα πρέπει να συμπληρώσετε όλα τα απαραίτητα πεδία για να προχωρήσετε στο βήμα της υποβολής του περιστατικού σας.</div>

@@ -3,6 +3,8 @@
 
 en:
   hello: "Hello world"
+  start_here_prompt: "START HERE BY SELECTING..."
+  public_entity_name: "Search for public entity"
   money_asked: "Money asked"
   money_given: "Money given"
   area_city: "Area/City"

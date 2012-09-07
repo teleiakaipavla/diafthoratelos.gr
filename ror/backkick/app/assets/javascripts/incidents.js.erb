@@ -1,0 +1,98 @@
+<%# encoding: utf-8 %>
+
+var RecaptchaOptions = {
+    tabindex: 1,
+    theme: 'custom',
+    custom_theme_widget: 'recaptcha_widget'
+};
+
+$(function() {
+
+    $("#incident_money_asked").click(function() {
+    	clearTxt($(this), <%= "'#{I18n.translate(:money_asked)}'" %>);
+    });
+
+    $("#incident_money_asked").blur(function() {
+    	resetTxt($(this), <%= "'#{I18n.translate(:money_asked)}'" %>);
+    });
+
+    $("#incident_money_given").click(function() {
+    	clearTxt($(this), <%= "'#{I18n.translate(:money_given)}'" %>);
+    });
+
+    $("#incident_money_given").blur(function() {
+    	resetTxt($(this), <%= "'#{I18n.translate(:money_given)}'" %>);
+    });
+
+    $("#public_entity_name").click(function() {
+    	clearTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+    });
+
+    var foundPublicEntity = false;
+        
+    var categoryIdVal = "";
+
+    $("#public_entity_category_id").change(function() {
+	categoryIdVal = $(this).val();
+    });
+    
+    $("#public_entity_name").autocomplete({
+	source: function(request, response) {
+	    $.ajax({
+		url: "/public_entities/search",
+		dataType: "json",
+		data: {
+		    term: request.term,
+		    category_id: categoryIdVal,
+		},
+		success: function(data) {
+		    response($.map(data, function(item) {
+			return {
+			    label: item.label,
+			    value: item.value
+			}}))},
+	    })},
+	minLength: 2,
+	focus: function(event, ui) {
+	    $(this).val(ui.item.label);
+	    return false; 
+	},	    
+	select: function(event, ui) {
+	    $(this).val(ui.item.label);
+	    return false; 
+	},
+	change: function(event, ui) {
+	    if (ui.item == null) {
+		$.ajax({
+    	    	    url: "/public_entities/search",
+    	    	    dataType: "json",
+    	    	    data: {
+    	    		term: $(this).val(),
+    	    		category_id: categoryIdVal,
+    	    		exact: 1
+    	    	    },
+    	    	    success: function(data) {
+    	    		if (data.length == 0) {
+    	    		    foundPublicEntity = false;
+			    $("#public_entity_name").val(<%= "'#{I18n.translate(:public_entity_name)}'" %>);
+    	    		}
+		    }});
+	    } else if ($(this).val() != ui.item.label) {
+		$(this).val(<%= "'#{I18n.translate(:public_entity_name)}'" %>);		
+	    }
+	},
+    });
+	    
+});
+
+function clearTxt(obj, text) {
+    if ($(obj).val() == text) {
+        $(obj).val('')
+    }
+}
+
+function resetTxt(obj, text) {
+    if ($(obj).val() == '') {
+        $(obj).val(text)
+    }
+}

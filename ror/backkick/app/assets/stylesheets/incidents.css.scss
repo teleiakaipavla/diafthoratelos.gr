@@ -1,3 +1,11 @@
 // Place all the styles related to the incidents controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.diafthora .place-ddl-holder .ui-autocomplete-input{width:250px; margin-left:10px;border:0px;margin-top:2px}
+
+.ui-autocomplete {
+  width: 500px;
+  max-height: 100px;
+  overflow-y: auto;
+}
