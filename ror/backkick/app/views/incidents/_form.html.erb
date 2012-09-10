@@ -18,7 +18,7 @@
         <div class="left dll">
 
 	  <div class="field">
-	    <%= f.datetime_select :incident_date %>
+	    <%= f.date_select :incident_date %>
 	  </div>
 	</div>
 	<div class="clear"></div>
@@ -117,8 +117,9 @@
 	  <div class="actions">
 	    <%= image_tag "btns/return.png", :border => "0",
 	    :onclick => "parent.document.location='#'" %>
-	    <%= f.submit "Submit", :type => :image, :src => asset_path("diafthora/ypovoli.png"), :onclick =>
-	    "Validation()" %>
+	    <%= f.submit "Submit",
+		:type => :image,
+	        :src => asset_path("diafthora/ypovoli.png") %>
 	  </div>
         </div>
 	
