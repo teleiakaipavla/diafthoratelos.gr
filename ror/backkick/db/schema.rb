@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120910085054) do
+ActiveRecord::Schema.define(:version => 20120912184053) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -25,8 +25,9 @@ ActiveRecord::Schema.define(:version => 20120910085054) do
     t.decimal  "money_given"
     t.text     "description"
     t.integer  "public_entity_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
+    t.string   "status",           :default => "pending"
   end
 
   create_table "public_entities", :force => true do |t|

@@ -25,6 +25,11 @@
   <%= @incident.public_entity.name %>
 </p>
 
+<p>
+  <b>Status:</b>
+  <%= @incident.status %>
+</p>
+
 
 <%= link_to 'Edit', edit_incident_path(@incident) %> |
 <%= link_to 'Back', incidents_path %>
