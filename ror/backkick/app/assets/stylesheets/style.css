@@ -210,8 +210,13 @@
 .diafthora .return{padding-top:20px}
 .Cloud{width:189px;height:52px;background-image:url('diafthora/cloud.png');background-repeat:no-repeat;font-size:11px;color:#a1a1a2;font-weight:bold;font-family:Arial;position:absolute;text-align:center;line-height:40px;}
 
-#recaptcha_image img {width: 250px !important; height: 52px !important;margin-top:10px;margin-left:10px }
+#recaptcha_widget td, tr, img { padding: 0px; margin: 0px; border: none; }
+#recaptcha_widget table img { display:block; }
+#recaptcha_widget table { border-collapse: collapse; }
+#recaptcha_icons_logo { float:left; margin-top: 10px; margin-left: 10px;}
 
+#recaptcha_image img {width: 250px !important; height: 52px !important;margin-top:10px;margin-left:10px }
+#recaptcha_logo {margin-left: 5px}
 
 .popupMain{width:100%;text-align:center;background-image:url('global/black.png');margin:-30px 0px 0px -10px;display:none;position:absolute;z-index:100}
 .popup{width:571px;height:492px;background-color:White;margin-left:auto;margin-right:auto;margin-top:220px}
