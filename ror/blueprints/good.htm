@@ -1,115 +1,221 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="js/nkal/dropdown/scroll/jquery.jscrollpane.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery/jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="js/nkal/dropdown/scroll/jquery.mousewheel.js" type="text/javascript"></script>
+    <script src="js/nkal/dropdown/scroll/jquery.jscrollpane.js" type="text/javascript"></script>
+     <script src="js/global.js" type="text/javascript"></script>
+    <link href="js/nkal/dropdown/dropdown.css" rel="stylesheet" type="text/css" />
+    <script src="js/nkal/dropdown/dropdown.js" type="text/javascript"></script>
+    <script src="js/good.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800,400,600&subset=latin,greek' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-    <link href="js/nkal/dropdown/scroll/jquery.jscrollpane.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery/jquery-1.6.1.min.js" type="text/javascript"></script>
-    <script src="js/nkal/dropdown/scroll/jquery.mousewheel.js" type="text/javascript"></script>
-    <script src="js/nkal/dropdown/scroll/jquery.jscrollpane.js" type="text/javascript"></script>
-     <script src="js/global.js" type="text/javascript"></script>
-    <link href="js/nkal/dropdown/dropdown.css" rel="stylesheet" type="text/css" />
-    <script src="js/nkal/dropdown/dropdown.js" type="text/javascript"></script>
-    <script src="js/good.js" type="text/javascript"></script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800,400,600&subset=latin,greek' rel='stylesheet' type='text/css'>
-</head>
-<body style="background-color:White;margin:0px">
- <div class="Cloud">ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ...</div>
-            <div class="diafthora">
-                
-                <div class="box dtm">
-                    <div class="dtm-ddl-holder">
-                        <div class="left dll">
-                        <select class="month_dll" id="month">
-                            <option value="0">Μήνας</option>
-                            <option value="1">Ιανουαριος</option>
-                            <option value="2">Φεβρουάριος</option>
-                            <option value="3">Μάρτιος</option>
-                            <option value="4">Απρίλιος</option>
-                            <option value="5">Μάιος</option>
-                            <option value="6">Ιούνιος</option>
-                            <option value="7">Ιούλιος</option>
-                            <option value="8">Αύγουστος</option>
-                            <option value="9">Σεπτέμβριος</option>
-                            <option value="10">Οκτώβριος</option>
-                            <option value="11">Νοέμβριος</option>
-                            <option value="12">Δεκέμβριος</option>
-                        </select>
-                        </div>
-                        <div class="left dll" >
-                            <select class="day_dll" id="day">
-                                <option value="0" >Έτος</option>
-                                <option value="2010">2010</option>
-                                <option value="2011">2011</option>
-                                <option value="2012">2012</option>
-                            </select>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="box category">
-                    <div class="category-ddl-holder">
-                        <div class="dll">
-                            <select id="category" class="category_dll">
-                                <option value="0">Κατηγορία</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="box place">
-                    <div class="place-ddl-holder">
-                        <div class="dll">
-                            <select id="place" class="org_dll">
-                                <option value="0">Υπηρεσία/ Οργανισμός όπου συνέβη</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-                <div class="box map">
-                    <div class="map-ddl-holder">
+    <style>
+    #map_canvas {height: 178px;width: 260px;}
+    .textbox_like_Label{padding:0px;margin:0px;background-color:transparent;border:0px;visibility:hidden;}
+    .MapText input{background:none repeat scroll 0 0 transparent;border:0 none;height:26px;line-height:26px;margin-left:3px;margin-top:2px;width:250px;}
+    
+    .MapText {
+        float: left;
+        background-image: url('images/diafthora/text.png');
+        background-repeat: no-repeat;
+        width: 260px;
+        height: 33px;
+        margin-left: 10px;
+    }
+    </style>
+
+    <script>
+        function initialize() {
+            var mapOptions = {
+                disableDefaultUI: true,
+                center: new google.maps.LatLng(39.074208, 21.824312),
+                zoom: 5,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById('map_canvas'),
+          mapOptions);
+
+            var input = document.getElementById('searchTextField');
+            var autocomplete = new google.maps.places.Autocomplete(input);
+
+            autocomplete.bindTo('bounds', map);
+
+            //var infowindow = new google.maps.InfoWindow();
+            var marker = new google.maps.Marker({
+                map: map
+            });
+
+            google.maps.event.addListener(autocomplete, 'place_changed', function () {
+                //infowindow.close();
+                var place = autocomplete.getPlace();
+                if (place.geometry.viewport) {
+                    map.fitBounds(place.geometry.viewport);
+                } else {
+                    map.setCenter(place.geometry.location);
+                    map.setZoom(17);  // Why 17? Because it looks good.
+                }
+
+                var image = new google.maps.MarkerImage(
+              place.icon,
+              new google.maps.Size(71, 71),
+              new google.maps.Point(0, 0),
+              new google.maps.Point(17, 34),
+              new google.maps.Size(35, 35));
+                marker.setIcon(image);
+                marker.setPosition(place.geometry.location);
+
+                var address = '';
+                if (place.address_components) {
+                    address = [
+              (place.address_components[0] && place.address_components[0].short_name || ''),
+              (place.address_components[1] && place.address_components[1].short_name || ''),
+              (place.address_components[2] && place.address_components[2].short_name || '')
+            ].join(' ');
+                }
+                document.getElementById("SelectedPlace").value = place.name
+                //infowindow.setContent('<div><strong>' + place.name + '</strong><br>' + address);
+                //infowindow.open(map, marker);
+            });
+
+            // Sets a listener on a radio button to change the filter type on Places
+            // Autocomplete.
+            function setupClickListener(id, types) {
+                var radioButton = document.getElementById(id);
+                google.maps.event.addDomListener(radioButton, 'click', function () {
+                    autocomplete.setTypes(types);
+                });
+            }
+
+            setupClickListener('changetype-all', []);
+            setupClickListener('changetype-establishment', ['establishment']);
+            setupClickListener('changetype-geocode', ['geocode']);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+<body style="background-color:White;margin:0px">
+ <div class="Cloud">ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ...</div>
+            <div class="diafthora">
+                
+                <div class="box dtm">
+                    <div class="dtm-ddl-holder">
+                        <div class="left dll">
+                        <select class="month_dll" id="month">
+                            <option value="0">Μήνας</option>
+                            <option value="1">Ιανουαριος</option>
+                            <option value="2">Φεβρουάριος</option>
+                            <option value="3">Μάρτιος</option>
+                            <option value="4">Απρίλιος</option>
+                            <option value="5">Μάιος</option>
+                            <option value="6">Ιούνιος</option>
+                            <option value="7">Ιούλιος</option>
+                            <option value="8">Αύγουστος</option>
+                            <option value="9">Σεπτέμβριος</option>
+                            <option value="10">Οκτώβριος</option>
+                            <option value="11">Νοέμβριος</option>
+                            <option value="12">Δεκέμβριος</option>
+                        </select>
+                        </div>
+                        <div class="left dll" >
+                            <select class="day_dll" id="day">
+                                <option value="0" >Έτος</option>
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                            </select>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="box category">
+                    <div class="category-ddl-holder">
+                        <div class="dll">
+                            <select id="category" class="category_dll">
+                                <option value="0">Κατηγορία</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="box place">
+                    <div class="place-ddl-holder">
+                        <div class="dll">
+                            <select id="place" class="org_dll">
+                                <option value="0">Υπηρεσία/ Οργανισμός όπου συνέβη</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="box map">
+                    <div class="map-ddl-holder">
                         <div class="map">
-                            <iframe width="261" height="178" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=greece,athens&amp;aq=&amp;sll=35.51383,24.018037&amp;sspn=0.062109,0.132093&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%91%CE%B8%CE%AE%CE%BD%CE%B1,+%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1&amp;z=13&amp;ll=37.983715,23.72931&amp;output=embed"></iframe><br /><small></small>
-                        </div>
-                        
-                        <div class="dll">
-                            <select id="Select1" class="place_dll">
-                                <option value="0">Περιοχή/Πόλη</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
+                            <div id="map_canvas"></div>
+                        </div>
+                                                <div>
+                            <div class="MapText">
+                                <input id="searchTextField" type="text" size="50">
+                            </div>
 
-                <div class="box-big comments">
-                    <div class="comments-ddl-holder">
-                        <div class="commentstxt-big comment">
-                            <textarea id="comments" onclick="ClearTxt(this,'Γράψε εδώ μία σύντομη περιγραφή του περιστατικού')" onblur="ResetTxt(this,'Γράψε εδώ μία σύντομη περιγραφή του περιστατικού')" >Γράψε εδώ μία σύντομη περιγραφή του περιστατικού</textarea>
+                            <div style="display:none;">
+                                <input type="radio" name="type" id="changetype-all" checked="checked">
+                                <label for="changetype-all">All</label>
+
+                                <input type="radio" name="type" id="changetype-establishment">
+                                <label for="changetype-establishment">Establishments</label>
+
+                                <input type="radio" name="type" id="changetype-geocode">
+                                <label for="changetype-geocode">Geocodes</lable>
+                                
+                                <input id="SelectedPlace" type="text" class="textbox_like_Label">
+                            </div>
                         </div>
-                        <div class="sub-text"> Κείμενα που περιέχουν αναφορές  σε συγκεκριμένα πρόσωπα, δεν θα δημοσιεύονται</div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-                <div class="bottom">
-                     <div id="recaptcha_widget" style="display:none">
-                     <div class="captcha"><div id="recaptcha_image" style="width:100px"></div></div> 
-                     <div class="poiter"><img src="images/diafthora/pointer.png" /></div>
-                    <div class="txt recaptchatxt"><input class="recaptchatxtinput" type="text" id="recaptcha_response_field" name="recaptcha_response_field" value="Γράψε το κείμενο δίπλα" onclick="ClearTxt(this,'Γράψε το κείμενο δίπλα')" onblur="ResetTxt(this,'Γράψε το κείμενο δίπλα')" /></div>
-                     <div class="btn">(Συμπληρώστε το κείμενο που βλέπετε στο κουτάκι<br />δίπλα χωρίς κενά)</div>
-                    <div class="clear"></div>
-                     <div class="errormessage">Θα πρέπει να συμπληρώσετε όλα τα απαραίτητα πεδία για να προχωρήσετε στο βήμα της υποβολής του περιστατικού σας.</div>
-                    <div><br />
-                        <a href="#" onclick="parent.document.location='#'"><img border="0" src="images/btns/return.png" /></a>&nbsp;&nbsp;&nbsp;<img onclick="Validation()" src="images/diafthora/ypovoli.png" />
-                    </div>
-                     <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
-                        <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC"></script>
-                        <noscript><iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC" height="57" width="229" frameborder="0"></iframe><br>
-                        <textarea name="recaptcha_challenge_field" rows="2" cols="1"></textarea>
-                        <input type="hidden" name="recaptcha_response_field" value="manual_challenge"></noscript>
-                    </div>
-                    <div class="clear"></div>
-                  </div>
-                    
-                </div>
-</body>
-</html>
+        
+
+                        
+                        <!--<div class="dll">
+                            <select id="Select1" class="place_dll">
+                                <option value="0">Περιοχή/Πόλη</option>
+                            </select>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="box-big comments">
+                    <div class="comments-ddl-holder">
+                        <div class="commentstxt-big comment">
+                            <textarea id="comments" onclick="ClearTxt(this,'Γράψε εδώ μία σύντομη περιγραφή του περιστατικού')" onblur="ResetTxt(this,'Γράψε εδώ μία σύντομη περιγραφή του περιστατικού')" >Γράψε εδώ μία σύντομη περιγραφή του περιστατικού</textarea>
+                        </div>
+                        <div class="sub-text"> Κείμενα που περιέχουν αναφορές  σε συγκεκριμένα πρόσωπα, δεν θα δημοσιεύονται</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="bottom">
+                     <div id="recaptcha_widget" style="display:none">
+                     <div class="captcha"><div id="recaptcha_image" style="width:100px"></div></div> 
+                     <div class="poiter"><img src="images/diafthora/pointer.png" /></div>
+                    <div class="txt recaptchatxt"><input class="recaptchatxtinput" type="text" id="recaptcha_response_field" name="recaptcha_response_field" value="Γράψε το κείμενο δίπλα" onclick="ClearTxt(this,'Γράψε το κείμενο δίπλα')" onblur="ResetTxt(this,'Γράψε το κείμενο δίπλα')" /></div>
+                     <div class="btn">(Συμπληρώστε το κείμενο που βλέπετε στο κουτάκι<br />δίπλα χωρίς κενά)</div>
+                    <div class="clear"></div>
+                     <div class="errormessage">Θα πρέπει να συμπληρώσετε όλα τα απαραίτητα πεδία για να προχωρήσετε στο βήμα της υποβολής του περιστατικού σας.</div>
+                    <div><br />
+                        <a href="#" onclick="parent.document.location='#'"><img border="0" src="images/btns/return.png" /></a>&nbsp;&nbsp;&nbsp;<img onclick="Validation()" src="images/diafthora/ypovoli.png" />
+                    </div>
+                     <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
+                        <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC"></script>
+                        <noscript><iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC" height="57" width="229" frameborder="0"></iframe><br>
+                        <textarea name="recaptcha_challenge_field" rows="2" cols="1"></textarea>
+                        <input type="hidden" name="recaptcha_response_field" value="manual_challenge"></noscript>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                    
+                </div>
+</body>
+</html>
