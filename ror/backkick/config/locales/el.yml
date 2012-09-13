@@ -2,14 +2,14 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 el:
-  hello: "Καλημέρα κόσμε"
-  start_here_prompt: "ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ..."
-  public_entity_name: "Αναζήτηση υπηρεσίας / οργανισμού"
-  money_asked: "Ύψος χρημάτων που ζητήθηκαν"
-  money_given: "Χρήματα που τελικά πλήρωσα"
-  area_city: "Περιοχή/Πόλη"
-  description: "Γράψε εδώ μία σύντομη περιγραφή του περιστατικού"
-  non_identifying: "Κείμενα που περιέχουν αναφορές σε συγκεκριμένα πρόσωπα δεν θα δημοσιεύονται"
+  hello: Καλημέρα κόσμε
+  start_here_prompt: ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ...
+  public_entity_name: Αναζήτηση υπηρεσίας / οργανισμού
+  money_asked: Ύψος χρημάτων που ζητήθηκαν
+  money_given: Χρήματα που τελικά πλήρωσα
+  area_city: Περιοχή/Πόλη
+  description: Γράψε εδώ μία σύντομη περιγραφή του περιστατικού
+  non_identifying: Κείμενα που περιέχουν αναφορές σε συγκεκριμένα πρόσωπα δεν θα δημοσιεύονται
   date:
     order:
     - :day
@@ -28,4 +28,8 @@ el:
     - Σεπτέμβριος
     - Οκτώβριος
     - Νοέμβριος
-    - Δεκέμβριος	
+    - Δεκέμβριος
+  activerecord:
+    errors:
+      messages:
+        taken: Έχει ήδη δεσμευθεί

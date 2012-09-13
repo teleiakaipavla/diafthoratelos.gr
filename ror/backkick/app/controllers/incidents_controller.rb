@@ -1,4 +1,7 @@
 class IncidentsController < ApplicationController
+
+  skip_before_filter :authorize, only: [:new, :create]
+  
   # GET /incidents
   # GET /incidents.json
   def index
