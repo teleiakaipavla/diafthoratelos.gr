@@ -2,6 +2,12 @@ require 'test_helper'
 
 class UsersControllerTest < ActionController::TestCase
   setup do
+    @input_attributes = {
+      name: "same",
+      password: "private",
+      password_confirmation: "private"
+    }
+    
     @user = users(:one)
   end
 
@@ -18,10 +24,10 @@ class UsersControllerTest < ActionController::TestCase
 
   test "should create user" do
     assert_difference('User.count') do
-      post :create, user: { name: @user.name, password_digest: @user.password_digest }
+      post :create, user: @input_attributes
     end
 
-    assert_redirected_to user_path(assigns(:user))
+    assert_redirected_to users_path
   end
 
   test "should show user" do
@@ -35,8 +41,8 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should update user" do
-    put :update, id: @user, user: { name: @user.name, password_digest: @user.password_digest }
-    assert_redirected_to user_path(assigns(:user))
+    put :update, id: @user, user: @input_attributes
+    assert_redirected_to users_path
   end
 
   test "should destroy user" do
