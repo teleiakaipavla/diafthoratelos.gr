@@ -47,31 +47,38 @@ class IncidentsController < ApplicationController
     @incident = Incident.new(params[:incident])
 
     captcha_ok = verify_recaptcha(:model => @incident)
-
+    
+    could_not_save_place = false
+    
     if captcha_ok
       if params.has_key?(:public_entity_name)
         public_entity_name = params[:public_entity_name]
-        public_entity = PublicEntity.where(:name => public_entity_name)
-        if public_entity.any?
-          @incident.public_entity_id = public_entity.first.id
+        public_entity_query = PublicEntity.where(:name => public_entity_name)
+        if public_entity_query.any?
+          @incident.public_entity_id = public_entity_query.first.id
         end
       end
       if params.has_key?(:place)
-        @place = Place.where(:name => params[:place][:name])
-        if @place.any?
-          @incident.place_id = place.first.id
+        place_query = Place.where(:name => params[:place][:name])
+        if place_query.any?
+          @incident.place_id = place_query.first.id
         else
           @place = Place.new()
           @place.name = params[:place][:name]
           @place.longitude = params[:place][:longitude]
           @place.latitude = params[:place][:latitude]
           @place.address = params[:place][:address]
+          if @place.save()
+            @incident.place_id = @place.id
+          else
+            could_not_save_place = true
+          end
         end
       end
     end
 
     respond_to do |format|
-      if captcha_ok && @place.save && @incident.save
+      if captcha_ok && !could_not_save_place && @incident.save
         format.html { redirect_to @incident, notice: 'Incident was successfully created.' }
         format.json { render json: @incident, status: :created, location: @incident }
       else
