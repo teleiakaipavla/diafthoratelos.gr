@@ -56,10 +56,10 @@ function initialize_map() {
 	    }
 	    address += place.address_components[ac_length - 1].short_name || '';
         }
-        document.getElementById("selected_place").value = place.name;
-	document.getElementById("selected_place_lat").value = latitude;
-	document.getElementById("selected_place_long").value = longitude;
-	document.getElementById("selected_place_address").value = address;
+        document.getElementById("place_name").value = place.name;
+	document.getElementById("place_latitude").value = latitude;
+	document.getElementById("place_longitude").value = longitude;
+	document.getElementById("place_address").value = address;
 
 	});
     

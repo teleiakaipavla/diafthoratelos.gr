@@ -1,6 +1,6 @@
 class IncidentsController < ApplicationController
 
-  skip_before_filter :authorize, only: [:new, :create]
+  skip_before_filter :authorize, only: [:new, :create, :show]
   
   # GET /incidents
   # GET /incidents.json
@@ -56,10 +56,22 @@ class IncidentsController < ApplicationController
           @incident.public_entity_id = public_entity.first.id
         end
       end
+      if params.has_key?(:place)
+        @place = Place.where(:name => params[:place][:name])
+        if @place.any?
+          @incident.place_id = place.first.id
+        else
+          @place = Place.new()
+          @place.name = params[:place][:name]
+          @place.longitude = params[:place][:longitude]
+          @place.latitude = params[:place][:latitude]
+          @place.address = params[:place][:address]
+        end
+      end
     end
 
     respond_to do |format|
-      if captcha_ok && @incident.save
+      if captcha_ok && @place.save && @incident.save
         format.html { redirect_to @incident, notice: 'Incident was successfully created.' }
         format.json { render json: @incident, status: :created, location: @incident }
       else

@@ -4,6 +4,7 @@ class Incident < ActiveRecord::Base
   attr_accessible :money_asked
   attr_accessible :money_given
   attr_accessible :public_entity_id
+  attr_accessible :place_id
   attr_accessible :approval_status
 
   APPROVED_STATUS = "approved"
@@ -15,7 +16,8 @@ class Incident < ActiveRecord::Base
   validates_inclusion_of :approval_status, :in => ALL_APPROVAL_STATUSES
   
   belongs_to :public_entity
-
+  belongs_to :place
+  
   def public_entiry_name
     public_entity.name
   end

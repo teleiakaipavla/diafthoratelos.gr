@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120913070431) do
+ActiveRecord::Schema.define(:version => 20120914103920) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -28,6 +28,15 @@ ActiveRecord::Schema.define(:version => 20120913070431) do
     t.datetime "created_at",                              :null => false
     t.datetime "updated_at",                              :null => false
     t.string   "approval_status",  :default => "pending"
+  end
+
+  create_table "places", :force => true do |t|
+    t.string   "name"
+    t.float    "longitude"
+    t.float    "latitude"
+    t.string   "address"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "public_entities", :force => true do |t|

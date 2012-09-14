@@ -96,17 +96,13 @@
             <input type="radio" name="type" id="changetype_geocode">
             <label for="changetype_geocode">Geocodes</label>
 
-	    <input id="selected_place" type="text" class="textbox_like_label">
-
-	    <input id="selected_place_lat" type="text"
-		   class="textbox_like_label">
-
-	    <input id="selected_place_long" type="text"
-		   class="textbox_like_label">  
-
-	    <input id="selected_place_address" type="text"
-		   class="textbox_like_label">  
-
+	    <%= fields_for :place do |place_form| %>
+	      <%= place_form.hidden_field :name %>
+	      <%= place_form.hidden_field :longitude %>
+	      <%= place_form.hidden_field :latitude %>
+	      <%= place_form.hidden_field :address %>
+	    <% end %>
+	    
 	  </div>	  
 	</div>
       </div>
