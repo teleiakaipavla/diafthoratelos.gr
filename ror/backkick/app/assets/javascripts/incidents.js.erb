@@ -45,15 +45,21 @@ function initialize_map() {
         marker.setIcon(image);
         marker.setPosition(place.geometry.location);
 
+	var latitude = place.geometry.location.Xa;
+	var longitude = place.geometry.location.Ya;
+	
         var address = '';
-        if (place.address_components) {
-                    address = [
-              (place.address_components[0] && place.address_components[0].short_name || ''),
-              (place.address_components[1] && place.address_components[1].short_name || ''),
-              (place.address_components[2] && place.address_components[2].short_name || '')
-		    ].join(' ');
+	if (place.address_components) {
+	    var ac_length = place.address_components.length;
+	    for (var i = 0; i <  ac_length - 1; i++) {
+		address += place.address_components[i].short_name + ':' || '';
+	    }
+	    address += place.address_components[ac_length - 1].short_name || '';
         }
-        document.getElementById("SelectedPlace").value = place.name
+        document.getElementById("selected_place").value = place.name;
+	document.getElementById("selected_place_lat").value = latitude;
+	document.getElementById("selected_place_long").value = longitude;
+	document.getElementById("selected_place_address").value = address;
 
 	});
     
