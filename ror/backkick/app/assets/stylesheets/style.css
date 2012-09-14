@@ -107,8 +107,6 @@
 .content .kataggelies .grid .incidents .datetime{color:#999999;font-size:10px;font-family:Arial;padding-top:13px;padding-left:23px}
 .content .kataggelies .grid .jspDrag{opacity: 1;filter:alpha(opacity=100);background:#009fe3}
 
-
-
 .content .goodnews .title{font-family:'Open Sans', sans-serif;font-size:25px;color:White;background-color:#009fe3;line-height:40px;padding-left:23px;width:617px;margin-right:20px;float:left}
 .content .goodnews .title-small{font-family:'Open Sans', sans-serif;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px}
 .content .goodnews .grid-bg{background-image:url('goodnews/smalltitle.png');background-repeat:no-repeat;}
@@ -120,7 +118,6 @@
 .content .goodnews .grid .incidents .descr{color:#1d1d1b;font-size:18px;font-family:Arial;padding-top:3px;padding-left:23px;padding-right:23px;height:45px;overflow:hidden}
 .content .goodnews .grid .incidents .datetime{color:#999999;font-size:10px;font-family:Arial;padding-top:13px;padding-left:23px}
 .content .goodnews .grid .jspDrag{opacity: 1;filter:alpha(opacity=100);background:#009fe3}
-
 
 .content .goodnews .topten{float:left}
 .content .goodnews .topten .box{float:left;background-image:url('goodnews/toptenbox.png');background-repeat:no-repeat;width:38px;height:39px;font-family:'Open Sans', sans-serif;font-size:21px;line-height:38px;text-align:center;color:White;margin-bottom:7px}
@@ -193,10 +190,6 @@
 .diafthora .comments-ddl-holder .commentstxt-big-error{background-image:url('diafthora/textarea-bigerror.png');background-repeat:no-repeat;width:558px;height:131px;margin-bottom:3px}
 .diafthora .comments-ddl-holder .commentstxt-big-error textarea{width:542px;height:108px;margin:4px;outline:none;border:0px}
 
-
-.diafthora .map-ddl-holder .map{padding:10px}
-.diafthora .map-ddl-holder .dll{padding-left:5px}
-
 .diafthora .bottom{margin-top:3px;width:870px;height:70px;background-color:#f1f1f1;}
 .diafthora .bottom .captcha{float:left;width:275px;}
 .diafthora .bottom .pointer{float:left;padding-top:26px;width:48px;}
@@ -231,7 +224,45 @@
 
 .popup-holder .jspDrag{opacity: 1;filter:alpha(opacity=100);background:#009fe3}
 
-
-
-
 .errormessage{color:#e9292a;font-weight:bold;font-family:Arial;font-size:13px;text-align:center;padding:10px;display:none}
+
+.diafthora .map-ddl-holder .map{padding:10px}
+.diafthora .map-ddl-holder .dll{padding-left:5px}
+
+#map_canvas {
+    height: 178px;
+    width: 260px;
+}
+
+.textbox_like_label {
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    border:0px;
+    visibility:hidden;
+}
+
+#map_canvas {
+    height: 178px;
+    width: 260px;
+}
+
+.map_text_field input {
+    background:none repeat scroll 0 0 transparent;
+    border:0 none;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 3px;
+    margin-top:2px;
+    width:250px;
+}
+    
+.map_text_field {
+    float: left;
+    background-image: url('diafthora/text.png');
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 33px;
+    margin-left: 10px;
+}
+

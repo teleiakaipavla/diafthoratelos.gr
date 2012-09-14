@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800,400,600&subset=latin,greek' rel='stylesheet' type='text/css'>
   <%= javascript_include_tag "application" %>
+  <%= yield :scripts %>
   <%= csrf_meta_tags %>
 </head>
 <body>

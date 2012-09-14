@@ -1,3 +1,8 @@
+<% content_for :scripts do %>
+<script type="text/javascript"
+	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
+<% end %>
+
 <%= form_for(@incident) do |f| %>
   <% if @incident.errors.any? %>
     <div id="error_explanation">
@@ -67,24 +72,36 @@
 
       </div>
     </div>
-    
+
     <div class="box map">
       <div class="map-ddl-holder">
+
         <div class="map">
-          <!-- <iframe width="261" height="178" frameborder="0" -->
-	  <!-- 	  scrolling="no" marginheight="0" marginwidth="0" -->
-	  <!-- 	  src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=greece,athens&amp;aq=&amp;sll=35.51383,24.018037&amp;sspn=0.062109,0.132093&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%91%CE%B8%CE%AE%CE%BD%CE%B1,+%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1&amp;z=13&amp;ll=37.983715,23.72931&amp;output=embed"></iframe> -->
-	  <br />
+          <div id="map_canvas"></div>
         </div>
         
-        <div class="dll">
-          <select id="Select1" class="place_dll">
-            <option value="0"><%= t(:area_city) %></option>
-          </select>
-        </div>
+        <div>
+          <div class="map_text_field">
+            <input id="searchTextField" type="text" size="50">
+          </div>
+	  
+          <div style="display:none;">
+            <input type="radio" name="type"
+		   id="changetype_all" checked="checked">
+            <label for="changetype-all">All</label>
+	    
+            <input type="radio" name="type" id="changetype_establishment">
+            <label for="changetype_establishment">Establishments</label>
+	    
+            <input type="radio" name="type" id="changetype_geocode">
+            <label for="changetype_geocode">Geocodes</label>
+
+	    <input id="SelectedPlace" type="text" class="textbox_like_label">  
+	  </div>	  
+	</div>
       </div>
     </div>
-
+              
     <div class="box comments">
       <div class="comments-ddl-holder">
         <div class="commentstxt comment">

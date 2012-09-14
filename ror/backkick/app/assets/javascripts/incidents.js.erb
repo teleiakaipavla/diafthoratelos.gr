@@ -2,10 +2,75 @@
 
 var RecaptchaOptions = {
     tabindex: 1,
-    // theme: 'clean'
     theme: 'custom',
     custom_theme_widget: 'recaptcha_widget'
 };
+
+function initialize_map() {
+    var mapOptions = {
+        disableDefaultUI: true,
+        center: new google.maps.LatLng(39.074208, 21.824312),
+        zoom: 5,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+
+    var map = new google.maps.Map(document.getElementById('map_canvas'),
+				  mapOptions);
+
+    var input = document.getElementById('searchTextField');
+    var autocomplete = new google.maps.places.Autocomplete(input);
+
+    autocomplete.bindTo('bounds', map);
+
+    var marker = new google.maps.Marker({
+        map: map
+    });
+
+    google.maps.event.addListener(autocomplete, 'place_changed', function () {
+        var place = autocomplete.getPlace();
+        if (place.geometry.viewport) {
+            map.fitBounds(place.geometry.viewport);
+        } else {
+            map.setCenter(place.geometry.location);
+            map.setZoom(17);  // Why 17? Because it looks good.
+        }
+
+        var image = new google.maps.MarkerImage(
+            place.icon,
+            new google.maps.Size(71, 71),
+            new google.maps.Point(0, 0),
+            new google.maps.Point(17, 34),
+            new google.maps.Size(35, 35));
+        marker.setIcon(image);
+        marker.setPosition(place.geometry.location);
+
+        var address = '';
+        if (place.address_components) {
+                    address = [
+              (place.address_components[0] && place.address_components[0].short_name || ''),
+              (place.address_components[1] && place.address_components[1].short_name || ''),
+              (place.address_components[2] && place.address_components[2].short_name || '')
+		    ].join(' ');
+        }
+        document.getElementById("SelectedPlace").value = place.name
+
+	});
+    
+    // Sets a listener on a radio button to change the filter type on Places
+    // Autocomplete.
+    function setupClickListener(id, types) {
+        var radioButton = document.getElementById(id);
+        google.maps.event.addDomListener(radioButton, 'click', function () {
+            autocomplete.setTypes(types);
+        });
+    }
+    
+    setupClickListener('changetype_all', []);
+    setupClickListener('changetype_establishment', ['establishment']);
+    setupClickListener('changetype_geocode', ['geocode']);
+
+}
 
 $(function() {
 
@@ -83,7 +148,9 @@ $(function() {
 	    }
 	},
     });
-	    
+
+    initialize_map();
+
 });
 
 function clearTxt(obj, text) {
