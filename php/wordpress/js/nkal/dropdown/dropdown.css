@@ -1,0 +1,37 @@
+﻿body {
+}
+*{outline: none;}
+
+.nk_ddl_Top{font-size:1px;height:1px;padding-left:1px;padding-right:1px;width:150px}
+.nk_ddl_Holder{font-size:1px;min-height:27px;width:152px}
+.nk_ddl_Holder_in{font-size:1px;min-height:27px;width:150px}
+.nk_ddl_Bottom{font-size:1px;height:1px;padding-left:1px;padding-right:1px;width:150px}
+.nk_ddl_val{float:left;width:122px;font-size:13px;line-height:25px;padding-left:4px;font-family:arial}
+.nk_ddl_pointer{float:right;width:25px;margin-right:1px}
+.nk_clear{clear:both}
+.nk_ddl_textbox{width:120px;border:0px;background-color:transparent;height:22px;outline: none;font-size:13px;font-family:arial}
+.nk_ddl_val_textbox{float:left;display:none}
+.nk_ddl_bar{background: none repeat scroll 0% 0% rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px 7px 7px 7px; z-index: 99; right: 1px; height: 33.557px;display:none}
+
+.nk_ddl_val_text_telia{font-weight:normal}
+.nk_ddl_bt_telia{border-top:1px solid transparent;}
+.nk_ddl_bl_telia{border-left:1px solid transparent;}
+.nk_ddl_br_telia{border-right:1px solid transparent;}
+.nk_ddl_blrin_telia{}
+
+.nk_ddl_bg_telia{min-width:82px;background-color:White;
+                border: 1px solid #b1b1b1;
+                -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;behavior: url(themes/corners/pie.htc);position:relative;
+               }
+                
+.nk_ddl_List_telia{min-width:82px;border-left:1px solid #ebebeb;border-right:1px solid #ebebeb;border-bottom:1px solid #ebebeb;max-height:112px;margin-left:-2px;position:absolute;background-color:White;overflow:auto;display:none;margin-top:1px;
+                 border: 1px solid #b1b1b1;
+                z-index:999}
+.nk_ddl_a_telia{font-size:13px;display:block;line-height:27px;padding-left:4px;border-bottom:1px dotted #d8d7d7;text-decoration:none;color:#444444}
+.nk_ddl_a_telia:hover{background-image:url('themes/telia/bg.png');cursor:pointer}
+.nk_ddl_selected_telia{background-image:url('themes/telia/bg.png');}
+.nk_ddl_srcList_telia{min-width:82px;border-left:1px solid #ebebeb;border-right:1px solid #ebebeb;border-bottom:1px solid #ebebeb;max-height:112px;margin-left:-2px;position:absolute;background-color:White;overflow:auto;display:none;border: 1px solid #b1b1b1;z-index:900}
+.nk_ddl_srcList_telia a{font-size:13px;display:block;line-height:27px;padding-left:2px;border-bottom:1px dotted #d8d7d7;text-decoration:none}
+.nk_ddl_srcList_telia a:hover{background-image:url('themes/telia/bg.png');cursor:pointer;text-decoration:none}
+.nk_ddl_bg_telia .nk_ddl_textbox{color:black;font-weight:normal}
+.nk_ddl_example_telia{font-size:13px;background-image:url('themes/telia/bg.png');color:gray;padding-left:5px;line-height:18px;display:none}

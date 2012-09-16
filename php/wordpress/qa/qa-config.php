@@ -30,13 +30,12 @@
 	======================================================================
 */
 
-$db = parse_url($_SERVER["DATABASE_URL"]);
 
-define('QA_MYSQL_HOSTNAME', $db["host"]); // try '127.0.0.1' or 'localhost' if MySQL on same server
-define('QA_MYSQL_USERNAME', $db["user"]);
-define('QA_MYSQL_PASSWORD', $db["pass"]);
-define('QA_MYSQL_DATABASE', trim($db["path"],"/"));
-define('QA_WORDPRESS_INTEGRATE_PATH', '/app/www');
+define('QA_MYSQL_HOSTNAME', 'localhost'); // try '127.0.0.1' or 'localhost' if MySQL on same server
+define('QA_MYSQL_USERNAME', 'root');
+define('QA_MYSQL_PASSWORD', 'root');
+define('QA_MYSQL_DATABASE', 'teleia');
+define('QA_WORDPRESS_INTEGRATE_PATH', '/Users/makis/Documents/diafthoratelos.gr/php/wordpress');
 	
 /*
 	Ultra-concise installation instructions:
