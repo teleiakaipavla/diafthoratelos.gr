@@ -1,3 +1,8 @@
+<% content_for :scripts do %>
+<script type="text/javascript"
+	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
+<% end %>
+
 <%= form_for(@incident) do |f| %>
   <% if @incident.errors.any? %>
     <div id="error_explanation">
@@ -18,7 +23,7 @@
         <div class="left dll">
 
 	  <div class="field">
-	    <%= f.datetime_select :incident_date %>
+	    <%= f.date_select :incident_date %>
 	  </div>
 	</div>
 	<div class="clear"></div>
@@ -67,24 +72,42 @@
 
       </div>
     </div>
-    
+
     <div class="box map">
       <div class="map-ddl-holder">
+
         <div class="map">
-          <!-- <iframe width="261" height="178" frameborder="0" -->
-	  <!-- 	  scrolling="no" marginheight="0" marginwidth="0" -->
-	  <!-- 	  src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=greece,athens&amp;aq=&amp;sll=35.51383,24.018037&amp;sspn=0.062109,0.132093&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%91%CE%B8%CE%AE%CE%BD%CE%B1,+%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%A4%CE%BF%CE%BC%CE%AD%CE%B1%CF%82+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1&amp;z=13&amp;ll=37.983715,23.72931&amp;output=embed"></iframe> -->
-	  <br />
+          <div id="map_canvas"></div>
         </div>
         
-        <div class="dll">
-          <select id="Select1" class="place_dll">
-            <option value="0"><%= t(:area_city) %></option>
-          </select>
-        </div>
+        <div>
+          <div class="map_text_field">
+            <input id="searchTextField" type="text" size="50">
+          </div>
+	  
+          <div style="display:none;">
+            <input type="radio" name="type"
+		   id="changetype_all" checked="checked">
+            <label for="changetype-all">All</label>
+	    
+            <input type="radio" name="type" id="changetype_establishment">
+            <label for="changetype_establishment">Establishments</label>
+	    
+            <input type="radio" name="type" id="changetype_geocode">
+            <label for="changetype_geocode">Geocodes</label>
+
+	    <%= fields_for :place do |place_form| %>
+	      <%= place_form.hidden_field :name %>
+	      <%= place_form.hidden_field :longitude %>
+	      <%= place_form.hidden_field :latitude %>
+	      <%= place_form.hidden_field :address %>
+	    <% end %>
+	    
+	  </div>	  
+	</div>
       </div>
     </div>
-
+              
     <div class="box comments">
       <div class="comments-ddl-holder">
         <div class="commentstxt comment">
@@ -104,29 +127,85 @@
     <div class="bottom">
       <div id="recaptcha_widget" style="display:none">
         <div class="captcha">
-	  <div id="recaptcha_image" style="width:100px"></div>
-	</div> 
-        <div class="pointer"><%= image_tag "diafthora/pointer.png" %></div>
-        <div class="txt recaptchatxt">
-          <input type="text" class="recaptchatxtinput" id="recaptcha_response_field" name="recaptcha_response_field" value="Γράψε το κείμενο δίπλα" onclick="clearTxt(this,'Γράψε το κείμενο δίπλα')" onblur="resetTxt(this,'Γράψε το κείμενο δίπλα')" /></div>
-        <div class="btn">(Συμπληρώστε το κείμενο που βλέπετε στο κουτάκι<br />δίπλα χωρίς κενά)</div>
-        <div class="clear"></div>
-        <div class="errormessage">Θα πρέπει να συμπληρώσετε όλα τα απαραίτητα πεδία για να προχωρήσετε στο βήμα της υποβολής του περιστατικού σας.</div>
-        <div>
-	  <br/>
-	  <div class="actions">
-	    <%= image_tag "btns/return.png", :border => "0",
-	    :onclick => "parent.document.location='#'" %>
-	    <%= f.submit "Submit", :type => :image, :src => asset_path("diafthora/ypovoli.png"), :onclick =>
-	    "Validation()" %>
-	  </div>
-        </div>
-	
-	<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect, please try again</div>
-        <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC"></script>
-        <noscript><iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeXv9USAAAAAI20Jqhj-Z5jjU1CV7bPK1WoUITC" height="57" width="229" frameborder="0"></iframe><br>
-          <textarea name="recaptcha_challenge_field" rows="2" cols="1"></textarea>
-          <input type="hidden" name="recaptcha_response_field" value="manual_challenge"></noscript>
+      	  <div id="recaptcha_image" style="width:100px"></div>
+      	</div>
+
+	<div class="pointer"><%= image_tag "diafthora/pointer.png" %></div>
+
+	<div class="txt recaptchatxt">
+	  <input type="text" id="recaptcha_response_field"
+		 name="recaptcha_response_field" />
+	</div>
+
+   	<div class="recaptcha_only_if_incorrect_sol"
+   	style="color:red">Incorrect, please try again</div>
+		
+      <div id="recaptcha_icons_logo">
+      <table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	  <td>
+	    <img width="25" height="18"
+		 alt="Get a new challenge"
+		 onclick="javascript:Recaptcha.reload()"
+		 src="http://www.google.com/recaptcha/api/img/clean/refresh.png"/>
+	  </td>
+	  <td rowspan="4">
+	    <img id="recaptcha_logo" alt="" width="71" height="36"
+		 src="http://www.google.com/recaptcha/api/img/clean/logo.png"/>
+	  </td>
+	  </tr>
+	<tr>
+	  <td>
+	    <span class="recaptcha_only_if_image"
+	       title="Get an audio challenge"
+	       tabindex="3">
+	      <img id="recaptcha_switch_audio" width="25" height="15"
+		   alt="Get an audio challenge"
+		   onclick="javascript:Recaptcha.switch_type('audio');"
+		   src="http://www.google.com/recaptcha/api/img/clean/audio.png"/>
+	    </span>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <span id="recaptcha_switch_img_btn"
+		  class="recaptcha_only_if_audio"
+		  tabindex="4">
+	      <img id="recaptcha_switch_img" width="25" height="15"
+		   alt="Get a visual challenge"
+		   onclick="javascript:Recaptcha.switch_type('image');"
+		   src="http://www.google.com/recaptcha/api/img/clean/text.png"/>
+	    </span>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <span id="recaptcha_whatsthis_btn"
+		  title="Help"
+		  tabindex="5">
+	      <img id="recaptcha_whatsthis" width="25" height="16"
+		   onclick="javascript:Recaptcha.showhelp()"
+		   src="http://www.google.com/recaptcha/api/img/clean/help.png"
+		   alt="Help"/>
+	    </span>
+	  </td>
+	</tr>
+      </table>
+      </div>
+      
+      <div class="clear"></div>
+            
+      <!--   <div class="errormessage">Θα πρέπει να συμπληρώσετε όλα τα απαραίτητα πεδία για να προχωρήσετε στο βήμα της υποβολής του περιστατικού σας.</div> -->
+      <br/>
+      <div class="actions">
+	<%= image_tag "btns/return.png", :border => "0",
+	:onclick => "parent.document.location='#'" %>
+	<%= f.submit "Submit",
+	    :type => :image,
+	:src => asset_path("diafthora/ypovoli.png") %>
+      </div>
+      
+      <%= recaptcha_tags %>
 	
       <div class="clear"></div>
     </div>

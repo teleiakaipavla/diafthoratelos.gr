@@ -2,14 +2,16 @@
 
 one:
   incident_date: 2012-07-26 21:47:20
-  money: 
+  money_asked: 99.99 
   money_given: 9.99
   description: MyText
   public_entity_id: 1
+  approval_status: pending
 
 two:
   incident_date: 2012-07-26 21:47:20
-  money: 
+  money_asked: 99.99
   money_given: 9.99
   description: MyText
   public_entity_id: 1
+  approval_status: pending

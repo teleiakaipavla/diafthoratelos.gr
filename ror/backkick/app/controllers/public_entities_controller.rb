@@ -1,4 +1,7 @@
 class PublicEntitiesController < ApplicationController
+
+  skip_before_filter :authorize, only: [:search]
+  
   # GET /public_entities
   # GET /public_entities.json
   def index

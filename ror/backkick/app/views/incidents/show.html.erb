@@ -25,6 +25,11 @@
   <%= @incident.public_entity.name %>
 </p>
 
+<p>
+  <b>Approval status:</b>
+  <%= @incident.approval_status %>
+</p>
+
 
 <%= link_to 'Edit', edit_incident_path(@incident) %> |
 <%= link_to 'Back', incidents_path %>

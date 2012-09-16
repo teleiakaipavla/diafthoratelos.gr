@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120729114931) do
+ActiveRecord::Schema.define(:version => 20120914153535) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -20,13 +20,24 @@ ActiveRecord::Schema.define(:version => 20120729114931) do
   end
 
   create_table "incidents", :force => true do |t|
-    t.datetime "incident_date"
+    t.date     "incident_date"
     t.decimal  "money_asked"
     t.decimal  "money_given"
     t.text     "description"
     t.integer  "public_entity_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
+    t.string   "approval_status",  :default => "pending"
+    t.integer  "place_id"
+  end
+
+  create_table "places", :force => true do |t|
+    t.string   "name"
+    t.float    "longitude"
+    t.float    "latitude"
+    t.string   "address"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "public_entities", :force => true do |t|
@@ -34,6 +45,13 @@ ActiveRecord::Schema.define(:version => 20120729114931) do
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
     t.integer  "category_id"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "password_digest"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
 end
