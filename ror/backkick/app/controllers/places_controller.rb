@@ -1,8 +1,17 @@
 class PlacesController < ApplicationController
 
-  skip_before_filter :authorize, only: [:index]
+  skip_before_filter :authorize, only: [:index, :search]
   
   def index
+    @places = Place.all
+
+    respond_to do |format|
+      format.html { render "index" }
+      format.json { render :json => @places }
+    end 
+  end
+
+  def search
     @places = nil
     if params[:term]
       if params[:exact]
@@ -16,11 +25,8 @@ class PlacesController < ApplicationController
 
     respond_to do |format|
       format.html { render "index" }
-      format.json do
-        names = @places.collect { |pe| {value: pe.id, label: pe.name} }
-        render :json => names
-      end 
-    end
-
+      format.json { render :json => @places }
+    end 
   end
+  
 end

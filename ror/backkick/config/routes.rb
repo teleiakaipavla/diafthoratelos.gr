@@ -19,6 +19,7 @@ Backkick::Application.routes.draw do
   resources :incidents do
     collection do
       get 'search'
+      get 'total_given'
     end
   end
 
@@ -30,6 +31,12 @@ Backkick::Application.routes.draw do
     end
   end
 
+  resources :places do
+    collection do
+      get 'search'
+    end
+  end
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

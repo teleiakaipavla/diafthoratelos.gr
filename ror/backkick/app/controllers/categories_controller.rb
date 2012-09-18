@@ -1,4 +1,7 @@
 class CategoriesController < ApplicationController
+
+  skip_before_filter :authorize, only: [:index]
+  
   # GET /categories
   # GET /categories.json
   def index

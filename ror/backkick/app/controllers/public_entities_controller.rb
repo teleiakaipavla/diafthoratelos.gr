@@ -17,8 +17,8 @@ class PublicEntitiesController < ApplicationController
   def search
     
     @public_entities = nil
-    if params[:term]
-      if params[:exact]
+    if params.has_key?(:term) && params[:term] != ""
+      if params.has_key?(:exact) && params[:exact] == "1"
         @public_entities = PublicEntity.where('name = ?', "#{params[:term]}")
       else
         @public_entities = PublicEntity.where('name like ?', "%#{params[:term]}%")
@@ -27,7 +27,7 @@ class PublicEntitiesController < ApplicationController
       @public_entities = PublicEntity.all
     end
 
-    if params[:category_id] != ""
+    if params.has_key?(:category_id) && params[:category_id] != ""
       category_id = params[:category_id]
       @public_entities = @public_entities.where(:category_id => category_id)
     end
@@ -35,8 +35,14 @@ class PublicEntitiesController < ApplicationController
     respond_to do |format|
       format.html { render "index" }
       format.json do
-        names = @public_entities.collect { |pe| {value: pe.id, label: pe.name} }
-        render :json => names
+        if params[:form] == "short"
+          names = @public_entities.collect do |pe|
+            { value: pe.id, label: pe.name }
+          end
+          render :json => names
+        else
+          render :json => @public_entities
+        end
       end 
     end
   end

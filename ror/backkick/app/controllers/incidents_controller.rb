@@ -1,6 +1,11 @@
 class IncidentsController < ApplicationController
 
-  skip_before_filter :authorize, only: [:new, :create, :show, :index, :search]
+  skip_before_filter :authorize, only: [:new,
+                                        :create,
+                                        :show,
+                                        :index,
+                                        :search,
+                                        :total_given]
   
   # GET /incidents
   # GET /incidents.json
@@ -16,20 +21,24 @@ class IncidentsController < ApplicationController
   # GET /incidents/search
   # GET /incidents/search.json
   def search
-    @incidents = Incident.includes(:public_entity, :place, :public_entity => :category).order("incidents.created_at")
+    @incidents = Incident.includes(:public_entity, :place,
+                                   :public_entity => :category)
+      .order("incidents.created_at")
 
-    if params[:category_id] != ""
-      @incidents = @incidents.joins(:public_entity => :category).
-        where('category_id = ?', "#{params[:category_id]}")
+    if params.has_key?(:category_id) && params[:category_id] != ""
+      @incidents = @incidents.joins(:public_entity => :category)
+        .where('category_id = ?', "#{params[:category_id]}")
     end
 
-    if params[:place_name_filter] != ""      
+    if (params.has_key?(:place_name_filter) && 
+        params[:place_name_filter] != "")
       @incidents = @incidents.joins(:place)
         .where('places.name = ?', "#{params[:place_name_filter]}")
     end
 
-    if params[:public_entity_name_filter] != "" &&
-        params[:public_entity_name_filter] != t(:public_entity_name)
+    if (params.has_key?(:public_entity_name_filter) &&
+        params[:public_entity_name_filter] != "" && 
+        params[:public_entity_name_filter] != t(:public_entity_name))
       @incidents = @incidents.joins(:public_entity)
         .where('public_entities.name = ?',
                "#{params[:public_entity_name_filter]}")
@@ -143,4 +152,15 @@ class IncidentsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  # GET /incidents/total_given
+  def total_given
+    sum = Incident.where(:approval_status => Incident::APPROVED_STATUS)
+      .sum("money_given")
+
+    respond_to do |format|
+      format.json { render json: sum}
+    end
+  end
+  
 end
