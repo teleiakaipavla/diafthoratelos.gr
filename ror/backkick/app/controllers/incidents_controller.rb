@@ -1,6 +1,6 @@
 class IncidentsController < ApplicationController
 
-  skip_before_filter :authorize, only: [:new, :create, :show]
+  skip_before_filter :authorize, only: [:new, :create, :show, :index, :search]
   
   # GET /incidents
   # GET /incidents.json
@@ -13,6 +13,34 @@ class IncidentsController < ApplicationController
     end
   end
 
+  # GET /incidents/search
+  # GET /incidents/search.json
+  def search
+    @incidents = Incident.includes(:public_entity, :place, :public_entity => :category).order("incidents.created_at")
+
+    if params[:category_id] != ""
+      @incidents = @incidents.joins(:public_entity => :category).
+        where('category_id = ?', "#{params[:category_id]}")
+    end
+
+    if params[:place_name_filter] != ""      
+      @incidents = @incidents.joins(:place)
+        .where('places.name = ?', "#{params[:place_name_filter]}")
+    end
+
+    if params[:public_entity_name_filter] != "" &&
+        params[:public_entity_name_filter] != t(:public_entity_name)
+      @incidents = @incidents.joins(:public_entity)
+        .where('public_entities.name = ?',
+               "#{params[:public_entity_name_filter]}")
+    end
+    
+    respond_to do |format|
+      format.html { render action: "index" }
+      format.json { render json: @incidents }
+    end
+  end
+  
   # GET /incidents/1
   # GET /incidents/1.json
   def show

@@ -1,7 +1,7 @@
-﻿body 
-{
-
-  font-family:arial;margin-top:30px;
+﻿body  {
+  font-family:arial;
+  margin-top:30px;
+  background-image: url('global/bg.png');
 }
 
 .clear{clear:both}
@@ -82,19 +82,18 @@
 .dikaiomata-icon{background-image:url('icons/dikaiomata.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:43px;line-height:40px}
 .goodnews-icon{background-image:url('icons/goodnews.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:43px;line-height:40px}
 .protoimediafora-icon{background-image:url('icons/protoimediafora.png');background-repeat:no-repeat;background-position:left bottom;padding:0px;padding-left:63px;line-height:40px}
-.exeisimvikaisemena-icon{background-image:url('icons/exeisimvikaisemena.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:63px;line-height:63px;height:44px;}
+.exeisimvikaisemena-icon{background-image:url('icons/exeisymvikaisemena.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:63px;line-height:63px;height:44px;}
 
-.kataggelies-filter{background-image:url('katagkelies/Filter-Rptbg.png');background-repeat:repeat-x;width:896px;padding:0px 31px 0px 31px;line-height:52px;margin-top:22px;margin-bottom:-38px;height:64px}
-.kataggelies-filter .pointerbg{color:#a1a1a2;font-family:Arial;font-size:11px;font-weight:bold;float:left;background-image:url('katagkelies/Filter-pointer.png');height:67px;background-repeat:no-repeat}
-.kataggelies-filter .filter-ddl{padding-top:10px;padding-left:10px}
+.kataggelies-filter{background-image:url('diafthora/filter-rptbg.png');background-repeat:repeat-x;width:896px;padding:0px 31px 0px 31px;line-height:52px;margin-top:22px;margin-bottom:-38px;height:64px}
+.kataggelies-filter .pointerbg{color:#a1a1a2;font-family:Arial;font-size:11px;font-weight:bold;float:left;background-image:url('diafthora/filter-pointer.png');height:67px;background-repeat:no-repeat}
+.kataggelies-filter .filter-ddl{padding-top:10px;padding-left:10px;}
 .kataggelies-filter .filter-btn{padding-top:8px;padding-left:10px}
-
 
 .content .kataggelies .title{font-family:'Open Sans', sans-serif;font-size:25px;color:White;background-color:#009fe3;line-height:40px;padding-left:23px;width:617px;margin-right:20px;float:left}
 .content .kataggelies .title-small{font-family:'Open Sans', sans-serif;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px}
-.content .kataggelies .title-small .asked{font-family:'Open Sans', sans-serif;font-size:18px;color:White;padding-left:50px}
-.content .kataggelies .title-small .given{font-family:'Open Sans', sans-serif;font-size:18px;color:White;padding-left:25px}
-.content .kataggelies .grid-bg{background-image:url('katagkelies/smalltitle.png');background-repeat:no-repeat;}
+.content .kataggelies .title-small .asked{font-family:'Open Sans', sans-serif;font-size:16px;color:White;padding-left:50px}
+.content .kataggelies .title-small .given{font-family:'Open Sans', sans-serif;font-size:16px;color:White;padding-left:25px}
+.content .kataggelies .grid-bg{background-image:url('diafthora/smalltitle.png');background-repeat:no-repeat;}
 
 .content .kataggelies .grid {width:913px;height:500px;overflow-x:hidden}
 .content .kataggelies .grid .incidents{width:640px;height:106px;background-color:#f7f7f7;margin-right:20px;float:left;margin-bottom:23px}
@@ -136,17 +135,17 @@
 .protimefiafora-title{width:146px;height:54px;background-image:url('protimediafora/title.png');background-repeat:no-repeat;margin-top:-25px;position:absolute;margin-left:750px;text-align:center;line-height:40px}
 .protimefiafora-title a{font-family:'Open Sans', sans-serif;font-size:18px;color:White;padding: 0px  0px 0px 30px;}
 
-.exeisimvikaisemena .diafthora{width:382px;text-align:right;padding-top:60px;}
-.exeisimvikaisemena .diafthora img{cursor:pointer}
-.exeisimvikaisemena .tick{position:absolute;margin-top:205px;margin-left:-62px;display:none}
-.exeisimvikaisemena .or{width:132px;text-align:center;padding-top:170px}
-.exeisimvikaisemena .peristatiko{width:382px;text-align:left;padding-top:60px}
-.exeisimvikaisemena .peristatiko img{cursor:pointer}
-.exeisimvikaisemena .next-left{width:290px;text-align:right;padding-top:20px;height:34px}
-.exeisimvikaisemena .next-right{width:410px;text-align:right;padding-top:20px;height:34px}
+.exeisymvikaisemena .diafthora{width:382px;text-align:right;padding-top:60px;}
+.exeisymvikaisemena .diafthora img{cursor:pointer}
+.exeisymvikaisemena .tick{position:absolute;margin-top:205px;margin-left:-62px;display:none}
+.exeisymvikaisemena .or{width:132px;text-align:center;padding-top:170px}
+.exeisymvikaisemena .peristatiko{width:382px;text-align:left;padding-top:60px}
+.exeisymvikaisemena .peristatiko img{cursor:pointer}
+.exeisymvikaisemena .next-left{width:290px;text-align:right;padding-top:20px;height:34px}
+.exeisymvikaisemena .next-right{width:410px;text-align:right;padding-top:20px;height:34px}
 
-.exeisimvikaisemena .next-left img{display:none}
-.exeisimvikaisemena .next-right img{display:none}
+.exeisymvikaisemena .next-left img{display:none}
+.exeisymvikaisemena .next-right img{display:none}
 
 .diafthora{padding-top:45px}
 .diafthora .box{width:280px;height:250px;background-color:#f1f1f1;float:left;margin-right:16px;margin-bottom:16px;}
@@ -160,9 +159,9 @@
 .diafthora .category-ddl-holder{padding-top:200px}
 .diafthora .category-ddl-holder .dll{padding-left:5px}
 
-.diafthora .place{background-image:url('diafthora/place.png');background-repeat:no-repeat;background-position:center top}
-.diafthora .place-ddl-holder{padding-top:200px}
-.diafthora .place-ddl-holder .dll{padding-left:5px}
+.diafthora .public-entity{background-image:url('diafthora/place.png');background-repeat:no-repeat;background-position:center top}
+.diafthora .public-entity-ddl-holder{padding-top:200px}
+.diafthora .public-entity-ddl-holder .dll{padding-left:5px}
 
 
 .diafthora .money{background-image:url('diafthora/money.png');background-repeat:no-repeat;background-position:center top}

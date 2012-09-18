@@ -17,9 +17,5 @@ class Incident < ActiveRecord::Base
   
   belongs_to :public_entity
   belongs_to :place
-  
-  def public_entiry_name
-    public_entity.name
-  end
-  
+    
 end

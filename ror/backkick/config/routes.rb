@@ -1,5 +1,9 @@
 Backkick::Application.routes.draw do
 
+  get "places/index"
+
+  get "places/search"
+
   get 'admin' => 'admin#index'
 
   get "admin/index"
@@ -12,7 +16,11 @@ Backkick::Application.routes.draw do
 
   resources :users
 
-  resources :incidents
+  resources :incidents do
+    collection do
+      get 'search'
+    end
+  end
 
   resources :categories
 

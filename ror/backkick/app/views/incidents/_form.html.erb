@@ -41,8 +41,8 @@
       </div>
     </div>
 
-    <div class="box place">
-      <div class="place-ddl-holder">
+    <div class="box public-entity-name">
+      <div class="public-entity-ddl-holder">
         <div class="dll">
 	  <div class="field ui-widget"> 
 	    <%= search_field_tag :public_entity_name,
@@ -199,10 +199,10 @@
       <br/>
       <div class="actions">
 	<%= image_tag "btns/return.png", :border => "0",
-	:onclick => "parent.document.location='#'" %>
+	    :onclick => "parent.document.location='#'" %>
 	<%= f.submit "Submit",
 	    :type => :image,
-	:src => asset_path("diafthora/ypovoli.png") %>
+	    :src => asset_path("diafthora/ypovoli.png") %>
       </div>
       
       <%= recaptcha_tags %>

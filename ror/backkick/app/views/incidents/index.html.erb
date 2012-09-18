@@ -1,33 +1,105 @@
-<h1>Listing incidents</h1>
-
-<table>
-  <tr>
-    <th>Incident date</th>
-    <th>Money asked</th>
-    <th>Money given</th>
-    <th>Description</th>
-    <th>Public entity</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @incidents.each do |incident| %>
-  <tr>
-    <td><%= incident.incident_date %></td>
-    <td><%= incident.money_asked %></td>
-    <td><%= incident.money_given %></td>
-    <td><%= incident.description %></td>
-    <td><%= incident.public_entity.nil? ?
-	    ""
-	    : incident.public_entity.name %></td>
-    <td><%= link_to 'Show', incident %></td>
-    <td><%= link_to 'Edit', edit_incident_path(incident) %></td>
-    <td><%= link_to 'Destroy', incident, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+<% content_for :scripts do %>
+<script type="text/javascript"
+	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
 <% end %>
-</table>
 
-<br />
+<%= form_tag("/incidents/search", :method => "get") do %>
+  
+  <div class="kataggelies-filter">
+    <div class="pointerbg">ΦΙΛΤΡΟ</div>
 
-<%= link_to 'New Incident', new_incident_path %>
+    <div class="left filter-ddl">
+      <span class="field ui-widget">
+        <% category_array =
+          Category.all.map {|category| [category.name, category.id] } %>
+        <%= select_tag(:category_id,
+                       options_for_select(category_array),
+                       {:include_blank => true}) %>
+      </span>
+    </div>
+  
+    <div class="left filter-ddl">
+      <span class="map_text_field">
+        <%= text_field_tag(:place_name_filter, nil, :size => 50) %>
+      </span>
+    </div>
+  
+    <div class="left filter-ddl">
+      <span class="field ui-widget"> 
+        <%= search_field_tag :public_entity_name_filter,
+          params[:public_entity_name_filter],
+          :value => t(:public_entity_name) %>
+      </span>
+    </div>
+
+    <div class="left filter-btn">
+      <%= image_submit_tag("btns/search.png",
+                     :onmouseover =>
+                       "this.src='#{image_path('btns/searchon.png')}'",
+                     :onmouseout =>
+                       "this.src='#{image_path('btns/search.png')}'")
+          %>
+    </div>
+    
+    <div class="clear"></div>
+  </div>
+
+<% end %>
+
+<div class="content">
+  <h1 class="exeisymvikaisemena-icon">Περιστατικά διαφθοράς</h1>
+  <div class="subtext"><p>Δείτε όλες τις ανώνυμες καταγγελίες που έχουν γίνει μέχρι σήμερα. </p>
+  </div>
+
+  <div class="text">&nbsp;</div>
+  
+  <div class="kataggelies">
+    <div class="title">Περιστατικά διαφθοράς</div>
+    <div class="title-small grid-bg">
+      <span class="asked">Ζητήθηκε</span>
+      <span class="given">Δόθηκε</span>
+    </div>
+    <div class="clear"></div>
+    <div class="grid jspScrollable" style="overflow: hidden; padding: 0px; width: 913px; " tabindex="0">
+      
+      <div class="jspContainer" style="width: 913px; height: 500px;">
+        <div class="jspPane" style="padding: 0px; top: -150px; width:899px;">
+          <div id="rpt">
+            <div style="">
+              <% @incidents.each do |incident| %>
+                <div class="incidents">
+                  <div class="categories">
+                    <%= incident.public_entity.category.name %>
+                    <%= incident.place.name %>
+                    <%= incident.public_entity.name %>
+                  </div>
+                  <div class="descr">
+                    <%= incident.description %>
+                  </div>
+                  <div class="datetime">Πριν από 42 λεπτά</div>
+                </div>
+                <div class="money">
+                  <div class="asked">
+                    <%= incident.money_asked %>
+                  </div>
+                  <div class="given">
+                    <%= incident.money_given %>
+                    <% if incident.money_given == 0 %>
+                      <%= img_tag("images/katagkelies/like.png") %>
+                    <% end %>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <%= link_to 'Show', incident %> 
+                <%= link_to 'Edit', edit_incident_path(incident) %>
+                <%= link_to 'Destroy', incident, method: :delete, data: { confirm: 'Are you sure?' } %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
