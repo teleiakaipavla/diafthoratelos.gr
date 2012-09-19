@@ -172,6 +172,11 @@ $(function() {
 		      categoryIdVal,		      
 		      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
 
+    make_autocomplete($("#public_entity_name_filter"),
+		      "/public_entities/search?form=short",
+		      categoryIdVal,		      
+		      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+    
     if ($('#map_canvas').length > 0) {
 	initialize_map();
     }
