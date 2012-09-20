@@ -25,6 +25,13 @@ class IncidentsController < ApplicationController
                                    :public_entity => :category)
       .order("incidents.created_at")
 
+    @praise = false
+    
+    if params[:praise] == "true"
+      @incidents = @incidents.where(:praise => true)
+      @praise = true
+    end
+    
     if params.has_key?(:category_id) && params[:category_id] != ""
       @incidents = @incidents.joins(:public_entity => :category)
         .where('category_id = ?', "#{params[:category_id]}")
@@ -65,6 +72,8 @@ class IncidentsController < ApplicationController
   # GET /incidents/new.json
   def new
     @incident = Incident.new
+
+    @praise ||= params[:praise]
 
     respond_to do |format|
       format.html # new.html.erb

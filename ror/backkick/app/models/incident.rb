@@ -6,6 +6,7 @@ class Incident < ActiveRecord::Base
   attr_accessible :public_entity_id
   attr_accessible :place_id
   attr_accessible :approval_status
+  attr_accessible :praise
 
   APPROVED_STATUS = "approved"
   REJECTED_STATUS = "rejected"

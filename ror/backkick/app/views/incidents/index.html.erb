@@ -4,9 +4,11 @@
 <% end %>
 
 <%= form_tag("/incidents/search", :method => "get") do %>
-  
+
+  <%= hidden_field_tag(:praise, value = @praise) %>
+      
   <div class="kataggelies-filter">
-    <div class="pointerbg">ΦΙΛΤΡΟ</div>
+    <div class="pointerbg"><%= t(:filter) %></div>
 
     <div class="left filter-ddl">
       <span class="field ui-widget">
@@ -47,18 +49,41 @@
 <% end %>
 
 <div class="content">
-  <h1 class="exeisymvikaisemena-icon">Περιστατικά διαφθοράς</h1>
-  <div class="subtext"><p>Δείτε όλες τις ανώνυμες καταγγελίες που έχουν γίνει μέχρι σήμερα. </p>
+  <h1 class="exeisymvikaisemena-icon">
+    <%= if !@praise
+          t(:bad_news_heading)
+        else
+          t(:good_news_heading)
+        end
+     %></h1>
+  <div class="subtext">
+    <p>
+      <%= if !@praise
+          t(:bad_news_subheading)
+        else
+          t(:good_news_subheading)
+        end
+     %></h1>
+    </p>
   </div>
 
   <div class="text">&nbsp;</div>
   
   <div class="kataggelies">
-    <div class="title">Περιστατικά διαφθοράς</div>
-    <div class="title-small grid-bg">
-      <span class="asked">Ζητήθηκε</span>
-      <span class="given">Δόθηκε</span>
+    <div class="title">
+      <%= if !@praise
+            t(:bad_news_heading)
+          else
+            t(:good_news_heading)
+          end
+      %>
     </div>
+    <% if !@praise %>
+      <div class="title-small grid-bg">
+        <span class="asked"><%= t(:money_asked) %></span>
+        <span class="given"><%= t(:money_given) %></span>
+      </div>
+    <% end %>
     <div class="clear"></div>
     <div class="grid jspScrollable" style="overflow: hidden; padding: 0px; width: 913px; " tabindex="0">
       
@@ -71,32 +96,39 @@
                   <div class="categories">
                     <%= incident.public_entity.nil? ?
                         "" :
-                        incident.public_entity.category.name %>
+                        "#{incident.public_entity.category.name} | " %>
                     <%= incident.place.name %>
                     <%= incident.public_entity.nil? ? 
-                        "" : incident.public_entity.name %>
+                        "" :
+                        " | #{incident.public_entity.name}" %>
                   </div>
                   <div class="descr">
                     <%= incident.description %>
                   </div>
-                  <div class="datetime">Πριν από 42 λεπτά</div>
+                  <div class="datetime"><%= incident.created_at %></div>
                 </div>
-                <div class="money">
-                  <div class="asked">
-                    <%= incident.money_asked %>
+
+                <% if !@praise %>
+                  <div class="money">
+                    <div class="asked">
+                      <%= incident.money_asked %>
+                    </div>
+                    <div class="given">
+                      <%= incident.money_given %>
+                      <% if incident.money_given == 0 %>
+                        <%= img_tag("images/katagkelies/like.png") %>
+                      <% end %>
+                    </div>
+                    <div class="clear"></div>
                   </div>
-                  <div class="given">
-                    <%= incident.money_given %>
-                    <% if incident.money_given == 0 %>
-                      <%= img_tag("images/katagkelies/like.png") %>
-                    <% end %>
-                  </div>
-                  <div class="clear"></div>
-                </div>
+                <% end %>
+                <% if session[:user_id] %>
+                  <%= link_to 'Show', incident %> 
+                  <%= link_to 'Edit', edit_incident_path(incident) %>
+                  <%= link_to 'Destroy', incident, method: :delete,
+                      data: { confirm: 'Are you sure?' } %>
+                <% end %>
                 <div class="clear"></div>
-                <%= link_to 'Show', incident %> 
-                <%= link_to 'Edit', edit_incident_path(incident) %>
-                <%= link_to 'Destroy', incident, method: :delete, data: { confirm: 'Are you sure?' } %>
               <% end %>
             </div>
           </div>

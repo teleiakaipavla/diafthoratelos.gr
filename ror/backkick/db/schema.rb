@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120914153535) do
+ActiveRecord::Schema.define(:version => 20120920135135) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20120914153535) do
     t.datetime "updated_at",                              :null => false
     t.string   "approval_status",  :default => "pending"
     t.integer  "place_id"
+    t.boolean  "praise",           :default => false
   end
 
   create_table "places", :force => true do |t|

@@ -10,6 +10,13 @@ el:
   area_city: Περιοχή/Πόλη
   description: Γράψε εδώ μία σύντομη περιγραφή του περιστατικού
   non_identifying: Κείμενα που περιέχουν αναφορές σε συγκεκριμένα πρόσωπα δεν θα δημοσιεύονται
+  bad_news_heading: Περιστατικά διαφθοράς
+  bad_news_subheading: Δείτε τις ανώνυμες καταγγελίες που έχουν γίνει μέχρι σήμερα
+  good_news_heading: Θετικά περιστατικά
+  good_news_subheading: Περιστατικά που αξίζει να διαδοθούν
+  filter: Φίλτρο
+  money_asked: Ζητήθηκε
+  money_given: Δόθηκε
   date:
     order:
     - :day

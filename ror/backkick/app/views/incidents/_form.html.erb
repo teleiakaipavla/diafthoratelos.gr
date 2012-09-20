@@ -4,6 +4,7 @@
 <% end %>
 
 <%= form_for(@incident) do |f| %>
+  <%= f.hidden_field(:praise, :value => @praise) %>
   <% if @incident.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@incident.errors.count, "error") %> prohibited this incident from being saved:</h2>
@@ -54,24 +55,26 @@
       </div>
     </div>
     <div class="clear"></div>
-    <div class="box money">
-      <div class="money-ddl-holder">
 
-	<div class="field">
-	  <div class="moneytxt moneyasked">
-	    <%= f.text_field :money_asked,
-		:value => t(:money_asked) %>
-	  </div>
-	</div>
-	<div class="field">
-	  <div class="moneytxt moneygiven">
-	    <%= f.text_field :money_given,
-		:value => t(:money_given) %>
-	  </div>
-	</div>
+    <% if !@praise %>
+      <div class="box money">
+        <div class="money-ddl-holder">
 
+	  <div class="field">
+	    <div class="moneytxt moneyasked">
+	      <%= f.text_field :money_asked,
+		  :value => t(:money_asked) %>
+	    </div>
+	  </div>
+	  <div class="field">
+	    <div class="moneytxt moneygiven">
+	      <%= f.text_field :money_given,
+		  :value => t(:money_given) %>
+	    </div>
+	  </div>
+        </div>        
       </div>
-    </div>
+    <% end %>
 
     <div class="box map">
       <div class="map-ddl-holder">
@@ -108,10 +111,14 @@
       </div>
     </div>
               
-    <div class="box comments">
+    <div class="<%= if @praise then 'box-big' else 'box' end %> comments">
       <div class="comments-ddl-holder">
-        <div class="commentstxt comment">
-
+        <div class="<%=
+                    if @praise
+                      'commentstxt-big'
+                    else
+                      'commentstxt'
+                    end %> comment">
 	  <div class="field">
 	    <%= f.text_area :description,
 		:value => t(:description),
