@@ -16,6 +16,7 @@ class Incident < ActiveRecord::Base
   validates_inclusion_of :approval_status, :in => ALL_APPROVAL_STATUSES
   
   belongs_to :public_entity
+  validates :public_entity_id, :presence => true
   belongs_to :place
     
 end
