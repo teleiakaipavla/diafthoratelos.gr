@@ -69,9 +69,12 @@
               <% @incidents.each do |incident| %>
                 <div class="incidents">
                   <div class="categories">
-                    <%= incident.public_entity.category.name %>
+                    <%= incident.public_entity.nil? ?
+                        "" :
+                        incident.public_entity.category.name %>
                     <%= incident.place.name %>
-                    <%= incident.public_entity.name %>
+                    <%= incident.public_entity.nil? ? 
+                        "" : incident.public_entity.name %>
                   </div>
                   <div class="descr">
                     <%= incident.description %>
