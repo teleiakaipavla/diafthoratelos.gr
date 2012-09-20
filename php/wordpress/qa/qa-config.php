@@ -34,7 +34,7 @@
 define('QA_MYSQL_HOSTNAME', 'localhost'); // try '127.0.0.1' or 'localhost' if MySQL on same server
 define('QA_MYSQL_USERNAME', 'root');
 define('QA_MYSQL_PASSWORD', 'root');
-define('QA_MYSQL_DATABASE', 'teleia');
+define('QA_MYSQL_DATABASE', 'telia');
 define('QA_WORDPRESS_INTEGRATE_PATH', '/Users/makis/Documents/diafthoratelos.gr/php/wordpress');
 	
 /*
