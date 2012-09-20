@@ -75,8 +75,8 @@ function login_header($title = 'Log In', $message = '', $wp_error = '') {
 		$login_header_url   = network_home_url();
 		$login_header_title = $current_site->site_name;
 	} else {
-		$login_header_url   = __( 'http://wordpress.org/' );
-		$login_header_title = __( 'Powered by WordPress' );
+		$login_header_url   = __( 'http://www.teleiakaipavla.gr/' );
+		$login_header_title = __( 'Τελεία και παύλα' );
 	}
 
 	$login_header_url   = apply_filters( 'login_headerurl',   $login_header_url   );

@@ -12,7 +12,7 @@
     <script src="js/nkal/dropdown/scroll/jquery.jscrollpane.js" type="text/javascript"></script>
     <link href="js/nkal/dropdown/dropdown.css" rel="stylesheet" type="text/css" />
     <script src="js/nkal/dropdown/dropdown.js" type="text/javascript"></script>
-
+ <script src="js/sum.js" type="text/javascript"></script>
     
     </head>
 
@@ -77,8 +77,8 @@
                 <div class="clear"></div>
             </div>
             <div class="master-black-hole">
-                <div class="text">Xρήμα που <b>έφαγε</b><br />η μαύρη τρύπα!</div>
-                <div class="money">125.000</div>
+                <div class="text">Xρήμα που <b>χάθηκε</b><br />στη μαύρη τρύπα!</div>
+                <div class="money"></div>
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>

@@ -1,7 +1,7 @@
 ﻿var pageno = 0
 var myscroller;
 $(document).ready(function () {
-    $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: 'datasource/category.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
+    $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: '../backkick/categories.json', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
     $('#city').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/city.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
     $('#carrier').nk_dropdown({ width: 286, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/foreas.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
     BindGrid(true)
