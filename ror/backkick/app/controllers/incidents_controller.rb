@@ -5,7 +5,8 @@ class IncidentsController < ApplicationController
                                         :show,
                                         :index,
                                         :search,
-                                        :total_given]
+                                        :total_given,
+                                        :thank_you]
   
   # GET /incidents
   # GET /incidents.json
@@ -125,8 +126,14 @@ class IncidentsController < ApplicationController
 
     respond_to do |format|
       if captcha_ok && !could_not_save_place && @incident.save
-        format.html { redirect_to @incident, notice: 'Incident was successfully created.' }
-        format.json { render json: @incident, status: :created, location: @incident }
+        if session[:used_id]
+          format.html { redirect_to @incident,
+            notice: 'Incident was successfully created.' }
+        else
+          format.html { redirect_to thank_you_incident_path(@incident) }
+        end
+        format.json { render json: @incident, status: :created,
+          location: @incident }
       else
         format.html { render action: "new" }
         format.json { render json: @incident.errors, status: :unprocessable_entity }
@@ -172,5 +179,10 @@ class IncidentsController < ApplicationController
       format.json { render json: sum}
     end
   end
-  
+
+  def thank_you
+    respond_to do |format|
+      format.html # thank_you.html.erb
+    end
+  end
 end

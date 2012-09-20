@@ -17,6 +17,9 @@ Backkick::Application.routes.draw do
   resources :users
 
   resources :incidents do
+    member do
+      get 'thank_you'
+    end
     collection do
       get 'search'
       get 'total_given'
