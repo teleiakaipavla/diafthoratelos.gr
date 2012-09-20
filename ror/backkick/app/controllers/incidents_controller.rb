@@ -157,8 +157,7 @@ class IncidentsController < ApplicationController
   def total_given
     sum = Incident.where(:approval_status => Incident::APPROVED_STATUS)
       .sum("money_given")
-    
-    
+        
     respond_to do |format|
      
       format.json { render json: sum}
