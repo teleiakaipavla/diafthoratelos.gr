@@ -77,15 +77,16 @@ function initialize_map() {
 
 }
 
-function make_autocomplete(jQueryObject, searchUrl, categoryIdVal, msg) {
+function make_autocomplete(jQueryObject, searchUrl, msg) {
     jQueryObject.autocomplete({
 	source: function(request, response) {
+            var cat = $("#public_entity_category_id").val();
 	    $.ajax({
 		url: searchUrl,
 		dataType: "json",
 		data: {
 		    term: request.term,
-		    category_id: categoryIdVal,
+		    category_id: cat,
 		},
 		success: function(data) {
 		    response($.map(data, function(item) {
@@ -104,13 +105,14 @@ function make_autocomplete(jQueryObject, searchUrl, categoryIdVal, msg) {
 	    return false; 
 	},
 	change: function(event, ui) {
+            var cat = $("#public_entity_category_id").val();
 	    if (ui.item == null) {
 		$.ajax({
     	    	    url: searchUrl,
     	    	    dataType: "json",
     	    	    data: {
     	    		term: $(this).val(),
-    	    		category_id: categoryIdVal,
+    	    		category_id: cat,
     	    		exact: 1
     	    	    },
     	    	    success: function(data) {
@@ -159,23 +161,20 @@ $(function() {
     var categoryIdVal = "";
 
     $("#public_entity_category_id").change(function() {
-	categoryIdVal = $(this).val();
+	var categoryIdVal = $(this).val();
     });
-    
+
     make_autocomplete($("#place_name"),
                       "../places/index",
-		      categoryIdVal,
-		      <%= "'#{I18n.translate(:area_city)}'" %>);
+        	      <%= "'#{I18n.translate(:area_city)}'" %>);
 
     make_autocomplete($("#public_entity_name"),
                       "../public_entities/search?form=short",
-		      categoryIdVal,		      
-		      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+        	      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
 
     make_autocomplete($("#public_entity_name_filter"),
-		      "../public_entities/search?form=short",
-		      categoryIdVal,		      
-		      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+        	      "../public_entities/search?form=short",
+        	      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     
     if ($('#map_canvas').length > 0) {
 	initialize_map();
