@@ -56,7 +56,7 @@
     </div>
     <div class="clear"></div>
 
-    <% if !@praise %>
+    <% if @praise  == 'false' %>
       <div class="box money">
         <div class="money-ddl-holder">
 
@@ -111,10 +111,13 @@
       </div>
     </div>
               
-    <div class="<%= if @praise then 'box-big' else 'box' end %> comments">
+    <div class="<%=
+                if @praise != 'false'
+                  'box-big'
+                else 'box' end %> comments">
       <div class="comments-ddl-holder">
         <div class="<%=
-                    if @praise
+                    if @praise != 'false'
                       'commentstxt-big'
                     else
                       'commentstxt'

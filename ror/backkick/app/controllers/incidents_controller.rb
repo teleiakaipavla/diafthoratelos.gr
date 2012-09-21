@@ -74,7 +74,10 @@ class IncidentsController < ApplicationController
   def new
     @incident = Incident.new
 
-    @praise ||= params[:praise]
+    @praise = params[:praise]
+    if @praise != "true"
+      @praise = "false"
+    end
 
     respond_to do |format|
       format.html # new.html.erb

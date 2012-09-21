@@ -117,4 +117,18 @@ class PublicEntitiesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  # GET /public_entities/top_ten
+  def top_ten
+    @public_entities =
+      PublicEntity.joins(:incidents).where('incidents.praise' => true)
+      .where('incidents.approval_status' => Incidents::APPROVED_STATUS)
+      .sum('incidents.money_asked')
+      
+  end
+
+  # GET /public_entities/bottom_ten
+  def bottom_ten
+  end
+  
 end
