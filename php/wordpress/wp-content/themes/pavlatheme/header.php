@@ -71,7 +71,7 @@
             <!--Social End        -->
 		
 
-                <div class="logo"><a href="<?php echo get_option( 'home' ); ?>"><img border="0" src="images/global/logo.png" /></a></div>
+                <div class="logo"><a href="<?php echo get_option( 'home' ); ?>"><img border="0" src="images/global/logo_beta.png" /></a></div>
                 <div class="menu">
                     <ul id="menu">
                     </ul>
