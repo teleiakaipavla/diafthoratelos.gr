@@ -1,0 +1,35 @@
+<% if @top_ten_rank
+      trait = "top"
+    elsif @bottom_ten_rank
+      trait = "bottom"
+    end
+%>
+
+<h1>Listing <%= trait %> ten public entities</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Number of incidents</th>
+    <% if @bottom_ten_rank %>
+      <th>Total money given</th>
+    <% end %>
+  </tr>
+
+<% @results.each do |result| %>
+  <tr>
+    <td><%= result.name %></td>
+    <td><%= result.count %></td>
+    <% if @bottom_ten_rank %>
+      <td><%= result.total_money_given %></td>
+    <% end %>
+    <td><%= link_to 'Show', result %></td>
+    <td><%= link_to 'Edit', edit_public_entity_path(result) %></td>
+    <td><%= link_to 'Destroy', result, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Public entities', public_entities_path %>

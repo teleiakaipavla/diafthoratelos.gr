@@ -121,16 +121,36 @@ class PublicEntitiesController < ApplicationController
   # GET /public_entities/bottom_ten
   def bottom_ten
     @results =
-      PublicEntity.select('public_entities.*, count(incidents.id) as count, sum(incidents.money_given) as total_money_given').joins(:incidents).where('incidents.praise' => false).group('public_entities.id').order('total_money_given desc')
+      PublicEntity.select('public_entities.*, count(incidents.id) as count, ' +
+                          'sum(incidents.money_given) as total_money_given')
+      .joins(:incidents)
+      .where('incidents.praise' => false)
+      .group('public_entities.id').order('total_money_given desc').limit(10)
 
     respond_to do |format|
-      format.html
+      format.html do
+        @bottom_ten_rank = true
+        render "top_ranks"
+      end
       format.json { render json: @results }
     end
   end
 
   # GET /public_entities/top_ten
   def top_ten
+    @results =
+      PublicEntity.select('public_entities.*, count(incidents.id) as count')
+      .joins(:incidents)
+      .where('incidents.praise' => true)
+      .group('public_entities.id').order('count desc').limit(10)
+   
+    respond_to do |format|
+      format.html do
+        @top_ten_rank = true
+        render "top_ranks"
+      end
+      format.json { render json: @results }
+    end
   end
   
 end
