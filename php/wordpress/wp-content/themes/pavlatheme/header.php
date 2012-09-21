@@ -58,14 +58,19 @@
     <div class="master">
 	
 	    <div id="Header">
-            <div class="master-logo-holder">
+		
+		    <div class="master-logo-holder-new">
             <!--Social Start        -->
                 <div class="social">
                     <div class="fb"><a target="_blank" href="http://www.facebook.com/share.php?u=http://www.teleiakaipavla.gr"><img border="0" src="images/global/facebook.png" /></a></div>
                     <div class="tw"><a target="_blank" href="http://twitter.com/home?status=http://www.teleiakaipavla.gr"><img border="0" src="images/global/twitter.png" /></a></div>
+                    <div class="bb"><a href="#"><img border="0" src="images/global/b.png" /></a></div>
                     <div class="mail"><a href="mailto:info@teleiakaipavla.gr"><img border="0" src="images/global/mail.png" /></a></div>
                 </div>
+
             <!--Social End        -->
+		
+
                 <div class="logo"><a href="<?php echo get_option( 'home' ); ?>"><img border="0" src="images/global/logo.png" /></a></div>
                 <div class="menu">
                     <ul id="menu">
@@ -76,8 +81,8 @@
                 </div>
                 <div class="clear"></div>
             </div>
-            <div class="master-black-hole">
-                <div class="text">Xρήμα που <b>χάθηκε</b><br />στη μαύρη τρύπα!</div>
+           <div class="master-black-hole-new">
+                <div class="text">Xρήμα που <b>χάθηκε</b> στη μαύρη τρύπα!</div>
                 <div class="money"></div>
                 <div class="clear"></div>
             </div>

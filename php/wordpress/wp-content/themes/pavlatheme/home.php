@@ -7,45 +7,79 @@ get_header();
 
         
         <div class="home-right">
-            <div class="home-video">
-                <iframe src="http://player.vimeo.com/video/33000354" width="715" height="410" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              <div class="home-video-new">
+                <iframe src="http://player.vimeo.com/video/33000354" width="474" height="410" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
             </div>
-            <div class="home-bottom">
-                <a title="Πρώτοι με διαφθορά!" href="?cat=12"><div class="home-bluebox-last left">
-                    <div class="img-big"><img border="0" src="images/home/protathlites.png" /></div>
-                    <div class="title">Πρώτοι με... διαφθορά!</div>
-                    <div class="text">Οι κακοί πρωταθλητές μας</div>
-                </div></a> 
-                <a title="Χρειάζομαι βοήθεια" href="qa" target="_blank"><div class="home-bluebox left">
-                    <div class="img-big"><img border="0" src="images/home/needhelp.png" /></div>
-                    <div class="title">Χρειάζομαι βοήθεια</div>
-                    <div class="text-big">Συζήτησε και ενημερώσου <br />για το πρόβλημα</div>
-                </div></a> 
-                <a title="Τα καλά νέα!" href="?cat=14"><div class="home-bluebox left">
-                    <div class="img"><img border="0" src="images/home/goodnews.png" /></div>
-                    <div class="title">Τα καλά νέα!</div>
-                    <div class="text">Περιστατικά που αξίζουν επιβράβευση</div>
-                </div></a> 
+            <div class="home-bottom" style="display:none">
+
                 <div class="clear"></div>
             </div>
         </div>
-        <div class="home-left">
-            <a title="Τι μπορώ να κάνω" href="?page_id=31"><div class="home-bluebox">
-                <div class="img"><img border="0" src="images/home/dikaiomata.png" /></div>
-                <div class="title">Τι μπορώ <br />να κάνω;</div>
-                <div class="text-big">Βοήθησέ μας να <br />σταματήσουμε τη διαφθορά</div>
-            </div></a>
-            <a title="Έχει συμβεί και σε μένα!" href="?cat=16"><div class="home-bluebox">
-                <div class="img-big"><img border="0" src="images/home/happenttome.png" /></div>
-                <div class="title">Έχει συμβεί<br />και σε μένα!</div>
-                <div class="text-big">Πες ανώνυμα τη δική σου<br />καλή ή κακή εμπειρία</div>
-            </div></a> 
-            <a title="Δες που συμβαίνει" href="?cat=15"><div class="home-bluebox">
-                <div class="img-big"><img border="0" src="images/home/peristatika.png" /></div>
-                <div class="title">Δες που<br />συμβαίνει</div>
-                <div class="text-big">Περιοχές με τα περισσότερα περιστατικά</div>
-            </div></a> 
+   
+		 <div class="home-left">
+	            <div class="left">
+	                <a title="Κάνε κάτι γι’ αυτό!" href="?cat=16"><div class="home-bluebox-new">
+	                <div class="img"><img border="0" src="images/home/happenttome.png" /></div>
+	                <div class="title">Κάνε κάτι γι’ αυτό!</div>
+	                <div class="home-btn-center"><img src="images/home/btnkataggileto.png" /></div>
+	                 </div>
+	                </a> 
+	             </div>
+	            <div class="left">
+	                <a title="Πρώτοι με διαφθορά!" href="?cat=12">
+	                <div class="home-bluebox-small-new">
+	                    <div class="img"><img src="images/home/home-letter.png" /></div>
+	                    <div class="text">Πρώτοι με διαφθορά!</div>
+	                     <div class="clear"></div>
+	                </div>
+	               </a>
+	                 <div class="clear"></div>
+	                <a title="Δες που συμβαίνει" href="?cat=15">
+	                <div class="home-bluebox-small-new">
+	                    <div class="img-earth"><img src="images/home/home-earth.png" /></div>
+	                    <div class="text">Δες που συμβαίνει</div>
+	                     <div class="clear"></div>
+	                </div>
+	               </a>
+	            </div>
+	           <div class="clear"></div>
+	            <div>
+	                <a title="Μάθε για εμάς" href="page_id=3">
+	                <div class="home-bluebox-small-new left">
+	                    <div class="img"><img src="images/home/home-people.png" /></div>
+	                    <div class="text">Μάθε για εμάς</div>
+	                     <div class="clear"></div>
+	                </div>
+	                </a>
+	                 <a title="Τα καλά νέα!" href="?cat=14">
+	                <div class="home-bluebox-small-new left">
+	                    <div class="img-nea"><img src="images/home/home-info.png" /></div>
+	                    <div class="text">Τα καλά νέα!</div>
+	                     <div class="clear"></div>
+	                </div>
+	                </a>
+	                <div class="clear"></div>
+	            </div>
+	            <div>
+	                 <a title="Χρειάζομαι βοήθεια" href="qa" target="_blank">
+	                <div class="home-bluebox-small-new left">
+	                    <div class="img"><img src="images/home/home-help.png" /></div>
+	                    <div class="text">Χρειάζομαι βοήθεια</div>
+	                     <div class="clear"></div>
+	                </div>
+	                 </a>
+	                <a title="Συχνές Ερωτήσεις" href="?page_id=91">
+	                <div class="home-bluebox-small-new left">
+	                    <div class="img"><img src="images/home/home-cloud.png" /></div>
+	                    <div class="text">Συχνές ερωτήσεις</div>
+	                     <div class="clear"></div>
+	                </div>
+	                </a>
+	                <div class="clear"></div>
+	            </div> 
+
+
         </div>
         <div class="clear"></div>
 <?php
