@@ -7,10 +7,7 @@ get_header();
 
         
         <div class="home-right">
-              <div class="home-video-new">
-                <iframe src="http://player.vimeo.com/video/33000354" width="474" height="410" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-            </div>
+				<div class="home-banner-new"><a title="Τελεία και παύλα" href="page_id=3"><img border="0" src="images/home/home_banner.jpg" /></a></div>
             <div class="home-bottom" style="display:none">
 
                 <div class="clear"></div>
