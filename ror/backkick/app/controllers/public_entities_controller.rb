@@ -1,6 +1,6 @@
 class PublicEntitiesController < ApplicationController
 
-  skip_before_filter :authorize, only: [:search]
+  skip_before_filter :authorize, only: [:search, :top_ten, :bottom_ten]
   
   # GET /public_entities
   # GET /public_entities.json
@@ -118,17 +118,19 @@ class PublicEntitiesController < ApplicationController
     end
   end
 
-  # GET /public_entities/top_ten
-  def top_ten
-    @public_entities =
-      PublicEntity.joins(:incidents).where('incidents.praise' => true)
-      .where('incidents.approval_status' => Incidents::APPROVED_STATUS)
-      .sum('incidents.money_asked')
-      
-  end
-
   # GET /public_entities/bottom_ten
   def bottom_ten
+    @results =
+      PublicEntity.select('public_entities.*, count(incidents.id) as count, sum(incidents.money_given) as total_money_given').joins(:incidents).where('incidents.praise' => false).group('public_entities.id').order('total_money_given desc')
+
+    respond_to do |format|
+      format.html
+      format.json { render json: @results }
+    end
+  end
+
+  # GET /public_entities/top_ten
+  def top_ten
   end
   
 end
