@@ -150,14 +150,14 @@ body
 .protimefiafora-title{width:146px;height:54px;background-image:url('../images/protimediafora/title.png');background-repeat:no-repeat;margin-top:-25px;position:absolute;margin-left:750px;text-align:center;line-height:40px}
 .protimefiafora-title a{font-family:'Open Sans', sans-serif;font-size:18px;color:White;padding: 0px  0px 0px 30px;}
 
-.exeisimvikaisemena .diafthora{width:382px;text-align:right;padding-top:60px;}
+.exeisimvikaisemena .diafthora{width:382px;text-align:right;padding-top:0px;}
 .exeisimvikaisemena .diafthora img{cursor:pointer}
 .exeisimvikaisemena .tick{position:absolute;margin-top:205px;margin-left:-62px;display:none}
-.exeisimvikaisemena .or{width:132px;text-align:center;padding-top:170px}
-.exeisimvikaisemena .peristatiko{width:382px;text-align:left;padding-top:60px}
+.exeisimvikaisemena .or{width:132px;text-align:center;padding-top:110px}
+.exeisimvikaisemena .peristatiko{width:382px;text-align:left;padding-top:00px}
 .exeisimvikaisemena .peristatiko img{cursor:pointer}
-.exeisimvikaisemena .next-left{width:290px;text-align:right;padding-top:20px;;height:34px}
-.exeisimvikaisemena .next-right{width:410px;text-align:right;padding-top:20px;;height:34px}
+.exeisimvikaisemena .next-left{width:290px;text-align:right;padding-top:20px;;height:34px;display:none}
+.exeisimvikaisemena .next-right{width:410px;text-align:right;padding-top:20px;;height:34px;display:none}
 
 .exeisimvikaisemena .next-left img{display:none}
 .exeisimvikaisemena .next-right img{display:none}
