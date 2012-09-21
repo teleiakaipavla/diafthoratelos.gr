@@ -2,7 +2,6 @@
 get_header();
 ?>
 
-
 <script>
 
     function SelectType(type) {

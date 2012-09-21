@@ -81,6 +81,11 @@
                 <div class="clear"></div>
             </div>
            <div class="master-black-hole-new">
+	             <?php if (($cat == 16) || ($cat == 18)) {  ?>
+			   <div style="position:absolute;margin-left:243px;margin-top:10px"><img src="images/global/blackholeover.png" /></div>             
+				<?php }?>
+	
+	          
                 <div class="text">Xρήμα που <b>χάθηκε</b> στη μαύρη τρύπα!</div>
                 <div class="money"></div>
                 <div class="clear"></div>
