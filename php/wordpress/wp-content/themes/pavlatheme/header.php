@@ -13,7 +13,6 @@
     <link href="js/nkal/dropdown/dropdown.css" rel="stylesheet" type="text/css" />
     <script src="js/nkal/dropdown/dropdown.js" type="text/javascript"></script>
  <script src="js/sum.js" type="text/javascript"></script>
-    
     </head>
 
 

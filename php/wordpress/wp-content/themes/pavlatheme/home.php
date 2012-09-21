@@ -16,7 +16,7 @@ get_header();
    
 		 <div class="home-left">
 	            <div class="left">
-	                <a title="Κάνε κάτι γι’ αυτό!" href="?cat=16"><div class="home-bluebox-new">
+	                <a title="Γράψε τη δική σου καλή ή κακή ιστορία..." href="?cat=16"><div class="home-bluebox-new">
 	                <div class="img"><img border="0" src="images/home/happenttome.png" /></div>
 	                <div class="title">Κάνε κάτι γι’ αυτό!</div>
 	                <div class="home-btn-center"><img src="images/home/btnkataggileto.png" /></div>
@@ -24,7 +24,7 @@ get_header();
 	                </a> 
 	             </div>
 	            <div class="left">
-	                <a title="Πρώτοι με διαφθορά!" href="?cat=12">
+	                <a title="Κατάταξη φορέων και οργανισμών με τα περισσότερα περιστατικά" href="?cat=12">
 	                <div class="home-bluebox-small-new">
 	                    <div class="img"><img src="images/home/home-letter.png" /></div>
 	                    <div class="text">Πρώτοι με διαφθορά!</div>
@@ -32,7 +32,7 @@ get_header();
 	                </div>
 	               </a>
 	                 <div class="clear"></div>
-	                <a title="Δες που συμβαίνει" href="?cat=15">
+	                <a title="Περιστατικά διαφθοράς ανά περιοχή" href="?cat=15">
 	                <div class="home-bluebox-small-new">
 	                    <div class="img-earth"><img src="images/home/home-earth.png" /></div>
 	                    <div class="text">Δες που συμβαίνει</div>
@@ -42,14 +42,14 @@ get_header();
 	            </div>
 	           <div class="clear"></div>
 	            <div>
-	                <a title="Μάθε για εμάς" href="?page_id=9">
+	                <a title="Μάθε περισσότερα για το Τελεία και παύλα" href="?page_id=9">
 	                <div class="home-bluebox-small-new left">
 	                    <div class="img"><img src="images/home/home-people.png" /></div>
 	                    <div class="text">Μάθε για εμάς</div>
 	                     <div class="clear"></div>
 	                </div>
 	                </a>
-	                 <a title="Τα καλά νέα!" href="?cat=14">
+	                 <a title="Περιστατικά που οφείλουμε να αναδείξουμε" href="?cat=14">
 	                <div class="home-bluebox-small-new left">
 	                    <div class="img-nea"><img src="images/home/home-info.png" /></div>
 	                    <div class="text">Τα καλά νέα!</div>
@@ -59,17 +59,17 @@ get_header();
 	                <div class="clear"></div>
 	            </div>
 	            <div>
-	                 <a title="Χρειάζομαι βοήθεια" href="qa" target="_blank">
+	                 <a title="Σκέψεις, απόψεις και ερωτήσεις σχετικές με το πρόβλημα της διαφθοράς" href="qa" target="_blank">
 	                <div class="home-bluebox-small-new left">
-	                    <div class="img"><img src="images/home/home-help.png" /></div>
-	                    <div class="text">Χρειάζομαι βοήθεια</div>
+	                    <div class="img"><img src="images/home/home-cloud.png" /></div>
+	                    <div class="text-1l">Συζητήσεις</div>
 	                     <div class="clear"></div>
 	                </div>
 	                 </a>
-	                <a title="Συχνές Ερωτήσεις" href="?page_id=91">
+	                <a title="Συχνές ερωτήσεις και απαντήσεις σχετικά με τον ιστότοπο" href="?page_id=91">
 	                <div class="home-bluebox-small-new left">
-	                    <div class="img"><img src="images/home/home-cloud.png" /></div>
-	                    <div class="text">Συχνές ερωτήσεις</div>
+	                    <div class="img"><img src="images/home/home-help.png" /></div>
+	                    <div class="text-3l">Ερωτήσεις και Απαντήσεις</div>
 	                     <div class="clear"></div>
 	                </div>
 	                </a>

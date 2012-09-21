@@ -242,6 +242,8 @@ body
 .home-bluebox-small-new .img{padding-top:32px;width:65px;padding-left:10px;float:left;}
 .home-bluebox-small-new .img-earth{padding-top:22px;width:65px;padding-left:10px;float:left;}
 .home-bluebox-small-new .text{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:15px}
+.home-bluebox-small-new .text-1l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:30px}
+.home-bluebox-small-new .text-3l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:3px}
 .home-bluebox-small-new .img-nea{padding-top:32px;width:50px;padding-left:10px;float:left;}
 .home-bluebox-small-new .text-nea{float:left;width:147px;text-align:left;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px; padding-top:35px}
 
@@ -251,5 +253,8 @@ body
 .home-bluebox-small-new-over .img{padding-top:32px;width:65px;padding-left:10px;float:left;}
 .home-bluebox-small-new-over .img-earth{padding-top:22px;width:65px;padding-left:10px;float:left;}
 .home-bluebox-small-new-over .text{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:15px}
+.home-bluebox-small-new-over .text-1l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:30px}
+.home-bluebox-small-new-over .text-3l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:3px}
+
 .home-bluebox-small-new-over .img-nea{padding-top:32px;width:50px;padding-left:10px;float:left;}
 .home-bluebox-small-new-over .text-nea{float:left;width:147px;text-align:left;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px; padding-top:35px}
