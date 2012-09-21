@@ -7,7 +7,7 @@ get_header();
 
         
         <div class="home-right">
-				<div class="home-banner-new"><a title="Τελεία και παύλα" href="?page_id=3"><img border="0" src="images/home/home_banner.jpg" /></a></div>
+				<div class="home-banner-new"><a title="Τελεία και παύλα" href="?page_id=31"><img border="0" src="images/home/home_banner.jpg" /></a></div>
             <div class="home-bottom" style="display:none">
 
                 <div class="clear"></div>
@@ -42,7 +42,7 @@ get_header();
 	            </div>
 	           <div class="clear"></div>
 	            <div>
-	                <a title="Μάθε για εμάς" href="?page_id=3">
+	                <a title="Μάθε για εμάς" href="?page_id=9">
 	                <div class="home-bluebox-small-new left">
 	                    <div class="img"><img src="images/home/home-people.png" /></div>
 	                    <div class="text">Μάθε για εμάς</div>
