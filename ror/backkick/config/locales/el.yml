@@ -4,7 +4,7 @@
 el:
   hello: Καλημέρα κόσμε
   start_here_prompt: ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ...
-  public_entity_name: Αναζήτηση υπηρεσίας / οργανισμού
+  public_entity_name: Υπηρεσία / οργανισμός
   money_asked: Ύψος χρημάτων που ζητήθηκαν
   money_given: Χρήματα που τελικά πλήρωσα
   area_city: Περιοχή/Πόλη

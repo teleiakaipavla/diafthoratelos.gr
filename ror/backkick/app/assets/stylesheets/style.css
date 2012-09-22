@@ -1,4 +1,4 @@
-﻿body  {
+body  {
   font-family:arial;
   margin-top:30px;
 }
@@ -147,7 +147,7 @@
 .exeisymvikaisemena .next-right img{display:none}
 
 .diafthora{padding-top:45px}
-.diafthora .box{width:280px;height:250px;background-color:#f1f1f1;float:left;margin-right:16px;margin-bottom:16px;}
+.diafthora .box{width:270px;height:250px;background-color:#f1f1f1;float:left;margin-right:16px;margin-bottom:16px;}
 .diafthora .box-big{width:576px;height:240px;background-color:#f1f1f1;float:left;margin-bottom:16px;}
 .diafthora .dtm{background-image:url('diafthora/dtm.png');background-repeat:no-repeat;background-position:center center}
 .diafthora .dtm-ddl-holder{padding-top:200px}
@@ -161,7 +161,7 @@
 .diafthora .public-entity{background-image:url('diafthora/place.png');background-repeat:no-repeat;background-position:center top}
 .diafthora .public-entity-ddl-holder{padding-top:200px}
 .diafthora .public-entity-ddl-holder .dll{padding-left:5px}
-
+.diafthora .public-entity-ddl-holder .dll .field .ui-autocomplete-input {width: 200px}
 
 .diafthora .money{background-image:url('diafthora/money.png');background-repeat:no-repeat;background-position:center top}
 .diafthora .money-ddl-holder{padding-top:155px;padding-left:13px}

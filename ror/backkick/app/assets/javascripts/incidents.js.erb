@@ -151,9 +151,17 @@ $(function() {
     	clearTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     });
 
+    $("#public_entity_name").blur(function() {
+    	resetTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+    });
+
 
     $("#public_entity_name_filter").click(function() {
     	clearTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+    });
+
+    $("#public_entity_name_filter").blur(function() {
+    	resetTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     });
 
     var foundPublicEntity = false;
