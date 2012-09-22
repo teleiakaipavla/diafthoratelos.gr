@@ -1,0 +1,385 @@
+/* CSS Document */
+
+.LoginRadius_overlay
+
+{
+
+background: none no-repeat scroll 0 0 rgba(127, 127, 127, 0.6);
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+z-index: 100001;
+
+width: 100%;
+
+height: 100%;
+
+overflow: auto;
+
+padding: 220px 20px 20px 20px;
+
+padding-bottom: 130px;
+
+position: fixed;
+
+}
+
+#popupouter{
+
+	-moz-border-radius:4px;
+
+	-webkit-border-radius:4px;
+
+	border-radius:4px;
+
+	overflow:auto;
+
+	background:#f3f3f3;
+
+	padding:0px 0px 0px 0px;
+
+	width:370px;
+
+	margin:0 auto;
+
+}
+
+#popupinner{
+
+	-moz-border-radius:4px;
+
+	-webkit-border-radius:4px;
+
+	border-radius:4px;
+
+	overflow:auto;
+
+	background:#ffffff;
+
+	margin:10px;
+
+	padding:10px 8px 4px 8px;
+
+}
+
+#textmatter{
+
+	margin:10px 0px 10px 0px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	color:#666666;
+
+	font-size:14px;
+
+
+
+}
+
+.inputtxt{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	color:#a8a8a8;
+
+	font-size:11px;
+
+	border:#e5e5e5 1px solid;
+
+	width:280px;
+
+	height:27px;
+
+	margin:5px 0px 15px 0px;
+
+}
+
+.inputbutton{
+
+	border:#dcdcdc 1px solid;
+
+	-moz-border-radius:2px;
+
+	-webkit-border-radius:2px;
+
+	border-radius:2px;
+
+	text-decoration:none;
+
+	color:#6e6e6e;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:13px;
+
+	cursor:pointer;
+
+	background:#f3f3f3;
+
+	padding:6px 7px 6px 8px;
+
+	margin:0px 8px 0px 0px;
+
+}
+
+.inputbutton:hover{
+
+	border:#00ccff 1px solid;
+
+	-moz-border-radius:2px;
+
+	-webkit-border-radius:2px;
+
+	border-radius:2px;
+
+	khtml-border-radius:2px;
+
+	text-decoration:none;
+
+	color:#000000;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:13px;
+
+	cursor:pointer;
+
+	padding:6px 7px 6px 8px;
+
+	-moz-box-shadow: 0px 0px  4px #8a8a8a;
+
+	-webkit-box-shadow: 0px 0px  4px #8a8a8a;
+
+	box-shadow: 0px 0px  4px #8a8a8a;
+
+	background:#f3f3f3;
+
+	margin:0px 8px 0px 0px;
+
+}
+
+.LoginRadius_container_outer {
+
+ /*width: 648px;
+
+ border: 1px solid #ccc;
+
+ background-color: #EAF7FF;*/
+
+}
+
+.LoginRadius_container_inner {
+
+ /*background-color: #EAF7FF;*/
+
+ padding: 10px;
+
+
+ overflow: hidden;
+
+ }
+
+
+
+.LoginRadius_container {
+
+ float:left;
+
+ padding: 10px;
+
+ margin-bottom: 10px;
+
+ overflow: hidden;
+
+ width:520px;
+
+}
+
+.LoginRadius_container_outer h3 {
+
+ color:#00ccff;
+
+ font-size:1.1em;
+
+}
+
+
+
+.LoginRadius_container_outer ul {
+
+ list-style-type: disc;
+
+ padding-left: 20px;
+
+ }
+
+ 
+
+.LoginRadius_container_outer .LoginRadius_container_links {
+
+border-color: #E6DB55;
+
+}
+
+
+
+.LoginRadius_container_outer .LoginRadius_container_links a {
+
+ color: #111;
+
+ text-decoration:none;
+
+}
+
+
+
+.LoginRadius_container_outer .LoginRadius_container_links a:hover {
+
+ color: #00ccff;
+
+}
+
+
+
+.LoginRadius_table {
+
+ background-color: #efefef;
+
+ border: 1px solid #ccc;
+
+ width: 650px;
+
+ margin-bottom: 10px;
+
+}
+
+
+
+.LoginRadius_table input {
+
+ border-color: #aaa;
+
+}
+
+
+
+.LoginRadius_table .head {
+
+ font-weight: bold;
+
+ font-size: 13px;
+
+ font-weight: bold;
+
+ background-color: #ddd;
+
+}
+
+
+
+.LoginRadius_table tr td.row {
+
+ line-height: 36px;
+
+}
+
+
+
+.LoginRadius_table tr.description td {
+
+ color: #0D5995;
+
+}
+
+
+
+.LoginRadius_table .row_white {
+
+ background-color: #fff;
+
+}
+
+
+
+.login-panel-lr {
+
+    float: right;
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 1px solid #E5E5E5;
+
+    box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
+
+    font-weight: normal;
+
+    margin-left: 8px;
+
+    padding: 26px 24px 46px;
+
+	height: 145px;
+
+	width:345px
+
+}
+
+
+
+.login-sep-text {
+
+    float: left;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin: 100px 20px 20px 30px;
+
+    padding-left: 10px;
+
+}
+
+
+
+.float-left {
+
+    float: left;
+
+}
+
+
+
+<!--[if IE]>
+
+
+
+.LoginRadius_content_IE
+
+{
+
+background:black;
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+filter: alpha(opacity=90);
+
+}
+
+.loginRadiusTabs
+{
+	color:#333333
+}
+
+#tabs a
+{
+    border: none;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+<![endif]-->
+

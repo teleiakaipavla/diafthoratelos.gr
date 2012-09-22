@@ -1,0 +1,561 @@
+h3.page-title {
+
+
+	float: left;
+
+
+}
+
+
+.page-header{
+
+
+    border-bottom: 1px solid #CCCCCC;
+
+
+    padding-bottom: 0;
+
+
+    width: 100%;
+
+
+    height:63px;
+
+
+}
+
+
+ul.nav-tab-wrapper {
+
+
+	height: 57px;
+
+
+	border-bottom: 1px solid #ccc;
+
+
+}
+
+
+ul.nav-tab-wrapper li:first-child {
+
+
+	margin-left: 10px;
+
+
+}
+
+
+
+
+
+ul.nav-tab-wrapper li {
+
+
+    background-color: #eaf7ff;
+
+
+    border: 1px solid #CCCCCC;
+
+
+    border-radius: 5px 5px 0 0;
+
+
+    float: left;
+
+
+    margin: 0 1px;
+
+
+    padding: 14px 24px;
+
+
+}
+
+
+
+
+
+ul.nav-tab-wrapper li a{	
+
+
+	text-decoration:none;
+
+
+	color:#464646;
+
+
+}
+
+
+ul.nav-tab-wrapper li h2.nav-tab-wrapper{
+
+
+	margin: 0;
+
+
+	padding: 0;
+
+
+	border: none;
+
+
+	
+
+
+}
+
+
+ul.nav-tab-wrapper li.ui-tabs-selected{
+
+
+	-moz-border-radius: 5px 5px 0 0;
+
+
+	-webkit-border-radius: 5px 5px 0 0;
+
+
+
+
+
+	border-top:1px solid #ccc;    
+
+
+	border-left:1px solid #ccc;    
+
+
+	border-right: 1px solid #ccc;
+
+
+	border-bottom: 1px solid #fff;
+
+
+	padding-bottom: 13px;
+
+
+	color:#000000;
+
+
+	background-color:#FFFFFF
+
+
+	
+
+
+}
+
+
+.select_row {
+
+
+	min-height: 20px;
+
+
+	padding-bottom: 1px;
+
+
+}
+
+
+.select_row .radio {
+
+
+	display: inline-block;
+
+
+	width: 25px;
+
+
+	margin-top: 8px;
+
+
+	float: left;
+
+
+}
+
+
+.select_row img {
+
+
+	border: none;
+
+
+}
+
+
+.clear {
+
+
+	height: 1px;
+
+
+}
+
+
+.mt4 { margin-top: 4px !important; }
+
+
+.mt20 { margin-top: 20px !important; }
+
+
+
+
+
+.description {
+
+
+	margin-bottom: 20px;
+
+
+}
+
+
+.description span.radio { 
+
+
+	margin-top: 4px; 
+
+
+}
+
+
+.form-table {
+
+
+	border-collapse: collapse;
+
+
+}
+
+
+.form-table td{
+
+
+	padding: 5px;
+
+
+}
+
+
+.form-table fieldset {
+
+
+	padding: 20px;
+
+
+	margin-bottom: 20px;
+
+
+	border: 1px solid #DFD5C3;
+
+
+	border-radius: 5px;
+
+
+	-moz-border-radius: 5px;
+
+
+	-webkit-border-radius: 5px;
+
+
+    
+
+
+	-moz-transition-duration: 0.4s;
+
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+
+    border: 1px solid #DEDEDE;
+
+
+    box-shadow: 0 1px 0 #FFFFFF inset, 0 0 20px rgba(0, 0, 0, 0.05) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+
+
+
+.loginRadiusTopfield .form-table fieldset {
+
+
+	padding: 10px;
+
+
+	margin-bottom: 20px;
+
+
+	border: 1px solid #ccc;
+
+
+	border-radius: 5px;
+
+
+	-moz-border-radius: 5px;
+
+
+	-webkit-border-radius: 5px;
+
+
+	background-color:#EAF7FF;
+
+
+}
+
+
+legend {
+
+
+    font-weight: 700;
+
+
+	border: 1px solid #ccc;
+
+
+	border-radius: 5px;
+
+
+	-moz-border-radius: 5px;
+
+
+	-webkit-border-radius: 5px;
+
+
+
+
+
+}
+
+
+/*.form-table td {
+
+
+	font-weight:700;
+
+
+}*/
+
+
+.form-table th, .form-wrap label {
+
+
+    font-weight: 700;
+
+
+  }
+
+
+.form-table fieldset .clear {
+
+
+	height: 10px;
+
+
+}
+
+
+.submit {
+
+
+	padding-top: 20px;
+
+
+}
+
+
+.submit a {
+
+
+	margin-left: 20px;
+
+
+}
+
+
+.more-info{
+
+
+ float: left;
+
+
+ width: 200px;
+
+
+};
+
+
+p.submit {
+
+
+clear: both;
+
+
+}
+
+
+#tabs{
+
+
+	display:block;
+
+
+	height: 100%;
+
+
+	padding-bottom: 20px;
+
+
+}
+
+
+#tabs a:hover{
+
+
+	color:#00ccff;
+
+
+}
+
+
+#tabs a:focus {
+
+
+    color: #D54E21;
+
+
+}
+
+
+.ui-tabs-panel{
+
+
+}
+
+
+span.code_name{
+
+
+width: 140px;
+
+
+margin: 15px;
+
+
+}
+
+
+.get_the_code{
+
+
+clear:both;
+
+
+padding-bottom: 10px;
+
+
+height: 40px;
+
+
+}
+
+
+.get_the_code img{
+
+
+float: right;
+
+
+}
+
+
+.form-table .hidden{
+
+
+display: none;
+
+
+}
+
+
+.form-table .hide{
+
+
+display: none;
+
+
+}
+
+
+h2.placeholder{
+
+
+font-size: 1px;
+
+
+padding: 1px;
+
+
+margin: 0px;
+
+
+height: 2px;
+
+
+}
+
+
+.page-header img.header-img{
+
+
+float: left;
+
+
+height: 36px;
+
+
+padding: 14px 6px 15px 0;
+
+
+width: 36px;
+
+
+}
+
+
+
+
+
+h2.loginRadiusH2
+
+
+{
+
+
+	font-size:20px;
+
+
+}
+
+
+
+
+
+.ui-state-default
+
+
+{
+
+
+	background-color:#999999
+
+
+}
+
+
+
+
+
