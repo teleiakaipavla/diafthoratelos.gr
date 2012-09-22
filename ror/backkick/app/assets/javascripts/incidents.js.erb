@@ -113,7 +113,7 @@ function make_autocomplete(jQueryObject, searchUrl, msg) {
     	    	    data: {
     	    		term: $(this).val(),
     	    		category_id: cat,
-    	    		exact: 1
+    	    		appr: "false"
     	    	    },
     	    	    success: function(data) {
     	    		if (data.length == 0) {
