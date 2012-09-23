@@ -22,12 +22,12 @@ function BindGrid(gotonextpage) {
     if (category_id == null){category_id = ''};
 	if ((city == null)||(city == 'Περιοχή / Πόλη')){city = ''};
 	if ((carrier == null)||(carrier == 'Υπηρεσία / Οργανισμός')){carrier = ''};    
-var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
+var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&praise=false&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
 
 
 $.getJSON(DataUrl, function (data) {
-        $.each(data, function (index, item) {
-		    var html = '<div class="incidents"><div class="categories">Κατηγορία | ' + item.place_id + ' | ' + item.public_entity_id + '</div><div class="descr">' + item.description + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div>'
+         $.each(data, function (index, item) {
+		    var html = '<div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | ' + item.place.name + ' | ' + item.public_entity.name + '</div><div class="descr">' + item.description + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div>'
             var holder = document.createElement("div")
             $(holder).hide();
             $(holder).append(html)
