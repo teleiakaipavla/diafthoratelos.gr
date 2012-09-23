@@ -1,5 +1,7 @@
 class IncidentsController < ApplicationController
 
+  SEARCH_LIMIT = 10
+  
   skip_before_filter :authorize, only: [:new,
                                         :create,
                                         :show,
@@ -54,7 +56,12 @@ class IncidentsController < ApplicationController
         .where('public_entities.name = ?',
                "#{params[:public_entity_name_filter]}")
     end
-    
+
+    @pageno = params[:pageno].to_i
+    if (@pageno > 0)
+      @incidents = @incidents.limit(SEARCH_LIMIT).offset(@pageno * SEARCH_LIMIT)
+    end
+            
     respond_to do |format|
       format.html { render action: "index" }
       format.json do
