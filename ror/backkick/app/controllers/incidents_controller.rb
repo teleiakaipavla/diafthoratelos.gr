@@ -31,6 +31,9 @@ class IncidentsController < ApplicationController
     if params[:praise] == "true"
       @incidents = @incidents.where(:praise => true)
       @praise = true
+    elsif params[:praise] == "false"
+      @incidents = @incidents.where(:praise => false)
+      @praise = false
     end
     
     if params.has_key?(:category_id) && params[:category_id] != ""
@@ -54,7 +57,20 @@ class IncidentsController < ApplicationController
     
     respond_to do |format|
       format.html { render action: "index" }
-      format.json { render json: @incidents }
+      format.json do
+        json_results = @incidents.map do |incident|
+          incident.as_json(:include => {
+                             :public_entity => {
+                               :only => :name,
+                               :include => { :category => {
+                                   :only => :name }
+                               }
+                             },
+                             :place => { :only => :name },
+                           })
+        end
+        render :json => json_results
+      end
     end
   end
   
