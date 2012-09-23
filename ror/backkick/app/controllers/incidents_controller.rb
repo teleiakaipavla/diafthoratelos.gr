@@ -1,5 +1,7 @@
 class IncidentsController < ApplicationController
 
+  SEARCH_LIMIT = 10
+  
   skip_before_filter :authorize, only: [:new,
                                         :create,
                                         :show,
@@ -31,6 +33,9 @@ class IncidentsController < ApplicationController
     if params[:praise] == "true"
       @incidents = @incidents.where(:praise => true)
       @praise = true
+    elsif params[:praise] == "false"
+      @incidents = @incidents.where(:praise => false)
+      @praise = false
     end
     
     if params.has_key?(:category_id) && params[:category_id] != ""
@@ -51,10 +56,28 @@ class IncidentsController < ApplicationController
         .where('public_entities.name = ?',
                "#{params[:public_entity_name_filter]}")
     end
-    
+
+    @pageno = params[:pageno].to_i
+    if (@pageno > 0)
+      @incidents = @incidents.limit(SEARCH_LIMIT).offset(@pageno * SEARCH_LIMIT)
+    end
+            
     respond_to do |format|
       format.html { render action: "index" }
-      format.json { render json: @incidents }
+      format.json do
+        json_results = @incidents.map do |incident|
+          incident.as_json(:include => {
+                             :public_entity => {
+                               :only => :name,
+                               :include => { :category => {
+                                   :only => :name }
+                               }
+                             },
+                             :place => { :only => :name },
+                           })
+        end
+        render :json => json_results
+      end
     end
   end
   
