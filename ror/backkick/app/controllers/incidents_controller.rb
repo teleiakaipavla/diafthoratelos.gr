@@ -1,6 +1,6 @@
 class IncidentsController < ApplicationController
 
-  SEARCH_LIMIT = 10
+  SEARCH_LIMIT = 20
   
   skip_before_filter :authorize, only: [:new,
                                         :create,
