@@ -2,8 +2,8 @@
 var myscroller;
 $(document).ready(function () {
     $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: '../backkick/categories.json', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-    $('#city').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/city.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-    $('#carrier').nk_dropdown({ width: 286, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/foreas.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
+    //$('#city').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/city.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
+    //$('#carrier').nk_dropdown({ width: 286, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/foreas.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
     BindGrid(true)
 
     myscroller = $('.grid').jScrollPane({ animateScroll: true, horizontalGutter: 3, autoReinitialise: true })
@@ -11,17 +11,23 @@ $(document).ready(function () {
 });
 
 
+
+
 function BindGrid(gotonextpage) {
     if (gotonextpage)
         pageno = pageno + 1
-
-    var category = $('#category').val()
+    var category_id = $('#category').val()
     var city = $('#city').val()
     var carrier = $('#carrier').val()
-    var DataUrl = 'datasource/incidents.htm?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&category=' + category + '&city=' + city + '&carrier=' + carrier;
-    $.getJSON(DataUrl, function (data) {
+    if (category_id == null){category_id = ''};
+	if ((city == null)||(city == 'Περιοχή / Πόλη')){city = ''};
+	if ((carrier == null)||(carrier == 'Υπηρεσία / Οργανισμός')){carrier = ''};    
+var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
+
+
+$.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {
-            var html = '<div class="incidents"><div class="categories">' + item.categories + '</div><div class="descr">' + item.descr + '</div><div class="datetime">' + item.datetime + '</div></div><div class="money"> <a class="asked">' + item.asked + '</a><a class="given">' + item.given + '</a><div class="clear"></div></div><div class="clear"></div>'
+		    var html = '<div class="incidents"><div class="categories">Κατηγορία | ' + item.place_id + ' | ' + item.public_entity_id + '</div><div class="descr">' + item.description + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div>'
             var holder = document.createElement("div")
             $(holder).hide();
             $(holder).append(html)

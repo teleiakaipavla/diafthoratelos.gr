@@ -2,9 +2,10 @@
 var myscroller;
 $(document).ready(function () {
     $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: '../backkick/categories.json', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-    $('#city').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/city.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-    $('#carrier').nk_dropdown({ width: 286, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/foreas.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-    BindGrid(true)
+    //$('#city').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/city.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
+    //$('#carrier').nk_dropdown({ width: 286, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/foreas.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
+    
+	BindGrid(true)
     myscroller = $('.grid').jScrollPane({ animateScroll: true, horizontalGutter: 3, autoReinitialise: true })
     SetScrollLoad()
 
@@ -13,11 +14,13 @@ $(document).ready(function () {
 
 function BindTopTen() {
     
-    var DataUrl = 'datasource/topten.htm?rnd=' + Math.random(100000) ;
+    var DataUrl = '../backkick/public_entities/top_ten.json?rnd=' + Math.random(100000) ;
+	var rank = 1;
     $.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {
-            var html = '<div class="box">' + item.no + '</div><div class="holder"><div class="p5"><h1>' + item.title + '</h1><h2>' + item.text + '</h2></div></div><div class="clear"></div>'
-            var holder = document.createElement("div")
+            var html = '<div class="box">' + rank + '</div><div class="holder"><div class="p5"><h1>' + item.name + '</h1><h2>' + item.count + ' καλά νέα</h2></div></div><div class="clear"></div>'
+            rank ++
+			var holder = document.createElement("div")
             $(holder).hide();
             $(holder).append(html)
             $('#rpttopten').append(holder)
@@ -28,16 +31,23 @@ function BindTopTen() {
     });
 }
 
+
+
 function BindGrid(gotonextpage) {
     if (gotonextpage)
         pageno = pageno + 1
-    var category = $('#category').val()
+    var category_id = $('#category').val()
     var city = $('#city').val()
     var carrier = $('#carrier').val()
-    var DataUrl = 'datasource/goodnews.htm?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&category=' + category + '&city=' + city + '&carrier=' + carrier;
-    $.getJSON(DataUrl, function (data) {
+    if (category_id == null){category_id = ''};
+	if ((city == null)||(city == 'Περιοχή / Πόλη')){city = ''};
+	if ((carrier == null)||(carrier == 'Υπηρεσία / Οργανισμός')){carrier = ''};    
+var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&praise=true' + '&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
+
+
+$.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {
-            var html = '<div class="incidents"><div class="categories">' + item.categories + '</div><div class="descr">' + item.descr + '</div><div class="datetime">' + item.datetime + '</div></div>'
+		    var html = '<div class="incidents"><div class="categories">Κατηγορία | ' + item.place_id + ' | ' + item.public_entity_id + '</div><div class="descr">' + item.description + '</div><div class="datetime">' + item.incident_date + '</div></div>'
             var holder = document.createElement("div")
             $(holder).hide();
             $(holder).append(html)
