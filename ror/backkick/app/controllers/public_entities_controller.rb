@@ -1,6 +1,8 @@
 class PublicEntitiesController < ApplicationController
 
-  skip_before_filter :authorize, only: [:search, :top_ten, :bottom_ten]
+  DEFAULT_RANK_LIMIT = 10
+  
+  skip_before_filter :authorize, only: [:search, :top_rank, :bottom_rank]
   
   # GET /public_entities
   # GET /public_entities.json
@@ -121,14 +123,22 @@ class PublicEntitiesController < ApplicationController
     end
   end
 
-  # GET /public_entities/bottom_ten
-  def bottom_ten
+  # GET /public_entities/bottom_rank
+  def bottom_rank
+
+    @limit = params[:limit].to_i
+
+    if @limit <= 0
+      @limit = DEFAULT_RANK_LIMIT
+    end
+    
     @results =
       PublicEntity.select('public_entities.*, count(incidents.id) as count, ' +
                           'sum(incidents.money_given) as total_money_given')
       .joins(:incidents)
       .where('incidents.praise' => false)
-      .group('public_entities.id').order('total_money_given desc').limit(10)
+      .group('public_entities.id').order('total_money_given desc')
+      .limit(@limit)
 
     respond_to do |format|
       format.html do
@@ -139,13 +149,21 @@ class PublicEntitiesController < ApplicationController
     end
   end
 
-  # GET /public_entities/top_ten
-  def top_ten
+  # GET /public_entities/top_rank
+  def top_rank
+
+    @limit = params[:limit].to_i
+
+    if @limit <= 0
+      @limit = DEFAULT_RANK_LIMIT
+    end    
+    
     @results =
       PublicEntity.select('public_entities.*, count(incidents.id) as count')
       .joins(:incidents)
       .where('incidents.praise' => true)
-      .group('public_entities.id').order('count desc').limit(10)
+      .group('public_entities.id').order('count desc')
+      .limit(@limit)
    
     respond_to do |format|
       format.html do

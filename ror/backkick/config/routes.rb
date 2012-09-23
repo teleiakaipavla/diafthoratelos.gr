@@ -30,8 +30,8 @@ Backkick::Application.routes.draw do
 
   resources :public_entities do
     collection do
-      get 'top_ten'
-      get 'bottom_ten'
+      get 'top_rank'
+      get 'bottom_rank'
     end
     collection do
       get 'search'
