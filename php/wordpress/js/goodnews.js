@@ -47,7 +47,7 @@ var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '
 
 $.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {
-		    var html = '<div class="incidents"><div class="categories">Κατηγορία | ' + item.place_id + ' | ' + item.public_entity_id + '</div><div class="descr">' + item.description + '</div><div class="datetime">' + item.incident_date + '</div></div>'
+		    var html = '<div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | ' + item.place.name + ' | ' + item.public_entity.name + '</div><div class="descr">' + item.description + '</div><div class="datetime">' + item.incident_date + '</div></div>'
             var holder = document.createElement("div")
             $(holder).hide();
             $(holder).append(html)
