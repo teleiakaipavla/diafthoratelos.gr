@@ -7,7 +7,7 @@ get_header();
         <h1 class="protoimediafora-icon"><?php echo single_cat_title( $category_id ); ?></h1>
         <div class="subtext"><?php echo category_description( $category_id );  ?></div>
         <div class="protimefiafora-header">
-            <div class="protimefiafora-title"><a>Δόθηκε</a></div>
+            <div class="protimefiafora-title"><a>Δόθηκαν</a></div>
             <div class="clear"></div>
         </div>
         <div class="text protimediafora">
