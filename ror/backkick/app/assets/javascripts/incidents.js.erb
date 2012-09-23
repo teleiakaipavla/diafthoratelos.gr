@@ -113,7 +113,7 @@ function make_autocomplete(jQueryObject, searchUrl, msg) {
     	    	    data: {
     	    		term: $(this).val(),
     	    		category_id: cat,
-    	    		exact: 1
+    	    		appr: "false"
     	    	    },
     	    	    success: function(data) {
     	    		if (data.length == 0) {
@@ -151,9 +151,17 @@ $(function() {
     	clearTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     });
 
+    $("#public_entity_name").blur(function() {
+    	resetTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+    });
+
 
     $("#public_entity_name_filter").click(function() {
     	clearTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
+    });
+
+    $("#public_entity_name_filter").blur(function() {
+    	resetTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     });
 
     var foundPublicEntity = false;

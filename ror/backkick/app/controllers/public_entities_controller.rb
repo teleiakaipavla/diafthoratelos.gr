@@ -18,10 +18,13 @@ class PublicEntitiesController < ApplicationController
     
     @public_entities = nil
     if params.has_key?(:term) && params[:term] != ""
-      if params.has_key?(:exact) && params[:exact] == "1"
-        @public_entities = PublicEntity.where('name = ?', "#{params[:term]}")
+      capitalized_term = Unicode::upcase(params[:term])
+      if params.has_key?(:appr) && params[:exact] == "false"
+        @public_entities = PublicEntity.where("name = ?",
+                                              "#{capitalized_term}")
       else
-        @public_entities = PublicEntity.where('name like ?', "%#{params[:term]}%")
+        @public_entities = PublicEntity.where("name like ?",
+                                              "%#{capitalized_term}%")
       end
     else
       @public_entities = PublicEntity.all

@@ -18,7 +18,7 @@ group :production, :staging do
   gem "mysql2"
 end
 
-
+gem 'unicode'
 
 # Gems used only for assets and not required
 # in production environments by default.
