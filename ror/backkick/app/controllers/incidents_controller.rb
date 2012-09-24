@@ -5,7 +5,6 @@ class IncidentsController < ApplicationController
   skip_before_filter :authorize, only: [:new,
                                         :create,
                                         :show,
-                                        :index,
                                         :search,
                                         :total_given,
                                         :thank_you]
