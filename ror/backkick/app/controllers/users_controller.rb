@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   # GET /users
   # GET /users.json
   def index
@@ -61,8 +62,15 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.update_attributes(params[:user])
-        format.html { redirect_to users_url,
-          notice: "User #{@user.name} was successfully updated." }
+        format.html do
+          if @user.superuser?
+            redirect_to(users_url,
+                        notice: "User #{@user.name} was successfully updated.")
+          else
+            redirect_to(user_url,
+                        notice: "User #{@user.name} was successfully updated.")
+          end
+        end
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -82,4 +90,27 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  protected
+
+  def authorize
+    unless User.count.zero?
+      session_user = User.find_by_id(session[:user_id])
+      if !session_user
+        redirect_to login_url, notice: "Authorized access only"
+      elsif !session_user.superuser?
+        if !params[:id]
+          redirect_to(login_url,
+                      notice: "Superuser access only")
+        else 
+          param_user = User.find_by_id(params[:id])
+          if session_user != param_user
+            redirect_to(login_url,
+                        notice: "Superuser or same user access only")
+          end
+        end
+      end      
+    end
+  end
+  
 end
