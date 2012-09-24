@@ -1,4 +1,4 @@
 <h1>Welcome</h1>
 
 It's <%= Time.now %>
-We have <%= pluralize(@total_pending, "incident") %>
+We have <%= link_to pluralize(@total_pending, "incident"), incidents_path%>

@@ -80,7 +80,7 @@ function initialize_map() {
 function make_autocomplete(jQueryObject, searchUrl, msg) {
     jQueryObject.autocomplete({
 	source: function(request, response) {
-            var cat = $("#public_entity_category_id").val();
+            var cat = $("#incident_category_id").val();
 	    $.ajax({
 		url: searchUrl,
 		dataType: "json",
@@ -105,7 +105,7 @@ function make_autocomplete(jQueryObject, searchUrl, msg) {
 	    return false; 
 	},
 	change: function(event, ui) {
-            var cat = $("#public_entity_category_id").val();
+            var cat = $("#incident_category_id").val();
 	    if (ui.item == null) {
 		$.ajax({
     	    	    url: searchUrl,

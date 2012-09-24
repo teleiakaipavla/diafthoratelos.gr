@@ -5,7 +5,6 @@ class IncidentsController < ApplicationController
   skip_before_filter :authorize, only: [:new,
                                         :create,
                                         :show,
-                                        :index,
                                         :search,
                                         :total_given,
                                         :thank_you]
@@ -113,6 +112,7 @@ class IncidentsController < ApplicationController
   # GET /incidents/1/edit
   def edit
     @incident = Incident.find(params[:id])
+    @praise = @incident.praise.to_s
   end
 
   # POST /incidents

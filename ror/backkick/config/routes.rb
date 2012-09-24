@@ -14,7 +14,7 @@ Backkick::Application.routes.draw do
     delete 'logout' => :destroy
   end
 
-  resources :users
+  resources :users, :path => "/admin/users"
 
   resources :incidents do
     member do
@@ -93,7 +93,7 @@ Backkick::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'incidents#search'
 
   # See how all your routes lay out with "rake routes"
 
