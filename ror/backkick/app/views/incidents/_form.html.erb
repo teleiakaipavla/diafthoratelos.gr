@@ -142,7 +142,7 @@
     <div class="clear"></div>
 
     <div class="bottom">
-      <% unless session[:user_id] %>
+      <% if !session[:user_id] %>
         <div id="recaptcha_widget" style="display:none">
           <div class="captcha">
             <div id="recaptcha_image" style="width:100px"></div>
@@ -217,7 +217,14 @@
           <%= recaptcha_tags %>
         
           <div class="clear"></div>
+      <% else %>
+        <%= select(:incident, :approval_status,
+                   Incident::ALL_APPROVAL_STATUSES,
+                   {:include_blank => false} ) %>
+
+        <br/>
       <% end %>
+
       <div class="actions">
         <%= image_tag "btns/return.png", :border => "0",
             :onclick => "parent.document.location='#'" %>
