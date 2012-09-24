@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 function BindTopTen() {
     
-    var DataUrl = '../backkick/public_entities/top_ten.json?rnd=' + Math.random(100000) ;
+    var DataUrl = '../backkick/public_entities/top_rank.json?limit=5&rnd=' + Math.random(100000) ;
 	var rank = 1;
     $.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {
@@ -42,7 +42,7 @@ function BindGrid(gotonextpage) {
     if (category_id == null){category_id = ''};
 	if ((city == null)||(city == 'Περιοχή / Πόλη')){city = ''};
 	if ((carrier == null)||(carrier == 'Υπηρεσία / Οργανισμός')){carrier = ''};    
-var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&praise=true' + '&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
+var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=true' + '&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
 
 
 $.getJSON(DataUrl, function (data) {

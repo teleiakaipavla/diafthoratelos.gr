@@ -8,7 +8,7 @@ get_header();
         <div class="left filter-ddl"><select id="category" ></select></div>
         <div class="left filter-ddl"><input class="searchinput" type="text" id="city" value="Περιοχή / Πόλη" onclick="ClearTxt(this,'Περιοχή / Πόλη')" onblur="ResetTxt(this,'Περιοχή / Πόλη')"/></div>
         <div class="left filter-ddl"><input class="searchinput" type="text" id="carrier" value="Υπηρεσία / Οργανισμός" onclick="ClearTxt(this,'Υπηρεσία / Οργανισμός')" onblur="ResetTxt(this,'Υπηρεσία / Οργανισμός')"/></div>
-        <div class="left filter-btn"><img onmouseover="this.src='images/btns/searchon.png'" onmouseout="this.src='images/btns/search.png'"  src="images/btns/search.png" onclick="BindGrid(true);"/></div>
+        <div class="left filter-btn"><img onmouseover="this.src='images/btns/searchon.png'" onmouseout="this.src='images/btns/search.png'"  src="images/btns/search.png" onclick="$('#rpt').empty();BindGrid(false);"/></div>
         <div class="clear"></div>
     </div>
     <div class="content">

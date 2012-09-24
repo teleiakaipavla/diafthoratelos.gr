@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    var DataUrl = '../backkick/public_entities/bottom_ten.json?rnd=' + Math.random(100000);
+    var DataUrl = '../backkick/public_entities/bottom_rank.json?limit=10&rnd=' + Math.random(100000);
 	var rank = 1;
     $.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {

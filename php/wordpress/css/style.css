@@ -20,7 +20,7 @@ body
 .master-logo-holder .menu ul li a:hover{color:white;font-family:Arial;font-size:11px;text-decoration:none;background-color:#009fe3;width:200px;padding-left:10px;padding-right:10px;margin-left:-10px}
 .master-logo-holder-new{width:474px;height:238px;background-color:White;float:left}
 .master-logo-holder-new .logo{padding:0px 30px 0px 20px;float:left;margin-top:-117px}
-.master-logo-holder-new .menu{float:left;padding-top:6px;margin-top:-117px}
+.master-logo-holder-new .menu{float:left;padding-top:6px;margin-top:-123px}
 .master-logo-holder-new .menu ul {margin: 0;margin-left:2px;padding: 0px 0px 0px 0px;list-style: none;line-height: 16px;}
 .master-logo-holder-new .menu ul li a{color:#b6b4b4;font-family:Arial;font-size:11px;text-decoration:none;padding-left:10px;padding-right:10px;margin-left:-10px}
 .master-logo-holder-new .menu ul li a:hover{color:white;font-family:Arial;font-size:11px;text-decoration:none;background-color:#009fe3;width:200px;padding-left:10px;padding-right:10px;margin-left:-10px}
@@ -33,6 +33,7 @@ body
 .home-left{float:left;padding-top:14px}
 .home-left a{text-decoration:none}
 .home-right{float:left}
+.logobeta{margin-top:-10px;margin-left:-20px;position:absolute}
 
 
 .home-bluebox{width:230px;height:200px;background-image:url('../images/home/bluebox.png');background-repeat:no-repeat;margin:0px 0px 11px 12px}
@@ -241,9 +242,9 @@ body
 
 .home-bluebox-small-new .img{padding-top:32px;width:65px;padding-left:10px;float:left;}
 .home-bluebox-small-new .img-earth{padding-top:22px;width:65px;padding-left:10px;float:left;}
-.home-bluebox-small-new .text{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:15px}
-.home-bluebox-small-new .text-1l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:30px}
-.home-bluebox-small-new .text-3l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:3px}
+.home-bluebox-small-new .text{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:21px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:15px}
+.home-bluebox-small-new .text-1l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:21px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:30px}
+.home-bluebox-small-new .text-3l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:21px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:3px}
 .home-bluebox-small-new .img-nea{padding-top:32px;width:50px;padding-left:10px;float:left;}
 .home-bluebox-small-new .text-nea{float:left;width:147px;text-align:left;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px; padding-top:35px}
 
@@ -252,9 +253,9 @@ body
 }
 .home-bluebox-small-new-over .img{padding-top:32px;width:65px;padding-left:10px;float:left;}
 .home-bluebox-small-new-over .img-earth{padding-top:22px;width:65px;padding-left:10px;float:left;}
-.home-bluebox-small-new-over .text{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:15px}
-.home-bluebox-small-new-over .text-1l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:30px}
-.home-bluebox-small-new-over .text-3l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:3px}
+.home-bluebox-small-new-over .text{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:21px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:15px}
+.home-bluebox-small-new-over .text-1l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:21px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:30px}
+.home-bluebox-small-new-over .text-3l{float:left;width:130px;text-align:center;font-family:'Open Sans', sans-serif;font-size:21px;color:White;font-weight:bold;line-height:29px;padding-right:9px; padding-top:3px}
 
 .home-bluebox-small-new-over .img-nea{padding-top:32px;width:50px;padding-left:10px;float:left;}
 .home-bluebox-small-new-over .text-nea{float:left;width:147px;text-align:left;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px; padding-top:35px}

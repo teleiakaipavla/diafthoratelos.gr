@@ -22,7 +22,7 @@ function BindGrid(gotonextpage) {
     if (category_id == null){category_id = ''};
 	if ((city == null)||(city == 'Περιοχή / Πόλη')){city = ''};
 	if ((carrier == null)||(carrier == 'Υπηρεσία / Οργανισμός')){carrier = ''};    
-var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&praise=false&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
+var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=false&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
 
 
 $.getJSON(DataUrl, function (data) {
