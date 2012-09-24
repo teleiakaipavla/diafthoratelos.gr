@@ -61,6 +61,9 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
     respond_to do |format|
+      if @user.can_edit_su?
+        params[:user][:superuser] = @user.superuser
+      end
       if @user.update_attributes(params[:user])
         format.html do
           if @user.superuser?
@@ -112,5 +115,6 @@ class UsersController < ApplicationController
       end      
     end
   end
+
   
 end
