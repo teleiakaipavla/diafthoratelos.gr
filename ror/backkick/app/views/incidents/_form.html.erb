@@ -20,7 +20,7 @@
   <div class="Cloud"><%= t(:start_here_prompt) %></div>
   <div class="diafthora">
     <div class="box dtm">
-      <div class="dtm-ddl-holder">
+      <div class="dtm-ddl-holder" title="Πότε συνέβη το περιστατικό;">
         <div class="left dll">
 
           <div class="field">
@@ -31,7 +31,7 @@
       </div>
     </div>
     
-    <div class="box category">
+    <div class="box category"  title="Επιλέξτε την Κατηγορία στην οποία ανήκει η Υπηρεσία">
       <div class="category-ddl-holder">
         <div class="dll">
           <div class="field ui-widget">
@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="box public-entity-name">
+    <div class="box public-entity"  title="Επιλέξτε την Υπηρεσία που συνέβη το περιστατικό">
       <div class="public-entity-ddl-holder">
         <div class="dll">
           <div class="field ui-widget"> 
@@ -59,7 +59,7 @@
     <div class="clear"></div>
 
     <% if @praise  == 'false' %>
-      <div class="box money">
+      <div class="box money" title="Σας ζητήθηκαν χρήματα; Αφήστε τα πεδία κενά αν όχι">
         <div class="money-ddl-holder">
 
           <div class="field">
