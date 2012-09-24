@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   has_secure_password
 
   def can_edit_su?
-    User.count == 1 || self.superuser?
+    User.count == 1 || user.superuser?
   end
   
 end

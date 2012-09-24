@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 
+  prepend_before_filter :reset_session_user
+  
   # GET /users
   # GET /users.json
   def index
@@ -61,7 +63,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
     respond_to do |format|
-      if @user.can_edit_su?
+      unless @session_user.can_edit_su?
         params[:user][:superuser] = @user.superuser
       end
       if @user.update_attributes(params[:user])
@@ -96,18 +98,22 @@ class UsersController < ApplicationController
 
   protected
 
+  def reset_session_user
+    @session_user = nil
+  end
+  
   def authorize
     unless User.count.zero?
-      session_user = User.find_by_id(session[:user_id])
-      if !session_user
+      @session_user = User.find_by_id(session[:user_id])
+      if !@session_user
         redirect_to login_url, notice: "Authorized access only"
-      elsif !session_user.superuser?
+      elsif !@session_user.superuser?
         if !params[:id]
           redirect_to(login_url,
                       notice: "Superuser access only")
         else 
           param_user = User.find_by_id(params[:id])
-          if session_user != param_user
+          if @session_user != param_user
             redirect_to(login_url,
                         notice: "Superuser or same user access only")
           end
