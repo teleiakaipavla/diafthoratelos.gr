@@ -1,7 +1,7 @@
 ﻿<?php
 get_header();
 ?>
-<div class="content">
+<div class="iframecontent">
 
 	   <h1 class="exeisimvikaisemena-icon"><?php echo single_cat_title( $category_id ); ?></h1>
         <div class="subtext"><?php echo category_description( $category_id );  ?></div>
