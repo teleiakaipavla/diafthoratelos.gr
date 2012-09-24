@@ -59,7 +59,8 @@ class IncidentsController < ApplicationController
 
     @pageno = params[:pageno].to_i
     if (@pageno > 0)
-      @incidents = @incidents.limit(SEARCH_LIMIT).offset(@pageno * SEARCH_LIMIT)
+      @incidents = @incidents.limit(SEARCH_LIMIT)
+        .offset((@pageno - 1) * SEARCH_LIMIT)
     end
             
     respond_to do |format|

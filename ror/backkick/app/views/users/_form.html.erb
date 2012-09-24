@@ -31,7 +31,14 @@
     <%= f.label :password_confirmation, 'Confirm' %><br />
     <%= f.password_field :password_confirmation, size: 40 %>
   </div>
-    
+
+  <% if @user.superuser? || User.count == 1 %>
+    <div class="field">
+      <%= f.label :superuser, 'Superuser' %><br />
+      <%= f.check_box :superuser %>      
+    </div>
+  <% end %>
+  
   <div class="actions">
     <%= f.submit %>
   </div>
