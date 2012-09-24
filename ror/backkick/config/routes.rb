@@ -14,7 +14,7 @@ Backkick::Application.routes.draw do
     delete 'logout' => :destroy
   end
 
-  resources :users
+  resources :users, :path => "/admin/users"
 
   resources :incidents do
     member do

@@ -112,6 +112,7 @@ class IncidentsController < ApplicationController
   # GET /incidents/1/edit
   def edit
     @incident = Incident.find(params[:id])
+    @praise = @incident.praise.to_s
   end
 
   # POST /incidents

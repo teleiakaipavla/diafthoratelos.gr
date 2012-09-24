@@ -1,6 +1,6 @@
 <% content_for :scripts do %>
 <script type="text/javascript"
-	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
+        src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
 <% end %>
 
 <%= form_for(@incident) do |f| %>
@@ -23,35 +23,37 @@
       <div class="dtm-ddl-holder">
         <div class="left dll">
 
-	  <div class="field">
-	    <%= f.date_select :incident_date %>
-	  </div>
-	</div>
-	<div class="clear"></div>
+          <div class="field">
+            <%= f.date_select :incident_date %>
+          </div>
+        </div>
+        <div class="clear"></div>
       </div>
     </div>
     
     <div class="box category">
       <div class="category-ddl-holder">
-	<div class="dll">
-	  <div class="field ui-widget">
-	    <%= collection_select(:public_entity, :category_id, Category.all,
-		:id, :name, {:include_blank => true} ) %>
-	  </div>
-	</div>
+        <div class="dll">
+          <div class="field ui-widget">
+            <%= collection_select(:incident, :category_id,
+                                  Category.all,
+                                  :id, :name,
+                                  {:include_blank => true} ) %>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="box public-entity-name">
       <div class="public-entity-ddl-holder">
         <div class="dll">
-	  <div class="field ui-widget"> 
-	    <%= search_field_tag :public_entity_name,
-		params[:public_entity_name],
-		:value => t(:public_entity_name)
-	    %>
-	  </div>
-	</div>
+          <div class="field ui-widget"> 
+            <%= search_field_tag :public_entity_name,
+                params[:public_entity_name],
+                :value => @incident.public_entity_name || t(:public_entity_name)
+            %>
+          </div>
+        </div>
       </div>
     </div>
     <div class="clear"></div>
@@ -60,18 +62,18 @@
       <div class="box money">
         <div class="money-ddl-holder">
 
-	  <div class="field">
-	    <div class="moneytxt moneyasked">
-	      <%= f.text_field :money_asked,
-		  :value => t(:money_asked) %>
-	    </div>
-	  </div>
-	  <div class="field">
-	    <div class="moneytxt moneygiven">
-	      <%= f.text_field :money_given,
-		  :value => t(:money_given) %>
-	    </div>
-	  </div>
+          <div class="field">
+            <div class="moneytxt moneyasked">
+              <%= f.text_field :money_asked,
+                  :value => @incident.money_asked || t(:money_asked) %>
+            </div>
+          </div>
+          <div class="field">
+            <div class="moneytxt moneygiven">
+              <%= f.text_field :money_given,
+                  :value => @incident.money_given || t(:money_given) %>
+            </div>
+          </div>
         </div>        
       </div>
     <% end %>
@@ -85,36 +87,41 @@
         
         <div>
           <div class="map_text_field">
-            <input id="searchTextField" type="text" size="50">
+            <input id="searchTextField" type="text" size="50"
+                   <%= @incident.place_name.nil? ?
+                       "" :
+                         "value='#{@incident.place_name}'" %> >
           </div>
-	  
+          
           <div style="display:none;">
             <input type="radio" name="type"
-		   id="changetype_all" checked="checked">
+                   id="changetype_all" checked="checked">
             <label for="changetype-all">All</label>
-	    
+            
             <input type="radio" name="type" id="changetype_establishment">
             <label for="changetype_establishment">Establishments</label>
-	    
+            
             <input type="radio" name="type" id="changetype_geocode">
             <label for="changetype_geocode">Geocodes</label>
 
-	    <%= fields_for :place do |place_form| %>
-	      <%= place_form.hidden_field :name %>
-	      <%= place_form.hidden_field :longitude %>
-	      <%= place_form.hidden_field :latitude %>
-	      <%= place_form.hidden_field :address %>
-	    <% end %>
-	    
-	  </div>	  
-	</div>
+            <%= fields_for :place do |place_form| %>
+              <%= place_form.hidden_field :name %>
+              <%= place_form.hidden_field :longitude %>
+              <%= place_form.hidden_field :latitude %>
+              <%= place_form.hidden_field :address %>
+            <% end %>
+            
+          </div>          
+        </div>
       </div>
     </div>
               
     <div class="<%=
                 if @praise != 'false'
                   'box-big'
-                else 'box' end %> comments">
+                else
+                  'box'
+                end %> comments">
       <div class="comments-ddl-holder">
         <div class="<%=
                     if @praise != 'false'
@@ -122,105 +129,106 @@
                     else
                       'commentstxt'
                     end %> comment">
-	  <div class="field">
-	    <%= f.text_area :description,
-		:value => t(:description),
-   	        :onclick => "clearTxt(this, '#{t(:description)}')",
-	        :onblur => "resetTxt(this, '#{t(:description)}')" %>
-	  </div>
-	</div>
+          <div class="field">
+            <%= f.text_area :description,
+                :value => @incident.description || t(:description),
+                :onclick => "clearTxt(this, '#{t(:description)}')",
+                :onblur => "resetTxt(this, '#{t(:description)}')" %>
+          </div>
+        </div>
         <div class="sub-text"><%= t(:non_identifying) %></div>
       </div>
     </div>
     <div class="clear"></div>
 
     <div class="bottom">
-      <div id="recaptcha_widget" style="display:none">
-        <div class="captcha">
-      	  <div id="recaptcha_image" style="width:100px"></div>
-      	</div>
+      <% unless session[:user_id] %>
+        <div id="recaptcha_widget" style="display:none">
+          <div class="captcha">
+            <div id="recaptcha_image" style="width:100px"></div>
+          </div>
 
-	<div class="pointer"><%= image_tag "diafthora/pointer.png" %></div>
+          <div class="pointer"><%= image_tag "diafthora/pointer.png" %></div>
 
-	<div class="txt recaptchatxt">
-	  <input type="text" id="recaptcha_response_field"
-		 name="recaptcha_response_field" />
-	</div>
+          <div class="txt recaptchatxt">
+            <input type="text" id="recaptcha_response_field"
+                   name="recaptcha_response_field" />
+          </div>
 
-   	<div class="recaptcha_only_if_incorrect_sol"
-   	style="color:red">Incorrect, please try again</div>
-		
-      <div id="recaptcha_icons_logo">
-      <table border="0" cellspacing="0" cellpadding="0">
-	<tr>
-	  <td>
-	    <img width="25" height="18"
-		 alt="Get a new challenge"
-		 onclick="javascript:Recaptcha.reload()"
-		 src="http://www.google.com/recaptcha/api/img/clean/refresh.png"/>
-	  </td>
-	  <td rowspan="4">
-	    <img id="recaptcha_logo" alt="" width="71" height="36"
-		 src="http://www.google.com/recaptcha/api/img/clean/logo.png"/>
-	  </td>
-	  </tr>
-	<tr>
-	  <td>
-	    <span class="recaptcha_only_if_image"
-	       title="Get an audio challenge"
-	       tabindex="3">
-	      <img id="recaptcha_switch_audio" width="25" height="15"
-		   alt="Get an audio challenge"
-		   onclick="javascript:Recaptcha.switch_type('audio');"
-		   src="http://www.google.com/recaptcha/api/img/clean/audio.png"/>
-	    </span>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	    <span id="recaptcha_switch_img_btn"
-		  class="recaptcha_only_if_audio"
-		  tabindex="4">
-	      <img id="recaptcha_switch_img" width="25" height="15"
-		   alt="Get a visual challenge"
-		   onclick="javascript:Recaptcha.switch_type('image');"
-		   src="http://www.google.com/recaptcha/api/img/clean/text.png"/>
-	    </span>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	    <span id="recaptcha_whatsthis_btn"
-		  title="Help"
-		  tabindex="5">
-	      <img id="recaptcha_whatsthis" width="25" height="16"
-		   onclick="javascript:Recaptcha.showhelp()"
-		   src="http://www.google.com/recaptcha/api/img/clean/help.png"
-		   alt="Help"/>
-	    </span>
-	  </td>
-	</tr>
-      </table>
-      </div>
+          <div class="recaptcha_only_if_incorrect_sol"
+               style="color:red">Incorrect, please try again</div>
+                
+          <div id="recaptcha_icons_logo">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+                  <img width="25" height="18"
+                       alt="Get a new challenge"
+                       onclick="javascript:Recaptcha.reload()"
+                       src="http://www.google.com/recaptcha/api/img/clean/refresh.png"/>
+                </td>
+                <td rowspan="4">
+                  <img id="recaptcha_logo" alt="" width="71" height="36"
+                       src="http://www.google.com/recaptcha/api/img/clean/logo.png"/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="recaptcha_only_if_image"
+                        title="Get an audio challenge"
+                        tabindex="3">
+                    <img id="recaptcha_switch_audio" width="25" height="15"
+                         alt="Get an audio challenge"
+                         onclick="javascript:Recaptcha.switch_type('audio');"
+                         src="http://www.google.com/recaptcha/api/img/clean/audio.png"/>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span id="recaptcha_switch_img_btn"
+                        class="recaptcha_only_if_audio"
+                        tabindex="4">
+                    <img id="recaptcha_switch_img" width="25" height="15"
+                         alt="Get a visual challenge"
+                         onclick="javascript:Recaptcha.switch_type('image');"
+                         src="http://www.google.com/recaptcha/api/img/clean/text.png"/>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span id="recaptcha_whatsthis_btn"
+                        title="Help"
+                        tabindex="5">
+                    <img id="recaptcha_whatsthis" width="25" height="16"
+                         onclick="javascript:Recaptcha.showhelp()"
+                         src="http://www.google.com/recaptcha/api/img/clean/help.png"
+                         alt="Help"/>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
       
-      <div class="clear"></div>
+          <div class="clear"></div>
             
-      <!--   <div class="errormessage">Θα πρέπει να συμπληρώσετε όλα τα απαραίτητα πεδία για να προχωρήσετε στο βήμα της υποβολής του περιστατικού σας.</div> -->
-      <br/>
+          <br/>      
+          <%= recaptcha_tags %>
+        
+          <div class="clear"></div>
+      <% end %>
       <div class="actions">
-	<%= image_tag "btns/return.png", :border => "0",
-	    :onclick => "parent.document.location='#'" %>
-	<%= f.submit "Submit",
-	    :type => :image,
-	    :src => asset_path("diafthora/ypovoli.png") %>
+        <%= image_tag "btns/return.png", :border => "0",
+            :onclick => "parent.document.location='#'" %>
+        <%= f.submit "Submit",
+            :type => :image,
+            :src => asset_path("diafthora/ypovoli.png") %>
       </div>
-      
-      <%= recaptcha_tags %>
-	
-      <div class="clear"></div>
+
+      </div>
     </div>
-  </div>
-	  
+          
   </div>
     
 <% end %>
