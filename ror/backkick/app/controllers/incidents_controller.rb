@@ -27,6 +27,14 @@ class IncidentsController < ApplicationController
                                    :public_entity => :category)
       .order("incidents.created_at")
 
+    if params[:approval_status]
+      @incidents =
+        @incidents.where(:approval_status => params[:approval_status])
+    else
+      @incidents =
+        @incidents.where(:approval_status => Incident::APPROVED_STATUS)
+    end
+    
     @praise = false
     
     if params[:praise] == "true"
@@ -198,7 +206,7 @@ class IncidentsController < ApplicationController
 
   # GET /incidents/total_given
   def total_given
-    sum = Incident.where(:approval_status => Incident::APPROVED_STATUS)
+    sum = 0.0 + Incident.where(:approval_status => Incident::APPROVED_STATUS)
       .sum("money_given")
         
     respond_to do |format|

@@ -105,10 +105,21 @@
                   <div class="descr">
                     <%= incident.description %>
                   </div>
-                  <div class="datetime"><%= incident.created_at %></div>
+                  <div class="incident_footer">
+                    <%= incident.created_at %>
+                    <% if session[:user_id] %>
+                      |
+                      <%= incident.approval_status %>
+                      |
+                      <%= link_to 'Show', incident %> 
+                      <%= link_to 'Edit', edit_incident_path(incident) %>
+                      <%= link_to 'Destroy', incident, method: :delete,
+                          data: { confirm: 'Are you sure?' } %>
+                    <% end %>
+                  </div>
                 </div>
 
-                <% if !@praise %>
+                <% if !incident.praise %>
                   <div class="money">
                     <div class="asked">
                       <%= incident.money_asked %>
@@ -119,14 +130,7 @@
                         <%= img_tag("images/katagkelies/like.png") %>
                       <% end %>
                     </div>
-                    <div class="clear"></div>
                   </div>
-                <% end %>
-                <% if session[:user_id] %>
-                  <%= link_to 'Show', incident %> 
-                  <%= link_to 'Edit', edit_incident_path(incident) %>
-                  <%= link_to 'Destroy', incident, method: :delete,
-                      data: { confirm: 'Are you sure?' } %>
                 <% end %>
                 <div class="clear"></div>
               <% end %>
