@@ -3,6 +3,11 @@
         src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
 <% end %>
 
+<% categories_array = Category.all.map{ |c| [c.name, c.id] } %>
+<% selected_category = @incident.public_entity.nil? ?
+     0 :
+   @incident.public_entity.category_id %>
+
 <%= form_for(@incident) do |f| %>
   <%= f.hidden_field(:praise, :value => @praise) %>
   <% if @incident.errors.any? %>
@@ -35,10 +40,10 @@
       <div class="category-ddl-holder">
         <div class="dll">
           <div class="field ui-widget">
-            <%= collection_select(:incident, :category_id,
-                                  Category.all,
-                                  :id, :name,
-                                  {:include_blank => true} ) %>
+            <%= select_tag(:category_id,
+                           options_for_select(categories_array,
+                                              selected_category),
+                           :include_blank => true) %>
           </div>
         </div>
       </div>
