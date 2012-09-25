@@ -137,9 +137,10 @@ class PublicEntitiesController < ApplicationController
                           'sum(incidents.money_given) as total_money_given')
       .joins(:incidents)
       .where('incidents.praise' => false)
+      .where('incidents.approval_status' => Incident::APPROVED_STATUS)
       .group('public_entities.id').order('total_money_given desc')
       .limit(@limit)
-
+    
     respond_to do |format|
       format.html do
         @bottom_ten_rank = true
@@ -162,6 +163,7 @@ class PublicEntitiesController < ApplicationController
       PublicEntity.select('public_entities.*, count(incidents.id) as count')
       .joins(:incidents)
       .where('incidents.praise' => true)
+      .where('incidents.approval_status' => Incident::APPROVED_STATUS)
       .group('public_entities.id').order('count desc')
       .limit(@limit)
    
