@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-# run as  script/runner -e [ production | development | testing] add_category.rb
+
+require "../config/environment"
 
 require 'csv'
 
