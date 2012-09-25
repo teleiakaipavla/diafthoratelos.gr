@@ -20,7 +20,7 @@ CSV.foreach(categories_path, :col_sep => ",") do |row|
   if row[0]
     public_entity_types[row[0]] = row[1]
   end
-  Category.create(name: row[1])
+  Category.create(name: row[1].strip)
 end
 
 public_entity_types.each do |english_name, greek_name|
@@ -28,6 +28,6 @@ public_entity_types.each do |english_name, greek_name|
   puts "processing #{file_path}"
   category = Category.where(:name => greek_name).first
   CSV.foreach(file_path, :col_sep => ";") do |row|
-    PublicEntity.create(name: row[0], category_id: category.id)
+    PublicEntity.create(name: row[0].strip, category_id: category.id)
   end
 end
