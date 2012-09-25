@@ -37,7 +37,13 @@ el:
     - Νοέμβριος
     - Δεκέμβριος
   activerecord:
-    errors:
+    attributes:
+      incident:
+        public_entity_id: Υπηρεσία / οργανισμός
       messages:
         taken: έχει ήδη δεσμευθεί
         blank: κενό
+  recaptcha:
+    errors:
+      verification_failed: Δεν επαληθεύθηκε το reCAPTCHA, παρακαλούμε δοκιμάστε πάλι
+      recaptcha_unavailable: Πρόβλημε επικοινωνίας με την υπηρεσία reCAPTCHA, παρακαλούμε δοκιμάστε πάλι

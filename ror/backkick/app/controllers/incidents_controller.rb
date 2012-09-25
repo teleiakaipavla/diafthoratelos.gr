@@ -105,9 +105,8 @@ class IncidentsController < ApplicationController
   def new
     @incident = Incident.new
 
-    @praise = params[:praise]
-    if @praise != "true"
-      @praise = "false"
+    if params[:praise]
+      @incident.praise = params[:praise]
     end
 
     respond_to do |format|

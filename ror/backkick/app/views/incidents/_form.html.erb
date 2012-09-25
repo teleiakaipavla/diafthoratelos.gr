@@ -9,11 +9,15 @@
    @incident.public_entity.category_id %>
 
 <%= form_for(@incident) do |f| %>
-  <%= f.hidden_field(:praise, :value => @praise) %>
   <% if @incident.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@incident.errors.count, "error") %> prohibited this incident from being saved:</h2>
-
+      <h2><%= @incident.errors.count %>
+          <%= if @incident.errors.count == 1
+                "λάθος εμπόδισε"
+              else
+                "λάθη εμπόδισαν"
+              end %>
+            την αποθήκευση του περιστατικού</h2>
       <ul>
       <% @incident.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
@@ -63,7 +67,7 @@
     </div>
     <div class="clear"></div>
 
-    <% if @praise  == 'false' %>
+    <% if @incident.praise  == false %>
       <div class="box money" title="Σας ζητήθηκαν χρήματα; Αφήστε τα πεδία κενά αν όχι">
         <div class="money-ddl-holder">
 
@@ -122,14 +126,14 @@
     </div>
               
     <div class="<%=
-                if @praise != 'false'
+                if @incident.praise != false
                   'box-big'
                 else
                   'box'
                 end %> comments">
       <div class="comments-ddl-holder">
         <div class="<%=
-                    if @praise != 'false'
+                    if @incident.praise != false
                       'commentstxt-big'
                     else
                       'commentstxt'
