@@ -96,7 +96,15 @@ class IncidentsController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render json: @incident }
+      format.json { render json: @incident, :include => {
+          :public_entity => {
+            :only => :name,
+            :include => { :category => {
+                :only => :name }
+            }
+          },
+          :place => { :only => [:name, :latitude, :longitude] },
+        }}
     end
   end
 
