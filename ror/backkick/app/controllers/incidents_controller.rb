@@ -12,7 +12,7 @@ class IncidentsController < ApplicationController
   # GET /incidents
   # GET /incidents.json
   def index
-    @incidents = Incident.all
+    @incidents = Incident.order("created_at desc")
 
     respond_to do |format|
       format.html # index.html.erb
