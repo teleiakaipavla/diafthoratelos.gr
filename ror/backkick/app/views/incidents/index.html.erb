@@ -85,8 +85,11 @@
       </div>
     <% end %>
     <div class="clear"></div>
-    <div class="grid jspScrollable" style="overflow: hidden; padding: 0px; width: 913px; " tabindex="0">
-      
+    <div class="grid jspScrollable"
+         style="overflow-y: <%= session[:user_id]? 'auto' : 'hidden' %>;
+                overflow-x: hidden;
+                padding: 0px;
+                width: 913px; " tabindex="0">
       <div class="jspContainer" style="width: 913px; height: 500px;">
         <div class="jspPane" style="padding: 0px; top: -150px; width:899px;">
           <div id="rpt">
