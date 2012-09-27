@@ -227,6 +227,9 @@
         
           <div class="clear"></div>
       <% else %>
+        <%= label_tag(:praise, "Praise") %>
+        <%= check_box(:incident, :praise) %>
+        <%= label_tag(:approval_status, "Approval status") %>
         <%= select(:incident, :approval_status,
                    Incident::ALL_APPROVAL_STATUSES,
                    {:include_blank => false} ) %>

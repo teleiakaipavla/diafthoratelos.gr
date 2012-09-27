@@ -13,7 +13,9 @@
     <div class="left filter-ddl">
       <span class="field ui-widget">
         <% category_array =
-          Category.all.map {|category| [category.name, category.id] } %>
+          Category.order("name asc").map do |category|
+             [category.name, category.id]
+           end %>
         <%= select_tag(:category_id,
                        options_for_select(category_array),
                        {:include_blank => true}) %>
@@ -85,8 +87,11 @@
       </div>
     <% end %>
     <div class="clear"></div>
-    <div class="grid jspScrollable" style="overflow: hidden; padding: 0px; width: 913px; " tabindex="0">
-      
+    <div class="grid jspScrollable"
+         style="overflow-y: <%= session[:user_id]? 'auto' : 'hidden' %>;
+                overflow-x: hidden;
+                padding: 0px;
+                width: 913px; " tabindex="0">
       <div class="jspContainer" style="width: 913px; height: 500px;">
         <div class="jspPane" style="padding: 0px; top: -150px; width:899px;">
           <div id="rpt">
