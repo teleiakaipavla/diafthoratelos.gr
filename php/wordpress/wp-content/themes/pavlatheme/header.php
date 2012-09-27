@@ -20,16 +20,28 @@
 	        <meta name="name" content="Τελεία και παύλα" />
 	        <meta name="keywords" />
 	<meta name="description" content="Κίνημα πολιτών ενάντια στη διαφθορά" />
-	<meta property="og:title" content="Τελεία και παύλα" />
-	<meta property="og:description" content="Κίνημα πολιτών ενάντια στη διαφθορά" />
+
+	             <?php if (($cat == 22) || ($cat == 23)) {  ?>
+			
+					<meta property="og:title" content="<?php echo single_cat_title( $category_id ); ?>" />
+					<meta property="og:description" content="<?php echo single_cat_title( $category_id ); ?>" />
+					<meta property="og:image" content="images/global/logo.png"/>
+			
+				<?php }else {?>
+			
+					<meta property="og:title" content="Τελεία και παύλα" />
+					<meta property="og:description" content="Κίνημα πολιτών ενάντια στη διαφθορά" />
+					<meta property="og:image" content="images/global/logo.png"/>
+
+				<?php }?>
+
 
 	        <meta name="author" content="Τελεία και παύλα"/>
 			<meta name="copyright" content="2012 Τελεία και παύλα"/>
 			<meta name="revisit-after" content="7 days"/>
 	        <link rel="shortcut icon" href="images/global/favicon.ico" />
 	        <link rel="image_src" href="images/global/logo.png" />
-			<meta property="og:image" content="images/global/logo.png"/>
-
+			
 </head>
 <body>
 
@@ -81,7 +93,7 @@
                 </div>
                 <div class="clear"></div>
             </div>
-           <div class="master-black-hole-new">
+           <div class="master-black-hole-new"><a href="?cat=20">
 	             <?php if (($cat == 16) || ($cat == 18)) {  ?>
 			   <div style="position:absolute;margin-left:243px;margin-top:10px"><img src="images/global/blackholeover.png" /></div>             
 				<?php }?>
@@ -90,6 +102,7 @@
                 <div class="text">Xρήμα που <b>χάθηκε</b> στη μαύρη τρύπα!</div>
                 <div class="money"></div>
                 <div class="clear"></div>
+				</a>
             </div>
             <div class="clear"></div>
         </div>

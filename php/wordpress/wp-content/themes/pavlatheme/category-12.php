@@ -7,7 +7,7 @@ get_header();
         <h1 class="protoimediafora-icon"><?php echo single_cat_title( $category_id ); ?></h1>
         <div class="subtext"><?php echo category_description( $category_id );  ?></div>
         <div class="protimefiafora-header">
-            <div class="protimefiafora-title"><a>Δόθηκαν</a></div>
+            <div class="protimefiafora-title"><a>Περιστατικά</a></div>
             <div class="clear"></div>
         </div>
         <div class="text protimediafora">
@@ -16,9 +16,9 @@ get_header();
             </div>
         </div>
         <div class="readmore">
-            <div class="starts">* * *</div>
-            <div class="txt">ΤΑ ΣΤΟΙΧΕΙΑ ΥΠΟΒΑΛΛΟΝΤΑΙ ΑΝΩΝΥΜΑ</div>
-            <div class="starts">* * *</div>
+			     <div class="starts"></div>
+		            <div class="txt">Τα στοιχεία υποβάλλονται ανώνυμα και πρέπει να αφορούν προσωπική σας εμπειρία</div>
+		            <div class="starts"></div>
             <div class="link"><a href="#">Μάθε περισσότερα</a></div>
         </div>
     </div>
