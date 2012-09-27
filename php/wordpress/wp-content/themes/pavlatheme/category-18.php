@@ -7,9 +7,9 @@ get_header();
 	        <div class="subtext"><?php echo category_description( $category_id );  ?></div>
 
          <div class="readmore">
-            <div class="starts">* * *</div>
-            <div class="txt">ΤΑ ΣΤΟΙΧΕΙΑ ΥΠΟΒΑΛΛΟΝΤΑΙ ΑΝΩΝΥΜΑ</div>
-            <div class="starts">* * *</div>
+		     <div class="starts"></div>
+	            <div class="txt">Τα στοιχεία υποβάλλονται ανώνυμα και πρέπει να αφορούν προσωπική σας εμπειρία</div>
+	            <div class="starts"></div>
             <div class="link"><a href="#">Μάθε περισσότερα</a></div>
         </div>
         <div class="text">

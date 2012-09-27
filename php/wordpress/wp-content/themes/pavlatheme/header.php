@@ -2,8 +2,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Τελεία και παύλα - Κίνημα πολιτών ενάντια στη διαφθορά</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Τελεία και παύλα</title>
+    
+		<meta name="description" content="<?php echo single_cat_title( $category_id ); ?>" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery/jquery-1.6.1.min.js" type="text/javascript"></script>
     <script src="js/global.js" type="text/javascript"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800,400,600&subset=latin,greek' rel='stylesheet' type='text/css'>
@@ -19,22 +21,11 @@
 
 	        <meta name="name" content="Τελεία και παύλα" />
 	        <meta name="keywords" />
-	<meta name="description" content="Κίνημα πολιτών ενάντια στη διαφθορά" />
-
-	             <?php if (($cat == 22) || ($cat == 23)) {  ?>
-			
-					<meta property="og:title" content="<?php echo single_cat_title( $category_id ); ?>" />
-					<meta property="og:description" content="<?php echo single_cat_title( $category_id ); ?>" />
-					<meta property="og:image" content="images/global/logo.png"/>
-			
-				<?php }else {?>
-			
+	
+		
 					<meta property="og:title" content="Τελεία και παύλα" />
 					<meta property="og:description" content="Κίνημα πολιτών ενάντια στη διαφθορά" />
 					<meta property="og:image" content="images/global/logo.png"/>
-
-				<?php }?>
-
 
 	        <meta name="author" content="Τελεία και παύλα"/>
 			<meta name="copyright" content="2012 Τελεία και παύλα"/>

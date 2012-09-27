@@ -2,8 +2,7 @@
 var myscroller;
 $(document).ready(function () {
     $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: '../backkick/categories.json', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-    //$('#city').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/city.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-    //$('#carrier').nk_dropdown({ width: 286, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', srcText: 'Αναζήτηση..', classname: 'telia', srcType: true, datasource: 'datasource/foreas.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
+
     BindGrid(true)
 
     myscroller = $('.grid').jScrollPane({ animateScroll: true, horizontalGutter: 3, autoReinitialise: true })
@@ -22,7 +21,11 @@ function BindGrid(gotonextpage) {
     if (category_id == null){category_id = ''};
 	if ((city == null)||(city == 'Περιοχή / Πόλη')){city = ''};
 	if ((carrier == null)||(carrier == 'Υπηρεσία / Οργανισμός')){carrier = ''};    
+
 var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=false&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
+
+//var DataUrl = 'datasource/incidents.htm?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=false&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
+
 
 
 $.getJSON(DataUrl, function (data) {
@@ -54,7 +57,7 @@ function SetScrollLoad() {
     $(myscroller).bind('scroll', function (e) {
         var api = myscroller.data('jsp');
         var Position = 500 + api.getContentPositionY() 
-        var Limiter = 500 + parseInt(api.getContentPositionY()) + 390 // 130 = 1 row ( set how many rows before you want to load next page)
+        var Limiter = 500 + parseInt(api.getContentPositionY()) + 2600 // 130 = 1 row ( set how many rows before you want to load next page)
         var All = $('#rpt').height()
         if (Limiter > All) {
             BindGrid(true)

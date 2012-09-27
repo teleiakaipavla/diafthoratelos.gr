@@ -87,6 +87,9 @@ body
 .content .readmore .link{padding-left:10px;float:left}
 .content .readmore .link a{color:#010100;font-size:12px;font-weight:normal;}
 
+.content a{color:#009FE3;font-size:12px;text-decoration:none;font-family:Arial}
+.content a:hover{text-decoration:underline}
+
 .qa{width:958px;background-color:White;margin-top:28px;margin-bottom:26px;padding:0px 0px 0px 0px}
 
 .sxetika-icon{background-image:url('../images/icons/sxetika.png');background-repeat:no-repeat;background-position:left center;padding:0px;padding-left:43px}
@@ -231,11 +234,12 @@ body
 .home-bluebox-new .img-big{text-align:center;padding-bottom:15px}
 .home-bluebox-new .text-big{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:8px}
 .home-bluebox-new-over{width:230px;height:200px;background-image:url('../images/home/blueboxover.png');background-repeat:no-repeat;margin:0px  0px 11px  12px;}
-.home-bluebox-new-over .img{text-align:center;padding-bottom:20px}
+.home-bluebox-new-over .img{text-align:center;padding-bottom:20px;}
 .home-bluebox-new-over .title{text-align:center;font-family:'Open Sans', sans-serif;font-size:23px;color:White;font-weight:bold;line-height:29px}
 .home-bluebox-new-over .text{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:22px}
-.home-bluebox-new-over .img-big{text-align:center;padding-bottom:10px}
+.home-bluebox-new-over .img-big{text-align:center;padding-bottom:10px;}
 .home-bluebox-new-over .text-big{text-align:center;font-family:'Open Sans', sans-serif;font-size:14px;color:White;padding-top:8px}
+img{border:0;}
 
 .home-bluebox-small-new
 {width:229px;height:94px;background-image:url('../images/home/bluebox-small.png');background-repeat:no-repeat;margin:0px  0px 11px  12px;
