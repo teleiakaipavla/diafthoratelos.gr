@@ -1,6 +1,6 @@
 class PlacesController < ApplicationController
 
-  skip_before_filter :authorize, only: [:index, :search]
+  skip_before_filter :authorize, only: [:index, :search, :where_it_happens]
   
   def index
     @places = Place.all
