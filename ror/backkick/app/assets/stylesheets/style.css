@@ -257,9 +257,18 @@ body  {
     visibility:hidden;
 }
 
-#map_canvas {
-    height: 178px;
-    width: 260px;
+#where_it_happens_map_container {
+    width: 700px;
+}
+
+#where_it_happens_map_canvas {
+    padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc #ccc #999 #ccc;
+    box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+    width: 700px;
+    height: 700px;
 }
 
 .map_text_field input {

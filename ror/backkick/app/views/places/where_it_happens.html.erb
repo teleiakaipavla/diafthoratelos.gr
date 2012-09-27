@@ -1,0 +1,14 @@
+<% content_for :scripts do %>
+  <script type="text/javascript"
+          src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
+  <%= javascript_include_tag "markerclusterer.js" %>
+<% end %>
+
+<h1 class="pousimveni-icon">Δες πού συμβαίνει</h1>
+<div class="subtext"><p>Δείτε στο χάρτη τις περιοχές με τα περισσότερα περιστατικά διαφθοράς που έχετε αναφέρει.</p>
+</div>
+
+<div class="where_it_happens_map_container">
+  <div id="where_it_happens_map_canvas"></div>
+</div>
+

@@ -213,11 +213,10 @@ class IncidentsController < ApplicationController
 
   # GET /incidents/total_given
   def total_given
-    sum = 0.0 + Incident.where(:approval_status => Incident::APPROVED_STATUS)
+    sum = Incident.where(:approval_status => Incident::APPROVED_STATUS)
       .sum("money_given")
         
-    respond_to do |format|
-     
+    respond_to do |format|     
       format.json { render json: sum}
     end
   end
@@ -227,4 +226,5 @@ class IncidentsController < ApplicationController
       format.html # thank_you.html.erb
     end
   end
+  
 end

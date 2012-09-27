@@ -41,6 +41,7 @@ Backkick::Application.routes.draw do
   resources :places do
     collection do
       get 'search'
+      get 'where_it_happens'
     end
   end
   

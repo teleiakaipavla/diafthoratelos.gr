@@ -28,5 +28,12 @@ class PlacesController < ApplicationController
       format.json { render :json => @places }
     end 
   end
-  
+
+  # GET /places/where_it_happens
+  def where_it_happens
+    respond_to do |format|
+      format.html # where_it_happens.html.erb
+    end
+  end
+
 end
