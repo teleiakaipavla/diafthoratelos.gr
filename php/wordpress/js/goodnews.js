@@ -18,7 +18,8 @@ function BindTopTen() {
 	var rank = 1;
     $.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {
-            var html = '<div class="box">' + rank + '</div><div class="holder"><div class="p5"><h1>' + item.name + '</h1><h2>' + item.count + ' καλά νέα</h2></div></div><div class="clear"></div>'
+            if (item.count == 1) count_text = 'καλό νέο'; else count_text = 'καλά νέα';
+            var html = '<div class="box">' + rank + '</div><div class="holder"><div class="p5"><h1>' + item.name + '</h1><h2>' + item.count + ' ' + count_text + '</h2></div></div><div class="clear"></div>'
             rank ++
 			var holder = document.createElement("div")
             $(holder).hide();
