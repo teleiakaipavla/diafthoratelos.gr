@@ -25,7 +25,7 @@ class IncidentsController < ApplicationController
   def search
     @incidents = Incident.includes(:public_entity, :place,
                                    :public_entity => :category)
-      .order("incidents.created_at")
+      .order("incidents.created_at desc")
 
     if params[:approval_status]
       @incidents =
