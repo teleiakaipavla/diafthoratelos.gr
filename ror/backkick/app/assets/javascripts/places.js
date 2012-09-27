@@ -14,7 +14,7 @@ $(function() {
 
     var map = new google.maps.Map(mapElement, mapOptions);
 
-    $.getJSON('/places/index.json', function(placeObjects) {
+    $.getJSON('../places/index.json', function(placeObjects) {
         for (var i = 0; i < placeObjects.length; i++) {
             var latitude = placeObjects[i].latitude;
             var longitude = placeObjects[i].longitude;
