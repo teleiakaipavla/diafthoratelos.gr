@@ -49,14 +49,12 @@ class IncidentsController < ApplicationController
         @incidents.where(:approval_status => Incident::APPROVED_STATUS)
     end
     
-    @praise = false
+    @praise = params[:praise]
     
-    if params[:praise] == "true"
+    if @praise == "true"
       @incidents = @incidents.where(:praise => true)
-      @praise = true
-    elsif params[:praise] == "false"
+    elsif @praise == "false"
       @incidents = @incidents.where(:praise => false)
-      @praise = false
     end
 
     @category_id = params[:category_id]
@@ -65,10 +63,10 @@ class IncidentsController < ApplicationController
         .where('category_id = ?', "#{params[:category_id]}")
     end
 
-    if (params.has_key?(:place_name_filter) && 
-        params[:place_name_filter] != "")
+    @place_name_filter = params[:place_name_filter]
+    if @place_name_filter != ""
       @incidents = @incidents.joins(:place)
-        .where('places.name = ?', "#{params[:place_name_filter]}")
+        .where('places.name = ?', @place_name_filter)
     end
 
     if (params.has_key?(:public_entity_id))

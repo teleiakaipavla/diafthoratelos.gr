@@ -10,6 +10,7 @@ en:
   area_city: "Area/City"
   description: "Incident description"
   non_identifying: "Texts containing references to specific persons will not be published"
+  generic_news_heading: Incidents
   bad_news_heading: Corruption incidents
   bad_news_subheading: See all anonymous reports to date
   good_news_heading: Good news

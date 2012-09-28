@@ -5,8 +5,6 @@
 
 <%= form_tag("/incidents/search", :method => "get") do %>
 
-  <%= hidden_field_tag(:praise, value = @praise) %>
-      
   <div class="kataggelies-filter">
 
     <div class="pointerbg">
@@ -25,7 +23,9 @@
   
     <div class="left filter-ddl">
       <%= text_field_tag(:place_name_filter, nil, :size => 50,
-                         :class => "searchinput") %>
+                         :class => "searchinput",
+                         :value => @place_name_filter)
+          %>
     </div>
   
     <div class="left filter-ddl">
@@ -40,6 +40,14 @@
                      options_for_select(Incident::ALL_APPROVAL_STATUSES,
                                         @approval_status),
                      {:include_blank => false} )
+          %>
+    </div>
+
+    <div class="left filter-ddl">
+      <%= label_tag(:praise, "Praise") %>
+      <%= select_tag(:praise,
+                     options_for_select([true, false], @praise),
+                     {:include_blank => true})
           %>
     </div>
     
@@ -59,17 +67,17 @@
 
 <div class="content">
   <h1 class="exeisymvikaisemena-icon">
-    <%= if !@praise
+    <%= if @praise == "false"
           t(:bad_news_heading)
-        else
+        elsif @praise == "true"
           t(:good_news_heading)
         end
      %></h1>
   <div class="subtext">
     <p>
-      <%= if !@praise
+      <%= if @praise == "false"
           t(:bad_news_subheading)
-        else
+        elsif @praise == "true"
           t(:good_news_subheading)
         end
      %></h1>
@@ -80,10 +88,12 @@
   
   <div class="kataggelies">
     <div class="title">
-      <%= if !@praise
+      <%= if @praise == "false"
             t(:bad_news_heading)
-          else
+          elsif @praise == "true"
             t(:good_news_heading)
+          else
+            t(:generic_news_heading)
           end
       %>
     </div>
