@@ -8,34 +8,41 @@
   <%= hidden_field_tag(:praise, value = @praise) %>
       
   <div class="kataggelies-filter">
-    <div class="pointerbg"><%= t(:filter) %></div>
+
+    <div class="pointerbg">
+      <%= t(:filter) %>
+    </div>
 
     <div class="left filter-ddl">
-      <span class="field ui-widget">
-        <% category_array =
-          Category.order("name asc").map do |category|
-             [category.name, category.id]
-           end %>
-        <%= select_tag(:category_id,
-                       options_for_select(category_array),
-                       {:include_blank => true}) %>
-      </span>
+      <% category_options =
+           Category.order("name asc").map do |category|
+           [category.name, category.id]
+         end %>
+      <%= select_tag(:category_id,
+                     options_for_select(category_options, @category_id),
+                     {:include_blank => true}) %>
     </div>
   
     <div class="left filter-ddl">
-      <span class="map_text_field">
-        <%= text_field_tag(:place_name_filter, nil, :size => 50) %>
-      </span>
+      <%= text_field_tag(:place_name_filter, nil, :size => 50,
+                         :class => "searchinput") %>
     </div>
   
     <div class="left filter-ddl">
-      <span class="field ui-widget"> 
-        <%= search_field_tag :public_entity_name_filter,
+      <%= search_field_tag :public_entity_name_filter,
           params[:public_entity_name_filter],
-          :value => t(:public_entity_name) %>
-      </span>
+          :value => t(:public_entity_name),
+          :class => "searchinput" %>
     </div>
 
+    <div class="left filter-ddl">
+      <%= select_tag(:approval_status,
+                     options_for_select(Incident::ALL_APPROVAL_STATUSES,
+                                        @approval_status),
+                     {:include_blank => false} )
+          %>
+    </div>
+    
     <div class="left filter-btn">
       <%= image_submit_tag("btns/search.png",
                      :onmouseover =>

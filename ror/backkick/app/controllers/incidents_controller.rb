@@ -39,9 +39,11 @@ class IncidentsController < ApplicationController
                                    :public_entity => :category)
       .order("incidents.created_at desc")
 
-    if session[:user_id] && params[:approval_status]
+    @approval_status = params[:approval_status]
+    if session[:user_id] && @approval_status
+      
       @incidents =
-        @incidents.where(:approval_status => params[:approval_status])
+        @incidents.where(:approval_status => @approval_status)
     else
       @incidents =
         @incidents.where(:approval_status => Incident::APPROVED_STATUS)
@@ -56,8 +58,9 @@ class IncidentsController < ApplicationController
       @incidents = @incidents.where(:praise => false)
       @praise = false
     end
-    
-    if params.has_key?(:category_id) && params[:category_id] != ""
+
+    @category_id = params[:category_id]
+    if @category_id != ""
       @incidents = @incidents.joins(:public_entity => :category)
         .where('category_id = ?', "#{params[:category_id]}")
     end
