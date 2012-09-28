@@ -39,7 +39,7 @@
       <%= select_tag(:approval_status,
                      options_for_select(Incident::ALL_APPROVAL_STATUSES,
                                         @approval_status),
-                     {:include_blank => false} )
+                     {:include_blank => true} )
           %>
     </div>
 

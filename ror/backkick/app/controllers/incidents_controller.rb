@@ -40,12 +40,15 @@ class IncidentsController < ApplicationController
       .order("incidents.created_at desc")
 
     @approval_status = params[:approval_status]
-    if session[:user_id] && @approval_status
+    if session[:user_id]
+      if @approval_status
+        @incidents =
+          @incidents.where(:approval_status => @approval_status)
+      end
+    else
+      @approval_status = Incident::APPROVED_STATUS
       @incidents =
         @incidents.where(:approval_status => @approval_status)
-    else
-      @incidents =
-        @incidents.where(:approval_status => Incident::APPROVED_STATUS)
     end
     
     @praise = params[:praise]
