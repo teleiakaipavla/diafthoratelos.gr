@@ -19,7 +19,9 @@ $(function() {
             var latitude = placeObjects[i].latitude;
             var longitude = placeObjects[i].longitude;
             var latLng = new google.maps.LatLng(latitude, longitude);
-            var marker = new google.maps.Marker({'position': latLng});
+            var marker =
+                new google.maps.Marker({'position': latLng,
+                                        'url': ''});
             markers.push(marker);
         }
         var markerCluster = new MarkerClusterer(map, markers);

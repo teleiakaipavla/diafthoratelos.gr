@@ -1,13 +1,25 @@
 class IncidentsController < ApplicationController
 
-  SEARCH_LIMIT = 20
-  
   skip_before_filter :authorize, only: [:new,
                                         :create,
                                         :show,
                                         :search,
                                         :total_given,
                                         :thank_you]
+  
+  PAGE_SIZE = 20
+  
+  INCLUDE_INCIDENT_JSON_DESC = {
+    :include => {
+      :public_entity => {
+        :only => :name,
+        :include => { :category => {
+            :only => :name }
+        }
+      },
+      :place => { :only => [:name, :latitude, :longitude] }
+    }
+  }
   
   # GET /incidents
   # GET /incidents.json
@@ -27,7 +39,7 @@ class IncidentsController < ApplicationController
                                    :public_entity => :category)
       .order("incidents.created_at desc")
 
-    if params[:approval_status]
+    if session[:user_id] && params[:approval_status]
       @incidents =
         @incidents.where(:approval_status => params[:approval_status])
     else
@@ -56,7 +68,18 @@ class IncidentsController < ApplicationController
         .where('places.name = ?', "#{params[:place_name_filter]}")
     end
 
-    if (params.has_key?(:public_entity_name_filter) &&
+    if (params.has_key?(:public_entity_id))
+      @incidents = @incidents.joins(:public_entity)
+        .where('public_entity_id = ?', params[:public_entity_id])
+    elsif (params.has_key?(:public_entity_name_appr_filter) &&
+           params[:public_entity_name_appr_filter] != "" && 
+           params[:public_entity_name_appr_filter] != t(:public_entity_name))
+      capitalized_appr_name_filter =
+        Unicode::upcase(params[:public_entity_name_appr_filter])
+      @incidents = @incidents.joins(:public_entity)
+        .where('public_entities.name like ?',
+               "%#{capitalized_appr_name_filter}%")
+    elsif (params.has_key?(:public_entity_name_filter) &&
         params[:public_entity_name_filter] != "" && 
         params[:public_entity_name_filter] != t(:public_entity_name))
       @incidents = @incidents.joins(:public_entity)
@@ -65,27 +88,16 @@ class IncidentsController < ApplicationController
     end
 
     @pageno = params[:pageno].to_i
+    @pagesize = params[:pagesize] || PAGE_SIZE
     if (@pageno > 0)
-      @incidents = @incidents.limit(SEARCH_LIMIT)
-        .offset((@pageno - 1) * SEARCH_LIMIT)
+      @incidents = @incidents.limit(@pagesize)
+        .offset((@pageno - 1) * @pagesize)
     end
             
     respond_to do |format|
       format.html { render action: "index" }
-      format.json do
-        json_results = @incidents.map do |incident|
-          incident.as_json(:include => {
-                             :public_entity => {
-                               :only => :name,
-                               :include => { :category => {
-                                   :only => :name }
-                               }
-                             },
-                             :place => { :only => :name },
-                           })
-        end
-        render :json => json_results
-      end
+      format.json { render :json => @incidents, 
+        :include => INCLUDE_INCIDENT_JSON_DESC[:include] }
     end
   end
   
@@ -96,15 +108,8 @@ class IncidentsController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render json: @incident, :include => {
-          :public_entity => {
-            :only => :name,
-            :include => { :category => {
-                :only => :name }
-            }
-          },
-          :place => { :only => [:name, :latitude, :longitude] },
-        }}
+      format.json { render json: @incident,
+        :include => INCLUDE_INCIDENT_JSON_DESC[:include] }
     end
   end
 
