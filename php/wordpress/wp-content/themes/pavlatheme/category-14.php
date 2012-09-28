@@ -18,7 +18,7 @@ get_header();
 		<div class="goodnews">
             <div class="title">Θετικά περιστατικά</div>
             <div class="title-small grid-bg">
-                <a >Οι καλύτερες υπηρεσίες</a>
+                Οι καλύτερες υπηρεσίες
             </div>
             <div class="clear"></div>
             <div class="grid">

@@ -125,7 +125,7 @@ body
 
 
 .content .goodnews .title{font-family:'Open Sans', sans-serif;font-size:25px;color:White;background-color:#009fe3;line-height:40px;padding-left:23px;width:617px;margin-right:20px;float:left}
-.content .goodnews .title-small{font-family:'Open Sans', sans-serif;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px}
+.content .goodnews .title-small{font-family:'Open Sans', sans-serif;font-size:18px;color:White;line-height:43px;float:left;width:233px;height:54px;text-align:center}
 
 .content .goodnews .grid-bg{background-image:url('../images/goodnews/smalltitle.png');background-repeat:no-repeat;}
 .content .goodnews .grid-bg a{padding-left:12px}

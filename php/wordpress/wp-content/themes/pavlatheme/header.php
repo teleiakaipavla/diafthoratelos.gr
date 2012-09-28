@@ -84,7 +84,7 @@ if ((strlen($category_title) != 0) || (strlen($page_data->post_title) != 0))
                     <div class="fb"><a target="_blank" href="http://www.facebook.com/share.php?u=http://www.teleiakaipavla.gr"><img border="0" src="images/global/facebook.png" /></a></div>
                     <div class="tw"><a target="_blank" href="http://twitter.com/home?status=http://www.teleiakaipavla.gr"><img border="0" src="images/global/twitter.png" /></a></div>
                     <div class="bb"><a href="#"><img border="0" src="images/global/b.png" /></a></div>
-                    <div class="mail"><a href="mailto:info@teleiakaipavla.gr"><img border="0" src="images/global/mail.png" /></a></div>
+                    <div class="mail"><a href="?page_id=139"><img border="0" src="images/global/mail.png" /></a></div>
                 </div>
 
             <!--Social End        -->

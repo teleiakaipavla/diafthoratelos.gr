@@ -24,7 +24,9 @@ get_header();
 
           </div>
  <div class="clear"></div>
-           <br /><br /><br />
+           <br /><br />
+		<a href="?cat=14">Δες περισσότερα καλά νέα</α>
+           <br />
        </div>
        <div class="readmore">
            <div class="shareit">Μοιράσου το</div>

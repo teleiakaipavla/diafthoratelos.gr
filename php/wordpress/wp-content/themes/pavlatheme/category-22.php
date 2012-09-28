@@ -40,8 +40,9 @@ get_header();
                </div>
            </div>
            
-           <div class="clear"></div>
-           <br /><br /><br />
+           <div class="clear"></div><br /><br />
+		<a href="?cat=20">Δες περισσότερα περιστατικά διαφθοράς</α>
+           <br />
        </div>
        <div class="readmore">
            <div class="shareit">Μοιράσου το</div>
