@@ -1,14 +1,16 @@
 ﻿var pageno = 0
 var myscroller;
+if (init_public_entity.length == 0){init_public_entity = 'Υπηρεσία / Οργανισμός';}
+
 $(document).ready(function () {
     $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: '../backkick/categories.json', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-
+	
+	$('#carrier').val(init_public_entity) 
     BindGrid(true)
 
     myscroller = $('.grid').jScrollPane({ animateScroll: true, horizontalGutter: 3, autoReinitialise: true })
     SetScrollLoad()
 });
-
 
 
 
@@ -30,6 +32,9 @@ var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '
 
 $.getJSON(DataUrl, function (data) {
          $.each(data, function (index, item) {
+	if (index==9){
+		return;
+	}
 		    var html = '<a href="?cat=22&inc=' + item.id + '"><div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | ' + item.place.name + ' | ' + item.public_entity.name + '</div><div class="descr">' + reWriteDescription(item.description) + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div></a>'
             var holder = document.createElement("div")
             $(holder).hide();
@@ -57,7 +62,7 @@ function SetScrollLoad() {
     $(myscroller).bind('scroll', function (e) {
         var api = myscroller.data('jsp');
         var Position = 500 + api.getContentPositionY() 
-        var Limiter = 500 + parseInt(api.getContentPositionY()) + 2600 // 130 = 1 row ( set how many rows before you want to load next page)
+        var Limiter = 500 + parseInt(api.getContentPositionY()) + 390 // 130 = 1 row ( set how many rows before you want to load next page)
         var All = $('#rpt').height()
         if (Limiter > All) {
             BindGrid(true)

@@ -35,7 +35,7 @@ get_header();
 	                <a title="Περιστατικά διαφθοράς ανά περιοχή" href="?cat=15">
 	                <div class="home-bluebox-small-new">
 	                    <div class="img-earth"><img src="images/home/home-earth.png" /></div>
-	                    <div class="text">Δες που συμβαίνει</div>
+	                    <div class="text">Δες πού συμβαίνει</div>
 	                     <div class="clear"></div>
 	                </div>
 	               </a>

@@ -1,10 +1,26 @@
+<?php
+$page_id = $_GET["page_id"];
+$page_data = get_page( $page_id );
+
+$category_title = single_cat_title( $category_id, false );
+
+
+$current_title = 'Τελεία και παύλα';
+
+if ((strlen($category_title) != 0) || (strlen($page_data->post_title) != 0))
+{
+	$current_title = $current_title.' - '.$page_data->post_title.$category_title;
+}
+?>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Τελεία και παύλα</title>
+    <title><?php echo $current_title; ?></title>
     
-		<meta name="description" content="<?php echo single_cat_title( $category_id ); ?>" />
+
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery/jquery-1.6.1.min.js" type="text/javascript"></script>
     <script src="js/global.js" type="text/javascript"></script>
@@ -15,23 +31,24 @@
     <link href="js/nkal/dropdown/dropdown.css" rel="stylesheet" type="text/css" />
     <script src="js/nkal/dropdown/dropdown.js" type="text/javascript"></script>
  <script src="js/sum.js" type="text/javascript"></script>
-    </head>
 
 
 
 	        <meta name="name" content="Τελεία και παύλα" />
+		<meta name="description" content="Η δράση μας έχει στόχο να δώσει βήμα και φωνή σε όσους από μας θέλουν έμπρακτα να αναδείξουν και να πολεμήσουν το πρόβλημα της διαφθοράς στην Ελλάδα. Μέσα από την καταγραφή περιστατικών διαφθοράς θα μπορέσουμε να εκτιμήσουμε τον οικονομικό και ηθικό αντίκτυπο στην κάθε επιμέρους κοινότητα που κινούμαστε, στο σχολείο, στη δουλειά, στη γειτονιά, στο χώρο της υγείας, στις δημόσιες υπηρεσίες, στο Δήμο. Στην καθημερινότητά μας συνολικά." />
 	        <meta name="keywords" />
 	
-		
-					<meta property="og:title" content="Τελεία και παύλα" />
-					<meta property="og:description" content="Κίνημα πολιτών ενάντια στη διαφθορά" />
-					<meta property="og:image" content="images/global/logo.png"/>
+					<meta property="og:title" content="<?php echo $current_title; ?>" />
+					<meta property="og:description" content="Η δράση μας έχει στόχο να δώσει βήμα και φωνή σε όσους από μας θέλουν έμπρακτα να αναδείξουν και να πολεμήσουν το πρόβλημα της διαφθοράς στην Ελλάδα. Μέσα από την καταγραφή περιστατικών διαφθοράς θα μπορέσουμε να εκτιμήσουμε τον οικονομικό και ηθικό αντίκτυπο στην κάθε επιμέρους κοινότητα που κινούμαστε, στο σχολείο, στη δουλειά, στη γειτονιά, στο χώρο της υγείας, στις δημόσιες υπηρεσίες, στο Δήμο. Στην καθημερινότητά μας συνολικά." />
+					<meta property="og:image" content="http://www.teleiakaipavla.gr/images/global/fb_logo.png"/>
+
+					
 
 	        <meta name="author" content="Τελεία και παύλα"/>
 			<meta name="copyright" content="2012 Τελεία και παύλα"/>
 			<meta name="revisit-after" content="7 days"/>
 	        <link rel="shortcut icon" href="images/global/favicon.ico" />
-	        <link rel="image_src" href="images/global/logo.png" />
+	        <link rel="image_src" href="images/global/fb_logo.png" />
 			
 </head>
 <body>

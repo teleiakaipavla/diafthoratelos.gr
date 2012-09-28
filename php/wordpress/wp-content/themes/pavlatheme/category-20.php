@@ -1,6 +1,10 @@
 <?php
 get_header();
+
+
 ?>
+
+<script type="text/javascript">var init_public_entity = "<?php echo $_GET['entity'] ?>";</script>
 <script src="js/complaint.js" type="text/javascript"></script>
 
 <div class="kataggelies-filter">
