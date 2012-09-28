@@ -41,7 +41,6 @@ class IncidentsController < ApplicationController
 
     @approval_status = params[:approval_status]
     if session[:user_id] && @approval_status
-      
       @incidents =
         @incidents.where(:approval_status => @approval_status)
     else
