@@ -22,6 +22,7 @@ Backkick::Application.routes.draw do
     end
     collection do
       get 'search'
+      post 'search'
       get 'total_given'
     end
   end

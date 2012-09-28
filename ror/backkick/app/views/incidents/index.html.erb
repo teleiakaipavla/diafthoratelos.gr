@@ -3,7 +3,8 @@
 	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
 <% end %>
 
-<%= form_tag("search", :method => "get") do %>
+<%= form_tag(:controller => "incidents", :action => "search",
+             :method => "get") do %>
 
   <div class="kataggelies-filter">
 
