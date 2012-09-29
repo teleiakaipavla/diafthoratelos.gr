@@ -138,7 +138,9 @@ class PublicEntitiesController < ApplicationController
       .joins(:incidents)
       .where('incidents.praise' => false)
       .where('incidents.approval_status' => Incident::APPROVED_STATUS)
-      .group('public_entities.id').order('total_money_given desc')
+      .group('public_entities.id')
+      .order('count desc')
+      .order('total_money_given desc')
       .limit(@limit)
     
     respond_to do |format|
