@@ -1,8 +1,32 @@
-Το έργο αυτό έχει ως στόχο την ανάπτυξη του ιστότοπου 'www.teleiakaipavla.gr'
+Το έργο αυτό έχει ως στόχο την ανάπτυξη του ιστότοπου 
+http://www.teleiakaipavla.gr
 
-Αποτελείται από τρεις εφαρμογές: 
+Αποτελείται από τρεις εφαρμογές:
 
-1. Το wordpress site για την εξυπηρέτηση του περιεχομένου -> php/wordpress
+1. Το Wordpress site για την εξυπηρέτηση του περιεχομένου -> php/wordpress
 2. Την Q&A πλατφόρμα 'question2answer' που ζει μέσα στο wordpress -> php/wordpress/qa
 3. Μια εφαρμογή σε Ruby on Rails για την καταχώρηση και διαχείριση των αναφορών -> ror/backkick
+
+Για όλο το περιεχόμενο που έχει γραφτεί από την ομάδα ανάπτυξης:
+
+Το πρόγραμμα είναι ελεύθερο λογισμικό και διανέμεται σύμφωνα
+με τους όρους της άδειας GNU Affero General Public License Version 3.
+Το πλήρες κείμενο της άδειας βρίσκεται στο αρχείο link:LICENSE.
+
+(C) Copyright 2012 teleiakaipavla contributors
+
+This file is part of teleiakaipavla.
+
+Teleiakaipavla is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Teleiakaipavla is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with teleiakaipavla.  If not, see <http://www.gnu.org/licenses/>.
 
