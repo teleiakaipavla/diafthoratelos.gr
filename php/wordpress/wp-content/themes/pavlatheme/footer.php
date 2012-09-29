@@ -1,6 +1,6 @@
 <!--Footer Start        -->
     <div class="footer">
-        Copyright <?php echo date("Y"); ?>  |  <a href="?page_id=7" title="Όροι χρήσης">Όροι χρήσης</a>  |  <a href="?page_id=5" title="Προσωπικά δεδομένα">Προσωπικά δεδομένα</a>  |  <a href="?page_id=91" title="Ερωτήσεις και απαντήσεις">Ερωτήσεις και απαντήσεις</a> | <a href="?page_id=139">Επικοινωνία<a>
+        Copyright <?php echo date("Y"); ?>  |  <a href="?page_id=7" title="Όροι χρήσης">Όροι χρήσης</a>  |  <a href="?page_id=5" title="Προσωπικά δεδομένα">Προσωπικά δεδομένα</a>  |  <a href="?cat=21" title="Ερωτήσεις και απαντήσεις">Ερωτήσεις και απαντήσεις</a> | <a href="?page_id=139">Επικοινωνία<a>
     </div>
 <!--Footer End        -->
     </div>

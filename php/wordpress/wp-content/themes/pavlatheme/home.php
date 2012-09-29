@@ -66,7 +66,7 @@ get_header();
 	                     <div class="clear"></div>
 	                </div>
 	                 </a>
-	                <a title="Συχνές ερωτήσεις και απαντήσεις σχετικά με τον ιστότοπο" href="?page_id=91">
+	                <a title="Συχνές ερωτήσεις και απαντήσεις σχετικά με τον ιστότοπο" href="?cat=21">
 	                <div class="home-bluebox-small-new left">
 	                    <div class="img"><img src="images/home/home-help.png" /></div>
 	                    <div class="text-3l">Ερωτήσεις και Απαντήσεις</div>

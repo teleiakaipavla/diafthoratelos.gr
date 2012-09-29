@@ -294,3 +294,38 @@ img{border:0;}
 .content .exeisimvikaisemena .AskMoney {float: left;margin-left: 40px;text-align: center;width: 97px;font-size: 24px;color: #000000;line-height: 107px;}
 .content .exeisimvikaisemena .GiveMoney {float:left;text-align:center;width:94px;font-size:24px;color:#000000;line-height:107px}
 .content .exeisimvikaisemena .askgiveholder{width:233px;height:107px;background-color:#f7f7f7;margin-left:10px}
+
+.faqcontent{width:896px;background-color:White;margin-top:28px;margin-bottom:26px;padding:31px 31px 31px 31px}
+.faqcontent h1{margin:0px;font-family:'Open Sans', sans-serif;font-size:24px;color:#009fe3;margin-top:-7px}
+.faqcontent .subtext{font-family:'Open Sans', sans-serif;font-size:16px;color:#010100;line-height:18px;padding-top:10px}
+.faqcontent .text{font-family:Arial;font-size:12px;color:#444444;line-height:20px;padding-top:25px}
+.faqcontent .readmore{font-family:'Open Sans', sans-serif;font-size:16px;color:#009fe3;font-weight:bold;line-height:54px;height:52px;margin-top:44px;border-top:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5}
+.faqcontent .readmore .starts{float:left;padding-top:3px}
+.faqcontent .readmore .txt{float:left;padding-left:7px;padding-right:7px}
+.faqcontent .readmore .link{padding-left:10px;float:left}
+.faqcontent .readmore .link a{color:#010100;font-size:12px;font-weight:normal;}
+
+.faqcontent a{color:#009FE3;font-size:14px;text-decoration:none;font-family:Arial;font-weight:bold;}
+.faqcontent a:hover{text-decoration:underline}
+
+.current-faq{
+    background-color: #424242;
+    color: #e9e9e9;
+    padding:30px 30px 23px;
+}
+.current-faq h4{
+    color: #e9e9e9;
+    font-weight: bold;
+    font-size:22px;
+    text-shadow: #000 1px 1px 0px;
+}
+#answers ul li{  
+    margin-bottom: 30px;  
+    clear: both;
+	list-style-type:none; 
+}
+#questions li{  
+    margin-bottom: 20px;  
+    list-style-type:square;  
+    list-style-position: inside;  
+}
