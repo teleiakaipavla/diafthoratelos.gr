@@ -94,6 +94,7 @@ class IncidentsController < ApplicationController
     @pagesize = params[:pagesize].to_i
     if @pagesize <= 0
       @pagesize = PAGE_SIZE
+    end
     if (@pageno > 0)
       @incidents = @incidents.limit(@pagesize)
         .offset((@pageno - 1) * @pagesize)
