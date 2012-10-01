@@ -110,10 +110,22 @@ class IncidentsController < ApplicationController
   # GET /incidents/1
   # GET /incidents/1.json
   def show
-    @incident = Incident.find(params[:id])
-
+    if session[:user_id]
+      @incident = Incident.find(params[:id])
+    else
+      @incident = Incident.where(:id => params[:id],
+                                 :approval_status => Incident::APPROVED_STATUS)
+        .first
+    end
+    
     respond_to do |format|
-      format.html # show.html.erb
+      format.html do # show.html.erb
+        if @incident.nil?
+          render nothing: true
+        else
+          render action: "show"
+        end
+      end
       format.json { render json: @incident,
         :include => INCLUDE_INCIDENT_JSON_DESC[:include] }
     end
