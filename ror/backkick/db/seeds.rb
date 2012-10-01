@@ -17,12 +17,15 @@ categories_path = File.dirname(__FILE__) + "/categories.csv"
 
 public_entity_types = {}
 CSV.foreach(categories_path, :col_sep => ",") do |row|
-  next unless row[0]
+  next unless row.length == 2
   public_entity_name = row[0].strip
   next if public_entity_name.start_with?('#')
   if public_entity_name != ""
-    public_entity_types[public_entity_name] = row[1]
-    puts "Create category #{row[1].strip}"
+    greek_label = row[1].strip
+    if greek_label != ""
+      public_entity_types[public_entity_name] = greek_label
+      Category.create(name: greek_label)
+    end
   end
 end
 
@@ -31,6 +34,7 @@ public_entity_types.each do |public_entity_name, greek_label|
   puts "processing #{file_path}"
   category = Category.where(:name => greek_label).first
   CSV.foreach(file_path, :col_sep => ";") do |row|
-    puts "Create public_entity #{row[0].strip}:#{category_id}"
+    next unless row[0] != ""
+    PublicEntity.create(name: row[0].strip, category_id: category.id)
   end
 end
