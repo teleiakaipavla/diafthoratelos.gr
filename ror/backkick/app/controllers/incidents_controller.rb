@@ -2,12 +2,14 @@ class IncidentsController < ApplicationController
 
   skip_before_filter :authorize, only: [:new,
                                         :create,
+                                        :index,
                                         :show,
                                         :search,
                                         :total_given,
                                         :thank_you]
   
   PAGE_SIZE = 20
+  RSS_LIMIT = 50
   
   INCLUDE_INCIDENT_JSON_DESC = {
     :include => {
@@ -25,9 +27,17 @@ class IncidentsController < ApplicationController
   # GET /incidents.json
   def index
     @incidents = Incident.order("created_at desc")
+    unless session[:user_id]
+      @incidents =
+        @incidents.where(:approval_status => Incident::APPROVED_STATUS)
+    end
 
     respond_to do |format|
       format.html # index.html.erb
+      format.rss do
+        @incidents = @incidents.limit(RSS_LIMIT)
+        render :layout => false
+      end
       format.json { render json: @incidents }
     end
   end
@@ -110,13 +120,14 @@ class IncidentsController < ApplicationController
   # GET /incidents/1
   # GET /incidents/1.json
   def show
-    if session[:user_id]
-      @incident = Incident.find(params[:id])
-    else
-      @incident = Incident.where(:id => params[:id],
-                                 :approval_status => Incident::APPROVED_STATUS)
-        .first
+    incident_query = Incident.where(:id => params[:id])
+    
+    unless session[:user_id]
+      incident_query =
+        incident_query.where(:approval_status => Incident::APPROVED_STATUS)
     end
+
+    @incident = incident_query.first
     
     respond_to do |format|
       format.html do # show.html.erb

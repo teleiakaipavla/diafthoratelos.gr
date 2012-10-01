@@ -15,9 +15,11 @@ el:
   bad_news_subheading: Δείτε τις ανώνυμες καταγγελίες που έχουν γίνει μέχρι σήμερα
   good_news_heading: Θετικά περιστατικά
   good_news_subheading: Περιστατικά που αξίζει να διαδοθούν
+  piece_of_good_news: Θετικό περιστατικό
+  piece_of_bad_news: Αρνητικό περιστατικό
   filter: Φίλτρο
-  money_asked: Ζητήθηκε
-  money_given: Δόθηκε
+  money_asked: Ζητήθηκαν
+  money_given: Δόθηκαν
   date:
     order:
     - :day
