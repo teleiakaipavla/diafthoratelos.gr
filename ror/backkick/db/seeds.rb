@@ -17,17 +17,20 @@ categories_path = File.dirname(__FILE__) + "/categories.csv"
 
 public_entity_types = {}
 CSV.foreach(categories_path, :col_sep => ",") do |row|
-  if row[0]
-    public_entity_types[row[0]] = row[1]
+  next unless row[0]
+  public_entity_name = row[0].strip
+  next if public_entity_name.start_with?('#')
+  if public_entity_name != ""
+    public_entity_types[public_entity_name] = row[1]
+    puts "Create category #{row[1].strip}"
   end
-  Category.create(name: row[1].strip)
 end
 
-public_entity_types.each do |english_name, greek_name|
-  file_path = File.dirname(__FILE__) + "/#{english_name}.csv"
+public_entity_types.each do |public_entity_name, greek_label|
+  file_path = File.dirname(__FILE__) + "/#{public_entity_name}.csv"
   puts "processing #{file_path}"
-  category = Category.where(:name => greek_name).first
+  category = Category.where(:name => greek_label).first
   CSV.foreach(file_path, :col_sep => ";") do |row|
-    PublicEntity.create(name: row[0].strip, category_id: category.id)
+    puts "Create public_entity #{row[0].strip}:#{category_id}"
   end
 end

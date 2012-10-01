@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# invoke in production mode by:
+# RAILS_ENV=production ruby add_category.rb <category_name> <category_basefilename>.csv
 
 require "../config/environment"
 

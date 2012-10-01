@@ -1,10 +1,11 @@
 higher_education, Ανώτατη εκπαίδευση
 police_units, Αστυνομία
 pension_funds, Ασφαλιστικά ταμεία
-listed, Εταιρείες εισηγμένες στο ΧΑΑ
+# listed, Εταιρείες εισηγμένες στο ΧΑΑ
 tax_offices, Εφορίες
 hospitals, Νοσοκομεία
 central_government_and_enterprises, Οργανισμοί και ΔΕΚΟ
 customs, Τελωνεία
 local_government, Τοπική αυτοδιοίκηση
 planning_authorities, Υπηρεσίες δόμησης και πολεοδομίες
+ika, ΙΚΑ
