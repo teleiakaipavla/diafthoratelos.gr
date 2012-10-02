@@ -24,6 +24,7 @@ Backkick::Application.routes.draw do
       get 'search'
       post 'search'
       get 'total_given'
+      get 'count_approved'
     end
   end
 

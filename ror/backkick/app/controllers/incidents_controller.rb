@@ -1,6 +1,7 @@
 class IncidentsController < ApplicationController
 
   skip_before_filter :authorize, only: [:new,
+                                        :count_approved,
                                         :create,
                                         :index,
                                         :show,
@@ -259,6 +260,25 @@ class IncidentsController < ApplicationController
     respond_to do |format|
       format.html # thank_you.html.erb
     end
+  end
+
+  def count_approved
+    count_approved =
+      Incident.where(:approval_status => Incident::APPROVED_STATUS)
+    
+    @praise = params[:praise]
+    
+    if @praise == "true"
+      count_approved = count_approved.where(:praise => true)
+    elsif @praise == "false"
+      count_approved = count_approved.where(:praise => false)
+    end
+
+   count_approved = count_approved.count
+    
+    respond_to do |format|     
+      format.json { render json: count_approved }
+    end    
   end
   
 end
