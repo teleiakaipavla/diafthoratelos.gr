@@ -71,13 +71,13 @@ class IncidentsController < ApplicationController
     end
 
     @category_id = params[:category_id]
-    if @category_id != ""
+    if !(@category_id.nil? || @category_id != "")
       @incidents = @incidents.joins(:public_entity => :category)
         .where('category_id = ?', "#{params[:category_id]}")
     end
 
     @place_name_filter = params[:place_name_filter]
-    if @place_name_filter != ""
+    if !(@place_name_filter.nil? || @place_name_filter != "")
       @incidents = @incidents.joins(:place)
         .where('places.name = ?', @place_name_filter)
     end

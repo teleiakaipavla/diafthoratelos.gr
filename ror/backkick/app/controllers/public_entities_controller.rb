@@ -7,7 +7,7 @@ class PublicEntitiesController < ApplicationController
   # GET /public_entities
   # GET /public_entities.json
   def index
-    @public_entities = PublicEntity.all
+    @public_entities = PublicEntity.order("name asc")
 
     respond_to do |format|
       format.html # index.html.erb
@@ -18,18 +18,17 @@ class PublicEntitiesController < ApplicationController
   # GET /public_entities/search
   def search
     
-    @public_entities = nil
+    @public_entities = PublicEntity.order("name asc")
+    
     if params.has_key?(:term) && params[:term] != ""
       capitalized_term = Unicode::upcase(params[:term])
       if params.has_key?(:appr) && params[:exact] == "false"
-        @public_entities = PublicEntity.where("name = ?",
-                                              "#{capitalized_term}")
+        @public_entities = @public_entities.where("name = ?",
+                                                  "#{capitalized_term}")
       else
-        @public_entities = PublicEntity.where("name like ?",
-                                              "%#{capitalized_term}%")
+        @public_entities = @public_entities.where("name like ?",
+                                                  "%#{capitalized_term}%")
       end
-    else
-      @public_entities = PublicEntity.all
     end
 
     if params.has_key?(:category_id) && params[:category_id] != ""
