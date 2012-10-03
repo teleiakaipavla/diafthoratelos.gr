@@ -42,9 +42,12 @@ el:
   activerecord:
     attributes:
       incident:
-        public_entity_id: Υπηρεσία / οργανισμός
+        public_entity_id: Υπηρεσία / οργανισμός      
       messages:
         taken: έχει ήδη δεσμευθεί
+        blank: κενό
+    errors:
+      messages:
         blank: κενό
   recaptcha:
     errors:
