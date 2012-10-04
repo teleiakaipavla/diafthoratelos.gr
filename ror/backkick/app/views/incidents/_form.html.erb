@@ -33,7 +33,10 @@
         <div class="left dll">
 
           <div class="field">
-            <%= f.date_select :incident_date %>
+            <%= f.date_select :incident_date,
+                :start_year => Time.now.year - 30,
+                :end_year => Time.now.year
+                  %>
           </div>
         </div>
         <div class="clear"></div>
