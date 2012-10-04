@@ -22,8 +22,19 @@ if ((strlen($category_title) != 0) || (strlen($page_data->post_title) != 0))
     
 
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery/jquery-1.6.1.min.js" type="text/javascript"></script>
-    <script src="js/global.js" type="text/javascript"></script>
+	
+    <link rel="stylesheet" href="css/jquery.ui.all.css">
+  
+    <script src="js/jquery/jquery-1.8.0.min.js" type="text/javascript"></script>
+
+    <script src="js/jquery/jquery.ui.core.js"></script>
+	<script src="js/jquery/jquery.ui.widget.js"></script>
+	<script src="js/jquery/jquery.ui.position.js"></script>
+	<script src="js/jquery/jquery.ui.autocomplete.js"></script>
+  
+    
+
+<script src="js/global.js" type="text/javascript"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800,400,600&subset=latin,greek' rel='stylesheet' type='text/css'>
   <link href="js/nkal/dropdown/scroll/jquery.jscrollpane.css" rel="stylesheet" type="text/css" />
      <script src="js/nkal/dropdown/scroll/jquery.mousewheel.js" type="text/javascript"></script>
@@ -81,8 +92,8 @@ if ((strlen($category_title) != 0) || (strlen($page_data->post_title) != 0))
 		    <div class="master-logo-holder-new">
             <!--Social Start        -->
                 <div class="social">
-                    <div class="fb"><a target="_blank" href="http://www.facebook.com/share.php?u=http://www.teleiakaipavla.gr"><img border="0" src="images/global/facebook.png" /></a></div>
-                    <div class="tw"><a target="_blank" href="http://twitter.com/home?status=http://www.teleiakaipavla.gr"><img border="0" src="images/global/twitter.png" /></a></div>
+                    <div class="fb"><a target="_blank" href="http://www.facebook.com/teleiakaipavla"><img border="0" src="images/global/facebook.png" /></a></div>
+                    <div class="tw"><a target="_blank" href="http://twitter.com/teleiakaipavla"><img border="0" src="images/global/twitter.png" /></a></div>
                     <div class="bb"><a href="#"><img border="0" src="images/global/b.png" /></a></div>
                     <div class="mail"><a href="?page_id=139"><img border="0" src="images/global/mail.png" /></a></div>
                 </div>

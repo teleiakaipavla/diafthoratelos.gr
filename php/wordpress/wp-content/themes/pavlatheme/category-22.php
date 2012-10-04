@@ -9,12 +9,12 @@ get_header();
 
 
 <script type="text/javascript">var incident_id = "<?php echo $_GET['inc'] ?>";</script>
-<script src="js/bad_incident.js" type="text/javascript"></script>
+<script src="js/single_incident.js" type="text/javascript"></script>
 
 
 
 <div class="content">
-       <h1 class="protoimediafora-icon"><?php echo single_cat_title( $category_id ); ?></h1>
+       <h1 class="sxetika-icon" id="incident_type"></h1>
        <div class="subtext" id="incid_meta"></b></div>
        <div><br /></div>
        <div class="text exeisimvikaisemena">
@@ -24,7 +24,7 @@ get_header();
            <div class="PeristatikoIn-MapCenter" id="googlemaps">
 
           </div>
-           <div class="left">
+           <div class="left" id="money_details">
                <div class="title-small grid-bg">
                <a class="asked">Ζητήθηκε</a>
                <a class="given">Δόθηκε</a>
@@ -41,7 +41,7 @@ get_header();
            </div>
            
            <div class="clear"></div><br /><br />
-		<a href="?cat=20">Δες περισσότερα περιστατικά διαφθοράς</α>
+				<div id="more_link"></div>
            <br />
        </div>
        <div class="readmore">
