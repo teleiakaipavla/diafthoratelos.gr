@@ -45,6 +45,7 @@ class IncidentsController < ApplicationController
 
   # GET /incidents/search
   # GET /incidents/search.json
+  # GET /incidents/search.text
   def search
     @incidents = Incident.includes(:public_entity, :place,
                                    :public_entity => :category)
@@ -115,6 +116,13 @@ class IncidentsController < ApplicationController
       format.html { render action: "index" }
       format.json { render :json => @incidents, 
         :include => INCLUDE_INCIDENT_JSON_DESC[:include] }
+      format.text do
+        self.response_body = Enumerator.new do |yielder|
+          @incidents.each do |incident|
+            yielder.yield incident.to_text
+          end
+        end
+      end
     end
   end
   

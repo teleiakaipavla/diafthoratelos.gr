@@ -20,6 +20,17 @@ class Incident < ActiveRecord::Base
   validates :public_entity_id, :presence => true
   belongs_to :place
 
+  def to_text
+    "description: #{self.description}\n" +
+      "incident date: #{self.incident_date}\n" +
+      "money asked: #{self.money_asked}\n" +
+      "money given: #{self.money_given}\n" +
+      "public entity name: #{self.public_entity_name}\n" +
+      "place_name: #{self.place_name}\n" +
+      "approval status: #{self.approval_status}\n" +
+      "praise: #{self.praise}\n"
+  end
+  
   def public_entity_name
     if self.public_entity
       self.public_entity.name
