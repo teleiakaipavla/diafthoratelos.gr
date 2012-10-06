@@ -117,6 +117,10 @@ class IncidentsController < ApplicationController
       format.json { render :json => @incidents, 
         :include => INCLUDE_INCIDENT_JSON_DESC[:include] }
       format.text do
+        self.response.headers["Content-Type"] ||= 'text/plain'
+        self.response.headers["Content-Disposition"] =
+          "attachment; filename=search.txt"
+        self.response.headers['Last-Modified'] = Time.now.ctime.to_s
         self.response_body = Enumerator.new do |yielder|
           @incidents.each do |incident|
             yielder.yield incident.to_text
