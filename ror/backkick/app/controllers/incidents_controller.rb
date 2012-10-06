@@ -127,7 +127,7 @@ class IncidentsController < ApplicationController
         self.response.headers['Last-Modified'] = Time.now.ctime.to_s
         self.response_body = Enumerator.new do |yielder|
           @incidents.each do |incident|
-            yielder.yield incident.to_text
+            yielder.yield incident.to_text + "\n"
           end
         end
       end
