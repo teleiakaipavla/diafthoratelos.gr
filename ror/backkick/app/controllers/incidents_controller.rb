@@ -111,7 +111,11 @@ class IncidentsController < ApplicationController
       @incidents = @incidents.limit(@pagesize)
         .offset((@pageno - 1) * @pagesize)
     end
-            
+
+    if params[:commit] == I18n.t(:text_search_results)
+      self.request.format = "text"
+    end
+    
     respond_to do |format|
       format.html { render action: "index" }
       format.json { render :json => @incidents, 

@@ -20,6 +20,7 @@ el:
   filter: Φίλτρο
   money_asked: Ζητήθηκαν
   money_given: Δόθηκαν
+  text_search_results: Αποτελέσματα σε αρχείο κειμένου
   date:
     order:
     - :day
