@@ -2,6 +2,7 @@
   <script type="text/javascript"
           src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
   <%= javascript_include_tag "markerclusterer.js" %>
+  <%= javascript_include_tag params[:controller] %>
 <% end %>
 
 <div class="where_it_happens_map_container">

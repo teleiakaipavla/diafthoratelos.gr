@@ -1,6 +1,7 @@
 <% content_for :scripts do %>
-<script type="text/javascript"
-        src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
+  <script type="text/javascript"
+          src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
+  <%= javascript_include_tag params[:controller] %>
 <% end %>
 
 <% categories_array = Category.all.map{ |c| [c.name, c.id] } %>
@@ -153,99 +154,28 @@
     </div>
     <div class="clear"></div>
 
-    <div class="bottom">
-      <% if !session[:user_id] %>
-        <div id="recaptcha_widget" style="display:none">
-          <div class="captcha">
-            <div id="recaptcha_image" style="width:100px"></div>
-          </div>
-
-          <div class="pointer"><%= image_tag "diafthora/pointer.png" %></div>
-
-          <div class="txt recaptchatxt">
-            <input type="text" id="recaptcha_response_field"
-                   name="recaptcha_response_field" />
-          </div>
-
-          <div class="recaptcha_only_if_incorrect_sol"
-               style="color:red">Incorrect, please try again</div>
-                
-          <div id="recaptcha_icons_logo">
-            <table border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td>
-                  <img width="25" height="18"
-                       alt="Get a new challenge"
-                       onclick="javascript:Recaptcha.reload()"
-                       src="http://www.google.com/recaptcha/api/img/clean/refresh.png"/>
-                </td>
-                <td rowspan="4">
-                  <img id="recaptcha_logo" alt="" width="71" height="36"
-                       src="http://www.google.com/recaptcha/api/img/clean/logo.png"/>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="recaptcha_only_if_image"
-                        title="Get an audio challenge"
-                        tabindex="3">
-                    <img id="recaptcha_switch_audio" width="25" height="15"
-                         alt="Get an audio challenge"
-                         onclick="javascript:Recaptcha.switch_type('audio');"
-                         src="http://www.google.com/recaptcha/api/img/clean/audio.png"/>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span id="recaptcha_switch_img_btn"
-                        class="recaptcha_only_if_audio"
-                        tabindex="4">
-                    <img id="recaptcha_switch_img" width="25" height="15"
-                         alt="Get a visual challenge"
-                         onclick="javascript:Recaptcha.switch_type('image');"
-                         src="http://www.google.com/recaptcha/api/img/clean/text.png"/>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span id="recaptcha_whatsthis_btn"
-                        title="Help"
-                        tabindex="5">
-                    <img id="recaptcha_whatsthis" width="25" height="16"
-                         onclick="javascript:Recaptcha.showhelp()"
-                         src="http://www.google.com/recaptcha/api/img/clean/help.png"
-                         alt="Help"/>
-                  </span>
-                </td>
-              </tr>
-            </table>
-          </div>
-      
-          <div class="clear"></div>
-            
-          <br/>      
-          <%= recaptcha_tags %>
-        
-          <div class="clear"></div>
-      <% else %>
+    <% if session[:user_id] %>
+      <div class="field box-thin">
         <%= label_tag(:praise, "Praise") %>
         <%= check_box(:incident, :praise) %>
         <%= label_tag(:approval_status, "Approval status") %>
         <%= select(:incident, :approval_status,
                    Incident::ALL_APPROVAL_STATUSES,
                    {:include_blank => false} ) %>
+        </div>
+      <div class="clear"></div>
+    <% end %>
 
-        <br/>
-      <% end %>
+    <div class="bottom">
 
       <div class="actions">
         <%= image_tag "btns/return.png", :border => "0",
-            :onclick => "parent.document.location='#'" %>
+            :onclick => "parent.document.location='#'",
+            :class => 'back-btn' %>
         <%= f.submit "Submit",
             :type => :image,
-            :src => asset_path("diafthora/ypovoli.png") %>
+            :src => asset_path("diafthora/ypovoli.png"),
+            :class => 'submit-btn'%>
       </div>
 
       </div>

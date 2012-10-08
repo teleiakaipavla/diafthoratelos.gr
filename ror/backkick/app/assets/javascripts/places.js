@@ -1,3 +1,5 @@
+//= require_self
+
 $(function() {
 
     var mapOptions = {

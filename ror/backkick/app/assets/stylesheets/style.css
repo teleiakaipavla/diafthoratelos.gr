@@ -146,6 +146,7 @@ body  {
 
 .protimediafora{}
 .protimediafora .box{float:left;background-image:url('protimediafora/box.png');background-repeat:no-repeat;width:50px;height:53px;font-family:'Open Sans', sans-serif;font-size:21px;line-height:53px;text-align:center;color:White;margin-bottom:7px}
+
 .protimediafora .descr{float:left;margin-right:4px;margin-left:8px;margin-bottom:7px}
 .protimediafora .descr .rpt{float:left;background-image:url('protimediafora/center.png');background-repeat:repeat-x;width:684px;height:53px;}
 .protimediafora .descr .rpt h1{color:#1d1d1b;font-family:Arial;font-size:18px;padding:0px;margin:0px;font-weight:bold}
@@ -170,6 +171,18 @@ body  {
 .diafthora{padding-top:45px}
 .diafthora .box{width:280px;height:250px;background-color:#f1f1f1;float:left;margin-right:16px;margin-bottom:16px;}
 .diafthora .box-big{width:576px;height:240px;background-color:#f1f1f1;float:left;margin-bottom:16px;}
+
+.diafthora .box-thin {
+    width: 270px;
+    height: 40px;
+    background-color: #f1f1f1;
+    float: left;
+    margin-right: 16px; 
+    margin-bottom: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 .diafthora .dtm{background-image:url('diafthora/dtm.png');background-repeat:no-repeat;background-position:center center}
 .diafthora .dtm-ddl-holder{padding-top:200px}
 .diafthora .dtm-ddl-holder .dll{padding-left:10px}
@@ -209,26 +222,44 @@ body  {
 .diafthora .comments-ddl-holder .commentstxt-big-error{background-image:url('diafthora/textarea-bigerror.png');background-repeat:no-repeat;width:558px;height:131px;margin-bottom:3px}
 .diafthora .comments-ddl-holder .commentstxt-big-error textarea{width:542px;height:108px;margin:4px;outline:none;border:0px}
 
-.diafthora .bottom{margin-top:3px;width:870px;height:70px;background-color:#f1f1f1;}
-.diafthora .bottom .captcha{float:left;width:275px;}
-.diafthora .bottom .pointer{float:left;padding-top:26px;width:48px;}
+
+.diafthora .bottom{
+    margin-top: 3px;
+    width: 390px;
+    height:70px;
+    background-color:#f1f1f1;
+    margin-left: 230px;
+}
+
 .diafthora .bottom .txt{float:left;background-image:url('diafthora/text.png');background-repeat:no-repeat;width:260px;height:33px;margin-top:17px}
 .diafthora .bottom .txt input{width:250px;height:26px;line-height:26px;background:transparent;border:0px;margin-top:2px;margin-left:3px}
 
 .diafthora .bottom .txt-error{float:left;background-image:url('diafthora/texterror.png');background-repeat:no-repeat;width:260px;height:33px;margin-top:17px}
 .diafthora .bottom .txt-error input{width:250px;height:26px;line-height:26px;background:transparent;border:0px;margin-top:2px;margin-left:3px}
 
-.diafthora .bottom .btn{float:left;padding-top:16px;margin-left:20px;cursor:pointer;font-size:11px;font-family:Arial;font-style:italic;color:#8c8b8b}
-.diafthora .return{padding-top:20px}
+.diafthora .actions {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diafthora .back-btn{
+    float: left;
+    padding-top: 20px;
+}
+
+.diafthora .bottom .submit-btn {
+    float: left;
+    padding-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 11px;
+    font-family: Arial;
+    font-style: italic;
+    color:#8c8b8b
+}
+
 .Cloud{width:189px;height:52px;background-image:url('diafthora/cloud.png');background-repeat:no-repeat;font-size:11px;color:#a1a1a2;font-weight:bold;font-family:Arial;position:absolute;text-align:center;line-height:40px;}
-
-#recaptcha_widget td, tr, img { padding: 0px; margin: 0px; border: none; }
-#recaptcha_widget table img { display:block; }
-#recaptcha_widget table { border-collapse: collapse; }
-#recaptcha_icons_logo { float:left; margin-top: 10px; margin-left: 10px;}
-
-#recaptcha_image img {width: 250px !important; height: 52px !important;margin-top:10px;margin-left:10px }
-#recaptcha_logo {margin-left: 5px}
 
 .popupMain{width:100%;text-align:center;background-image:url('global/black.png');margin:-30px 0px 0px -10px;display:none;position:absolute;z-index:100}
 .popup{width:571px;height:492px;background-color:White;margin-left:auto;margin-right:auto;margin-top:220px}
