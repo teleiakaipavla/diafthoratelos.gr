@@ -1,6 +1,7 @@
 <% content_for :scripts do %>
 <script type="text/javascript"
 	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=el&libraries=places"></script>
+<%= javascript_include_tag params[:controller] %>
 <% end %>
 
 <%= form_tag(:controller => "incidents", :action => "search",
@@ -21,14 +22,7 @@
                      options_for_select(category_options, @category_id),
                      {:include_blank => true}) %>
     </div>
-  
-    <div class="left filter-ddl">
-      <%= text_field_tag(:place_name_filter, nil, :size => 50,
-                         :class => "searchinput",
-                         :value => @place_name_filter)
-          %>
-    </div>
-  
+
     <div class="left filter-ddl">
       <%= search_field_tag :public_entity_name_filter,
           params[:public_entity_name_filter],
@@ -36,6 +30,13 @@
           :class => "searchinput" %>
     </div>
 
+    <div class="left filter-ddl">
+      <%= text_field_tag(:place_name_filter, nil, :size => 50,
+                         :class => "searchinput",
+                         :value => @place_name_filter)
+          %>
+    </div>
+  
     <div class="left filter-ddl">
       <%= select_tag(:approval_status,
                      options_for_select(Incident::ALL_APPROVAL_STATUSES,
