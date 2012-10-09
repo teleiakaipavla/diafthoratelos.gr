@@ -54,5 +54,38 @@ class Incident < ActiveRecord::Base
       nil
     end
   end
-  
+
+  def copy_public_entity_id_from!(public_entity_name)
+    
+    if !(public_entity_name.nil? || public_entity_name == "")
+      public_entity_query = PublicEntity.where(:name => public_entity_name)
+      if public_entity_query.any?
+        self.public_entity_id = public_entity_query.first.id
+        return true
+      else
+        return false
+      end
+    else
+      return false
+    end
+  end
+
+  def copy_or_create_place_from!(place_params)
+    
+    place  = Place.new()
+    
+    return place if place_params.nil?
+
+    place_name = place_params[:name]
+    if !(place_name.nil? || place_name == "")
+      place = Place.where(:name => place_name).first_or_create(place_params)
+      if place.errors.empty?
+        self.place_id = place.id
+      end
+    end
+
+    return place
+    
+  end
+    
 end

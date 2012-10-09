@@ -5,9 +5,7 @@
 <% end %>
 
 <% categories_array = Category.all.map{ |c| [c.name, c.id] } %>
-<% selected_category = @incident.public_entity.nil? ?
-     0 :
-   @incident.public_entity.category_id %>
+<% selected_category = @category_id %>
 
 <%= form_for(@incident) do |f| %>
   <% if @incident.errors.any? %>
@@ -117,7 +115,7 @@
             <input type="radio" name="type" id="changetype_geocode">
             <label for="changetype_geocode">Geocodes</label>
 
-            <%= fields_for :place do |place_form| %>
+            <%= fields_for @place do |place_form| %>
               <%= place_form.hidden_field :name %>
               <%= place_form.hidden_field :longitude %>
               <%= place_form.hidden_field :latitude %>

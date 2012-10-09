@@ -169,15 +169,15 @@ $(function() {
     });
 
     make_autocomplete($("#place_name"),
-                      "../places/index",
+                      "/places/index",
         	      <%= "'#{I18n.translate(:area_city)}'" %>);
 
     make_autocomplete($("#public_entity_name"),
-                      "../public_entities/search?form=short",
+                      "/public_entities/search?form=short",
         	      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
 
     make_autocomplete($("#public_entity_name_filter"),
-        	      "../public_entities/search?form=short",
+        	      "/public_entities/search?form=short",
         	      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     
     if ($('#map_canvas').length > 0) {

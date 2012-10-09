@@ -163,7 +163,8 @@ class IncidentsController < ApplicationController
   # GET /incidents/new.json
   def new
     @incident = Incident.new
-
+    @place = Place.new
+    
     if params[:praise]
       @incident.praise = params[:praise]
     end
@@ -178,6 +179,8 @@ class IncidentsController < ApplicationController
   # GET /incidents/1/edit
   def edit
     @incident = Incident.find(params[:id])
+    @category_id = @incident.public_entity.category_id
+    @place = @incident.place
     @praise = @incident.praise.to_s
   end
 
@@ -186,35 +189,12 @@ class IncidentsController < ApplicationController
   def create
     @incident = Incident.new(params[:incident])
 
-    could_not_save_place = false
-    
-    if params.has_key?(:public_entity_name)
-      public_entity_name = params[:public_entity_name]
-      public_entity_query = PublicEntity.where(:name => public_entity_name)
-      if public_entity_query.any?
-        @incident.public_entity_id = public_entity_query.first.id
-      end
-    end
-    if params.has_key?(:place)
-      place_query = Place.where(:name => params[:place][:name])
-      if place_query.any?
-        @incident.place_id = place_query.first.id
-      else
-        @place = Place.new()
-        @place.name = params[:place][:name]
-        @place.longitude = params[:place][:longitude]
-        @place.latitude = params[:place][:latitude]
-        @place.address = params[:place][:address]
-        if @place.save()
-          @incident.place_id = @place.id
-        else
-          could_not_save_place = true
-        end
-      end
-    end
+    @incident.copy_public_entity_id_from!(params[:public_entity_name])
+    @category_id = params[:category_id]
+    @place = @incident.copy_or_create_place_from!(params[:place])
 
     respond_to do |format|
-      if !could_not_save_place && @incident.save
+      if @place.errors.empty? && @incident.save
         if session[:used_id]
           format.html { redirect_to @incident,
             notice: 'Incident was successfully created.' }
@@ -235,6 +215,10 @@ class IncidentsController < ApplicationController
   def update
     @incident = Incident.find(params[:id])
 
+    @incident.copy_public_entity_id_from!(params[:public_entity_name])
+    @category_id = params[:category_id]
+    @place = @incident.copy_or_create_place_from!(params[:place])
+    
     respond_to do |format|
       if @incident.update_attributes(params[:incident])
         format.html { redirect_to @incident, notice: 'Incident was successfully updated.' }
