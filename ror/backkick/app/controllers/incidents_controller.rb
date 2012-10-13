@@ -53,7 +53,7 @@ class IncidentsController < ApplicationController
 
     @approval_status = params[:approval_status]
     if session[:user_id]
-      if !(@approval_status.nil? || @approval_status == "")
+      if !(@approval_status.nil? || @approval_status.select {|v| v != ""})
         @incidents =
           @incidents.where(:approval_status => @approval_status)
       end

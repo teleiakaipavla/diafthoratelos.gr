@@ -21,5 +21,17 @@ en:
   money_asked: Asked
   money_given: Given
   text_search_results: Download text
+  approval_status: approval status
+  approved: approved
+  rejected: rejected
+  pending: pending
+  to_approve: to approve
+  to_reject: to reject
+  needs_second_check: needs second check
+  praise: praise
+  praise_yes: yes
+  praise_no: no
+  praise_all: all
+  incidents_counts: "Incident counts:"
 
 

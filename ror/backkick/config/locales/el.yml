@@ -54,3 +54,16 @@ el:
     errors:
       verification_failed: Δεν επαληθεύθηκε το reCAPTCHA, παρακαλούμε δοκιμάστε πάλι
       recaptcha_unavailable: Πρόβλημε επικοινωνίας με την υπηρεσία reCAPTCHA, παρακαλούμε δοκιμάστε πάλι
+  approval_status: κατάσταση έγκρισης
+  approved: αναρτημένο
+  rejected: απορρίφθηκε
+  pending: έλεγχος
+  to_approve: προς ανάρτηση
+  to_reject: προς απόρριψη
+  needs_second_check: χρειάζεται δεύτερο έλεγχο
+  praise: έπαινος
+  praise_yes: ναι
+  praise_no: όχι
+  praise_all: όλα
+  incidents_counts: "Αριθμός περιστατικών με κατάσταση:"
+  

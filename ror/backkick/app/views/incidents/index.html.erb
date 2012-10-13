@@ -4,6 +4,11 @@
 <%= javascript_include_tag params[:controller] %>
 <% end %>
 
+<% if session[:user_id] %>
+  <%= t(:incidents_counts) %>
+   <%= Incident.status_counts_to_s %>
+<% end %>
+
 <%= form_tag(:controller => "incidents", :action => "search",
              :method => "get") do %>
 
@@ -39,20 +44,26 @@
   
     <div class="left filter-ddl">
       <%= select_tag(:approval_status,
-                     options_for_select(Incident::ALL_APPROVAL_STATUSES,
+                     options_for_select(Incident::ALL_APPROVAL_STATUSES_PAIRS,
                                         @approval_status),
-                     {:include_blank => true} )
+                     {:prompt => t(:praise_all),
+                       :multiple => true,
+                       :class => "approval_status_select"} )
           %>
     </div>
 
     <div class="left filter-ddl">
-      <%= label_tag(:praise, "Praise") %>
+      <%= label_tag(:praise, t(:praise)) %>
       <%= select_tag(:praise,
-                     options_for_select([true, false], @praise),
+                     options_for_select([[t(:praise_yes), true],
+                                         [t(:praise_no), false]],
+                     @praise),
                      {:include_blank => true})
           %>
     </div>
-    
+
+    <div class="clear"></div>
+
     <div class="left filter-btn">
       <%= image_submit_tag("btns/search.png",
                      :onmouseover =>
@@ -62,11 +73,9 @@
           %>
     </div>
     
-    <div class="clear"></div>
     <div class="left filter-btn">
       <%= submit_tag t(:text_search_results)  %>
-  </div>
-
+    </div>
   </div>
 
 <% end %>
@@ -139,7 +148,10 @@
                     <%= incident.created_at %>
                     <% if session[:user_id] %>
                       |
-                      <%= incident.approval_status %>
+                      <span
+                         class="approval_status_<%=incident.approval_status%>">
+                      <%= incident.localized_approval_status %>
+                      </span>
                       |
                       <%= link_to 'Show', incident %> 
                       <%= link_to 'Edit', edit_incident_path(incident) %>

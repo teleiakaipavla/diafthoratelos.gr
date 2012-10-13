@@ -154,7 +154,7 @@
 
     <% if session[:user_id] %>
       <div class="field box-thin">
-        <%= label_tag(:praise, "Praise") %>
+        <%= label_tag(:praise, t(:praise)) %>
         <%= check_box(:incident, :praise) %>
         <%= label_tag(:approval_status, "Approval status") %>
         <%= select(:incident, :approval_status,
