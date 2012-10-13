@@ -73,8 +73,10 @@ class Incident < ActiveRecord::Base
   def copy_or_create_place_from!(place_params)
     
     place  = Place.new()
-    
-    return place if place_params.nil?
+
+    if place_params.nil?
+      return place
+    end
 
     place_name = place_params[:name]
     if !(place_name.nil? || place_name == "")

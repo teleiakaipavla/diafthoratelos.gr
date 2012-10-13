@@ -180,7 +180,7 @@ class IncidentsController < ApplicationController
   def edit
     @incident = Incident.find(params[:id])
     @category_id = @incident.public_entity.category_id
-    @place = @incident.place
+    @place = @incident.place || Place.new()
     @praise = @incident.praise.to_s
   end
 
