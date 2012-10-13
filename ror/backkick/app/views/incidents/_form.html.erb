@@ -4,7 +4,7 @@
   <%= javascript_include_tag params[:controller] %>
 <% end %>
 
-<% categories_array = Category.all.map{ |c| [c.name, c.id] } %>
+<% categories_array = Category.order("name asc").map{ |c| [c.name, c.id] } %>
 <% selected_category = @category_id %>
 
 <%= form_for(@incident) do |f| %>
