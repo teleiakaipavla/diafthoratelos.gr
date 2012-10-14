@@ -3,7 +3,7 @@ $(document).ready(function () {
 	//var DataUrl = 'datasource/incident.htm?rnd=' + Math.random(100000);
 	
     $.getJSON(DataUrl, function (data) {
-        		var place = data.place.name
+                        var place = data.place == undefined ? "" : data.place.name;
 			var public_entity = data.public_entity.name
 			var longitude = data.place.longitude
 			var latitude = data.place.latitude 

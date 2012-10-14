@@ -6,8 +6,8 @@ var displaying_incidents = 0;
 
 
 $(document).ready(function () {
-    $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: '../backkick/categories.json', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
-//    $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', classname: 'telia', srcType: false, datasource: 'datasource/category.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px' });
+   $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png',  classname: 'telia', srcType: false, datasource: '../backkick/categories.json', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px', DefaultValue: '', DefaultText: 'Όλες οι κατηγορίες' });
+//  $('#category').nk_dropdown({ width: 202, pointerUrl: 'js/nkal/dropdown/themes/telia/pointer.png', classname: 'telia', srcType: false, datasource: 'datasource/category.htm', datatext: 'name', datavalue: 'id', resultExtraStyle: 'font-size:12px', DefaultValue: '', DefaultText: 'Όλες οι κατηγορίες' });
 
     BindGrid(true)
 
@@ -32,16 +32,16 @@ function BindGrid(gotonextpage) {
     var category_id = $('#category').val();
 
 
-    var city = $('#city').val();
+    var city = $('#place').val();
     var public_entity_id = $('#public_entity_selected_value').val();
 
       
     if (category_id == null){category_id = ''};
 	if ((city == null)||(city == 'Περιοχή / Πόλη')){city = ''};
 
-	var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=false' + '&place_name_filter=' + city + '&pagesize=' + pagesize;// + '&category_id=' + category_id;
+	var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=false' + '&place_name_filter=' + city + '&pagesize=' + pagesize + '&category_id=' + category_id;
 
-//var DataUrl = 'datasource/incidents.htm?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=false' + '&place_name_filter=' + city + '&pagesize=' + pagesize;
+//var DataUrl = 'datasource/incidents.htm?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=false' + '&place_name_filter=' + city + '&pagesize=' + pagesize + '&category_id=' + category_id;
 
 
 if (public_entity_id != '') {  DataUrl += '&public_entity_id=' + public_entity_id }
@@ -54,13 +54,12 @@ $.getJSON(DataUrl, function (data) {
     
 	$.each(data, function (index, item) {
 		
-			
 		if (index==pagesize){
-	
 			return;
 		}
-	displaying_incidents++;
-		var html = '<a href="?cat=22&inc=' + item.id + '"><div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | ' + item.place.name + ' | ' + item.public_entity.name + '</div><div class="descr">' + reWriteDescription(item.description) + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div></a>'
+        displaying_incidents++;
+        var place_name = item.place == undefined ? "" : item.place.name;
+	var html = '<a href="?cat=22&inc=' + item.id + '"><div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | ' + place_name + ' | ' + item.public_entity.name + '</div><div class="descr">' + reWriteDescription(item.description) + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div></a>'
     
         	var holder = document.createElement("div")
             $(holder).hide();
@@ -128,7 +127,8 @@ $(function () {
 
     $("#public_entity").autocomplete({
        source: "../backkick/public_entities/search.json?form=short",
-       // source: "datasource/foreas.htm?form=short", //"&category_id=" + $('#category').val(),
+       // source: 'datasource/foreas.htm?form=short',
+		
         minLength: 2,
 
         select: function (event, ui) {
