@@ -53,17 +53,16 @@ function BindGrid(gotonextpage) {
 var DataUrl = '../backkick/incidents/search.json?rnd=' + Math.random(100000) + '&pageno=' + pageno + '&praise=true' + '&category_id=' + category_id + '&place_name_filter=' + city + '&public_entity_name_filter=' + carrier;
 
 
-$.getJSON(DataUrl, function (data) {
+    $.getJSON(DataUrl, function (data) {
         $.each(data, function (index, item) {
-		    var html = '<a style="text-decoration: none;" href="?cat=22&inc=' + item.id + '"><div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | ' + item.place.name + ' | ' + item.public_entity.name + '</div><div class="descr">' + reWriteDescription(item.description) + '</div><div class="datetime">' + item.incident_date + '</div></a></div>'
-            var holder = document.createElement("div")
-            $(holder).hide();
-            $(holder).append(html)
-            $('#rpt').append(holder)
-            $(holder).fadeIn(1000)
-        })
-
-
+            var place_name = item.place == undefined ? "" : item.place.name;
+            var html = '<a style="text-decoration: none;" href="?cat=22&inc=' + item.id + '"><div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | '+ place_name + ' | ' + item.public_entity.name + '</div><div class="descr">' + reWriteDescription(item.description) + '</div><div class="datetime">' + item.incident_date + '</div></a></div>'
+             var holder = document.createElement("div")
+             $(holder).hide();
+             $(holder).append(html)
+             $('#rpt').append(holder)
+             $(holder).fadeIn(1000)
+         })
     });
 }
 
