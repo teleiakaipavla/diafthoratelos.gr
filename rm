@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<OrderResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ErrorCode>1</ErrorCode>
+  <ErrorText>The amount must be a non zero, positive number (Merchant 0b586b1c-84ae-4259-8c93-dcdcb0266b86)</ErrorText>
+  <TimeStamp>2012-10-08T17:16:44.201832+03:00</TimeStamp>
+  <OrderCode xsi:nil="true" />
+</OrderResult>
