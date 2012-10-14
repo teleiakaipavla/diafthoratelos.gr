@@ -43,7 +43,9 @@ jQuery.fn.nk_dropdown = function (_options) {
         datatext: 'text',
         resultExtraStyle: '',
         csstohide: '',
-        bordercolor: ''
+        bordercolor: '',
+        DefaultValue: '',
+        DefaultText:''
     }, _options);
 
     $.each($(this), function (index, item) {
@@ -67,6 +69,9 @@ jQuery.fn.nk_dropdown = function (_options) {
         var Opt_Class = _options.classname;
         var Opt_srcText = _options.srcText;
         var Opt_csstohide = _options.csstohide;
+
+        var Opt_DefaultValue = _options.DefaultValue;
+        var Opt_DefaultText = _options.DefaultText;
         //---- Nkal Controls must have these attributes
 
 
@@ -81,6 +86,10 @@ jQuery.fn.nk_dropdown = function (_options) {
         $(NewDropdown).attr("data-nkddl-bordercolor", _options.bordercolor);
 
 
+        if (Opt_DefaultText.length > 0) {
+            $(NewDropdown).attr("data-nkddl-defaultvalue", Opt_DefaultValue);
+            $(NewDropdown).attr("data-nkddl-defaulttext", Opt_DefaultText);
+        }
         //---- Nkal Controls must have these attributes
 
         $(nk_Top).addClass("nk_ddl_Top").css("width", Opt_Width + 'px').addClass("nk_ddl_bt_" + Opt_Class);
@@ -135,6 +144,10 @@ jQuery.fn.nk_dropdown = function (_options) {
         //----- get data -------------------------------
         //--- if datasource is null (default) get it from dropdown
         if (_options.datasource == '') {
+           
+            if (Opt_DefaultText.length > 0) {
+                $(item).prepend('<option value="' + Opt_DefaultValue + '">' + Opt_DefaultText + '</option>')
+            }
             $.each($(item).children(), function (ind, select) {
                 var ExtraStyle = ''
                 if (_options.resultExtraStyle.length > 0) {
@@ -151,6 +164,7 @@ jQuery.fn.nk_dropdown = function (_options) {
             $(nk_val).html($(item).find("option:selected").text());
             $(nk_val).attr("data-nkdll-val-text", $(item).find("option:selected").text());
         } else {
+           
             var _data = _options.dataArgs;
             var url = _options.datasource;
             if (url.indexOf("?") > -1) {
@@ -161,6 +175,12 @@ jQuery.fn.nk_dropdown = function (_options) {
         
             $.getJSON(url, function (data) {
                 $(item).children().remove();
+               
+                if (Opt_DefaultText.length > 0) {
+                   
+                    $(item).append('<option  value="' + Opt_DefaultValue + '" >' + Opt_DefaultText + '</option>')
+                }
+
                 $.each(data, function (index, dataitem) {
                     var _txt = nk_global_getvalues(dataitem, [_options.datatext]);
                     var _val = nk_global_getvalues(dataitem, [_options.datavalue]);
