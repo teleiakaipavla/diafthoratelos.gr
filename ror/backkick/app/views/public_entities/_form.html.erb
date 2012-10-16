@@ -1,3 +1,5 @@
+<% categories_array = Category.order("name asc").map{ |c| [c.name, c.id] } %>
+
 <%= form_for(@public_entity) do |f| %>
   <% if @public_entity.errors.any? %>
     <div id="error_explanation">
@@ -14,6 +16,10 @@
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :category %><br />
+    <%= f.select(:category_id, categories_array) %>
   </div>
   <div class="actions">
     <%= f.submit %>
