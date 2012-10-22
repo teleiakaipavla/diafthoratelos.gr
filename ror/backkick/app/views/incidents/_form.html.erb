@@ -173,18 +173,19 @@
           <div class="sub-text"><%= t(:moderator_public_comment_sub_text) %></div>
         </div>
       </div>
-      <div class="actions">
-        <%= f.submit "Submit",
-            :type => :image,
-            :src => asset_path("diafthora/ypovoli.png"),
-            :class => 'submit-btn'%>
-        <br/>
-        <%= image_tag "btns/return.png", :border => "0",
-            :onclick => "parent.document.location='#'",
-            :class => 'back-btn' %>
-      </div>
-      <div class="clear"></div>
     <% end %>
+
+    <div class="actions">
+      <%= f.submit "Submit",
+          :type => :image,
+          :src => asset_path("diafthora/ypovoli.png"),
+          :class => 'submit-btn'%>
+      <br/>
+      <%= image_tag "btns/return.png", :border => "0",
+          :onclick => "parent.document.location='#'",
+          :class => 'back-btn' %>
+    </div>
+    <div class="clear"></div>
 
   </div>
           
