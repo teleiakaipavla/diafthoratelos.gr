@@ -27,7 +27,7 @@ class IncidentsController < ApplicationController
   # GET /incidents
   # GET /incidents.json
   def index
-    @incidents = Incident.order("created_at desc")
+    @incidents = Incident.order("updated_at desc")
     unless session[:user_id]
       @incidents =
         @incidents.where(:approval_status => Incident::APPROVED_STATUS)
@@ -49,7 +49,7 @@ class IncidentsController < ApplicationController
   def search
     @incidents = Incident.includes(:public_entity, :place,
                                    :public_entity => :category)
-      .order("incidents.created_at desc")
+      .order("incidents.updated_at desc")
 
     @approval_status = params[:approval_status]
     if session[:user_id]
