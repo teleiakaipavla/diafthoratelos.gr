@@ -116,7 +116,7 @@ body  {
 .content .kataggelies .grid .incidents .categories{color:#009fe3;font-size:13px;font-family:Arial;padding-top:13px;padding-left:23px}
 .content .kataggelies .grid .incidents .categories a{color:#009fe3;font-size:13px;font-family:Arial;text-decoration:none}
 
-.content .kataggelies .grid .incidents .descr{
+.content .kataggelies .grid .incidents .descr {
     color:#1d1d1b;
     font-size:18px;
     font-family:Arial;
@@ -221,6 +221,37 @@ body  {
 .diafthora .comments-ddl-holder .commentstxt{background-image:url('diafthora/textarea.png');background-repeat:no-repeat;width:260px;height:124px;margin-bottom:3px}
 .diafthora .comments-ddl-holder .commentstxt textarea{width:246px;height:108px;margin:4px;outline:none;border:0px}
 
+.diafthora .moderator-public-comment-holder {
+    padding-top: 12px;
+    padding-left: 10px
+}
+
+.diafthora .moderator-public-comment-holder .commentstxt {
+    background-image: url('diafthora/textarea.png');
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 124px;
+    margin-bottom: 3px
+}
+
+.diafthora .moderator-public-comment-holder .commentstxt textarea {
+    width: 246px;
+    height: 108px;
+    margin: 4px;
+    outline: none;
+    border:0px
+}
+
+.diafthora .moderator-public-comment-holder .sub-text {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 11px;
+    color: #8c8b8b;
+    line-height: 12px;
+    /* padding-top: 8px; */
+}
+
+
 .diafthora .comments-ddl-holder .commentstxt-error{background-image:url('diafthora/textareaerror.png');background-repeat:no-repeat;width:260px;height:124px;margin-bottom:3px}
 .diafthora .comments-ddl-holder .commentstxt-error textarea{width:246px;height:108px;margin:4px;outline:none;border:0px}
 
@@ -247,10 +278,16 @@ body  {
 .diafthora .bottom .txt-error{float:left;background-image:url('diafthora/texterror.png');background-repeat:no-repeat;width:260px;height:33px;margin-top:17px}
 .diafthora .bottom .txt-error input{width:250px;height:26px;line-height:26px;background:transparent;border:0px;margin-top:2px;margin-left:3px}
 
+.diafthora .box{width:280px;height:250px;background-color:#f1f1f1;float:left;margin-right:16px;margin-bottom:16px;}
+
 .diafthora .actions {
-    width: 330px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 280px;
+    height: 250px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding-top: 32px;
+    padding-left: 16px;
 }
 
 .diafthora .back-btn{

@@ -1,40 +1,44 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Incident date:</b>
+  <b><%= t(:incident_date) %></b>
   <%= @incident.incident_date %>
 </p>
 
 <p>
-  <b>Money asked:</b>
+  <b><%= t(:money_asked) %></b>
   <%= @incident.money_asked %>
 </p>
 
 <p>
-  <b>Money given:</b>
+  <b><%= t(:money_given) %></b>
   <%= @incident.money_given %>
 </p>
 
 <p>
-  <b>Description:</b>
+  <b><%= t(:description) %></b>
   <%= @incident.description %>
 </p>
 
 <p>
-  <b>Public entity:</b>
+  <b><%= t(:public_entity_name) %></b>
   <%= @incident.public_entity.name %>
 </p>
 
 <p>
-  <b>Praise:</b>
-  <%= @incident.praise %>
+  <b><%= t(:praise) %></b>
+  <%= t("praise_#{@incident.praise}") %>
 </p>
 
 <p>
-  <b>Approval status:</b>
-  <%= @incident.approval_status %>
+  <b><%= t(:approval_status) %></b>
+  <%= t(@incident.approval_status) %>
 </p>
 
+<p>
+  <b><%= t(:moderator_public_comment) %></b>
+  <%= @incident.moderator_public_comment %>
+</p>
 
 <%= link_to 'Edit', edit_incident_path(@incident) %> |
 <%= link_to 'Back', incidents_path %>

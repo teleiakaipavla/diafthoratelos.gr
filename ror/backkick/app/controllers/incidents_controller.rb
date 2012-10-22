@@ -7,7 +7,7 @@ class IncidentsController < ApplicationController
                                         :show,
                                         :search,
                                         :total_given,
-                                        :thank_you]
+                                        :approval_status]
   
   PAGE_SIZE = 20
   RSS_LIMIT = 50
@@ -199,7 +199,7 @@ class IncidentsController < ApplicationController
           format.html { redirect_to @incident,
             notice: 'Incident was successfully created.' }
         else
-          format.html { redirect_to thank_you_incident_path(@incident) }
+          format.html { redirect_to approval_status_incident_path(@incident) }
         end
         format.json { render json: @incident, status: :created,
           location: @incident }
@@ -252,12 +252,13 @@ class IncidentsController < ApplicationController
     end
   end
 
-  def thank_you
+  def approval_status
+    @incident = Incident.find(params[:id])
     respond_to do |format|
-      format.html # thank_you.html.erb
+      format.html # approva_status.html.erb
     end
   end
-
+  
   def count_approved
     count_approved =
       Incident.where(:approval_status => Incident::APPROVED_STATUS)

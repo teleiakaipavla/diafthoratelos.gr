@@ -142,9 +142,9 @@
                     end %> comment">
           <div class="field">
             <%= f.text_area :description,
-                :value => @incident.description || t(:description),
-                :onclick => "clearTxt(this, '#{t(:description)}')",
-                :onblur => "resetTxt(this, '#{t(:description)}')" %>
+                :value => @incident.description || t(:description_prompt),
+                :onclick => "clearTxt(this, '#{t(:description_prompt)}')",
+                :onblur => "resetTxt(this, '#{t(:description_prompt)}')" %>
           </div>
         </div>
         <div class="sub-text"><%= t(:non_identifying) %></div>
@@ -153,32 +153,40 @@
     <div class="clear"></div>
 
     <% if session[:user_id] %>
-      <div class="field box-thin">
+      <div class="field box">
         <%= label_tag(:praise, t(:praise)) %>
         <%= check_box(:incident, :praise) %>
-        <%= label_tag(:approval_status, "Approval status") %>
+        <br/>
+        <%= label_tag(:approval_status, t(:approval_status)) %>
         <%= select(:incident, :approval_status,
-                   Incident::ALL_APPROVAL_STATUSES,
-                   {:include_blank => false} ) %>
+                   options_for_select(Incident::ALL_APPROVAL_STATUSES_PAIRS,
+                                      @incident.approval_status))
+          %>
+        <div class="moderator-public-comment-holder">
+          <%= label_tag(:moderator_public_comment,
+                        t(:moderator_public_comment)) %>
+          <div class="commentstxt">
+            <%= f.text_area(:moderator_public_comment,
+                            :value =>
+                            @incident.moderator_public_comment) %>
+          </div>
+          <div class="sub-text"><%= t(:moderator_public_comment_sub_text) %></div>
         </div>
-      <div class="clear"></div>
-    <% end %>
-
-    <div class="bottom">
-
+      </div>
       <div class="actions">
-        <%= image_tag "btns/return.png", :border => "0",
-            :onclick => "parent.document.location='#'",
-            :class => 'back-btn' %>
         <%= f.submit "Submit",
             :type => :image,
             :src => asset_path("diafthora/ypovoli.png"),
             :class => 'submit-btn'%>
+        <br/>
+        <%= image_tag "btns/return.png", :border => "0",
+            :onclick => "parent.document.location='#'",
+            :class => 'back-btn' %>
       </div>
+      <div class="clear"></div>
+    <% end %>
 
-      </div>
-    </div>
-          
   </div>
+          
     
 <% end %>

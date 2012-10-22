@@ -4,12 +4,15 @@
 en:
   hello: "Hello world"
   start_here_prompt: "START HERE BY SELECTING..."
+  incident_date: Date
   public_entity_name: "Public entity"
   money_asked: "Money asked"
   money_given: "Money given"
   area_city: "Area/City"
-  description: "Incident description"
+  description: Description
+  description_prompt: "Incident description"
   non_identifying: "Texts containing references to specific persons will not be published"
+  moderator_public_comment_sub_text: "This comment is visible by all the users of the system"
   generic_news_heading: Incidents
   bad_news_heading: Corruption incidents
   bad_news_subheading: See all anonymous reports to date
@@ -33,5 +36,7 @@ en:
   praise_no: no
   praise_all: all
   incidents_counts: "Incident counts:"
+  moderator_public_comment: Public moderator comment
+  here: here
 
 

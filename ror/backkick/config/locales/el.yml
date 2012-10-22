@@ -4,12 +4,15 @@
 el:
   hello: Καλημέρα κόσμε
   start_here_prompt: ΞΕΚΙΝΑ ΕΔΩ ΕΠΙΛΕΓΟΝΤΑΣ...
+  incident_date: Ημερομηνία
   public_entity_name: Υπηρεσία / οργανισμός
   money_asked: Ύψος χρημάτων που ζητήθηκαν
   money_given: Χρήματα που τελικά πλήρωσα
   area_city: Περιοχή/Πόλη
-  description: Γράψε εδώ μία σύντομη περιγραφή του περιστατικού
+  decription: Περιγραφή
+  description_prompt: Γράψε εδώ μία σύντομη περιγραφή του περιστατικού
   non_identifying: Κείμενα που περιέχουν αναφορές σε συγκεκριμένα πρόσωπα δεν θα δημοσιεύονται
+  moderator_public_comment_sub_text: "Το σχόλιο αυτό είναι ορατό από όλους τους χρήστες του συστήματος"
   generic_news_heading: Περιστατικά
   bad_news_heading: Περιστατικά διαφθοράς
   bad_news_subheading: Δείτε τις ανώνυμες καταγγελίες που έχουν γίνει μέχρι σήμερα
@@ -62,8 +65,9 @@ el:
   to_reject: προς απόρριψη
   needs_second_check: χρειάζεται δεύτερο έλεγχο
   praise: έπαινος
-  praise_yes: ναι
-  praise_no: όχι
+  praise_true: ναι
+  praise_false: όχι
   praise_all: όλα
   incidents_counts: "Αριθμός περιστατικών με κατάσταση:"
-  
+  moderator_public_comment: "Δημόσιο σχόλιο επιμελητή"
+  here: εδώ

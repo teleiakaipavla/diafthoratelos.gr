@@ -10,6 +10,7 @@ class Incident < ActiveRecord::Base
   attr_accessible :place_id
   attr_accessible :approval_status
   attr_accessible :praise
+  attr_accessible :moderator_public_comment
 
   APPROVED_STATUS = I18n.t(:approved, :locale => :en)
   REJECTED_STATUS = I18n.t(:rejected, :locale => :en)
@@ -101,10 +102,6 @@ class Incident < ActiveRecord::Base
     else
       nil
     end
-  end
-
-  def localized_approval_status
-    ALL_APPROVAL_STATUSES_L[ALL_APPROVAL_STATUSES.index(self.approval_status)]
   end
   
   def copy_public_entity_id_from!(public_entity_name)

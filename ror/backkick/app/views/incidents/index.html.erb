@@ -46,8 +46,8 @@
       <%= select_tag(:approval_status,
                      options_for_select(Incident::ALL_APPROVAL_STATUSES_PAIRS,
                                         @approval_status),
-                     {:prompt => t(:praise_all),
-                       :multiple => true,
+                     { :multiple => true,
+                       :include_blank => true,
                        :class => "approval_status_select"} )
           %>
     </div>
@@ -55,8 +55,8 @@
     <div class="left filter-ddl">
       <%= label_tag(:praise, t(:praise)) %>
       <%= select_tag(:praise,
-                     options_for_select([[t(:praise_yes), true],
-                                         [t(:praise_no), false]],
+                     options_for_select([[t(:praise_true), true],
+                                         [t(:praise_false), false]],
                      @praise),
                      {:include_blank => true})
           %>
@@ -150,7 +150,7 @@
                       |
                       <span
                          class="approval_status_<%=incident.approval_status%>">
-                      <%= incident.localized_approval_status %>
+                      <%= t(incident.approval_status) %>
                       </span>
                       |
                       <%= link_to 'Show', incident %> 

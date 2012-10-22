@@ -18,7 +18,7 @@ Backkick::Application.routes.draw do
 
   resources :incidents do
     member do
-      get 'thank_you'
+      get 'approval_status'
     end
     collection do
       get 'search'
