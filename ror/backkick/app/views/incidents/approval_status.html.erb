@@ -1,0 +1,28 @@
+<p>Σας ευχαριστούμε πολύ. Η αναφορά σας θα εμφανιστεί στον ιστότοπο
+μετά από το σχετικό έλεγχο.</p>
+
+<p>Το περιστατικό είναι σε κατάσταση: <%= t(@incident.approval_status) %>.</p>
+
+<p><%= @incident.moderator_public_comment %></p>
+
+<% if @incident.approval_status == Incident::APPROVED_STATUS %>
+
+  <p>Μπορείτε να δείτε το περιστατικό
+    <%= link_to t(:here), "http://www.teleiakaipavla.gr/?cat=22&inc=#{@incident.id}" %><p>
+    <%# TODO: use when outside WP link_to t(:here), @incident %><p>
+
+    
+<% else %>
+
+  <p>Μπορείτε να βλέπετε την κατάσταση της αναφοράς σας
+        <%= link_to t(:here), approval_status_incident_path(@incident) %>
+    (<%= url_for(:id => @incident.id,
+                 :action => "approval_status",
+                 :only_path => false) %>)
+
+  </p>
+    
+<% end %>
+
+<br/>
+<%= link_to 'Επιστροφή', search_incidents_path %> 
