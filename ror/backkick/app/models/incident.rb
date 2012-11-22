@@ -68,6 +68,10 @@ class Incident < ActiveRecord::Base
       "#{ALL_APPROVAL_STATUSES_L[i]}: #{status_counts[s] || 0}"
     end.join(", ")
   end
+
+  def self.time_series
+    Incident.select("count(created_at) as count_created_at, sum(money_asked) as  sum_money_asked, sum(praise) as count_praise, (count(created_at) - sum(praise)) as count_no_praise, cast(created_at as date) as created_at_date").group("cast(created_at as date)")
+  end
   
   def to_text
     "description: #{self.description}\n" +

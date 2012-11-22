@@ -1,0 +1,40 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: blue;
+    stroke-width: 2;
+}
+
+.line.praise {
+    fill: none;
+    stroke: darksalmon;
+}
+
+.line.no-praise {
+    fill: none;
+    stroke: steelblue;
+}
+
+.aura {
+    fill: none;
+    stroke: white;
+    stroke-width: 4;
+}
+
+.bar {
+    fill: steelblue;
+}      

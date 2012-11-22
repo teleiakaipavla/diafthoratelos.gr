@@ -25,6 +25,8 @@ Backkick::Application.routes.draw do
       post 'search'
       get 'total_given'
       get 'count_approved'
+      get 'parallel'
+      get 'time_barchart'
     end
   end
 

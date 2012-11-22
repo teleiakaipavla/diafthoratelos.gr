@@ -7,7 +7,9 @@ class IncidentsController < ApplicationController
                                         :show,
                                         :search,
                                         :total_given,
-                                        :approval_status]
+                                        :approval_status,
+                                        :parallel,
+                                        :time_barchart]
   
   PAGE_SIZE = 20
   RSS_LIMIT = 50
@@ -39,10 +41,44 @@ class IncidentsController < ApplicationController
         @incidents = @incidents.limit(RSS_LIMIT)
         render :layout => false
       end
-      format.json { render json: @incidents }
+      format.json do
+        render json: @incidents
+      end
     end
   end
 
+  # GET /incidents/parallel
+  # GET /incidents/parallel.json
+  def parallel
+    @incidents = Incident.order("updated_at desc")
+    unless session[:user_id]
+      @incidents =
+        @incidents.where(:approval_status => Incident::APPROVED_STATUS)
+    end
+
+    respond_to do |format|
+      format.html
+      format.json do
+        render(:json => @incidents,
+               :only => [:id,
+                         :incident_date,
+                         :money_asked,
+                         :money_given,
+                         :praise])
+      end
+    end
+  end
+
+  def time_barchart
+    time_barchart_results = Incident.time_series
+    respond_to do |format|
+      format.html
+      format.json do
+        render(:json => time_barchart_results)
+      end
+    end
+  end
+  
   # GET /incidents/search
   # GET /incidents/search.json
   # GET /incidents/search.text
