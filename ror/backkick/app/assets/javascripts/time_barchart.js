@@ -52,7 +52,7 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("/incidents/time_barchart.json", function(data) {
+d3.json("../incidents/time_barchart.json", function(data) {
 
     color.domain(["count_no_praise", "count_praise"]);
     
