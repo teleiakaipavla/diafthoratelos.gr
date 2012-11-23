@@ -1,4 +1,4 @@
-var margin = {top: 20, right: 120, bottom: 30, left: 50},
+var margin = {top: 20, right: 120, bottom: 40, left: 50},
 width = 960 - margin.left - margin.right,
 height = 500 - margin.top - margin.bottom;
 
@@ -17,8 +17,9 @@ var totalY = d3.scale.linear()
     .range([height, 0]);
 
 var xAxis = d3.svg.axis()
-    .scale(timeX)
-    .orient("bottom");
+    .scale(x)
+    .orient("bottom")
+    .tickFormat(d3.time.format("%d"));
 
 var yAxis = d3.svg.axis()
     .scale(y)
@@ -56,14 +57,33 @@ d3.json("../incidents/time_barchart.json", function(data) {
 
     color.domain(["count_no_praise", "count_praise"]);
     
+    for (var i = 0, j = i + 1; j < data.length; j++) {
+        data[i].date = data[i].created_at_date;
+        data[j].date = data[j].created_at_date;        
+        delete(data[i]["created_at_date"]);
+        data[i].date = parseDate(data[i].date);
+        data[j].date = parseDate(data[j].date);
+        var days = d3.time.days(data[i].date, data[j].date);
+        if (days.length >= 2) {
+            days.slice(1).forEach(function(d, indx) {
+                data.splice(i + 1 + indx, 0, {
+                    count_created_at: 0,
+                    count_no_praise: 0,
+                    count_praise: 0,
+                    date: d,
+                    sum_money_asked: 0
+                });
+                j++;
+            });
+        }
+        i = j;
+    }
+
     var total_count = 0;
     var total_count_no_praise = 0;
     var total_count_praise = 0;
 
     data.forEach(function(d) {
-        d.date = d.created_at_date;
-        delete(d["created_at_date"]);
-        d.date = parseDate(d.date);
         var y0 = 0;
         d.groups = color.domain().map(function(name) {
             return {
@@ -77,16 +97,27 @@ d3.json("../incidents/time_barchart.json", function(data) {
         d.total_count_no_praise = total_count_no_praise
             = d.total_count - d.total_count_praise;
     });
-
-    timeX.domain(d3.extent(data, function(d) { return d.date; }));
+    
+    //timeX.domain(d3.extent(data, function(d) { return d.date; }));
     x.domain(data.map(function(d) { return d.date; }));
     y.domain([0, d3.max(data, function(d) { return d.count_created_at; })]);
     totalY.domain([0, total_count]);
 
-    svg.append("g")
-        .attr("class", "x axis")
+    var xAxisSVG = svg.append("g");
+    
+    xAxisSVG.attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
-        .call(xAxis);
+        .call(xAxis)
+        .append("text")
+        .attr("y", 30)
+        .style("text-anchor", "start")
+        .text(data[0].date);
+
+    xAxisSVG.append("text")
+        .attr("y", 30)
+        .attr("dx", width)
+        .style("text-anchor", "end")
+        .text(data[data.length - 1].date);
 
     svg.append("g")
         .attr("class", "y axis")
@@ -103,12 +134,6 @@ d3.json("../incidents/time_barchart.json", function(data) {
     yAxisSVG.attr("class", "y axis")
         .attr("transform", "translate(" + width + ")")
         .call(yTotalAxis)
-        .append("text")
-        .attr("y", 6)
-        .attr("dy", "-0.7em")
-        .attr("dx", "-1em")
-        .style("text-anchor", "end")
-        .text("Total " + data[data.length - 1].total_count);
 
     yAxisSVG.append("text")
         .attr("transform", "rotate(+90)")
@@ -202,15 +227,24 @@ var legend = svg.selectAll(".legend")
         .style("fill", color);
     
     legend.append("text")
-        .attr("x", width + 64)
+        .attr("x", width + 66)
         .attr("y", 9)
         .attr("dy", ".35em")
         .style("text-anchor", "end")
         .text(function(d) { return d; });
-    
+
     svg.append("g")
         .append("text")
-        .attr("x", timeX(data[data.length-1].date))
+        .attr("x", x(data[data.length-1].date))
+        .attr("y", totalY(data[data.length-1].total_count))
+        .attr("dy", "-0.7em")
+        .attr("dx", "-1em")
+        .style("text-anchor", "end")
+        .text("Total " + data[data.length - 1].total_count);
+
+    svg.append("g")
+        .append("text")
+        .attr("x", x(data[data.length-1].date))
         .attr("y", totalY(data[data.length-1].total_count_no_praise))
         .attr("dy", "-0.7em")
         .attr("dx", "-1em")
@@ -219,7 +253,7 @@ var legend = svg.selectAll(".legend")
 
     svg.append("g")
         .append("text")
-        .attr("x", timeX(data[data.length-1].date))
+        .attr("x", x(data[data.length-1].date))
         .attr("y", totalY(data[data.length-1].total_count_praise))
         .attr("dy", "-0.7em")
         .attr("dx", "-1em")
