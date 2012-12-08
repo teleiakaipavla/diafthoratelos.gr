@@ -73,7 +73,7 @@ function initialize_map() {
 
 }
 
-function make_autocomplete(jQueryObject, searchUrl, msg) {
+function make_autocomplete(jQueryObject, searchUrl, reset, msg) {
     jQueryObject.autocomplete({
 	source: function(request, response) {
             var cat = $("#category_id").val();
@@ -111,13 +111,16 @@ function make_autocomplete(jQueryObject, searchUrl, msg) {
     	    		category_id: cat,
     	    		appr: "false"
     	    	    },
+                    /*
+                     *If the entered value has not been found by the search
+                     * query and reset is true, reset to the message passed.
+                     */
     	    	    success: function(data) {
-    	    		if (data.length == 0) {
-    	    		    foundPublicEntity = false;
+    	    		if (reset && data.length == 0) {
 			    jQueryObject.val(msg);
     	    		}
 		    }});
-	    } else if ($(this).val() != ui.item.label) {
+	    } else if (reset && $(this).val() != ui.item.label) {
 		$(this).val(msg);		
 	    }
 	},
@@ -159,8 +162,6 @@ $(function() {
     $("#public_entity_name_filter").blur(function() {
     	resetTxt($(this), <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     });
-
-    var foundPublicEntity = false;
         
     var categoryIdVal = "";
 
@@ -170,14 +171,17 @@ $(function() {
 
     make_autocomplete($("#place_name"),
                       "/places/index",
+                      true,
         	      <%= "'#{I18n.translate(:area_city)}'" %>);
 
     make_autocomplete($("#public_entity_name"),
                       "/public_entities/search?form=short",
+                      false,
         	      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
 
     make_autocomplete($("#public_entity_name_filter"),
         	      "/public_entities/search?form=short",
+                      true,
         	      <%= "'#{I18n.translate(:public_entity_name)}'" %>);
     
     if ($('#map_canvas').length > 0) {

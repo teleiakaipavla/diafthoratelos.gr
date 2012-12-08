@@ -50,7 +50,6 @@ class Incident < ActiveRecord::Base
   validates_inclusion_of :approval_status, :in => ALL_APPROVAL_STATUSES
   
   belongs_to :public_entity
-  validates :public_entity_id, :presence => true
   belongs_to :place
 
   def self.status_counts
@@ -138,9 +137,12 @@ class Incident < ActiveRecord::Base
         self.place_id = place.id
       end
     end
+    return place  
+  end
 
-    return place
-    
+  def set_public_entity_name_comment(public_entity_name)
+    self.moderator_public_comment = "#{I18n.t(:unknown_public_entity)}: " +
+      "#{public_entity_name}"
   end
     
 end

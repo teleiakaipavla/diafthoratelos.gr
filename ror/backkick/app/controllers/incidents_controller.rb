@@ -215,7 +215,8 @@ class IncidentsController < ApplicationController
   # GET /incidents/1/edit
   def edit
     @incident = Incident.find(params[:id])
-    @category_id = @incident.public_entity.category_id
+    @category_id =
+      @incident.public_entity.nil? ? nil : @incident.public_entity.id
     @place = @incident.place || Place.new()
     @praise = @incident.praise.to_s
   end
@@ -225,7 +226,9 @@ class IncidentsController < ApplicationController
   def create
     @incident = Incident.new(params[:incident])
 
-    @incident.copy_public_entity_id_from!(params[:public_entity_name])
+    if !@incident.copy_public_entity_id_from!(params[:public_entity_name])
+      @incident.set_public_entity_name_comment(params[:public_entity_name])
+    end
     @category_id = params[:category_id]
     @place = @incident.copy_or_create_place_from!(params[:place])
 
@@ -241,7 +244,8 @@ class IncidentsController < ApplicationController
           location: @incident }
       else
         format.html { render action: "new" }
-        format.json { render json: @incident.errors, status: :unprocessable_entity }
+        format.json { render json: @incident.errors,
+          status: :unprocessable_entity }
       end
     end
   end
