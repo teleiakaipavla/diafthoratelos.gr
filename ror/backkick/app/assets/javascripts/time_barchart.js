@@ -18,8 +18,8 @@ var totalY = d3.scale.linear()
 
 var xAxis = d3.svg.axis()
     .scale(x)
-    .orient("bottom")
-    .tickFormat(d3.time.format("%d"));
+    .tickFormat(d3.time.format("%d"))
+    .orient("bottom");
 
 var yAxis = d3.svg.axis()
     .scale(y)
@@ -104,7 +104,9 @@ d3.json("../incidents/time_barchart.json", function(data) {
     totalY.domain([0, total_count]);
 
     var xAxisSVG = svg.append("g");
-    
+
+    xAxis.tickValues(x.domain().filter(function(d, i) { return !(i % 10); }));
+
     xAxisSVG.attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis)

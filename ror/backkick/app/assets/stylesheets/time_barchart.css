@@ -10,7 +10,7 @@ body {
 }
 
 .x.axis path {
-    display: none;
+    stroke-width: 1;
 }
 
 .line {
