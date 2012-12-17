@@ -59,7 +59,16 @@ $.getJSON(DataUrl, function (data) {
 		}
         displaying_incidents++;
         var place_name = item.place == undefined ? "" : item.place.name;
-	var html = '<a href="?cat=22&inc=' + item.id + '"><div class="incidents"><div class="categories">' + item.public_entity.category.name + ' | ' + place_name + ' | ' + item.public_entity.name + '</div><div class="descr">' + reWriteDescription(item.description) + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div></a>'
+
+		var publicEntity = 'Χωρίς όνομα φορέα';
+		try{publicEntity = item.public_entity.name;}
+		catch (err){}
+		
+		var category = 'Χωρίς κατηγορία';			
+		try{category = item.public_entity.category.name;}
+		catch (err){}
+
+	var html = '<a href="?cat=22&inc=' + item.id + '"><div class="incidents"><div class="categories">' + category + ' | ' + place_name + ' | ' + publicEntity + '</div><div class="descr">' + reWriteDescription(item.description) + '</div><div class="datetime">' + item.incident_date + '</div></div><div class="money"> <a class="asked">' + groupThousands(Math.round( item.money_asked )) + '</a><a class="given">' + groupThousands(Math.round( item.money_given )) + '</a><div class="clear"></div></div><div class="clear"></div></a>'
     
         	var holder = document.createElement("div")
             $(holder).hide();

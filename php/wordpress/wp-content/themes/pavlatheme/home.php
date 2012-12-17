@@ -2,12 +2,31 @@
 get_header();
 ?>
 
-
+    <script src="js/popup_init.js" type="text/javascript"></script>
 <!--Header End        -->
-
+<div id="blanket" style="display:none;"></div>
         
         <div class="home-right">
-				<div class="home-banner-new"><a title="Τελεία και παύλα" href="?page_id=31"><img border="0" src="images/home/home_banner.jpg" /></a></div>
+				<div class="home-banner-new">
+					
+					<div class="firstBanner">
+						<a onclick="popup('popUpDiv','4wdG2KIG2s0')" title="Τελεία και παύλα video">
+					<div class="VideoLink"><img src="images/home/home_banner.png" style="width: 475px; height: 410px;" alt="" /></div>
+					</a>
+					<!--POPUP-->    
+					    	<div id="popUpDiv" style="display:none;">
+						<div class="popup_container">
+					        	<div class="VideoContainer" id="PopUp_Content" runat="server"></div>
+							<a onclick="popup('popUpDiv');" ><img src="images/popup/close.png" /></a>
+					        </div>
+
+						</div>	
+					<!-- / POPUP-->
+					
+					</div>
+					
+					
+					</div>
             <div class="home-bottom" style="display:none">
 
                 <div class="clear"></div>
@@ -79,6 +98,9 @@ get_header();
 
         </div>
         <div class="clear"></div>
+
+
+
 <?php
 get_footer();
 ?>

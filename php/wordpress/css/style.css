@@ -329,3 +329,28 @@ img{border:0;}
     list-style-type:square;  
     list-style-position: inside;  
 }
+
+
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+    filter: alpha(opacity = 65);
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	height:570px;
+	z-index: 9002;
+}
+
+.popup_container{position:relative;}
+.VideoContainer{padding-left: 10px; padding-top: 14px;}
+#popUpDiv a img{border:0px;cursor:pointer;} 
+#popUpDiv a{border:0px;cursor:pointer;position: absolute;right:0px;bottom: -33px;z-index:9002;}
+#popUpDiv a img{z-index:9002;}
+.firstBanner{float:left;width:255px;margin-right:62px;cursor:pointer;position:relative;}

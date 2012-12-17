@@ -12,9 +12,21 @@ $(document).ready(function () {
             longitude = data.place.longitude
             latitude = data.place.latitude 
         }
-        var publicEntity = data.public_entity.name
-        var desc = data.description
-        var category = data.public_entity.category.name
+        
+		var publicEntity = 'Χωρίς όνομα φορέα';
+		try{publicEntity = data.public_entity.name;}
+		catch (err){}
+		
+
+		
+        
+		var desc = data.description
+
+        var category = 'Χωρίς κατηγορία';
+
+			try{category = data.public_entity.category.name;}
+			catch (err){}
+
         var date = data.incident_date
         var moneyAsked = groupThousands(Math.round( data.money_asked ))
         var moneyGiven = groupThousands(Math.round( data.money_given )) 
