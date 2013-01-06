@@ -1,3 +1,7 @@
+##
+## INITIAL SETUP
+##
+
 # install rubygems (for the gem command)
 sudo apt-get install rubygems
 
@@ -35,3 +39,14 @@ RAILS_ENV=development bundle exec rake db:setup
 RAILS_ENV=development rails s -b localhost
 
 # check it out at http://localhost:3000
+
+
+##
+## RUNNING TESTS
+##
+
+# create/update schema for test db
+RAILS_ENV=test bundle exec rake db:migrate
+
+# run tests
+RAILS_ENV=test bundle exec rake test
