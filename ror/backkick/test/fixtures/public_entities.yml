@@ -3,7 +3,9 @@
 one:
   id: 1
   name: MyString
+  category_id: 1
 
 two:
   id: 2
   name: MyString
+  category_id: 2

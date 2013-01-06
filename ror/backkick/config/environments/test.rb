@@ -44,5 +44,6 @@ Backkick::Application.configure do
     :password             => '8q9n4v1vrm',
     :authentication       => 'plain',
     :enable_starttls_auto => true
+  }
 
 end
