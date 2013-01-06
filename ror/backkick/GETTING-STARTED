@@ -1,0 +1,52 @@
+##
+## INITIAL SETUP
+##
+
+# install rubygems (for the gem command)
+sudo apt-get install rubygems
+
+# clone the project on github and then checkout your clone
+git clone ssh://git@github.com/${YOUR_GITHUB_USERNAME}/diafthoratelos.gr.git
+
+# add these lines at the top of .git/config
+#
+#[user]
+#	name = Your Name
+#	email = your@email
+
+# cd to the top level directory of ruby
+cd diafthoratelos.gr/ror/backkick
+
+# install bundle
+gem install bundle
+
+# install gems
+bundle install
+
+# edit config/database.yml to remove the development paragraph and run:
+echo '
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000' >>config/database.yml
+
+# create schema and insert static application data into the db
+# (coffee break time; this will take a while)
+RAILS_ENV=development bundle exec rake db:setup
+
+# start the server
+RAILS_ENV=development rails s -b localhost
+
+# check it out at http://localhost:3000
+
+
+##
+## RUNNING TESTS
+##
+
+# create/update schema for test db
+RAILS_ENV=test bundle exec rake db:migrate
+
+# run tests
+RAILS_ENV=test bundle exec rake test
