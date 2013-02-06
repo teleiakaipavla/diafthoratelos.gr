@@ -101,7 +101,7 @@ if ((strlen($category_title) != 0) || (strlen($page_data->post_title) != 0))
             <!--Social End        -->
 		
 
-                <div class="logo"><div class="logobeta"><img src="images/global/beta.png" /></div>
+                <div class="logo"><!--<div class="logobeta"><img src="images/global/beta.png" /></div>-->
 	<a href="<?php echo get_option( 'home' ); ?>"><img border="0" src="images/global/logo.png" /></a></div>
                 <div class="menu">
                     <ul id="menu">

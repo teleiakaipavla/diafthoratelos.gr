@@ -9,11 +9,13 @@ get_header();
         <div class="home-right">
 				<div class="home-banner-new">
 					
+					<!-- 
+					
 					<div class="firstBanner">
 						<a onclick="popup('popUpDiv','4wdG2KIG2s0')" title="Τελεία και παύλα video">
 					<div class="VideoLink"><img src="images/home/home_banner.png" style="width: 475px; height: 410px;" alt="" /></div>
 					</a>
-					<!--POPUP-->    
+				
 					    	<div id="popUpDiv" style="display:none;">
 						<div class="popup_container">
 					        	<div class="VideoContainer" id="PopUp_Content" runat="server"></div>
@@ -21,10 +23,15 @@ get_header();
 					        </div>
 
 						</div>	
-					<!-- / POPUP-->
 					
 					</div>
-					
+				-->
+				
+				<!-- February 2013 banner -->
+					<a href="http://blog.teleiakaipavla.gr" target="_blank">
+				<img src="images/home/feb2013.jpg" style="width: 475px; height: 410px;" alt="" />
+				</a>
+				<!-- Banner ends here -->
 					
 					</div>
             <div class="home-bottom" style="display:none">
@@ -78,10 +85,10 @@ get_header();
 	                <div class="clear"></div>
 	            </div>
 	            <div>
-	                 <a title="Σκέψεις, απόψεις και ερωτήσεις σχετικές με το πρόβλημα της διαφθοράς" href="qa" target="_blank">
+	                 <a title="Το ιστολόγιο της δράσης" href="http://blog.teleiakaipavla.gr" target="_blank">
 	                <div class="home-bluebox-small-new left">
 	                    <div class="img"><img src="images/home/home-cloud.png" /></div>
-	                    <div class="text-1l">Συζητήσεις</div>
+	                    <div class="text-1l">Το blog μας</div>
 	                     <div class="clear"></div>
 	                </div>
 	                 </a>
