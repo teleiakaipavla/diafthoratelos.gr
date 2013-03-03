@@ -9,7 +9,7 @@ get_header();
         <div class="home-right">
 				<div class="home-banner-new">
 					
-					<!-- 
+				
 					
 					<div class="firstBanner">
 						<a onclick="popup('popUpDiv','4wdG2KIG2s0')" title="Τελεία και παύλα video">
@@ -25,14 +25,9 @@ get_header();
 						</div>	
 					
 					</div>
-				-->
+			
 				
-				<!-- February 2013 banner -->
-					<a href="http://blog.teleiakaipavla.gr" target="_blank">
-				<img src="images/home/feb2013.jpg" style="width: 475px; height: 410px;" alt="" />
-				</a>
-				<!-- Banner ends here -->
-					
+	
 					</div>
             <div class="home-bottom" style="display:none">
 
